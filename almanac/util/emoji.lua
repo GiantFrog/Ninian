@@ -1,8 +1,8 @@
 local file = require("almanac.util.file")
 
 local config = {
-    enabled = false,
-    default = ""
+    enabled = true,
+    default = "🔘"
 }
 
 ---------------------------------------------------
