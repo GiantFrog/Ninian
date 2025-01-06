@@ -74682,7 +74682,7 @@
       },
       {
         "name": "Slick Fighter 4",
-        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes penalties on unit during combat."
+        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes penalties on unit during combat.",
         "stats": {
           "sp": "300"
         },
@@ -95713,7 +95713,7 @@
       },
       {
         "name": "Wily Fighter 4",
-        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes foe's bonuses during combat."
+        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes foe's bonuses during combat.",
         "stats": {
           "sp": "300"
         },
