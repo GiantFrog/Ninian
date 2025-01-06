@@ -74635,8 +74635,8 @@
         "stats": {
           "sp": "60"
         },
-        "exclusive": false,
         "slot": "Passive B",
+        "exclusive": false,
         "restriction_weapon": false,
         "restriction_movement": [
           "**Can only** be used by: ",
@@ -74652,8 +74652,8 @@
         "stats": {
           "sp": "120"
         },
-        "exclusive": false,
         "slot": "Passive B",
+        "exclusive": false,
         "restriction_weapon": false,
         "restriction_movement": [
           "**Can only** be used by: ",
@@ -74669,8 +74669,25 @@
         "stats": {
           "sp": "240"
         },
-        "exclusive": false,
         "slot": "Passive B",
+        "exclusive": false,
+        "restriction_weapon": false,
+        "restriction_movement": [
+          "**Can only** be used by: ",
+          [
+            "Armored"
+          ]
+        ],
+        "bonus": {}
+      },
+      {
+        "name": "Slick Fighter 4",
+        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes penalties on unit during combat."
+        "stats": {
+          "sp": "300"
+        },
+        "slot": "Passive B",
+        "exclusive": false,
         "restriction_weapon": false,
         "restriction_movement": [
           "**Can only** be used by: ",
@@ -74682,6 +74699,10 @@
       }
     ],
     "reference": {
+      "Slick Fighter 4": {
+        "nidhoggr": "5",
+        "nidhoggr2": "5"
+      },
       "Slick Fighter 3": {
         "tiki5": "5",
         "dheginsea": "5",
@@ -74692,11 +74713,12 @@
       "Slick Fighter 1": {}
     },
     "refine": {},
-    "icon": "1212",
+    "icon": 2317,
     "HARD_ALT_NAME": [
       "Slick Fighter 1",
       "Slick Fighter 2",
-      "Slick Fighter 3"
+      "Slick Fighter 3",
+      "Slick Fighter 4"
     ],
     "ALT_NAME": [],
     "slot": "Passive B",
@@ -95644,8 +95666,8 @@
         "stats": {
           "sp": "60"
         },
-        "exclusive": false,
         "slot": "Passive B",
+        "exclusive": false,
         "restriction_weapon": false,
         "restriction_movement": [
           "**Can only** be used by: ",
@@ -95661,8 +95683,8 @@
         "stats": {
           "sp": "120"
         },
-        "exclusive": false,
         "slot": "Passive B",
+        "exclusive": false,
         "restriction_weapon": false,
         "restriction_movement": [
           "**Can only** be used by: ",
@@ -95678,8 +95700,25 @@
         "stats": {
           "sp": "240"
         },
-        "exclusive": false,
         "slot": "Passive B",
+        "exclusive": false,
+        "restriction_weapon": false,
+        "restriction_movement": [
+          "**Can only** be used by: ",
+          [
+            "Armored"
+          ]
+        ],
+        "bonus": {}
+      },
+      {
+        "name": "Wily Fighter 4",
+        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes foe's bonuses during combat."
+        "stats": {
+          "sp": "300"
+        },
+        "slot": "Passive B",
+        "exclusive": false,
         "restriction_weapon": false,
         "restriction_movement": [
           "**Can only** be used by: ",
@@ -95691,6 +95730,9 @@
       }
     ],
     "reference": {
+      "Wily Fighter 4": {
+        "hector7": "5"
+      },
       "Wily Fighter 3": {
         "idunn3": "5"
       },
@@ -95698,11 +95740,12 @@
       "Wily Fighter 1": {}
     },
     "refine": {},
-    "icon": "1566",
+    "icon": 2318,
     "HARD_ALT_NAME": [
       "Wily Fighter 1",
       "Wily Fighter 2",
-      "Wily Fighter 3"
+      "Wily Fighter 3",
+      "Wily Fighter 4"
     ],
     "ALT_NAME": [],
     "slot": "Passive B",
