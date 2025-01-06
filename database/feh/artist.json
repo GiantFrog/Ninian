@@ -27441,7 +27441,8 @@
   },
   "shibayamawankuro": {
     "heroes": {
-      "nergal": "<:Green_Tome:1124845959873036289>Fallen Nergal"
+      "nergal": "<:Green_Tome:1124845959873036289>Fallen Nergal",
+      "oswin": "<:Blue_Lance:1124845569496584302>Oswin"
     },
     "name": "shibayama wankuro",
     "ALT_NAME": [
@@ -27451,7 +27452,14 @@
       "F Nergal",
       "Corrupted Nergal",
       "nergal",
-      "\u67f4\u5c71\u308f\u3093\u304f\u308d"
+      "\u67f4\u5c71\u308f\u3093\u304f\u308d",
+      "Impregnable Knight",
+      "Oswin: Impregnable Knight",
+      "Base Oswin",
+      "Normal Oswin",
+      "Regular Oswin",
+      "\ud83e\udec3",
+      "oswin"
     ],
     "HARD_ALT_NAME": [
       "Traitor to Nabata",
@@ -27459,7 +27467,14 @@
       "Fallen Nergal",
       "F Nergal",
       "Corrupted Nergal",
-      "nergal"
+      "nergal",
+      "Impregnable Knight",
+      "Oswin: Impregnable Knight",
+      "Base Oswin",
+      "Normal Oswin",
+      "Regular Oswin",
+      "\ud83e\udec3",
+      "oswin"
     ]
   },
   "ir": {

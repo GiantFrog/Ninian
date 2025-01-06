@@ -1,713 +1,166 @@
 {
-  "heidrun2": {
-    "name": "Hei\u00f0r\u00fan",
-    "title": "Sisters of Healing",
-    "description": "Sisters and members of the Healing Hands of Yggdrasill. They pray for the health of all at Askr's New Year celebration.",
-    "origin": "Heroes",
-    "artist": "cuboon",
-    "move": "Infantry",
-    "weapon": "Tome",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1186",
-    "type": false,
-    "version": "9.1",
-    "duo": "Expand\nCollapse\n]\nGrants Special cooldown count-1 to unit and allies within 3 rows or 3 columns centered on unit.\nApplies\u3010Divine Vein (Green)\u3011on spaces within 3 rows or 3 columns centered on unit for 2 turns.\n(Duo Skills can be used once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Divine Vein (Green)\u3011\nApplies the following effects on space for foes: Foe cannot warp from this space or into this space (does not affect units with Pass skills or warp effects from structures like camps and fortresses in Rival Domains). Inflicts Special cooldown charge -1 on foe per attack (only highest value applied; does not stack). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out.)",
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 17,
-      "atk": 12,
-      "spd": 3,
-      "def": 12,
-      "res": 9
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 30,
-      "def": 60,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "hp",
-      "spd"
-    ],
-    "weapons": {
-      "Stone": "1",
-      "Elstone": "2",
-      "Atlas": "3",
-      "New Year Treats": "5"
-    },
-    "assist": {},
-    "special": {
-      "Rising Wind": "3",
-      "Blazing Wind": "4"
-    },
-    "passive": {
-      "A": {
-        "Still Water 1": "2",
-        "Still Water 2": "3",
-        "Still Water 3": "4",
-        "Crystalline Water": "5"
-      },
-      "B": {
-        "Sabotage Res 1": "2",
-        "Sabotage Res 2": "3",
-        "Sabotage Res 3": "4",
-        "Atk/Res Discord": "5"
-      },
-      "C": {
-        "Nectar's Magic": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/26/Heidrun_Sisters_of_Healing_Face.webp/revision/latest?cb=20241227055614",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0e/Heidrun_Sisters_of_Healing_BtlFace_D.webp/revision/latest?cb=20241227055609",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cb/Heidrun_Sisters_of_Healing_BtlFace_C.webp/revision/latest?cb=20241227055604",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d9/Heidrun_Sisters_of_Healing_BtlFace.webp/revision/latest?cb=20241227055549"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Sisters of Healing",
-      "Hei\u00f0r\u00fan: Sisters of Healing",
-      "New Year Hei\u00f0r\u00fan",
-      "New Years Hei\u00f0r\u00fan",
-      "NY Hei\u00f0r\u00fan",
-      "New Year Heidrun",
-      "New Years Heidrun",
-      "NY Heidrun",
-      "hei\u00f0r\u00fan2",
-      "heidrun2"
-    ],
-    "HARD_ALT_NAME": [
-      "Sisters of Healing",
-      "Hei\u00f0r\u00fan: Sisters of Healing",
-      "New Year Hei\u00f0r\u00fan",
-      "New Years Hei\u00f0r\u00fan",
-      "NY Hei\u00f0r\u00fan",
-      "New Year Heidrun",
-      "New Years Heidrun",
-      "NY Heidrun",
-      "hei\u00f0r\u00fan2",
-      "heidrun2"
-    ],
-    "gender": "F",
-    "rarity": 0,
-    "pool": "seasonal",
-    "internal_id": "PID_\u6bd4\u7ffc\u30d8\u30a4\u30ba\u30eb\u30fc\u30f3",
-    "voice": "Cat Protano + Madeline Dorroh",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "askr"
-    ],
-    "chibi": "heroes",
-    "quotes": {
-      "Castle Hall": [
-        "**Ratatoskr:** This kimono is gorgeous! I feel like a different person while wearing it.",
-        "**Hei\u00f0r\u00fan:** The New Year brings new hope... I pray the Healing Hands can offer people hope this year too...",
-        "**Hei\u00f0r\u00fan:** Free of illness and injury... How nice. I wish for everyone in the nine realms to remain healthy the whole year.",
-        "**Ratatoskr:** Are you worried your stomach will hurt if you eat all this delicious food? Just tell me, right away. I-I'll fix it.",
-        "**Hei\u00f0r\u00fan:** It feels so nice to celebrate the New Year with Ratatoskr while wearing kimonos together... This is promising."
-      ],
-      "Visit": [
-        "**Ratatoskr:** Umm, umm... I have a New Year's gift here from [F]."
-      ],
-      "Level": [
-        "**Ratatoskr:** Ooh! I think this year will be a good one, all right!",
-        "**Hei\u00f0r\u00fan:** It is a new year now... I hope everyone is able to spend the year in good health. That is my wish.",
-        "**Ratatoskr:** Ohhh... Something feels off! And the year just started too!"
-      ],
-      "Summon": [
-        "I am Hei\u00f0r\u00fan, from Yggdrasill... I offer you New Year's greetings alongside Ratatoskr."
-      ],
-      "Learn Skill": [
-        "**Ratatoskr:** Is...this a New Year's gift? F-for us? Let's express our appreciation together, Hei\u00f0r\u00fan!"
-      ],
-      "Confession": [
-        "**Ratatoskr:** New Year's is so fun, isn't it? Everyone is so happy and there is so much delicious food!\nAnd there's even New Year's gifts!\n**Hei\u00f0r\u00fan:** Hehehe... Yes, there is, Ratatoskr. New Year's is a time to celebrate, a time for hope.\nYet illness and injury may still creep into people's lives. As Healing Hands, we must not let our guards down.\n**Ratatoskr:** Y-y-you're right! We need to stay alert!\n**Hei\u00f0r\u00fan:** Let us not forget the spirit of a Healing Hand. We shall pray for the happiness of all people.\n**Ratatoskr:** Yeah! That way, everyone can have a good year!"
-      ],
-      "Special": [
-        "**Duo:** Happy new year!",
-        "**Duo:** Together! This year too!",
-        "**Hei\u00f0r\u00fan:** Let us celebrate!",
-        "**Ratatoskr:** New year's gift please!"
-      ],
-      "Status": [
-        "Hah...",
-        "\"So many holiday delicacies...\" \"They look delicious! I want to eat them with the whole family.\""
-      ],
-      "Map Select": [
-        "What?",
-        "I greet you.",
-        "Hoping for a good year!"
-      ],
-      "Conversation": [
-        "**Ratatoskr:** Umm, umm, let's see... I've wished Father and all my siblings a happy New Year...",
-        "So, that means I have the summoner, Prince Alfonse, Princess Sharena, and, and...",
-        "**Hei\u00f0r\u00fan:** Ratatoskr, there is no need for you to worry yourself over this.",
-        "Everyone is enjoying the New Year and living life quietly right now.",
-        "**Ratatoskr:** But I want to make sure I can greet everyone before the end of the day.",
-        "The summoner taught me a proverb. \"The whole year's plans should be made on New Year's Day.\"",
-        "So, I've got a lot of things to do today if I'm going to have a good year!",
-        "I really want to make sure I keep getting along with everyone this year too, so I...",
-        "**Hei\u00f0r\u00fan:** Oh. Well. When you say it like that, I have to admit I feel the same way...",
-        "I understand now. Let's go do our greetings together.",
-        "**Ratatoskr:** Thanks, Hei\u00f0r\u00fan, I'm glad you... O-oh no!",
-        "I can't believe it! Oh no, I'm so... I forgot to wish you a happy New Year!",
-        "**Hei\u00f0r\u00fan:** Oh! Now that you mention it, I forgot to wish you one as well.",
-        "**Ratatoskr:** I'm so sorry! I hope you have a happy New Year, Hei\u00f0r\u00fan!",
-        "I love having my sister so close by. Promise you'll stay close to me all year?",
-        "**Hei\u00f0r\u00fan:** *chuckle* I will, Ratatoskr. A happy New Year to you as well.",
-        "This year, I wish for us all to be close to our family and friends. I will be so happy if that wish comes true..."
-      ],
-      "Duo Skill": [
-        "\"Look!\" \"First sunrise!\"",
-        "\"Umm, ohhh!\" \"Be calm.\""
-      ],
-      "Back Unit Supporting": [
-        "Good luck, Hei\u00f0r\u00fan!",
-        "I'm with you!"
-      ],
-      "resplendent": {}
-    },
-    "short_name": "Hei\u00f0r\u00fan",
-    "SEARCH_NAME": "Hei\u00f0r\u00fan",
-    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>New Year Hei\u00f0r\u00fan",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "heidrun"
-    ],
-    "prf": {
-      "": "newyeartreats",
-      "eff": "newyeartreats",
-      "atk": "newyeartreats",
-      "spd": "newyeartreats",
-      "def": "newyeartreats",
-      "res": "newyeartreats"
-    }
-  },
-  "hraesvelgr2": {
-    "name": "Hr\u00e6svelgr",
-    "title": "Wings of Healing",
-    "description": "A member of the Healings Hands of Yggdrasill. She greets the new year with well-wishes for the health of all people.",
-    "origin": "Heroes",
-    "artist": "kiyu",
-    "move": "Flying",
-    "weapon": "Beast",
-    "color": "Green",
-    "duel": false,
-    "id": "1188",
-    "type": false,
-    "version": "9.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 11,
-      "spd": 9,
-      "def": 10,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 90,
-      "def": 60,
-      "res": 40
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp"
-    ],
-    "weapons": {
-      "Hatchling (Flier)": "1",
-      "Fledgling (Flier)": "2",
-      "Adult (Flier)": "3",
-      "New Year Talon": "5"
-    },
-    "assist": {},
-    "special": {
-      "Night Sky": "3",
-      "Astra": "4",
-      "Nimble Beast": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Spd Form 1": "2",
-        "Atk/Spd Form 2": "3",
-        "Atk/Spd Form 3": "4",
-        "Atk/Spd Fortune": "5"
-      },
-      "B": {
-        "Beast Agility 1": "2",
-        "Beast Agility 2": "3",
-        "Beast Agility 3": "4",
-        "Bestial Assault": "5"
-      },
-      "C": {
-        "Divine Talon": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6c/Hraesvelgr_Wings_of_Healing_Face.webp/revision/latest?cb=20241227055504",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/45/Hraesvelgr_Wings_of_Healing_BtlFace_D.webp/revision/latest?cb=20241227055458",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/53/Hraesvelgr_Wings_of_Healing_BtlFace_C.webp/revision/latest?cb=20241227055454",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/72/Hraesvelgr_Wings_of_Healing_BtlFace.webp/revision/latest?cb=20241227055439"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Wings of Healing",
-      "Hr\u00e6svelgr: Wings of Healing",
-      "New Year Hr\u00e6svelgr",
-      "New Years Hr\u00e6svelgr",
-      "NY Hr\u00e6svelgr",
-      "New Year Hraesvelgr",
-      "New Years Hraesvelgr",
-      "NY Hraesvelgr",
-      "hraesvelgr2"
-    ],
-    "HARD_ALT_NAME": [
-      "Wings of Healing",
-      "Hr\u00e6svelgr: Wings of Healing",
-      "New Year Hr\u00e6svelgr",
-      "New Years Hr\u00e6svelgr",
-      "NY Hr\u00e6svelgr",
-      "New Year Hraesvelgr",
-      "New Years Hraesvelgr",
-      "NY Hraesvelgr",
-      "hraesvelgr2"
-    ],
-    "gender": "F",
-    "rarity": 0,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e74\u660e\u30d5\u30ec\u30b9\u30d9\u30eb\u30b0",
-    "voice": "Justine Lee",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "askr"
-    ],
-    "chibi": "heroes",
-    "quotes": {
-      "Castle Hall": [
-        "I pray N\u00ed\u00f0h\u00f6ggr does not welcome the New Year intoxicated on her fruit...again.",
-        "At the beginning of each year, I say the same prayer for illness to be erased from all the worlds.",
-        "Look at this joyful doll. It is a daruma, and I feel I have seen it somewhere before... Ratatoskr, perhaps?",
-        "I just healed someone choking on food. Do not gorge yourself just because it is the New Year.",
-        "I have healing items on the belt of my kimono. I like to be prepared for anything that may come to pass."
-      ],
-      "Visit": [
-        "I am Hr\u00e6svelgr, blade of the Healing Hands. I have been sent to help you celebrate the New Year."
-      ],
-      "Level": [
-        "I will not allow the evil of disease to approach any precious to me. I shall slice down all sources of illness.",
-        "I shall remove any nidus of disease that shows itself this year!",
-        "Did I allow this lively atmosphere to relax me? I must focus..."
-      ],
-      "Summon": [
-        "I am Hr\u00e6svelgr, here to celebrate the New Year with my family. I pray for all to be free of illness and injury."
-      ],
-      "Learn Skill": [
-        "I understand your expectations. I shall heal as many as possible this year, as I do in every year..."
-      ],
-      "Confession": [
-        "My family and the people of Askr all smile with the arrival of the New Year...\nHowever, the evil of disease may appear whenever and wherever it chooses. Without mercy.\nIf a patient comes to your attention, do not hesitate to inform me.\nOne must be especially careful on the New Year, when people lose themselves in merriment.\nMy family and I wish for everyone to be safe and healthy throughout the coming year.\nI shall wield these blades to remove the evil of disease this year, as I do every year."
-      ],
-      "Special": [
-        "For the mission.",
-        "Celebrate the New Year.",
-        "I wish you the best.",
-        "A New Year's gift."
-      ],
-      "Status": [
-        "Hm.",
-        "I am Hr\u00e6svelgr. A happy New Year to you.",
-        "It is dangerous to touch me without warning.",
-        "Even in this new year, my only concern is the mission.",
-        "N\u00ed\u00f0h\u00f6ggr is intoxicated already this year.",
-        "This is the first time I have worn a \"kimono.\" Does it look strange?",
-        "People smiling. Laughing. It...reminds me of the good days.",
-        "Anything that is gnawing at you, I will sever with my blade."
-      ],
-      "Map Select": [
-        "I understand.",
-        "Orders?",
-        "I will greet them."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Hr\u00e6svelgr",
-    "SEARCH_NAME": "Hr\u00e6svelgr",
-    "DISPLAY_NAME": "<:Green_Beast:1124845912385138738>New Year Hr\u00e6svelgr",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "hraesvelgr"
-    ],
-    "prf": {
-      "": "newyeartalon",
-      "eff": "newyeartalon",
-      "atk": "newyeartalon",
-      "spd": "newyeartalon",
-      "def": "newyeartalon",
-      "res": "newyeartalon"
-    }
-  },
-  "nnidhoggr2": {
-    "name": "N\u00ed\u00f0h\u00f6ggr",
-    "title": "Daze of Healing",
-    "description": "A member of the Healing Hands of Yggdrasill who heals others with a sweet fruit. She turns up to Askr's New Year celebration already tipsy.",
-    "origin": "Heroes",
-    "artist": "YOSHIO (\u3088\u3057\u7537)",
+  "oswin": {
+    "name": "Oswin",
+    "title": "Impregnable Knight",
+    "description": "An armored knight of Ostia. He accompanies Hector on his journey under the strict orders of Hector's older brother Uther, marquess of Ostia. Appears in Fire Emblem: The Blazing Blade.",
+    "origin": "The Blazing Blade",
+    "artist": "shibayama wankuro",
     "move": "Armored",
-    "weapon": "Beast",
+    "weapon": "Lance",
     "color": "Blue",
     "duel": false,
-    "id": "1187",
+    "id": "1178",
     "type": false,
-    "version": "9.1",
+    "version": "9.0",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 22,
-      "atk": 15,
-      "spd": 3,
+      "hp": 21,
+      "atk": 17,
+      "spd": 5,
       "def": 10,
-      "res": 11
+      "res": 8
     },
     "growth": {
-      "hp": 65,
-      "atk": 75,
-      "spd": 30,
+      "hp": 70,
+      "atk": 70,
+      "spd": 60,
       "def": 90,
-      "res": 75
-    },
-    "superboon": [
-      "def"
-    ],
-    "superbane": [
-      "atk",
-      "spd",
-      "res"
-    ],
-    "weapons": {
-      "Whelp (Armored)": "1",
-      "Yearling (Arm.)": "2",
-      "Adult (Armored)": "3",
-      "New Year Fang": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "Sturdy Beast": "5"
-    },
-    "passive": {
-      "A": {
-        "Divine Toxin": "5"
-      },
-      "B": {
-        "Slick Fighter 1": "2",
-        "Slick Fighter 2": "3",
-        "Slick Fighter 3": "4",
-        "Slick Fighter 4": "5"
-      },
-      "C": {
-        "Distant Guard 1": "2",
-        "Distant Guard 2": "3",
-        "Distant Guard 3": "4",
-        "Higher Ground": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c1/Nidhoggr_Daze_of_Healing_Face.webp/revision/latest?cb=20241227055538",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0d/Nidhoggr_Daze_of_Healing_BtlFace_D.webp/revision/latest?cb=20241227055534",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1e/Nidhoggr_Daze_of_Healing_BtlFace_C.webp/revision/latest?cb=20241227055529",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Nidhoggr_Daze_of_Healing_BtlFace.webp/revision/latest?cb=20241227055513"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Daze of Healing",
-      "N\u00ed\u00f0h\u00f6ggr: Daze of Healing",
-      "New Year N\u00ed\u00f0h\u00f6ggr",
-      "New Years N\u00ed\u00f0h\u00f6ggr",
-      "NY N\u00ed\u00f0h\u00f6ggr",
-      "New Year Nidhoggr",
-      "New Years Nidhoggr",
-      "NY Nidhoggr",
-      "nidhoggr2"
-    ],
-    "HARD_ALT_NAME": [
-      "Daze of Healing",
-      "N\u00ed\u00f0h\u00f6ggr: Daze of Healing",
-      "New Year N\u00ed\u00f0h\u00f6ggr",
-      "New Years N\u00ed\u00f0h\u00f6ggr",
-      "NY N\u00ed\u00f0h\u00f6ggr",
-      "New Year Nidhoggr",
-      "New Years Nidhoggr",
-      "NY Nidhoggr",
-      "nidhoggr2"
-    ],
-    "gender": "F",
-    "rarity": 0,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e74\u660e\u30cb\u30fc\u30ba\u30d8\u30c3\u30b0",
-    "voice": "Toyosaki Aki (\u8c4a\u5d0e\u611b\u751f)",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "askr"
-    ],
-    "chibi": "heroes",
-    "quotes": {
-      "Castle Hall": [
-        "I'm the best-behaved of all of us. I always do what Pops asks. But damn, what'd he say? New Year's...uh...",
-        "This New Year's party is nice. Nobody bats an eye if I'm a little tipsy all day long.",
-        "Hey, c'mere. Got a present\u2014one of my special fruits. Hey, I'm talkin' to ya, [S]!",
-        "Hr\u00e6svelgr and Hei\u00f0r\u00fan could stand to let their hair down on New Year's, at least! Couple of stiffs...",
-        "So this is called a kimono... It's pretty tight, isn't it? That isn't bad, though. Offers some support."
-      ],
-      "Visit": [
-        "Feel like I was just partying over at a different castle... It was probably... [F]'s?"
-      ],
-      "Level": [
-        "Told ya I was great. So no complaints if I'm a bit, y'know, wobbly!",
-        "Want a bite of my fruit? Feels real good, especially ringin' in the New Year like this.",
-        "You're too tense. It's the New Year, let bygones be bygones!"
-      ],
-      "Summon": [
-        "Name's N\u00ed\u00f0h\u00f6ggr. *hic* Intoxicated? Me? It's New Year's! Who isn't?"
-      ],
-      "Learn Skill": [
-        "A great way to start the year! I'll take a big bite of fruit and kick back."
-      ],
-      "Confession": [
-        "This Askran New Year's party ain't so bad. I blend right in.\nI mean, Hr\u00e6svelgr told me to shape up, but that's nothing new.\nThe whole thing got me thinking, though. If we don't have peace, we can't celebrate like this.\nI want to kick back like this next year too. Take a bite out of life!\nSo I guess we're just going to have to do our best this year. Isn't that right, [S]?"
-      ],
-      "Special": [
-        "Happy New Year!",
-        "I feel bubbly.",
-        "New Year's the best!",
-        "Another please!"
-      ],
-      "Status": [
-        "-",
-        "Happy New Year! Today we can have as much fun as we want, yeah?",
-        "Huh? A snake? Oh! Me! You mean me. *giggle*",
-        "Hr\u00e6svelgr is mad at me. New year, same old tedium...",
-        "The New Year is a special occasion, so here's some fruit for you!",
-        "These clothes are so uncomfortable, but I guess I have to wear something...",
-        "My pops got me a New Year's gift! He makes me so happy.",
-        "Let's keep having fun together this year!"
-      ],
-      "Map Select": [
-        "Got it!",
-        "What now?",
-        "Whoah..."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "N\u00ed\u00f0h\u00f6ggr",
-    "SEARCH_NAME": "N\u00ed\u00f0h\u00f6ggr",
-    "DISPLAY_NAME": "<:Blue_Beast:1124845338688233575>New Year N\u00ed\u00f0h\u00f6ggr",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "nidhoggr"
-    ],
-    "prf": {
-      "": "newyearfang",
-      "eff": "newyearfang",
-      "atk": "newyearfang",
-      "spd": "newyearfang",
-      "def": "newyearfang",
-      "res": "newyearfang"
-    }
-  },
-  "tana6": {
-    "name": "Tana",
-    "title": "Soaring New Year",
-    "description": "Princess of Frelia, donning a special outfit in celebration of the new year, and joined by her brother, Innes. Appears in Fire Emblem: The Sacred Stones.",
-    "origin": "The Sacred Stones",
-    "artist": "Done Kanda (\u9928\u7530\u30c0\u30f3)",
-    "move": "Flying",
-    "weapon": "Sword",
-    "color": "Red",
-    "duel": false,
-    "id": "1189",
-    "type": false,
-    "version": "9.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 8,
-      "def": 13,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 90,
-      "def": 55,
       "res": 45
     },
     "superboon": [
-      "spd",
+      "hp",
+      "atk",
+      "def",
       "res"
     ],
-    "superbane": [
-      "hp"
-    ],
+    "superbane": [],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Snaking Sword": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "3",
+      "Campaign Lance": "3",
+      "Campaign Lance+": "5"
     },
     "assist": {},
     "special": {
-      "Dragon Gaze": "3",
-      "Draconic Aura": "4"
+      "Buckler": "3",
+      "Pavise": "4"
     },
     "passive": {
-      "A": {},
+      "A": {
+        "Steady Stance 1": "1",
+        "Sturdy Stance 1": "2",
+        "Sturdy Stance 2": "4"
+      },
       "B": {
-        "Heavenly Wings": "5"
+        "Odd Follow-Up 1": "3",
+        "Odd Follow-Up 2": "4",
+        "Odd Follow-Up 3": "5"
       },
-      "C": {
-        "Spd/Def Rein 1": "2",
-        "Spd/Def Rein 2": "3",
-        "Spd/Def Rein 3": "4",
-        "S/D Rein Snap": "5"
-      },
+      "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e8/Tana_Soaring_New_Year_Face.webp/revision/latest?cb=20241227055724",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/11/Tana_Soaring_New_Year_BtlFace_D.webp/revision/latest?cb=20241227055719",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/99/Tana_Soaring_New_Year_BtlFace_C.webp/revision/latest?cb=20241227055714",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/87/Tana_Soaring_New_Year_BtlFace.webp/revision/latest?cb=20241227055659"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cb/Oswin_Impregnable_Knight_Face.webp/revision/latest?cb=20241205203200",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Oswin_Impregnable_Knight_BtlFace_D.webp/revision/latest?cb=20241205203155",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7c/Oswin_Impregnable_Knight_BtlFace_C.webp/revision/latest?cb=20241205203150",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a7/Oswin_Impregnable_Knight_BtlFace.webp/revision/latest?cb=20241205203135"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Soaring New Year",
-      "Tana: Soaring New Year",
-      "New Year Tana",
-      "New Years Tana",
-      "NY Tana",
-      "tana6"
+      "Impregnable Knight",
+      "Oswin: Impregnable Knight",
+      "Base Oswin",
+      "Normal Oswin",
+      "Regular Oswin",
+      "\uD83E\uDEC3",
+      "oswin"
     ],
     "HARD_ALT_NAME": [
-      "Soaring New Year",
-      "Tana: Soaring New Year",
-      "New Year Tana",
-      "New Years Tana",
-      "NY Tana",
-      "tana6"
+      "Impregnable Knight",
+      "Oswin: Impregnable Knight",
+      "Base Oswin",
+      "Normal Oswin",
+      "Regular Oswin",
+      "\uD83E\uDEC3",
+      "oswin"
     ],
-    "gender": "F",
+    "gender": "M",
     "rarity": 0,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e74\u660e\u30bf\u30fc\u30ca",
-    "voice": "Melissa Fahn",
+    "pool": "",
+    "internal_id": "PID_\u30aa\u30ba\u30a4\u30f3",
+    "voice": "Kamran Nikhad",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "magvel"
+      "elibe"
     ],
-    "chibi": "fe8",
+    "chibi": "fe7",
     "quotes": {
       "Castle Hall": [
-        "Any year that begins with donning a wonderful outfit is certain to be a good year!",
-        "I want to become a graceful and strong pegasus knight like Syrene this year. I have but to put in the effort!",
-        "This sword is connected to Nidhogg, the Serpent Bow of Frelia's Sacred Twins, passed down the generations.",
-        "I've heard of the hatsumode ritual\u2014of the first shrine visit of the year to pay respects to a god.\nI will invite Eirika and Ephraim to come along.",
-        "I'm told this kimono is an outfit for celebrating New Year's. I thought I'd wear one along with Innes!"
+        "I am a knight in service to Castle Ostia. Until now, I have only offered my lance to Lord Uther. Yet...",
+        "Lord Uther was worried about Lord Hector traveling alone. I have been ordered to keep a close eye on him.",
+        "You must not rely so much on physical strength alone.",
+        "Lord Hector and Lord Eliwood are on the front line. If we, their retainers, do not help them, then what are we?",
+        "Lord Hector, hate me and scorn me as you will, but...please do not doubt Lord Uther's intentions."
       ],
       "Visit": [
-        "I am Tana, princess of Frelia, and I am here to deliver you a New Year's greeting from [F]!"
+        "This is a gift for you, entrusted to me by [F]."
       ],
       "Level": [
-        "I shall soar high in the sky this year!",
-        "This is going well! I think I might be able to grow even more this year!",
-        "Urk... I did not realize just how difficult it would be to fly while wearing a kimono..."
+        "We can use our thick armor to form a living shield.",
+        "I will guard him with my very life's blood.",
+        "Pitiful... Please, do forgive me."
       ],
       "Summon": [
-        "I am Tana, princess of Frelia. Let us work together to make this new year a good one!"
+        "I am Oswin. If the goal is to defend, we knights are your best hope."
       ],
       "Learn Skill": [
-        "Is this gift money what they call an otoshidama? What a nice New Year's gift! I will take care to use it well!"
+        "I shall meet your expectations no matter what may come."
       ],
       "Confession": [
-        "Have you decided on what your goal will be this year?\nI have too many, and I am having trouble deciding which one to focus on.\nI wish to be able to support Innes even more than I already am...\nBut I also wish to be more adept so I will not lose to Ephraim or Eirika. I even want to catch up to Syrene!\nI have so many goals, but I do not want to abandon my goals from last year either!\nI'm going to do my best to show everyone how much I have grown by the year's end! Just watch me!"
+        "It is my duty to protect Marquess Ostia's younger brother, Lord Hector.\nHowever, he is not easy to protect, for he does not walk a clear path of his own volition.\nBy not walking the clear path, he always forges new ones. Those are the paths he is apt to choose.\nBy his very nature he walks an unpaved road, after which a paved one is forged behind him.\nHe may be beyond blunt, and it may stir conflict, but... I have come to hope he does not lose that trait."
       ],
       "Special": [
-        "Happy New Year!",
-        "Let us celebrate!",
-        "To ensure a good year!",
-        "May this year bring good fortune!"
+        "We are knights!",
+        "In service of my lord.",
+        "For Ostia's honor!",
+        "I shall be a shield."
       ],
       "Status": [
-        "Mm-hm.",
-        "Happy New Year! I am glad I got a chance to extend my greetings to you.",
-        "*react* Your hand! It must be quite cold outside.",
-        "Kimonos are certainly cute, don't you agree? I just wish they were a bit more comfortable...",
-        "Every year, I pray I become strong like Innes.",
-        "I am considering decorating my pegasus for New Year's.",
-        "I feel as though I look more mature in this attire. What do you think?",
-        "May you be blessed with many good things this year."
+        "Ahem.",
+        "I am Oswin. I've been ordered to keep a close eye on Lord Hector.",
+        "Huh?! So, even you take part in this kind of mischief.",
+        "No matter what Lord Uther says, he's just worried about Lord Hector.",
+        "Hmm... I cannot condone resorting to force so quickly...",
+        "If the goal is to defend, knights are your best hope. We can use our armor to form a living shield.",
+        "Lord Uther... I will guard Lord Hector with my very life's blood.",
+        "I wish to offer you my service. Please grant me that honor."
       ],
       "Map Select": [
-        "Will do.",
-        "I am not sure...",
-        "I will bring forth my greetings."
+        "That seems reasonable.",
+        "What should be done?",
+        "Yes, I'm coming."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Tana",
-    "SEARCH_NAME": "Tana",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>New Year Tana",
+    "short_name": "Oswin",
+    "SEARCH_NAME": "Oswin",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Oswin",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "tana",
-      "tana2",
-      "tana3",
-      "tana4",
-      "tana5"
-    ],
+    "reference": [],
     "prf": {
-      "": "snakingsword",
-      "eff": "snakingsword",
-      "atk": "snakingsword",
-      "spd": "snakingsword",
-      "def": "snakingsword",
-      "res": "snakingsword"
+      "": "campaignlance",
+      "eff": "campaignlance",
+      "atk": "campaignlance",
+      "spd": "campaignlance",
+      "def": "campaignlance",
+      "res": "campaignlance"
     }
   }
 }

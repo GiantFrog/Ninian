@@ -29429,5 +29429,29 @@
       "NY Nidhoggr",
       "nidhoggr2"
     ]
+  },
+  "kamrannikhad": {
+    "heroes": {
+      "oswin": "<:Blue_Lance:1124845569496584302>Oswin"
+    },
+    "name": "Kamran Nikhad",
+    "ALT_NAME": [
+      "Impregnable Knight",
+      "Oswin: Impregnable Knight",
+      "Base Oswin",
+      "Normal Oswin",
+      "Regular Oswin",
+      "\ud83e\udec3",
+      "oswin"
+    ],
+    "HARD_ALT_NAME": [
+      "Impregnable Knight",
+      "Oswin: Impregnable Knight",
+      "Base Oswin",
+      "Normal Oswin",
+      "Regular Oswin",
+      "\ud83e\udec3",
+      "oswin"
+    ]
   }
 }
