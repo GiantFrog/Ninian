@@ -8940,7 +8940,8 @@
         "lapis2": "3",
         "edward": "3",
         "goldmary": "3",
-        "dedue2": "3"
+        "dedue2": "3",
+        "oswin": "3"
       }
     },
     "refine": {},
@@ -9045,7 +9046,8 @@
         "dedue": "5",
         "reinhardt2": "5",
         "robin10": "5",
-        "dedue2": "4"
+        "dedue2": "4",
+        "oswin": "4"
       }
     },
     "refine": {},
@@ -22391,7 +22393,8 @@
         "gilliam": "5",
         "olivia3": "5",
         "idunn2": "5",
-        "idunn3": "5"
+        "idunn3": "5",
+        "oswin": "1"
       }
     },
     "refine": {},
@@ -31023,7 +31026,8 @@
         "altena": "4",
         "ludveck": "4",
         "dorcas2": "4",
-        "ephraim2": "5"
+        "ephraim2": "5",
+        "oswin": "4"
       },
       "Sturdy Stance 1": {}
     },
@@ -58292,7 +58296,8 @@
       "Odd Follow-Up 3": {
         "raphael": "4",
         "hector5": "5",
-        "artur": "5"
+        "artur": "5",
+        "oswin": "5"
       },
       "Odd Follow-Up 2": {},
       "Odd Follow-Up 1": {}
@@ -74682,7 +74687,7 @@
       },
       {
         "name": "Slick Fighter 4",
-        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes penalties on unit during combat."
+        "description": "If foe initiates combat or if unit's HP \u2265 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes penalties on unit during combat.",
         "stats": {
           "sp": "300"
         },
@@ -95713,7 +95718,7 @@
       },
       {
         "name": "Wily Fighter 4",
-        "description": "If foe initiates combat or if unit's HP ≥ 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes foe's bonuses during combat."
+        "description": "If foe initiates combat or if unit's HP \u2265 25% at start of combat, inflicts Atk-5 on foe, deals +X damage (X = 20% of unit's Def; excluding area-of-effect Specials), reduces damage from foe's attacks by X (excluding area-of-effect Specials), unit makes a guaranteed follow-up attack, and neutralizes foe's bonuses during combat.",
         "stats": {
           "sp": "300"
         },
@@ -134894,5 +134899,43 @@
     "ALT_NAME": [],
     "slot": "Passive B",
     "wpn": false
+  },
+  "campaignlance": {
+    "name": "Campaign Lance+",
+    "skill": [
+      {
+        "name": "Campaign Lance+",
+        "description": "At start of combat, if unit's HP \u2265 25%, grants Atk/Def+5 to unit during combat, inflicts Atk/Def-X on foe during combat (X = 25% of unit's HP at start of combat; max 10), and restores 10 HP to unit after combat.",
+        "stats": {
+          "mt": "14",
+          "rng": "1",
+          "sp": "300"
+        },
+        "exclusive": false,
+        "slot": "Weapon",
+        "weapon_type": "Blue_Lance",
+        "restriction_weapon": false,
+        "restriction_movement": false
+      }
+    ],
+    "reference": {
+      "Campaign Lance+": {
+        "oswin": "5"
+      }
+    },
+    "refine": {},
+    "icon": false,
+    "HARD_ALT_NAME": [
+      "Base Oswin",
+      "\ud83e\udec3",
+      "Normal Oswin",
+      "Oswin: Impregnable Knight",
+      "Regular Oswin",
+      "oswin",
+      "Impregnable Knight"
+    ],
+    "ALT_NAME": [],
+    "slot": "Weapon",
+    "wpn": "wep_lc186"
   }
 }
