@@ -994,7 +994,8 @@
         "reference": {
             "Forge": "**Brave Axe+** 6x Wootz Steel 1440G <:fe16_139:715167995122417795>B+"
         },
-        "weapon": true
+        "weapon": true,
+        "magical": true
     },
     "brokenaxe": {
         "name": "Broken Axe",
