@@ -45,7 +45,10 @@
         },
         "desc": "Hero's Relic (Crest of Maurice). Crest-bearer can use Beast Fang. Deals magic-based damage.",
         "reference": {},
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "bravesword": {
         "name": "Brave Sword",
@@ -108,7 +111,10 @@
         },
         "desc": "Hero's Relic (Crest of the Beast). Crest-bearer can use Beast Fang. Deals magic-based damage.",
         "reference": {},
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "darkcreatorsword": {
         "name": "Dark Creator Sword",
@@ -208,7 +214,10 @@
         "reference": {
             "Forge": "**Levin Sword+** 4x Arcane Crystal 960G <:fe16_139:715167995122417795>C+"
         },
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "mercurius": {
         "name": "Mercurius",
@@ -450,7 +459,10 @@
         },
         "desc": "Deals magic-based damage.",
         "reference": {},
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "wodao": {
         "name": "Wo Dao",
@@ -483,7 +495,10 @@
         },
         "desc": "This magical sword is the preferred weapon of Priest Thales. ",
         "reference": {},
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "areadbhar": {
         "name": "Areadbhar",
@@ -532,7 +547,10 @@
         "reference": {
             "Forge": "**Arrow of Indra+** 6x Arcane Crystal 3000G <:fe16_139:715167995122417795>C+"
         },
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "blessedlance": {
         "name": "Blessed Lance",
@@ -977,7 +995,10 @@
         "reference": {
             "Forge": "**Bolt Axe+** 4x Arcane Crystal 1150G <:fe16_139:715167995122417795>B+"
         },
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "braveaxe": {
         "name": "Brave Axe",
@@ -1022,7 +1043,10 @@
         },
         "desc": "Hero's Relic (Crest of Dominic). Crest-bearer can use Dust. Deals magic-based damage.",
         "reference": {},
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "darkcrusher": {
         "name": "Dark Crusher",
@@ -1037,7 +1061,10 @@
         },
         "desc": "Replica. Deals magic-based damage, enables Dust for Crest of Dominic.",
         "reference": {},
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "devilaxe": {
         "name": "Devil Axe",
@@ -1469,7 +1496,10 @@
         "reference": {
             "Forge": "**Magic Bow+** 4x Arcane Crystal 1200G <:fe16_139:715167995122417795>B+"
         },
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "minibow": {
         "name": "Mini Bow",
@@ -1633,7 +1663,10 @@
         "reference": {
             "Forge": "**Aura Knuckles+** 6x Arcane Crystal 3000G <:fe16_139:715167995122417795>A+"
         },
-        "weapon": true
+        "weapon": true,
+        "equip": {
+            "magical": true
+        }
     },
     "brokengauntlets": {
         "name": "Broken Gauntlets",
