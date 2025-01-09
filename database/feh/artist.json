@@ -27483,7 +27483,13 @@
       "Resplendent Hinoka",
       "Resp Hinoka",
       "R Hinoka",
-      "Hinoka (Resplendent)"
+      "Hinoka (Resplendent)",
+      "Benevolent Thief",
+      "Dew: Benevolent Thief",
+      "Base Dew",
+      "Normal Dew",
+      "Regular Dew",
+      "dew"
     ],
     "HARD_ALT_NAME": [
       "Aspiring Knight",
@@ -27499,9 +27505,16 @@
       "Resplendent Hinoka",
       "Resp Hinoka",
       "R Hinoka",
-      "Hinoka (Resplendent)"
+      "Hinoka (Resplendent)",
+      "Benevolent Thief",
+      "Dew: Benevolent Thief",
+      "Base Dew",
+      "Normal Dew",
+      "Regular Dew",
+      "dew"
     ],
     "heroes": {
+      "dew": "<:Red_Dagger:1124846223518605324>Dew",
       "fee": "<:Red_Sword:1124846201070698536>Fee",
       "hanaR": "<:Red_Sword:1124846201070698536>Hana (Resplendent)",
       "hinokaR": "<:Blue_Lance:1124845569496584302>Hinoka (Resplendent)"

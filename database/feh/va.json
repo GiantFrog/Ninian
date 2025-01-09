@@ -29807,5 +29807,27 @@
       "midir",
       "mid"
     ]
+  },
+  "kibawalker": {
+    "heroes": {
+      "dew": "<:Red_Dagger:1124846223518605324>Dew"
+    },
+    "name": "Kiba Walker",
+    "ALT_NAME": [
+      "Benevolent Thief",
+      "Dew: Benevolent Thief",
+      "Base Dew",
+      "Normal Dew",
+      "Regular Dew",
+      "dew"
+    ],
+    "HARD_ALT_NAME": [
+      "Benevolent Thief",
+      "Dew: Benevolent Thief",
+      "Base Dew",
+      "Normal Dew",
+      "Regular Dew",
+      "dew"
+    ]
   }
 }
