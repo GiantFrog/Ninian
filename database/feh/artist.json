@@ -10184,7 +10184,14 @@
       "Normal Mozu",
       "Base Mozu",
       "Regular Mozu",
-      "mozu"
+      "mozu",
+      "Archer of Yngvi",
+      "Midir: Archer of Yngvi",
+      "Base Midir",
+      "Normal Midir",
+      "Regular Midir",
+      "midir",
+      "mid"
     ],
     "HARD_ALT_NAME": [
       "deltheaR",
@@ -10333,7 +10340,14 @@
       "Normal Mozu",
       "Base Mozu",
       "Regular Mozu",
-      "mozu"
+      "mozu",
+      "Archer of Yngvi",
+      "Midir: Archer of Yngvi",
+      "Base Midir",
+      "Normal Midir",
+      "Regular Midir",
+      "midir",
+      "mid"
     ],
     "heroes": {
       "deltheaR": "<:Blue_Tome:1124845593211191297>Delthea (Resplendent)",
@@ -10343,6 +10357,7 @@
       "kiragi": "<:Colorless_Bow:1124845636659982457>Kiragi",
       "laevatein2": "<:Colorless_Staff:1124845704444137592>New Year Laevatein",
       "larum": "<:Colorless_Dagger:1124845658617155734>Larum",
+      "midir": "<:Blue_Bow:1124845525695475845>Midir",
       "mozu": "<:Blue_Lance:1124845569496584302>Mozu",
       "rickard": "<:Red_Sword:1124846201070698536>Thief Rickard",
       "velouria": "<:Colorless_Beast:1124845615935918110>Velouria"
@@ -15512,9 +15527,9 @@
     "HARD_ALT_NAME": [
       "brigid",
       "Pirate Brigid",
-      "brigid1",
-      "bridget1",
-      "briggid1",
+      "brigid2",
+      "bridget2",
+      "briggid2",
       "Orgahil Pirate",
       "Brigid",
       "Briggid",
@@ -15527,7 +15542,7 @@
       "Pirate Bridget"
     ],
     "heroes": {
-      "brigid": "<:Red_Bow:1124846280951218289>Pirate Brigid"
+      "brigid2": "<:Red_Bow:1124846280951218289>Pirate Brigid"
     },
     "name": "Might O (\u5e97\u4e3b\u30de\u30a4\u30c8\u30aa)"
   },
@@ -21167,7 +21182,14 @@
       "Regular Leonardo",
       "Base Leonardo",
       "Normal Leonardo",
-      "leonardo"
+      "leonardo",
+      "Unbeaten Warrior",
+      "Chulainn: Unbeaten Warrior",
+      "Base Chulainn",
+      "Normal Chulainn",
+      "Regular Chulainn",
+      "chulainn",
+      "holyn"
     ],
     "HARD_ALT_NAME": [
       "Base Rex",
@@ -21291,10 +21313,18 @@
       "Regular Leonardo",
       "Base Leonardo",
       "Normal Leonardo",
-      "leonardo"
+      "leonardo",
+      "Unbeaten Warrior",
+      "Chulainn: Unbeaten Warrior",
+      "Base Chulainn",
+      "Normal Chulainn",
+      "Regular Chulainn",
+      "chulainn",
+      "holyn"
     ],
     "heroes": {
       "arlen": "<:Colorless_Tome:1124845725960904734>Arlen",
+      "chulainn": "<:Red_Sword:1124846201070698536>Chulainn",
       "geoffrey": "<:Blue_Lance:1124845569496584302>Geoffrey",
       "gotoh": "<:Colorless_Tome:1124845725960904734>Gotoh",
       "haar": "<:Green_Axe:1124845885277343754>Haar",
@@ -22151,7 +22181,15 @@
       "Yukata Lucia",
       "HS Lucia",
       "Fes Lucia",
-      "lucia2"
+      "lucia2",
+      "Awakened Bow",
+      "Brigid: Awakened Bow",
+      "Base Brigid",
+      "Normal Brigid",
+      "Regular Brigid",
+      "Attuned Brigid",
+      "brigid1",
+      "Awakened Bow"
     ],
     "HARD_ALT_NAME": [
       "Beautiful Mage",
@@ -22289,11 +22327,19 @@
       "Yukata Lucia",
       "HS Lucia",
       "Fes Lucia",
-      "lucia2"
+      "lucia2",
+      "Awakened Bow",
+      "Brigid: Awakened Bow",
+      "Base Brigid",
+      "Normal Brigid",
+      "Regular Brigid",
+      "Attuned Brigid",
+      "brigid1"
     ],
     "heroes": {
       "august": "<:Colorless_Staff:1124845704444137592>August",
       "ayraR": "<:Red_Sword:1124846201070698536>Ayra (Resplendent)",
+      "brigid1": "<:Green_Bow:1124845936426897428>Attuned Brigid",
       "eldiganR": "<:Red_Sword:1124846201070698536>Eldigan (Resplendent)",
       "flavia2": "<:Red_Sword:1124846201070698536>Bridal Flavia",
       "ishtarR": "<:Blue_Tome:1124845593211191297>Ishtar (Resplendent)",
@@ -26661,7 +26707,14 @@
       "Harmonic Nephenee",
       "Harmonized Nephenee",
       "Fes Nephenee",
-      "nephenee3"
+      "nephenee3",
+      "Lady of Yngvi",
+      "Edain: Lady of Yngvi",
+      "Base Edain",
+      "Normal Edain",
+      "Regular Edain",
+      "edain",
+      "aideen"
     ],
     "HARD_ALT_NAME": [
       "Valentines Reflet F",
@@ -26838,11 +26891,19 @@
       "Harmonized Nephenee",
       "HS Nephenee",
       "Fes Nephenee",
-      "nephenee3"
+      "nephenee3",
+      "Lady of Yngvi",
+      "Edain: Lady of Yngvi",
+      "Base Edain",
+      "Normal Edain",
+      "Regular Edain",
+      "edain",
+      "aideen"
     ],
     "heroes": {
       "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash",
       "corrin12": "<:Blue_Breath:1124845312637403236>Halloween Female Corrin",
+      "edain": "<:Colorless_Staff:1124845704444137592>Edain",
       "elincia3": "<:Blue_Bow:1124845525695475845>Summer Elincia",
       "henriette": "<:Red_Tome:1124846175577710642>Valentines Henriette",
       "hinoka4": "<:Green_Bow:1124845936426897428>Duo Hinoka",
@@ -27263,7 +27324,13 @@
       "Resplendent Hinoka",
       "Resp Hinoka",
       "R Hinoka",
-      "Hinoka (Resplendent)"
+      "Hinoka (Resplendent)",
+      "Benevolent Thief",
+      "Dew: Benevolent Thief",
+      "Base Dew",
+      "Normal Dew",
+      "Regular Dew",
+      "dew"
     ],
     "HARD_ALT_NAME": [
       "Aspiring Knight",
@@ -27279,9 +27346,16 @@
       "Resplendent Hinoka",
       "Resp Hinoka",
       "R Hinoka",
-      "Hinoka (Resplendent)"
+      "Hinoka (Resplendent)",
+      "Benevolent Thief",
+      "Dew: Benevolent Thief",
+      "Base Dew",
+      "Normal Dew",
+      "Regular Dew",
+      "dew"
     ],
     "heroes": {
+      "dew": "<:Red_Dagger:1124846223518605324>Dew",
       "fee": "<:Red_Sword:1124846201070698536>Fee",
       "hanaR": "<:Red_Sword:1124846201070698536>Hana (Resplendent)",
       "hinokaR": "<:Blue_Lance:1124845569496584302>Hinoka (Resplendent)"
@@ -27354,6 +27428,7 @@
   },
   "dd": {
     "heroes": {
+      "innes4": "<:Colorless_Bow:1124845636659982457>Innes",
       "leo5": "<:Colorless_Tome:1124845725960904734>Festival Leo",
       "yukimura": "<:Colorless_Dagger:1124845658617155734>Yukimura"
     },
@@ -27373,7 +27448,13 @@
       "Yukata Leo",
       "HS Leo",
       "Fes Leo",
-      "leo5"
+      "leo5",
+      "New Year's Aim",
+      "Innes: New Year's Aim",
+      "New Year Innes",
+      "New Years Innes",
+      "NY Innes",
+      "innes4"
     ],
     "HARD_ALT_NAME": [
       "Puppet Master",
@@ -27390,7 +27471,13 @@
       "Yukata Leo",
       "HS Leo",
       "Fes Leo",
-      "leo5"
+      "leo5",
+      "New Year's Aim",
+      "Innes: New Year's Aim",
+      "New Year Innes",
+      "New Years Innes",
+      "NY Innes",
+      "innes4"
     ]
   },
   "takubon": {
@@ -27479,7 +27566,8 @@
   },
   "ir": {
     "heroes": {
-      "embla2": "<:Colorless_Beast:1124845615935918110>Bride Embla"
+      "embla2": "<:Colorless_Beast:1124845615935918110>Bride Embla",
+      "vaida": "<:Blue_Lance:1124845569496584302>Vaida"
     },
     "name": "\u2200ir",
     "ALT_NAME": [
@@ -27490,7 +27578,13 @@
       "W Embla",
       "Bride Embla",
       "Bridal Embla",
-      "embla2"
+      "embla2",
+      "Dracofang General",
+      "Vaida: Dracofang General",
+      "Base Vaida",
+      "Normal Vaida",
+      "Regular Vaida",
+      "vaida"
     ],
     "HARD_ALT_NAME": [
       "Closed-Off Bride",
@@ -27500,7 +27594,13 @@
       "W Embla",
       "Bride Embla",
       "Bridal Embla",
-      "embla2"
+      "embla2",
+      "Dracofang General",
+      "Vaida: Dracofang General",
+      "Base Vaida",
+      "Normal Vaida",
+      "Regular Vaida",
+      "vaida"
     ]
   },
   "shengchuan": {
