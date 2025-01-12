@@ -302,14 +302,10 @@ def main(units):
 
 
 with open('update.json', 'r', encoding="utf-8") as f:
-    units = json.load(f)
-
-main(units)
-
-#credits('robin14', False)
-
-#weapon_get("dithorba")
-#weapon_get("ilyana")
+    if len(f.readlines()) != 0:
+        f.seek(0)
+        units = json.load(f)
+        main(units)
 
 
 
