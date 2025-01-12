@@ -28044,5 +28044,23 @@
       "Arm Leila",
       "leila3"
     ]
+  },
+  "aiwo": {
+    "heroes": {
+      "nino2R": "<:Green_Tome:1124845959873036289>Pegasus Nino (Resplendent)"
+    },
+    "name": "\u3042\u3044\u3092",
+    "ALT_NAME": [
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
+    ]
   }
 }

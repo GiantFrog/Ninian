@@ -24342,7 +24342,11 @@
       "Nino: Fang's Heart",
       "Attuned Nino",
       "Attune Nino",
-      "nino5"
+      "nino5",
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "kagero",
@@ -24502,7 +24506,11 @@
       "Attuned Nino",
       "Attune Nino",
       "nino5",
-      "nino5"
+      "nino5",
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
     ],
     "heroes": {
       "fae": "<:Green_Breath:1124845770978361425>Fae",
@@ -24519,6 +24527,7 @@
       "nina2": "<:Colorless_Dagger:1124845658617155734>Duo Nina",
       "nino": "<:Green_Tome:1124845959873036289>Nino",
       "nino2": "<:Green_Tome:1124845959873036289>Pegasus Nino",
+      "nino2R": "<:Green_Tome:1124845959873036289>Pegasus Nino (Resplendent)",
       "nino3": "<:Blue_Tome:1124845593211191297>Winter Nino",
       "nino4": "<:Red_Tome:1124846175577710642>Khadein Nino",
       "nino5": "<:Green_Dagger:1124845796169351320>Attuned Nino",
