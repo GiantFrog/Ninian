@@ -12643,7 +12643,11 @@
       "W Claude",
       "Brave Claude",
       "Claude: Yuletide Schemer",
-      "Base Jamke"
+      "Base Jamke",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "L Claude",
@@ -12697,7 +12701,11 @@
       "Claude: Yuletide Schemer",
       "B Claude",
       "Base Jamke",
-      "Canas"
+      "Canas",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "heroes": {
       "canas": "<:Red_Tome:1124846175577710642>Canas",
@@ -12707,6 +12715,7 @@
       "claude4": "<:Blue_Dagger:1124845543026335764>Summer Claude",
       "claude5": "<:Green_Dagger:1124845796169351320>Wind Claude",
       "claude6": "<:Colorless_Bow:1124845636659982457>Winter Claude",
+      "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
       "jamke": "<:Colorless_Bow:1124845636659982457>Jamke"
     },
     "name": "Joe Zieja"
@@ -15323,7 +15332,11 @@
       "Legendary Arum",
       "Alm: Lovebird Duo",
       "CYL Soren",
-      "Wind of Tradition"
+      "Wind of Tradition",
+      "Resplendent Brave Alm",
+      "Resp Brave Alm",
+      "R Brave Alm",
+      "Brave Alm (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Child Senerio",
@@ -15434,12 +15447,17 @@
       "soren1",
       "K Senerio",
       "Young Senerio",
-      "gk1"
+      "gk1",
+      "Resplendent Brave Alm",
+      "Resp Brave Alm",
+      "R Brave Alm",
+      "Brave Alm (Resplendent)"
     ],
     "heroes": {
       "alm": "<:Red_Sword:1124846201070698536>Alm",
       "alm2": "<:Colorless_Bow:1124845636659982457>Legendary Alm",
       "alm3": "<:Red_Sword:1124846201070698536>Brave Alm",
+      "alm3R": "<:Red_Sword:1124846201070698536>Brave Alm (Resplendent)",
       "alm4": "<:Green_Axe:1124845885277343754>Duo Alm",
       "almR": "<:Red_Sword:1124846201070698536>Alm (Resplendent)",
       "gatekeeper": "<:Green_Tome:1124845959873036289>Brave Gatekeeper",
@@ -21033,6 +21051,10 @@
       "F Ursula",
       "Corrupted Ursula",
       "ursula4",
+      "Resplendent Brave Camilla",
+      "Resp Brave Camilla",
+      "R Brave Camilla",
+      "Brave Camilla (Resplendent)",
       "Resplendent Camilla",
       "Resp Camilla",
       "R Camilla",
@@ -21139,6 +21161,10 @@
       "F Ursula",
       "Corrupted Ursula",
       "ursula4",
+      "Resplendent Brave Camilla",
+      "Resp Brave Camilla",
+      "R Brave Camilla",
+      "Brave Camilla (Resplendent)",
       "Resplendent Camilla",
       "Resp Camilla",
       "R Camilla",
@@ -21152,6 +21178,7 @@
       "camilla5": "<:Red_Tome:1124846175577710642>Adrift Camilla",
       "camilla6": "<:Colorless_Dagger:1124845658617155734>Bath Camilla",
       "camilla7": "<:Colorless_Staff:1124845704444137592>Brave Camilla",
+      "camilla7R": "<:Colorless_Staff:1124845704444137592>Brave Camilla (Resplendent)",
       "camilla8": "<:Red_Tome:1124846175577710642>Ninja Camilla",
       "camilla9": "<:Green_Tome:1124845959873036289>Legendary Camilla",
       "camillaR": "<:Green_Axe:1124845885277343754>Camilla (Resplendent)",
@@ -24333,7 +24360,11 @@
       "Nino: Fang's Heart",
       "Attuned Nino",
       "Attune Nino",
-      "nino5"
+      "nino5",
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "kagero",
@@ -24493,7 +24524,11 @@
       "Attuned Nino",
       "Attune Nino",
       "nino5",
-      "nino5"
+      "nino5",
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
     ],
     "heroes": {
       "fae": "<:Green_Breath:1124845770978361425>Fae",
@@ -24510,6 +24545,7 @@
       "nina2": "<:Colorless_Dagger:1124845658617155734>Duo Nina",
       "nino": "<:Green_Tome:1124845959873036289>Nino",
       "nino2": "<:Green_Tome:1124845959873036289>Pegasus Nino",
+      "nino2R": "<:Green_Tome:1124845959873036289>Pegasus Nino (Resplendent)",
       "nino3": "<:Blue_Tome:1124845593211191297>Winter Nino",
       "nino4": "<:Red_Tome:1124846175577710642>Khadein Nino",
       "nino5": "<:Green_Dagger:1124845796169351320>Attuned Nino",

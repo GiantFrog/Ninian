@@ -1807,7 +1807,11 @@
       "Spooky Nagi",
       "Harmonic Nagi",
       "Harmonized Nagi",
-      "nagi2"
+      "nagi2",
+      "Resplendent Brave Alm",
+      "Resp Brave  Alm",
+      "R Brave Alm",
+      "Brave Alm (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Winter Erika",
@@ -2163,9 +2167,14 @@
       "Spooky Nagi",
       "Harmonic Nagi",
       "Harmonized Nagi",
-      "nagi2"
+      "nagi2",
+      "Resplendent Brave Alm",
+      "Resp Brave  Alm",
+      "R Brave Alm",
+      "Brave Alm (Resplendent)"
     ],
     "heroes": {
+      "alm3R": "<:Red_Sword:1124846201070698536>Brave Alm (Resplendent)",
       "ayra": "<:Red_Sword:1124846201070698536>Ayra",
       "ayra2": "<:Red_Sword:1124846201070698536>Harmonic Ayra",
       "berkut": "<:Blue_Lance:1124845569496584302>Berkut",
@@ -7563,7 +7572,11 @@
       "Leg M Shez",
       "Male L Shez",
       "shez6",
-      "mshez3"
+      "mshez3",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "roy2R",
@@ -7603,9 +7616,14 @@
       "Leg M Shez",
       "Male L Shez",
       "shez6",
-      "mshez3"
+      "mshez3",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "heroes": {
+      "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
       "robin14": "<:Blue_Tome:1124845593211191297>Young Female Robin",
       "roy2R": "<:Red_Sword:1124846201070698536>Brave Roy (Resplendent)",
       "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez"
@@ -28034,6 +28052,42 @@
       "Rearm Leila",
       "Arm Leila",
       "leila3"
+    ]
+  },
+  "aiwo": {
+    "heroes": {
+      "nino2R": "<:Green_Tome:1124845959873036289>Pegasus Nino (Resplendent)"
+    },
+    "name": "\u3042\u3044\u3092",
+    "ALT_NAME": [
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Nino",
+      "Resp Nino",
+      "R Nino",
+      "Nino (Resplendent)"
+    ]
+  },
+  "maiusagi": {
+    "heroes": {
+      "camilla7R": "<:Colorless_Staff:1124845704444137592>Brave Camilla (Resplendent)"
+    },
+    "name": "\u9ea6\u3046\u3055\u304e",
+    "ALT_NAME": [
+      "Resplendent Brave Camilla",
+      "Resp Brave Camilla",
+      "R Brave Camilla",
+      "Brave Camilla (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Brave Camilla",
+      "Resp Brave Camilla",
+      "R Brave Camilla",
+      "Brave Camilla (Resplendent)"
     ]
   }
 }

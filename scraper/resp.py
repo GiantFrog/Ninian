@@ -94,8 +94,8 @@ def scrape_resp(key):
                  'Special': [], 'Status': [], 'Map Select': []}
 
     a = 0
-    if utility.is_brave(unit):
-        a = 1
+    #if utility.is_brave(unit):
+        #a = 1
 
     q_table = documentquote.find_all(class_="wikitable")
     spc = q_table[16+a].find_all('td')
@@ -148,7 +148,7 @@ def scrape_resp(key):
 
     return
 
-scrape_resp('micaiah3')
+scrape_resp('camilla7')
 
 
 

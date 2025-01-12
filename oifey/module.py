@@ -175,7 +175,7 @@ class Module:
         text = ""
         
         for key, value in self.classic.items():
-            text += f"`@Veyle {self.name} {key}`\n"
+            text += f"`@Ninian {self.name} {key}`\n"
             
         embed.add_field("You might be looking for...", text, True)
         
