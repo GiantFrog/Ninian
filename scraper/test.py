@@ -17,9 +17,7 @@ with open(file, 'w') as fp:
     
 
 
-units = [
-    "Oswin: Impregnable Knight"
-]
+units = []
 
 
 

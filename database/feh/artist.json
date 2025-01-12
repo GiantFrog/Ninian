@@ -7563,7 +7563,11 @@
       "Leg M Shez",
       "Male L Shez",
       "shez6",
-      "mshez3"
+      "mshez3",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "roy2R",
@@ -7603,9 +7607,14 @@
       "Leg M Shez",
       "Male L Shez",
       "shez6",
-      "mshez3"
+      "mshez3",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "heroes": {
+      "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
       "robin14": "<:Blue_Tome:1124845593211191297>Young Female Robin",
       "roy2R": "<:Red_Sword:1124846201070698536>Brave Roy (Resplendent)",
       "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez"

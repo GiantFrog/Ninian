@@ -12643,7 +12643,11 @@
       "W Claude",
       "Brave Claude",
       "Claude: Yuletide Schemer",
-      "Base Jamke"
+      "Base Jamke",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "L Claude",
@@ -12697,7 +12701,11 @@
       "Claude: Yuletide Schemer",
       "B Claude",
       "Base Jamke",
-      "Canas"
+      "Canas",
+      "Resplendent Claude",
+      "Resp Claude",
+      "R Claude",
+      "Claude (Resplendent)"
     ],
     "heroes": {
       "canas": "<:Red_Tome:1124846175577710642>Canas",
@@ -12707,6 +12715,7 @@
       "claude4": "<:Blue_Dagger:1124845543026335764>Summer Claude",
       "claude5": "<:Green_Dagger:1124845796169351320>Wind Claude",
       "claude6": "<:Colorless_Bow:1124845636659982457>Winter Claude",
+      "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
       "jamke": "<:Colorless_Bow:1124845636659982457>Jamke"
     },
     "name": "Joe Zieja"
