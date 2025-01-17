@@ -6319,7 +6319,13 @@
       "Resplendent Catria",
       "Resp Catria",
       "R Catria",
-      "Catria (Resplendent)"
+      "Catria (Resplendent)",
+      "Willful Blades",
+      "Marisa: Willful Blades",
+      "Desert Marisa",
+      "Harmonic Marisa",
+      "D Marisa",
+      "marisa3"
     ],
     "HARD_ALT_NAME": [
       "catria",
@@ -6496,7 +6502,13 @@
       "Resplendent Catria",
       "Resp Catria",
       "R Catria",
-      "Catria (Resplendent)"
+      "Catria (Resplendent)",
+      "Willful Blades",
+      "Marisa: Willful Blades",
+      "Desert Marisa",
+      "Harmonic Marisa",
+      "D Marisa",
+      "marisa3"
     ],
     "heroes": {
       "catria": "<:Blue_Lance:1124845569496584302>Catria",
@@ -6510,6 +6522,7 @@
       "felicia3": "<:Green_Axe:1124845885277343754>Ice Felicia",
       "marisa": "<:Red_Sword:1124846201070698536>Marisa",
       "marisa2": "<:Blue_Lance:1124845569496584302>Spring Marisa",
+      "marisa3": "<:Green_Axe:1124845885277343754>Marisa",
       "palla3": "<:Blue_Lance:1124845569496584302>Duo Palla",
       "setsuna": "<:Colorless_Bow:1124845636659982457>Setsuna"
     },
@@ -10013,7 +10026,12 @@
       "Neimi: Tearful Archer",
       "Tearful Archer",
       "Base Neimi",
-      "Normal Neimi"
+      "Normal Neimi",
+      "Blooming Blade",
+      "Malice: Blooming Blade",
+      "Desert Malice",
+      "D Malice",
+      "malice2"
     ],
     "HARD_ALT_NAME": [
       "malice",
@@ -10031,10 +10049,16 @@
       "neimi1",
       "Tearful Archer",
       "Base Neimi",
-      "Normal Neimi"
+      "Normal Neimi",
+      "Blooming Blade",
+      "Malice: Blooming Blade",
+      "Desert Malice",
+      "D Malice",
+      "malice2"
     ],
     "heroes": {
       "malice": "<:Red_Sword:1124846201070698536>Malice",
+      "malice2": "<:Red_Sword:1124846201070698536>Malice",
       "neimi": "<:Red_Bow:1124846280951218289>Neimi"
     },
     "name": "Giselle Fernandez"
@@ -10357,7 +10381,12 @@
       "Base Eph",
       "Picnic Lucas",
       "Legend Eph",
-      "Duo Erica"
+      "Duo Erica",
+      "Desert Mercenary",
+      "Ike: Desert Mercenary",
+      "Desert Ike",
+      "D Ike",
+      "ike8"
     ],
     "HARD_ALT_NAME": [
       "ike1",
@@ -10565,7 +10594,12 @@
       "Picnic Lucas",
       "Ike (Resplendent)",
       "Legend Eph",
-      "Duo Erica"
+      "Duo Erica",
+      "Desert Mercenary",
+      "Ike: Desert Mercenary",
+      "Desert Ike",
+      "D Ike",
+      "ike8"
     ],
     "heroes": {
       "eirika5": "<:Red_Sword:1124846201070698536>Duo Eirika",
@@ -10589,6 +10623,7 @@
       "ike5": "<:Red_Sword:1124846201070698536>Fallen Ike",
       "ike6": "<:Red_Sword:1124846201070698536>Duo Ike",
       "ike7": "<:Red_Sword:1124846201070698536>Emblem Ike",
+      "ike8": "<:Blue_Lance:1124845569496584302>Ike",
       "ikeR": "<:Red_Sword:1124846201070698536>Ike (Resplendent)",
       "lukas": "<:Blue_Lance:1124845569496584302>Lukas",
       "lukas2": "<:Blue_Lance:1124845569496584302>Picnic Lukas",
@@ -11976,7 +12011,13 @@
       "Brave Beleth Female",
       "Leg Beleth",
       "Legend Byleth Female",
-      "Normal F Byleth"
+      "Normal F Byleth",
+      "Willful Blades",
+      "Marisa: Willful Blades",
+      "Desert Marisa",
+      "Harmonic Marisa",
+      "D Marisa",
+      "marisa3"
     ],
     "HARD_ALT_NAME": [
       "Harmonized Beleth",
@@ -12173,14 +12214,21 @@
       "Brave Beleth Female",
       "Leg Beleth Female",
       "Legend Byleth Female",
-      "Normal F Byleth"
+      "Normal F Byleth",
+      "Willful Blades",
+      "Marisa: Willful Blades",
+      "Desert Marisa",
+      "Harmonic Marisa",
+      "D Marisa",
+      "marisa3"
     ],
     "heroes": {
       "byleth": "<:Red_Sword:1124846201070698536>Female Byleth",
       "byleth3": "<:Red_Tome:1124846175577710642>Duo Byleth",
       "byleth5": "<:Blue_Tome:1124845593211191297>Legendary Female Byleth",
       "byleth6": "<:Colorless_Tome:1124845725960904734>Brave Byleth",
-      "byleth9": "<:Red_Sword:1124846201070698536>Winter Byleth"
+      "byleth9": "<:Red_Sword:1124846201070698536>Winter Byleth",
+      "marisa3": "<:Green_Axe:1124845885277343754>Marisa"
     },
     "name": "Jeannie Tirado"
   },
@@ -12209,7 +12257,12 @@
       "Tethys: Beloved Dancer",
       "Beloved Dancer",
       "Base Tethys",
-      "Normal Tethys"
+      "Normal Tethys",
+      "Dancing Sands",
+      "Tethys: Dancing Sands",
+      "Desert Tethys",
+      "D Tethys",
+      "tethys2"
     ],
     "HARD_ALT_NAME": [
       "tethys",
@@ -12217,10 +12270,16 @@
       "tethys1",
       "Beloved Dancer",
       "Base Tethys",
-      "Normal Tethys"
+      "Normal Tethys",
+      "Dancing Sands",
+      "Tethys: Dancing Sands",
+      "Desert Tethys",
+      "D Tethys",
+      "tethys2"
     ],
     "heroes": {
-      "tethys": "<:Colorless_Dagger:1124845658617155734>Tethys"
+      "tethys": "<:Colorless_Dagger:1124845658617155734>Tethys",
+      "tethys2": "<:Colorless_Dagger:1124845658617155734>Tethys"
     },
     "name": "Jennifer Losi"
   },
@@ -14345,7 +14404,12 @@
       "Base Savr",
       "Normal Savr",
       "Base Sabre",
-      "Normal Sabre"
+      "Normal Sabre",
+      "Dune Walker",
+      "Saber: Dune Walker",
+      "Desert Saber",
+      "D Saber",
+      "saber2"
     ],
     "HARD_ALT_NAME": [
       "saber",
@@ -14367,10 +14431,16 @@
       "Base Sabre",
       "Normal Sabre",
       "saberR",
-      "Saber (Resplendent)"
+      "Saber (Resplendent)",
+      "Dune Walker",
+      "Saber: Dune Walker",
+      "Desert Saber",
+      "D Saber",
+      "saber2"
     ],
     "heroes": {
       "saber": "<:Red_Sword:1124846201070698536>Saber",
+      "saber2": "<:Blue_Lance:1124845569496584302>Saber",
       "saberR": "<:Red_Sword:1124846201070698536>Saber (Resplendent)"
     },
     "name": "Keith Silverstein"
