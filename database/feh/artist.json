@@ -1275,7 +1275,12 @@
       "Summer Hrid",
       "S Hrid",
       "Beach Hrid",
-      "hrid3"
+      "hrid3",
+      "Desert Mercenary",
+      "Ike: Desert Mercenary",
+      "Desert Ike",
+      "D Ike",
+      "ike8"
     ],
     "HARD_ALT_NAME": [
       "gaiusR",
@@ -1485,7 +1490,12 @@
       "Summer Hrid",
       "S Hrid",
       "Beach Hrid",
-      "hrid3"
+      "hrid3",
+      "Desert Mercenary",
+      "Ike: Desert Mercenary",
+      "Desert Ike",
+      "D Ike",
+      "ike8"
     ],
     "heroes": {
       "alfonse3": "<:Blue_Tome:1124845593211191297>Duo Alfonse",
@@ -1500,6 +1510,7 @@
       "gangrel": "<:Colorless_Dagger:1124845658617155734>Gangrel",
       "hrid2": "<:Red_Sword:1124846201070698536>New Year Hr\u00edd",
       "hrid3": "<:Blue_Lance:1124845569496584302>Summer Hr\u00edd",
+      "ike8": "<:Blue_Lance:1124845569496584302>Ike",
       "navarre2": "<:Blue_Lance:1124845569496584302>Ninja Navarre",
       "odinR": "<:Blue_Tome:1124845593211191297>Odin (Resplendent)",
       "sylvain": "<:Green_Axe:1124845885277343754>Sylvain",
@@ -2904,7 +2915,12 @@
       "Rearmed pjazi",
       "Rearm pjazi",
       "Arm pjazi",
-      "pjazi"
+      "pjazi",
+      "Blooming Blade",
+      "Malice: Blooming Blade",
+      "Desert Malice",
+      "D Malice",
+      "malice2"
     ],
     "HARD_ALT_NAME": [
       "Leg Female Grima",
@@ -3158,7 +3174,12 @@
       "Rearmed pjazi",
       "Rearm pjazi",
       "Arm pjazi",
-      "pjazi"
+      "pjazi",
+      "Blooming Blade",
+      "Malice: Blooming Blade",
+      "Desert Malice",
+      "D Malice",
+      "malice2"
     ],
     "heroes": {
       "galzus": "<:Red_Sword:1124846201070698536>Galzus",
@@ -3166,6 +3187,7 @@
       "ishtar2": "<:Red_Tome:1124846175577710642>Dancer Ishtar",
       "lara": "<:Red_Dagger:1124846223518605324>Lara",
       "malice": "<:Red_Sword:1124846201070698536>Malice",
+      "malice2": "<:Red_Sword:1124846201070698536>Malice",
       "micaiah": "<:Blue_Tome:1124845593211191297>Micaiah",
       "micaiah2": "<:Red_Tome:1124846175577710642>Dancer Micaiah",
       "olivia2": "<:Colorless_Dagger:1124845658617155734>Dancer Olivia",
@@ -7282,7 +7304,12 @@
       "Base L'Arachel",
       "Normal L'Arachel",
       "Base Larchel",
-      "Normal Larchel"
+      "Normal Larchel",
+      "Dancing Sands",
+      "Tethys: Dancing Sands",
+      "Desert Tethys",
+      "D Tethys",
+      "tethys2"
     ],
     "HARD_ALT_NAME": [
       "larachelR",
@@ -7295,10 +7322,16 @@
       "Base L'Arachel",
       "Normal L'Arachel",
       "Base Larchel",
-      "Normal Larchel"
+      "Normal Larchel",
+      "Dancing Sands",
+      "Tethys: Dancing Sands",
+      "Desert Tethys",
+      "D Tethys",
+      "tethys2"
     ],
     "heroes": {
-      "larachelR": "<:Blue_Tome:1124845593211191297>L'Arachel (Resplendent)"
+      "larachelR": "<:Blue_Tome:1124845593211191297>L'Arachel (Resplendent)",
+      "tethys2": "<:Colorless_Dagger:1124845658617155734>Tethys"
     },
     "name": "Haruno Itsuki (\u6674\u4e43\u6a39)"
   },
@@ -9312,7 +9345,13 @@
       "Yukata Mia",
       "HS Mia",
       "Fes Mia",
-      "mia5"
+      "mia5",
+      "Willful Blades",
+      "Marisa: Willful Blades",
+      "Desert Marisa",
+      "Harmonic Marisa",
+      "D Marisa",
+      "marisa3"
     ],
     "HARD_ALT_NAME": [
       "chloe",
@@ -9360,11 +9399,18 @@
       "Yukata Mia",
       "HS Mia",
       "Fes Mia",
-      "mia5"
+      "mia5",
+      "Willful Blades",
+      "Marisa: Willful Blades",
+      "Desert Marisa",
+      "Harmonic Marisa",
+      "D Marisa",
+      "marisa3"
     ],
     "heroes": {
       "cecilia3": "<:Red_Tome:1124846175577710642>Bridal Cecilia",
       "chloe": "<:Blue_Lance:1124845569496584302>Chlo\u00e9",
+      "marisa3": "<:Green_Axe:1124845885277343754>Marisa",
       "mia5": "<:Green_Axe:1124845885277343754>Festival Mia",
       "plumeria3": "<:Blue_Tome:1124845593211191297>Rearmed Plumeria",
       "shamir3": "<:Blue_Bow:1124845525695475845>Duo Shamir"
@@ -15261,7 +15307,12 @@
       "Base Caspar",
       "Normal Caspar",
       "Regular Caspar",
-      "caspar"
+      "caspar",
+      "Dune Walker",
+      "Saber: Dune Walker",
+      "Desert Saber",
+      "D Saber",
+      "saber2"
     ],
     "HARD_ALT_NAME": [
       "Child Minerva",
@@ -15425,7 +15476,12 @@
       "Base Caspar",
       "Normal Caspar",
       "Regular Caspar",
-      "caspar"
+      "caspar",
+      "Dune Walker",
+      "Saber: Dune Walker",
+      "Desert Saber",
+      "D Saber",
+      "saber2"
     ],
     "heroes": {
       "cain": "<:Red_Sword:1124846201070698536>Cain",
@@ -15444,6 +15500,7 @@
       "ranulf": "<:Green_Beast:1124845912385138738>Ranulf",
       "ross": "<:Green_Axe:1124845885277343754>Ross",
       "roy4": "<:Red_Sword:1124846201070698536>Legendary Roy",
+      "saber2": "<:Blue_Lance:1124845569496584302>Saber",
       "silas": "<:Blue_Lance:1124845569496584302>Silas",
       "tormod": "<:Red_Tome:1124846175577710642>Nabata Tormod"
     },
