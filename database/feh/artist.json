@@ -21528,7 +21528,15 @@
       "Base Bors",
       "Normal Bors",
       "Regular Bors",
-      "bors"
+      "bors",
+      "Omniscient One",
+      "Athos: Omniscient One",
+      "Base Athos",
+      "Normal Athos",
+      "Regular Athos",
+      "athos",
+      "mythic Athos",
+      "M athos"
     ],
     "HARD_ALT_NAME": [
       "arden",
@@ -21630,10 +21638,19 @@
       "Base Bors",
       "Normal Bors",
       "Regular Bors",
-      "bors"
+      "bors",
+      "Omniscient One",
+      "Athos: Omniscient One",
+      "Base Athos",
+      "Normal Athos",
+      "Regular Athos",
+      "athos",
+      "mythic athos",
+      "m athos"
     ],
     "heroes": {
       "arden": "<:Red_Sword:1124846201070698536>Arden",
+      "athos": "<:Blue_Tome:1124845593211191297>Athos",
       "bors": "<:Blue_Lance:1124845569496584302>Bors",
       "darros": "<:Green_Axe:1124845885277343754>Pirate Darros",
       "dorcas": "<:Green_Axe:1124845885277343754>Dorcas",
@@ -28145,6 +28162,26 @@
       "Resp Brave Camilla",
       "R Brave Camilla",
       "Brave Camilla (Resplendent)"
+    ]
+  },
+  "makimurashiyunsuke": {
+    "heroes": {
+      "ayra3": "<:Red_Sword:1124846201070698536>Ayra"
+    },
+    "name": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
+    "ALT_NAME": [
+      "Supreme Astra",
+      "Ayra: Supreme Astra",
+      "Legendary Ayra",
+      "L Ayra",
+      "ayra3"
+    ],
+    "HARD_ALT_NAME": [
+      "Supreme Astra",
+      "Ayra: Supreme Astra",
+      "Legendary Ayra",
+      "L Ayra",
+      "ayra3"
     ]
   }
 }

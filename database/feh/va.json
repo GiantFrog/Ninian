@@ -2904,7 +2904,12 @@
       "Resplendent Ayra",
       "Resp Ayra",
       "R Ayra",
-      "Ayra (Resplendent)"
+      "Ayra (Resplendent)",
+      "Supreme Astra",
+      "Ayra: Supreme Astra",
+      "Legendary Ayra",
+      "L Ayra",
+      "ayra3"
     ],
     "HARD_ALT_NAME": [
       "ayra",
@@ -2958,11 +2963,17 @@
       "Resplendent Ayra",
       "Resp Ayra",
       "R Ayra",
-      "Ayra (Resplendent)"
+      "Ayra (Resplendent)",
+      "Supreme Astra",
+      "Ayra: Supreme Astra",
+      "Legendary Ayra",
+      "L Ayra",
+      "ayra3"
     ],
     "heroes": {
       "ayra": "<:Red_Sword:1124846201070698536>Ayra",
       "ayra2": "<:Red_Sword:1124846201070698536>Harmonic Ayra",
+      "ayra3": "<:Red_Sword:1124846201070698536>Ayra",
       "ayraR": "<:Red_Sword:1124846201070698536>Ayra (Resplendent)",
       "lute": "<:Blue_Tome:1124845593211191297>Lute",
       "lute2": "<:Blue_Tome:1124845593211191297>Summer Lute",
@@ -29701,6 +29712,32 @@
       "Normal Dew",
       "Regular Dew",
       "dew"
+    ]
+  },
+  "richardtatum": {
+    "heroes": {
+      "athos": "<:Blue_Tome:1124845593211191297>Athos"
+    },
+    "name": "Richard Tatum",
+    "ALT_NAME": [
+      "Omniscient One",
+      "Athos: Omniscient One",
+      "Base Athos",
+      "Normal Athos",
+      "Regular Athos",
+      "athos",
+      "mythic Athos",
+      "M athos"
+    ],
+    "HARD_ALT_NAME": [
+      "Omniscient One",
+      "Athos: Omniscient One",
+      "Base Athos",
+      "Normal Athos",
+      "Regular Athos",
+      "athos",
+      "mythic athos",
+      "m athos"
     ]
   }
 }
