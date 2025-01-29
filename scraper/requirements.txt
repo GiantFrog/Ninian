@@ -1,0 +1,5 @@
+# these are needed to run the webscraper on your machine, but not the bot itself.
+beautifulsoup4
+Pillow
+requests
+unidecode
