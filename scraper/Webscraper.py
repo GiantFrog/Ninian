@@ -272,20 +272,6 @@ def scrape_page(page_name, alts=None, version=None):
         growths.append(int(gr))
         blank['growth'][keys[i-1]] = growths[i-1]
 
-    
-    """
-
-    for i in range(0, len(keys)):
-        
-        diff = lvl40[i] - lvl1[i]
-        if diff == 13 or diff == 22 or diff == 33:
-            blank['superbane'].append(keys[i])
-        if diff == 10 or diff == 19 or diff == 30:
-            blank['superboon'].append(keys[i])
-    """
-        
-        
-
     skill_tables = document.find_all(class_="wikitable default unsortable skills-table")
     blank['weapons'] = {}
     wep_table = skill_tables[0].find_all('tr')
@@ -361,8 +347,6 @@ def scrape_page(page_name, alts=None, version=None):
     blank['quotes']['Status'] = []
     blank['quotes']['Map Select'] = []
 
-    # print(quotes)
-
     # Check for 'Movie' quotes. If found, remove them. Only 8 units even have them
     if len(quotes) > 25:
         del (quotes[3])
@@ -407,7 +391,6 @@ def scrape_page(page_name, alts=None, version=None):
 
     q_table = documentquote.find_all(class_="wikitable")
 
-    # print(len(q_table))
     spc = q_table[4].find_all('td')
     spc_clean = []
     for i in range(0, len(spc)):
@@ -419,7 +402,6 @@ def scrape_page(page_name, alts=None, version=None):
     blank['quotes']['Special'].append(spc_clean[7])
 
     spc = q_table[8].find_all('td')
-    # print(spc)
     spc_clean = []
     for i in range(0, len(spc)):
         if i == ((len(spc_clean)) * 3 + 1):
@@ -503,7 +485,6 @@ def scrape_page(page_name, alts=None, version=None):
 
     with open('./update.json',  'w', encoding='utf8',) as fp:
         json.dump(obj, fp, indent=2)
-    # print(blank)
     return blank
 
 
@@ -526,8 +507,3 @@ def bold_names(input_string):
     else:
         output_string = input_string
     return output_string
-
-
-#print(scrape_page('/wiki/Lucina:_Future_Witness'))
-# print(scrape_page('/wiki/Camilla:_Bewitching_Beauty'))
-# print(scrape_page('/wiki/Corrin:_Nightfall_Ninja_Act'))
