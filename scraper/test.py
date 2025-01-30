@@ -29,17 +29,3 @@ version = None  # will calculate the book & chapter the game is currently on whe
 
 for i in range(0, len(units)):
     Webscraper.scrape_page(f"/wiki/{units[i]}", alts=alts, version=version)
-    
-
-#with open(file, 'w') as fp:
-    #json.dump(obj, fp)
-
-
-
-
-
-    
-  
-
-
-

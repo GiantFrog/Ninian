@@ -182,7 +182,7 @@ def scrape_page(page_name, alts=None, version=None):
             if strings[1].lower() in POSSIBLE_BLESSINGS:
                 blank['blessing'] = strings[1]
 
-        if "Ally Boost" in i.text:
+        if "Ally Boost" in i.text or ("Boost" in i.text and "2Boost" not in i.text and "3Boost" not in i.text):
             strings = list(i.stripped_strings)
             boosts = strings[1].split(',')
             temp = {}
@@ -190,6 +190,7 @@ def scrape_page(page_name, alts=None, version=None):
                 parts = j.split('+')
                 temp[parts[0].lower()] = int(parts[1])
             blank['boost'] = temp
+
         if 'Duo Skill' in i.text:
             strings = list(i.stripped_strings)
 
