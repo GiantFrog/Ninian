@@ -28183,5 +28183,25 @@
       "L Ayra",
       "ayra3"
     ]
+  },
+  "tetsubuta": {
+    "heroes": {
+      "morgan2R": "<:Blue_Tome:1124845593211191297>Female Morgan (Resplendent)"
+    },
+    "name": "\u3066\u3064\u3076\u305f",
+    "ALT_NAME": [
+      "Resplendent F Morgan",
+      "Resplendent Female Morgan",
+      "Resp Morgan",
+      "R F Morgan",
+      "Female Morgan (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent F Morgan",
+      "Resplendent Female Morgan",
+      "Resp F Morgan",
+      "R F Morgan",
+      "Female Morgan (Resplendent)"
+    ]
   }
 }
