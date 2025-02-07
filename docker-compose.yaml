@@ -1,0 +1,15 @@
+services:
+  ninian:
+    image: registry.froginata.com/ninian:${IMAGE_TAG}
+    restart: unless-stopped
+    environment:
+      - OWNER_ID=${OWNER_ID}
+      - TOKEN=${TOKEN}
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+  watchtower:
+    image: containrrr/watchtower
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 30

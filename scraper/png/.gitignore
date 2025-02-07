@@ -1,0 +1,5 @@
+# The scraper fills this directory with PNGs from the wiki. We do not care.
+*
+# Do track this file though.
+# You can't commit an empty directory, but the scraper crashes if this folder doesn't exist.
+!.gitignore
