@@ -1,19 +1,31 @@
-name: Test with Nils
-
+name: Build Containers
 on:
   pull_request:
-    branches: [ "main" ]
-
+    branches:
+      - "main"
+  push:
+    branches:
+      - "main"
 jobs:
-#  build:
-#    runs-on: self-hosted
-#    steps:
-#      - uses: actions/checkout@v4
-#      - name: Build the image
-#        run: docker build . --file Dockerfile --tag ninian:$(date +%Y-%m-%d_%H%M)
-  deploy:
-#    needs: build
+  build_dev:
+    name: Build (dev)
     runs-on: self-hosted
+    if: github.event_name == 'pull_request'
     steps:
-      - name: Just pull it idk
-        run: cd /opt/veyle/nils
+      - uses: actions/checkout@v4
+      - name: Build the image.
+        run: docker build . --file Dockerfile --tag registry.froginata.com/ninian:dev
+      - name: Push and overwrite the last dev image.
+        run: docker push --all-tags registry.froginata.com/ninian:dev
+  build_prod:
+    name: Build New Release
+    runs-on: self-hosted
+    if: github.event_name == 'push'
+    env:
+      NOW: $(date +%Y-%m-%d_%H%M)
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the image.
+        run: docker build . --file Dockerfile --tag registry.froginata.com/ninian:$NOW --tag registry.froginata.com/ninian:latest
+      - name: Push the image!
+        run: docker push --all-tags registry.froginata.com/ninian:$NOW
