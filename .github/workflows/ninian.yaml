@@ -16,6 +16,4 @@ jobs:
         with:
           context: .
           push: true
-          tags:
-            - registry.froginata.com/ninian:latest
-            - registry.froginata.com/ninian:${{ steps.tag.outputs.timestamp }}
+          tags: registry.froginata.com/ninian:latest,registry.froginata.com/ninian:${{ steps.tag.outputs.timestamp }}
