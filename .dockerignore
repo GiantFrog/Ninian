@@ -13,3 +13,13 @@
 **/*.bat
 **/*.sh
 fly.toml
+
+scraper
+
+.github
+docker-compose.yaml
+_QUICKSTART.txt
+LICENSE
+PRIVACY.md
+README.md
+TERMS.md
