@@ -3,14 +3,17 @@ services:
     image: registry.froginata.com/ninian:${IMAGE_TAG}
     restart: unless-stopped
     environment:
-      - OWNER_ID=${OWNER_ID}
-      - TOKEN=${TOKEN}
+      OWNER_ID: ${OWNER_ID}
+      TOKEN: ${TOKEN}
     labels:
       - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
   watchtower:
     image: containrrr/watchtower
     restart: unless-stopped
     command: --interval 30 --scope ninian-${IMAGE_TAG}
+    environment:
+      WATCHTOWER_NOTIFICATION_REPORT: true
+      WATCHTOWER_NOTIFICATION_URL: "discord://${TOKEN}@${NOTIFICATION_CHANNEL}"
     labels:
       - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
     volumes:
