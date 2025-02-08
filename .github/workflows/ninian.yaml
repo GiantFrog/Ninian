@@ -3,15 +3,19 @@ on:
   push:
     branches:
       - "main"
-env:
-  NOW: $(date +%Y-%m-%d_%H%M)
 jobs:
   build:
     name: Build New Release
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v4
-      - name: Build the image.
-        run: docker build . --file Dockerfile --tag registry.froginata.com/ninian:$NOW --tag registry.froginata.com/ninian:latest
-      - name: Push the image!
-        run: docker push registry.froginata.com/ninian:$NOW registry.froginata.com/ninian:latest
+      - name: What time is it?
+        id: tag
+        run: echo "timestamp=$(date +%Y-%m-%d_%H%M)" >> $GITHUB_OUTPUT
+      - name: Build & push the image!
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags:
+            - registry.froginata.com/ninian:latest
+            - registry.froginata.com/ninian:${{ steps.tag.outputs.timestamp }}
