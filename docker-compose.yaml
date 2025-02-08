@@ -12,8 +12,8 @@ services:
     restart: unless-stopped
     command: --interval 30 --scope ninian-${IMAGE_TAG}
     environment:
-      WATCHTOWER_NOTIFICATION_REPORT: true
-      WATCHTOWER_NOTIFICATION_URL: "discord://${TOKEN}@${NOTIFICATION_CHANNEL}"
+      WATCHTOWER_NOTIFICATION_REPORT: ${NOTIFICATION_URL:+true}
+      WATCHTOWER_NOTIFICATION_URL: ${NOTIFICATION_URL}
     labels:
       - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
     volumes:
