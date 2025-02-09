@@ -4,6 +4,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import json
 import portrait
+import re
 import utility
 
 POSSIBLE_BLESSINGS = [  #in lowercase plz
@@ -54,7 +55,7 @@ def scrape_page(page_name, alts=None, version=None):
     with open('templates/blank.json', 'r') as f:
         template = json.load(f)
     blank = template
-    blank['version']= version
+    blank['version'] = version
     # Follow the same steps for feheroes.fandom
     fandom = requests.get(f'https://feheroes.fandom.com{page_name}')
     soup = BeautifulSoup(fandom.text, 'html.parser')
@@ -182,14 +183,13 @@ def scrape_page(page_name, alts=None, version=None):
             if strings[1].lower() in POSSIBLE_BLESSINGS:
                 blank['blessing'] = strings[1]
 
-        if "Ally Boost" in i.text or ("Boost" in i.text and "2Boost" not in i.text and "3Boost" not in i.text):
-            strings = list(i.stripped_strings)
-            boosts = strings[1].split(',')
-            temp = {}
+        if "Boost" in i.text:
+            boosts = re.findall("[a-zA-Z]{2,3}\+\d+", i.text)
+            if 'boost' not in blank:
+                blank['boost'] = {}
             for j in boosts:
                 parts = j.split('+')
-                temp[parts[0].lower()] = int(parts[1])
-            blank['boost'] = temp
+                blank['boost'][parts[0].lower()] = int(parts[1])
 
         if 'Duo Skill' in i.text:
             strings = list(i.stripped_strings)
