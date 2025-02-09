@@ -4946,7 +4946,13 @@
       "Resplendent Dimitri",
       "Resp Dimitri",
       "R Dimitri",
-      "Dimitri (Resplendent)"
+      "Dimitri (Resplendent)",
+      "Stargazing Lion",
+      "Dimitri: Stargazing Lion",
+      "Valentine's Dimitri",
+      "Valentines Dimitri",
+      "Valentine Dimitri",
+      "dimitri7"
     ],
     "HARD_ALT_NAME": [
       "Christmas Dimitri",
@@ -5050,7 +5056,13 @@
       "Resplendent Dimitri",
       "Resp Dimitri",
       "R Dimitri",
-      "Dimitri (Resplendent)"
+      "Dimitri (Resplendent)",
+      "Stargazing Lion",
+      "Dimitri: Stargazing Lion",
+      "Valentine's Dimitri",
+      "Valentines Dimitri",
+      "Valentine Dimitri",
+      "dimitri7"
     ],
     "heroes": {
       "boey": "<:Green_Tome:1124845959873036289>Boey",
@@ -5060,6 +5072,7 @@
       "dimitri4": "<:Blue_Lance:1124845569496584302>Fallen Dimitri",
       "dimitri5": "<:Green_Axe:1124845885277343754>Summer Dimitri",
       "dimitri6": "<:Green_Axe:1124845885277343754>Winter Dimitri",
+      "dimitri7": "<:Red_Sword:1124846201070698536>Valentines Dimitri",
       "dimitriR": "<:Blue_Lance:1124845569496584302>Dimitri (Resplendent)",
       "quan": "<:Blue_Lance:1124845569496584302>Quan",
       "quan2": "<:Blue_Bow:1124845525695475845>Dancer Quan"
@@ -12717,7 +12730,13 @@
       "Resplendent Claude",
       "Resp Claude",
       "R Claude",
-      "Claude (Resplendent)"
+      "Claude (Resplendent)",
+      "Distant Deer",
+      "Claude: Distant Deer",
+      "Valentine's Claude",
+      "Valentines Claude",
+      "Valentine Claude",
+      "claude7"
     ],
     "HARD_ALT_NAME": [
       "L Claude",
@@ -12775,7 +12794,13 @@
       "Resplendent Claude",
       "Resp Claude",
       "R Claude",
-      "Claude (Resplendent)"
+      "Claude (Resplendent)",
+      "Distant Deer",
+      "Claude: Distant Deer",
+      "Valentine's Claude",
+      "Valentines Claude",
+      "Valentine Claude",
+      "claude7"
     ],
     "heroes": {
       "canas": "<:Red_Tome:1124846175577710642>Canas",
@@ -12785,6 +12810,7 @@
       "claude4": "<:Blue_Dagger:1124845543026335764>Summer Claude",
       "claude5": "<:Green_Dagger:1124845796169351320>Wind Claude",
       "claude6": "<:Colorless_Bow:1124845636659982457>Winter Claude",
+      "claude7": "<:Blue_Bow:1124845525695475845>Valentines Claude",
       "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
       "jamke": "<:Colorless_Bow:1124845636659982457>Jamke"
     },
@@ -23568,7 +23594,13 @@
       "Hubert: Sinister Servant",
       "Sinister Servant",
       "Base Hubert",
-      "Normal Hubert"
+      "Normal Hubert",
+      "Crimson Schemer",
+      "Hubert: Crimson Schemer",
+      "Valentine's Hubert",
+      "Valentines Hubert",
+      "Valentine Hubert",
+      "hubert2"
     ],
     "HARD_ALT_NAME": [
       "tobin",
@@ -23596,11 +23628,18 @@
       "hubert1",
       "Sinister Servant",
       "Base Hubert",
-      "Normal Hubert"
+      "Normal Hubert",
+      "Crimson Schemer",
+      "Hubert: Crimson Schemer",
+      "Valentine's Hubert",
+      "Valentines Hubert",
+      "Valentine Hubert",
+      "hubert2"
     ],
     "heroes": {
       "ares": "<:Red_Sword:1124846201070698536>Ares",
       "hubert": "<:Red_Tome:1124846175577710642>Hubert",
+      "hubert2": "<:Blue_Tome:1124845593211191297>Valentines Hubert",
       "tobin": "<:Red_Sword:1124846201070698536>Tobin"
     },
     "name": "Robbie Daymond"
@@ -25568,7 +25607,13 @@
       "Fallen Edelgard",
       "Fallen Edel",
       "Flavia: Bold Bride",
-      "Harmonized Edelgard"
+      "Harmonized Edelgard",
+      "Adorned Eagle",
+      "Edelgard: Adorned Eagle",
+      "Valentine's Edelgard",
+      "Valentines Edelgard",
+      "Valentine Edelgard",
+      "edelgard7"
     ],
     "HARD_ALT_NAME": [
       "S Edelgard",
@@ -25675,7 +25720,13 @@
       "Harmonic Edel",
       "flavia2",
       "edelgardr1",
-      "S Edel"
+      "S Edel",
+      "Adorned Eagle",
+      "Edelgard: Adorned Eagle",
+      "Valentine's Edelgard",
+      "Valentines Edelgard",
+      "Valentine Edelgard",
+      "edelgard7"
     ],
     "heroes": {
       "edelgard": "<:Green_Axe:1124845885277343754>Edelgard",
@@ -25684,6 +25735,7 @@
       "edelgard4": "<:Colorless_Beast:1124845615935918110>Fallen Edelgard",
       "edelgard5": "<:Red_Sword:1124846201070698536>Harmonic Edelgard",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",
+      "edelgard7": "<:Green_Axe:1124845885277343754>Valentines Edelgard",
       "flavia": "<:Red_Sword:1124846201070698536>Flavia",
       "flavia2": "<:Red_Sword:1124846201070698536>Bridal Flavia",
       "miriel": "<:Blue_Tome:1124845593211191297>Miriel"
@@ -29420,7 +29472,8 @@
     "heroes": {
       "alear6": "<:Blue_Breath:1124845312637403236>Winter Duo Alear",
       "eik\u00feyrnir2": "<:Blue_Beast:1124845338688233575>Winter Eik\u00feyrnir",
-      "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis"
+      "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis",
+      "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea"
     },
     "name": "Not yet recorded.",
     "ALT_NAME": [
@@ -29449,7 +29502,13 @@
       "W Eik\u00feyrnir",
       "W Eikthyrnir",
       "W Eiki",
-      "eik\u00feyrnir2"
+      "eik\u00feyrnir2",
+      "Aura of Love",
+      "Rhea: Aura of Love",
+      "Valentine's Rhea",
+      "Valentines Rhea",
+      "Valentine Rhea",
+      "rhea4"
     ],
     "HARD_ALT_NAME": [
       "Dark of Night",
@@ -29477,7 +29536,13 @@
       "W Eik\u00feyrnir",
       "W Eikthyrnir",
       "W Eiki",
-      "eik\u00feyrnir2"
+      "eik\u00feyrnir2",
+      "Aura of Love",
+      "Rhea: Aura of Love",
+      "Valentine's Rhea",
+      "Valentines Rhea",
+      "Valentine Rhea",
+      "rhea4"
     ]
   },
   "anjalikunapaneni": {
