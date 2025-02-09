@@ -8,6 +8,8 @@ jobs:
     name: Build New Release
     runs-on: self-hosted
     steps:
+      - name: Check out the new code.
+        uses: actions/checkout@v4
       - name: What time is it?
         id: tag
         run: echo "timestamp=$(date +%Y-%m-%d_%H%M)" >> $GITHUB_OUTPUT

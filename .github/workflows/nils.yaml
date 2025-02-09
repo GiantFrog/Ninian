@@ -8,6 +8,8 @@ jobs:
     name: Build (dev)
     runs-on: self-hosted
     steps:
+      - name: Check out the new code.
+        uses: actions/checkout@v4
       - name: Build, push, and overwrite the last dev image.
         uses: docker/build-push-action@v6
         with:

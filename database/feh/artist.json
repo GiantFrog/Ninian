@@ -2371,6 +2371,7 @@
       "ashe2": "<:Blue_Lance:1124845569496584302>Summer Ashe",
       "claude3": "<:Colorless_Bow:1124845636659982457>Legendary Claude",
       "claude4": "<:Blue_Dagger:1124845543026335764>",
+      "edelgard7": "<:Green_Axe:1124845885277343754>Valentines Edelgard",
       "eirika8": "<:Green_Axe:1124845885277343754>Attuned Eirika",
       "eliwood5": "<:Red_Sword:1124846201070698536>Young Eliwood",
       "elm": "<:Green_Beast:1124845912385138738>New Year Elm",
@@ -2480,7 +2481,13 @@
       "Rearmed Marianne",
       "Rearm Marianne",
       "Arm Marianne",
-      "marianne3"
+      "marianne3",
+      "Adorned Eagle",
+      "Edelgard: Adorned Eagle",
+      "Valentine's Edelgard",
+      "Valentines Edelgard",
+      "Valentine Edelgard",
+      "edelgard7"
     ],
     "HARD_ALT_NAME": [
       "royR",
@@ -2610,7 +2617,13 @@
       "Rearmed Marianne",
       "Rearm Marianne",
       "Arm Marianne",
-      "marianne3"
+      "marianne3",
+      "Adorned Eagle",
+      "Edelgard: Adorned Eagle",
+      "Valentine's Edelgard",
+      "Valentines Edelgard",
+      "Valentine Edelgard",
+      "edelgard7"
     ]
   },
   "bthx": {
@@ -4866,7 +4879,14 @@
       "Base Dorothea",
       "Normal Dorothea",
       "Regular Dorothea",
-      "dorothea"
+      "dorothea",
+      "Aura of Love",
+      "Rhea: Aura of Love",
+      "Valentine's Rhea",
+      "Valentines Rhea",
+      "Valentine Rhea",
+      "Duo Rhea",
+      "rhea4"
     ],
     "HARD_ALT_NAME": [
       "Normal F Corrin",
@@ -4960,7 +4980,14 @@
       "Base Dorothea",
       "Normal Dorothea",
       "Regular Dorothea",
-      "dorothea"
+      "dorothea",
+      "Aura of Love",
+      "Rhea: Aura of Love",
+      "Valentine's Rhea",
+      "Valentines Rhea",
+      "Valentine Rhea",
+      "Duo Rhea",
+      "rhea4"
     ],
     "heroes": {
       "corrin2R": "<:Blue_Breath:1124845312637403236>Female Corrin (Resplendent)",
@@ -4969,7 +4996,8 @@
       "igrene3": "<:Blue_Bow:1124845525695475845>Nabata Igrene",
       "kagero4": "<:Colorless_Dagger:1124845658617155734>Wind Kagero",
       "manuela": "<:Red_Sword:1124846201070698536>Winter Manuela",
-      "olwenR": "<:Blue_Tome:1124845593211191297>Olwen (Resplendent)"
+      "olwenR": "<:Blue_Tome:1124845593211191297>Olwen (Resplendent)",
+      "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea"
     },
     "name": "ekao"
   },
@@ -21912,7 +21940,13 @@
       "Diamant: Gallant Ninja",
       "Ninja Diamant",
       "N Diamant",
-      "diamant2"
+      "diamant2",
+      "Crimson Schemer",
+      "Hubert: Crimson Schemer",
+      "Valentine's Hubert",
+      "Valentines Hubert",
+      "Valentine Hubert",
+      "hubert2"
     ],
     "HARD_ALT_NAME": [
       "Normal Sirius",
@@ -22087,7 +22121,13 @@
       "Diamant: Gallant Ninja",
       "Ninja Diamant",
       "N Diamant",
-      "diamant2"
+      "diamant2",
+      "Crimson Schemer",
+      "Hubert: Crimson Schemer",
+      "Valentine's Hubert",
+      "Valentines Hubert",
+      "Valentine Hubert",
+      "hubert2"
     ],
     "heroes": {
       "camus": "<:Blue_Lance:1124845569496584302>Camus",
@@ -22098,6 +22138,7 @@
       "frederick2": "<:Colorless_Dagger:1124845658617155734>Summer Frederick",
       "gerik": "<:Green_Axe:1124845885277343754>Gerik",
       "hector2": "<:Green_Axe:1124845885277343754>Valentines Hector",
+      "hubert2": "<:Blue_Tome:1124845593211191297>Valentines Hubert",
       "inigo2": "<:Green_Tome:1124845959873036289>Dancer Inigo",
       "ishtar": "<:Blue_Tome:1124845593211191297>Ishtar",
       "jamke": "<:Colorless_Bow:1124845636659982457>Jamke",
@@ -27830,6 +27871,7 @@
   },
   "kou": {
     "heroes": {
+      "dimitri7": "<:Red_Sword:1124846201070698536>Valentines Dimitri",
       "haarR": "<:Green_Axe:1124845885277343754>Haar (Resplendent)"
     },
     "name": "\u30b3\u30a6",
@@ -27837,13 +27879,25 @@
       "Resplendent Haar",
       "Resp Haar",
       "R Haar",
-      "Haar (Resplendent)"
+      "Haar (Resplendent)",
+      "Stargazing Lion",
+      "Dimitri: Stargazing Lion",
+      "Valentine's Dimitri",
+      "Valentines Dimitri",
+      "Valentine Dimitri",
+      "dimitri7"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Haar",
       "Resp Haar",
       "R Haar",
-      "Haar (Resplendent)"
+      "Haar (Resplendent)",
+      "Stargazing Lion",
+      "Dimitri: Stargazing Lion",
+      "Valentine's Dimitri",
+      "Valentines Dimitri",
+      "Valentine Dimitri",
+      "dimitri7"
     ]
   },
   "kawachirin": {
@@ -28202,6 +28256,28 @@
       "Resp F Morgan",
       "R F Morgan",
       "Female Morgan (Resplendent)"
+    ]
+  },
+  "nanahuzi": {
+    "heroes": {
+      "claude7": "<:Blue_Bow:1124845525695475845>Valentines Claude"
+    },
+    "name": "\u306a\u306a\u3075\u3058",
+    "ALT_NAME": [
+      "Distant Deer",
+      "Claude: Distant Deer",
+      "Valentine's Claude",
+      "Valentines Claude",
+      "Valentine Claude",
+      "claude7"
+    ],
+    "HARD_ALT_NAME": [
+      "Distant Deer",
+      "Claude: Distant Deer",
+      "Valentine's Claude",
+      "Valentines Claude",
+      "Valentine Claude",
+      "claude7"
     ]
   }
 }
