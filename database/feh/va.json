@@ -21799,7 +21799,12 @@
       "Fallen Female Marc",
       "Fallen Marc Female",
       "Fallen F Marc",
-      "Fallen Marc F"
+      "Fallen Marc F",
+      "Resplendent F Morgan",
+      "Resplendent Female Morgan",
+      "Resp F Morgan",
+      "R F Morgan",
+      "Female Morgan (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "morgan2",
@@ -21899,10 +21904,16 @@
       "Fallen Female Marc",
       "Fallen Marc Female",
       "Fallen F Marc",
-      "Fallen Marc F"
+      "Fallen Marc F",
+      "Resplendent F Morgan",
+      "Resplendent Female Morgan",
+      "Resp F Morgan",
+      "R F Morgan",
+      "Female Morgan (Resplendent)"
     ],
     "heroes": {
       "morgan2": "<:Blue_Tome:1124845593211191297>Female Morgan",
+      "morgan2R": "<:Blue_Tome:1124845593211191297>Female Morgan (Resplendent)",
       "morgan4": "<:Green_Axe:1124845885277343754>Fallen Female Morgan",
       "phila": "<:Blue_Lance:1124845569496584302>Phila"
     },

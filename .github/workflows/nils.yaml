@@ -1,0 +1,16 @@
+name: Nils
+on:
+  pull_request:
+    branches:
+      - "main"
+jobs:
+  build:
+    name: Build (dev)
+    runs-on: self-hosted
+    steps:
+      - name: Build, push, and overwrite the last dev image.
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: registry.froginata.com/ninian:dev

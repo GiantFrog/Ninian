@@ -1,0 +1,19 @@
+name: Ninian
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  build:
+    name: Build New Release
+    runs-on: self-hosted
+    steps:
+      - name: What time is it?
+        id: tag
+        run: echo "timestamp=$(date +%Y-%m-%d_%H%M)" >> $GITHUB_OUTPUT
+      - name: Build & push the image!
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: registry.froginata.com/ninian:latest,registry.froginata.com/ninian:${{ steps.tag.outputs.timestamp }}
