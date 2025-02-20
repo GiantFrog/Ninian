@@ -1,567 +1,47 @@
 {
-  "edelgard7": {
-    "name": "Edelgard",
-    "title": "Adorned Eagle",
-    "description": "Princess and heir apparent of the Adrestian Empire. She exhibits exquisite grace as she embarks on a path of domination, even at the festival. Appears in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "azu-taro (azu\u30bf\u30ed\u30a6)",
-    "move": "Armored",
-    "weapon": "Axe",
-    "color": "Green",
-    "duel": false,
-    "id": "1204",
-    "type": false,
-    "version": "9.2",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 20,
-      "atk": 11,
-      "spd": 4,
-      "def": 14,
-      "res": 12
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 90,
-      "spd": 30,
-      "def": 80,
-      "res": 75
-    },
-    "superboon": [
-      "atk"
-    ],
-    "superbane": [
-      "spd",
-      "res"
-    ],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Eagle's Heart": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Bonfire": "4",
-      "Armored Blaze": "5"
-    },
-    "passive": {
-      "A": {
-        "Death Blow 1": "2",
-        "Sturdy Blow 1": "3",
-        "Sturdy Blow 2": "4",
-        "Sly Sturdy Blow": "5"
-      },
-      "B": {
-        "Pure Storm": "5"
-      },
-      "C": {
-        "Assault Troop 1": "2",
-        "Assault Troop 2": "3",
-        "Assault Troop 3": "4",
-        "Assault Rush": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/77/Edelgard_Adorned_Eagle_Face.webp/revision/latest?cb=20250206055925",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f0/Edelgard_Adorned_Eagle_BtlFace_D.webp/revision/latest?cb=20250206055920",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2b/Edelgard_Adorned_Eagle_BtlFace_C.webp/revision/latest?cb=20250206055915",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9b/Edelgard_Adorned_Eagle_BtlFace.webp/revision/latest?cb=20250206055900"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Adorned Eagle",
-      "Edelgard: Adorned Eagle",
-      "Valentine's Edelgard",
-      "Valentines Edelgard",
-      "Valentine Edelgard",
-      "edelgard7"
-    ],
-    "HARD_ALT_NAME": [
-      "Adorned Eagle",
-      "Edelgard: Adorned Eagle",
-      "Valentine's Edelgard",
-      "Valentines Edelgard",
-      "Valentine Edelgard",
-      "edelgard7"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u611b\u306e\u796d\u30a8\u30fc\u30c7\u30eb",
-    "voice": "Tara Platt",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fodlan"
-    ],
-    "chibi": "fodlan",
-    "quotes": {
-      "Castle Hall": [
-        "Yes, I am enjoying myself. Thank you for extending the invitation.",
-        "During wartime, we can create space for the people's enjoyment. It takes only the resources of a likely victor.\nIt may not need saying, but trapped rats cannot challenge a looming eagle.",
-        "Hold a moment. Is something stuck to my head? Ah, a messenger owl's feather. Might this be a gift?",
-        "I am grateful to all who support me. Demonstrating that gratitude in a concrete form is an idea with merit.",
-        "The local varieties are pleasant, but I prefer the Hresvelg brand. If you invite me to tea, remember that."
-      ],
-      "Visit": [
-        "I was trailing a friend of yours and became lost. But that is fine. Have you seen [F]?"
-      ],
-      "Level": [
-        "Love is sometimes unrequited. But one can forge a path to the future even so\u2014with a clear head and heart.",
-        "The Day of Devotion demands certain responsibilities, and I will fulfill them.",
-        "My efforts were not enough."
-      ],
-      "Summon": [
-        "I am Edelgard, she who will conquer all of F\u00f3dlan. I see that, for now, this festival will be my domain."
-      ],
-      "Learn Skill": [
-        "You are unexpectedly attentive, aren't you?"
-      ],
-      "Confession": [
-        "*sigh* Oh, me? Do not worry yourself. I am merely a little tired. Surely you could use a rest as well.\nDid I meet everyone's expectations? This is an Askran festival, after all. Well, [S]?\nIn truth, I am not one for these sorts of festivities, but you have been a helpful guide.\nWere I not in line for the throne of the Adrestian Empire, I could relax. It is a demanding role.\nIn fact, I haven't spent a moment on something like this in quite some time.\nStoic, aren't you? No, I do not mind that at all.\nIn fact, in that way, you remind me of the professor. I hope that you and I will share as pleasant a relationship."
-      ],
-      "Special": [
-        "The Day of Devotion!",
-        "I am grateful...",
-        "Behave yourself!",
-        "Your story is over."
-      ],
-      "Status": [
-        "Aha.",
-        "Is putting on a festival really the best way to express appreciation?",
-        "What? Is that supposed to be a joke?",
-        "I would much rather build camaraderie at a festival than a worship service.",
-        "What kind of flowers do I like? Well, I've always been fond of carnations.",
-        "To govern properly, a monarch must respect not only their crown, but those around them.",
-        "I wonder where the professor ran off to. Of course I cannot find the one person I appreciate most...",
-        "Please, accept these carnations as a token of my gratitude. Of all the flowers in F\u00f3dlan, they were always my favorite."
-      ],
-      "Map Select": [
-        "I see your plan.",
-        "Well then.",
-        "Know that I'm grateful."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Valentines Edelgard",
-    "SEARCH_NAME": "Valentines Edelgard",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Valentines Edelgard",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "edelgard",
-      "edelgard2",
-      "edelgard3",
-      "edelgard4",
-      "edelgard5",
-      "edelgard6"
-    ],
-    "prf": {
-      "": "eaglesheart",
-      "eff": "eaglesheart",
-      "atk": "eaglesheart",
-      "spd": "eaglesheart",
-      "def": "eaglesheart",
-      "res": "eaglesheart"
-    }
-  },
-  "dimitri7": {
-    "name": "Dimitri",
-    "title": "Stargazing Lion",
-    "description": "Crown prince of the Holy Kingdom of Faerghus. Enjoying the enthusiasm of the festival, he lets loose and throws aside his inhibitions. Appears in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "kou (\u30b3\u30a6)",
-    "move": "Cavalry",
-    "weapon": "Sword",
-    "color": "Red",
-    "duel": false,
-    "id": "1205",
-    "type": false,
-    "version": "9.2",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 10,
-      "spd": 12,
-      "def": 8,
-      "res": 4
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 80,
-      "def": 60,
-      "res": 35
-    },
-    "superboon": [
-      "atk"
-    ],
-    "superbane": [
-      "hp"
-    ],
-    "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Lion's Heart": "5"
-    },
-    "assist": {},
-    "special": {
-      "Dragon Gaze": "3",
-      "Draconic Aura": "4",
-      "Haze Slice": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Spd Clash 1": "2",
-        "Atk/Spd Clash 2": "3",
-        "Atk/Spd Clash 3": "4",
-        "Atk/Spd Excel": "5"
-      },
-      "B": {
-        "Pure Atrocity": "5"
-      },
-      "C": {
-        "Shadow Shift 1": "2",
-        "Shadow Shift 2": "3",
-        "Shadow Shift 3": "4",
-        "Shadow Shift 4": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/88/Dimitri_Stargazing_Lion_Face.webp/revision/latest?cb=20250206060000",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/89/Dimitri_Stargazing_Lion_BtlFace_D.webp/revision/latest?cb=20250206055955",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d0/Dimitri_Stargazing_Lion_BtlFace_C.webp/revision/latest?cb=20250206055950",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fd/Dimitri_Stargazing_Lion_BtlFace.webp/revision/latest?cb=20250206055935"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Stargazing Lion",
-      "Dimitri: Stargazing Lion",
-      "Valentine's Dimitri",
-      "Valentines Dimitri",
-      "Valentine Dimitri",
-      "dimitri7"
-    ],
-    "HARD_ALT_NAME": [
-      "Stargazing Lion",
-      "Dimitri: Stargazing Lion",
-      "Valentine's Dimitri",
-      "Valentines Dimitri",
-      "Valentine Dimitri",
-      "dimitri7"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u611b\u306e\u796d\u30c7\u30a3\u30df\u30c8\u30ea",
-    "voice": "Chris Hackney",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fodlan"
-    ],
-    "chibi": "fodlan",
-    "quotes": {
-      "Castle Hall": [
-        "The more precious something is, the easier it is to break. Do you suppose the heart works the same way?",
-        "My home is a cold, relentless place. But Askr, with its trees and the scent of flowers... I admit I'm a bit envious.",
-        "I thought these whetstones I found might make for good gifts. What do you think, [S]?",
-        "I would normally dedicate this time to maintaining my armor. But I suppose I can make an exception for today.",
-        "I wonder if Edelgard and Claude feel clumsy at this too. No...I imagine they both do well at these kind of things."
-      ],
-      "Visit": [
-        "It seems I'm not the only one giving gifts today. This one is for you. A gift from [F]."
-      ],
-      "Level": [
-        "This feeling is new to me, yet... It is a feeling that will never go away, even after the festival is over...",
-        "I wasn't sure you would like your gift, but I'm so grateful that you do.",
-        "I know relaxation can be good for a team, but I'm still not used to it. I suppose it's something to work on..."
-      ],
-      "Summon": [
-        "I, Dimitri Alexandre Blaiddyd, hereby swear to do all I can to make this festival a success!"
-      ],
-      "Learn Skill": [
-        "Are you enjoying yourself, [S]?"
-      ],
-      "Confession": [
-        "So this is the Day of Devotion... The people of Askr have love in their hearts, at their core... How?\nWar rages in this world, but still, here they are, celebrating sincerity, spreading hope for the future.\nMeanwhile F\u00f3dlan is scarred with conflicts. And now, my homeland despairs while here...they rejoice.\nI must put an end to that darkness. I must save my people from that hollow despair. I swear I will...\nI...I need to walk...clear my head when the festival concludes. Will you join me, [S]?"
-      ],
-      "Special": [
-        "Day of Devotion!",
-        "Behold my gratitude!",
-        "This is for you!",
-        "Be mine!"
-      ],
-      "Status": [
-        "Ah...",
-        "Don't misunderstand. It is a lovely festival, but it's also...a bit embarrassing.",
-        "Hey! *scoff* Didn't I tell you to stop that?!",
-        "I am so very grateful for both Dedue and the professor.",
-        "I thought I was done concerning myself with choosing gifts.",
-        "The costumes I must wear for these festivals are so...elaborate! It pains me.",
-        "I will admit I am not used to being...appreciated like this.",
-        "Thank you for all you've done. You have my gratitude."
-      ],
-      "Map Select": [
-        "Of course.",
-        "Your plan?",
-        "On my way."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Valentines Dimitri",
-    "SEARCH_NAME": "Valentines Dimitri",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Valentines Dimitri",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "dimitri",
-      "dimitri2",
-      "dimitri3",
-      "dimitri4",
-      "dimitri5",
-      "dimitri6"
-    ],
-    "prf": {
-      "": "lionsheart",
-      "eff": "lionsheart",
-      "atk": "lionsheart",
-      "spd": "lionsheart",
-      "def": "lionsheart",
-      "res": "lionsheart"
-    }
-  },
-  "claude7": {
-    "name": "Claude",
-    "title": "Distant Deer",
-    "description": "Heir to House Riegan, leader of the Leicester Alliance. At times he's like a shadow, other times as vibrant as the sun. But he remains elusive as ever at this year's festival. Appears in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "\u306a\u306a\u3075\u3058",
-    "move": "Cavalry",
-    "weapon": "Bow",
+  "nel": {
+    "name": "Nel",
+    "title": "Stoic Dragon",
+    "description": "A child of the Fell Dragon from another Elyos. She is Rafal's elder sister and very much his counterpart. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "\u5343\u7a2e\u307f\u306e\u308a",
+    "move": "Infantry",
+    "weapon": "Breath",
     "color": "Blue",
     "duel": false,
-    "id": "1206",
-    "type": false,
+    "id": "1209",
+    "type": "rearmed",
     "version": "9.2",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 18,
+      "hp": 16,
       "atk": 11,
-      "spd": 9,
-      "def": 7,
-      "res": 5
+      "spd": 8,
+      "def": 8,
+      "res": 14
     },
     "growth": {
       "hp": 50,
-      "atk": 80,
+      "atk": 75,
       "spd": 90,
-      "def": 40,
-      "res": 50
+      "def": 50,
+      "res": 60
     },
     "superboon": [
       "spd"
     ],
     "superbane": [
       "hp",
-      "res"
-    ],
-    "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Silver Bow": "3",
-      "Deer's Heart": "5"
-    },
-    "assist": {},
-    "special": {
-      "New Moon": "3",
-      "Moonbow": "4",
-      "Curved Shot": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Spd Prime 1": "2",
-        "Atk/Spd Prime 2": "3",
-        "Atk/Spd Prime 3": "4",
-        "Atk/Spd Prime 4": "5"
-      },
-      "B": {
-        "Pure Starfall": "5"
-      },
-      "C": {
-        "Hone Spd 1": "2",
-        "Hone Spd 2": "3",
-        "Hone Spd 3": "4",
-        "A/S Incite Hone": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5b/Claude_Distant_Deer_Face.webp/revision/latest?cb=20250206060035",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5f/Claude_Distant_Deer_BtlFace_D.webp/revision/latest?cb=20250206060030",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d5/Claude_Distant_Deer_BtlFace_C.webp/revision/latest?cb=20250206060025",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/92/Claude_Distant_Deer_BtlFace.webp/revision/latest?cb=20250206060010"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Distant Deer",
-      "Claude: Distant Deer",
-      "Valentine's Claude",
-      "Valentines Claude",
-      "Valentine Claude",
-      "claude7"
-    ],
-    "HARD_ALT_NAME": [
-      "Distant Deer",
-      "Claude: Distant Deer",
-      "Valentine's Claude",
-      "Valentines Claude",
-      "Valentine Claude",
-      "claude7"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u611b\u306e\u796d\u30af\u30ed\u30fc\u30c9",
-    "voice": "Joe Zieja",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fodlan"
-    ],
-    "chibi": "fodlan",
-    "quotes": {
-      "Castle Hall": [
-        "Don't go into this without some kind of plan, got it? It's a festival. Just map it out and you'll be fine.",
-        "If you think gift-giving is a big deal here, you should see it at Garreg Mach Monastery!",
-        "I love hosting festivals and banquets. It feels so good when it all comes together and everyone is having fun.",
-        "It's much easier to trust people here than in Faerghus or the Adrestian Empire... Maybe that's unfair to say.",
-        "Is that a board-game piece? So that's where I dropped it. Thank you!"
-      ],
-      "Visit": [
-        "Here, this was left for you. Sorry, but festival preparations are taking up all of [F]'s time."
-      ],
-      "Level": [
-        "My dream is your dream! Today, we need to make sure it blooms!",
-        "Everything is ready. I should be able to finish giving out gifts just in time for the banquet.",
-        "I thought I was ready. I was wrong."
-      ],
-      "Summon": [
-        "I'm not really \"delegation\" material... But if you really want me to head the Day of Devotion, I'll do my best!"
-      ],
-      "Learn Skill": [
-        "Great thinking! I was just saying how you should never skip a chance to learn something new about yourself."
-      ],
-      "Confession": [
-        "Found you, [S]!\nYou promised to show me around Askr after the festival. I'm going to hold you to that, so don't forget.\nThis festival may not be perfect, but it's still very impressive.\nYou can really get a sense of Askr's culture and traditions. There's so much warmth and love here.\nIt's had me thinking about how to share my traditions. I think I know.\nI'd like to show you my homeland. Not right at this moment, of course.\nBut please! Take this bouquet as a promise that someday we'll go. Here, [S].\nNow we've both made promises."
-      ],
-      "Special": [
-        "Day of Devotion!",
-        "A token of gratitude.",
-        "Maybe you'll like this.",
-        "Here, take it!"
-      ],
-      "Status": [
-        "Heh.",
-        "I'm always humble and thankful for those around me. Really!",
-        "Whoa! Hey, can't you calm down at least for today?",
-        "Flowers are a good gift. A fleeting one, but good.",
-        "The world will fall apart if people believe they're surviving through their own strength alone.",
-        "If you want to show your gratitude, I'd love to have a party.",
-        "I'm not sure this is my style but...here I am with a bouquet of flowers.",
-        "You must already be drowning in gratitude but...here's mine too."
-      ],
-      "Map Select": [
-        "I'll do it.",
-        "A choice is made...",
-        "All right, then."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Valentines Claude",
-    "SEARCH_NAME": "Valentines Claude",
-    "DISPLAY_NAME": "<:Blue_Bow:1124845525695475845>Valentines Claude",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "claude",
-      "claude2",
-      "claude3",
-      "claude4",
-      "claude5",
-      "claude6"
-    ],
-    "prf": {
-      "": "deersheart",
-      "eff": "deersheart",
-      "atk": "deersheart",
-      "spd": "deersheart",
-      "def": "deersheart",
-      "res": "deersheart"
-    }
-  },
-  "rhea4": {
-    "name": "Rhea",
-    "title": "Aura of Love",
-    "description": "Archbishop who guides the Church of Seiros. She bestows love in equal measure unto all who celebrate the festival, including her mother, Sothis, who joins her. They appear in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "ekao",
-    "move": "Armored",
-    "weapon": "Breath",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1203",
-    "type": false,
-    "version": "9.2",
-    "duo": "Expand\nCollapse\n]\nGrants the following status to unit and allies within 2 spaces of unit for 1 turn: \"neutralizes foe's bonuses during combat.\"\nApplies\u3010Divine Vein (Stone)\u3011to unit's space and spaces within 2 spaces of unit for 2 turns.\n(Duo Skills can be used once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Divine Vein (Stone)\u3011\nApplies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding R\u00f8kkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 20,
-      "atk": 13,
-      "spd": 4,
-      "def": 13,
-      "res": 11
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 80,
-      "spd": 30,
-      "def": 75,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "spd",
+      "atk",
       "def"
     ],
     "weapons": {
       "Fire Breath": "1",
       "Fire Breath+": "2",
       "Flametongue": "3",
-      "Devoted Breath": "5"
+      "Arcane Fell Arts": "5"
     },
     "assist": {},
     "special": {
@@ -571,133 +51,143 @@
     },
     "passive": {
       "A": {
-        "Def/Res Scowl 1": "2",
-        "Def/Res Scowl 2": "3",
-        "Def/Res Scowl 3": "4",
-        "Def/Res Scowl 4": "5"
+        "Protective": "5"
       },
       "B": {
-        "Pure Dragon Wall": "5"
+        "Dragon's Wrath 1": "2",
+        "Dragon's Wrath 2": "3",
+        "Dragon's Wrath 3": "4",
+        "Edged Scales": "5"
       },
       "C": {
         "Close Guard 1": "2",
         "Close Guard 2": "3",
         "Close Guard 3": "4",
-        "Lower Ground": "5"
+        "Barricade": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cd/Rhea_Aura_of_Love_Face.webp/revision/latest?cb=20250206060145",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a9/Rhea_Aura_of_Love_BtlFace_D.webp/revision/latest?cb=20250206060140",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/02/Rhea_Aura_of_Love_BtlFace_C.webp/revision/latest?cb=20250206060135",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Rhea_Aura_of_Love_BtlFace.webp/revision/latest?cb=20250206060120"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/81/Nel_Stoic_Dragon_Face.webp/revision/latest?cb=20250217042713",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5a/Nel_Stoic_Dragon_BtlFace_D.webp/revision/latest?cb=20250217042708",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4e/Nel_Stoic_Dragon_BtlFace_C.webp/revision/latest?cb=20250217042703",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fc/Nel_Stoic_Dragon_BtlFace.webp/revision/latest?cb=20250217042648"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Aura of Love",
-      "Rhea: Aura of Love",
-      "Valentine's Rhea",
-      "Valentines Rhea",
-      "Valentine Rhea",
-      "Duo Rhea",
-      "rhea4"
+      "Stoic Dragon",
+      "Nel: Stoic Dragon",
+      "Base Nel",
+      "Normal Nel",
+      "Regular Nel",
+      "Rearmed Nel",
+      "Rearm Nel",
+      "Arm Nel",
+      "Nel",
+      "nel1"
     ],
     "HARD_ALT_NAME": [
-      "Aura of Love",
-      "Rhea: Aura of Love",
-      "Valentine's Rhea",
-      "Valentines Rhea",
-      "Valentine Rhea",
-      "Duo Rhea",
-      "rhea4"
+      "Stoic Dragon",
+      "Nel: Stoic Dragon",
+      "Base Nel",
+      "Normal Nel",
+      "Regular Nel",
+      "Rearmed Nel",
+      "Rearm Nel",
+      "Arm Nel",
+      "Nel",
+      "nel1"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u6bd4\u7ffc\u30ec\u30a2",
-    "voice": "Not yet recorded.",
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30a8\u30eb",
+    "voice": "Liz Morey",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fodlan"
+      "elyos"
     ],
-    "chibi": "fodlan",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "**Rhea:** Silken hair, so similar to my own... Looking at you, I feel feelings such that I cannot put into words.",
-        "**Rhea:** All I wanted was my mother to return. Perhaps fate led me to this land as I wished so fervently to be reunited...",
-        "**Sothis:** You appear tired. Shall I allow you to avail yourself of my kindness? Shall I offer my warm embrace?",
-        "**Sothis:** Hey, you! And you! And you! And you\u2014you too! Do not call me \"goddess\"! I feel self-conscious!",
-        "**Sothis:** All is well that ends well, or so they say. This, too, is an ending."
+        "The Fell Dragon's children are always twins. In rare cases, there are defects with two souls born into one body.",
+        "In the world I come from, Emblems dwelled in bracelets instead of rings. I had the power to put them to sleep.",
+        "You appear tired, Summoner. Might I sing you to sleep with a lullaby? I will not stay to wake you, but...",
+        "Rafal shared my life and dragonstone. No matter what anyone says, we are truly two halves of the same whole.",
+        "The meals mortals eat seem bland. I often add hot or sour spices, though I get the strangest looks for doing so."
       ],
       "Visit": [
-        "**Rhea:** We offer the goddess thanks for her love and guidance. I ask that you stay true to [F]."
+        "Please, give my regards to the Divine Dragon and accept this greeting from [F]."
       ],
       "Level": [
-        "**Rhea:** When the goddess's love fills the hearts of the people, the land will be fertile, and conflict will be no more.",
-        "**Rhea:** As a servant of the goddess, I pray that all the devout will be granted her everlasting love.",
-        "**Sothis:** Do not yearn for me! It rankles. My love is not so cheap."
+        "If this benefits the Order of Heroes, then I accept it.",
+        "This is a mere moment. I will not be the one who decides my worth.",
+        "Things do not always go well."
       ],
       "Summon": [
-        "I am Rhea, of the Church of Seiros. And you are...Sothis, did you say? That is the goddess's name! Lovely."
+        "I am Nel. I cannot believe I am the one being called upon for aid. Where are the Divine Dragon and Rafal?"
       ],
       "Learn Skill": [
-        "**Rhea:** Ah! This, too, may be the guidance of Sothis, the progenitor god!"
+        "I promise to protect this world with the power bestowed upon me so it does not follow a path to destruction."
       ],
       "Confession": [
-        "**Rhea:** Now that I think of it, Byleth did speak of visions of a girl with no inhibitions and a savage streak...\n**Sothis:** A crude and selfish brat? Me? I shall choose to ignore that.\n**Rhea:** Sothis... You...\n**Sothis:** The excitement of the festival has influenced us all, I think. So open a window and let in a breeze!\n**Rhea:** The wind feels so nice. The heavens stretch above us, and the breeze rustles the flowers and trees...\nWhen we're here together, like this... The feeling we have spent an eternity together overwhelms me. Strange...\nI feel like I am wrapped in the peace and warmth of the sun's embrace...\nDid the progenitor god guide us to this moment?\n**Sothis:** And how am I to know? But I do understand how you feel. To an extent.\n**Rhea:** Let us pray that this warmth may illuminate the people's days, that it may lead them to a future of light...\nThat their time is filled to the brim with the goddess's love and blessings."
+        "You were summoning again, I see. Did you find the power you hoped for?\nI performed a summoning ceremony once in my grief over the world's destruction and got but one savior.\nYou can summon so many Heroes. I understand this is because of how great of a threat this world faces.\nIf that is the case, even if the Order of Heroes' courtyard is full of Heroes, I shall do my best to become a savior.\nI will not allow you to witness your world's annihilation or lose those who are precious to you, as I did."
       ],
       "Special": [
-        "**Duo:** Behold, our gratitude.",
-        "**Duo:** Flowers...for you!",
-        "**Rhea:** A gift.",
-        "**Sothis:** Be thankful!"
+        "Wake in a thousand years.",
+        "Save this world.",
+        "Farewell.",
+        "No going back."
       ],
       "Status": [
-        "*laugh*",
-        "\"I cannot believe how cute you look, Mother.\" \"Do not gawk so at me.\""
+        "Hmm...",
+        "Divine One? Oh...no. Of course, it is only you.",
+        "I am a Fell Dragon. Does it not frighten you to get close to me?",
+        "The power to put Emblems to sleep... Having crossed to another world yet again, it has still been denied me.",
+        "I fought alongside the savior of my world to collect the seven Emblem bracelets.",
+        "I will not die again knowing there is someone who waited a thousand years for me the first time.",
+        "Wherever Rafal is now, I hope he is not lonely, being apart like this...",
+        "The Heroes here ask that you look after yourself, so that you always make it back from the battlefield. That is my wish, as well."
       ],
       "Map Select": [
-        "Hmm?",
-        "To express our gratitude...",
-        "Now, let us celebrate."
+        "We begin.",
+        "You have my attention.",
+        "Let us be on our way."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Valentines Rhea",
-    "SEARCH_NAME": "Valentines Rhea",
-    "DISPLAY_NAME": "<:Colorless_Breath:1124845679076978798>Valentines Rhea",
+    "short_name": "Rearmed Nel",
+    "SEARCH_NAME": "Rearmed Nel",
+    "DISPLAY_NAME": "<:Blue_Breath:1124845312637403236>Rearmed Nel",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "rhea",
-      "rhea2",
-      "rhea3"
+      "nel2"
     ],
     "prf": {
-      "": "devotedbreath",
-      "eff": "devotedbreath",
-      "atk": "devotedbreath",
-      "spd": "devotedbreath",
-      "def": "devotedbreath",
-      "res": "devotedbreath"
+      "": "arcanefellarts",
+      "eff": "arcanefellarts",
+      "atk": "arcanefellarts",
+      "spd": "arcanefellarts",
+      "def": "arcanefellarts",
+      "res": "arcanefellarts"
     }
   },
-  "hubert2": {
-    "name": "Hubert",
-    "title": "Crimson Schemer",
-    "description": "Loyal to Edelgard and considering himself her counselor, he discerns for her the optimal path to victory, even at the festival. Appears in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "Suekane Kumiko (\u30b9\u30a8\u30ab\u30cd\u30af\u30df\u30b3)",
+  "rafal": {
+    "name": "Rafal",
+    "title": "Atoning Dragon",
+    "description": "A child of the Fell Dragon from another Elyos. He is Nel's younger brother and very much her counterpart. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "\u9ebb\u5148\u307f\u3061",
     "move": "Armored",
-    "weapon": "Tome",
-    "color": "Blue",
+    "weapon": "Breath",
+    "color": "Red",
     "duel": false,
-    "id": "1207",
+    "id": "1210",
     "type": false,
     "version": "9.2",
     "duo": false,
@@ -705,29 +195,533 @@
     "emblem": false,
     "base": {
       "hp": 20,
-      "atk": 9,
-      "spd": 9,
-      "def": 8,
-      "res": 11
+      "atk": 12,
+      "spd": 5,
+      "def": 10,
+      "res": 14
     },
     "growth": {
       "hp": 55,
-      "atk": 90,
-      "spd": 70,
-      "def": 35,
-      "res": 70
+      "atk": 80,
+      "spd": 50,
+      "def": 90,
+      "res": 60
     },
     "superboon": [
-      "atk",
-      "spd",
+      "def"
+    ],
+    "superbane": [
+      "spd"
+    ],
+    "weapons": {
+      "Fire Breath": "1",
+      "Fire Breath+": "2",
+      "Flametongue": "3",
+      "Fell Slaystone": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Bonfire": "4",
+      "Armored Blaze": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Def Scowl 1": "2",
+        "Atk/Def Scowl 2": "3",
+        "Atk/Def Scowl 3": "4",
+        "Atk/Def Scowl 4": "5"
+      },
+      "B": {},
+      "C": {
+        "A/R Near Save 1": "2",
+        "A/R Near Save 2": "3",
+        "A/R Near Save 3": "4",
+        "A/R Twin N Save": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e0/Rafal_Atoning_Dragon_Face.webp/revision/latest?cb=20250217042748",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/df/Rafal_Atoning_Dragon_BtlFace_D.webp/revision/latest?cb=20250217042743",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c6/Rafal_Atoning_Dragon_BtlFace_C.webp/revision/latest?cb=20250217042738",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Rafal_Atoning_Dragon_BtlFace.webp/revision/latest?cb=20250217042723"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Atoning Dragon",
+      "Rafal: Atoning Dragon",
+      "Base Rafal",
+      "Normal Rafal",
+      "Regular Rafal",
+      "rafal"
+    ],
+    "HARD_ALT_NAME": [
+      "Atoning Dragon",
+      "Rafal: Atoning Dragon",
+      "Base Rafal",
+      "Normal Rafal",
+      "Regular Rafal",
+      "rafal"
+    ],
+    "gender": "M",
+    "rarity": 5,
+    "pool": "",
+    "internal_id": "PID_\u30e9\u30d5\u30a1\u30fc\u30eb",
+    "voice": "Y. Chang",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "Tell me of the sweets of this world. But omit the mild sweets! I desire what most would say is TOO sweet.",
+        "My father cast a spell on me, and I ended up doing...unforgivable things. Those sins are all mine to bear.",
+        "I could awaken Emblems in my world. Yet in having traversed worlds twice, I seem to have lost the power.",
+        "Allow me to take on your...unsavory missions. I am expendable, unlike my sister, the Divine Dragon, and the rest.",
+        "If Divine Dragon Lumera is here, I will be curious to learn what it was like to await a loved one for a millennium..."
+      ],
+      "Visit": [
+        "I come with greetings on behalf of [F].\nI also come with some of my sweet treats, specially made to suit average palates."
+      ],
+      "Level": [
+        "Witness my power!",
+        "The expected result. But I can do more.",
+        "No... I will not be a failure..."
+      ],
+      "Summon": [
+        "I am Rafal, and I bring with me the power of the Fell Dragon's lineage. Is it possible...my sister Nel is here?"
+      ],
+      "Learn Skill": [
+        "You choose to grant me power... Very well. I may return the favor."
+      ],
+      "Confession": [
+        "Summoner, I applaud your deft use of my power. I wish to reward you by speaking about myself and my past.\nFor a long time, I took the place of one named Nil, who was the true twin of Nel. I looked for Nil here, yet...\nOnly those who have done great deeds, whether good or evil, will be brought here as a Hero.\nNil's deeds were, sadly, insufficient. Meanwhile, my great deeds were... apocalyptic.\nBut evil pawns can still do good if wielded well. Thus, thanks to you, I now fight on behalf of the slain.\nI believe I shall spend this evening watching the stars. Nil always did like looking at the stars...\nIf you have no other plans, would you join me, [S]?"
+      ],
+      "Special": [
+        "Not in a millennium!",
+        "Are you frightened?",
+        "I am awakened!",
+        "There is no going back."
+      ],
+      "Status": [
+        "-",
+        "Your attempts at altruism remind me of the Divine Dragon...",
+        "Do not cling to me! Shall I take on my Fell Dragon form?",
+        "The power to awaken Emblems is of no use in Askr.",
+        "Only the sweetest of confections can satisfy me.",
+        "Nel... My sister is my precious counterpart. She always will be, no matter how many thousands of years pass by.",
+        "Neither the seven bracelets nor my father's power are necessary now.",
+        "Huh? You'll be taking a nap? And would like me to wake you?! Ugh! How dare you. I am not some blithering rooster!"
+      ],
+      "Map Select": [
+        "Let us proceed.",
+        "Yours to command.",
+        "Let us go."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Rafal",
+    "SEARCH_NAME": "Rafal",
+    "DISPLAY_NAME": "<:Red_Breath:1124846247673610240>Rafal",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "fellslaystone",
+      "eff": "fellslaystone",
+      "atk": "fellslaystone",
+      "spd": "fellslaystone",
+      "def": "fellslaystone",
+      "res": "fellslaystone"
+    }
+  },
+  "yunaka": {
+    "name": "Yunaka",
+    "title": "Hidden Mask",
+    "description": "A wanderer who travels Elyos. She keeps a tight lid on the details of her past. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "nekomochi (\u30cd\u30b3\u30e2\u30c1)",
+    "move": "Infantry",
+    "weapon": "Dagger",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1208",
+    "type": "aided",
+    "version": "9.2",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 11,
+      "spd": 9,
+      "def": 6,
+      "res": 10
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
+      "spd": 90,
+      "def": 50,
+      "res": 50
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "def",
       "res"
     ],
-    "superbane": [],
     "weapons": {
-      "Thunder": "1",
-      "Elthunder": "2",
-      "Devoted Cup": "3",
-      "Devoted Cup+": "5"
+      "Iron Dagger": "1",
+      "Steel Dagger": "2",
+      "Silver Dagger": "3",
+      "Hidden Blade": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Luna": "4",
+      "Lethality": "5"
+    },
+    "passive": {
+      "A": {
+        "Trained to Kill": "5"
+      },
+      "B": {
+        "Disarm Trap 1": "2",
+        "Disarm Trap 2": "3",
+        "Disarm Trap 3": "4",
+        "Full Disarm": "5"
+      },
+      "C": {
+        "Lookout 1": "2",
+        "Lookout 2": "3",
+        "Lookout 3": "4",
+        "Active Lookout": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/17/Yunaka_Hidden_Mask_Face.webp/revision/latest?cb=20250217042528",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9e/Yunaka_Hidden_Mask_BtlFace_D.webp/revision/latest?cb=20250217042523",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8f/Yunaka_Hidden_Mask_BtlFace_C.webp/revision/latest?cb=20250217042518",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Yunaka_Hidden_Mask_BtlFace.webp/revision/latest?cb=20250217042503"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Hidden Mask",
+      "Yunaka: Hidden Mask",
+      "Base Yunaka",
+      "Normal Yunaka",
+      "Regular Yunaka",
+      "Aided Yunaka",
+      "Aid Yunaka",
+      "Yunaka",
+      "yunaka1"
+    ],
+    "HARD_ALT_NAME": [
+      "Hidden Mask",
+      "Yunaka: Hidden Mask",
+      "Base Yunaka",
+      "Normal Yunaka",
+      "Regular Yunaka",
+      "Aided Yunaka",
+      "Aid Yunaka",
+      "Yunaka",
+      "yunaka1"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "",
+    "internal_id": "PID_\u304a\u4f9b\u30e6\u30ca\u30ab",
+    "voice": "Laura Post",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "Anna seems to like me since I said I could tell a product's authenticity. I wonder what she'll have me do.",
+        "Tales from my past? I can't say I remember any! Besides, I'm one of your Heroes now. Is...that enough?",
+        "I want to live a just and pure life. But I will eliminate\u2014I mean, I won't forgive anyone who threatens you.",
+        "I'll never get sick of this courtyard! All these unusual things\u2014 Oh! Look at that person's gleaming sword!",
+        "The southern freecat at my feet came with me! Maybe because I was just at the farmyard in the Somniel..."
+      ],
+      "Visit": [
+        "I, Yunaka, have a hiya papaya to deliver from [F].\nKeep up the good relations, you two!"
+      ],
+      "Level": [
+        "Zappy! Look how far I've come!",
+        "A death sentence for the enemy!",
+        "We can laugh this one off, right?"
+      ],
+      "Summon": [
+        "It's hiya papaya to meet you! Call me Yunaka. Seeing as you've summoned me, I'll be sure to be useful."
+      ],
+      "Learn Skill": [
+        "I'm ever so honored to receive this valuable gift! From now on, I'll prove even more useful!"
+      ],
+      "Confession": [
+        "That was some mighty fine leadership in today's battle! Did you fight like that in the world you came from?\nI bet you were always this powerful\u2014 Oh? You never set foot on a battlefield or summoned anyone?\nIf you obtained all this power here, then people really can change... I, too, want to be a new Yunaka in Askr!\nAt least...enough to atone for my past sins as an assassin...\nOh, uh... I was just talking to myself. Not to worry! I'll see you in battle! I look forward to lots of hiya papayas!"
+      ],
+      "Special": [
+        "You're dead.",
+        "Time to finish the job.",
+        "Target acquired.",
+        "We're done here."
+      ],
+      "Status": [
+        "Zappy!",
+        "Have you seen Emblem Micaiah around? Just curious.",
+        "Ooo, what kind of weapon is that?! The grip is so distinctive. I've never seen anything like it!",
+        "Hiya papaya! I'm here to have a good time.",
+        "Truth is, I'm just a wandering nobody. \"Hero\" is overselling it.",
+        "Did you know some of these Heroes are assassins?! I couldn't believe it either!",
+        "Any one of these Heroes could be a threat. I can't afford to let my guard down.",
+        "Got an impression for you. Wanna hear it? OK, here goes. *ahem* \"If there's one thing I'm really good at, it's lighting up the room!\""
+      ],
+      "Map Select": [
+        "Yunaka here!",
+        "Whatcha need?",
+        "Give me an order."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Aided Yunaka",
+    "SEARCH_NAME": "Aided Yunaka",
+    "DISPLAY_NAME": "<:Colorless_Dagger:1124845658617155734>Aided Yunaka",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "yunaka2"
+    ],
+    "prf": {
+      "": "hiddenblade",
+      "eff": "hiddenblade",
+      "atk": "hiddenblade",
+      "spd": "hiddenblade",
+      "def": "hiddenblade",
+      "res": "hiddenblade"
+    }
+  },
+  "zelestia": {
+    "name": "Zelestia",
+    "title": "Loving Leader",
+    "description": "Leader of the Four Winds. A scion and last survivor of the Mage Dragons, she is rich in love and affection for her companions. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "\u9ed2\u4e95\u30b9\u30b9\u30e0",
+    "move": "Flying",
+    "weapon": "Tome",
+    "color": "Green",
+    "duel": false,
+    "id": "1211",
+    "type": false,
+    "version": "9.2",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 8,
+      "def": 7,
+      "res": 8
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 40,
+      "res": 50
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "res"
+    ],
+    "weapons": {
+      "Wind": "1",
+      "Elwind": "2",
+      "Gronnlantern": "3",
+      "Gronnlantern+": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Moonbow": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Catch 1": "1",
+        "Atk/Spd Catch 2": "2",
+        "Atk/Spd Catch 3": "4"
+      },
+      "B": {},
+      "C": {
+        "Atk/Spd Rein 1": "3",
+        "Atk/Spd Rein 2": "4",
+        "Atk/Spd Rein 3": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/66/Zelestia_Loving_Leader_Face.webp/revision/latest?cb=20250217042603",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/73/Zelestia_Loving_Leader_BtlFace_D.webp/revision/latest?cb=20250217042558",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e7/Zelestia_Loving_Leader_BtlFace_C.webp/revision/latest?cb=20250217042553",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/94/Zelestia_Loving_Leader_BtlFace.webp/revision/latest?cb=20250217042538"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Loving Leader",
+      "Zelestia: Loving Leader",
+      "Base Zelestia",
+      "Normal Zelestia",
+      "Regular Zelestia",
+      "zelestia"
+    ],
+    "HARD_ALT_NAME": [
+      "Loving Leader",
+      "Zelestia: Loving Leader",
+      "Base Zelestia",
+      "Normal Zelestia",
+      "Regular Zelestia",
+      "zelestia"
+    ],
+    "gender": "F",
+    "rarity": 4,
+    "pool": "",
+    "internal_id": "PID_\u30bb\u30ec\u30b9\u30c6\u30a3\u30a2",
+    "voice": "Elizabeth Maxwell",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "I think I might be hungry. The last time I ate was... Um... Ugh! I forgot to eat again. Always so much to do!",
+        "The Four Winds lost a member. Still, no matter where we are, I believe the four of us will always be together.",
+        "It is a bit chilly here, isn't it? You can sit closer if you like. Mage Dragons have a high body temperature.",
+        "How moving to see Lumera and Alear talking as they did in my world, back when they both still lived.",
+        "My magic may be weak among Mage Dragons, but I won't complain. I will still protect everyone as best I can."
+      ],
+      "Visit": [
+        "I took great care to deliver you this warm and thoughtful greeting from your friend [F]!"
+      ],
+      "Level": [
+        "I want to achieve strength befitting my role as leader of the Four Winds.",
+        "Even the smallest changes fill my heart with joy!",
+        "Odd. I'm still young for a Mage Dragon. I should be improving faster."
+      ],
+      "Summon": [
+        "Did you summon me, Zelestia, leader of the Four Winds? Then, I am happy to make your acquaintance!"
+      ],
+      "Learn Skill": [
+        "Oh my, thank you. I am touched by this gesture!"
+      ],
+      "Confession": [
+        "Welcome home! You must have had a difficult day full of missions, patrols, and summoning.\nOh? Was \"welcome home\" an unusual way to greet you?\nBut the Order of Heroes is home. It is a family of sorts, like the Four Winds that I have long been a part of.\nWe take on different roles within that family\u2014parents, siblings, children\u2014 but you are clearly the head of it.\nI'd like to be a mother figure, though it is presumptuous to claim that title, or a needy child from time to time.\nI shall support you with unconditional love, so keep coming home healthy, all right, [S]?"
+      ],
+      "Special": [
+        "You'll never take what's mine!",
+        "The Winds are victorious.",
+        "For the Mage Dragon tribe!",
+        "You've been naughty!"
+      ],
+      "Status": [
+        "Yes?",
+        "I am Zelestia, leader of the Four Winds. I will fight for the Divine Dragon, even in this world.",
+        "Ooh! *giggle* Oh! That tickled. *giggle* Should you surprise me in that way again, I shall return the favor.",
+        "Mage Dragons have a high body temperature. Feel free to stand closer if you're cold.",
+        "Oh, I forgot to make time for a meal again. I suppose I should make up for it.",
+        "I lost someone important to me in my world... Please, do not leave me like that.",
+        "Even if we are apart, the Four Winds will always be together. Even Mauvier.",
+        "The Order of Heroes is like a family. I can see myself enduring even the most difficult of battles so I may return here."
+      ],
+      "Map Select": [
+        "All right.",
+        "Awaiting orders.",
+        "How exciting!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Zelestia",
+    "SEARCH_NAME": "Zelestia",
+    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Zelestia",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "gronnlantern",
+      "eff": "gronnlantern",
+      "atk": "gronnlantern",
+      "spd": "gronnlantern",
+      "def": "gronnlantern",
+      "res": "gronnlantern"
+    }
+  },
+  "griss": {
+    "name": "Griss",
+    "title": "Indulging Pain",
+    "description": "Second-in-command of the Four Hounds, he is a dangerous villain filled with madness, more fond of pain than anything else. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "kuren",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Green",
+    "duel": false,
+    "id": "1212",
+    "type": false,
+    "version": "9.2",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 12,
+      "spd": 5,
+      "def": 9,
+      "res": 9
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
+      "spd": 50,
+      "def": 40,
+      "res": 90
+    },
+    "superboon": [
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "spd"
+    ],
+    "weapons": {
+      "Wind": "1",
+      "Elwind": "2",
+      "Rexcalibur": "3",
+      "Nova": "5"
     },
     "assist": {},
     "special": {
@@ -735,119 +729,117 @@
       "Glacies": "4"
     },
     "passive": {
-      "A": {},
+      "A": {
+        "Warding Blow 1": "1",
+        "Mirror Strike 1": "2",
+        "Mirror Strike 2": "4"
+      },
       "B": {
-        "Bold Fighter 1": "3",
-        "Bold Fighter 2": "4",
-        "Bold Fighter 3": "5"
+        "Atk/Res Tempo 1": "3",
+        "Atk/Res Tempo 2": "4",
+        "Atk/Res Tempo 3": "5"
       },
-      "C": {
-        "Panic Ploy 1": "1",
-        "Panic Ploy 2": "2",
-        "Panic Ploy 3": "4"
-      },
+      "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/35/Hubert_Crimson_Schemer_Face.webp/revision/latest?cb=20250206060110",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/81/Hubert_Crimson_Schemer_BtlFace_D.webp/revision/latest?cb=20250206060105",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/16/Hubert_Crimson_Schemer_BtlFace_C.webp/revision/latest?cb=20250206060101",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9f/Hubert_Crimson_Schemer_BtlFace.webp/revision/latest?cb=20250206060045"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/21/Griss_Indulging_Pain_Face.webp/revision/latest?cb=20250217042638",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b9/Griss_Indulging_Pain_BtlFace_D.webp/revision/latest?cb=20250217042633",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a8/Griss_Indulging_Pain_BtlFace_C.webp/revision/latest?cb=20250217042628",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3f/Griss_Indulging_Pain_BtlFace.webp/revision/latest?cb=20250217042613"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Crimson Schemer",
-      "Hubert: Crimson Schemer",
-      "Valentine's Hubert",
-      "Valentines Hubert",
-      "Valentine Hubert",
-      "hubert2"
+      "Indulging Pain",
+      "Griss: Indulging Pain",
+      "Base Griss",
+      "Normal Griss",
+      "Regular Griss",
+      "griss"
     ],
     "HARD_ALT_NAME": [
-      "Crimson Schemer",
-      "Hubert: Crimson Schemer",
-      "Valentine's Hubert",
-      "Valentines Hubert",
-      "Valentine Hubert",
-      "hubert2"
+      "Indulging Pain",
+      "Griss: Indulging Pain",
+      "Base Griss",
+      "Normal Griss",
+      "Regular Griss",
+      "griss"
     ],
     "gender": "M",
-    "rarity": 4,
+    "rarity": 3,
     "pool": "grail",
-    "internal_id": "PID_\u611b\u306e\u796d\u30d2\u30e5\u30fc\u30d9\u30eb\u30c8",
-    "voice": "Robbie Daymond",
+    "internal_id": "PID_\u30b0\u30ea",
+    "voice": "Jamison Boaz",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fodlan"
+      "elyos"
     ],
-    "chibi": "fodlan",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "I merely prepare the scene... I provide, and my lady graciously receives.",
-        "I am well aware of how I contrast with this festival's...joyful petals dancing in the sunlight and so on.\nI am merely here to serve Her Highness.",
-        "My only wish is to see Lady Edelgard fulfill her ambitions. All other matters pale in comparison.",
-        "That I am able to fulfill my duties as I am now is your doing, is it not? In that case, you have my gratitude.",
-        "\"A Treatise on Love and Hate for the Hresvelgs.\" What a perfect inspiration for waxing poetic about love..."
+        "Ugh, \"hello\" is so boring! Cut me with blades, crush me with magic! Doesn't that sound like a better introduction?",
+        "I will follow you, Lord Sombron! Give me blood! Show me hell! Stab me into your enemy's heart like a dagger!",
+        "Perhaps we can strike a kind of deal. I will tear your foes from this world. In return, you'll give me sweet pain!",
+        "Hey, do I have more orders yet?! It's torture waiting around without something to bleed!",
+        "Huh? This isn't an injury. I've simply bled myself as an offering! To who? Well, you, of course, Summoner."
       ],
       "Visit": [
-        "If this will build a friendship, then the cost is a trifle."
+        "I've gone well out of my way to come here. So take this. A greeting from [F]."
       ],
       "Level": [
-        "Time well spent. Sad that it passes so quickly...",
-        "Ah! So this is why Askr insists on holding this festival.",
-        "Well... Let's not pass judgment."
+        "They're dying too quickly! We haven't even gotten to the fun part!",
+        "Ahaha! I can still feel it! The ecstasy of gutting my foes and spilling all their pretty insides!",
+        "What? Would you like more blood?! Haha! Then please, allow me to fight more!"
       ],
       "Summon": [
-        "So it's \"the Day of Devotion,\" is it? It is no use questioning Her Highness's judgment... There is work to be done."
+        "I'm Griss, second-in-command of the Four Hounds. Would you like to hurt me? Or would you prefer I hurt you?"
       ],
       "Learn Skill": [
-        "A most gracious gift. It would be impolite to refuse such generosity."
+        "More death? Haha! Oh, Summoner, you do give some good orders once in a while!"
       ],
       "Confession": [
-        "Perhaps it is strange for us to sit for tea like this. And unfortunately the coffee bean is unheard of here...\nOh! My sincerest apologies. You are my guest, and you have graciously offered your time.\nI hope I do not come across as brash, but I think quite highly of you. Enough so that I have a proposition...\nYou have a rare focus, and you seem to understand things in a way that others do not.\nYou are also immensely creative\u2014 a singular talent. Which is why...\nI would like to ask you to join me in assisting Lady Edelgard on her path to ascension.\nThis is the true reason I set up this this meeting\u2014for us to discuss our part in Lady Edelgard's ambitions.\nThere is no need to answer just now. I only ask that you hear me out..."
+        "Haha! I knew I'd like you. Killing with you, I see just how gloriously cruel you are, [S]!\nOh, no need to be shy. You order us to fight and suffer pain, all while healing us right at the brink of death!\nHa! How your Heroes have managed to cling to their sanity is impressive. Or, perhaps, they've already lost it!\nGood thing you have me as the voice of reason. HAHA! Say... How great would it be if this war never ended?\nLet them tear at me, but never allow me to die! Do that, and you and I can kill and be killed for eternity! AHAHA!"
       ],
       "Special": [
-        "Appreciated.",
-        "How about this?",
-        "Yield and surrender.",
-        "It seems I win."
+        "I'll show you pain!",
+        "Rejoice!",
+        "I almost envy you!",
+        "Take your reward!"
       ],
       "Status": [
-        "Ahem-ahem.",
-        "Strange... I am not sure why you have invited me to partake in a festival such as this.",
-        "I will attend the festival, but I have no desire to engage in frivolous antics.",
-        "Appreciation? There are few I find deserving, but I suppose the professor has earned it.",
-        "My...devotion to Lady Edelgard spurs only from her capabilities as a leader. Nothing more.",
-        "Just what are you snickering at? Is there something humorous about this garb?",
-        "If anything, I appreciate fate for bringing me into Lady Edelgard's service.",
-        "Uncovering your interests was no small feat, but I believe I have found a good gift for you."
+        "*laugh*",
+        "If you really want to get to me, try a blade. Do you lack the courage to do that?",
+        "Oh, the great summoner is here? Shall I offer up my blood?",
+        "I'm dying of boredom. Say, is there a Hero you don't like? Why don't we murder them?",
+        "You wanna die without suffering? Don't be stupid! Pain that exquisite is worth feeling.",
+        "Promise you'll keep sending me into rigorous, gruesome battles... Got it, Summoner?",
+        "What am I to do alone in this soft world without Zephia?",
+        "You get a kick out of making Heroes battle, eh? As you wish...I'll fight covered in blood and drowning in anguish."
       ],
       "Map Select": [
-        "If you are certain.",
-        "I see...",
-        "Eyes front."
+        "Huh?",
+        "*evil laugh*",
+        "Where's the pain?"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Valentines Hubert",
-    "SEARCH_NAME": "Valentines Hubert",
-    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Valentines Hubert",
+    "short_name": "Griss",
+    "SEARCH_NAME": "Griss",
+    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Griss",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "hubert"
-    ],
+    "reference": [],
     "prf": {
-      "": "devotedcup",
-      "eff": "devotedcup",
-      "atk": "devotedcup",
-      "spd": "devotedcup",
-      "def": "devotedcup",
-      "res": "devotedcup"
+      "": "nova",
+      "eff": "nova",
+      "atk": "nova",
+      "spd": "nova",
+      "def": "nova",
+      "res": "nova"
     }
   }
 }

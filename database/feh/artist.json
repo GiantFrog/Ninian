@@ -17225,7 +17225,16 @@
       "Normal Panette",
       "Regular Panette",
       "Base Panette",
-      "panette"
+      "panette",
+      "Hidden Mask",
+      "Yunaka: Hidden Mask",
+      "Base Yunaka",
+      "Normal Yunaka",
+      "Regular Yunaka",
+      "Aided Yunaka",
+      "Aid Yunaka",
+      "Yunaka",
+      "yunaka1"
     ],
     "HARD_ALT_NAME": [
       "merricR",
@@ -17343,7 +17352,16 @@
       "Normal Panette",
       "Regular Panette",
       "Base Panette",
-      "panette"
+      "panette",
+      "Hidden Mask",
+      "Yunaka: Hidden Mask",
+      "Base Yunaka",
+      "Normal Yunaka",
+      "Regular Yunaka",
+      "Aided Yunaka",
+      "Aid Yunaka",
+      "Yunaka",
+      "yunaka1"
     ],
     "heroes": {
       "bernadetta": "<:Colorless_Bow:1124845636659982457>Bernadetta",
@@ -17356,6 +17374,7 @@
       "panette": "<:Green_Axe:1124845885277343754>Panette",
       "robin15": "<:Red_Tome:1124846175577710642>Young Male Robin",
       "xane": "<:Colorless_Tome:1124845725960904734>Halloween Xane",
+      "yunaka": "<:Colorless_Dagger:1124845658617155734>Aided Yunaka",
       "yunaka2": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka"
     },
     "name": "nekomochi (\u30cd\u30b3\u30e2\u30c1)"
@@ -28407,6 +28426,102 @@
       "Valentines Claude",
       "Valentine Claude",
       "claude7"
+    ]
+  },
+  "qianzhongminori": {
+    "heroes": {
+      "nel": "<:Blue_Breath:1124845312637403236>Rearmed Nel"
+    },
+    "name": "\u5343\u7a2e\u307f\u306e\u308a",
+    "ALT_NAME": [
+      "Stoic Dragon",
+      "Nel: Stoic Dragon",
+      "Base Nel",
+      "Normal Nel",
+      "Regular Nel",
+      "Rearmed Nel",
+      "Rearm Nel",
+      "Arm Nel",
+      "Nel",
+      "nel1"
+    ],
+    "HARD_ALT_NAME": [
+      "Stoic Dragon",
+      "Nel: Stoic Dragon",
+      "Base Nel",
+      "Normal Nel",
+      "Regular Nel",
+      "Rearmed Nel",
+      "Rearm Nel",
+      "Arm Nel",
+      "Nel",
+      "nel1"
+    ]
+  },
+  "maxianmichi": {
+    "heroes": {
+      "rafal": "<:Red_Breath:1124846247673610240>Rafal"
+    },
+    "name": "\u9ebb\u5148\u307f\u3061",
+    "ALT_NAME": [
+      "Atoning Dragon",
+      "Rafal: Atoning Dragon",
+      "Base Rafal",
+      "Normal Rafal",
+      "Regular Rafal",
+      "rafal"
+    ],
+    "HARD_ALT_NAME": [
+      "Atoning Dragon",
+      "Rafal: Atoning Dragon",
+      "Base Rafal",
+      "Normal Rafal",
+      "Regular Rafal",
+      "rafal"
+    ]
+  },
+  "heijingsusumu": {
+    "heroes": {
+      "zelestia": "<:Green_Tome:1124845959873036289>Zelestia"
+    },
+    "name": "\u9ed2\u4e95\u30b9\u30b9\u30e0",
+    "ALT_NAME": [
+      "Loving Leader",
+      "Zelestia: Loving Leader",
+      "Base Zelestia",
+      "Normal Zelestia",
+      "Regular Zelestia",
+      "zelestia"
+    ],
+    "HARD_ALT_NAME": [
+      "Loving Leader",
+      "Zelestia: Loving Leader",
+      "Base Zelestia",
+      "Normal Zelestia",
+      "Regular Zelestia",
+      "zelestia"
+    ]
+  },
+  "kuren": {
+    "heroes": {
+      "griss": "<:Green_Tome:1124845959873036289>Griss"
+    },
+    "name": "kuren",
+    "ALT_NAME": [
+      "Indulging Pain",
+      "Griss: Indulging Pain",
+      "Base Griss",
+      "Normal Griss",
+      "Regular Griss",
+      "griss"
+    ],
+    "HARD_ALT_NAME": [
+      "Indulging Pain",
+      "Griss: Indulging Pain",
+      "Base Griss",
+      "Normal Griss",
+      "Regular Griss",
+      "griss"
     ]
   }
 }
