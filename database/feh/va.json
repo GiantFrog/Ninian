@@ -8790,7 +8790,13 @@
       "zephia",
       "Zephia1",
       "Zephia: Scheming Dragon",
-      "Scheming Dragon"
+      "Scheming Dragon",
+      "Loving Leader",
+      "Zelestia: Loving Leader",
+      "Base Zelestia",
+      "Normal Zelestia",
+      "Regular Zelestia",
+      "zelestia"
     ],
     "HARD_ALT_NAME": [
       "petrine",
@@ -8802,10 +8808,17 @@
       "Base Petrine",
       "Normal Petrine",
       "Base Prague",
-      "Normal Prague"
+      "Normal Prague",
+      "Loving Leader",
+      "Zelestia: Loving Leader",
+      "Base Zelestia",
+      "Normal Zelestia",
+      "Regular Zelestia",
+      "zelestia"
     ],
     "heroes": {
       "petrine": "<:Blue_Lance:1124845569496584302>Petrine",
+      "zelestia": "<:Green_Tome:1124845959873036289>Zelestia",
       "zephia": "<:Red_Tome:1124846175577710642>Zephia"
     },
     "name": "Elizabeth Maxwell"
@@ -11624,7 +11637,13 @@
       "Bridal Pant",
       "Groom Pant",
       "Bride Pant",
-      "Wedding Pant"
+      "Wedding Pant",
+      "Indulging Pain",
+      "Griss: Indulging Pain",
+      "Base Griss",
+      "Normal Griss",
+      "Regular Griss",
+      "griss"
     ],
     "HARD_ALT_NAME": [
       "astram",
@@ -11660,10 +11679,17 @@
       "Bridal Pant",
       "Groom Pant",
       "Bride Pant",
-      "Wedding Pant"
+      "Wedding Pant",
+      "Indulging Pain",
+      "Griss: Indulging Pain",
+      "Base Griss",
+      "Normal Griss",
+      "Regular Griss",
+      "griss"
     ],
     "heroes": {
       "astram": "<:Red_Sword:1124846201070698536>Astram",
+      "griss": "<:Green_Tome:1124845959873036289>Griss",
       "pent": "<:Green_Tome:1124845959873036289>Pent",
       "pent2": "<:Blue_Tome:1124845593211191297>Bridal Pent"
     },
@@ -15839,7 +15865,7 @@
     "ALT_NAME": [
       "Harmonic Shamir",
       "Christmas Yunaka",
-      "yunaka",
+      "yunaka2",
       "Base Catherine",
       "Spirited Envoy",
       "Catherine: Thunder Knight",
@@ -15857,14 +15883,23 @@
       "Base Sylvia",
       "Traveling Dancer",
       "Normal Sylvia",
-      "Yunaka: Spirited Envoy"
+      "Yunaka: Spirited Envoy",
+      "Hidden Mask",
+      "Yunaka: Hidden Mask",
+      "Base Yunaka",
+      "Normal Yunaka",
+      "Regular Yunaka",
+      "Aided Yunaka",
+      "Aid Yunaka",
+      "Yunaka",
+      "yunaka1"
     ],
     "HARD_ALT_NAME": [
       "Harmonic Shamir",
       "Sylvia",
       "Christmas Yunaka",
       "Dhamir",
-      "yunaka",
+      "yunaka2",
       "Base Catherine",
       "Silvia",
       "catherine",
@@ -15888,13 +15923,23 @@
       "Normal Sylvia",
       "shamir3",
       "Yunaka: Spirited Envoy",
-      "silvia"
+      "silvia",
+      "Hidden Mask",
+      "Yunaka: Hidden Mask",
+      "Base Yunaka",
+      "Normal Yunaka",
+      "Regular Yunaka",
+      "Aided Yunaka",
+      "Aid Yunaka",
+      "Yunaka",
+      "yunaka1"
     ],
     "heroes": {
       "catherine": "<:Red_Sword:1124846201070698536>Catherine",
       "shamir3": "<:Blue_Bow:1124845525695475845>Duo Shamir",
       "silvia": "<:Red_Sword:1124846201070698536>Silvia",
-      "yunaka": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka"
+      "yunaka": "<:Colorless_Dagger:1124845658617155734>Aided Yunaka",
+      "yunaka2": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka"
     },
     "name": "Laura Post"
   },
@@ -17581,7 +17626,17 @@
       "W Nel",
       "Bride Nel",
       "Bridal Nel",
-      "nel"
+      "nel2",
+      "Stoic Dragon",
+      "Nel: Stoic Dragon",
+      "Base Nel",
+      "Normal Nel",
+      "Regular Nel",
+      "Rearmed Nel",
+      "Rearm Nel",
+      "Arm Nel",
+      "Nel",
+      "nel1"
     ],
     "HARD_ALT_NAME": [
       "hilda4",
@@ -17613,11 +17668,22 @@
       "W Nel",
       "Bride Nel",
       "Bridal Nel",
-      "nel"
+      "nel2",
+      "Stoic Dragon",
+      "Nel: Stoic Dragon",
+      "Base Nel",
+      "Normal Nel",
+      "Regular Nel",
+      "Rearmed Nel",
+      "Rearm Nel",
+      "Arm Nel",
+      "Nel",
+      "nel1"
     ],
     "heroes": {
       "hilda4": "<:Red_Tome:1124846175577710642>Jugdral Hilda",
-      "nel": "<:Green_Breath:1124845770978361425>Bride Nel"
+      "nel": "<:Blue_Breath:1124845312637403236>Rearmed Nel",
+      "nel2": "<:Green_Breath:1124845770978361425>Bride Nel"
     },
     "name": "Liz Morey"
   },
@@ -28258,7 +28324,11 @@
       "Bride Marth",
       "Valentine Eliwood",
       "Mini Malik",
-      "Normal Kisaragi"
+      "Normal Kisaragi",
+      "Resplendent Eliwood",
+      "Resp Eliwood",
+      "R Eliwood",
+      "Eliwood (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Of Beginnings",
@@ -28502,7 +28572,11 @@
       "marth1",
       "Mini Malik",
       "Normal Kisaragi",
-      "M Brammimmond"
+      "M Brammimmond",
+      "Resplendent Eliwood",
+      "Resp Eliwood",
+      "R Eliwood",
+      "Eliwood (Resplendent)"
     ],
     "heroes": {
       "bramimond": "<:Colorless_Tome:1124845725960904734>Bramimond",
@@ -28510,6 +28584,7 @@
       "eliwood2": "<:Blue_Lance:1124845569496584302>Valentines Eliwood",
       "eliwood3": "<:Red_Sword:1124846201070698536>Legendary Eliwood",
       "eliwood4": "<:Blue_Lance:1124845569496584302>Brave Eliwood",
+      "eliwood4R": "<:Blue_Lance:1124845569496584302>Brave Eliwood (Resplendent)",
       "eliwood5": "<:Red_Sword:1124846201070698536>Young Eliwood",
       "eliwoodR": "<:Red_Sword:1124846201070698536>Eliwood (Resplendent)",
       "kiragi": "<:Colorless_Bow:1124845636659982457>Kiragi",
@@ -29946,6 +30021,28 @@
       "athos",
       "mythic athos",
       "m athos"
+    ]
+  },
+  "ychang": {
+    "heroes": {
+      "rafal": "<:Red_Breath:1124846247673610240>Rafal"
+    },
+    "name": "Y. Chang",
+    "ALT_NAME": [
+      "Atoning Dragon",
+      "Rafal: Atoning Dragon",
+      "Base Rafal",
+      "Normal Rafal",
+      "Regular Rafal",
+      "rafal"
+    ],
+    "HARD_ALT_NAME": [
+      "Atoning Dragon",
+      "Rafal: Atoning Dragon",
+      "Base Rafal",
+      "Normal Rafal",
+      "Regular Rafal",
+      "rafal"
     ]
   }
 }
