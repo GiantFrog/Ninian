@@ -15839,7 +15839,7 @@
     "ALT_NAME": [
       "Harmonic Shamir",
       "Christmas Yunaka",
-      "yunaka",
+      "yunaka2",
       "Base Catherine",
       "Spirited Envoy",
       "Catherine: Thunder Knight",
@@ -15864,7 +15864,7 @@
       "Sylvia",
       "Christmas Yunaka",
       "Dhamir",
-      "yunaka",
+      "yunaka2",
       "Base Catherine",
       "Silvia",
       "catherine",
@@ -15894,7 +15894,7 @@
       "catherine": "<:Red_Sword:1124846201070698536>Catherine",
       "shamir3": "<:Blue_Bow:1124845525695475845>Duo Shamir",
       "silvia": "<:Red_Sword:1124846201070698536>Silvia",
-      "yunaka": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka"
+      "yunaka2": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka"
     },
     "name": "Laura Post"
   },
@@ -17581,7 +17581,7 @@
       "W Nel",
       "Bride Nel",
       "Bridal Nel",
-      "nel"
+      "nel2"
     ],
     "HARD_ALT_NAME": [
       "hilda4",
@@ -17613,11 +17613,11 @@
       "W Nel",
       "Bride Nel",
       "Bridal Nel",
-      "nel"
+      "nel2"
     ],
     "heroes": {
       "hilda4": "<:Red_Tome:1124846175577710642>Jugdral Hilda",
-      "nel": "<:Green_Breath:1124845770978361425>Bride Nel"
+      "nel2": "<:Green_Breath:1124845770978361425>Bride Nel"
     },
     "name": "Liz Morey"
   },
