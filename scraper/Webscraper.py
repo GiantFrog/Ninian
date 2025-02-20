@@ -184,7 +184,7 @@ def scrape_page(page_name, alts=None, version=None):
                 blank['blessing'] = strings[1]
 
         if "Boost" in i.text:
-            boosts = re.findall("[a-zA-Z]{2,3}\+\d+", i.text)
+            boosts = re.findall(r"[a-zA-Z]{2,3}\+\d+", i.text)
             if 'boost' not in blank:
                 blank['boost'] = {}
             for j in boosts:
