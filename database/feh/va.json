@@ -28324,7 +28324,11 @@
       "Bride Marth",
       "Valentine Eliwood",
       "Mini Malik",
-      "Normal Kisaragi"
+      "Normal Kisaragi",
+      "Resplendent Eliwood",
+      "Resp Eliwood",
+      "R Eliwood",
+      "Eliwood (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Of Beginnings",
@@ -28568,7 +28572,11 @@
       "marth1",
       "Mini Malik",
       "Normal Kisaragi",
-      "M Brammimmond"
+      "M Brammimmond",
+      "Resplendent Eliwood",
+      "Resp Eliwood",
+      "R Eliwood",
+      "Eliwood (Resplendent)"
     ],
     "heroes": {
       "bramimond": "<:Colorless_Tome:1124845725960904734>Bramimond",
@@ -28576,6 +28584,7 @@
       "eliwood2": "<:Blue_Lance:1124845569496584302>Valentines Eliwood",
       "eliwood3": "<:Red_Sword:1124846201070698536>Legendary Eliwood",
       "eliwood4": "<:Blue_Lance:1124845569496584302>Brave Eliwood",
+      "eliwood4R": "<:Blue_Lance:1124845569496584302>Brave Eliwood (Resplendent)",
       "eliwood5": "<:Red_Sword:1124846201070698536>Young Eliwood",
       "eliwoodR": "<:Red_Sword:1124846201070698536>Eliwood (Resplendent)",
       "kiragi": "<:Colorless_Bow:1124845636659982457>Kiragi",
