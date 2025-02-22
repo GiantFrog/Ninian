@@ -2,11 +2,31 @@ services:
   ninian:
     image: registry.froginata.com/ninian:${IMAGE_TAG}
     restart: unless-stopped
+    depends_on:
+      - database
     environment:
+      DATABASE_CONNECTION: "postgresql://ninian:${POSTGRES_PASSWORD}@database/bot-db"
       OWNER_ID: ${OWNER_ID}
       TOKEN: ${TOKEN}
     labels:
       - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
+    networks:
+      - nininet
+
+  database:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: bot-db
+      POSTGRES_USER: ninian
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - nininet
+    ports:
+      - 5432:5432
+    volumes:
+      - db:/var/lib/postgresql/data
+
   watchtower:
     image: containrrr/watchtower
     restart: unless-stopped
@@ -19,3 +39,12 @@ services:
       - "com.centurylinklabs.watchtower.enable=false"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  nininet:
+    name: "nininet-${IMAGE_TAG}"
+    driver: bridge
+
+volumes:
+  db:
+    name: "ninian-db-${IMAGE_TAG}"
