@@ -1,5 +1,6 @@
 # these are needed to run the bot, but not to use the webscraper
 discord.py~=2.4
 lupa
+psycopg[binary]
 python-dotenv
 unidecode

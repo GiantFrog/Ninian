@@ -1,10 +1,9 @@
-import sqlite3, json
+import json
+import os
+import psycopg
 
-import oifey.util as util
 
-util.file.create_folder(".oifey")
-
-connection = sqlite3.connect(".oifey/lite.db")
+connection = psycopg.connect(os.getenv('DATABASE_CONNECTION'))
 cursor = connection.cursor()
 
 banned_words = ['"', "'", "\\", "\n"]
@@ -19,7 +18,7 @@ class Table:
         try:
             self.data = self.select()
             
-        except sqlite3.OperationalError:
+        except psycopg.OperationalError:
             cursor.execute(f"CREATE TABLE {self.key}(name, data)")
             
             self.data = self.select()
