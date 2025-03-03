@@ -2,7 +2,7 @@ local almanac = require("almanac")
 
 local util = almanac.util
 
-local fe2 = require("almanac.game.fe2")
+local fe3 = require("almanac.game.fe3")
 
 
 local Character = {}
@@ -16,7 +16,7 @@ local Item = {}
 -- Character --
 ---------------------------------------------------
 Character.__index = Character
-setmetatable(Character,  fe2.Character)
+setmetatable(Character,  fe3.Character)
 
 Character.section = almanac.get("database/fe3/redirect.json")
 Character.helper_job_growth = false
@@ -97,7 +97,7 @@ end
 -- Item --
 ---------------------------------------------------
 Item.__index = Item
-setmetatable(Item, fe2.Item)
+setmetatable(Item, fe3.Item)
 
 Item.section = almanac.get("database/fe3/item.json")
 
@@ -107,7 +107,7 @@ Item.section = almanac.get("database/fe3/item.json")
 -- Job --
 ---------------------------------------------------
 Job.__index = Job
-setmetatable(Job, fe2.Job)
+setmetatable(Job, fe3.Job)
 
 Job.section = almanac.get("database/fe3/job.json")
 
