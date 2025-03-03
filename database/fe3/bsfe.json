@@ -29,7 +29,7 @@
     },
     "boah": {
         "name": "Boah",
-        "job": "bishopm",
+        "job": "bishopmbsfe",
         "lvl": 3,
         "promo": false,
         "portrait": "bsfe_boah.png",
@@ -225,7 +225,7 @@
     },
     "frost": {
         "name": "Frost",
-        "job": "bishopm",
+        "job": "bishopmbsfe",
         "lvl": 1,
         "promo": false,
         "portrait": "bsfe_frost.png",
@@ -311,7 +311,7 @@
         "name": "Lena",
         "job": "cleric",
         "lvl": 3,
-        "promo": "bishopf",
+        "promo": "bishopfbsfe",
         "portrait": "bsfe_lena.png",
         "growth": {
             "hp": 10,
@@ -477,7 +477,7 @@
     },
     "nyna": {
         "name": "Nyna",
-        "job": "bishopf",
+        "job": "bishopfbsfe",
         "lvl": 1,
         "promo": false,
         "portrait": "bsfe_nyna.png",
