@@ -6059,7 +6059,25 @@
       "S Framme",
       "L'Arachel: Summer Princess",
       "Focused Samurai",
-      "Normal Hana"
+      "Normal Hana",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "L Sakura",
+      "Legendary Sakura",
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "L Sakura",
+      "Legendary Sakura",
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "L Sakura",
+      "Legendary Sakura",
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura"
     ],
     "HARD_ALT_NAME": [
       "Harmonic Elise",
@@ -6139,7 +6157,25 @@
       "S Larchel",
       "H Sakura",
       "Focused Samurai",
-      "Normal Hana"
+      "Normal Hana",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "L Sakura",
+      "Legendary Sakura",
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "L Sakura",
+      "Legendary Sakura",
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "L Sakura",
+      "Legendary Sakura",
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura"
     ],
     "heroes": {
       "elise4": "<:Colorless_Staff:1124845704444137592>Duo Elise",
@@ -6150,6 +6186,8 @@
       "lissa3": "<:Colorless_Staff:1124845704444137592>Valentines Lissa",
       "sakura": "<:Colorless_Staff:1124845704444137592>Sakura",
       "sakura2": "<:Colorless_Dagger:1124845658617155734>Halloween Sakura",
+      "sakura4": "<:Colorless_Staff:1124845704444137592>Sakura",
+
       "velouria2": "<:Blue_Beast:1124845338688233575>New Year Velouria"
     },
     "name": "Fuzichoco (\u85e4\u3061\u3087\u3053)"
