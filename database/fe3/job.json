@@ -123,58 +123,6 @@
             "mov": 6
         }
     },
-    "bishop2": {
-        "name": "Bishop (F)",
-        "dismount": false,
-        "exp": 22,
-        "weapon": [
-            "magic",
-            "staff"
-        ],
-        "promo": {
-            "atk": 2,
-            "skl": 2,
-            "spd": 2,
-            "def": 1,
-            "res": 2
-        },
-        "base": {
-            "hp": 18,
-            "atk": 3,
-            "skl": 3,
-            "spd": 5,
-            "wlv": 12,
-            "def": 2,
-            "res": 7,
-            "mov": 6
-        }
-    },
-    "bishop1": {
-        "name": "Bishop (M)",
-        "dismount": false,
-        "exp": 40,
-        "weapon": [
-            "magic",
-            "staff"
-        ],
-        "promo": {
-            "atk": 2,
-            "skl": 1,
-            "spd": 1,
-            "def": 0,
-            "res": 3
-        },
-        "base": {
-            "hp": 22,
-            "atk": 3,
-            "skl": 2,
-            "spd": 4,
-            "wlv": 2,
-            "def": 2,
-            "res": 6,
-            "mov": 6
-        }
-    },
     "bishopmerric": {
         "name": "Bishop (Merric)",
         "dismount": false,
