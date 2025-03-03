@@ -107,20 +107,10 @@ Item.section = almanac.get("database/fe3/item.json")
 -- Job --
 ---------------------------------------------------
 Job.__index = Job
-setmetatable(Job, fe3.Job)
+setmetatable(Job, almanac.workspaces.Job)
 
 Job.section = almanac.get("database/fe3/job.json")
-
--- Only return the res for display stuff and dread fither
-function Job:get_base(display)
-    local base = util.copy(self.data.base)
-    
-    if not display and self.id ~= "dreadfighter" then
-        base.res = 0
-    end
-    
-    return base
-end
+Job.hp_bonus = false
 
 return {
     Character = Character,
