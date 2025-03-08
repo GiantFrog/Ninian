@@ -2657,7 +2657,19 @@
       "Sakura: In Full Bloom",
       "L Sakura",
       "Legendary Sakura",
-      "sakura4"
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura",
+      "sakura5",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura",
+      "sakura5",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura",
+      "sakura5"
     ],
     "HARD_ALT_NAME": [
       "est",
@@ -2854,7 +2866,19 @@
       "Sakura: In Full Bloom",
       "L Sakura",
       "Legendary Sakura",
-      "sakura4"
+      "sakura4",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura",
+      "sakura5",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura",
+      "sakura5",
+      "In Full Bloom",
+      "Sakura: In Full Bloom",
+      "Legendary Sakura",
+      "sakura5"
     ],
     "heroes": {
       "charlotte": "<:Green_Axe:1124845885277343754>Charlotte",
@@ -2875,6 +2899,7 @@
       "sakura2": "<:Colorless_Dagger:1124845658617155734>Halloween Sakura",
       "sakura3": "<:Colorless_Staff:1124845704444137592>Bath Sakura",
       "sakura4": "<:Colorless_Staff:1124845704444137592>Legendary Sakura",
+      "sakura5": "<:Colorless_Staff:1124845704444137592>Sakura",
       "tiki7": "<:Blue_Breath:1124845312637403236>Harmonic Young Tiki"
     },
     "name": "Brianna Knickerbocker"
@@ -5026,7 +5051,11 @@
       "Valentine's Dimitri",
       "Valentines Dimitri",
       "Valentine Dimitri",
-      "dimitri7"
+      "dimitri7",
+      "Resplendent Quan",
+      "Resp Quan",
+      "R Quan",
+      "Quan (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Christmas Dimitri",
@@ -5136,7 +5165,11 @@
       "Valentine's Dimitri",
       "Valentines Dimitri",
       "Valentine Dimitri",
-      "dimitri7"
+      "dimitri7",
+      "Resplendent Quan",
+      "Resp Quan",
+      "R Quan",
+      "Quan (Resplendent)"
     ],
     "heroes": {
       "boey": "<:Green_Tome:1124845959873036289>Boey",
@@ -5149,7 +5182,8 @@
       "dimitri7": "<:Red_Sword:1124846201070698536>Valentines Dimitri",
       "dimitriR": "<:Blue_Lance:1124845569496584302>Dimitri (Resplendent)",
       "quan": "<:Blue_Lance:1124845569496584302>Quan",
-      "quan2": "<:Blue_Bow:1124845525695475845>Dancer Quan"
+      "quan2": "<:Blue_Bow:1124845525695475845>Dancer Quan",
+      "quanR": "<:Blue_Lance:1124845569496584302>Quan (Resplendent)"
     },
     "name": "Chris Hackney"
   },
