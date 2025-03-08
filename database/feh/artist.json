@@ -6593,7 +6593,13 @@
       "Base Zeiss",
       "Normal Zeiss",
       "Regular Zeiss",
-      "zeiss"
+      "zeiss",
+      "Spring Jitters",
+      "Lon'qu: Spring Jitters",
+      "Spring Lon'qu",
+      "Easter Lon'qu",
+      "S Lon'qu",
+      "lonqu2"
     ],
     "HARD_ALT_NAME": [
       "lonquR",
@@ -6717,7 +6723,13 @@
       "Base Zeiss",
       "Normal Zeiss",
       "Regular Zeiss",
-      "zeiss"
+      "zeiss",
+      "Spring Jitters",
+      "Lon'qu: Spring Jitters",
+      "Spring Lon'qu",
+      "Easter Lon'qu",
+      "S Lon'qu",
+      "lonqu2"
     ],
     "heroes": {
       "byleth4": "<:Green_Tome:1124845959873036289>Legendary Male Byleth",
@@ -6725,6 +6737,7 @@
       "galle": "<:Blue_Lance:1124845569496584302>Galle",
       "hector6": "<:Green_Axe:1124845885277343754>Young Hector",
       "ike2R": "<:Green_Axe:1124845885277343754>Brave Ike (Resplendent)",
+      "lonqu2": "<:Green_Axe:1124845885277343754>Spring Lon'qu",
       "lonquR": "<:Red_Sword:1124846201070698536>Lon'qu (Resplendent)",
       "yenfay": "<:Red_Sword:1124846201070698536>Yen'fay",
       "zeiss": "<:Blue_Lance:1124845569496584302>Zeiss",
@@ -8597,7 +8610,13 @@
       "Fem Summer Alear",
       "Summer F Alear",
       "S F Alear",
-      "Female Alear 3"
+      "Female Alear 3",
+      "Spring Tranquility",
+      "Veyle: Spring Tranquility",
+      "Spring Veyle",
+      "Easter Veyle",
+      "S Veyle",
+      "veyle3"
     ],
     "HARD_ALT_NAME": [
       "shiida5",
@@ -8713,7 +8732,13 @@
       "Fem Summer Alear",
       "Summer F Alear",
       "S F Alear",
-      "Female Alear 3"
+      "Female Alear 3",
+      "Spring Tranquility",
+      "Veyle: Spring Tranquility",
+      "Spring Veyle",
+      "Easter Veyle",
+      "S Veyle",
+      "veyle3"
     ],
     "heroes": {
       "alear5": "<:Colorless_Breath:1124845679076978798>Summer Alear",
@@ -8726,6 +8751,7 @@
       "rosado": "<:Green_Axe:1124845885277343754>Rosado",
       "tatiana": "<:Blue_Tome:1124845593211191297>Tatiana",
       "triandra3": "<:Red_Sword:1124846201070698536>Attuned Triandra",
+      "veyle3": "<:Red_Tome:1124846175577710642>Spring Veyle",
       "ymir2": "<:Colorless_Tome:1124845725960904734>Duo Ymir"
     },
     "name": "ichikawa Halu (\u3044\u3061\u304b\u308f\u306f\u308b)"
@@ -11149,7 +11175,20 @@
       "I Nils",
       "I F Nils",
       "I T Nils",
-      "nils3"
+      "nils3",
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
     ],
     "HARD_ALT_NAME": [
       "nils",
@@ -11325,7 +11364,20 @@
       "I Nils",
       "I F Nils",
       "I T Nils",
-      "nils3"
+      "nils3",
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
     ],
     "heroes": {
       "chloe2": "<:Red_Tome:1124846175577710642>Spring Chlo\u00e9",
@@ -11342,6 +11394,7 @@
       "ninian": "<:Blue_Breath:1124845312637403236>Ninian",
       "olivia4": "<:Colorless_Tome:1124845725960904734>Summer Olivia",
       "peony2": "<:Green_Tome:1124845959873036289>Duo Peony",
+      "plumeria4": "<:Blue_Lance:1124845569496584302>Harmonic Spring Plumeria",
       "rhys": "<:Colorless_Staff:1124845704444137592>Summer Rhys",
       "sonya2": "<:Green_Tome:1124845959873036289>Harmonic Sonya",
       "triandra2": "<:Colorless_Tome:1124845725960904734>Spring Triandra"
@@ -22862,7 +22915,13 @@
       "Regular Merrin",
       "Base Merrin",
       "Normal Merrin",
-      "merrin"
+      "merrin",
+      "Spring Cheer",
+      "Mae: Spring Cheer",
+      "Spring Mae",
+      "Easter Mae",
+      "S Mae",
+      "mae2"
     ],
     "HARD_ALT_NAME": [
       "caeldori",
@@ -22894,10 +22953,17 @@
       "Regular Merrin",
       "Base Merrin",
       "Normal Merrin",
-      "merrin"
+      "merrin",
+      "Spring Cheer",
+      "Mae: Spring Cheer",
+      "Spring Mae",
+      "Easter Mae",
+      "S Mae",
+      "mae2"
     ],
     "heroes": {
       "caeldori": "<:Blue_Lance:1124845569496584302>Caeldori",
+      "mae2": "<:Green_Tome:1124845959873036289>Spring Mae",
       "merrin": "<:Red_Sword:1124846201070698536>Merrin",
       "sophia3": "<:Red_Tome:1124846175577710642>Bridal Sophia"
     },
@@ -28618,6 +28684,28 @@
       "Normal Griss",
       "Regular Griss",
       "griss"
+    ]
+  },
+  "siino": {
+    "heroes": {
+      "eitr2": "<:Colorless_Beast:1124845615935918110>Spring Eitr"
+    },
+    "name": "Siino",
+    "ALT_NAME": [
+      "Spring Sunrise",
+      "Eitr: Spring Sunrise",
+      "Spring Eitr",
+      "Easter Eitr",
+      "S Eitr",
+      "eitr2"
+    ],
+    "HARD_ALT_NAME": [
+      "Spring Sunrise",
+      "Eitr: Spring Sunrise",
+      "Spring Eitr",
+      "Easter Eitr",
+      "S Eitr",
+      "eitr2"
     ]
   }
 }

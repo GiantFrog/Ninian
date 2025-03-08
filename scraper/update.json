@@ -1,359 +1,17 @@
 {
-  "nel": {
-    "name": "Nel",
-    "title": "Stoic Dragon",
-    "description": "A child of the Fell Dragon from another Elyos. She is Rafal's elder sister and very much his counterpart. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "\u5343\u7a2e\u307f\u306e\u308a",
-    "move": "Infantry",
-    "weapon": "Breath",
-    "color": "Blue",
-    "duel": false,
-    "id": "1209",
-    "type": "rearmed",
-    "version": "9.2",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 16,
-      "atk": 11,
-      "spd": 8,
-      "def": 8,
-      "res": 14
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 75,
-      "spd": 90,
-      "def": 50,
-      "res": 60
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "atk",
-      "def"
-    ],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Flametongue": "3",
-      "Arcane Fell Arts": "5"
-    },
-    "assist": {},
-    "special": {
-      "Chilling Wind": "3",
-      "Iceberg": "4",
-      "Dragon's Roar": "5"
-    },
-    "passive": {
-      "A": {
-        "Protective": "5"
-      },
-      "B": {
-        "Dragon's Wrath 1": "2",
-        "Dragon's Wrath 2": "3",
-        "Dragon's Wrath 3": "4",
-        "Edged Scales": "5"
-      },
-      "C": {
-        "Close Guard 1": "2",
-        "Close Guard 2": "3",
-        "Close Guard 3": "4",
-        "Barricade": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/81/Nel_Stoic_Dragon_Face.webp/revision/latest?cb=20250217042713",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5a/Nel_Stoic_Dragon_BtlFace_D.webp/revision/latest?cb=20250217042708",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4e/Nel_Stoic_Dragon_BtlFace_C.webp/revision/latest?cb=20250217042703",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fc/Nel_Stoic_Dragon_BtlFace.webp/revision/latest?cb=20250217042648"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Stoic Dragon",
-      "Nel: Stoic Dragon",
-      "Base Nel",
-      "Normal Nel",
-      "Regular Nel",
-      "Rearmed Nel",
-      "Rearm Nel",
-      "Arm Nel",
-      "Nel",
-      "nel1"
-    ],
-    "HARD_ALT_NAME": [
-      "Stoic Dragon",
-      "Nel: Stoic Dragon",
-      "Base Nel",
-      "Normal Nel",
-      "Regular Nel",
-      "Rearmed Nel",
-      "Rearm Nel",
-      "Arm Nel",
-      "Nel",
-      "nel1"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30a8\u30eb",
-    "voice": "Liz Morey",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "elyos"
-    ],
-    "chibi": "fe17",
-    "quotes": {
-      "Castle Hall": [
-        "The Fell Dragon's children are always twins. In rare cases, there are defects with two souls born into one body.",
-        "In the world I come from, Emblems dwelled in bracelets instead of rings. I had the power to put them to sleep.",
-        "You appear tired, Summoner. Might I sing you to sleep with a lullaby? I will not stay to wake you, but...",
-        "Rafal shared my life and dragonstone. No matter what anyone says, we are truly two halves of the same whole.",
-        "The meals mortals eat seem bland. I often add hot or sour spices, though I get the strangest looks for doing so."
-      ],
-      "Visit": [
-        "Please, give my regards to the Divine Dragon and accept this greeting from [F]."
-      ],
-      "Level": [
-        "If this benefits the Order of Heroes, then I accept it.",
-        "This is a mere moment. I will not be the one who decides my worth.",
-        "Things do not always go well."
-      ],
-      "Summon": [
-        "I am Nel. I cannot believe I am the one being called upon for aid. Where are the Divine Dragon and Rafal?"
-      ],
-      "Learn Skill": [
-        "I promise to protect this world with the power bestowed upon me so it does not follow a path to destruction."
-      ],
-      "Confession": [
-        "You were summoning again, I see. Did you find the power you hoped for?\nI performed a summoning ceremony once in my grief over the world's destruction and got but one savior.\nYou can summon so many Heroes. I understand this is because of how great of a threat this world faces.\nIf that is the case, even if the Order of Heroes' courtyard is full of Heroes, I shall do my best to become a savior.\nI will not allow you to witness your world's annihilation or lose those who are precious to you, as I did."
-      ],
-      "Special": [
-        "Wake in a thousand years.",
-        "Save this world.",
-        "Farewell.",
-        "No going back."
-      ],
-      "Status": [
-        "Hmm...",
-        "Divine One? Oh...no. Of course, it is only you.",
-        "I am a Fell Dragon. Does it not frighten you to get close to me?",
-        "The power to put Emblems to sleep... Having crossed to another world yet again, it has still been denied me.",
-        "I fought alongside the savior of my world to collect the seven Emblem bracelets.",
-        "I will not die again knowing there is someone who waited a thousand years for me the first time.",
-        "Wherever Rafal is now, I hope he is not lonely, being apart like this...",
-        "The Heroes here ask that you look after yourself, so that you always make it back from the battlefield. That is my wish, as well."
-      ],
-      "Map Select": [
-        "We begin.",
-        "You have my attention.",
-        "Let us be on our way."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rearmed Nel",
-    "SEARCH_NAME": "Rearmed Nel",
-    "DISPLAY_NAME": "<:Blue_Breath:1124845312637403236>Rearmed Nel",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "nel2"
-    ],
-    "prf": {
-      "": "arcanefellarts",
-      "eff": "arcanefellarts",
-      "atk": "arcanefellarts",
-      "spd": "arcanefellarts",
-      "def": "arcanefellarts",
-      "res": "arcanefellarts"
-    }
-  },
-  "rafal": {
-    "name": "Rafal",
-    "title": "Atoning Dragon",
-    "description": "A child of the Fell Dragon from another Elyos. He is Nel's younger brother and very much her counterpart. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "\u9ebb\u5148\u307f\u3061",
-    "move": "Armored",
-    "weapon": "Breath",
-    "color": "Red",
-    "duel": false,
-    "id": "1210",
-    "type": false,
-    "version": "9.2",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 20,
-      "atk": 12,
-      "spd": 5,
-      "def": 10,
-      "res": 14
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 80,
-      "spd": 50,
-      "def": 90,
-      "res": 60
-    },
-    "superboon": [
-      "def"
-    ],
-    "superbane": [
-      "spd"
-    ],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Flametongue": "3",
-      "Fell Slaystone": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Bonfire": "4",
-      "Armored Blaze": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Def Scowl 1": "2",
-        "Atk/Def Scowl 2": "3",
-        "Atk/Def Scowl 3": "4",
-        "Atk/Def Scowl 4": "5"
-      },
-      "B": {},
-      "C": {
-        "A/R Near Save 1": "2",
-        "A/R Near Save 2": "3",
-        "A/R Near Save 3": "4",
-        "A/R Twin N Save": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e0/Rafal_Atoning_Dragon_Face.webp/revision/latest?cb=20250217042748",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/df/Rafal_Atoning_Dragon_BtlFace_D.webp/revision/latest?cb=20250217042743",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c6/Rafal_Atoning_Dragon_BtlFace_C.webp/revision/latest?cb=20250217042738",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Rafal_Atoning_Dragon_BtlFace.webp/revision/latest?cb=20250217042723"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Atoning Dragon",
-      "Rafal: Atoning Dragon",
-      "Base Rafal",
-      "Normal Rafal",
-      "Regular Rafal",
-      "rafal"
-    ],
-    "HARD_ALT_NAME": [
-      "Atoning Dragon",
-      "Rafal: Atoning Dragon",
-      "Base Rafal",
-      "Normal Rafal",
-      "Regular Rafal",
-      "rafal"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u30e9\u30d5\u30a1\u30fc\u30eb",
-    "voice": "Y. Chang",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "elyos"
-    ],
-    "chibi": "fe17",
-    "quotes": {
-      "Castle Hall": [
-        "Tell me of the sweets of this world. But omit the mild sweets! I desire what most would say is TOO sweet.",
-        "My father cast a spell on me, and I ended up doing...unforgivable things. Those sins are all mine to bear.",
-        "I could awaken Emblems in my world. Yet in having traversed worlds twice, I seem to have lost the power.",
-        "Allow me to take on your...unsavory missions. I am expendable, unlike my sister, the Divine Dragon, and the rest.",
-        "If Divine Dragon Lumera is here, I will be curious to learn what it was like to await a loved one for a millennium..."
-      ],
-      "Visit": [
-        "I come with greetings on behalf of [F].\nI also come with some of my sweet treats, specially made to suit average palates."
-      ],
-      "Level": [
-        "Witness my power!",
-        "The expected result. But I can do more.",
-        "No... I will not be a failure..."
-      ],
-      "Summon": [
-        "I am Rafal, and I bring with me the power of the Fell Dragon's lineage. Is it possible...my sister Nel is here?"
-      ],
-      "Learn Skill": [
-        "You choose to grant me power... Very well. I may return the favor."
-      ],
-      "Confession": [
-        "Summoner, I applaud your deft use of my power. I wish to reward you by speaking about myself and my past.\nFor a long time, I took the place of one named Nil, who was the true twin of Nel. I looked for Nil here, yet...\nOnly those who have done great deeds, whether good or evil, will be brought here as a Hero.\nNil's deeds were, sadly, insufficient. Meanwhile, my great deeds were... apocalyptic.\nBut evil pawns can still do good if wielded well. Thus, thanks to you, I now fight on behalf of the slain.\nI believe I shall spend this evening watching the stars. Nil always did like looking at the stars...\nIf you have no other plans, would you join me, [S]?"
-      ],
-      "Special": [
-        "Not in a millennium!",
-        "Are you frightened?",
-        "I am awakened!",
-        "There is no going back."
-      ],
-      "Status": [
-        "-",
-        "Your attempts at altruism remind me of the Divine Dragon...",
-        "Do not cling to me! Shall I take on my Fell Dragon form?",
-        "The power to awaken Emblems is of no use in Askr.",
-        "Only the sweetest of confections can satisfy me.",
-        "Nel... My sister is my precious counterpart. She always will be, no matter how many thousands of years pass by.",
-        "Neither the seven bracelets nor my father's power are necessary now.",
-        "Huh? You'll be taking a nap? And would like me to wake you?! Ugh! How dare you. I am not some blithering rooster!"
-      ],
-      "Map Select": [
-        "Let us proceed.",
-        "Yours to command.",
-        "Let us go."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rafal",
-    "SEARCH_NAME": "Rafal",
-    "DISPLAY_NAME": "<:Red_Breath:1124846247673610240>Rafal",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "fellslaystone",
-      "eff": "fellslaystone",
-      "atk": "fellslaystone",
-      "spd": "fellslaystone",
-      "def": "fellslaystone",
-      "res": "fellslaystone"
-    }
-  },
-  "yunaka": {
-    "name": "Yunaka",
-    "title": "Hidden Mask",
-    "description": "A wanderer who travels Elyos. She keeps a tight lid on the details of her past. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "nekomochi (\u30cd\u30b3\u30e2\u30c1)",
-    "move": "Infantry",
-    "weapon": "Dagger",
+  "eitr2": {
+    "name": "Eitr",
+    "title": "Spring Sunrise",
+    "description": "Unquestioning servant of the ruler of nothingness, she lacks the confidence to express her own will. Yet, at Askr's spring festival, she comes to know of a new world.",
+    "origin": "Heroes",
+    "artist": "Siino",
+    "move": "Cavalry",
+    "weapon": "Beast",
     "color": "Colorless",
     "duel": false,
-    "id": "1208",
-    "type": "aided",
-    "version": "9.2",
+    "id": "1215",
+    "type": false,
+    "version": "9.3",
     "duo": false,
     "harmonized": false,
     "emblem": false,
@@ -361,353 +19,344 @@
       "hp": 18,
       "atk": 11,
       "spd": 9,
+      "def": 9,
+      "res": 6
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
+      "spd": 90,
+      "def": 60,
+      "res": 35
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Whelp (Cavalry)": "1",
+      "Yearling (Cavalry)": "2",
+      "Adult (Cavalry)": "3",
+      "Petaldream Horn": "5"
+    },
+    "assist": {},
+    "special": {
+      "Night Sky": "3",
+      "Astra": "4",
+      "Nimble Beast": "5"
+    },
+    "passive": {
+      "A": {
+        "Nihility's Undoing": "5"
+      },
+      "B": {
+        "Beast Agility 1": "2",
+        "Beast Agility 2": "3",
+        "Beast Agility 3": "4",
+        "Bestial Agility": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/60/Eitr_Spring_Sunrise_Face.webp/revision/latest?cb=20250306041313",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/93/Eitr_Spring_Sunrise_BtlFace_D.webp/revision/latest?cb=20250306041303",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9d/Eitr_Spring_Sunrise_BtlFace_C.webp/revision/latest?cb=20250306041252",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4a/Eitr_Spring_Sunrise_BtlFace.webp/revision/latest?cb=20250306041221"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Spring Sunrise",
+      "Eitr: Spring Sunrise",
+      "Spring Eitr",
+      "Easter Eitr",
+      "S Eitr",
+      "eitr2"
+    ],
+    "HARD_ALT_NAME": [
+      "Spring Sunrise",
+      "Eitr: Spring Sunrise",
+      "Spring Eitr",
+      "Easter Eitr",
+      "S Eitr",
+      "eitr2"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6625\u796d\u30a2\u30a4\u30c8",
+    "voice": "Caitlyn Elizabeth",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "Such gatherings usually frighten me, but... It's so nice and warm here. It's very calming.",
+        "I was in a world where nothingness had spread far and wide. No hope, no future, no spring sunshine... Nothing.",
+        "Spring has arrived. I hope my brother is out there somewhere...enjoying the spring wherever he is.",
+        "This season is so bright... It's hard to believe such a world exists beyond the nightmares.",
+        "I wonder... If I'm dressed as a rabbit, does that mean I can run away faster if I get scared?"
+      ],
+      "Visit": [
+        "Is...someone there? I was told this spring-festival invitation is for you. It's from [F]."
+      ],
+      "Level": [
+        "My heart... It feels so warm. I believe I may come to enjoy the spring.",
+        "I cannot just yearn... I must extend my hand and take the strength that the spring dream has for me.",
+        "I'm sorry if I ruined the festival..."
+      ],
+      "Summon": [
+        "I am Eitr... Is it r-really OK if I join you in the spring festival?"
+      ],
+      "Learn Skill": [
+        "A gift...to celebrate spring? I will take good care of it. Thank you."
+      ],
+      "Confession": [
+        "\u3010Summoner\u3011\n...\nThank you so much for inviting me to such a wonderful festival. Truly.\nIn my world there were no festivals. There was only cold and dark and a vast, endless nothingness...\nBut even in that empty world, I had faint memories of my brother. They were my one and only hope.\nThe spring air reminds me of him... Kind and warm...and soothing.\nI want to stay in the spring sun just a little while longer...if that is OK.\nThank you so much. I won't forget this... The first festival where I could spend time in the sun...with everyone."
+      ],
+      "Special": [
+        "So this is spring?",
+        "Hippety-hop...",
+        "It's so warm...",
+        "Wake up!"
+      ],
+      "Status": [
+        "Uh-huh.",
+        "Why would someone want me at a spring festival?",
+        "Ah! Stop it! Please! Don't pick on me...",
+        "Bunnies are cute. And everyone likes them. I wish I...",
+        "I-if I get embarrassed, I'll just hide behind the ears.",
+        "Spring changes so much. But I'm always the same. I do like the flowers though...",
+        "Oh Freyr. I miss you so much...",
+        "I feel so hopeless... Would it be all right if held your hand?"
+      ],
+      "Map Select": [
+        "Hm...",
+        "What now?",
+        "Where?"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Spring Eitr",
+    "SEARCH_NAME": "Spring Eitr",
+    "DISPLAY_NAME": "<:Colorless_Beast:1124845615935918110>Spring Eitr",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "eitr"
+    ],
+    "prf": {
+      "": "petaldreamhorn",
+      "eff": "petaldreamhorn",
+      "atk": "petaldreamhorn",
+      "spd": "petaldreamhorn",
+      "def": "petaldreamhorn",
+      "res": "petaldreamhorn"
+    }
+  },
+  "mae2": {
+    "name": "Mae",
+    "title": "Spring Cheer",
+    "description": "A mage who is well liked for her positivity and energy. She is Celica's close friend and strives to bring Askr's spring festival to life. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "origin": "Echoes",
+    "artist": "Tantan (\u305f\u3093\u65e6)",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Green",
+    "duel": false,
+    "id": "1216",
+    "type": false,
+    "version": "9.3",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 9,
+      "spd": 11,
+      "def": 4,
+      "res": 11
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 70,
+      "def": 30,
+      "res": 70
+    },
+    "superboon": [
+      "atk",
+      "spd",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "def"
+    ],
+    "weapons": {
+      "Wind": "1",
+      "Elwind": "2",
+      "Spring-Air Egg": "3",
+      "Spring-Air Egg+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "Null Follow-Up 1": "2",
+        "Null Follow-Up 2": "3",
+        "Null Follow-Up 3": "4",
+        "Mag. Null Follow": "5"
+      },
+      "C": {
+        "Atk/Spd Oath 1": "1",
+        "Atk/Spd Oath 2": "2",
+        "Atk/Spd Oath 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7f/Mae_Spring_Cheer_Face.webp/revision/latest?cb=20250306041427",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a4/Mae_Spring_Cheer_BtlFace_D.webp/revision/latest?cb=20250306041417",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8c/Mae_Spring_Cheer_BtlFace_C.webp/revision/latest?cb=20250306041406",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a4/Mae_Spring_Cheer_BtlFace.webp/revision/latest?cb=20250306041334"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Spring Cheer",
+      "Mae: Spring Cheer",
+      "Spring Mae",
+      "Easter Mae",
+      "S Mae",
+      "mae2"
+    ],
+    "HARD_ALT_NAME": [
+      "Spring Cheer",
+      "Mae: Spring Cheer",
+      "Spring Mae",
+      "Easter Mae",
+      "S Mae",
+      "mae2"
+    ],
+    "gender": "F",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6625\u796d\u30e1\u30a4",
+    "voice": "\u2014",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "valentia"
+    ],
+    "chibi": "fe15",
+    "quotes": {
+      "Castle Hall": [
+        "While I'm here, I might as well use magic to bring this spring festival to life instead of using it to hurt people.",
+        "Novis is so pretty in springtime! The flowers all bloom at the same time, and the ocean shines brilliantly.",
+        "Ooh, spring is so exciting! It makes me feel all...hippety-hoppy.",
+        "Even though spring comes every year, it's never the same. Each time, it feels fresh and brings a new cheer!",
+        "Such a cute outfit! I wonder what Celica and Boey would say about it."
+      ],
+      "Visit": [
+        "Hello there! I have a spring delivery for you from [F]."
+      ],
+      "Level": [
+        "It's not every day you have a spring festival. Let's hop around and enjoy it together!",
+        "Festivals are no time for sadness. They're a time to laugh in the warm sunlight... Come on!",
+        "Oh, uh...did I get too carried away? I might hear from Celica about this..."
+      ],
+      "Summon": [
+        "I'm Mae! I hear you're having a spring festival. I'll do my very best to make it lively and fun. Let's hop to it, 'K?"
+      ],
+      "Learn Skill": [
+        "For me, really?! Oh, yay! See, good things are bound to happen in the spring!"
+      ],
+      "Confession": [
+        "Ahh... This is so much fun! I hope you're enjoying the spring festival too, [S].\nNo more cold, wintry days. Flowers are blooming, everyone is smiling... It's the best, don't you think?\nI understand now why you want to protect the people of Askr, keep them smiling all day, every day.\nAnd that's why I'm here\u2014to lend you my strength so everyone is free to keep enjoying festivals like this.\nAnd we want to keep having these festivals every year, of course. So, while I'm here...\nWe should enjoy the festival as long as it lasts. Come on! Hippety-hop! Spring is here!"
+      ],
+      "Special": [
+        "Spring is here!",
+        "Warm, huh?",
+        "Springtime!",
+        "Hippety-hop!"
+      ],
+      "Status": [
+        "Whoa!",
+        "Aw, thanks for the invite. And such a cute outfit!",
+        "Whoa! *sigh* You startled me.",
+        "Ahh, spring... I can't help but be excited about this season.",
+        "Celica told me to have fun at the festival. So *giggle* that's what I'll do.",
+        "Novis is so pretty in springtime! Amazingly so!",
+        "I wonder what Boey would say if he saw me in this outfit... *laugh* That'd be silly!",
+        "Ugh, it's so warm out! Ha... Great outdoors, here we come!"
+      ],
+      "Map Select": [
+        "Sounds good!",
+        "Uh...",
+        "Hoppin' to it."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Spring Mae",
+    "SEARCH_NAME": "Spring Mae",
+    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Spring Mae",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "mae"
+    ],
+    "prf": {
+      "": "springairegg",
+      "eff": "springairegg",
+      "atk": "springairegg",
+      "spd": "springairegg",
+      "def": "springairegg",
+      "res": "springairegg"
+    }
+  },
+  "plumeria4": {
+    "name": "Plumeria",
+    "title": "Spring Dance",
+    "description": "Plumeria, the d\u00f6kk\u00e1lfr, and Olivia, the dancer. Their dance brings color to the spring festival. They appear in Fire Emblem Heroes / Awakening",
+    "origin": "Heroes + Awakening",
+    "artist": "Kippu (\u5207\u7b26)",
+    "move": "Flying",
+    "weapon": "Lance",
+    "color": "Blue",
+    "duel": false,
+    "id": "1214",
+    "type": false,
+    "version": "9.3",
+    "duo": false,
+    "harmonized": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit for 1 turn.\nIf unit has not entered combat on the current turn, grants another action to unit, and if Canto has already been triggered, re-enables Canto.\n(Harmonized Skills can be used by tapping the Harmonized button. This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.",
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 3,
       "def": 6,
       "res": 10
     },
     "growth": {
       "hp": 50,
       "atk": 80,
-      "spd": 90,
-      "def": 50,
-      "res": 50
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "def",
-      "res"
-    ],
-    "weapons": {
-      "Iron Dagger": "1",
-      "Steel Dagger": "2",
-      "Silver Dagger": "3",
-      "Hidden Blade": "5"
-    },
-    "assist": {},
-    "special": {
-      "New Moon": "3",
-      "Luna": "4",
-      "Lethality": "5"
-    },
-    "passive": {
-      "A": {
-        "Trained to Kill": "5"
-      },
-      "B": {
-        "Disarm Trap 1": "2",
-        "Disarm Trap 2": "3",
-        "Disarm Trap 3": "4",
-        "Full Disarm": "5"
-      },
-      "C": {
-        "Lookout 1": "2",
-        "Lookout 2": "3",
-        "Lookout 3": "4",
-        "Active Lookout": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/17/Yunaka_Hidden_Mask_Face.webp/revision/latest?cb=20250217042528",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9e/Yunaka_Hidden_Mask_BtlFace_D.webp/revision/latest?cb=20250217042523",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8f/Yunaka_Hidden_Mask_BtlFace_C.webp/revision/latest?cb=20250217042518",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Yunaka_Hidden_Mask_BtlFace.webp/revision/latest?cb=20250217042503"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Hidden Mask",
-      "Yunaka: Hidden Mask",
-      "Base Yunaka",
-      "Normal Yunaka",
-      "Regular Yunaka",
-      "Aided Yunaka",
-      "Aid Yunaka",
-      "Yunaka",
-      "yunaka1"
-    ],
-    "HARD_ALT_NAME": [
-      "Hidden Mask",
-      "Yunaka: Hidden Mask",
-      "Base Yunaka",
-      "Normal Yunaka",
-      "Regular Yunaka",
-      "Aided Yunaka",
-      "Aid Yunaka",
-      "Yunaka",
-      "yunaka1"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u304a\u4f9b\u30e6\u30ca\u30ab",
-    "voice": "Laura Post",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "elyos"
-    ],
-    "chibi": "fe17",
-    "quotes": {
-      "Castle Hall": [
-        "Anna seems to like me since I said I could tell a product's authenticity. I wonder what she'll have me do.",
-        "Tales from my past? I can't say I remember any! Besides, I'm one of your Heroes now. Is...that enough?",
-        "I want to live a just and pure life. But I will eliminate\u2014I mean, I won't forgive anyone who threatens you.",
-        "I'll never get sick of this courtyard! All these unusual things\u2014 Oh! Look at that person's gleaming sword!",
-        "The southern freecat at my feet came with me! Maybe because I was just at the farmyard in the Somniel..."
-      ],
-      "Visit": [
-        "I, Yunaka, have a hiya papaya to deliver from [F].\nKeep up the good relations, you two!"
-      ],
-      "Level": [
-        "Zappy! Look how far I've come!",
-        "A death sentence for the enemy!",
-        "We can laugh this one off, right?"
-      ],
-      "Summon": [
-        "It's hiya papaya to meet you! Call me Yunaka. Seeing as you've summoned me, I'll be sure to be useful."
-      ],
-      "Learn Skill": [
-        "I'm ever so honored to receive this valuable gift! From now on, I'll prove even more useful!"
-      ],
-      "Confession": [
-        "That was some mighty fine leadership in today's battle! Did you fight like that in the world you came from?\nI bet you were always this powerful\u2014 Oh? You never set foot on a battlefield or summoned anyone?\nIf you obtained all this power here, then people really can change... I, too, want to be a new Yunaka in Askr!\nAt least...enough to atone for my past sins as an assassin...\nOh, uh... I was just talking to myself. Not to worry! I'll see you in battle! I look forward to lots of hiya papayas!"
-      ],
-      "Special": [
-        "You're dead.",
-        "Time to finish the job.",
-        "Target acquired.",
-        "We're done here."
-      ],
-      "Status": [
-        "Zappy!",
-        "Have you seen Emblem Micaiah around? Just curious.",
-        "Ooo, what kind of weapon is that?! The grip is so distinctive. I've never seen anything like it!",
-        "Hiya papaya! I'm here to have a good time.",
-        "Truth is, I'm just a wandering nobody. \"Hero\" is overselling it.",
-        "Did you know some of these Heroes are assassins?! I couldn't believe it either!",
-        "Any one of these Heroes could be a threat. I can't afford to let my guard down.",
-        "Got an impression for you. Wanna hear it? OK, here goes. *ahem* \"If there's one thing I'm really good at, it's lighting up the room!\""
-      ],
-      "Map Select": [
-        "Yunaka here!",
-        "Whatcha need?",
-        "Give me an order."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Aided Yunaka",
-    "SEARCH_NAME": "Aided Yunaka",
-    "DISPLAY_NAME": "<:Colorless_Dagger:1124845658617155734>Aided Yunaka",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "yunaka2"
-    ],
-    "prf": {
-      "": "hiddenblade",
-      "eff": "hiddenblade",
-      "atk": "hiddenblade",
-      "spd": "hiddenblade",
-      "def": "hiddenblade",
-      "res": "hiddenblade"
-    }
-  },
-  "zelestia": {
-    "name": "Zelestia",
-    "title": "Loving Leader",
-    "description": "Leader of the Four Winds. A scion and last survivor of the Mage Dragons, she is rich in love and affection for her companions. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "\u9ed2\u4e95\u30b9\u30b9\u30e0",
-    "move": "Flying",
-    "weapon": "Tome",
-    "color": "Green",
-    "duel": false,
-    "id": "1211",
-    "type": false,
-    "version": "9.2",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 8,
-      "def": 7,
-      "res": 8
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 75,
-      "spd": 90,
-      "def": 40,
-      "res": 50
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "atk",
-      "res"
-    ],
-    "weapons": {
-      "Wind": "1",
-      "Elwind": "2",
-      "Gronnlantern": "3",
-      "Gronnlantern+": "5"
-    },
-    "assist": {},
-    "special": {
-      "New Moon": "3",
-      "Moonbow": "4"
-    },
-    "passive": {
-      "A": {
-        "Atk/Spd Catch 1": "1",
-        "Atk/Spd Catch 2": "2",
-        "Atk/Spd Catch 3": "4"
-      },
-      "B": {},
-      "C": {
-        "Atk/Spd Rein 1": "3",
-        "Atk/Spd Rein 2": "4",
-        "Atk/Spd Rein 3": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/66/Zelestia_Loving_Leader_Face.webp/revision/latest?cb=20250217042603",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/73/Zelestia_Loving_Leader_BtlFace_D.webp/revision/latest?cb=20250217042558",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e7/Zelestia_Loving_Leader_BtlFace_C.webp/revision/latest?cb=20250217042553",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/94/Zelestia_Loving_Leader_BtlFace.webp/revision/latest?cb=20250217042538"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Loving Leader",
-      "Zelestia: Loving Leader",
-      "Base Zelestia",
-      "Normal Zelestia",
-      "Regular Zelestia",
-      "zelestia"
-    ],
-    "HARD_ALT_NAME": [
-      "Loving Leader",
-      "Zelestia: Loving Leader",
-      "Base Zelestia",
-      "Normal Zelestia",
-      "Regular Zelestia",
-      "zelestia"
-    ],
-    "gender": "F",
-    "rarity": 4,
-    "pool": "",
-    "internal_id": "PID_\u30bb\u30ec\u30b9\u30c6\u30a3\u30a2",
-    "voice": "Elizabeth Maxwell",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "elyos"
-    ],
-    "chibi": "fe17",
-    "quotes": {
-      "Castle Hall": [
-        "I think I might be hungry. The last time I ate was... Um... Ugh! I forgot to eat again. Always so much to do!",
-        "The Four Winds lost a member. Still, no matter where we are, I believe the four of us will always be together.",
-        "It is a bit chilly here, isn't it? You can sit closer if you like. Mage Dragons have a high body temperature.",
-        "How moving to see Lumera and Alear talking as they did in my world, back when they both still lived.",
-        "My magic may be weak among Mage Dragons, but I won't complain. I will still protect everyone as best I can."
-      ],
-      "Visit": [
-        "I took great care to deliver you this warm and thoughtful greeting from your friend [F]!"
-      ],
-      "Level": [
-        "I want to achieve strength befitting my role as leader of the Four Winds.",
-        "Even the smallest changes fill my heart with joy!",
-        "Odd. I'm still young for a Mage Dragon. I should be improving faster."
-      ],
-      "Summon": [
-        "Did you summon me, Zelestia, leader of the Four Winds? Then, I am happy to make your acquaintance!"
-      ],
-      "Learn Skill": [
-        "Oh my, thank you. I am touched by this gesture!"
-      ],
-      "Confession": [
-        "Welcome home! You must have had a difficult day full of missions, patrols, and summoning.\nOh? Was \"welcome home\" an unusual way to greet you?\nBut the Order of Heroes is home. It is a family of sorts, like the Four Winds that I have long been a part of.\nWe take on different roles within that family\u2014parents, siblings, children\u2014 but you are clearly the head of it.\nI'd like to be a mother figure, though it is presumptuous to claim that title, or a needy child from time to time.\nI shall support you with unconditional love, so keep coming home healthy, all right, [S]?"
-      ],
-      "Special": [
-        "You'll never take what's mine!",
-        "The Winds are victorious.",
-        "For the Mage Dragon tribe!",
-        "You've been naughty!"
-      ],
-      "Status": [
-        "Yes?",
-        "I am Zelestia, leader of the Four Winds. I will fight for the Divine Dragon, even in this world.",
-        "Ooh! *giggle* Oh! That tickled. *giggle* Should you surprise me in that way again, I shall return the favor.",
-        "Mage Dragons have a high body temperature. Feel free to stand closer if you're cold.",
-        "Oh, I forgot to make time for a meal again. I suppose I should make up for it.",
-        "I lost someone important to me in my world... Please, do not leave me like that.",
-        "Even if we are apart, the Four Winds will always be together. Even Mauvier.",
-        "The Order of Heroes is like a family. I can see myself enduring even the most difficult of battles so I may return here."
-      ],
-      "Map Select": [
-        "All right.",
-        "Awaiting orders.",
-        "How exciting!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Zelestia",
-    "SEARCH_NAME": "Zelestia",
-    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Zelestia",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "gronnlantern",
-      "eff": "gronnlantern",
-      "atk": "gronnlantern",
-      "spd": "gronnlantern",
-      "def": "gronnlantern",
-      "res": "gronnlantern"
-    }
-  },
-  "griss": {
-    "name": "Griss",
-    "title": "Indulging Pain",
-    "description": "Second-in-command of the Four Hounds, he is a dangerous villain filled with madness, more fond of pain than anything else. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "kuren",
-    "move": "Infantry",
-    "weapon": "Tome",
-    "color": "Green",
-    "duel": false,
-    "id": "1212",
-    "type": false,
-    "version": "9.2",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 12,
-      "spd": 5,
-      "def": 9,
-      "res": 9
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 50,
-      "def": 40,
+      "spd": 30,
+      "def": 65,
       "res": 90
     },
     "superboon": [
@@ -718,58 +367,268 @@
       "spd"
     ],
     "weapons": {
-      "Wind": "1",
-      "Elwind": "2",
-      "Rexcalibur": "3",
-      "Nova": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Silver Lance": "3",
+      "Springing Spear": "5"
+    },
+    "assist": {
+      "Dance": "3",
+      "Dreamlike Night": "5"
+    },
+    "special": {},
+    "passive": {
+      "A": {
+        "Fortress Res 1": "2",
+        "Fort. Def/Res 1": "3",
+        "Fort. Def/Res 2": "4",
+        "Stronghold": "5"
+      },
+      "B": {
+        "Sabotage Def 1": "2",
+        "Sabotage Def 2": "3",
+        "Sabotage Def 3": "4",
+        "Def/Res Discord": "5"
+      },
+      "C": {
+        "Shadow Smite 1": "2",
+        "Shadow Smite 2": "3",
+        "Shadow Smite 3": "4",
+        "Shadow Smite 4": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Plumeria_Spring_Dance_Face.webp/revision/latest?cb=20250306041200",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/19/Plumeria_Spring_Dance_BtlFace_D.webp/revision/latest?cb=20250306041149",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c9/Plumeria_Spring_Dance_BtlFace_C.webp/revision/latest?cb=20250306041139",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c2/Plumeria_Spring_Dance_BtlFace.webp/revision/latest?cb=20250306041108"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
+    ],
+    "HARD_ALT_NAME": [
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u53cc\u754c\u30d7\u30eb\u30e1\u30ea\u30a2",
+    "voice": "Nicole Gose + Karen Strassman",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "**Olivia:** Since we're dancing in pairs for the festival, I vow to do my best so I don't hold Plumeria back!",
+        "**Plumeria:** This is merely a spring dream... I must believe that if I am to tolerate the lascivious looks humans direct at me.",
+        "**Plumeria:** Considering how self-conscious she seems, Olivia's dancing is quite bold.",
+        "**Plumeria:** Eitr came to the spring festival too. I hope she can find the warmth she seeks in this world...",
+        "**Olivia:** Plumeria, look how wonderfully that outfit suits you! Oh... You don't like when people look at you?"
+      ],
+      "Visit": [
+        "I am Plumeria, the d\u00f6kk\u00e1lfr of lewd dreams. You are in an eternal dream of spring, [S]."
+      ],
+      "Level": [
+        "**Olivia:** I-I'm embarrassed, but as long as Plumeria is with me, I can do this!",
+        "**Olivia:** I always try to keep the spring winds at my back when I'm dancing.",
+        "**Plumeria:** Humans...how their gazes cling to me. Their attention is so vile, I cannot focus on dancing."
+      ],
+      "Summon": [
+        "Olivia, is this where the festival is to take place? Why did I agree to this... demonstrating my dance to humans?"
+      ],
+      "Learn Skill": [
+        "**Olivia:** Plumeria, we're in perfect sync! Oops! W-well, I thought I'd give saying it a try..."
+      ],
+      "Confession": [
+        "**Plumeria:** Olivia, what is it that inspired you to invite me to the spring festival?\n**Olivia:** About that... To tell you the truth, from the first time I saw you, I felt...\nWell...like I could perform the kind of dance that would make everyone smile if I did it alongside you!\n**Plumeria:** I have no desire to entertain those vulgar creatures, so full of lust.\nHowever, pathetic as they are, I can pity them enough to allow them a fleeting spring dream, I suppose.\n**Olivia:** Um...yes! Let's make spring memories together that no one will forget! I'm certain I can do that with your help."
+      ],
+      "Special": [
+        "**Duo:** Don't look at us!",
+        "**Duo:** Spring... Festival!",
+        "**Plumeria:** Stand down.",
+        "**Olivia:** Back away!"
+      ],
+      "Status": [
+        "Uh...",
+        "\"Of all the possibilities, why call me here?\" \"It does look...fun, though, doesn't it?\""
+      ],
+      "Map Select": [
+        "Hmm...",
+        "We'll see it through.",
+        "Nerve-racking!"
+      ],
+      "Conversation": [
+        "**Olivia:** And for the grand finale... There! All finished!",
+        "**Plumeria:** Yes... And so our spectacle has reached its point of completion. Now disperse. All of you.",
+        "**Olivia:** *giggle* The crowd certainly seemed to enjoy our performance.",
+        "**Plumeria:** That's all well and good for them... Do you really not mind?",
+        "**Olivia:** Hm? Mind what?",
+        "**Plumeria:** That they were all leering at us the entire time! It was obscene!",
+        "**Olivia:** Well... I know what it's like to get embarrassed when people stare, but...",
+        "**Plumeria:** Then you understand! They look straight through your clothes and imagine you without them!",
+        "**Olivia:** Even when I get flustered, I still want an audience when I'm performing... so I just try to set my nerves aside.",
+        "**Plumeria:** But...you're always shrieking, \"Mm, don't look at me! How embarrassing!\" So, which is it?",
+        "**Olivia:** It's just that...being looked at can be a little overwhelming sometimes, that's all.",
+        "**Plumeria:** So, you'd have it both ways, hm? *sigh* Typical mortal way of thinking.",
+        "**Olivia:** If you could think that way, maybe you wouldn't feel so uncomfortable around people!",
+        "**Plumeria:** Out of the question! That's just what they'd all love, I'm sure...",
+        "Not that anything I do turns them away\u2014I call them out as the filth they are, and they clamor for more! Why?!",
+        "**Olivia:** Hmm... Who could say! *chuckle*",
+        "**Plumeria:** Indeed. As ever, mortals defy all comprehension."
+      ],
+      "Duo Skill": [
+        "\"Those eyes...\" \"Oh no...\"",
+        "\"Don't look!\" \"Or else.\""
+      ],
+      "Back Unit Supporting": [
+        "I'll keep watch.",
+        "Do what you can!"
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Harmonic Spring Plumeria",
+    "SEARCH_NAME": "Harmonic Spring Plumeria",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Harmonic Spring Plumeria",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "plumeria",
+      "plumeria2",
+      "plumeria3"
+    ],
+    "prf": {
+      "": "springingspear",
+      "eff": "springingspear",
+      "atk": "springingspear",
+      "spd": "springingspear",
+      "def": "springingspear",
+      "res": "springingspear"
+    }
+  },
+  "veyle3": {
+    "name": "Veyle",
+    "title": "Spring Tranquility",
+    "description": "A dragon with a heart as warm as springtime. Her friends picked out her outfit for the festival. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "ichikawa Halu (\u3044\u3061\u304b\u308f\u306f\u308b)",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Red",
+    "duel": false,
+    "id": "1217",
+    "type": false,
+    "version": "9.3",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 9,
+      "spd": 6,
+      "def": 3,
+      "res": 13
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 50,
+      "def": 30,
+      "res": 80
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp",
+      "spd",
+      "def"
+    ],
+    "weapons": {
+      "Fire": "1",
+      "Elfire": "2",
+      "Bolganone": "3",
+      "Gentle Fell Egg": "5"
     },
     "assist": {},
     "special": {
       "Chilling Wind": "3",
-      "Glacies": "4"
+      "Iceberg": "4"
     },
     "passive": {
       "A": {
-        "Warding Blow 1": "1",
-        "Mirror Strike 1": "2",
-        "Mirror Strike 2": "4"
+        "Still Water 1": "2",
+        "Still Water 2": "3",
+        "Still Water 3": "4",
+        "Crystalline Water": "5"
       },
       "B": {
-        "Atk/Res Tempo 1": "3",
-        "Atk/Res Tempo 2": "4",
-        "Atk/Res Tempo 3": "5"
+        "A/R Far Trace 1": "2",
+        "A/R Far Trace 2": "3",
+        "A/R Far Trace 3": "4",
+        "A/R Far Resound": "5"
       },
-      "C": {},
+      "C": {
+        "Fell Majesty": "5"
+      },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/21/Griss_Indulging_Pain_Face.webp/revision/latest?cb=20250217042638",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b9/Griss_Indulging_Pain_BtlFace_D.webp/revision/latest?cb=20250217042633",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a8/Griss_Indulging_Pain_BtlFace_C.webp/revision/latest?cb=20250217042628",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3f/Griss_Indulging_Pain_BtlFace.webp/revision/latest?cb=20250217042613"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0d/Veyle_Spring_Tranquility_Face.webp/revision/latest?cb=20250306041540",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1b/Veyle_Spring_Tranquility_BtlFace_D.webp/revision/latest?cb=20250306041530",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3b/Veyle_Spring_Tranquility_BtlFace_C.webp/revision/latest?cb=20250306041521",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/76/Veyle_Spring_Tranquility_BtlFace.webp/revision/latest?cb=20250306041448"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Indulging Pain",
-      "Griss: Indulging Pain",
-      "Base Griss",
-      "Normal Griss",
-      "Regular Griss",
-      "griss"
+      "Spring Tranquility",
+      "Veyle: Spring Tranquility",
+      "Spring Veyle",
+      "Easter Veyle",
+      "S Veyle",
+      "veyle3"
     ],
     "HARD_ALT_NAME": [
-      "Indulging Pain",
-      "Griss: Indulging Pain",
-      "Base Griss",
-      "Normal Griss",
-      "Regular Griss",
-      "griss"
+      "Spring Tranquility",
+      "Veyle: Spring Tranquility",
+      "Spring Veyle",
+      "Easter Veyle",
+      "S Veyle",
+      "veyle3"
     ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "grail",
-    "internal_id": "PID_\u30b0\u30ea",
-    "voice": "Jamison Boaz",
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6625\u796d\u30f4\u30a7\u30a4\u30eb",
+    "voice": "Megan Taylor Harvey",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -778,68 +637,235 @@
     "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "Ugh, \"hello\" is so boring! Cut me with blades, crush me with magic! Doesn't that sound like a better introduction?",
-        "I will follow you, Lord Sombron! Give me blood! Show me hell! Stab me into your enemy's heart like a dagger!",
-        "Perhaps we can strike a kind of deal. I will tear your foes from this world. In return, you'll give me sweet pain!",
-        "Hey, do I have more orders yet?! It's torture waiting around without something to bleed!",
-        "Huh? This isn't an injury. I've simply bled myself as an offering! To who? Well, you, of course, Summoner."
+        "How strange. I dislike bright places, but I long for spring sunlight more than the dim illumination of candles.",
+        "I've always watched from afar. I never thought I would get to enjoy a festival for myself. I'm so excited!",
+        "Did the spring warmth cause you to oversleep? Sleeping for a long time is scary, isn't it?\nBut don't worry, I'll stay by you, even if you sleep for one hundred years.",
+        "I'm not good at drawing or painting... Hmm. Could I just dye my egg a color I like instead of drawing on it?",
+        "If I was born a rabbit, I wouldn't have experienced so many hard things, but I also wouldn't have met all of you."
       ],
       "Visit": [
-        "I've gone well out of my way to come here. So take this. A greeting from [F]."
+        "Did the rabbit ears surprise you? We are having a spring festival where I just came from!\nHere! This festive greeting is for you, from [F]."
       ],
       "Level": [
-        "They're dying too quickly! We haven't even gotten to the fun part!",
-        "Ahaha! I can still feel it! The ecstasy of gutting my foes and spilling all their pretty insides!",
-        "What? Would you like more blood?! Haha! Then please, allow me to fight more!"
+        "Wh-what do I do? I'm so happy, my ears are bouncing.",
+        "When you're at a festival, things that normally brighten your day a bit can have an even greater impact, huh?",
+        "Sorry. I know it's a festival and all... I'll be more careful!"
       ],
       "Summon": [
-        "I'm Griss, second-in-command of the Four Hounds. Would you like to hurt me? Or would you prefer I hurt you?"
+        "I'm Veyle. I'm a dragon. I hear there's going to be a spring festival. Can I be of use in some way?"
       ],
       "Learn Skill": [
-        "More death? Haha! Oh, Summoner, you do give some good orders once in a while!"
+        "Thank you. The festival is going to be even more fun now!"
       ],
       "Confession": [
-        "Haha! I knew I'd like you. Killing with you, I see just how gloriously cruel you are, [S]!\nOh, no need to be shy. You order us to fight and suffer pain, all while healing us right at the brink of death!\nHa! How your Heroes have managed to cling to their sanity is impressive. Or, perhaps, they've already lost it!\nGood thing you have me as the voice of reason. HAHA! Say... How great would it be if this war never ended?\nLet them tear at me, but never allow me to die! Do that, and you and I can kill and be killed for eternity! AHAHA!"
+        "Hello, Summoner. Thank you for being there for me. I can't help but await your return when we're apart.\nWhy do you keep me with you? Oh, maybe you like bunnies? That's not it? Then, do you enjoy my company?\nN-no, forget I said that! I shouldn't be so silly. It's because you have some greater strategy in mind, isn't it?\nIt doesn't matter. I'm just glad I got to make some memories with you this spring that I can treasure.\nWhen the spring festival comes again, remember your friend with the long bunny ears. Let's talk more soon."
       ],
       "Special": [
-        "I'll show you pain!",
-        "Rejoice!",
-        "I almost envy you!",
-        "Take your reward!"
+        "Feel festive!",
+        "Winter no more!",
+        "All warmed up?",
+        "Spring, engage!"
       ],
       "Status": [
-        "*laugh*",
-        "If you really want to get to me, try a blade. Do you lack the courage to do that?",
-        "Oh, the great summoner is here? Shall I offer up my blood?",
-        "I'm dying of boredom. Say, is there a Hero you don't like? Why don't we murder them?",
-        "You wanna die without suffering? Don't be stupid! Pain that exquisite is worth feeling.",
-        "Promise you'll keep sending me into rigorous, gruesome battles... Got it, Summoner?",
-        "What am I to do alone in this soft world without Zephia?",
-        "You get a kick out of making Heroes battle, eh? As you wish...I'll fight covered in blood and drowning in anguish."
+        "-",
+        "I can't believe I'm really at a festival! It's like a dream... A dream with an adorable outfit!",
+        "I probably look strange, a Fell Dragon with rabbit ears... Really? You think they suit me?",
+        "I'm seeing lots of people in rabbit outfits. Do you think they'll want to be friends with me?",
+        "*yawn* With all this sunshine, I could almost use a nap. But no! I will not sleep through the festival!",
+        "Do you need help carrying anything? Your flowers or chocolate eggs, perhaps?",
+        "Papa would never, ever go to a festival like this. Well, except to burn everything down.",
+        "I hope you won't mind me asking, but... Oh, come on, Veyle! Summoner, would you like to walk around the festival together?"
       ],
       "Map Select": [
-        "Huh?",
-        "*evil laugh*",
-        "Where's the pain?"
+        "It's all in bloom.",
+        "Getting warmer...",
+        "Let's make merry."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Griss",
-    "SEARCH_NAME": "Griss",
-    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Griss",
+    "short_name": "Spring Veyle",
+    "SEARCH_NAME": "Spring Veyle",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Spring Veyle",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "veyle",
+      "veyle2"
+    ],
     "prf": {
-      "": "nova",
-      "eff": "nova",
-      "atk": "nova",
-      "spd": "nova",
-      "def": "nova",
-      "res": "nova"
+      "": "gentlefellegg",
+      "eff": "gentlefellegg",
+      "atk": "gentlefellegg",
+      "spd": "gentlefellegg",
+      "def": "gentlefellegg",
+      "res": "gentlefellegg"
+    }
+  },
+  "lonqu2": {
+    "name": "Lon'qu",
+    "title": "Spring Jitters",
+    "description": "A skilled swordsman of Regna Ferox who is oddly skittish around women. He shows some hesitancy toward Askr's spring festival. Appears in Fire Emblem Awakening.",
+    "origin": "Awakening",
+    "artist": "HAGIYA Kaoru (\u8429\u8c37\u85ab)",
+    "move": "Infantry",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1218",
+    "type": false,
+    "version": "9.3",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 19,
+      "atk": 10,
+      "spd": 9,
+      "def": 10,
+      "res": 9
+    },
+    "growth": {
+      "hp": 55,
+      "atk": 80,
+      "spd": 90,
+      "def": 50,
+      "res": 50
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "def",
+      "res"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Spring-Air Axe": "3",
+      "Spring-Air Axe+": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Luna": "4"
+    },
+    "passive": {
+      "A": {
+        "Life and Death 1": "1",
+        "Life and Death 2": "2",
+        "Life and Death 3": "4"
+      },
+      "B": {
+        "Spurn 1": "3",
+        "Spurn 2": "4",
+        "Spurn 3": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/49/Lonqu_Spring_Jitters_Face.webp/revision/latest?cb=20250306041653",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cd/Lonqu_Spring_Jitters_BtlFace_D.webp/revision/latest?cb=20250306041642",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ee/Lonqu_Spring_Jitters_BtlFace_C.webp/revision/latest?cb=20250306041632",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0a/Lonqu_Spring_Jitters_BtlFace.webp/revision/latest?cb=20250306041601"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Spring Jitters",
+      "Lon'qu: Spring Jitters",
+      "Spring Lon'qu",
+      "Easter Lon'qu",
+      "S Lon'qu",
+      "lonqu2"
+    ],
+    "HARD_ALT_NAME": [
+      "Spring Jitters",
+      "Lon'qu: Spring Jitters",
+      "Spring Lon'qu",
+      "Easter Lon'qu",
+      "S Lon'qu",
+      "lonqu2"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "grail",
+    "internal_id": "PID_\u6625\u796d\u30ed\u30f3\u30af\u30fc",
+    "voice": "Gabe Kunda",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "ylisse"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "The spring air is so clear... I wonder if its warmth could heal the scars of my past.",
+        "I am a swordsman, yet as hard as it is to believe, even I have a part to play in this festival.",
+        "I freeze whenever a woman approaches. This is a festival, and yet... How pathetic.",
+        "I cannot rest, nor can I concern myself with spring merriment. I must always train.",
+        "What do I think of this outfit? When Basilio gave it to me, I believed he had lost his mind. That is all."
+      ],
+      "Visit": [
+        "Ah! I have a delivery for you from [F].\nAnd please do not ask me about what I'm wearing."
+      ],
+      "Level": [
+        "Spring is here!\nI...was told to say that.",
+        "I will not hold back, no matter how ridiculous I look.",
+        "Are you suggesting I got lost in the... festive atmosphere?"
+      ],
+      "Summon": [
+        "I am Lon'qu, swordsman of Regna Ferox. Now, explain why I've been called to this festival. Spare no detail."
+      ],
+      "Learn Skill": [
+        "I'm beginning to understand why Basilio sent me to this festival..."
+      ],
+      "Confession": [
+        "I am grateful you invited me to the spring festival. I have overcome my discomfort around women at last...\nThat is what you'd like me to say, isn't it? Well, it is not true.\nBe honest\u2014why summon me to such an absurd festival?!\nI need to train, and I need to fight. I do not have time for this uniquely embarrassing nonsense.\nThis outfit... The ears are restrictive beyond measure, and the time it took to put it on... Wait.\nIs this, too, part of my training? Did Basilio foresee all of this when he involved me?"
+      ],
+      "Special": [
+        "Spring is here.",
+        "At last, spring!",
+        "Hop out of my way.",
+        "Back to sleep you go."
+      ],
+      "Status": [
+        "Hm.",
+        "Festive clothes for a festive occasion... But I'm not very festive.",
+        "Hm? I understand it's a festival, but don't get carried away.",
+        "It's just the season changing. Why is everybody so excited?",
+        "I dream of mastering the blade, no matter what other weapons I add to my arsenal.",
+        "Don't be careless. The warmth can...make you sleepy.",
+        "Asleep? Me? Uh... Don't be a fool.",
+        "Do not worry about me. Please enjoy yourself."
+      ],
+      "Map Select": [
+        "Focus.",
+        "Lead the way.",
+        "A rude awakening."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Spring Lon'qu",
+    "SEARCH_NAME": "Spring Lon'qu",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Spring Lon'qu",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "lonqu"
+    ],
+    "prf": {
+      "": "springairaxe",
+      "eff": "springairaxe",
+      "atk": "springairaxe",
+      "spd": "springairaxe",
+      "def": "springairaxe",
+      "res": "springairaxe"
     }
   }
 }
