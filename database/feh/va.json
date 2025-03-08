@@ -3371,7 +3371,13 @@
       "Normal Brigid",
       "Regular Brigid",
       "Attuned Brigid",
-      "brigid1"
+      "brigid1",
+      "Spring Sunrise",
+      "Eitr: Spring Sunrise",
+      "Spring Eitr",
+      "Easter Eitr",
+      "S Eitr",
+      "eitr2"
     ],
     "HARD_ALT_NAME": [
       "eyvel",
@@ -3405,12 +3411,19 @@
       "Normal Brigid",
       "Regular Brigid",
       "Attuned Brigid",
-      "brigid1"
+      "brigid1",
+      "Spring Sunrise",
+      "Eitr: Spring Sunrise",
+      "Spring Eitr",
+      "Easter Eitr",
+      "S Eitr",
+      "eitr2"
     ],
     "heroes": {
-      "brigid2": "<:Red_Bow:1124846280951218289>Pirate Brigid",
       "brigid1": "<:Green_Bow:1124845936426897428>Attuned Brigid",
+      "brigid2": "<:Red_Bow:1124846280951218289>Pirate Brigid",
       "eitr": "<:Blue_Beast:1124845338688233575>Eitr",
+      "eitr2": "<:Colorless_Beast:1124845615935918110>Spring Eitr",
       "eyvel": "<:Red_Sword:1124846201070698536>Eyvel"
     },
     "name": "Caitlyn Elizabeth"
@@ -9956,7 +9969,13 @@
       "Base Lonzu",
       "Normal Lonzu",
       "Base Ronkuu",
-      "Normal Ronkuu"
+      "Normal Ronkuu",
+      "Spring Jitters",
+      "Lon'qu: Spring Jitters",
+      "Spring Lon'qu",
+      "Easter Lon'qu",
+      "S Lon'qu",
+      "lonqu2"
     ],
     "HARD_ALT_NAME": [
       "lonquR",
@@ -9973,9 +9992,16 @@
       "Base Lonzu",
       "Normal Lonzu",
       "Base Ronkuu",
-      "Normal Ronkuu"
+      "Normal Ronkuu",
+      "Spring Jitters",
+      "Lon'qu: Spring Jitters",
+      "Spring Lon'qu",
+      "Easter Lon'qu",
+      "S Lon'qu",
+      "lonqu2"
     ],
     "heroes": {
+      "lonqu2": "<:Green_Axe:1124845885277343754>Spring Lon'qu",
       "lonquR": "<:Red_Sword:1124846201070698536>Lon'qu (Resplendent)"
     },
     "name": "Gabe Kunda"
@@ -13652,6 +13678,8 @@
       "Harmonic Lin",
       "Harmonized Lin",
       "Ninja Lin",
+      "Florilyn",
+      "Florlyn",
       "Lilina: Firelight Leader",
       "Firelight Leader",
       "Legendary Lilina",
@@ -14102,7 +14130,20 @@
       "Summer Olivia",
       "S Olivia",
       "Beach Olivia",
-      "olivia4"
+      "olivia4",
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
     ],
     "HARD_ALT_NAME": [
       "anna",
@@ -14194,7 +14235,20 @@
       "Summer Olivia",
       "S Olivia",
       "Beach Olivia",
-      "olivia4"
+      "olivia4",
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
     ],
     "heroes": {
       "anna": "<:Green_Axe:1124845885277343754>Anna",
@@ -14209,7 +14263,8 @@
       "olivia": "<:Red_Sword:1124846201070698536>Olivia",
       "olivia2": "<:Colorless_Dagger:1124845658617155734>Dancer Olivia",
       "olivia3": "<:Red_Sword:1124846201070698536>Pegasus Olivia",
-      "olivia4": "<:Colorless_Tome:1124845725960904734>Summer Olivia"
+      "olivia4": "<:Colorless_Tome:1124845725960904734>Summer Olivia",
+      "plumeria4": "<:Blue_Lance:1124845569496584302>Harmonic Spring Plumeria"
     },
     "name": "Karen Strassman"
   },
@@ -19930,7 +19985,13 @@
       "Fallen Veyle",
       "F Veyle",
       "Corrupted Veyle",
-      "veyle2"
+      "veyle2",
+      "Spring Tranquility",
+      "Veyle: Spring Tranquility",
+      "Spring Veyle",
+      "Easter Veyle",
+      "S Veyle",
+      "veyle3"
     ],
     "HARD_ALT_NAME": [
       "Gentle Dragon",
@@ -19948,11 +20009,18 @@
       "Fallen Veyle",
       "F Veyle",
       "Corrupted Veyle",
-      "veyle2"
+      "veyle2",
+      "Spring Tranquility",
+      "Veyle: Spring Tranquility",
+      "Spring Veyle",
+      "Easter Veyle",
+      "S Veyle",
+      "veyle3"
     ],
     "heroes": {
       "veyle": "<:Blue_Tome:1124845593211191297>Veyle",
-      "veyle2": "<:Colorless_Tome:1124845725960904734>Fallen Veyle"
+      "veyle2": "<:Colorless_Tome:1124845725960904734>Fallen Veyle",
+      "veyle3": "<:Red_Tome:1124846175577710642>Spring Veyle"
     },
     "name": "Megan Taylor Harvey"
   },
@@ -22075,7 +22143,20 @@
       "Rearmed Plumeria",
       "Rearm Plumeria",
       "Arm Plumeria",
-      "plumeria3"
+      "plumeria3",
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
     ],
     "HARD_ALT_NAME": [
       "plumeria",
@@ -22124,13 +22205,27 @@
       "Rearm Plumeria",
       "Arm Plumeria",
       "plumeria3",
-      "plumeria3"
+      "plumeria3",
+      "Spring Dance",
+      "Plumeria: Spring Dance",
+      "Spring Plumeria",
+      "Easter Plumeria",
+      "S Plumeria",
+      "Harmonic Spring Plumeria",
+      "Harmonized Spring Plumeria",
+      "Harmonic Plumeria",
+      "Harmonized Spring Plumeria",
+      "Duo Spring Plumeria",
+      "Duo Plumeria",
+      "D Plumeria",
+      "plumeria4"
     ],
     "heroes": {
       "caeda4": "<:Green_Axe:1124845885277343754>Harmonic Caeda",
       "plumeria": "<:Red_Tome:1124846175577710642>Plumeria",
       "plumeria2": "<:Colorless_Bow:1124845636659982457>New Year Plumeria",
-      "plumeria3": "<:Blue_Tome:1124845593211191297>Rearmed Plumeria"
+      "plumeria3": "<:Blue_Tome:1124845593211191297>Rearmed Plumeria",
+      "plumeria4": "<:Blue_Lance:1124845569496584302>Harmonic Spring Plumeria"
     },
     "name": "Nicole Gose"
   },
@@ -27433,6 +27528,8 @@
       "Fiery Lyn",
       "Fire Lyndis",
       "Flame Tribe Lindis",
+      "Florilyn",
+      "Florlyn",
       "Lyn: Ninja-Friend Duo",
       "Normal Brammimmond",
       "Halloween Sofiya",
@@ -30054,6 +30151,28 @@
       "Normal Rafal",
       "Regular Rafal",
       "rafal"
+    ]
+  },
+  "": {
+    "heroes": {
+      "mae2": "<:Green_Tome:1124845959873036289>Spring Mae"
+    },
+    "name": "\u2014",
+    "ALT_NAME": [
+      "Spring Cheer",
+      "Mae: Spring Cheer",
+      "Spring Mae",
+      "Easter Mae",
+      "S Mae",
+      "mae2"
+    ],
+    "HARD_ALT_NAME": [
+      "Spring Cheer",
+      "Mae: Spring Cheer",
+      "Spring Mae",
+      "Easter Mae",
+      "S Mae",
+      "mae2"
     ]
   }
 }
