@@ -2657,19 +2657,7 @@
       "Sakura: In Full Bloom",
       "L Sakura",
       "Legendary Sakura",
-      "sakura4",
-      "In Full Bloom",
-      "Sakura: In Full Bloom",
-      "Legendary Sakura",
-      "sakura5",
-      "In Full Bloom",
-      "Sakura: In Full Bloom",
-      "Legendary Sakura",
-      "sakura5",
-      "In Full Bloom",
-      "Sakura: In Full Bloom",
-      "Legendary Sakura",
-      "sakura5"
+      "sakura4"
     ],
     "HARD_ALT_NAME": [
       "est",
@@ -2866,19 +2854,7 @@
       "Sakura: In Full Bloom",
       "L Sakura",
       "Legendary Sakura",
-      "sakura4",
-      "In Full Bloom",
-      "Sakura: In Full Bloom",
-      "Legendary Sakura",
-      "sakura5",
-      "In Full Bloom",
-      "Sakura: In Full Bloom",
-      "Legendary Sakura",
-      "sakura5",
-      "In Full Bloom",
-      "Sakura: In Full Bloom",
-      "Legendary Sakura",
-      "sakura5"
+      "sakura4"
     ],
     "heroes": {
       "charlotte": "<:Green_Axe:1124845885277343754>Charlotte",
@@ -2899,7 +2875,6 @@
       "sakura2": "<:Colorless_Dagger:1124845658617155734>Halloween Sakura",
       "sakura3": "<:Colorless_Staff:1124845704444137592>Bath Sakura",
       "sakura4": "<:Colorless_Staff:1124845704444137592>Legendary Sakura",
-      "sakura5": "<:Colorless_Staff:1124845704444137592>Sakura",
       "tiki7": "<:Blue_Breath:1124845312637403236>Harmonic Young Tiki"
     },
     "name": "Brianna Knickerbocker"
