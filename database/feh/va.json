@@ -5931,7 +5931,16 @@
       "Resplendent Hinoka",
       "Resp Hinoka",
       "R Hinoka",
-      "Hinoka (Resplendent)"
+      "Hinoka (Resplendent)",
+      "Mistress of Fear",
+      "Nuibaba: Mistress of Fear",
+      "Base Nuibaba",
+      "Normal Nuibaba",
+      "Regular Nuibaba",
+      "Rearmed Nuibaba",
+      "Rearm Nuibaba",
+      "Arm Nuibaba",
+      "nuibaba"
     ],
     "HARD_ALT_NAME": [
       "peri",
@@ -6053,7 +6062,16 @@
       "Resplendent Hinoka",
       "Resp Hinoka",
       "R Hinoka",
-      "Hinoka (Resplendent)"
+      "Hinoka (Resplendent)",
+      "Mistress of Fear",
+      "Nuibaba: Mistress of Fear",
+      "Base Nuibaba",
+      "Normal Nuibaba",
+      "Regular Nuibaba",
+      "Rearmed Nuibaba",
+      "Rearm Nuibaba",
+      "Arm Nuibaba",
+      "nuibaba"
     ],
     "heroes": {
       "aversa": "<:Red_Tome:1124846175577710642>Aversa",
@@ -6071,6 +6089,7 @@
       "minerva2": "<:Green_Axe:1124845885277343754>Young Minerva",
       "minerva3": "<:Blue_Lance:1124845569496584302>Spring Minerva",
       "minervaR": "<:Green_Axe:1124845885277343754>Minerva (Resplendent)",
+      "nuibaba": "<:Blue_Tome:1124845593211191297>Rearmed Nuibaba",
       "peri": "<:Blue_Lance:1124845569496584302>Peri"
     },
     "name": "Cindy Robinson"
@@ -15118,7 +15137,13 @@
       "Dorcas: Pumpkin Smasher",
       "Pumpkin Smasher",
       "Halloween Dorcas",
-      "Harvest Dorcas"
+      "Harvest Dorcas",
+      "Priest of Mila",
+      "Nomah: Priest of Mila",
+      "Base Nomah",
+      "Normal Nomah",
+      "Regular Nomah",
+      "nomah"
     ],
     "HARD_ALT_NAME": [
       "surtrR",
@@ -15139,10 +15164,17 @@
       "Pumpkin Smasher",
       "H Dorcas",
       "Horcas",
-      "Harvest Dorcas"
+      "Harvest Dorcas",
+      "Priest of Mila",
+      "Nomah: Priest of Mila",
+      "Base Nomah",
+      "Normal Nomah",
+      "Regular Nomah",
+      "nomah"
     ],
     "heroes": {
       "dorcas2": "<:Green_Axe:1124845885277343754>Halloween Dorcas",
+      "nomah": "<:Green_Tome:1124845959873036289>Nomah",
       "surtrR": "<:Green_Axe:1124845885277343754>Surtr (Resplendent)",
       "yenfay": "<:Red_Sword:1124846201070698536>Yen'fay"
     },
@@ -21088,7 +21120,13 @@
       "Base Laslow",
       "Bunny Inigo",
       "inigo",
-      "Regular Inigo"
+      "Regular Inigo",
+      "Blithe Mercenary",
+      "Jesse: Blithe Mercenary",
+      "Base Jesse",
+      "Normal Jesse",
+      "Regular Jesse",
+      "jesse"
     ],
     "HARD_ALT_NAME": [
       "abel",
@@ -21152,7 +21190,13 @@
       "inigo",
       "Regular Inigo",
       "Laslow",
-      "abel1"
+      "abel1",
+      "Blithe Mercenary",
+      "Jesse: Blithe Mercenary",
+      "Base Jesse",
+      "Normal Jesse",
+      "Regular Jesse",
+      "jesse"
     ],
     "heroes": {
       "abel": "<:Blue_Lance:1124845569496584302>Abel",
@@ -21162,6 +21206,7 @@
       "inigo3": "<:Green_Bow:1124845936426897428>Spring Inigo",
       "jeorge": "<:Colorless_Bow:1124845636659982457>Jeorge",
       "jeorgeR": "<:Colorless_Bow:1124845636659982457>Jeorge (Resplendent)",
+      "jesse": "<:Red_Sword:1124846201070698536>Jesse",
       "laslow": "<:Red_Sword:1124846201070698536>Laslow"
     },
     "name": "Mick Wingert"
@@ -23696,7 +23741,13 @@
       "Hardin: Dark Emperor",
       "Dark Emperor",
       "Fallen Hardin",
-      "Fallen Coyote"
+      "Fallen Coyote",
+      "Priest of Duma",
+      "Jedah: Priest of Duma",
+      "Base Jedah",
+      "Normal Jedah",
+      "Regular Jedah",
+      "jedah"
     ],
     "HARD_ALT_NAME": [
       "oliver",
@@ -23740,11 +23791,18 @@
       "F Hardin",
       "F Coyote",
       "Fardin",
-      "Fallen Coyote"
+      "Fallen Coyote",
+      "Priest of Duma",
+      "Jedah: Priest of Duma",
+      "Base Jedah",
+      "Normal Jedah",
+      "Regular Jedah",
+      "jedah"
     ],
     "heroes": {
       "hardin": "<:Blue_Lance:1124845569496584302>Hardin",
       "hardin2": "<:Blue_Lance:1124845569496584302>Fallen Hardin",
+      "jedah": "<:Red_Tome:1124846175577710642>Jedah",
       "oliver": "<:Blue_Tome:1124845593211191297>Oliver",
       "walhart": "<:Green_Axe:1124845885277343754>Walhart"
     },
@@ -29724,6 +29782,7 @@
   "notyetrecorded": {
     "heroes": {
       "alear6": "<:Blue_Breath:1124845312637403236>Winter Duo Alear",
+      "alm5": "<:Colorless_Bow:1124845636659982457>Attuned Alm",
       "eik\u00feyrnir2": "<:Blue_Beast:1124845338688233575>Winter Eik\u00feyrnir",
       "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis",
       "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea"
@@ -29762,7 +29821,12 @@
       "Valentines Rhea",
       "Valentine Rhea",
       "Duo Rhea",
-      "rhea4"
+      "rhea4",
+      "Powerful Resolve",
+      "Alm: Powerful Resolve",
+      "Attuned Alm",
+      "A!Alm",
+      "alm5"
     ],
     "HARD_ALT_NAME": [
       "Dark of Night",
@@ -29797,7 +29861,12 @@
       "Valentines Rhea",
       "Valentine Rhea",
       "Duo Rhea",
-      "rhea4"
+      "rhea4",
+      "Powerful Resolve",
+      "Alm: Powerful Resolve",
+      "Attuned Alm",
+      "A!Alm",
+      "alm5"
     ]
   },
   "anjalikunapaneni": {

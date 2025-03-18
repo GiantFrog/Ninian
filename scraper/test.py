@@ -17,7 +17,7 @@ with open(file, 'w') as fp:
     
 
 
-units = []
+units = ["Alm: Powerful Resolve", "Nuibaba: Mistress of Fear", "Nomah: Priest of Mila", "Jesse: Blithe Mercenary", "Jedah: Priest of Duma"]
 
 
 

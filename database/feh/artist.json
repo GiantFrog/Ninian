@@ -8173,7 +8173,16 @@
       "Base Eremiya",
       "Normal Eremiya",
       "Base Jeremiah",
-      "Normal Jeremiah"
+      "Normal Jeremiah",
+      "Mistress of Fear",
+      "Nuibaba: Mistress of Fear",
+      "Base Nuibaba",
+      "Normal Nuibaba",
+      "Regular Nuibaba",
+      "Rearmed Nuibaba",
+      "Rearm Nuibaba",
+      "Arm Nuibaba",
+      "nuibaba"
     ],
     "HARD_ALT_NAME": [
       "eremiya",
@@ -8185,10 +8194,20 @@
       "Base Eremiya",
       "Normal Eremiya",
       "Base Jeremiah",
-      "Normal Jeremiah"
+      "Normal Jeremiah",
+      "Mistress of Fear",
+      "Nuibaba: Mistress of Fear",
+      "Base Nuibaba",
+      "Normal Nuibaba",
+      "Regular Nuibaba",
+      "Rearmed Nuibaba",
+      "Rearm Nuibaba",
+      "Arm Nuibaba",
+      "nuibaba"
     ],
     "heroes": {
-      "eremiya": "<:Colorless_Staff:1124845704444137592>Eremiya"
+      "eremiya": "<:Colorless_Staff:1124845704444137592>Eremiya",
+      "nuibaba": "<:Blue_Tome:1124845593211191297>Rearmed Nuibaba"
     },
     "name": "Homare (\u8a89)"
   },
@@ -13699,7 +13718,12 @@
       "Resplendent Chrom",
       "Resp Chrom",
       "R Chrom",
-      "Chrom (Resplendent)"
+      "Chrom (Resplendent)",
+      "Powerful Resolve",
+      "Alm: Powerful Resolve",
+      "Attuned Alm",
+      "A!Alm",
+      "alm5"
     ],
     "HARD_ALT_NAME": [
       "luthier",
@@ -13731,9 +13755,15 @@
       "Resplendent Chrom",
       "Resp Chrom",
       "R Chrom",
-      "Chrom (Resplendent)"
+      "Chrom (Resplendent)",
+      "Powerful Resolve",
+      "Alm: Powerful Resolve",
+      "Attuned Alm",
+      "A!Alm",
+      "alm5"
     ],
     "heroes": {
+      "alm5": "<:Colorless_Bow:1124845636659982457>Attuned Alm",
       "chrom4R": "<:Red_Sword:1124846201070698536>Horse Chrom (Resplendent)",
       "luthier": "<:Green_Tome:1124845959873036289>Luthier",
       "priam": "<:Red_Sword:1124846201070698536>Priam",
@@ -18779,7 +18809,13 @@
       "Pirate Lifis",
       "Base Perne",
       "Dacian Scoundrel",
-      "Lifis: Terror of Iz"
+      "Lifis: Terror of Iz",
+      "Priest of Duma",
+      "Jedah: Priest of Duma",
+      "Base Jedah",
+      "Normal Jedah",
+      "Regular Jedah",
+      "jedah"
     ],
     "HARD_ALT_NAME": [
       "P Lifis",
@@ -18798,9 +18834,16 @@
       "Dacian Scoundrel",
       "Lithis",
       "Lifis",
-      "lithis1"
+      "lithis1",
+      "Priest of Duma",
+      "Jedah: Priest of Duma",
+      "Base Jedah",
+      "Normal Jedah",
+      "Regular Jedah",
+      "jedah"
     ],
     "heroes": {
+      "jedah": "<:Red_Tome:1124846175577710642>Jedah",
       "lifis": "<:Green_Axe:1124845885277343754>Pirate Lifis",
       "perne": "<:Colorless_Dagger:1124845658617155734>Perne"
     },
@@ -28190,6 +28233,7 @@
   },
   "daiekusuto": {
     "heroes": {
+      "jesse": "<:Red_Sword:1124846201070698536>Jesse",
       "yarne3": "<:Red_Beast:1124846309208248381>Halloween Yarne"
     },
     "name": "\u30c0\u30a4\u30a8\u30af\u30b9\u30c8",
@@ -28200,7 +28244,13 @@
       "H Yarne",
       "Harvest Yarne",
       "Spooky Yarne",
-      "yarne3"
+      "yarne3",
+      "Blithe Mercenary",
+      "Jesse: Blithe Mercenary",
+      "Base Jesse",
+      "Normal Jesse",
+      "Regular Jesse",
+      "jesse"
     ],
     "HARD_ALT_NAME": [
       "Trick or Taguel",
@@ -28209,7 +28259,13 @@
       "H Yarne",
       "Harvest Yarne",
       "Spooky Yarne",
-      "yarne3"
+      "yarne3",
+      "Blithe Mercenary",
+      "Jesse: Blithe Mercenary",
+      "Base Jesse",
+      "Normal Jesse",
+      "Regular Jesse",
+      "jesse"
     ]
   },
   "mono": {
@@ -28724,6 +28780,28 @@
       "Resp Quan",
       "R Quan",
       "Quan (Resplendent)"
+    ]
+  },
+  "meisai": {
+    "heroes": {
+      "nomah": "<:Green_Tome:1124845959873036289>Nomah"
+    },
+    "name": "\u3081\u3044\u3055\u3044",
+    "ALT_NAME": [
+      "Priest of Mila",
+      "Nomah: Priest of Mila",
+      "Base Nomah",
+      "Normal Nomah",
+      "Regular Nomah",
+      "nomah"
+    ],
+    "HARD_ALT_NAME": [
+      "Priest of Mila",
+      "Nomah: Priest of Mila",
+      "Base Nomah",
+      "Normal Nomah",
+      "Regular Nomah",
+      "nomah"
     ]
   }
 }
