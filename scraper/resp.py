@@ -17,8 +17,6 @@ def scrape_resp(key):
     del unit['resplendent_voice']
     del unit['quotes']['resplendent']
 
-    #unit['quotes']['resplendent'] = {}
-
     resp = {
     'resplendent_images' : {},
     'resplendent' : "",
@@ -115,7 +113,6 @@ def scrape_resp(key):
     spc_clean = []
     for i in range(0, len(spc)):
         spc_clean.append(list(spc[i].stripped_strings)[0])
-    #quotedict['Defeat'].append(spc_clean[1])
 
     spc = q_table[20+a].find_all('td')
     spc_clean = []
@@ -148,4 +145,4 @@ def scrape_resp(key):
 
     return
 
-scrape_resp('eliwood4')
+scrape_resp('clair')
