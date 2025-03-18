@@ -651,7 +651,11 @@
       "N Lucina",
       "Duo Lucina",
       "D Lucina",
-      "lucina8"
+      "lucina8",
+      "Resplendent Clair",
+      "Resp Clair",
+      "R Clair",
+      "Clair (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -848,10 +852,15 @@
       "N Lucina",
       "Duo Lucina",
       "D Lucina",
-      "lucina8"
+      "lucina8",
+      "Resplendent Clair",
+      "Resp Clair",
+      "R Clair",
+      "Clair (Resplendent)"
     ],
     "heroes": {
       "clair": "<:Blue_Lance:1124845569496584302>Clair",
+      "clairR": "<:Blue_Lance:1124845569496584302>Clair (Resplendent)",
       "lucina2": "<:Blue_Tome:1124845593211191297>Spring Lucina",
       "lucina3": "<:Red_Sword:1124846201070698536>Masked Marth",
       "lucina4": "<:Blue_Lance:1124845569496584302>Brave Lucina",
