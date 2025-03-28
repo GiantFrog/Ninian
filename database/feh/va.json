@@ -3043,7 +3043,7 @@
     "heroes": {
       "ayra": "<:Red_Sword:1124846201070698536>Ayra",
       "ayra2": "<:Red_Sword:1124846201070698536>Harmonic Ayra",
-      "ayra3": "<:Red_Sword:1124846201070698536>Ayra",
+      "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra",
       "ayraR": "<:Red_Sword:1124846201070698536>Ayra (Resplendent)",
       "lute": "<:Blue_Tome:1124845593211191297>Lute",
       "lute2": "<:Blue_Tome:1124845593211191297>Summer Lute",
@@ -6657,7 +6657,7 @@
       "felicia3": "<:Green_Axe:1124845885277343754>Ice Felicia",
       "marisa": "<:Red_Sword:1124846201070698536>Marisa",
       "marisa2": "<:Blue_Lance:1124845569496584302>Spring Marisa",
-      "marisa3": "<:Green_Axe:1124845885277343754>Marisa",
+      "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa",
       "palla3": "<:Blue_Lance:1124845569496584302>Duo Palla",
       "setsuna": "<:Colorless_Bow:1124845636659982457>Setsuna"
     },
@@ -12402,7 +12402,7 @@
       "byleth5": "<:Blue_Tome:1124845593211191297>Legendary Female Byleth",
       "byleth6": "<:Colorless_Tome:1124845725960904734>Brave Byleth",
       "byleth9": "<:Red_Sword:1124846201070698536>Winter Byleth",
-      "marisa3": "<:Green_Axe:1124845885277343754>Marisa"
+      "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa"
     },
     "name": "Jeannie Tirado"
   },
