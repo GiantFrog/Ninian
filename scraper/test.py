@@ -28,4 +28,4 @@ version = None  # will calculate the book & chapter the game is currently on whe
 #version = "9.0"
 
 for i in range(0, len(units)):
-    Webscraper.scrape_page(f"/wiki/{units[i]}", alts=alts, version=version)
+    Webscraper.scrape_page(f"/wiki/{units[i]}", provided_alts=alts, version=version)

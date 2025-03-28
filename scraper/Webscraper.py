@@ -39,9 +39,11 @@ def determine_key(name):
 
     return try_key, ref
 
-def scrape_page(page_name, alts=None, version=None):
-    if alts is None:
+def scrape_page(page_name, provided_alts=None, version=None):
+    if provided_alts is None:
         alts = ["Base", "Normal", "Regular"]
+    else:
+        alts = provided_alts
     if version is None:
         book = datetime.now().year - 2016
         chapter = datetime.now().month
@@ -452,8 +454,10 @@ def scrape_page(page_name, alts=None, version=None):
     blank['chibi'] = maps.entrymap[origin]['chibi']
     blank['RANDOM_POOL'].append(maps.entrymap[origin]['pool'])
 
+    # if we don't have a title yet but this isn't a base unit, use the first given alt name.
+    if provided_alts and not maindis:
+        maindis = provided_alts[0]
     blank['short_name'] = maindis + ogname
-
     blank['SEARCH_NAME'] = maindis + ogname
 
     wepid = maps.wepmap[blank['color'] + ' ' + blank['weapon']]
