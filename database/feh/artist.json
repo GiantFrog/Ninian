@@ -23138,7 +23138,13 @@
       "Attuned Azura",
       "Attuned Aqua",
       "aqua7",
-      "azura7"
+      "azura7",
+      "Of the Sacred",
+      "Eirika: Of the Sacred",
+      "Emblem Eirika",
+      "Engage Eirika",
+      "E Eirika",
+      "eirika9"
     ],
     "HARD_ALT_NAME": [
       "lyn6",
@@ -23280,11 +23286,18 @@
       "Attuned Azura",
       "Attuned Aqua",
       "aqua7",
-      "azura7"
+      "azura7",
+      "Of the Sacred",
+      "Eirika: Of the Sacred",
+      "Emblem Eirika",
+      "Engage Eirika",
+      "E Eirika",
+      "eirika9"
     ],
     "heroes": {
       "azura7": "<:Green_Axe:1124845885277343754>Attuned Azura",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",
+      "eirika9": "<:Red_Sword:1124846201070698536>Emblem Eirika",
       "lyn6": "<:Blue_Bow:1124845525695475845>Summer Lyn",
       "micaiah4": "<:Colorless_Tome:1124845725960904734>Duo Micaiah",
       "palla4": "<:Red_Sword:1124846201070698536>Valentian Palla",
