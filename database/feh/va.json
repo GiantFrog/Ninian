@@ -12191,7 +12191,11 @@
       "Desert Marisa",
       "Harmonic Marisa",
       "D Marisa",
-      "marisa3"
+      "marisa3",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Harmonized Beleth",
@@ -12394,7 +12398,11 @@
       "Desert Marisa",
       "Harmonic Marisa",
       "D Marisa",
-      "marisa3"
+      "marisa3",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "heroes": {
       "byleth": "<:Red_Sword:1124846201070698536>Female Byleth",
@@ -12402,6 +12410,7 @@
       "byleth5": "<:Blue_Tome:1124845593211191297>Legendary Female Byleth",
       "byleth6": "<:Colorless_Tome:1124845725960904734>Brave Byleth",
       "byleth9": "<:Red_Sword:1124846201070698536>Winter Byleth",
+      "bylethR": "<:Red_Sword:1124846201070698536>Female Byleth (Resplendent)",
       "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa"
     },
     "name": "Jeannie Tirado"

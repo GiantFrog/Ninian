@@ -27681,7 +27681,11 @@
       "Resplendent Tiki",
       "Resp Tiki",
       "R Tiki",
-      "Tiki (Resplendent)"
+      "Tiki (Resplendent)",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "rhea",
@@ -27694,9 +27698,14 @@
       "Resp Tiki",
       "R Tiki",
       "Tiki (Resplendent)",
-      "tiki2R"
+      "tiki2R",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "heroes": {
+      "bylethR": "<:Red_Sword:1124846201070698536>Female Byleth (Resplendent)",
       "rhea": "<:Colorless_Breath:1124845679076978798>Rhea",
       "tiki2R": "<:Red_Breath:1124846247673610240>Adult Tiki (Resplendent)"
     },
