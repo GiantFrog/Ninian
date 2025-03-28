@@ -9503,7 +9503,7 @@
     "heroes": {
       "cecilia3": "<:Red_Tome:1124846175577710642>Bridal Cecilia",
       "chloe": "<:Blue_Lance:1124845569496584302>Chlo\u00e9",
-      "marisa3": "<:Green_Axe:1124845885277343754>Marisa",
+      "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa",
       "mia5": "<:Green_Axe:1124845885277343754>Festival Mia",
       "plumeria3": "<:Blue_Tome:1124845593211191297>Rearmed Plumeria",
       "shamir3": "<:Blue_Bow:1124845525695475845>Duo Shamir"
@@ -23138,7 +23138,13 @@
       "Attuned Azura",
       "Attuned Aqua",
       "aqua7",
-      "azura7"
+      "azura7",
+      "Of the Sacred",
+      "Eirika: Of the Sacred",
+      "Emblem Eirika",
+      "Engage Eirika",
+      "E Eirika",
+      "eirika9"
     ],
     "HARD_ALT_NAME": [
       "lyn6",
@@ -23280,11 +23286,18 @@
       "Attuned Azura",
       "Attuned Aqua",
       "aqua7",
-      "azura7"
+      "azura7",
+      "Of the Sacred",
+      "Eirika: Of the Sacred",
+      "Emblem Eirika",
+      "Engage Eirika",
+      "E Eirika",
+      "eirika9"
     ],
     "heroes": {
       "azura7": "<:Green_Axe:1124845885277343754>Attuned Azura",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",
+      "eirika9": "<:Red_Sword:1124846201070698536>Emblem Eirika",
       "lyn6": "<:Blue_Bow:1124845525695475845>Summer Lyn",
       "micaiah4": "<:Colorless_Tome:1124845725960904734>Duo Micaiah",
       "palla4": "<:Red_Sword:1124846201070698536>Valentian Palla",
@@ -27668,7 +27681,11 @@
       "Resplendent Tiki",
       "Resp Tiki",
       "R Tiki",
-      "Tiki (Resplendent)"
+      "Tiki (Resplendent)",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "rhea",
@@ -27681,9 +27698,14 @@
       "Resp Tiki",
       "R Tiki",
       "Tiki (Resplendent)",
-      "tiki2R"
+      "tiki2R",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "heroes": {
+      "bylethR": "<:Red_Sword:1124846201070698536>Female Byleth (Resplendent)",
       "rhea": "<:Colorless_Breath:1124845679076978798>Rhea",
       "tiki2R": "<:Red_Breath:1124846247673610240>Adult Tiki (Resplendent)"
     },
@@ -28480,7 +28502,7 @@
   },
   "makimurashiyunsuke": {
     "heroes": {
-      "ayra3": "<:Red_Sword:1124846201070698536>Ayra"
+      "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra"
     },
     "name": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
     "ALT_NAME": [

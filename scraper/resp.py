@@ -41,7 +41,7 @@ def scrape_resp(key):
     art = list(wiki_info[1].stripped_strings)  # art
     art_full = wiki_info[1]
     atags = art_full.find_all('a')
-    voice = "";
+    voice = ""
 
 
     # determine if there is a Resplendent alt
@@ -145,4 +145,4 @@ def scrape_resp(key):
 
     return
 
-scrape_resp('clair')
+scrape_resp('byleth')

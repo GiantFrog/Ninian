@@ -3043,7 +3043,7 @@
     "heroes": {
       "ayra": "<:Red_Sword:1124846201070698536>Ayra",
       "ayra2": "<:Red_Sword:1124846201070698536>Harmonic Ayra",
-      "ayra3": "<:Red_Sword:1124846201070698536>Ayra",
+      "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra",
       "ayraR": "<:Red_Sword:1124846201070698536>Ayra (Resplendent)",
       "lute": "<:Blue_Tome:1124845593211191297>Lute",
       "lute2": "<:Blue_Tome:1124845593211191297>Summer Lute",
@@ -6657,7 +6657,7 @@
       "felicia3": "<:Green_Axe:1124845885277343754>Ice Felicia",
       "marisa": "<:Red_Sword:1124846201070698536>Marisa",
       "marisa2": "<:Blue_Lance:1124845569496584302>Spring Marisa",
-      "marisa3": "<:Green_Axe:1124845885277343754>Marisa",
+      "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa",
       "palla3": "<:Blue_Lance:1124845569496584302>Duo Palla",
       "setsuna": "<:Colorless_Bow:1124845636659982457>Setsuna"
     },
@@ -12191,7 +12191,11 @@
       "Desert Marisa",
       "Harmonic Marisa",
       "D Marisa",
-      "marisa3"
+      "marisa3",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Harmonized Beleth",
@@ -12394,7 +12398,11 @@
       "Desert Marisa",
       "Harmonic Marisa",
       "D Marisa",
-      "marisa3"
+      "marisa3",
+      "Resplendent Byleth",
+      "Resp Byleth",
+      "R Byleth",
+      "Byleth (Resplendent)"
     ],
     "heroes": {
       "byleth": "<:Red_Sword:1124846201070698536>Female Byleth",
@@ -12402,7 +12410,8 @@
       "byleth5": "<:Blue_Tome:1124845593211191297>Legendary Female Byleth",
       "byleth6": "<:Colorless_Tome:1124845725960904734>Brave Byleth",
       "byleth9": "<:Red_Sword:1124846201070698536>Winter Byleth",
-      "marisa3": "<:Green_Axe:1124845885277343754>Marisa"
+      "bylethR": "<:Red_Sword:1124846201070698536>Female Byleth (Resplendent)",
+      "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa"
     },
     "name": "Jeannie Tirado"
   },
@@ -14965,7 +14974,13 @@
       "Eirika: Resolute Princess",
       "A Eirika",
       "Attuned Eirika",
-      "eirika8"
+      "eirika8",
+      "Of the Sacred",
+      "Eirika: Of the Sacred",
+      "Emblem Eirika",
+      "Engage Eirika",
+      "E Eirika",
+      "eirika9"
     ],
     "HARD_ALT_NAME": [
       "eirika",
@@ -15116,7 +15131,13 @@
       "Eirika: Resolute Princess",
       "A Eirika",
       "Attuned Eirika",
-      "eirika8"
+      "eirika8",
+      "Of the Sacred",
+      "Eirika: Of the Sacred",
+      "Emblem Eirika",
+      "Engage Eirika",
+      "E Eirika",
+      "eirika9"
     ],
     "heroes": {
       "eirika": "<:Red_Sword:1124846201070698536>Eirika",
@@ -15127,6 +15148,7 @@
       "eirika6": "<:Blue_Lance:1124845569496584302>Brave Eirika",
       "eirika7": "<:Green_Tome:1124845959873036289>Summer Eirika",
       "eirika8": "<:Green_Axe:1124845885277343754>Attuned Eirika",
+      "eirika9": "<:Red_Sword:1124846201070698536>Emblem Eirika",
       "eirikaR": "<:Red_Sword:1124846201070698536>Eirika (Resplendent)",
       "katarina": "<:Red_Tome:1124846175577710642>Katarina",
       "katarina2": "<:Blue_Tome:1124845593211191297>Plegian Katarina"
