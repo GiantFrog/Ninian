@@ -2,13 +2,13 @@ import discord, os, random
 from discord.ext import tasks
 
 random_status = [
-    "New year, new Veyle!",
-    "Thank you, Mina!",
-    "Try out compare! @Ninian fe4 lewyn!ced, lewyn!arthur 14",
-    "Cipher cards look pretty cool: @Ninian cipher",
-    "Have you seen my brother?",
-    "@Ninian calendar",
-    "@Ninian legendary"
+    "It's not like he'll miss a 98%, right?",
+    "Have you seen Sir Sigurd? He promised to meet me...",
+    # old joke statuses stolen from https://github.com/izumi-niche/OifeyBot/blob/main/client.py
+    "Don't believe in the liberal media: FE3 is not real",
+    "90% of summoners quit right before they pull their favorite character",
+    "It would be pretty cool if they added marth to fortnite ngl",
+    "Smash Bros is old and boring, they should start adding FE characters to Fortnite instead"
 ]
 
 discord.utils.setup_logging()
