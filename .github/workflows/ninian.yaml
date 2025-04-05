@@ -21,7 +21,7 @@ jobs:
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=raw,value={{date 'YYYY-MM-DD_HHmm'}},enable={{is_default_branch}}
-            type=raw,value=dev,enable={{ !is_default_branch }}
+            type=raw,value=dev,enable=!{{is_default_branch}}
           labels: |
             org.opencontainers.image.created={{commit_date 'YYYY-MM-DDTHH:mm:ss.SSS[Z]'}}
       - name: Build & push the image!
