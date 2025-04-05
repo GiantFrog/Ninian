@@ -1,0 +1,913 @@
+{
+  "camilla10": {
+    "name": "Camilla",
+    "title": "Young Beauty",
+    "description": "First princess of Nohr. She cares deeply for her siblings and unleashes a relentless wrath on any who threaten harm to them. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "\u67b6\u7cf8",
+    "move": "Flying",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1226",
+    "type": false,
+    "version": "9.4",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 11,
+      "spd": 9,
+      "def": 9,
+      "res": 8
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
+      "spd": 90,
+      "def": 60,
+      "res": 40
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Silver Axe": "3",
+      "Axe of Dusk": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Draconic Aura": "4",
+      "No Quarter": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Catch 1": "2",
+        "Atk/Spd Catch 2": "3",
+        "Atk/Spd Catch 3": "4",
+        "Trample": "5"
+      },
+      "B": {
+        "Tut-Tut!": "5"
+      },
+      "C": {
+        "Guidance 1": "2",
+        "Guidance 2": "3",
+        "Guidance 3": "4",
+        "Guidance 4": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dd/Camilla_Young_Beauty_Face.webp/revision/latest?cb=20250403042228",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b0/Camilla_Young_Beauty_BtlFace_D.webp/revision/latest?cb=20250403042219",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9b/Camilla_Young_Beauty_BtlFace_C.webp/revision/latest?cb=20250403042209",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4e/Camilla_Young_Beauty_BtlFace.webp/revision/latest?cb=20250403042137"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Young Beauty",
+      "Camilla: Young Beauty",
+      "Young Camilla",
+      "Baby Camilla",
+      "Child Camilla",
+      "Y Camilla",
+      "camilla10"
+    ],
+    "HARD_ALT_NAME": [
+      "Young Beauty",
+      "Camilla: Young Beauty",
+      "Young Camilla",
+      "Baby Camilla",
+      "Child Camilla",
+      "Y Camilla",
+      "camilla10"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u5e7c\u5c11\u30ab\u30df\u30e9",
+    "voice": "Misty Lee",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "I will do anything to protect my siblings... Crush anything!",
+        "My sweet Corrin should be able to play with me, not be locked away in a castle all the time.",
+        "I've circled the places I want to take Corrin on this map of Nohr. And I'll keep circling more and more...",
+        "I'm not afraid to play in dangerous places. I mean, I do ride a wyvern.",
+        "Corrin likes resting on my lap and sleeps so peacefully after a nice hair brushing. Haha."
+      ],
+      "Visit": [
+        "I'm Camilla, eldest princess of the kingdom of Nohr. It seems you're well liked by [F]."
+      ],
+      "Level": [
+        "My age doesn't matter one bit! I'll do anything to protect my sweet, sweet Corrin...",
+        "Haha. You lost only because you underestimated me, thinking I was only a child.",
+        "I just need more experience... Then I'll be able to get stronger."
+      ],
+      "Summon": [
+        "I'm Camilla, first princess of Nohr. Where is\u2014 I want to see my Corrin's face. I must..."
+      ],
+      "Learn Skill": [
+        "Haha... I'll be able to protect Corrin with power like this."
+      ],
+      "Confession": [
+        "The reason I want to grow stronger is because I cannot stand to see my siblings sad.\nXander, Leo, Elise, Corrin... Their smiles are my treasures.\nOur bonds are unwavering, even if we only share half of our blood...\nIf you turn out to be their enemy, I will not hesitate to unleash my wrath upon you, [S].\nI will make an enemy of the entire world if it means protecting them.\nSo, I'm going to get stronger. Much, much stronger. I'll gain experience here. And I'll protect them to the end."
+      ],
+      "Special": [
+        "Just like Father!",
+        "I must do well.",
+        "I won't show mercy!",
+        "This seals it."
+      ],
+      "Status": [
+        "Haha.",
+        "I'm Camilla, first princess of Nohr.",
+        "*gasp* Hey! Keep your distance! I am a princess, you know.",
+        "Though we all have different mothers, my siblings and I are so very close.",
+        "I would gladly die for my sweet, sweet Corrin... Without a doubt.",
+        "I do wonder if the girl who was taken from the castle is faring well.",
+        "I must be cruel to my enemies. That's what Father wants.",
+        "You are too kind. *giggle* May I stay here in Askr a while longer?"
+      ],
+      "Map Select": [
+        "Ah-ha!",
+        "What now?",
+        "I can do it."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Young Camilla",
+    "SEARCH_NAME": "Young Camilla",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Young Camilla",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "camilla",
+      "camilla2",
+      "camilla3",
+      "camilla4",
+      "camilla5",
+      "camilla6",
+      "camilla7",
+      "camilla8",
+      "camilla9"
+    ],
+    "prf": {
+      "": "axeofdusk",
+      "eff": "axeofdusk",
+      "atk": "axeofdusk",
+      "spd": "axeofdusk",
+      "def": "axeofdusk",
+      "res": "axeofdusk"
+    }
+  },
+  "corrin16": {
+    "name": "Corrin",
+    "title": "Young Kinship",
+    "description": "Young Heroes blessed with the power of the First Dragons. By order of the king of Nohr, they live apart from their siblings at a fortress in the north. They appear in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "nima",
+    "move": "Armored",
+    "weapon": "Breath",
+    "color": "Blue",
+    "duel": false,
+    "id": "1225",
+    "type": false,
+    "version": "9.4",
+    "duo": "Expand\nCollapse\n]\nGrants the following status to unit and allies within 3 spaces of unit for 1 turn: increases Spd difference necessary for foe to make a follow-up attack by 10 during combat.\nApplies\u3010Divine Vein (Water)\u3011to unit's space and spaces within 3 spaces of unit for 2 turns.\n(Duo Skills can be used once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Divine Vein (Water)\u3011\nApplies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to \"cannot be slowed by terrain\" effects; movement cost cannot exceed unit's allowed movement). Inflicts Spd-5 on foe and reduces the percentage of non-Special \"reduce damage by X%\" skills by 50% during combat (excluding area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 19,
+      "atk": 10,
+      "spd": 8,
+      "def": 5,
+      "res": 11
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 70,
+      "res": 80
+    },
+    "superboon": [
+      "spd",
+      "def"
+    ],
+    "superbane": [
+      "hp",
+      "atk"
+    ],
+    "weapons": {
+      "Fire Breath": "1",
+      "Fire Breath+": "2",
+      "Flametongue": "3",
+      "Duskstone": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4",
+      "Dragon Fang Fire": "5"
+    },
+    "passive": {
+      "A": {
+        "Water Boost 1": "2",
+        "Water Boost 2": "3",
+        "Water Boost 3": "4",
+        "Primordial Boost": "5"
+      },
+      "B": {
+        "Savvy Fighter 1": "2",
+        "Savvy Fighter 2": "3",
+        "Savvy Fighter 3": "4",
+        "Clever Fighter": "5"
+      },
+      "C": {
+        "Close Guard 1": "2",
+        "Close Guard 2": "3",
+        "Close Guard 3": "4",
+        "Lower Ground": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9c/Corrin_Young_Kinship_Face.webp/revision/latest?cb=20250403042115",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4c/Corrin_Young_Kinship_BtlFace_D.webp/revision/latest?cb=20250403042105",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1f/Corrin_Young_Kinship_BtlFace_C.webp/revision/latest?cb=20250403042056",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fd/Corrin_Young_Kinship_BtlFace.webp/revision/latest?cb=20250403042022"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Young Kinship",
+      "Corrin: Young Kinship",
+      "Young Corrin",
+      "Baby Corrin",
+      "Child Corrin",
+      "Y Corrin",
+      "corrin16"
+    ],
+    "HARD_ALT_NAME": [
+      "Young Kinship",
+      "Corrin: Young Kinship",
+      "Young Corrin",
+      "Baby Corrin",
+      "Child Corrin",
+      "Y Corrin",
+      "corrin16"
+    ],
+    "gender": "",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6bd4\u7ffc\u30ab\u30e0\u30a4\u7537",
+    "voice": "Cam Clarke + Marcella Lentz-Pope",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "**Corrin:** If I wasn't born in Nohr, then I was born in... I don't remember...",
+        "**Corrin:** We are from a dark castle, but we're never lonely. Our brothers and sisters come to visit us...",
+        "**Corrin:** The nights can get lonely... But that doesn't last long with all my siblings and Gunter to keep me company.",
+        "**Corrin:** Askr is a mysterious place. Meeting another me... It's like I'm a character in a storybook.",
+        "**Corrin:** Being with Xander, Camilla, Leo, and Elise is the most fun of all."
+      ],
+      "Visit": [
+        "We are Corrin and Corrin, two of the same kind. We brought a delivery from [F]."
+      ],
+      "Level": [
+        "**Corrin:** I'm no good at fighting. But if it's to protect my siblings, then I'll do all I can!",
+        "**Corrin:** Why can't everyone just get along?",
+        "**Corrin:** It's OK. We'll do better next time."
+      ],
+      "Summon": [
+        "I'm Corrin, from Nohr. And this is Corrin too. We're...the same. Strange, huh?"
+      ],
+      "Learn Skill": [
+        "**Corrin:** Th-this is for us? Thank you for being so nice to us."
+      ],
+      "Confession": [
+        "**Corrin:** Askr is a wonderful place, isn't it? We're even allowed to roam freely here, outside of the castle...\n**Corrin:** Yes, but we'll have to return to Nohr once Askr is at peace.\n**Corrin:** I know... That is a bit unfortunate, isn't it?\nIn Askr, we can see our siblings and all sorts of other people any time we want...\n**Corrin:** If we can make Nohr like Askr, then it would be wonderful too. If we do our best, I think it's possible.\n**Corrin:** You're right! If we work together with our siblings, I know we can do it... Let's do our best!"
+      ],
+      "Special": [
+        "**Duo:** We decide our path!",
+        "**Duo:** Together... We can do it!",
+        "**Corrin:** For everyone!",
+        "**Corrin:** I'll protect you!"
+      ],
+      "Status": [
+        "Whoa...",
+        "\"We're...the same? Strange.\" \"I know, but...I'm glad we met.\""
+      ],
+      "Map Select": [
+        "Hm...",
+        "I'll do my best.",
+        "Am I ready?"
+      ],
+      "Conversation": [
+        "**Corrin:** OK, so, you're me and I'm...you? It's like a dream.",
+        "**Corrin:** Or like...we're looking in a mirror.",
+        "**Corrin:** This must be what it's like to have a twin.",
+        "**Corrin:** Like Flora and Felicia!",
+        "**Corrin:** There must be many of us that exist in other worlds. Some male, some female...",
+        "**Corrin:** Maybe some of us were allowed to roam freely, outside of the castle...",
+        "**Corrin:** Oh, I hope so. I mean, I am certain some were.",
+        "**Corrin:** Aw, that sounds wonderful... Tell me, were you also kept in the castle at all times?",
+        "**Corrin:** Yes... But it makes being in Askr all the more special!",
+        "**Corrin:** You're right! And the castle here is so big, and the meadow just goes on and on... *sigh* It's like a fairy tale.",
+        "**Corrin:** Yes, and the people here are all so different, with so many interesting stories to tell.",
+        "**Corrin:** There's so much I want to do. Like shop in the town, visit the Kingdom of Ice...and the Kingdom of Flame too!",
+        "**Corrin:** I'm not sure how much time we have here... I don't wish to leave Askr a-anytime soon...",
+        "**Corrin:** Same. I wish I could stay, except...",
+        "**Corrin:** *chuckle* I know... I miss home too...",
+        "**Corrin:** We should do all we can while we're here.",
+        "**Corrin:** You're right! We should fill our time with making memories we can bring to everyone back home."
+      ],
+      "Duo Skill": [
+        "\"Ready?\" \"Yeah.\"",
+        "\"I won't lose!\" \"Me neither!\""
+      ],
+      "Back Unit Supporting": [
+        "With all your strength!",
+        "Give it your all!"
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Young Corrin",
+    "SEARCH_NAME": "Young Corrin",
+    "DISPLAY_NAME": "<:Blue_Breath:1124845312637403236>Young Corrin",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "corrin",
+      "corrin2",
+      "corrin3",
+      "corrin4",
+      "corrin5",
+      "corrin6",
+      "corrin7",
+      "corrin8",
+      "corrin9",
+      "corrin10",
+      "corrin11",
+      "corrin12",
+      "corrin13",
+      "corrin14",
+      "corrin15"
+    ],
+    "prf": {
+      "": "duskstone",
+      "eff": "duskstone",
+      "atk": "duskstone",
+      "spd": "duskstone",
+      "def": "duskstone",
+      "res": "duskstone"
+    }
+  },
+  "elise5": {
+    "name": "Elise",
+    "title": "Sparkling Smile",
+    "description": "Youngest princess of Nohr. She is a kindhearted person, always smiling, who is very considerate of her siblings. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Fuzichoco (\u85e4\u3061\u3087\u3053)",
+    "move": "Cavalry",
+    "weapon": "Staff",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1228",
+    "type": false,
+    "version": "9.4",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 16,
+      "atk": 8,
+      "spd": 12,
+      "def": 4,
+      "res": 9
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 80,
+      "def": 30,
+      "res": 50
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp",
+      "def",
+      "res"
+    ],
+    "weapons": {
+      "Assault": "1",
+      "Baton of Dusk": "5"
+    },
+    "assist": {
+      "Heal": "1",
+      "Reconcile": "2",
+      "Return": "3",
+      "Return+": "5"
+    },
+    "special": {
+      "Imbue": "2",
+      "Miracle": "3",
+      "Holy Panic": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Form 1": "2",
+        "Atk/Spd Form 2": "3",
+        "Atk/Spd Form 3": "4",
+        "Atk/Spd Tidings": "5"
+      },
+      "B": {},
+      "C": {
+        "Even Recovery 1": "1",
+        "Even Recovery 2": "2",
+        "Even Recovery 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0e/Elise_Sparkling_Smile_Face.webp/revision/latest?cb=20250403042457",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3e/Elise_Sparkling_Smile_BtlFace_D.webp/revision/latest?cb=20250403042447",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8f/Elise_Sparkling_Smile_BtlFace_C.webp/revision/latest?cb=20250403042437",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/75/Elise_Sparkling_Smile_BtlFace.webp/revision/latest?cb=20250403042404"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Sparkling Smile",
+      "Elise: Sparkling Smile",
+      "Young Elise",
+      "Baby Elise",
+      "Child Elise",
+      "Y Elise",
+      "elise5"
+    ],
+    "HARD_ALT_NAME": [
+      "Sparkling Smile",
+      "Elise: Sparkling Smile",
+      "Young Elise",
+      "Baby Elise",
+      "Child Elise",
+      "Y Elise",
+      "elise5"
+    ],
+    "gender": "F",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u5e7c\u5c11\u30a8\u30ea\u30fc\u30bc",
+    "voice": "Liv Strander",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "I wanna be with my siblings all the time. Smiling, playing, laughing...",
+        "I made a friend the other day when I snuck out of the castle. I wish I could see them again...",
+        "Xander is so strong, and noble, and-and...amazing!",
+        "My big brother Leo knows everything! If you can't figure something out, ask him and he'll know!",
+        "Camilla is pretty, huh? I wanna be just like her when I grow up!"
+      ],
+      "Visit": [
+        "I'm Elise. I'm from Nohr. I snuck here from [F]'s castle!"
+      ],
+      "Level": [
+        "I'm going to do my very best. I'll be the strongest, most unstoppable princess ever!",
+        "Wanna read a book and learn with me?",
+        "I'm tired! I wanna play hide-and-seek..."
+      ],
+      "Summon": [
+        "I'm Elise from Nohr. Are all my siblings here too?"
+      ],
+      "Learn Skill": [
+        "Is this for me? Yay! This makes me so happy!"
+      ],
+      "Confession": [
+        "Am I getting in everyone's way, [S]?\nI'm still little, so I can't do much, but... I wanna do my best so I can be the greatest little sister ever!\nI'll do anything\u2014read tough books, train till my muscles are sore and tired...\nI want everyone to think, \"I'm glad Elise is my little sister!\" Then I'd be happy!\nSo, teach me all sorts of stuff, OK? 'Cause I'm gonna grow lots and lots. You'll see!"
+      ],
+      "Special": [
+        "Till you're black and blue!",
+        "Go away!",
+        "Bye-bye!",
+        "Nuh-uh!"
+      ],
+      "Status": [
+        "*giggle*",
+        "Let's gooo!",
+        "I'm. Playing!",
+        "My name's Elise. And I'm a princess of Nohr!",
+        "My family's really big. I got a big brother, I got a big sister, and, uh...umm...",
+        "I'm practicing with my staff. Wanna see? Taaake this!",
+        "I wanna be just like Camilla when I grow up!",
+        "Hey! Hey! You wanna play hide-and-seek?"
+      ],
+      "Map Select": [
+        "'K!",
+        "Is it my turn?",
+        "Wait for meee!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Young Elise",
+    "SEARCH_NAME": "Young Elise",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Young Elise",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "elise",
+      "elise2",
+      "elise3",
+      "elise4"
+    ],
+    "prf": {
+      "": "batonofdusk",
+      "eff": "batonofdusk",
+      "atk": "batonofdusk",
+      "spd": "batonofdusk",
+      "def": "batonofdusk",
+      "res": "batonofdusk"
+    }
+  },
+  "leo6": {
+    "name": "Leo",
+    "title": "Dark Sprout",
+    "description": "Youngest prince of Nohr. Exceptionally talented, he is capable of just about anything, particularly magic. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Tobi",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Red",
+    "duel": false,
+    "id": "1227",
+    "type": false,
+    "version": "9.4",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 5,
+      "def": 3,
+      "res": 13
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 50,
+      "def": 30,
+      "res": 80
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp",
+      "spd",
+      "def"
+    ],
+    "weapons": {
+      "Flux": "1",
+      "Ruin": "2",
+      "Fenrir": "3",
+      "Tome of Dusk": "5"
+    },
+    "assist": {
+      "Reposition": "3"
+    },
+    "special": {
+      "Rising Thunder": "3",
+      "Blazing Thunder": "4"
+    },
+    "passive": {
+      "A": {
+        "Still Water 1": "2",
+        "Still Water 2": "3",
+        "Still Water 3": "4",
+        "Crystalline Water": "5"
+      },
+      "B": {
+        "Atk/Res Snag 1": "2",
+        "Atk/Res Snag 2": "3",
+        "Atk/Res Snag 3": "4",
+        "Atk/Res Detect": "5"
+      },
+      "C": {
+        "Fortify Res 1": "2",
+        "Fortify Res 2": "3",
+        "Fortify Res 3": "4",
+        "A/R Incite Hone": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/78/Leo_Dark_Sprout_Face.webp/revision/latest?cb=20250403042342",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7e/Leo_Dark_Sprout_BtlFace_D.webp/revision/latest?cb=20250403042332",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/70/Leo_Dark_Sprout_BtlFace_C.webp/revision/latest?cb=20250403042322",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c3/Leo_Dark_Sprout_BtlFace.webp/revision/latest?cb=20250403042250"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Dark Sprout",
+      "Leo: Dark Sprout",
+      "Young Leo",
+      "Baby Leo",
+      "Child Leo",
+      "Y Leo",
+      "leo6"
+    ],
+    "HARD_ALT_NAME": [
+      "Dark Sprout",
+      "Leo: Dark Sprout",
+      "Young Leo",
+      "Baby Leo",
+      "Child Leo",
+      "Y Leo",
+      "leo6"
+    ],
+    "gender": "M",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u5e7c\u5c11\u30ec\u30aa\u30f3",
+    "voice": "\u2014",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "There's no value in keeping around those who do bad things. Leave it to me. I will dispose of them for you.",
+        "My father used to be kind...long ago. He would rub my head, let me ride on his shoulders...",
+        "I am studying magic. I have no interest in focusing on the sword or spear. I'm not like Xander, you know.",
+        "If you turn against my siblings, I'll flatten you with a new spell I just learned.",
+        "Xander is reliable, Camilla is kind, Elise is cheerful, and... Mm-hmph! All my siblings are precious to me."
+      ],
+      "Visit": [
+        "I am Leo, prince of Nohr. You have delicious tomatoes here? I heard so from [F]."
+      ],
+      "Level": [
+        "Too easy! Hahaha.",
+        "Thought you could win because I'm a child?! Fool!",
+        "Ugh! Everyone will be disappointed in me."
+      ],
+      "Summon": [
+        "I am Leo, prince of the Kingdom of Nohr. I'll say this once\u2014I don't trust anyone except my siblings."
+      ],
+      "Learn Skill": [
+        "I'll accept this, as long as you're choosing to give it to me... Thank you."
+      ],
+      "Confession": [
+        "When I was younger, my father's mistresses were always fighting, trying to win his favor.\nAnd I think my mother was using me to improve her status with him. I never liked her because of that...\nShe never once spared me a single moment's attention. And then... she died.\nBecause of all the fighting, I could never really have any real conversations with my siblings.\nBut now, those of us that remain have finally grown close... I am truly happy.\nI hope we'll be able to stay close from now on, forever. It's up to me to do all I can to ensure that happens."
+      ],
+      "Special": [
+        "I'm just getting started!",
+        "Think you'll prevail?",
+        "Darkness! Yeah!",
+        "Here it comes!"
+      ],
+      "Status": [
+        "Hmph.",
+        "I am Leo, second prince of Nohr. And I expect you to treat me as such.",
+        "Ugh! Stop being so childish.",
+        "My older siblings are so strong...",
+        "My collar is inside out? Ahem. I know that.",
+        "Think we'll have tomatoes with dinner?",
+        "Someday I'll be taken seriously. Someday...",
+        "You look kinda weak. So I'm going to be strong for you!"
+      ],
+      "Map Select": [
+        "Ooo-kay!",
+        "Huh?",
+        "Do I have to?"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Young Leo",
+    "SEARCH_NAME": "Young Leo",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Young Leo",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "leo",
+      "leo2",
+      "leo3",
+      "leo4",
+      "leo5"
+    ],
+    "prf": {
+      "": "tomeofdusk",
+      "eff": "tomeofdusk",
+      "atk": "tomeofdusk",
+      "spd": "tomeofdusk",
+      "def": "tomeofdusk",
+      "res": "tomeofdusk"
+    }
+  },
+  "xander6": {
+    "name": "Xander",
+    "title": "Focused Firstborn",
+    "description": "First prince of Nohr. He works diligently every day to protect his siblings. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Hiiragi Akio (\u67ca\u6681\u751f)",
+    "move": "Cavalry",
+    "weapon": "Sword",
+    "color": "Red",
+    "duel": false,
+    "id": "1229",
+    "type": false,
+    "version": "9.4",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 19,
+      "atk": 9,
+      "spd": 8,
+      "def": 13,
+      "res": 4
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 50,
+      "def": 80,
+      "res": 45
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "spd"
+    ],
+    "weapons": {
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Silver Sword": "3",
+      "Sword of Dusk": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Def Clash 1": "1",
+        "Atk/Def Clash 2": "3",
+        "Atk/Def Clash 3": "4"
+      },
+      "B": {
+        "Lull Atk/Def 1": "3",
+        "Lull Atk/Def 2": "4",
+        "Lull Atk/Def 3": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2e/Xander_Focused_Firstborn_Face.webp/revision/latest?cb=20250403042613",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2f/Xander_Focused_Firstborn_BtlFace_D.webp/revision/latest?cb=20250403042602",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b9/Xander_Focused_Firstborn_BtlFace_C.webp/revision/latest?cb=20250403042552",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/ba/Xander_Focused_Firstborn_BtlFace.webp/revision/latest?cb=20250403042519"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Focused Firstborn",
+      "Xander: Focused Firstborn",
+      "Young Xander",
+      "Baby Xander",
+      "Child Xander",
+      "Y Xander",
+      "xander6"
+    ],
+    "HARD_ALT_NAME": [
+      "Focused Firstborn",
+      "Xander: Focused Firstborn",
+      "Young Xander",
+      "Baby Xander",
+      "Child Xander",
+      "Y Xander",
+      "xander6"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "grail",
+    "internal_id": "PID_\u5e7c\u5c11\u30de\u30fc\u30af\u30b9",
+    "voice": "Robbie Daymond",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "We may not have the same mother, but our sibling bonds are still very strong. They cannot be broken.",
+        "I am mediocre at military studies and academic pursuits in general. That is why I must work harder than most.",
+        "I was relieved Leo chose to study magic. Things might have gotten awkward had he chosen the sword.",
+        "Camilla, Leo, Elise, and Corrin... All of us should bear the responsibility for our homeland of Nohr together.",
+        "I get nervous when I stand before my father. I must work even harder so he does not lose faith in me..."
+      ],
+      "Visit": [
+        "I am Xander, the first prince of Nohr. Please read this handwritten letter from [F]."
+      ],
+      "Level": [
+        "One cannot win with talent alone. You must be willing to put in hard work to get results.",
+        "If I were to disgrace myself, as the eldest brother, I would be unable to face my siblings.",
+        "One could lose a battle they might have easily won if they are less driven than their opponent."
+      ],
+      "Summon": [
+        "I am Xander, eldest prince of Nohr. I shall apply my strength to meet the expectations of my family here too."
+      ],
+      "Learn Skill": [
+        "I shall use this power to overcome future conflicts."
+      ],
+      "Confession": [
+        "I was born the eldest brother in my family, but I had no single trait to help me stand out in a positive way.\nAs a result, I always felt pressured by the talent of my younger siblings.\nI worked hard daily to be competent enough not to be an embarrassment as the eldest brother. And now...\nI train to overcome countless trials and be a knight who can carry the weight of Nohr on his shoulders.\nI want to be the kind of older brother my siblings can feel proud of.\nI shall strive to do noteworthy work here in Askr as well so that I can live up to those expectations."
+      ],
+      "Special": [
+        "Stop at once.",
+        "Observe!",
+        "For the glory of Nohr!",
+        "No quarter!"
+      ],
+      "Status": [
+        "Mm-hmm.",
+        "I am the crown prince of Nohr. I cannot tolerate insolence.",
+        "Huh? I thought I said insolence could not be tolerated.",
+        "I must always be an example for my siblings. I can never show cowardice.",
+        "Corrin is such a strange child\u2014always at the center of attention.",
+        "I shall study whatever I must to grow the kingdom of Nohr.",
+        "How Father dealt with Corrin... No! I must put it out of my mind.",
+        "I've come to believe I can put my trust in you."
+      ],
+      "Map Select": [
+        "Very well.",
+        "Hm.",
+        "I'll handle it."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Young Xander",
+    "SEARCH_NAME": "Young Xander",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Young Xander",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "xander",
+      "xander2",
+      "xander3",
+      "xander4",
+      "xander5"
+    ],
+    "prf": {
+      "": "swordofdusk",
+      "eff": "swordofdusk",
+      "atk": "swordofdusk",
+      "spd": "swordofdusk",
+      "def": "swordofdusk",
+      "res": "swordofdusk"
+    }
+  }
+}
