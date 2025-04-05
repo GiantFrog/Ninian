@@ -149,6 +149,11 @@ def scrape_page(page_name, provided_alts=None, version=None):
         blank['pool'] = 'grail'
         blank['rarity'] = 4
 
+    if min(rarity).isdigit() and 1 <= int(min(rarity)) <= 5:
+        blank['rarity'] = min(rarity)
+    if not blank['rarity']:
+        print(f'WARN: Could not detect the rarity of {blank['name']}! Be sure to fill it in manually.')
+
     # Next up, find the weapon type. Start by finding the release date
     for i in wiki_info:
         if "Weapon Type" in i.text:
