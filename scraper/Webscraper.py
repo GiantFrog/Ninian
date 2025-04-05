@@ -150,7 +150,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
         blank['rarity'] = 4
 
     if min(rarity).isdigit() and 1 <= int(min(rarity)) <= 5:
-        blank['rarity'] = min(rarity)
+        blank['rarity'] = int(min(rarity))
     if not blank['rarity']:
         print(f'WARN: Could not detect the rarity of {blank['name']}! Be sure to fill it in manually.')
 
