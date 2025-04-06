@@ -100,7 +100,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
     if 'Rearmed' in rarity:
         blank['type'] = 'rearmed'
         blank['pool'] = 'focus'
-        maindis = 'Rearmed '
+        maindis = 'Rearmed'
         alts.append('Rearmed')
         alts.append('Rearm')
         alts.append('Arm')
@@ -108,13 +108,13 @@ def scrape_page(page_name, provided_alts=None, version=None):
     if 'Attuned' in rarity:
         blank['type'] = 'attuned'
         blank['pool'] = 'focus'
-        maindis = 'Attuned '
+        maindis = 'Attuned'
         alts.append('Attuned')
         blank['rarity'] = 5
     if 'Aided' in rarity:
         blank['type'] = 'aided'
         blank['pool'] = 'focus'
-        maindis = 'Aided '
+        maindis = 'Aided'
         alts.append('Aided')
         alts.append('Aid')
         blank['rarity'] = 5
@@ -124,7 +124,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
         alts.append('Ascended')
         alts.append('Ascendant')
         alts.append('Ascendent')
-        maindis = 'Ascended '
+        maindis = 'Ascended'
         blank['rarity'] = 5
     if 'Legendary' in rarity or 'Mythic' in rarity:
         blank['type'] = 'legendary'
@@ -136,7 +136,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
         alts.append('Emblem')
         alts.append('Engage')
         alts.append('E')
-        maindis = 'Emblem '
+        maindis = 'Emblem'
         blank['rarity'] = 5
     if 'Special' in rarity:
         blank['pool'] = 'seasonal'
@@ -148,6 +148,11 @@ def scrape_page(page_name, provided_alts=None, version=None):
     if 'Tempest Trials' in rarity:
         blank['pool'] = 'grail'
         blank['rarity'] = 4
+
+    if min(rarity).isdigit() and 1 <= int(min(rarity)) <= 5:
+        blank['rarity'] = int(min(rarity))
+    if not blank['rarity']:
+        print(f'WARN: Could not detect the rarity of {blank['name']}! Be sure to fill it in manually.')
 
     # Next up, find the weapon type. Start by finding the release date
     for i in wiki_info:
@@ -457,8 +462,8 @@ def scrape_page(page_name, provided_alts=None, version=None):
     # if we don't have a title yet but this isn't a base unit, use the first given alt name.
     if provided_alts and not maindis:
         maindis = provided_alts[0]
-    blank['short_name'] = maindis + ogname
-    blank['SEARCH_NAME'] = maindis + ogname
+    blank['short_name'] = f'{maindis} {ogname}'
+    blank['SEARCH_NAME'] = f'{maindis} {ogname}'
 
     wepid = maps.wepmap[blank['color'] + ' ' + blank['weapon']]
 

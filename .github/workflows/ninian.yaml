@@ -1,5 +1,8 @@
 name: Ninian
 on:
+  pull_request:
+    branches:
+      - "main"
   push:
     branches:
       - "main"
@@ -10,12 +13,21 @@ jobs:
     steps:
       - name: Check out the new code.
         uses: actions/checkout@v4
-      - name: What time is it?
-        id: tag
-        run: echo "timestamp=$(date +%Y-%m-%d_%H%M)" >> $GITHUB_OUTPUT
+      - name: Gather metadata.
+        uses: docker/metadata-action@v5
+        id: meta
+        with:
+          images: registry.froginata.com/ninian
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value={{date 'YYYY-MM-DD_HHmm'}},enable={{is_default_branch}}
+            type=raw,value=dev
+          labels: |
+            org.opencontainers.image.created={{commit_date 'YYYY-MM-DDTHH:mm:ss.SSS[Z]'}}
       - name: Build & push the image!
         uses: docker/build-push-action@v6
         with:
           context: .
           push: true
-          tags: registry.froginata.com/ninian:latest,registry.froginata.com/ninian:${{ steps.tag.outputs.timestamp }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}

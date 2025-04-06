@@ -6064,7 +6064,14 @@
       "Sakura: In Full Bloom",
       "L Sakura",
       "Legendary Sakura",
-      "sakura4"
+      "sakura4",
+      "Sparkling Smile",
+      "Elise: Sparkling Smile",
+      "Young Elise",
+      "Baby Elise",
+      "Child Elise",
+      "Y Elise",
+      "elise5"
     ],
     "HARD_ALT_NAME": [
       "Harmonic Elise",
@@ -6149,10 +6156,18 @@
       "Sakura: In Full Bloom",
       "L Sakura",
       "Legendary Sakura",
-      "sakura4"
+      "sakura4",
+      "Sparkling Smile",
+      "Elise: Sparkling Smile",
+      "Young Elise",
+      "Baby Elise",
+      "Child Elise",
+      "Y Elise",
+      "elise5"
     ],
     "heroes": {
       "elise4": "<:Colorless_Staff:1124845704444137592>Duo Elise",
+      "elise5": "<:Colorless_Staff:1124845704444137592>Young Elise",
       "framme": "<:Green_Axe:1124845885277343754>Spring Framme",
       "hana": "<:Red_Sword:1124846201070698536>Hana",
       "ilyana2": "<:Blue_Tome:1124845593211191297>Halloween Ilyana",
@@ -7670,7 +7685,14 @@
       "Resplendent Claude",
       "Resp Claude",
       "R Claude",
-      "Claude (Resplendent)"
+      "Claude (Resplendent)",
+      "Focused Firstborn",
+      "Xander: Focused Firstborn",
+      "Young Xander",
+      "Baby Xander",
+      "Child Xander",
+      "Y Xander",
+      "xander6"
     ],
     "HARD_ALT_NAME": [
       "roy2R",
@@ -7714,13 +7736,21 @@
       "Resplendent Claude",
       "Resp Claude",
       "R Claude",
-      "Claude (Resplendent)"
+      "Claude (Resplendent)",
+      "Focused Firstborn",
+      "Xander: Focused Firstborn",
+      "Young Xander",
+      "Baby Xander",
+      "Child Xander",
+      "Y Xander",
+      "xander6"
     ],
     "heroes": {
       "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
       "robin14": "<:Blue_Tome:1124845593211191297>Young Female Robin",
       "roy2R": "<:Red_Sword:1124846201070698536>Brave Roy (Resplendent)",
-      "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez"
+      "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez",
+      "xander6": "<:Red_Sword:1124846201070698536>Young Xander"
     },
     "name": "Hiiragi Akio (\u67ca\u6681\u751f)"
   },
@@ -23682,7 +23712,14 @@
       "Base Ashe",
       "Normal Ashe",
       "Regular Ashe",
-      "ashe"
+      "ashe",
+      "Dark Sprout",
+      "Leo: Dark Sprout",
+      "Young Leo",
+      "Baby Leo",
+      "Child Leo",
+      "Y Leo",
+      "leo6"
     ],
     "HARD_ALT_NAME": [
       "Fallen Morgan Female",
@@ -24069,7 +24106,14 @@
       "Base Ashe",
       "Normal Ashe",
       "Regular Ashe",
-      "ashe"
+      "ashe",
+      "Dark Sprout",
+      "Leo: Dark Sprout",
+      "Young Leo",
+      "Baby Leo",
+      "Child Leo",
+      "Y Leo",
+      "leo6"
     ],
     "heroes": {
       "artur": "<:Green_Tome:1124845959873036289>Winter Artur",
@@ -24087,6 +24131,7 @@
       "klein": "<:Colorless_Bow:1124845636659982457>Klein",
       "kliff": "<:Blue_Tome:1124845593211191297>Kliff",
       "leo2": "<:Red_Tome:1124846175577710642>Summer Leo",
+      "leo6": "<:Red_Tome:1124846175577710642>Young Leo",
       "linhardt2": "<:Colorless_Bow:1124845636659982457>Spring Linhardt",
       "luciusR": "<:Colorless_Staff:1124845704444137592>Resplendent Lucius",
       "marthR": "<:Red_Sword:1124846201070698536>Marth (Resplendent)",
@@ -28842,6 +28887,54 @@
       "Resp Clair",
       "R Clair",
       "Clair (Resplendent)"
+    ]
+  },
+  "jiami": {
+    "heroes": {
+      "camilla10": "<:Green_Axe:1124845885277343754>Young Camilla"
+    },
+    "name": "\u67b6\u7cf8",
+    "ALT_NAME": [
+      "Young Beauty",
+      "Camilla: Young Beauty",
+      "Young Camilla",
+      "Baby Camilla",
+      "Child Camilla",
+      "Y Camilla",
+      "camilla10"
+    ],
+    "HARD_ALT_NAME": [
+      "Young Beauty",
+      "Camilla: Young Beauty",
+      "Young Camilla",
+      "Baby Camilla",
+      "Child Camilla",
+      "Y Camilla",
+      "camilla10"
+    ]
+  },
+  "nima": {
+    "heroes": {
+      "corrin16": "<:Blue_Breath:1124845312637403236>Young Corrin"
+    },
+    "name": "nima",
+    "ALT_NAME": [
+      "Young Kinship",
+      "Corrin: Young Kinship",
+      "Young Corrin",
+      "Baby Corrin",
+      "Child Corrin",
+      "Y Corrin",
+      "corrin16"
+    ],
+    "HARD_ALT_NAME": [
+      "Young Kinship",
+      "Corrin: Young Kinship",
+      "Young Corrin",
+      "Baby Corrin",
+      "Child Corrin",
+      "Y Corrin",
+      "corrin16"
     ]
   }
 }
