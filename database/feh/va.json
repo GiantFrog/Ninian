@@ -2298,7 +2298,13 @@
       "Normal Toothpaste Chan M",
       "Base Pepsi M",
       "Base Alear M",
-      "Normal Male Colgate"
+      "Normal Male Colgate",
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
+      "xane3"
     ],
     "HARD_ALT_NAME": [
       "Harvest Cheney",
@@ -2337,13 +2343,20 @@
       "Legendary Alear Male",
       "xane",
       "Halloween Xane",
-      "cheney1"
+      "cheney1",
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
+      "xane3"
     ],
     "heroes": {
       "alear2": " <:Red_Sword:1124846201070698536>Male Alear",
       "alear4": "<:Colorless_Breath:1124845679076978798>Legendary Male Alear",
       "xane": "<:Colorless_Tome:1124845725960904734>Halloween Xane",
-      "xane2": "<:Colorless_Staff:1124845704444137592>Hatarian Xane"
+      "xane2": "<:Colorless_Staff:1124845704444137592>Hatarian Xane",
+      "xane3": "<:Blue_Tome:1124845593211191297>Young Xane"
     },
     "name": "Brandon McInnis"
   },
@@ -8318,7 +8331,12 @@
       "Earth-Dragon King",
       "Mythic Medeus",
       "Base Medeus",
-      "Normal Medeus"
+      "Normal Medeus",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2"
     ],
     "HARD_ALT_NAME": [
       "medeus",
@@ -8328,10 +8346,16 @@
       "M Medeus",
       "Mythic Medeus",
       "Base Medeus",
-      "Normal Medeus"
+      "Normal Medeus",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2"
     ],
     "heroes": {
-      "medeus": "<:Colorless_Breath:1124845679076978798>Medeus"
+      "medeus": "<:Colorless_Breath:1124845679076978798>Medeus",
+      "medeus2": "<:Blue_Breath:1124845312637403236>Young Medeus"
     },
     "name": "Dennis Hull"
   },
@@ -20274,7 +20298,18 @@
       "Resplendent Tiki",
       "Resp Tiki",
       "R Tiki",
-      "Tiki (Resplendent)"
+      "Tiki (Resplendent)",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3",
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
+      "tiki11"
     ],
     "HARD_ALT_NAME": [
       "tiki",
@@ -20502,13 +20537,26 @@
       "Resp Tiki",
       "R Tiki",
       "Tiki (Resplendent)",
-      "tiki2R"
+      "tiki2R",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3",
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
+      "tiki11"
     ],
     "heroes": {
       "naga": "<:Blue_Breath:1124845312637403236>Naga",
       "naga2": "<:Colorless_Breath:1124845679076978798>Halloween Naga",
+      "naga3": "<:Colorless_Breath:1124845679076978798>Young Naga",
       "tiki": "<:Red_Breath:1124846247673610240>Young Tiki",
       "tiki10": "<:Colorless_Breath:1124845679076978798>Harmonic Adult Tiki",
+      "tiki11": "<:Green_Breath:1124845770978361425>Attuned Young Tiki",
       "tiki2": "<:Red_Breath:1124846247673610240>Adult Tiki",
       "tiki2R": "<:Red_Breath:1124846247673610240>Adult Tiki (Resplendent)",
       "tiki3": "<:Green_Axe:1124845885277343754>Summer Adult Tiki",
@@ -30372,6 +30420,26 @@
       "Child Leo",
       "Y Leo",
       "leo6"
+    ]
+  },
+  "kurtbicknell": {
+    "heroes": {
+      "gotoh2": "<:Red_Tome:1124846175577710642>Young Gotoh"
+    },
+    "name": "Kurt Bicknell",
+    "ALT_NAME": [
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2"
+    ],
+    "HARD_ALT_NAME": [
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2"
     ]
   }
 }

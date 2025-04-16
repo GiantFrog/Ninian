@@ -4108,7 +4108,12 @@
       "Winter Fomortiis",
       "Christmas Fomortiis",
       "W Fomortiis",
-      "fomortiis2"
+      "fomortiis2",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2"
     ],
     "HARD_ALT_NAME": [
       "New Experiences",
@@ -4405,7 +4410,12 @@
       "Winter Fomortiis",
       "Christmas Fomortiis",
       "W Fomortiis",
-      "fomortiis2"
+      "fomortiis2",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2"
     ],
     "heroes": {
       "ashnard": "<:Red_Sword:1124846201070698536>Fallen Ashnard",
@@ -4423,6 +4433,7 @@
       "luke": "<:Red_Sword:1124846201070698536>Luke",
       "marth3": "<:Red_Sword:1124846201070698536>Legendary Marth",
       "medeus": "<:Colorless_Breath:1124845679076978798>Medeus",
+      "medeus2": "<:Blue_Breath:1124845312637403236>Young Medeus",
       "michalis": "<:Green_Axe:1124845885277343754>Michalis",
       "minerva": "<:Green_Axe:1124845885277343754>Minerva",
       "nidavellir": "<:Colorless_Bow:1124845636659982457>Ni\u00f0avellir",
@@ -17544,7 +17555,12 @@
       "A Micaiah",
       "Attune Micaiah",
       "Attuned Micaiah",
-      "micaiah7"
+      "micaiah7",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3"
     ],
     "HARD_ALT_NAME": [
       "Caring Noble",
@@ -17562,12 +17578,18 @@
       "A Micaiah",
       "Attune Micaiah",
       "Attuned Micaiah",
-      "micaiah7"
+      "micaiah7",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3"
     ],
     "heroes": {
       "citrinne": "<:Green_Tome:1124845959873036289>Citrinne",
       "kvasir2": "<:Green_Tome:1124845959873036289>New Year Kvasir",
-      "micaiah7": "<:Green_Tome:1124845959873036289>Attuned Micaiah"
+      "micaiah7": "<:Green_Tome:1124845959873036289>Attuned Micaiah",
+      "naga3": "<:Colorless_Breath:1124845679076978798>Young Naga"
     },
     "name": "ne-on"
   },
@@ -25664,7 +25686,12 @@
       "Gatekeeper: Nothing to Report",
       "Nothing to Report",
       "Brave Gatekeeper",
-      "Brave GK"
+      "Brave GK",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2"
     ],
     "HARD_ALT_NAME": [
       "ogma",
@@ -25749,11 +25776,17 @@
       "B Gatekeeper",
       "B GK",
       "Batekeeper",
-      "Brave GK"
+      "Brave GK",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2"
     ],
     "heroes": {
       "bantu": "<:Red_Breath:1124846247673610240>Bantu",
       "gatekeeper": "<:Green_Tome:1124845959873036289>Brave Gatekeeper",
+      "gotoh2": "<:Red_Tome:1124846175577710642>Young Gotoh",
       "gunter": "<:Green_Axe:1124845885277343754>Gunter",
       "jagen": "<:Blue_Lance:1124845569496584302>Jagen",
       "mila": "<:Colorless_Breath:1124845679076978798>Mila",
@@ -28935,6 +28968,50 @@
       "Child Corrin",
       "Y Corrin",
       "corrin16"
+    ]
+  },
+  "sabamizore": {
+    "heroes": {
+      "tiki11": "<:Green_Breath:1124845770978361425>Attuned Young Tiki"
+    },
+    "name": "\u3055\u3070\u307f\u305e\u308c",
+    "ALT_NAME": [
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
+      "tiki11"
+    ],
+    "HARD_ALT_NAME": [
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
+      "tiki11"
+    ]
+  },
+  "hanada": {
+    "heroes": {
+      "xane3": "<:Blue_Tome:1124845593211191297>Young Xane"
+    },
+    "name": "\u306f\u306a\u3060",
+    "ALT_NAME": [
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
+      "xane3"
+    ],
+    "HARD_ALT_NAME": [
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
+      "xane3"
     ]
   }
 }
