@@ -25691,6 +25691,11 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
+      "gotoh2",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
       "gotoh2"
     ],
     "HARD_ALT_NAME": [
@@ -25777,6 +25782,11 @@
       "B GK",
       "Batekeeper",
       "Brave GK",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
@@ -28249,6 +28259,7 @@
   },
   "kawachirin": {
     "heroes": {
+      "edelgardR": "<:Green_Axe:1124845885277343754>Edelgard (Resplendent)",
       "felicia3": "<:Green_Axe:1124845885277343754>Ice Felicia"
     },
     "name": "Kawachi Rin",
@@ -28263,7 +28274,11 @@
       "I Felicia",
       "I F Felicia",
       "I T Felicia",
-      "felicia3"
+      "felicia3",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Confidently Cold",
@@ -28275,7 +28290,11 @@
       "I Felicia",
       "I F Felicia",
       "I T Felicia",
-      "felicia3"
+      "felicia3",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ]
   },
   "kyosokyu": {

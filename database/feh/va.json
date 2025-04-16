@@ -8336,6 +8336,11 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
+      "medeus2",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
       "medeus2"
     ],
     "HARD_ALT_NAME": [
@@ -8347,6 +8352,11 @@
       "Mythic Medeus",
       "Base Medeus",
       "Normal Medeus",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
@@ -26067,7 +26077,11 @@
       "Valentine's Edelgard",
       "Valentines Edelgard",
       "Valentine Edelgard",
-      "edelgard7"
+      "edelgard7",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "S Edelgard",
@@ -26180,7 +26194,11 @@
       "Valentine's Edelgard",
       "Valentines Edelgard",
       "Valentine Edelgard",
-      "edelgard7"
+      "edelgard7",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ],
     "heroes": {
       "edelgard": "<:Green_Axe:1124845885277343754>Edelgard",
@@ -26190,6 +26208,7 @@
       "edelgard5": "<:Red_Sword:1124846201070698536>Harmonic Edelgard",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",
       "edelgard7": "<:Green_Axe:1124845885277343754>Valentines Edelgard",
+      "edelgardR": "<:Green_Axe:1124845885277343754>Edelgard (Resplendent)",
       "flavia": "<:Red_Sword:1124846201070698536>Flavia",
       "flavia2": "<:Red_Sword:1124846201070698536>Bridal Flavia",
       "miriel": "<:Blue_Tome:1124845593211191297>Miriel"
