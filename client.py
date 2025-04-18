@@ -2,12 +2,17 @@ import discord, os, random
 from discord.ext import tasks
 
 random_status = [
-    "Happy birthday, TD!"
     #"It's not like he'll miss a 98%, right?",
-    #"Have you seen my brother?",
+    "A birthday can be a birthweek.",
+    "Have you seen my brother?",
+    "Try out compare! @Ninian fe4 lewyn!ced, lewyn!arthur 14",
+    "Cipher cards look pretty cool: @Ninian cipher",
+    "Have you seen my brother?",
+    "@Ninian calendar",
+    "@Ninian legendary"
     # old joke statuses stolen from https://github.com/izumi-niche/OifeyBot/blob/main/client.py
     #"Don't believe in the liberal media: FE3 is not real",
-    #"90% of summoners quit right before they pull their favorite character",
+    "90% of summoners quit right before they pull their favorite character",
     #"It would be pretty cool if they added marth to fortnite ngl",
     #"Smash Bros is old and boring, they should start adding FE characters to Fortnite instead"
 ]

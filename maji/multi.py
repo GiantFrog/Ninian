@@ -118,7 +118,18 @@ class MultiEmbed:
                 i += 1
                 
             index = i
-            
+
+        # Some page fields get long (*cough cough* new FEH skills *cough*).
+        # There's a character limit of 1024 per field value. If we hit that, let's try to bust the first field out into
+        # the main embed if it's empty, then truncate all offending fields.
+        if page.description is None and len(page.fields) > 0 and len(page.fields[0].value) > 1024:
+            page.description = page.fields[0].value
+            page.set_author(name=page.field1qw2ol1q2wjhyus[0].name)
+            page.remove_field(0)
+        for i in range(len(page.fields)):
+            if len(page.fields[i].value) > 1024:
+                page.set_field_at(i, name=page.fields[i].name, value=f"{page.fields[i].value[:123]}…")
+
         self.pages[index] = page
         
         return index
