@@ -124,7 +124,7 @@ class MultiEmbed:
         # the main embed if it's empty, then truncate all offending fields.
         if page.description is None and len(page.fields) > 0 and len(page.fields[0].value) > 1024:
             page.description = page.fields[0].value
-            page.set_author(name=page.field1qw2ol1q2wjhyus[0].name)
+            page.set_author(name=page.fields[0].name)
             page.remove_field(0)
         for i in range(len(page.fields)):
             if len(page.fields[i].value) > 1024:
