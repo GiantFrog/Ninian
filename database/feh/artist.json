@@ -2383,7 +2383,7 @@
       "edelgard7": "<:Green_Axe:1124845885277343754>Valentines Edelgard",
       "eirika8": "<:Green_Axe:1124845885277343754>Attuned Eirika",
       "eliwood5": "<:Red_Sword:1124846201070698536>Young Eliwood",
-      "elm": "<:Green_Beast:1124845912385138738>New Year Elm",
+      "elm2": "<:Green_Beast:1124845912385138738>New Year Elm",
       "ewan": "<:Red_Tome:1124846175577710642>Ewan",
       "lilina4": "<:Red_Tome:1124846175577710642>Legendary Lilina",
       "lyon3": "<:Blue_Tome:1124845593211191297>Young Lyon",
@@ -2596,9 +2596,8 @@
       "Linian",
       "Leg Ninian",
       "Legend Ninian",
-      "elm",
       "New Year Elm",
-      "elm1",
+      "elm2",
       "Resolute Grouch",
       "Elm",
       "NY Elm",
@@ -4113,6 +4112,11 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
+      "medeus2",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
       "medeus2"
     ],
     "HARD_ALT_NAME": [
@@ -4411,6 +4415,11 @@
       "Christmas Fomortiis",
       "W Fomortiis",
       "fomortiis2",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
@@ -12949,7 +12958,13 @@
       "Base L\u00e6ra\u00f0r",
       "Normal L\u00e6ra\u00f0r",
       "Regular L\u00e6ra\u00f0r",
-      "laeradr"
+      "laeradr",
+      "Retainer to Embla",
+      "Elm: Retainer to Embla",
+      "Base Elm",
+      "Normal Elm",
+      "Regular Elm",
+      "elm2"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -13203,7 +13218,13 @@
       "Base L\u00e6ra\u00f0r",
       "Normal L\u00e6ra\u00f0r",
       "Regular L\u00e6ra\u00f0r",
-      "laeradr"
+      "laeradr",
+      "Retainer to Embla",
+      "Elm: Retainer to Embla",
+      "Base Elm",
+      "Normal Elm",
+      "Regular Elm",
+      "elm"
     ],
     "heroes": {
       "alfonse": "<:Red_Sword:1124846201070698536>Alfonse",
@@ -13218,6 +13239,7 @@
       "eikthyrnir": "<:Colorless_Beast:1124845615935918110>Eik\u00feyrnir",
       "eir": "<:Colorless_Dagger:1124845658617155734>Eir",
       "eitri": "<:Green_Tome:1124845959873036289>Eitri",
+      "elm": "<:Red_Beast:1124846309208248381> Elm",
       "embla": "<:Red_Beast:1124846309208248381>Embla",
       "gustav2": "<:Green_Axe:1124845885277343754>Fallen Gustav",
       "heidrun": "<:Green_Beast:1124845912385138738>Hei\u00f0r\u00fan",
@@ -17560,6 +17582,11 @@
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
+      "naga3",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
       "naga3"
     ],
     "HARD_ALT_NAME": [
@@ -17579,6 +17606,11 @@
       "Attune Micaiah",
       "Attuned Micaiah",
       "micaiah7",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3",
       "Ruler of Dragons",
       "Naga: Ruler of Dragons",
       "Young Naga",
@@ -25696,6 +25728,11 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
+      "gotoh2",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
       "gotoh2"
     ],
     "HARD_ALT_NAME": [
@@ -25782,6 +25819,11 @@
       "B GK",
       "Batekeeper",
       "Brave GK",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
@@ -25990,7 +26032,12 @@
       "Regular Dagr",
       "Aided Dagr",
       "Aid Dagr",
-      "dagr4"
+      "dagr4",
+      "Love and Courage",
+      "Marth: Love and Courage",
+      "duo Marth 2",
+      "DMarth2",
+      "marth8"
     ],
     "HARD_ALT_NAME": [
       "Base Biraku",
@@ -26270,7 +26317,12 @@
       "Regular Dagr",
       "Aided Dagr",
       "Aid Dagr",
-      "dagr4"
+      "dagr4",
+      "Love and Courage",
+      "Marth: Love and Courage",
+      "duo Marth 2",
+      "DMarth2",
+      "marth8"
     ],
     "heroes": {
       "atlas": "<:Green_Axe:1124845885277343754>Atlas",
@@ -26289,6 +26341,7 @@
       "lyn2": "<:Colorless_Staff:1124845704444137592>Bridal Lyn",
       "lyn3": "<:Colorless_Bow:1124845636659982457>Brave Lyn",
       "lyn7": "<:Colorless_Dagger:1124845658617155734>Duo Lyn",
+      "marth8": "<:Red_Sword:1124846201070698536> Marth",
       "michalis2": "<:Blue_Lance:1124845569496584302>Spring Michalis",
       "narcian": "<:Green_Axe:1124845885277343754>Narcian",
       "narcian2": "<:Blue_Lance:1124845569496584302>Spring Narcian",
@@ -29000,9 +29053,21 @@
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
+      "tiki11",
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
       "tiki11"
     ],
     "HARD_ALT_NAME": [
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
+      "tiki11",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
@@ -29022,6 +29087,12 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
+      "xane3",
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
       "xane3"
     ],
     "HARD_ALT_NAME": [
@@ -29030,7 +29101,31 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
+      "xane3",
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
       "xane3"
+    ]
+  },
+  "tengweiduye": {
+    "heroes": {
+      "lyonR": "<:Red_Tome:1124846175577710642>Lyon (Resplendent)"
+    },
+    "name": "\u85e4\u672a\u90fd\u4e5f",
+    "ALT_NAME": [
+      "Resplendent Lyon",
+      "Resp Lyon",
+      "R Lyon",
+      "Lyon (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Lyon",
+      "Resp Lyon",
+      "R Lyon",
+      "Lyon (Resplendent)"
     ]
   }
 }

@@ -2304,6 +2304,12 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
+      "xane3",
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
       "xane3"
     ],
     "HARD_ALT_NAME": [
@@ -2344,6 +2350,12 @@
       "xane",
       "Halloween Xane",
       "cheney1",
+      "Fickle Dragon",
+      "Xane: Fickle Dragon",
+      "Young Xane",
+      "Y Xane",
+      "Attuned Xane",
+      "xane3",
       "Fickle Dragon",
       "Xane: Fickle Dragon",
       "Young Xane",
@@ -8341,6 +8353,11 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
+      "medeus2",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
       "medeus2"
     ],
     "HARD_ALT_NAME": [
@@ -8352,6 +8369,11 @@
       "Mythic Medeus",
       "Base Medeus",
       "Normal Medeus",
+      "Last Earth Dragon",
+      "Medeus: Last Earth Dragon",
+      "Young Medeus",
+      "Y Medeus",
+      "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
@@ -15937,7 +15959,13 @@
       "Elm: Resolute Grouch",
       "Resolute Grouch",
       "New Year Elm",
-      "New years Elm"
+      "New years Elm",
+      "Retainer to Embla",
+      "Elm: Retainer to Embla",
+      "Base Elm",
+      "Normal Elm",
+      "Regular Elm",
+      "elm"
     ],
     "HARD_ALT_NAME": [
       "rennac",
@@ -15964,16 +15992,21 @@
       "New years Kysha",
       "New Year Kisa",
       "New years Kisa",
-      "elm",
       "New Year Elm",
-      "elm1",
       "Resolute Grouch",
-      "Elm",
+      "Elm2",
       "NY Elm",
-      "New years Elm"
+      "New years Elm",
+      "Retainer to Embla",
+      "Elm: Retainer to Embla",
+      "Base Elm",
+      "Normal Elm",
+      "Regular Elm",
+      "elm"
     ],
     "heroes": {
-      "elm": "<:Green_Beast:1124845912385138738>New Year Elm",
+      "elm2": "<:Green_Beast:1124845912385138738>New Year Elm",
+      "elm": "<:Red_Beast:1124846309208248381> Elm",
       "kyza": "<:Red_Beast:1124846309208248381>New Year Kyza",
       "rennac": "<:Green_Dagger:1124845796169351320>Rennac"
     },
@@ -19016,7 +19049,11 @@
       "Summer Hrid",
       "S Hrid",
       "Beach Hrid",
-      "hrid3"
+      "hrid3",
+      "Resplendent Lyon",
+      "Resp Lyon",
+      "R Lyon",
+      "Lyon (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Demon King",
@@ -19134,7 +19171,11 @@
       "Summer Hrid",
       "S Hrid",
       "Beach Hrid",
-      "hrid3"
+      "hrid3",
+      "Resplendent Lyon",
+      "Resp Lyon",
+      "R Lyon",
+      "Lyon (Resplendent)"
     ],
     "heroes": {
       "ephraim5": "<:Blue_Lance:1124845569496584302>Duo Ephraim",
@@ -19147,6 +19188,7 @@
       "lyon3": "<:Blue_Tome:1124845593211191297>Young Lyon",
       "lyon4": "<:Red_Sword:1124846201070698536>Summer Lyon",
       "lyon5": "<:Green_Tome:1124845959873036289>Valentines Lyon",
+      "lyonR": "<:Red_Tome:1124846175577710642>Lyon (Resplendent)",
       "seteth": "<:Blue_Lance:1124845569496584302>Seteth"
     },
     "name": "Mark P. Whitten"
@@ -20319,6 +20361,17 @@
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
+      "tiki11",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3",
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
       "tiki11"
     ],
     "HARD_ALT_NAME": [
@@ -20548,6 +20601,17 @@
       "R Tiki",
       "Tiki (Resplendent)",
       "tiki2R",
+      "Ruler of Dragons",
+      "Naga: Ruler of Dragons",
+      "Young Naga",
+      "Y Naga",
+      "naga3",
+      "Dragon's Progeny",
+      "Tiki: Dragon's Progeny",
+      "Young Tiki",
+      "Y Tiki",
+      "Attuned Tiki",
+      "tiki11",
       "Ruler of Dragons",
       "Naga: Ruler of Dragons",
       "Young Naga",
@@ -28676,7 +28740,12 @@
       "Resplendent Eliwood",
       "Resp Eliwood",
       "R Eliwood",
-      "Eliwood (Resplendent)"
+      "Eliwood (Resplendent)",
+      "Love and Courage",
+      "Marth: Love and Courage",
+      "duo Marth 2",
+      "DMarth2",
+      "marth8"
     ],
     "HARD_ALT_NAME": [
       "Of Beginnings",
@@ -28924,7 +28993,12 @@
       "Resplendent Eliwood",
       "Resp Eliwood",
       "R Eliwood",
-      "Eliwood (Resplendent)"
+      "Eliwood (Resplendent)",
+      "Love and Courage",
+      "Marth: Love and Courage",
+      "duo Marth 2",
+      "DMarth2",
+      "marth8"
     ],
     "heroes": {
       "bramimond": "<:Colorless_Tome:1124845725960904734>Bramimond",
@@ -28943,6 +29017,7 @@
       "marth5": "<:Red_Sword:1124846201070698536>Young Marth",
       "marth6": "<:Red_Sword:1124846201070698536>Brave Marth",
       "marth7": "<:Red_Sword:1124846201070698536>Emblem Marth",
+      "marth8": "<:Red_Sword:1124846201070698536> Marth",
       "marthR": "<:Red_Sword:1124846201070698536>Marth (Resplendent)",
       "merric": "<:Green_Tome:1124845959873036289>Merric",
       "merric2": "<:Green_Tome:1124845959873036289>Young Merric",
@@ -30407,7 +30482,8 @@
   "": {
     "heroes": {
       "leo6": "<:Red_Tome:1124846175577710642>Young Leo",
-      "mae2": "<:Green_Tome:1124845959873036289>Spring Mae"
+      "mae2": "<:Green_Tome:1124845959873036289>Spring Mae",
+      "marth8": "<:Red_Sword:1124846201070698536> Marth"
     },
     "name": "\u2014",
     "ALT_NAME": [
@@ -30423,7 +30499,12 @@
       "Baby Leo",
       "Child Leo",
       "Y Leo",
-      "leo6"
+      "leo6",
+      "Love and Courage",
+      "Marth: Love and Courage",
+      "duo Marth 2",
+      "DMarth2",
+      "marth8"
     ],
     "HARD_ALT_NAME": [
       "Spring Cheer",
@@ -30438,7 +30519,12 @@
       "Baby Leo",
       "Child Leo",
       "Y Leo",
-      "leo6"
+      "leo6",
+      "Love and Courage",
+      "Marth: Love and Courage",
+      "duo Marth 2",
+      "DMarth2",
+      "marth8"
     ]
   },
   "kurtbicknell": {
@@ -30451,9 +30537,19 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
+      "gotoh2",
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
       "gotoh2"
     ],
     "HARD_ALT_NAME": [
+      "Apostle of Naga",
+      "Gotoh: Apostle of Naga",
+      "Young Gotoh",
+      "Y Gotoh",
+      "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
