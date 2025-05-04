@@ -8,6 +8,7 @@ from client import client
 
 
 DEFAULT_COMMAND = ["o!", "O!"]
+BLACKLIST = [1034998814798516334, 273642056008597505]
 
 
 class Classic:
@@ -68,7 +69,7 @@ class Commands:
     async def check(self, ctx) -> None:
         """Check for classic in message"""
 
-        if ctx.author.id == 1034998814798516334: return;
+        if ctx.author.id in BLACKLIST: return
 
         if ctx.author.id == self.bot.user.id or ctx.author.bot: return
 
@@ -177,7 +178,7 @@ class Commands:
         
     async def check_slash(self, interaction):
 
-        if interaction.user.id == 1034998814798516334: return;
+        if interaction.user.id in BLACKLIST: return
 
         #print(type(interaction))
         
