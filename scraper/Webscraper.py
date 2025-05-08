@@ -43,7 +43,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
     if provided_alts is None:
         alts = ["Base", "Normal", "Regular"]
     else:
-        alts = provided_alts
+        alts = provided_alts.copy()
     if version is None:
         book = datetime.now().year - 2016
         chapter = datetime.now().month
