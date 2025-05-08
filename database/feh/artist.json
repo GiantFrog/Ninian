@@ -9494,7 +9494,13 @@
       "Desert Marisa",
       "Harmonic Marisa",
       "D Marisa",
-      "marisa3"
+      "marisa3",
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8"
     ],
     "HARD_ALT_NAME": [
       "chloe",
@@ -9548,9 +9554,16 @@
       "Desert Marisa",
       "Harmonic Marisa",
       "D Marisa",
-      "marisa3"
+      "marisa3",
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8"
     ],
     "heroes": {
+      "alear8": "<:Green_Breath:1124845770978361425>Fallen Female Alear",
       "cecilia3": "<:Red_Tome:1124846175577710642>Bridal Cecilia",
       "chloe": "<:Blue_Lance:1124845569496584302>Chlo\u00e9",
       "marisa3": "<:Green_Axe:1124845885277343754>Desert Marisa",
@@ -12964,7 +12977,14 @@
       "Base Elm",
       "Normal Elm",
       "Regular Elm",
-      "elm2"
+      "elm2",
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -13224,7 +13244,14 @@
       "Base Elm",
       "Normal Elm",
       "Regular Elm",
-      "elm"
+      "elm",
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
     ],
     "heroes": {
       "alfonse": "<:Red_Sword:1124846201070698536>Alfonse",
@@ -13241,6 +13268,7 @@
       "eitri": "<:Green_Tome:1124845959873036289>Eitri",
       "elm": "<:Red_Beast:1124846309208248381> Elm",
       "embla": "<:Red_Beast:1124846309208248381>Embla",
+      "fafnir": "<:Blue_Lance:1124845569496584302>F\u00e1fnir",
       "gustav2": "<:Green_Axe:1124845885277343754>Fallen Gustav",
       "heidrun": "<:Green_Beast:1124845912385138738>Hei\u00f0r\u00fan",
       "hel": "<:Green_Axe:1124845885277343754>Hel",
@@ -17839,9 +17867,8 @@
       "Harmonic FE16 Hilda",
       "Harmonized FE16 Hilda",
       "Summer FE16 Hilda",
-      "fafnir",
       "New Year F\u00e1fnir",
-      "fafnir1",
+      "fafnir2",
       "Fresh Ambition",
       "F\u00e1fnir",
       "NY F\u00e1fnir",
@@ -17903,7 +17930,7 @@
       "claude6": "<:Colorless_Bow:1124845636659982457>Winter Claude",
       "eldigan2": "<:Blue_Lance:1124845569496584302>Dancer Eldigan",
       "elinciaR": "<:Red_Sword:1124846201070698536>Elincia (Resplendent)",
-      "fafnir": "<:Red_Dagger:1124846223518605324>New Year F\u00e1fnir",
+      "fafnir2": "<:Red_Dagger:1124846223518605324>New Year F\u00e1fnir",
       "fuga": "<:Green_Axe:1124845885277343754>Wind Fuga",
       "gregor": "<:Red_Sword:1124846201070698536>Gregor",
       "hilda3": "<:Colorless_Staff:1124845704444137592>Duo Fodlan Hilda",
@@ -22010,6 +22037,7 @@
   },
   "sotaro": {
     "heroes": {
+      "dedue3": "<:Blue_Beast:1124845338688233575>Rearmed Dedue",
       "timerra": "<:Blue_Lance:1124845569496584302>Attuned Timerra"
     },
     "name": "So-taro (\u5275-taro)",
@@ -22021,7 +22049,15 @@
       "Normal Timerra",
       "A Timerra",
       "Attuned Timerra",
-      "timerra"
+      "timerra",
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "HARD_ALT_NAME": [
       "Desert Warrior",
@@ -22031,7 +22067,15 @@
       "Normal Timerra",
       "A Timerra",
       "Attuned Timerra",
-      "timerra"
+      "timerra",
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ]
   },
   "sudaayaka": {
@@ -27971,6 +28015,7 @@
   },
   "dd": {
     "heroes": {
+      "alear7": "<:Red_Sword:1124846201070698536>Fallen Male Alear",
       "innes4": "<:Colorless_Bow:1124845636659982457>Innes",
       "leo5": "<:Colorless_Tome:1124845725960904734>Festival Leo",
       "yukimura": "<:Colorless_Dagger:1124845658617155734>Yukimura"
@@ -27997,7 +28042,13 @@
       "New Year Innes",
       "New Years Innes",
       "NY Innes",
-      "innes4"
+      "innes4",
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
     "HARD_ALT_NAME": [
       "Puppet Master",
@@ -28020,7 +28071,13 @@
       "New Year Innes",
       "New Years Innes",
       "NY Innes",
-      "innes4"
+      "innes4",
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ]
   },
   "takubon": {
@@ -29126,6 +29183,26 @@
       "Resp Lyon",
       "R Lyon",
       "Lyon (Resplendent)"
+    ]
+  },
+  "hitohe": {
+    "heroes": {
+      "lena2": "<:Colorless_Staff:1124845704444137592>Fallen Lena"
+    },
+    "name": "\u3072\u3068\u548c",
+    "ALT_NAME": [
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
+    ],
+    "HARD_ALT_NAME": [
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ]
   }
 }

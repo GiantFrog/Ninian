@@ -1976,7 +1976,15 @@
       "Summer Dedue",
       "S Dedue",
       "Beach Dedue",
-      "dedue2"
+      "dedue2",
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "HARD_ALT_NAME": [
       "saias",
@@ -2008,11 +2016,20 @@
       "Summer Dedue",
       "S Dedue",
       "Beach Dedue",
-      "dedue2"
+      "dedue2",
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "heroes": {
       "dedue": "<:Green_Axe:1124845885277343754>Dedue",
       "dedue2": "<:Green_Axe:1124845885277343754>Summer Dedue",
+      "dedue3": "<:Blue_Beast:1124845338688233575>Rearmed Dedue",
       "saias": "<:Blue_Tome:1124845593211191297>Saias"
     },
     "name": "Ben Lepley"
@@ -2310,7 +2327,13 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
-      "xane3"
+      "xane3",
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
     "HARD_ALT_NAME": [
       "Harvest Cheney",
@@ -2361,11 +2384,18 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
-      "xane3"
+      "xane3",
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
     "heroes": {
       "alear2": " <:Red_Sword:1124846201070698536>Male Alear",
       "alear4": "<:Colorless_Breath:1124845679076978798>Legendary Male Alear",
+      "alear7": "<:Red_Sword:1124846201070698536>Fallen Male Alear",
       "xane": "<:Colorless_Tome:1124845725960904734>Halloween Xane",
       "xane2": "<:Colorless_Staff:1124845704444137592>Hatarian Xane",
       "xane3": "<:Blue_Tome:1124845593211191297>Young Xane"
@@ -3095,7 +3125,12 @@
       "Beacon of Honor",
       "Rearmed Ingrid",
       "Rearm Ingrid",
-      "Arm Ingrid"
+      "Arm Ingrid",
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ],
     "HARD_ALT_NAME": [
       "lena",
@@ -3123,13 +3158,19 @@
       "Beacon of Honor",
       "R Ingrid",
       "Rearm Ingrid",
-      "Arm Ingrid"
+      "Arm Ingrid",
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ],
     "heroes": {
       "ingrid": "<:Blue_Lance:1124845569496584302>Ingrid",
       "ingrid2": "<:Blue_Lance:1124845569496584302>Summer Ingrid",
       "ingrid3": "<:Blue_Lance:1124845569496584302>Rearmed Ingrid",
-      "lena": "<:Colorless_Staff:1124845704444137592>Lena"
+      "lena": "<:Colorless_Staff:1124845704444137592>Lena",
+      "lena2": "<:Colorless_Staff:1124845704444137592>Fallen Lena"
     },
     "name": "Brittany Cox"
   },
@@ -10921,7 +10962,14 @@
       "Halloween Seadall",
       "Harvest Seadall",
       "H Seadall",
-      "seadall"
+      "seadall",
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
     ],
     "HARD_ALT_NAME": [
       "chad",
@@ -10930,9 +10978,8 @@
       "Lycian Wildcat",
       "Base Chad",
       "Normal Chad",
-      "fafnir",
       "New Year F\u00e1fnir",
-      "fafnir1",
+      "fafnir2",
       "Fresh Ambition",
       "F\u00e1fnir",
       "NY F\u00e1fnir",
@@ -10944,11 +10991,19 @@
       "Harvest Seadall",
       "H Seadall",
       "seadall",
-      "seadall"
+      "seadall",
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
     ],
     "heroes": {
       "chad": "<:Colorless_Dagger:1124845658617155734>Chad",
-      "fafnir": "<:Red_Dagger:1124846223518605324>New Year F\u00e1fnir",
+      "fafnir2": "<:Red_Dagger:1124846223518605324>New Year F\u00e1fnir",
+      "fafnir": "<:Blue_Lance:1124845569496584302>F\u00e1fnir",
       "seadall": "<:Red_Tome:1124846175577710642>Halloween Seadall"
     },
     "name": "Griffin Puatu"
@@ -30030,6 +30085,7 @@
   "notyetrecorded": {
     "heroes": {
       "alear6": "<:Blue_Breath:1124845312637403236>Winter Duo Alear",
+      "alear8": "<:Green_Breath:1124845770978361425>Fallen Female Alear",
       "alm5": "<:Colorless_Bow:1124845636659982457>Attuned Alm",
       "eik\u00feyrnir2": "<:Blue_Beast:1124845338688233575>Winter Eik\u00feyrnir",
       "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis",
@@ -30074,7 +30130,13 @@
       "Alm: Powerful Resolve",
       "Attuned Alm",
       "A!Alm",
-      "alm5"
+      "alm5",
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8"
     ],
     "HARD_ALT_NAME": [
       "Dark of Night",
@@ -30114,7 +30176,13 @@
       "Alm: Powerful Resolve",
       "Attuned Alm",
       "A!Alm",
-      "alm5"
+      "alm5",
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8"
     ]
   },
   "anjalikunapaneni": {
