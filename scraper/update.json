@@ -1,913 +1,867 @@
 {
-  "camilla10": {
-    "name": "Camilla",
-    "title": "Young Beauty",
-    "description": "First princess of Nohr. She cares deeply for her siblings and unleashes a relentless wrath on any who threaten harm to them. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "\u67b6\u7cf8",
-    "move": "Flying",
-    "weapon": "Axe",
-    "color": "Green",
+  "alear7": {
+    "name": "Alear",
+    "title": "Fell Dragon Child",
+    "description": "One of the Fell Dragon Sombron's countless children. Dissociated from his emotions, he acts out his father's orders. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "Dd",
+    "move": "Infantry",
+    "weapon": "Sword",
+    "color": "Red",
     "duel": false,
-    "id": "1226",
+    "id": "1239",
     "type": false,
-    "version": "9.4",
+    "version": "9.5",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 18,
       "atk": 11,
-      "spd": 9,
-      "def": 9,
-      "res": 8
+      "spd": 8,
+      "def": 11,
+      "res": 9
     },
     "growth": {
       "hp": 50,
       "atk": 80,
       "spd": 90,
-      "def": 60,
-      "res": 40
+      "def": 55,
+      "res": 50
     },
     "superboon": [
       "spd"
     ],
     "superbane": [
-      "hp"
+      "hp",
+      "res"
     ],
     "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Axe of Dusk": "5"
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Silver Sword": "3",
+      "Fell Child's Blade": "5"
     },
     "assist": {},
     "special": {
-      "Dragon Gaze": "3",
-      "Draconic Aura": "4",
-      "No Quarter": "5"
+      "Night Sky": "3",
+      "Glimmer": "4",
+      "Gust": "5"
     },
     "passive": {
       "A": {
-        "Atk/Spd Catch 1": "2",
-        "Atk/Spd Catch 2": "3",
-        "Atk/Spd Catch 3": "4",
-        "Trample": "5"
+        "Bond Breaker": "5"
       },
       "B": {
-        "Tut-Tut!": "5"
+        "Spd/Def Bulwark 1": "2",
+        "Spd/Def Bulwark 2": "3",
+        "Spd/Def Bulwark 3": "4",
+        "S/D Spiked Wall": "5"
       },
       "C": {
-        "Guidance 1": "2",
-        "Guidance 2": "3",
-        "Guidance 3": "4",
-        "Guidance 4": "5"
+        "Odd Spd Wave 1": "2",
+        "Odd Spd Wave 2": "3",
+        "Odd Spd Wave 3": "4",
+        "Odd Spd Wave 4": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dd/Camilla_Young_Beauty_Face.webp/revision/latest?cb=20250403042228",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b0/Camilla_Young_Beauty_BtlFace_D.webp/revision/latest?cb=20250403042219",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9b/Camilla_Young_Beauty_BtlFace_C.webp/revision/latest?cb=20250403042209",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4e/Camilla_Young_Beauty_BtlFace.webp/revision/latest?cb=20250403042137"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/72/Alear_Fell_Dragon_Child_Face.webp/revision/latest?cb=20250507032235",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Alear_Fell_Dragon_Child_BtlFace_D.webp/revision/latest?cb=20250507032225",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e6/Alear_Fell_Dragon_Child_BtlFace_C.webp/revision/latest?cb=20250507032215",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a7/Alear_Fell_Dragon_Child_BtlFace.webp/revision/latest?cb=20250507032143"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Young Beauty",
-      "Camilla: Young Beauty",
-      "Young Camilla",
-      "Baby Camilla",
-      "Child Camilla",
-      "Y Camilla",
-      "camilla10"
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
     "HARD_ALT_NAME": [
-      "Young Beauty",
-      "Camilla: Young Beauty",
-      "Young Camilla",
-      "Baby Camilla",
-      "Child Camilla",
-      "Y Camilla",
-      "camilla10"
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
-    "gender": "F",
+    "gender": "M",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e7c\u5c11\u30ab\u30df\u30e9",
-    "voice": "Misty Lee",
+    "pool": "",
+    "internal_id": "PID_\u95c7\u30ea\u30e5\u30fc\u30eb\u7537",
+    "voice": "Brandon McInnis",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "elyos"
     ],
-    "chibi": "fe13",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "I will do anything to protect my siblings... Crush anything!",
-        "My sweet Corrin should be able to play with me, not be locked away in a castle all the time.",
-        "I've circled the places I want to take Corrin on this map of Nohr. And I'll keep circling more and more...",
-        "I'm not afraid to play in dangerous places. I mean, I do ride a wyvern.",
-        "Corrin likes resting on my lap and sleeps so peacefully after a nice hair brushing. Haha."
+        "The Emblems who have become Heroes all have a blue aura, don't they? They're my...enemies, then.",
+        "I must collect the Emblem Rings and defeat Lumera, the Divine Dragon Monarch. That is the role I must play.",
+        "If you tell me to fight, I will obey, for I can do nothing but be here until I am able to return to my father.",
+        "Why do you give me such attention? If I am useful as a pawn in your plans, then what more is there?",
+        "Joy, sadness, and fear are unknown to me. Only defects feel emotions."
       ],
       "Visit": [
-        "I'm Camilla, eldest princess of the kingdom of Nohr. It seems you're well liked by [F]."
+        "Father did not order this, but I have no choice. I was told to bring this to you from [F]."
       ],
       "Level": [
-        "My age doesn't matter one bit! I'll do anything to protect my sweet, sweet Corrin...",
-        "Haha. You lost only because you underestimated me, thinking I was only a child.",
-        "I just need more experience... Then I'll be able to get stronger."
+        "There appear to be no problems if I can accomplish this much.",
+        "I've done it, Father.",
+        "I will gain more power next time."
       ],
       "Summon": [
-        "I'm Camilla, first princess of Nohr. Where is\u2014 I want to see my Corrin's face. I must..."
+        "I am Alear. I am meant to follow the orders of my father and gather the Emblem Rings."
       ],
       "Learn Skill": [
-        "Haha... I'll be able to protect Corrin with power like this."
+        "My state has changed. What am I meant to do with this?"
       ],
       "Confession": [
-        "The reason I want to grow stronger is because I cannot stand to see my siblings sad.\nXander, Leo, Elise, Corrin... Their smiles are my treasures.\nOur bonds are unwavering, even if we only share half of our blood...\nIf you turn out to be their enemy, I will not hesitate to unleash my wrath upon you, [S].\nI will make an enemy of the entire world if it means protecting them.\nSo, I'm going to get stronger. Much, much stronger. I'll gain experience here. And I'll protect them to the end."
+        "Oh, it's you? Recently, when I see you, I am beset by a strange feeling.\nIf Father were here, I do not doubt he would tell me to kill you.\nI believe he would order me to take the Heroes and use them to help fulfill his wish.\nBut, I do not feel compelled to do that. Prioritizing one's emotions is something that defects do, but...\nNo, there is no point in saying more. I will obey and fight for you while I'm here, as I have up to now. That is all."
       ],
       "Special": [
-        "Just like Father!",
-        "I must do well.",
-        "I won't show mercy!",
-        "This seals it."
+        "I am a Fell Dragon.",
+        "Defect.",
+        "Sleep now.",
+        "I will dispose of you."
       ],
       "Status": [
-        "Haha.",
-        "I'm Camilla, first princess of Nohr.",
-        "*gasp* Hey! Keep your distance! I am a princess, you know.",
-        "Though we all have different mothers, my siblings and I are so very close.",
-        "I would gladly die for my sweet, sweet Corrin... Without a doubt.",
-        "I do wonder if the girl who was taken from the castle is faring well.",
-        "I must be cruel to my enemies. That's what Father wants.",
-        "You are too kind. *giggle* May I stay here in Askr a while longer?"
+        "Huh...",
+        "I am not a defect.",
+        "Please refrain from touching me. I will end up killing you.",
+        "I must follow Father's will. It is what I was born for.",
+        "Divine Dragon Lumera is an enemy I must defeat.",
+        "\"Shine on, Emblem of\u2014\" No, there is no purpose in reciting those words here.",
+        "Is she all right? My littlest sister, Veyle...",
+        "I had a cute little sister and brother who were torn apart by the Corrupted. I despise the Corrupted."
       ],
       "Map Select": [
-        "Ah-ha!",
-        "What now?",
-        "I can do it."
+        "I shall.",
+        "I stand waiting.",
+        "I must collect them."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Young Camilla",
-    "SEARCH_NAME": "Young Camilla",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Young Camilla",
+    "short_name": "Fallen Alear",
+    "SEARCH_NAME": "Fallen Male Alear",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Fallen Male Alear",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "camilla",
-      "camilla2",
-      "camilla3",
-      "camilla4",
-      "camilla5",
-      "camilla6",
-      "camilla7",
-      "camilla8",
-      "camilla9"
+      "alear",
+      "alear2",
+      "alear3",
+      "alear4",
+      "alear5",
+      "alear6"
     ],
     "prf": {
-      "": "axeofdusk",
-      "eff": "axeofdusk",
-      "atk": "axeofdusk",
-      "spd": "axeofdusk",
-      "def": "axeofdusk",
-      "res": "axeofdusk"
+      "": "fellchildsblade",
+      "eff": "fellchildsblade",
+      "atk": "fellchildsblade",
+      "spd": "fellchildsblade",
+      "def": "fellchildsblade",
+      "res": "fellchildsblade"
     }
   },
-  "corrin16": {
-    "name": "Corrin",
-    "title": "Young Kinship",
-    "description": "Young Heroes blessed with the power of the First Dragons. By order of the king of Nohr, they live apart from their siblings at a fortress in the north. They appear in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "nima",
+  "alear8": {
+    "name": "Alear",
+    "title": "Red Days Past",
+    "description": "One of the Fell Dragon's countless children. At her father's command, she desires the Emblem Rings. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "kainown",
     "move": "Armored",
     "weapon": "Breath",
-    "color": "Blue",
+    "color": "Green",
     "duel": false,
-    "id": "1225",
+    "id": "1238",
     "type": false,
-    "version": "9.4",
-    "duo": "Expand\nCollapse\n]\nGrants the following status to unit and allies within 3 spaces of unit for 1 turn: increases Spd difference necessary for foe to make a follow-up attack by 10 during combat.\nApplies\u3010Divine Vein (Water)\u3011to unit's space and spaces within 3 spaces of unit for 2 turns.\n(Duo Skills can be used once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Divine Vein (Water)\u3011\nApplies the following effects on space: Acts as difficult terrain for foes with Range = 2 (moving over this space costs +1 movement; does not apply to \"cannot be slowed by terrain\" effects; movement cost cannot exceed unit's allowed movement). Inflicts Spd-5 on foe and reduces the percentage of non-Special \"reduce damage by X%\" skills by 50% during combat (excluding area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
+    "version": "9.5",
+    "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 19,
-      "atk": 10,
-      "spd": 8,
-      "def": 5,
-      "res": 11
+      "hp": 21,
+      "atk": 9,
+      "spd": 3,
+      "def": 10,
+      "res": 10
     },
     "growth": {
-      "hp": 50,
-      "atk": 75,
-      "spd": 90,
-      "def": 70,
-      "res": 80
+      "hp": 70,
+      "atk": 90,
+      "spd": 35,
+      "def": 80,
+      "res": 90
     },
     "superboon": [
-      "spd",
-      "def"
-    ],
-    "superbane": [
       "hp",
-      "atk"
+      "atk",
+      "res"
     ],
+    "superbane": [],
     "weapons": {
       "Fire Breath": "1",
       "Fire Breath+": "2",
       "Flametongue": "3",
-      "Duskstone": "5"
+      "Fell Child's Arts": "5"
     },
     "assist": {},
     "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4",
-      "Dragon Fang Fire": "5"
+      "Night Sky": "3",
+      "Glimmer": "4",
+      "Fell Blast": "5"
     },
     "passive": {
       "A": {
         "Water Boost 1": "2",
         "Water Boost 2": "3",
         "Water Boost 3": "4",
-        "Primordial Boost": "5"
+        "Diluvial Boost": "5"
       },
       "B": {
-        "Savvy Fighter 1": "2",
-        "Savvy Fighter 2": "3",
-        "Savvy Fighter 3": "4",
-        "Clever Fighter": "5"
+        "Special Fighter 1": "2",
+        "Special Fighter 2": "3",
+        "Special Fighter 3": "4",
+        "Scowling Fighter": "5"
       },
       "C": {
-        "Close Guard 1": "2",
-        "Close Guard 2": "3",
-        "Close Guard 3": "4",
-        "Lower Ground": "5"
+        "Distant Guard 1": "2",
+        "Distant Guard 2": "3",
+        "Distant Guard 3": "4",
+        "Higher Ground": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9c/Corrin_Young_Kinship_Face.webp/revision/latest?cb=20250403042115",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4c/Corrin_Young_Kinship_BtlFace_D.webp/revision/latest?cb=20250403042105",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1f/Corrin_Young_Kinship_BtlFace_C.webp/revision/latest?cb=20250403042056",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fd/Corrin_Young_Kinship_BtlFace.webp/revision/latest?cb=20250403042022"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4e/Alear_Red_Days_Past_Face.webp/revision/latest?cb=20250507032123",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7f/Alear_Red_Days_Past_BtlFace_D.webp/revision/latest?cb=20250507032112",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8a/Alear_Red_Days_Past_BtlFace_C.webp/revision/latest?cb=20250507032101",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4a/Alear_Red_Days_Past_BtlFace.webp/revision/latest?cb=20250507032030"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Young Kinship",
-      "Corrin: Young Kinship",
-      "Young Corrin",
-      "Baby Corrin",
-      "Child Corrin",
-      "Y Corrin",
-      "corrin16"
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8"
     ],
     "HARD_ALT_NAME": [
-      "Young Kinship",
-      "Corrin: Young Kinship",
-      "Young Corrin",
-      "Baby Corrin",
-      "Child Corrin",
-      "Y Corrin",
-      "corrin16"
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8"
     ],
-    "gender": "",
+    "gender": "F",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u6bd4\u7ffc\u30ab\u30e0\u30a4\u7537",
-    "voice": "Cam Clarke + Marcella Lentz-Pope",
+    "pool": "",
+    "internal_id": "PID_\u95c7\u30ea\u30e5\u30fc\u30eb\u5973",
+    "voice": "Not yet recorded.",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "elyos"
     ],
-    "chibi": "fe13",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "**Corrin:** If I wasn't born in Nohr, then I was born in... I don't remember...",
-        "**Corrin:** We are from a dark castle, but we're never lonely. Our brothers and sisters come to visit us...",
-        "**Corrin:** The nights can get lonely... But that doesn't last long with all my siblings and Gunter to keep me company.",
-        "**Corrin:** Askr is a mysterious place. Meeting another me... It's like I'm a character in a storybook.",
-        "**Corrin:** Being with Xander, Camilla, Leo, and Elise is the most fun of all."
+        "It seems I left the rings I had in the world I came from. Must I gather them all over again?",
+        "Emblems with red auras only follow my commands. If they were able to speak, then...",
+        "Do you not have any orders for me? My father would always dispose of pawns he had no use for.",
+        "Have you ever encountered the Corrupted? I dislike them. They kill my siblings.",
+        "I want to live. Just to see tomorrow, and the day that follows, and..."
       ],
       "Visit": [
-        "We are Corrin and Corrin, two of the same kind. We brought a delivery from [F]."
+        "I don't have time for foolishness\u2014 I must return to my father. Take this. It is from [F]."
       ],
       "Level": [
-        "**Corrin:** I'm no good at fighting. But if it's to protect my siblings, then I'll do all I can!",
-        "**Corrin:** Why can't everyone just get along?",
-        "**Corrin:** It's OK. We'll do better next time."
+        "I am stronger. With this, I may be able to survive whatever lies ahead.",
+        "I've done it, Father.",
+        "This...makes me a defect."
       ],
       "Summon": [
-        "I'm Corrin, from Nohr. And this is Corrin too. We're...the same. Strange, huh?"
+        "My name is...Alear. I was told my father called me that...just once."
       ],
       "Learn Skill": [
-        "**Corrin:** Th-this is for us? Thank you for being so nice to us."
+        "What do you hope to achieve by giving me power?"
       ],
       "Confession": [
-        "**Corrin:** Askr is a wonderful place, isn't it? We're even allowed to roam freely here, outside of the castle...\n**Corrin:** Yes, but we'll have to return to Nohr once Askr is at peace.\n**Corrin:** I know... That is a bit unfortunate, isn't it?\nIn Askr, we can see our siblings and all sorts of other people any time we want...\n**Corrin:** If we can make Nohr like Askr, then it would be wonderful too. If we do our best, I think it's possible.\n**Corrin:** You're right! If we work together with our siblings, I know we can do it... Let's do our best!"
+        "Summoner, I think I understand now how many mighty individuals exist in other worlds.\nObserving some among them who resemble me stirred something deep in my heart...\nIt makes me wish for more than is permissible\u2014to be saved by one adorned in white, like you.\nBut, that is a wish that cannot be fulfilled. This is the fate of one born a Fell Dragon. Forget these words.\nI am a defect. A dragon who can never become something more and will only be disposed of one day."
       ],
       "Special": [
-        "**Duo:** We decide our path!",
-        "**Duo:** Together... We can do it!",
-        "**Corrin:** For everyone!",
-        "**Corrin:** I'll protect you!"
+        "I am a Fell Dragon.",
+        "Defect.",
+        "Give me great power.",
+        "You are weak."
       ],
       "Status": [
-        "Whoa...",
-        "\"We're...the same? Strange.\" \"I know, but...I'm glad we met.\""
+        "-",
+        "I must collect all of the Emblem Rings.",
+        "What are you doing? You cannot kill me by poking me like that.",
+        "I shall continue to prove that I am not a defect.",
+        "I seek Emblem Marth. The one who is red, like me.",
+        "It is interesting how your expression constantly changes.",
+        "I wonder what Father thinks about the fact that I have not returned.",
+        "One of my older brothers was drowned. One older sister was burned alive. I wonder if I will have a similar fate one day."
       ],
       "Map Select": [
-        "Hm...",
-        "I'll do my best.",
-        "Am I ready?"
+        "If that is your wish.",
+        "What must I do?",
+        "I shall eradicate them."
       ],
-      "Conversation": [
-        "**Corrin:** OK, so, you're me and I'm...you? It's like a dream.",
-        "**Corrin:** Or like...we're looking in a mirror.",
-        "**Corrin:** This must be what it's like to have a twin.",
-        "**Corrin:** Like Flora and Felicia!",
-        "**Corrin:** There must be many of us that exist in other worlds. Some male, some female...",
-        "**Corrin:** Maybe some of us were allowed to roam freely, outside of the castle...",
-        "**Corrin:** Oh, I hope so. I mean, I am certain some were.",
-        "**Corrin:** Aw, that sounds wonderful... Tell me, were you also kept in the castle at all times?",
-        "**Corrin:** Yes... But it makes being in Askr all the more special!",
-        "**Corrin:** You're right! And the castle here is so big, and the meadow just goes on and on... *sigh* It's like a fairy tale.",
-        "**Corrin:** Yes, and the people here are all so different, with so many interesting stories to tell.",
-        "**Corrin:** There's so much I want to do. Like shop in the town, visit the Kingdom of Ice...and the Kingdom of Flame too!",
-        "**Corrin:** I'm not sure how much time we have here... I don't wish to leave Askr a-anytime soon...",
-        "**Corrin:** Same. I wish I could stay, except...",
-        "**Corrin:** *chuckle* I know... I miss home too...",
-        "**Corrin:** We should do all we can while we're here.",
-        "**Corrin:** You're right! We should fill our time with making memories we can bring to everyone back home."
-      ],
-      "Duo Skill": [
-        "\"Ready?\" \"Yeah.\"",
-        "\"I won't lose!\" \"Me neither!\""
-      ],
-      "Back Unit Supporting": [
-        "With all your strength!",
-        "Give it your all!"
-      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Young Corrin",
-    "SEARCH_NAME": "Young Corrin",
-    "DISPLAY_NAME": "<:Blue_Breath:1124845312637403236>Young Corrin",
+    "short_name": "Fallen Alear",
+    "SEARCH_NAME": "Fallen Female Alear",
+    "DISPLAY_NAME": "<:Green_Breath:1124845770978361425>Fallen Female Alear",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "corrin",
-      "corrin2",
-      "corrin3",
-      "corrin4",
-      "corrin5",
-      "corrin6",
-      "corrin7",
-      "corrin8",
-      "corrin9",
-      "corrin10",
-      "corrin11",
-      "corrin12",
-      "corrin13",
-      "corrin14",
-      "corrin15"
+      "alear",
+      "alear2",
+      "alear3",
+      "alear4",
+      "alear5",
+      "alear6",
+      "alear7"
     ],
     "prf": {
-      "": "duskstone",
-      "eff": "duskstone",
-      "atk": "duskstone",
-      "spd": "duskstone",
-      "def": "duskstone",
-      "res": "duskstone"
+      "": "fellchildsarts",
+      "eff": "fellchildsarts",
+      "atk": "fellchildsarts",
+      "spd": "fellchildsarts",
+      "def": "fellchildsarts",
+      "res": "fellchildsarts"
     }
   },
-  "elise5": {
-    "name": "Elise",
-    "title": "Sparkling Smile",
-    "description": "Youngest princess of Nohr. She is a kindhearted person, always smiling, who is very considerate of her siblings. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Fuzichoco (\u85e4\u3061\u3087\u3053)",
-    "move": "Cavalry",
-    "weapon": "Staff",
-    "color": "Colorless",
+  "dedue3": {
+    "name": "Dedue",
+    "title": "Dauntless Beast",
+    "description": "Uses a Crest Stone to transform into a Demonic Beast in battle, repaying his debt to Dimitri, who saved his life. Appears in Fire Emblem: Three Houses.",
+    "origin": "Three Houses",
+    "artist": "So-taro (\u5275-taro)",
+    "move": "Armored",
+    "weapon": "Beast",
+    "color": "Blue",
     "duel": false,
-    "id": "1228",
-    "type": false,
-    "version": "9.4",
+    "id": "1237",
+    "type": "rearmed",
+    "version": "9.5",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 16,
-      "atk": 8,
-      "spd": 12,
-      "def": 4,
-      "res": 9
+      "hp": 23,
+      "atk": 14,
+      "spd": 4,
+      "def": 10,
+      "res": 10
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 80,
-      "def": 30,
-      "res": 50
+      "hp": 60,
+      "atk": 80,
+      "spd": 30,
+      "def": 90,
+      "res": 75
     },
     "superboon": [
-      "atk"
+      "def"
     ],
     "superbane": [
-      "hp",
-      "def",
+      "spd",
       "res"
     ],
     "weapons": {
-      "Assault": "1",
-      "Baton of Dusk": "5"
+      "Whelp (Armored)": "1",
+      "Yearling (Arm.)": "2",
+      "Adult (Armored)": "3",
+      "Arcane Crest": "5"
     },
-    "assist": {
-      "Heal": "1",
-      "Reconcile": "2",
-      "Return": "3",
-      "Return+": "5"
-    },
+    "assist": {},
     "special": {
-      "Imbue": "2",
-      "Miracle": "3",
-      "Holy Panic": "5"
+      "Glowing Ember": "3",
+      "Ignis": "4",
+      "Sturdy Beast": "5"
     },
     "passive": {
       "A": {
-        "Atk/Spd Form 1": "2",
-        "Atk/Spd Form 2": "3",
-        "Atk/Spd Form 3": "4",
-        "Atk/Spd Tidings": "5"
-      },
-      "B": {},
-      "C": {
-        "Even Recovery 1": "1",
-        "Even Recovery 2": "2",
-        "Even Recovery 3": "4"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0e/Elise_Sparkling_Smile_Face.webp/revision/latest?cb=20250403042457",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3e/Elise_Sparkling_Smile_BtlFace_D.webp/revision/latest?cb=20250403042447",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8f/Elise_Sparkling_Smile_BtlFace_C.webp/revision/latest?cb=20250403042437",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/75/Elise_Sparkling_Smile_BtlFace.webp/revision/latest?cb=20250403042404"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Sparkling Smile",
-      "Elise: Sparkling Smile",
-      "Young Elise",
-      "Baby Elise",
-      "Child Elise",
-      "Y Elise",
-      "elise5"
-    ],
-    "HARD_ALT_NAME": [
-      "Sparkling Smile",
-      "Elise: Sparkling Smile",
-      "Young Elise",
-      "Baby Elise",
-      "Child Elise",
-      "Y Elise",
-      "elise5"
-    ],
-    "gender": "F",
-    "rarity": 4,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e7c\u5c11\u30a8\u30ea\u30fc\u30bc",
-    "voice": "Liv Strander",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fates"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "I wanna be with my siblings all the time. Smiling, playing, laughing...",
-        "I made a friend the other day when I snuck out of the castle. I wish I could see them again...",
-        "Xander is so strong, and noble, and-and...amazing!",
-        "My big brother Leo knows everything! If you can't figure something out, ask him and he'll know!",
-        "Camilla is pretty, huh? I wanna be just like her when I grow up!"
-      ],
-      "Visit": [
-        "I'm Elise. I'm from Nohr. I snuck here from [F]'s castle!"
-      ],
-      "Level": [
-        "I'm going to do my very best. I'll be the strongest, most unstoppable princess ever!",
-        "Wanna read a book and learn with me?",
-        "I'm tired! I wanna play hide-and-seek..."
-      ],
-      "Summon": [
-        "I'm Elise from Nohr. Are all my siblings here too?"
-      ],
-      "Learn Skill": [
-        "Is this for me? Yay! This makes me so happy!"
-      ],
-      "Confession": [
-        "Am I getting in everyone's way, [S]?\nI'm still little, so I can't do much, but... I wanna do my best so I can be the greatest little sister ever!\nI'll do anything\u2014read tough books, train till my muscles are sore and tired...\nI want everyone to think, \"I'm glad Elise is my little sister!\" Then I'd be happy!\nSo, teach me all sorts of stuff, OK? 'Cause I'm gonna grow lots and lots. You'll see!"
-      ],
-      "Special": [
-        "Till you're black and blue!",
-        "Go away!",
-        "Bye-bye!",
-        "Nuh-uh!"
-      ],
-      "Status": [
-        "*giggle*",
-        "Let's gooo!",
-        "I'm. Playing!",
-        "My name's Elise. And I'm a princess of Nohr!",
-        "My family's really big. I got a big brother, I got a big sister, and, uh...umm...",
-        "I'm practicing with my staff. Wanna see? Taaake this!",
-        "I wanna be just like Camilla when I grow up!",
-        "Hey! Hey! You wanna play hide-and-seek?"
-      ],
-      "Map Select": [
-        "'K!",
-        "Is it my turn?",
-        "Wait for meee!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Young Elise",
-    "SEARCH_NAME": "Young Elise",
-    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Young Elise",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "elise",
-      "elise2",
-      "elise3",
-      "elise4"
-    ],
-    "prf": {
-      "": "batonofdusk",
-      "eff": "batonofdusk",
-      "atk": "batonofdusk",
-      "spd": "batonofdusk",
-      "def": "batonofdusk",
-      "res": "batonofdusk"
-    }
-  },
-  "leo6": {
-    "name": "Leo",
-    "title": "Dark Sprout",
-    "description": "Youngest prince of Nohr. Exceptionally talented, he is capable of just about anything, particularly magic. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Tobi",
-    "move": "Cavalry",
-    "weapon": "Tome",
-    "color": "Red",
-    "duel": false,
-    "id": "1227",
-    "type": false,
-    "version": "9.4",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 5,
-      "def": 3,
-      "res": 13
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 50,
-      "def": 30,
-      "res": 80
-    },
-    "superboon": [
-      "atk"
-    ],
-    "superbane": [
-      "hp",
-      "spd",
-      "def"
-    ],
-    "weapons": {
-      "Flux": "1",
-      "Ruin": "2",
-      "Fenrir": "3",
-      "Tome of Dusk": "5"
-    },
-    "assist": {
-      "Reposition": "3"
-    },
-    "special": {
-      "Rising Thunder": "3",
-      "Blazing Thunder": "4"
-    },
-    "passive": {
-      "A": {
-        "Still Water 1": "2",
-        "Still Water 2": "3",
-        "Still Water 3": "4",
-        "Crystalline Water": "5"
+        "Atk/Def Form 1": "2",
+        "Atk/Def Form 2": "3",
+        "Atk/Def Form 3": "4",
+        "Atk/Def Fortune": "5"
       },
       "B": {
-        "Atk/Res Snag 1": "2",
-        "Atk/Res Snag 2": "3",
-        "Atk/Res Snag 3": "4",
-        "Atk/Res Detect": "5"
+        "Bold Fighter 1": "2",
+        "Bold Fighter 2": "3",
+        "Bold Fighter 3": "4",
+        "Assault Fighter": "5"
       },
       "C": {
-        "Fortify Res 1": "2",
-        "Fortify Res 2": "3",
-        "Fortify Res 3": "4",
-        "A/R Incite Hone": "5"
+        "For the True King": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/78/Leo_Dark_Sprout_Face.webp/revision/latest?cb=20250403042342",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7e/Leo_Dark_Sprout_BtlFace_D.webp/revision/latest?cb=20250403042332",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/70/Leo_Dark_Sprout_BtlFace_C.webp/revision/latest?cb=20250403042322",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c3/Leo_Dark_Sprout_BtlFace.webp/revision/latest?cb=20250403042250"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Dedue_Dauntless_Beast_Face.webp/revision/latest?cb=20250507032009",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/37/Dedue_Dauntless_Beast_BtlFace_D.webp/revision/latest?cb=20250507031959",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d5/Dedue_Dauntless_Beast_BtlFace_C.webp/revision/latest?cb=20250507031948",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/98/Dedue_Dauntless_Beast_BtlFace.webp/revision/latest?cb=20250507031917"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Dark Sprout",
-      "Leo: Dark Sprout",
-      "Young Leo",
-      "Baby Leo",
-      "Child Leo",
-      "Y Leo",
-      "leo6"
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "HARD_ALT_NAME": [
-      "Dark Sprout",
-      "Leo: Dark Sprout",
-      "Young Leo",
-      "Baby Leo",
-      "Child Leo",
-      "Y Leo",
-      "leo6"
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "gender": "M",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e7c\u5c11\u30ec\u30aa\u30f3",
-    "voice": "\u2014",
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u9b54\u7363\u30c9\u30a5\u30c9\u30a5\u30fc",
+    "voice": "Ben Lepley",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "fodlan"
     ],
-    "chibi": "fe13",
+    "chibi": "fodlan",
     "quotes": {
       "Castle Hall": [
-        "There's no value in keeping around those who do bad things. Leave it to me. I will dispose of them for you.",
-        "My father used to be kind...long ago. He would rub my head, let me ride on his shoulders...",
-        "I am studying magic. I have no interest in focusing on the sword or spear. I'm not like Xander, you know.",
-        "If you turn against my siblings, I'll flatten you with a new spell I just learned.",
-        "Xander is reliable, Camilla is kind, Elise is cheerful, and... Mm-hmph! All my siblings are precious to me."
+        "I would abandon everything, even my life, for His Majesty.",
+        "I only live to this day because of His Majesty... I am honored to have walked by his side.",
+        "The Crest Stone transforms me into a Demonic Beast. It is too late for me now...",
+        "Rrraaahhh... I have no...regrets! Even if this power is forbidden... As long as it is for His Majesty!",
+        "It matters not who stands in his way\u2014 I will go through them. Even if they are former peers, it does not matter!"
       ],
       "Visit": [
-        "I am Leo, prince of Nohr. You have delicious tomatoes here? I heard so from [F]."
+        "Do you call yourself a friend or a foe of His Majesty, Dimitri? I am certain [F]will aid him."
       ],
       "Level": [
-        "Too easy! Hahaha.",
-        "Thought you could win because I'm a child?! Fool!",
-        "Ugh! Everyone will be disappointed in me."
+        "I must... Even if my body turns to dust!",
+        "People like you...can never understand the weight His Majesty has borne.",
+        "Urrrggghhh... For His Majesty, I must not fall!"
       ],
       "Summon": [
-        "I am Leo, prince of the Kingdom of Nohr. I'll say this once\u2014I don't trust anyone except my siblings."
+        "Even if I lose my own humanity and become a Demonic Beast, I shall pave the path for His Majesty's future."
       ],
       "Learn Skill": [
-        "I'll accept this, as long as you're choosing to give it to me... Thank you."
+        "With this, I can protect His Majesty!"
       ],
       "Confession": [
-        "When I was younger, my father's mistresses were always fighting, trying to win his favor.\nAnd I think my mother was using me to improve her status with him. I never liked her because of that...\nShe never once spared me a single moment's attention. And then... she died.\nBecause of all the fighting, I could never really have any real conversations with my siblings.\nBut now, those of us that remain have finally grown close... I am truly happy.\nI hope we'll be able to stay close from now on, forever. It's up to me to do all I can to ensure that happens."
+        "The people of Duscur never forget their grudges. And more so, they never fail to honor favors...\nHis Majesty risked his own life to save me when I should have died alongside so many of my people.\nI'll return the favor by risking my own life for his. I would cast that life aside if it was for his benefit.\nThe Crest Stone... I can never go back to being human now that I have used it.\nI wish for you to be an ally to His Majesty until the very end. Can you do that, [S]?\nUrrr... My body...will take the form of a Demonic Beast... I must leave the rest...in your hands..."
       ],
       "Special": [
-        "I'm just getting started!",
-        "Think you'll prevail?",
-        "Darkness! Yeah!",
-        "Here it comes!"
+        "Grrr-hmm...",
+        "Raaarghhh!",
+        "Graaarrrgh!",
+        "Raaarrrgh!"
       ],
       "Status": [
-        "Hmph.",
-        "I am Leo, second prince of Nohr. And I expect you to treat me as such.",
-        "Ugh! Stop being so childish.",
-        "My older siblings are so strong...",
-        "My collar is inside out? Ahem. I know that.",
-        "Think we'll have tomatoes with dinner?",
-        "Someday I'll be taken seriously. Someday...",
-        "You look kinda weak. So I'm going to be strong for you!"
+        "-",
+        "My name is Dedue. Even through hell, I would follow His Majesty.",
+        "I suggest you back away from me now.",
+        "If we lose here, the Kingdom falls. It seems I have no choice. I must use the Crest Stone...",
+        "I only live because of His Majesty.",
+        "You could never understand the burden His Majesty carries on his shoulders!",
+        "You are the one true king... Dimitri.",
+        "I hope you come to accept His Majesty's ideals. I will go through anyone in his way."
       ],
       "Map Select": [
-        "Ooo-kay!",
-        "Huh?",
-        "Do I have to?"
+        "Ugh...",
+        "Grah!",
+        "Raaagh!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Young Leo",
-    "SEARCH_NAME": "Young Leo",
-    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Young Leo",
+    "short_name": "Rearmed Dedue",
+    "SEARCH_NAME": "Rearmed Dedue",
+    "DISPLAY_NAME": "<:Blue_Beast:1124845338688233575>Rearmed Dedue",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "leo",
-      "leo2",
-      "leo3",
-      "leo4",
-      "leo5"
+      "dedue",
+      "dedue2"
     ],
     "prf": {
-      "": "tomeofdusk",
-      "eff": "tomeofdusk",
-      "atk": "tomeofdusk",
-      "spd": "tomeofdusk",
-      "def": "tomeofdusk",
-      "res": "tomeofdusk"
+      "": "arcanecrest",
+      "eff": "arcanecrest",
+      "atk": "arcanecrest",
+      "spd": "arcanecrest",
+      "def": "arcanecrest",
+      "res": "arcanecrest"
     }
   },
-  "xander6": {
-    "name": "Xander",
-    "title": "Focused Firstborn",
-    "description": "First prince of Nohr. He works diligently every day to protect his siblings. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Hiiragi Akio (\u67ca\u6681\u751f)",
-    "move": "Cavalry",
-    "weapon": "Sword",
-    "color": "Red",
+  "lena2": {
+    "name": "Lena",
+    "title": "Bereft Angel",
+    "description": "A cleric from Macedon whose mind was stolen by Gharnef to be used as a sacrifice in the resurrection of Medeus. Appears in Fire Emblem: Mystery of the Emblem.",
+    "origin": "Shadow Dragon",
+    "artist": "\u3072\u3068\u548c",
+    "move": "Infantry",
+    "weapon": "Staff",
+    "color": "Colorless",
     "duel": false,
-    "id": "1229",
+    "id": "1240",
     "type": false,
-    "version": "9.4",
+    "version": "9.5",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 19,
-      "atk": 9,
-      "spd": 8,
-      "def": 13,
-      "res": 4
+      "atk": 13,
+      "spd": 5,
+      "def": 6,
+      "res": 10
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
+      "hp": 60,
+      "atk": 80,
       "spd": 50,
-      "def": 80,
-      "res": 45
+      "def": 30,
+      "res": 90
     },
     "superboon": [
-      "atk",
       "res"
     ],
     "superbane": [
-      "hp",
-      "spd"
+      "spd",
+      "def"
     ],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Sword of Dusk": "5"
+      "Assault": "1",
+      "Martyr's Staff": "5"
     },
-    "assist": {},
+    "assist": {
+      "Heal": "1",
+      "Mend": "2",
+      "Magic Shield": "3",
+      "Magic Shield+": "5"
+    },
     "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4"
+      "Imbue": "2",
+      "Miracle": "3",
+      "Holy Pressure": "5"
     },
     "passive": {
       "A": {
-        "Atk/Def Clash 1": "1",
-        "Atk/Def Clash 2": "3",
-        "Atk/Def Clash 3": "4"
+        "Atk/Res Form 1": "2",
+        "Atk/Res Form 2": "3",
+        "Atk/Res Form 3": "4",
+        "Atk/Res Tidings": "5"
       },
       "B": {
-        "Lull Atk/Def 1": "3",
-        "Lull Atk/Def 2": "4",
-        "Lull Atk/Def 3": "5"
+        "Resonance 1": "2",
+        "Resonance 2": "3",
+        "Resonance 3": "4",
+        "Resonance 4": "5"
       },
-      "C": {},
+      "C": {
+        "Time's Pulse 1": "2",
+        "Time's Pulse 2": "3",
+        "Time's Pulse 3": "4",
+        "Pulse Up: Ploy": "5"
+      },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2e/Xander_Focused_Firstborn_Face.webp/revision/latest?cb=20250403042613",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2f/Xander_Focused_Firstborn_BtlFace_D.webp/revision/latest?cb=20250403042602",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b9/Xander_Focused_Firstborn_BtlFace_C.webp/revision/latest?cb=20250403042552",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/ba/Xander_Focused_Firstborn_BtlFace.webp/revision/latest?cb=20250403042519"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/00/Lena_Bereft_Angel_Face.webp/revision/latest?cb=20250507032349",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6f/Lena_Bereft_Angel_BtlFace_D.webp/revision/latest?cb=20250507032339",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/89/Lena_Bereft_Angel_BtlFace_C.webp/revision/latest?cb=20250507032328",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/69/Lena_Bereft_Angel_BtlFace.webp/revision/latest?cb=20250507032256"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Focused Firstborn",
-      "Xander: Focused Firstborn",
-      "Young Xander",
-      "Baby Xander",
-      "Child Xander",
-      "Y Xander",
-      "xander6"
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ],
     "HARD_ALT_NAME": [
-      "Focused Firstborn",
-      "Xander: Focused Firstborn",
-      "Young Xander",
-      "Baby Xander",
-      "Child Xander",
-      "Y Xander",
-      "xander6"
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ],
-    "gender": "M",
-    "rarity": 4,
-    "pool": "grail",
-    "internal_id": "PID_\u5e7c\u5c11\u30de\u30fc\u30af\u30b9",
-    "voice": "Robbie Daymond",
+    "gender": "F",
+    "rarity": 5,
+    "pool": "",
+    "internal_id": "PID_\u95c7\u30ec\u30ca",
+    "voice": "Brittany Cox",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "archanea"
     ],
-    "chibi": "fe13",
+    "chibi": "archanea",
     "quotes": {
       "Castle Hall": [
-        "We may not have the same mother, but our sibling bonds are still very strong. They cannot be broken.",
-        "I am mediocre at military studies and academic pursuits in general. That is why I must work harder than most.",
-        "I was relieved Leo chose to study magic. Things might have gotten awkward had he chosen the sword.",
-        "Camilla, Leo, Elise, and Corrin... All of us should bear the responsibility for our homeland of Nohr together.",
-        "I get nervous when I stand before my father. I must work even harder so he does not lose faith in me..."
+        "Ju...li...an... Ahhh! My head... I cannot remember...",
+        "Those I save will take from others. Why... Why do I save lives then?",
+        "We offer our lives to Lord Medeus... That...is our fate.",
+        "This world is filled with humans who continue to harm one another. As such, this world should not exist.",
+        "Lord Medeus devoted all his power to Naga, who desired peace. Humans betrayed this desire."
       ],
       "Visit": [
-        "I am Xander, the first prince of Nohr. Please read this handwritten letter from [F]."
+        "You are to be the fuel that propels Lord Medeus to his goals, [S]."
       ],
       "Level": [
-        "One cannot win with talent alone. You must be willing to put in hard work to get results.",
-        "If I were to disgrace myself, as the eldest brother, I would be unable to face my siblings.",
-        "One could lose a battle they might have easily won if they are less driven than their opponent."
+        "If everything fades...the world will be without pain...without sadness...",
+        "I will not allow anyone to get in the way of Lord Medeus.",
+        "I am sorry I fell short of your expectations, Lord Medeus..."
       ],
       "Summon": [
-        "I am Xander, eldest prince of Nohr. I shall apply my strength to meet the expectations of my family here too."
+        "I am not the cleric you know as Lena. No... I am Lord Medeus's loyal servant. I will give my life for him."
       ],
       "Learn Skill": [
-        "I shall use this power to overcome future conflicts."
+        "This must be another manifestation of Lord Medeus's will."
       ],
       "Confession": [
-        "I was born the eldest brother in my family, but I had no single trait to help me stand out in a positive way.\nAs a result, I always felt pressured by the talent of my younger siblings.\nI worked hard daily to be competent enough not to be an embarrassment as the eldest brother. And now...\nI train to overcome countless trials and be a knight who can carry the weight of Nohr on his shoulders.\nI want to be the kind of older brother my siblings can feel proud of.\nI shall strive to do noteworthy work here in Askr as well so that I can live up to those expectations."
+        "I have seen with my own eyes countless lives lost to war...\nEven if I healed someone...they would return to battle and take another's life. A vicious cycle...\nHumanity will continue to spread this sadness across the land.\nSo, let us be done with it. Let us erase the rage, the hatred, the agony from this world...\nSuch is the reason Lord Medeus has descended upon us from the heavens. He shall end all conflict.\nAnd you, too, are to offer your life to him...for your final salvation, [S]."
       ],
       "Special": [
-        "Stop at once.",
-        "Observe!",
-        "For the glory of Nohr!",
-        "No quarter!"
+        "You will die.",
+        "Lord Medeus...",
+        "Do not resist.",
+        "Stay away..."
       ],
       "Status": [
-        "Mm-hmm.",
-        "I am the crown prince of Nohr. I cannot tolerate insolence.",
-        "Huh? I thought I said insolence could not be tolerated.",
-        "I must always be an example for my siblings. I can never show cowardice.",
-        "Corrin is such a strange child\u2014always at the center of attention.",
-        "I shall study whatever I must to grow the kingdom of Nohr.",
-        "How Father dealt with Corrin... No! I must put it out of my mind.",
-        "I've come to believe I can put my trust in you."
+        "Y-yes?",
+        "Here.",
+        "Please. Please...",
+        "Those who resist Lord Medeus will die.",
+        "I'm scared... Oh, gods!",
+        "Am I being punished? Did I ask too much from others?",
+        "Julian, where are you? Call to me...",
+        "Please... Please don't leave me..."
       ],
       "Map Select": [
-        "Very well.",
-        "Hm.",
-        "I'll handle it."
+        "Yes?",
+        "Where?",
+        "As you command..."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Young Xander",
-    "SEARCH_NAME": "Young Xander",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Young Xander",
+    "short_name": "Fallen Lena",
+    "SEARCH_NAME": "Fallen Lena",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Fallen Lena",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "xander",
-      "xander2",
-      "xander3",
-      "xander4",
-      "xander5"
+      "lena"
     ],
     "prf": {
-      "": "swordofdusk",
-      "eff": "swordofdusk",
-      "atk": "swordofdusk",
-      "spd": "swordofdusk",
-      "def": "swordofdusk",
-      "res": "swordofdusk"
+      "": "martyrsstaff",
+      "eff": "martyrsstaff",
+      "atk": "martyrsstaff",
+      "spd": "martyrsstaff",
+      "def": "martyrsstaff",
+      "res": "martyrsstaff"
+    }
+  },
+  "fafnir": {
+    "name": "F\u00e1fnir",
+    "title": "King of Desolation",
+    "description": "King of Ni\u00f0avellir who rose from his station as a lowly soldier. Remembers nothing of his past.",
+    "origin": "Heroes",
+    "artist": "Kozaki Yusuke (\u30b3\u30b6\u30ad\u30e6\u30fc\u30b9\u30b1)",
+    "move": "Cavalry",
+    "weapon": "Lance",
+    "color": "Blue",
+    "duel": false,
+    "id": "1241",
+    "type": false,
+    "version": "9.5",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 9,
+      "spd": 12,
+      "def": 11,
+      "res": 3
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 80,
+      "def": 60,
+      "res": 35
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Silver Lance": "3",
+      "Iron Hrei\u00f0marr": "5"
+    },
+    "assist": {
+      "Hrei\u00f0marr": "5"
+    },
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "Lull Spd/Def 1": "3",
+        "Lull Spd/Def 2": "4",
+        "Lull Spd/Def 3": "5"
+      },
+      "C": {
+        "Rouse Atk/Spd 1": "1",
+        "Rouse Atk/Spd 2": "2",
+        "Rouse Atk/Spd 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2b/Fafnir_King_of_Desolation_Face.webp/revision/latest?cb=20210917064649",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fa/Fafnir_King_of_Desolation_BtlFace_D.webp/revision/latest?cb=20210917064642",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Fafnir_King_of_Desolation_BtlFace_C.webp/revision/latest?cb=20210917064638",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/82/Fafnir_King_of_Desolation_BtlFace.webp/revision/latest?cb=20210917093843"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
+    ],
+    "HARD_ALT_NAME": [
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
+    ],
+    "gender": "M",
+    "rarity": 3,
+    "pool": "grail",
+    "internal_id": "PID_\u30d5\u30a1\u30d5\u30cb\u30fc\u30eb\u5473\u65b9",
+    "voice": "Griffin Puatu",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "Where... What am I searching for? I struggle to even know who I am...",
+        "My kingdom is Ni\u00f0avellir, the realm of the dvergar. I was not born of royalty; I took the throne of my own strength.",
+        "Do you find our weapons and mounts that unusual? Well, go on then. I'll allow you to touch them.",
+        "You should be grateful that I'll allow a peasant such as you to have a match against me.",
+        "Does that person we passed back there have anything to do with my past? Something feels familiar..."
+      ],
+      "Visit": [
+        "Next, I'll take your castle. I already took [F]'s."
+      ],
+      "Level": [
+        "Who do you think I am? This is nothing for me.",
+        "Not good enough.",
+        "This...cannot be..."
+      ],
+      "Summon": [
+        "I am F\u00e1fnir, king of Ni\u00f0avellir. I shall train you ignorant swine to do my bidding. Do your best to obey me."
+      ],
+      "Learn Skill": [
+        "How insightful of you. Now, eyes up. You won't want to miss what lies ahead."
+      ],
+      "Confession": [
+        "Ni\u00f0avellir is my country, but to call it my homeland is...just not right. I have no memories of my homeland.\nAnd my family, well... I picked them up on a whim, nothing more... But they've proven themselves useful.\nFamily has nothing to do with one's homeland. Only a naive peasant could think that.\nNo... It does not matter where my homeland is if I hold the whole world in my hands.\nEventually, I will rule your homeland as well. For now, I'll humor you and act as your subordinate. Ahaha..."
+      ],
+      "Special": [
+        "Struggle! Prove yourself!",
+        "I will tame you.",
+        "I am king!",
+        "Give up."
+      ],
+      "Status": [
+        "-",
+        "I am F\u00e1fnir, king of Ni\u00f0avellir. You should kneel.",
+        "You would sully me with your touch.",
+        "Reginn and \u00d3tr? I found them on the battlefield and brought them along. It was a whim, nothing more...",
+        "I will conquer all worlds. That is how it is and shall be.",
+        "This is the crown of Ni\u00f0avellir's king. Is it not magnificent?",
+        "Not here... This isn't right! Where... What am I searching for?",
+        "I feel a strange relief that you summoned me. Strange indeed, this feeling..."
+      ],
+      "Map Select": [
+        "Indeed, yes.",
+        "Hmm.",
+        "Entertain me."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "F\u00e1fnir",
+    "SEARCH_NAME": "F\u00e1fnir",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>F\u00e1fnir",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "fafnir"
+    ],
+    "prf": {
+      "": "ironhreidmarr",
+      "eff": "ironhreidmarr",
+      "atk": "ironhreidmarr",
+      "spd": "ironhreidmarr",
+      "def": "ironhreidmarr",
+      "res": "ironhreidmarr"
     }
   }
 }
