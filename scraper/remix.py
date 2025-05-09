@@ -82,5 +82,5 @@ def main(mainkey):
 
 
 
-main('thorr')
-main('otr')
+main('myrrh4')
+main('deirdre2')

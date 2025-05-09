@@ -6,11 +6,9 @@ import re
 import utility
 
 refines = [
-    "myrrh4",
-    "deirdre2",
-    "marianne",
-    "bernadetta2",
-    "morgan3"
+"louise",
+"arete"
+
 ]
 
 path = "../database/feh/images/passive/"
