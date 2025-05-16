@@ -4203,7 +4203,11 @@
       "Fallen Female Beleth",
       "Fallen Beleth Female",
       "Fallen F Beleth",
-      "Fallen Beleth F"
+      "Fallen Beleth F",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5"
     ],
     "HARD_ALT_NAME": [
       "julia",
@@ -4325,7 +4329,13 @@
       "Fallen Female Beleth",
       "Fallen Beleth Female",
       "Fallen F Beleth",
-      "Fallen Beleth F"
+      "Fallen Beleth F",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5",
+      "B Julia",
+      "Duo Julia"
     ],
     "heroes": {
       "byleth8": "<:Red_Sword:1124846201070698536>Fallen Byleth",
@@ -4334,6 +4344,7 @@
       "julia2": "<:Blue_Tome:1124845593211191297>Legendary Julia",
       "julia3": "<:Red_Tome:1124846175577710642>Fallen Julia",
       "julia4": "<:Red_Tome:1124846175577710642>Scion Julia",
+      "julia5": "<:Colorless_Tome:1124845725960904734>Bridal Julia",
       "juliaR": "<:Green_Tome:1124845959873036289>Julia (Resplendent)",
       "sothis": "<:Red_Breath:1124846247673610240>Sothis",
       "sothis2": "<:Green_Breath:1124845770978361425>Winter Sothis",
@@ -5564,7 +5575,11 @@
       "Brave Seliph",
       "Brave Celice",
       "Brave Serlis",
-      "Brave Seris"
+      "Brave Seris",
+      "Light's Legacy",
+      "Seliph: Light's Legacy",
+      "Bridal Seliph",
+      "seliph4"
     ],
     "HARD_ALT_NAME": [
       "seliph",
@@ -5665,7 +5680,11 @@
       "Beliph",
       "Brave Celice",
       "Brave Serlis",
-      "Brave Seris"
+      "Brave Seris",
+      "Light's Legacy",
+      "Seliph: Light's Legacy",
+      "Bridal Seliph",
+      "seliph4"
     ],
     "heroes": {
       "ignatz": "<:Colorless_Bow:1124845636659982457>Winter Ignatz",
@@ -5674,6 +5693,7 @@
       "seliph": "<:Red_Sword:1124846201070698536>Seliph",
       "seliph2": "<:Red_Sword:1124846201070698536>Legendary Seliph",
       "seliph3": "<:Red_Sword:1124846201070698536>Brave Seliph",
+      "seliph4": "<:Green_Axe:1124845885277343754>Bridal Seliph",
       "seliphR": "<:Red_Sword:1124846201070698536>Seliph (Resplendent)"
     },
     "name": "Christian La Monte"
@@ -6782,7 +6802,11 @@
       "Base Teeny",
       "Normal Teeny",
       "Base Tinni",
-      "Normal Tinni"
+      "Normal Tinni",
+      "Determined Bride",
+      "Tine: Determined Bride",
+      "Bridal Tine",
+      "tine2"
     ],
     "HARD_ALT_NAME": [
       "tine",
@@ -6810,10 +6834,16 @@
       "Base Teeny",
       "Normal Teeny",
       "Base Tinni",
-      "Normal Tinni"
+      "Normal Tinni",
+      "Determined Bride",
+      "Tine: Determined Bride",
+      "Bridal Tine",
+      "tine2",
+      "B Tine"
     ],
     "heroes": {
-      "tine": "<:Colorless_Tome:1124845725960904734>Tine"
+      "tine": "<:Colorless_Tome:1124845725960904734>Tine",
+      "tine2": "<:Red_Tome:1124846175577710642>Bridal Tine"
     },
     "name": "Courtney Lin"
   },
@@ -18019,7 +18049,11 @@
       "Scion Tomboy",
       "Twelve Tomboy",
       "Festival Tomboy",
-      "Holy Tomboy"
+      "Holy Tomboy",
+      "Bride of Astra",
+      "Larcei: Bride of Astra",
+      "Bridal Larcei",
+      "larcei3"
     ],
     "HARD_ALT_NAME": [
       "thrasir",
@@ -18086,11 +18120,19 @@
       "Scion Tomboy",
       "Twelve Tomboy",
       "Festival Tomboy",
-      "Holy Tomboy"
+      "Holy Tomboy",
+      "Bride of Astra",
+      "Larcei: Bride of Astra",
+      "Bridal Larcei",
+      "larcei3",
+      "B Larcei",
+      "Seliph's Wife",
+      "Selia's Mom"
     ],
     "heroes": {
       "larcei": "<:Red_Sword:1124846201070698536>Larcei",
       "larcei2": "<:Green_Axe:1124845885277343754>Scion Larcei",
+      "larcei3": "<:Blue_Lance:1124845569496584302>Bridal Larcei",
       "lif2": "<:Red_Tome:1124846175577710642>Duo L\u00edf",
       "thrasir": "<:Green_Tome:1124845959873036289>Thrasir"
     },
@@ -23271,7 +23313,11 @@
       "Ishtar: Echoing Thunder",
       "Echoing Thunder",
       "Ascended Ishtar",
-      "Bloom Ishtar"
+      "Bloom Ishtar",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5"
     ],
     "HARD_ALT_NAME": [
       "ishtar",
@@ -23301,13 +23347,20 @@
       "Ascended Ishtar",
       "Echoing Thunder",
       "A Ishtar",
-      "Bloom Ishtar"
+      "Bloom Ishtar",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5",
+      "B Julia",
+      "Duo Julia"
     ],
     "heroes": {
       "ishtar": "<:Blue_Tome:1124845593211191297>Ishtar",
       "ishtar2": "<:Red_Tome:1124846175577710642>Dancer Ishtar",
       "ishtar3": "<:Blue_Tome:1124845593211191297>Ascended Ishtar",
       "ishtarR": "<:Blue_Tome:1124845593211191297>Ishtar (Resplendent)",
+      "julia5": "<:Colorless_Tome:1124845725960904734>Bridal Julia",
       "leonie": "<:Colorless_Bow:1124845636659982457>Summer Leonie"
     },
     "name": "Ratana"
@@ -30623,6 +30676,43 @@
       "Young Gotoh",
       "Y Gotoh",
       "gotoh2"
+    ]
+  },
+  "nadiamarshall": {
+    "heroes": {
+      "lana": "<:Colorless_Staff:1124845704444137592>Bridal Lana"
+    },
+    "name": "Nadia Marshall",
+    "ALT_NAME": [
+      "Benevolent Bride",
+      "Lana: Benevolent Bride",
+      "Bridal Lana",
+      "lana"
+    ],
+    "HARD_ALT_NAME": [
+      "Benevolent Bride",
+      "Lana: Benevolent Bride",
+      "Bridal Lana",
+      "lana",
+      "B Lana"
+    ]
+  },
+  "cristinavalenzuela": {
+    "heroes": {
+      "athenaR": "<:Red_Sword:1124846201070698536>Athena (Resplendent)"
+    },
+    "name": "Cristina Valenzuela",
+    "ALT_NAME": [
+      "Resplendent Athena",
+      "Resp Athena",
+      "R Athena",
+      "Athena (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Athena",
+      "Resp Athena",
+      "R Athena",
+      "Athena (Resplendent)"
     ]
   }
 }
