@@ -1,15 +1,372 @@
 {
-  "alear7": {
-    "name": "Alear",
-    "title": "Fell Dragon Child",
-    "description": "One of the Fell Dragon Sombron's countless children. Dissociated from his emotions, he acts out his father's orders. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "Dd",
+  "julia5": {
+    "name": "Julia",
+    "title": "Brides of Light",
+    "description": "Princess of the Grannvale Empire whose veins run strong with the blood of the 12 crusaders. She participates in the festival alongside Ishtar. They appear in Fire Emblem: Genealogy of the Holy War.",
+    "origin": "Genealogy of the Holy War",
+    "artist": "HACCAN",
     "move": "Infantry",
-    "weapon": "Sword",
-    "color": "Red",
+    "weapon": "Tome",
+    "color": "Colorless",
     "duel": false,
-    "id": "1239",
+    "id": "1242",
+    "type": false,
+    "version": "9.5",
+    "duo": "Expand\nCollapse\n]\nGrants\u3010Empathy\u3011to unit and allies within 2 spaces for 1 turn, and grants Special cooldown count-1 to unit and those allies.\nOnce used, Duo Skill cannot be activated again right away. At start of every third turn, if Duo Skill has already been used, unit can use Duo Skill again.\n(Duo Skills can be used by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Empathy\u3011\nGrants bonus to unit's Atk/Spd/Def/Res = number of types of\u3010Bonus\u3011effects, excluding stat bonuses, and\u3010Penalty\u3011effects, excluding stat penalties, active on player team and enemy team during combat (max 7).\n\u3010Bonus\u3011\nAll effects that last \"for 1 turn\" or \"that turn only.\" Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 4,
+      "def": 11,
+      "res": 10
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 30,
+      "def": 50,
+      "res": 90
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "spd",
+      "def"
+    ],
+    "weapons": {
+      "Stone": "1",
+      "Elstone": "2",
+      "Atlas": "3",
+      "Loving Bouquets": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4",
+      "Ice Wall": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Res Finish 1": "2",
+        "Atk/Res Finish 2": "3",
+        "Atk/Res Finish 3": "4",
+        "Atk/Res Finish 4": "5"
+      },
+      "B": {
+        "Full Light & Dark": "5"
+      },
+      "C": {
+        "Time's Pulse 1": "2",
+        "Time's Pulse 2": "3",
+        "Time's Pulse 3": "4",
+        "Time Pulse Helm": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/db/Julia_Brides_of_Light_Face.webp/revision/latest?cb=20250516043102",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/85/Julia_Brides_of_Light_BtlFace_D.webp/revision/latest?cb=20250516043057",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/64/Julia_Brides_of_Light_BtlFace_C.webp/revision/latest?cb=20250516043052",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/01/Julia_Brides_of_Light_BtlFace.webp/revision/latest?cb=20250516043037"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5"
+    ],
+    "HARD_ALT_NAME": [
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5",
+      "B Julia",
+      "Duo Julia"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6bd4\u7ffc\u30e6\u30ea\u30a2",
+    "voice": "Cassandra Lee Morris + Ratana",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe4",
+    "quotes": {
+      "Castle Hall": [
+        "**Julia:** This is a truly wonderful festival. The hearts of the people shine brightly.",
+        "**Ishtar:** Lady Julia, Lord Julius's twin sister, is precious to me as well.",
+        "**Ishtar:** Lady Julia, I offer you my support. Please, take this opportunity and enjoy yourself.",
+        "**Julia:** Holding the Book of Naga, Saint Heim offers a prayer to the heavens.\nThat prayer brings light... And light becomes the white dragon that shines throughout the world...",
+        "**Ishtar:** I heard the bride throws her bouquet after the ceremony, and whoever catches it will have their love fulfilled."
+      ],
+      "Visit": [
+        "**Julia:** I hope a time comes when all who wish to can join with the one they love. Including Ishtar, and you..."
+      ],
+      "Level": [
+        "**Julia:** I hope I may find true happiness... Ahh... Was I daydreaming again?",
+        "**Julia:** Is it my bouquet you are after? Or maybe you would like Ishtar's?",
+        "**Ishtar:** Lady Julia, are you growing weary? You mustn't push yourself too hard."
+      ],
+      "Summon": [
+        "How exciting! Both Ishtar and I have long awaited this day. I look forward to the ringing of the bells!"
+      ],
+      "Learn Skill": [
+        "**Ishtar:** Thank you for these sentiments. It is because of you that Lady Julia and I have had such a pleasant time."
+      ],
+      "Confession": [
+        "**Julia:** Um, Ishtar. Close your eyes for just a moment.\n**Ishtar:** Hm? Why, Lady Julia? What has come over you?\n**Julia:** On the names of the 12 crusaders... may you find everlasting happiness.\n**Ishtar:** Wh-what kind of charm is that? There is no need for you to\u2014\n**Julia:** I feel now is a time when it is all right to dream of miracles, so I will go on praying for such.\n**Ishtar:** Lady Julia... You are so kind, and you are right. One day, I hope to be with Lord Julius again...like it was before..."
+      ],
+      "Special": [
+        "**Duo:** I love you.",
+        "**Duo:** Accept... Our love.",
+        "**Julia:** I am with you.",
+        "**Ishtar:** With pleasure..."
+      ],
+      "Status": [
+        "*giggle*",
+        "\"Umm...your dress is lovely.\" \"Thank you. As is yours, Lady Julia.\""
+      ],
+      "Map Select": [
+        "You need something?",
+        "I am nervous.",
+        "Lord Julius..."
+      ],
+      "Conversation": [
+        "**Ishtar:** Hm. I think this flower looks better over here.",
+        "**Julia:** Excuse me... If you're ready, it seems to be almost time.",
+        "**Ishtar:** I apologize for keeping you waiting. I was not satisfied with how I looked.",
+        "**Julia:** That gown... You must be thinking of Lord Julius.",
+        "**Ishtar:** Yes. I would like it if he could see me as beautiful...if just for a time.",
+        "**Julia:** You are very beautiful.",
+        "Your beauty shines more brightly because you love him from the bottom of your heart.",
+        "**Ishtar:** Is there no one whom you have come to love, Lady Julia?",
+        "**Julia:** Not in that way...",
+        "But I do care deeply for Lord Seliph...my brother.",
+        "**Ishtar:** Well, Lady Julia, you also look quite beautiful. One might even say that you have a glow about you.",
+        "**Julia:** Oh, do I? That must be...because of Lord Seliph's kindness.",
+        "He supported me when I thought I had been left with nothing.",
+        "When I felt only fear, it was Lord Seliph who told me that he would protect me.",
+        "**Ishtar:** I see. I always prayed that you, as the lost sister of Lord Julius, were safe somewhere.",
+        "It brings me great happiness to be here with you now.",
+        "**Julia:** Thank you. Knowing that you also care for me...it makes me happy as well."
+      ],
+      "Duo Skill": [
+        "\"May our thoughts\" \"find you.\"",
+        "\"Always\" \"at your side...\""
+      ],
+      "Back Unit Supporting": [
+        "Be calm...",
+        "I will guard your back."
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Bridal Julia",
+    "SEARCH_NAME": "Bridal Julia",
+    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Bridal Julia",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "julia",
+      "julia2",
+      "julia3",
+      "julia4"
+    ],
+    "prf": {
+      "": "lovingbouquets",
+      "eff": "lovingbouquets",
+      "atk": "lovingbouquets",
+      "spd": "lovingbouquets",
+      "def": "lovingbouquets",
+      "res": "lovingbouquets"
+    }
+  },
+  "seliph4": {
+    "name": "Seliph",
+    "title": "Light's Legacy",
+    "description": "Descendant of the crusader Baldr and praised as the Scion of Light. He was invited to the festival to fill the role of a groom. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "origin": "Genealogy of the Holy War",
+    "artist": "namakawa (\u751f\u5ddd)",
+    "move": "Cavalry",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1245",
+    "type": false,
+    "version": "9.5",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 19,
+      "atk": 9,
+      "spd": 10,
+      "def": 11,
+      "res": 4
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 85,
+      "def": 60,
+      "res": 30
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp",
+      "res"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Silver Axe": "3",
+      "Legacy Axe": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Draconic Aura": "4",
+      "Haze Slice": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Clash 1": "2",
+        "Atk/Spd Clash 2": "3",
+        "Atk/Spd Clash 3": "4",
+        "Atk/Spd Excel": "5"
+      },
+      "B": {
+        "Flow Refresh 1": "2",
+        "Flow Refresh 2": "3",
+        "Flow Refresh 3": "4",
+        "Potent Assault": "5"
+      },
+      "C": {
+        "The Heir to Light": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f9/Seliph_Lights_Legacy_Face.webp/revision/latest?cb=20250516043026",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c6/Seliph_Lights_Legacy_BtlFace_D.webp/revision/latest?cb=20250516043021",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d5/Seliph_Lights_Legacy_BtlFace_C.webp/revision/latest?cb=20250516043016",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/60/Seliph_Lights_Legacy_BtlFace.webp/revision/latest?cb=20250516043001"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Light's Legacy",
+      "Seliph: Light's Legacy",
+      "Bridal Seliph",
+      "seliph4"
+    ],
+    "HARD_ALT_NAME": [
+      "Light's Legacy",
+      "Seliph: Light's Legacy",
+      "Bridal Seliph",
+      "seliph4"
+    ],
+    "gender": "M",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u82b1\u5a7f\u30bb\u30ea\u30b9",
+    "voice": "Christian La Monte",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe4",
+    "quotes": {
+      "Castle Hall": [
+        "Who do you suppose will stand by me when that day comes? Wearing such an outfit...it makes one wonder.",
+        "I'd want a ceremony in Tirnanog so people who supported me through difficult times could watch.",
+        "From my heart, I hope those playing the role of brides at this festival will find true happiness.",
+        "What kind of ceremony do you think my father and mother had?",
+        "Until we grew strong enough to fight, my companions and I had to hide from the empire.\nI hope our efforts benefit the ones who aided us in those trying times."
+      ],
+      "Visit": [
+        "Greetings. I am Seliph. When next I visit...it may be that I will come with the one I love by my side."
+      ],
+      "Level": [
+        "Let us advance, holding the feelings we have for our loved ones close to our hearts!",
+        "The time for blessings is at hand!",
+        "Even if there is adversity, if I can find someone with whom I can share both suffering and joy..."
+      ],
+      "Summon": [
+        "I, Seliph, am here to play a groom for the festival. I humbly ask you all for your patience and understanding."
+      ],
+      "Learn Skill": [
+        "I believe it is my responsibility to meet the expectations of the people. I hope I can continue to do so."
+      ],
+      "Confession": [
+        "Summoner, fine work today. Have you reached a good stopping point? I know I am ready for a bit of rest.\nIt is exhausting at times being the Seliph that people expect me to be.\nHow can I explain it? It's as if there is the person I am, and then there is the person I must be in public.\nThis festival may be Askr's, but...I will hold a true ceremony of this kind for myself one day...\nTo marry someone I can see myself building a future alongside in a world ravaged by the chaos of a long war.\nHuh? Who would that be? Well, that is an excellent question..."
+      ],
+      "Special": [
+        "A vow of love!",
+        "Together, always.",
+        "You have my love.",
+        "Your strength is my strength."
+      ],
+      "Status": [
+        "*hum*",
+        "I must admit I am a bit nervous dressed like this. Do I look all right?",
+        "Ah! I...wish you would stop teasing me.",
+        "Whatever else, Mother and Father lived and loved one another. And I am proof of that.",
+        "Such beautiful clothing and...so much love in the air. What a wonderful festival!",
+        "There is no doubt that Julia will be radiant in a wedding dress.",
+        "When I marry, I am sure I will have Father and Mother's blessing.",
+        "I shall never tire of seeing that smile."
+      ],
+      "Map Select": [
+        "Yes, let's.",
+        "Should I go this way?",
+        "At your side."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Bridal Seliph",
+    "SEARCH_NAME": "Bridal Seliph",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Bridal Seliph",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "seliph",
+      "seliph2",
+      "seliph3"
+    ],
+    "prf": {
+      "": "legacyaxe",
+      "eff": "legacyaxe",
+      "atk": "legacyaxe",
+      "spd": "legacyaxe",
+      "def": "legacyaxe",
+      "res": "legacyaxe"
+    }
+  },
+  "larcei3": {
+    "name": "Larcei",
+    "title": "Bride of Astra",
+    "description": "A swordswoman and descendant of the crusader Od. She strikes with all her might like lightning. What fated partner will match her fervor? Appears in Fire Emblem: Genealogy of the Holy War.",
+    "origin": "Genealogy of the Holy War",
+    "artist": "Asatani Tomoyo (\u9ebb\u8c37\u77e5\u4e16)",
+    "move": "Infantry",
+    "weapon": "Lance",
+    "color": "Blue",
+    "duel": false,
+    "id": "1243",
     "type": false,
     "version": "9.5",
     "duo": false,
@@ -17,8 +374,8 @@
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 11,
-      "spd": 8,
+      "atk": 10,
+      "spd": 9,
       "def": 11,
       "res": 9
     },
@@ -37,677 +394,313 @@
       "res"
     ],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Fell Child's Blade": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Silver Lance": "3",
+      "Brilliant Brident": "5"
     },
     "assist": {},
     "special": {
       "Night Sky": "3",
-      "Glimmer": "4",
-      "Gust": "5"
+      "Astra": "4",
+      "Crusader's Astra": "5"
     },
     "passive": {
       "A": {
-        "Bond Breaker": "5"
+        "Atk/Spd Ideal 1": "2",
+        "Atk/Spd Ideal 2": "3",
+        "Atk/Spd Ideal 3": "4",
+        "Perfect Atk/Spd": "5"
       },
       "B": {
-        "Spd/Def Bulwark 1": "2",
-        "Spd/Def Bulwark 2": "3",
-        "Spd/Def Bulwark 3": "4",
-        "S/D Spiked Wall": "5"
+        "Potent 1": "2",
+        "Potent 2": "3",
+        "Potent 3": "4",
+        "Potent Finish": "5"
       },
       "C": {
-        "Odd Spd Wave 1": "2",
-        "Odd Spd Wave 2": "3",
-        "Odd Spd Wave 3": "4",
-        "Odd Spd Wave 4": "5"
+        "Odd Tempest 1": "2",
+        "Odd Tempest 2": "3",
+        "Odd Tempest 3": "4",
+        "Brutal Tempest": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/72/Alear_Fell_Dragon_Child_Face.webp/revision/latest?cb=20250507032235",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Alear_Fell_Dragon_Child_BtlFace_D.webp/revision/latest?cb=20250507032225",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e6/Alear_Fell_Dragon_Child_BtlFace_C.webp/revision/latest?cb=20250507032215",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a7/Alear_Fell_Dragon_Child_BtlFace.webp/revision/latest?cb=20250507032143"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/93/Larcei_Bride_of_Astra_Face.webp/revision/latest?cb=20250516043137",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/15/Larcei_Bride_of_Astra_BtlFace_D.webp/revision/latest?cb=20250516043132",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f3/Larcei_Bride_of_Astra_BtlFace_C.webp/revision/latest?cb=20250516043127",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/79/Larcei_Bride_of_Astra_BtlFace.webp/revision/latest?cb=20250516043112"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Fell Dragon Child",
-      "Alear: Fell Dragon Child",
-      "Fallen M Alear",
-      "Fallen Male Alear",
-      "F M Alear",
-      "alear7"
+      "Bride of Astra",
+      "Larcei: Bride of Astra",
+      "Bridal Larcei",
+      "larcei3"
     ],
     "HARD_ALT_NAME": [
-      "Fell Dragon Child",
-      "Alear: Fell Dragon Child",
-      "Fallen M Alear",
-      "Fallen Male Alear",
-      "F M Alear",
-      "alear7"
+      "Bride of Astra",
+      "Larcei: Bride of Astra",
+      "Bridal Larcei",
+      "larcei3",
+      "B Larcei",
+      "Seliph's Wife",
+      "Selia's Mom"
     ],
-    "gender": "M",
+    "gender": "F",
     "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u95c7\u30ea\u30e5\u30fc\u30eb\u7537",
-    "voice": "Brandon McInnis",
+    "pool": "seasonal",
+    "internal_id": "PID_\u82b1\u5ac1\u30e9\u30af\u30c1\u30a7",
+    "voice": "Lizzie Freeman",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "elyos"
+      "jugdral"
     ],
-    "chibi": "fe17",
+    "chibi": "fe4",
     "quotes": {
       "Castle Hall": [
-        "The Emblems who have become Heroes all have a blue aura, don't they? They're my...enemies, then.",
-        "I must collect the Emblem Rings and defeat Lumera, the Divine Dragon Monarch. That is the role I must play.",
-        "If you tell me to fight, I will obey, for I can do nothing but be here until I am able to return to my father.",
-        "Why do you give me such attention? If I am useful as a pawn in your plans, then what more is there?",
-        "Joy, sadness, and fear are unknown to me. Only defects feel emotions."
+        "Does something look off? I'm pretty certain I know how to dress myself. I'm not a child!",
+        "It wasn't often anyone told me I was pretty, so...when I hear those words, my heart skips a beat.",
+        "This is a good opportunity for me to learn how to fight while dressed in attire like this.",
+        "Even after I become someone's wife, I intend to keep swinging my sword. So, this is good training!",
+        "I shall win the bouquet! And one day, it will be my turn..."
       ],
       "Visit": [
-        "Father did not order this, but I have no choice. I was told to bring this to you from [F]."
+        "I'm Larcei, from Tirnanog. Here, I'll share with you some blessings from [F]'s castle!"
       ],
       "Level": [
-        "There appear to be no problems if I can accomplish this much.",
-        "I've done it, Father.",
-        "I will gain more power next time."
+        "Step forward, you who tries to steal my bouquet! I'll practice my blade on you!",
+        "Prince Shannan himself taught me to fight. You want my bouquet, you'll have to pry it from my fingers!",
+        "It's all right. All I have to do is grasp love with my own strength!"
       ],
       "Summon": [
-        "I am Alear. I am meant to follow the orders of my father and gather the Emblem Rings."
+        "I'm Larcei. I will do what I must to secure victory, at the bridal festival, the Day of Devotion... In any conflict."
       ],
       "Learn Skill": [
-        "My state has changed. What am I meant to do with this?"
+        "What's this about? I... I suppose I can consider it."
       ],
       "Confession": [
-        "Oh, it's you? Recently, when I see you, I am beset by a strange feeling.\nIf Father were here, I do not doubt he would tell me to kill you.\nI believe he would order me to take the Heroes and use them to help fulfill his wish.\nBut, I do not feel compelled to do that. Prioritizing one's emotions is something that defects do, but...\nNo, there is no point in saying more. I will obey and fight for you while I'm here, as I have up to now. That is all."
+        "I see Lord Seliph is playing the role of groom for this festival, is that right, [S]?\nI mean, of course, he's qualified for such a role, but I wonder...\nWill there be any reward for the bride who gathers the most bouquets, such as...\nletting the winner choose someone they'd like summoned?\nIf I win, I'd choose... Well uh... You really put me on the spot here!\nAnyway! Why don't we continue this conversation after I win. Just think about it, all right?"
       ],
       "Special": [
-        "I am a Fell Dragon.",
-        "Defect.",
-        "Sleep now.",
-        "I will dispose of you."
+        "Love befell me.",
+        "I am no child!",
+        "You left me no choice!",
+        "You fool!"
+      ],
+      "Status": [
+        "Hm.",
+        "I may not be a child anymore, but this is still a big step.",
+        "*gasp* You should know better than to accost a bride. Learn some manners!",
+        "I remember when we were hiding with the liberation army in Tirnanog, Lord Seliph and I were never far apart.",
+        "I don't think Iuchar and Iucharba will ever let me out of their sight.",
+        "Someday, Mother will get to see me in a real wedding dress...",
+        "Love befell me, so I will do what must be done.",
+        "You've done so much for me. I won't leave your side."
+      ],
+      "Map Select": [
+        "I do.",
+        "Really?",
+        "Wait for me."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Bridal Larcei",
+    "SEARCH_NAME": "Bridal Larcei",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Bridal Larcei",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "larcei",
+      "larcei2"
+    ],
+    "prf": {
+      "": "brilliantbrident",
+      "eff": "brilliantbrident",
+      "atk": "brilliantbrident",
+      "spd": "brilliantbrident",
+      "def": "brilliantbrident",
+      "res": "brilliantbrident"
+    }
+  },
+  "tine2": {
+    "name": "Tine",
+    "title": "Determined Bride",
+    "description": "A mage and descendant of the crusader Thrud. Swears an oath to be strong and live for both herself and her mother, who suffered great misfortune. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "origin": "Genealogy of the Holy War",
+    "artist": "Asao Urata (\u3046\u3089\u305f\u3042\u3055\u304a)",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Red",
+    "duel": false,
+    "id": "1244",
+    "type": false,
+    "version": "9.5",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 16,
+      "atk": 11,
+      "spd": 8,
+      "def": 6,
+      "res": 8
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
+      "spd": 90,
+      "def": 35,
+      "res": 45
+    },
+    "superboon": [
+      "spd",
+      "res"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Fire": "1",
+      "Elfire": "2",
+      "Bridal Bouquet": "3",
+      "Bridal Bouquet+": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Moonbow": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Catch 1": "1",
+        "Atk/Spd Catch 2": "2",
+        "Atk/Spd Catch 3": "4"
+      },
+      "B": {
+        "S/R Far Trace 1": "2",
+        "S/R Far Trace 2": "3",
+        "S/R Far Trace 3": "4",
+        "S/R Far Trace 4": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0e/Tine_Determined_Bride_Face.webp/revision/latest?cb=20250516043212",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Tine_Determined_Bride_BtlFace_D.webp/revision/latest?cb=20250516043207",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bf/Tine_Determined_Bride_BtlFace_C.webp/revision/latest?cb=20250516043202",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7a/Tine_Determined_Bride_BtlFace.webp/revision/latest?cb=20250516043147"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Determined Bride",
+      "Tine: Determined Bride",
+      "Bridal Tine",
+      "tine2"
+    ],
+    "HARD_ALT_NAME": [
+      "Determined Bride",
+      "Tine: Determined Bride",
+      "Bridal Tine",
+      "tine2",
+      "B Tine"
+    ],
+    "gender": "F",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u82b1\u5ac1\u30c6\u30a3\u30cb\u30fc",
+    "voice": "Courtney Lin",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe4",
+    "quotes": {
+      "Castle Hall": [
+        "Lord Seliph is exactly how I heard he would be. I wish I had met him sooner...",
+        "I heard that Ishtar will also be participating in the festival. I look forward to seeing her.",
+        "One day, I, too, will be with the one I love.",
+        "Bridal gowns are lovely, aren't they? I wonder... Would my mother be happy to see me wearing this?",
+        "Ishtar treated me as a little sister, doting over me... I remember it made me happy."
+      ],
+      "Visit": [
+        "I am Tine. I fled here in an attempt to protect my bouquet!"
+      ],
+      "Level": [
+        "Mother, are you watching? Lifelong happiness is within my grasp!",
+        "I can't give away my bouquet to just anyone!",
+        "Tell me, what should I do, Mother?"
+      ],
+      "Summon": [
+        "I am Tine. So this is a festival where you become a happy bride... Mother... Are you watching me?"
+      ],
+      "Learn Skill": [
+        "F-for me? Thank you..."
+      ],
+      "Confession": [
+        "The spirit here is fantastic. Lovers, brides, grooms... Promising lifelong love to each other beneath the sun.\nThings like this are difficult where I come from, with constant war unfolding...\nMother and Lady Deirdre were both powerless against the chaos of war.\nBut, I don't want the same fate. I won't surrender to it. Mother... Please, watch over me."
+      ],
+      "Special": [
+        "I am right beside you.",
+        "I will be your strength.",
+        "We shall never part.",
+        "For you..."
       ],
       "Status": [
         "Huh...",
-        "I am not a defect.",
-        "Please refrain from touching me. I will end up killing you.",
-        "I must follow Father's will. It is what I was born for.",
-        "Divine Dragon Lumera is an enemy I must defeat.",
-        "\"Shine on, Emblem of\u2014\" No, there is no purpose in reciting those words here.",
-        "Is she all right? My littlest sister, Veyle...",
-        "I had a cute little sister and brother who were torn apart by the Corrupted. I despise the Corrupted."
+        "Ah, such a beautiful dress. Just wearing it is exciting!",
+        "Ah! Oh...a-are you to be my escort? Thank you.",
+        "Lord Seliph... He is everything I heard he would be.",
+        "Ishtar and Prince Julius... They were so in love...",
+        "Mother... She always seemed so sad.",
+        "I'm actually wearing a wedding dress... *sigh* If only mother could see me.",
+        "Allow me to stand by your side, and I will be your strength."
       ],
       "Map Select": [
-        "I shall.",
-        "I stand waiting.",
-        "I must collect them."
+        "Yes.",
+        "Are you sure?",
+        "It will be all right."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Fallen Alear",
-    "SEARCH_NAME": "Fallen Male Alear",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Fallen Male Alear",
+    "short_name": "Bridal Tine",
+    "SEARCH_NAME": "Bridal Tine",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Bridal Tine",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "alear",
-      "alear2",
-      "alear3",
-      "alear4",
-      "alear5",
-      "alear6"
+      "tine"
     ],
     "prf": {
-      "": "fellchildsblade",
-      "eff": "fellchildsblade",
-      "atk": "fellchildsblade",
-      "spd": "fellchildsblade",
-      "def": "fellchildsblade",
-      "res": "fellchildsblade"
+      "": "bridalbouquet",
+      "eff": "bridalbouquet",
+      "atk": "bridalbouquet",
+      "spd": "bridalbouquet",
+      "def": "bridalbouquet",
+      "res": "bridalbouquet"
     }
   },
-  "alear8": {
-    "name": "Alear",
-    "title": "Red Days Past",
-    "description": "One of the Fell Dragon's countless children. At her father's command, she desires the Emblem Rings. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "kainown",
-    "move": "Armored",
-    "weapon": "Breath",
-    "color": "Green",
-    "duel": false,
-    "id": "1238",
-    "type": false,
-    "version": "9.5",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 21,
-      "atk": 9,
-      "spd": 3,
-      "def": 10,
-      "res": 10
-    },
-    "growth": {
-      "hp": 70,
-      "atk": 90,
-      "spd": 35,
-      "def": 80,
-      "res": 90
-    },
-    "superboon": [
-      "hp",
-      "atk",
-      "res"
-    ],
-    "superbane": [],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Flametongue": "3",
-      "Fell Child's Arts": "5"
-    },
-    "assist": {},
-    "special": {
-      "Night Sky": "3",
-      "Glimmer": "4",
-      "Fell Blast": "5"
-    },
-    "passive": {
-      "A": {
-        "Water Boost 1": "2",
-        "Water Boost 2": "3",
-        "Water Boost 3": "4",
-        "Diluvial Boost": "5"
-      },
-      "B": {
-        "Special Fighter 1": "2",
-        "Special Fighter 2": "3",
-        "Special Fighter 3": "4",
-        "Scowling Fighter": "5"
-      },
-      "C": {
-        "Distant Guard 1": "2",
-        "Distant Guard 2": "3",
-        "Distant Guard 3": "4",
-        "Higher Ground": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4e/Alear_Red_Days_Past_Face.webp/revision/latest?cb=20250507032123",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7f/Alear_Red_Days_Past_BtlFace_D.webp/revision/latest?cb=20250507032112",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8a/Alear_Red_Days_Past_BtlFace_C.webp/revision/latest?cb=20250507032101",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4a/Alear_Red_Days_Past_BtlFace.webp/revision/latest?cb=20250507032030"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Red Days Past",
-      "Alear: Red Days Past",
-      "Fallen Female Alear",
-      "Fallen F Alear",
-      "F F Alear",
-      "alear8"
-    ],
-    "HARD_ALT_NAME": [
-      "Red Days Past",
-      "Alear: Red Days Past",
-      "Fallen Female Alear",
-      "Fallen F Alear",
-      "F F Alear",
-      "alear8"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u95c7\u30ea\u30e5\u30fc\u30eb\u5973",
-    "voice": "Not yet recorded.",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "elyos"
-    ],
-    "chibi": "fe17",
-    "quotes": {
-      "Castle Hall": [
-        "It seems I left the rings I had in the world I came from. Must I gather them all over again?",
-        "Emblems with red auras only follow my commands. If they were able to speak, then...",
-        "Do you not have any orders for me? My father would always dispose of pawns he had no use for.",
-        "Have you ever encountered the Corrupted? I dislike them. They kill my siblings.",
-        "I want to live. Just to see tomorrow, and the day that follows, and..."
-      ],
-      "Visit": [
-        "I don't have time for foolishness\u2014 I must return to my father. Take this. It is from [F]."
-      ],
-      "Level": [
-        "I am stronger. With this, I may be able to survive whatever lies ahead.",
-        "I've done it, Father.",
-        "This...makes me a defect."
-      ],
-      "Summon": [
-        "My name is...Alear. I was told my father called me that...just once."
-      ],
-      "Learn Skill": [
-        "What do you hope to achieve by giving me power?"
-      ],
-      "Confession": [
-        "Summoner, I think I understand now how many mighty individuals exist in other worlds.\nObserving some among them who resemble me stirred something deep in my heart...\nIt makes me wish for more than is permissible\u2014to be saved by one adorned in white, like you.\nBut, that is a wish that cannot be fulfilled. This is the fate of one born a Fell Dragon. Forget these words.\nI am a defect. A dragon who can never become something more and will only be disposed of one day."
-      ],
-      "Special": [
-        "I am a Fell Dragon.",
-        "Defect.",
-        "Give me great power.",
-        "You are weak."
-      ],
-      "Status": [
-        "-",
-        "I must collect all of the Emblem Rings.",
-        "What are you doing? You cannot kill me by poking me like that.",
-        "I shall continue to prove that I am not a defect.",
-        "I seek Emblem Marth. The one who is red, like me.",
-        "It is interesting how your expression constantly changes.",
-        "I wonder what Father thinks about the fact that I have not returned.",
-        "One of my older brothers was drowned. One older sister was burned alive. I wonder if I will have a similar fate one day."
-      ],
-      "Map Select": [
-        "If that is your wish.",
-        "What must I do?",
-        "I shall eradicate them."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Fallen Alear",
-    "SEARCH_NAME": "Fallen Female Alear",
-    "DISPLAY_NAME": "<:Green_Breath:1124845770978361425>Fallen Female Alear",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "alear",
-      "alear2",
-      "alear3",
-      "alear4",
-      "alear5",
-      "alear6",
-      "alear7"
-    ],
-    "prf": {
-      "": "fellchildsarts",
-      "eff": "fellchildsarts",
-      "atk": "fellchildsarts",
-      "spd": "fellchildsarts",
-      "def": "fellchildsarts",
-      "res": "fellchildsarts"
-    }
-  },
-  "dedue3": {
-    "name": "Dedue",
-    "title": "Dauntless Beast",
-    "description": "Uses a Crest Stone to transform into a Demonic Beast in battle, repaying his debt to Dimitri, who saved his life. Appears in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "So-taro (\u5275-taro)",
-    "move": "Armored",
-    "weapon": "Beast",
-    "color": "Blue",
-    "duel": false,
-    "id": "1237",
-    "type": "rearmed",
-    "version": "9.5",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 23,
-      "atk": 14,
-      "spd": 4,
-      "def": 10,
-      "res": 10
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 80,
-      "spd": 30,
-      "def": 90,
-      "res": 75
-    },
-    "superboon": [
-      "def"
-    ],
-    "superbane": [
-      "spd",
-      "res"
-    ],
-    "weapons": {
-      "Whelp (Armored)": "1",
-      "Yearling (Arm.)": "2",
-      "Adult (Armored)": "3",
-      "Arcane Crest": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "Sturdy Beast": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Def Form 1": "2",
-        "Atk/Def Form 2": "3",
-        "Atk/Def Form 3": "4",
-        "Atk/Def Fortune": "5"
-      },
-      "B": {
-        "Bold Fighter 1": "2",
-        "Bold Fighter 2": "3",
-        "Bold Fighter 3": "4",
-        "Assault Fighter": "5"
-      },
-      "C": {
-        "For the True King": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Dedue_Dauntless_Beast_Face.webp/revision/latest?cb=20250507032009",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/37/Dedue_Dauntless_Beast_BtlFace_D.webp/revision/latest?cb=20250507031959",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d5/Dedue_Dauntless_Beast_BtlFace_C.webp/revision/latest?cb=20250507031948",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/98/Dedue_Dauntless_Beast_BtlFace.webp/revision/latest?cb=20250507031917"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Dauntless Beast",
-      "Dedue: Dauntless Beast",
-      "Fallen Dedue",
-      "F Dedue",
-      "Rearmed Dedue",
-      "Rearm Dedue",
-      "Arm Dedue",
-      "dedue3"
-    ],
-    "HARD_ALT_NAME": [
-      "Dauntless Beast",
-      "Dedue: Dauntless Beast",
-      "Fallen Dedue",
-      "F Dedue",
-      "Rearmed Dedue",
-      "Rearm Dedue",
-      "Arm Dedue",
-      "dedue3"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u9b54\u7363\u30c9\u30a5\u30c9\u30a5\u30fc",
-    "voice": "Ben Lepley",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fodlan"
-    ],
-    "chibi": "fodlan",
-    "quotes": {
-      "Castle Hall": [
-        "I would abandon everything, even my life, for His Majesty.",
-        "I only live to this day because of His Majesty... I am honored to have walked by his side.",
-        "The Crest Stone transforms me into a Demonic Beast. It is too late for me now...",
-        "Rrraaahhh... I have no...regrets! Even if this power is forbidden... As long as it is for His Majesty!",
-        "It matters not who stands in his way\u2014 I will go through them. Even if they are former peers, it does not matter!"
-      ],
-      "Visit": [
-        "Do you call yourself a friend or a foe of His Majesty, Dimitri? I am certain [F]will aid him."
-      ],
-      "Level": [
-        "I must... Even if my body turns to dust!",
-        "People like you...can never understand the weight His Majesty has borne.",
-        "Urrrggghhh... For His Majesty, I must not fall!"
-      ],
-      "Summon": [
-        "Even if I lose my own humanity and become a Demonic Beast, I shall pave the path for His Majesty's future."
-      ],
-      "Learn Skill": [
-        "With this, I can protect His Majesty!"
-      ],
-      "Confession": [
-        "The people of Duscur never forget their grudges. And more so, they never fail to honor favors...\nHis Majesty risked his own life to save me when I should have died alongside so many of my people.\nI'll return the favor by risking my own life for his. I would cast that life aside if it was for his benefit.\nThe Crest Stone... I can never go back to being human now that I have used it.\nI wish for you to be an ally to His Majesty until the very end. Can you do that, [S]?\nUrrr... My body...will take the form of a Demonic Beast... I must leave the rest...in your hands..."
-      ],
-      "Special": [
-        "Grrr-hmm...",
-        "Raaarghhh!",
-        "Graaarrrgh!",
-        "Raaarrrgh!"
-      ],
-      "Status": [
-        "-",
-        "My name is Dedue. Even through hell, I would follow His Majesty.",
-        "I suggest you back away from me now.",
-        "If we lose here, the Kingdom falls. It seems I have no choice. I must use the Crest Stone...",
-        "I only live because of His Majesty.",
-        "You could never understand the burden His Majesty carries on his shoulders!",
-        "You are the one true king... Dimitri.",
-        "I hope you come to accept His Majesty's ideals. I will go through anyone in his way."
-      ],
-      "Map Select": [
-        "Ugh...",
-        "Grah!",
-        "Raaagh!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rearmed Dedue",
-    "SEARCH_NAME": "Rearmed Dedue",
-    "DISPLAY_NAME": "<:Blue_Beast:1124845338688233575>Rearmed Dedue",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "dedue",
-      "dedue2"
-    ],
-    "prf": {
-      "": "arcanecrest",
-      "eff": "arcanecrest",
-      "atk": "arcanecrest",
-      "spd": "arcanecrest",
-      "def": "arcanecrest",
-      "res": "arcanecrest"
-    }
-  },
-  "lena2": {
-    "name": "Lena",
-    "title": "Bereft Angel",
-    "description": "A cleric from Macedon whose mind was stolen by Gharnef to be used as a sacrifice in the resurrection of Medeus. Appears in Fire Emblem: Mystery of the Emblem.",
-    "origin": "Shadow Dragon",
-    "artist": "\u3072\u3068\u548c",
-    "move": "Infantry",
+  "lana": {
+    "name": "Lana",
+    "title": "Benevolent Bride",
+    "description": "A kind cleric and descendant of the crusader Ullr. As one who is loved by all, she decides her own fate. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "origin": "Genealogy of the Holy War",
+    "artist": "Miwabe Sakura (\u307f\u308f\u3079\u3055\u304f\u3089)",
+    "move": "Flying",
     "weapon": "Staff",
     "color": "Colorless",
     "duel": false,
-    "id": "1240",
-    "type": false,
-    "version": "9.5",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 13,
-      "spd": 5,
-      "def": 6,
-      "res": 10
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 80,
-      "spd": 50,
-      "def": 30,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "spd",
-      "def"
-    ],
-    "weapons": {
-      "Assault": "1",
-      "Martyr's Staff": "5"
-    },
-    "assist": {
-      "Heal": "1",
-      "Mend": "2",
-      "Magic Shield": "3",
-      "Magic Shield+": "5"
-    },
-    "special": {
-      "Imbue": "2",
-      "Miracle": "3",
-      "Holy Pressure": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Res Form 1": "2",
-        "Atk/Res Form 2": "3",
-        "Atk/Res Form 3": "4",
-        "Atk/Res Tidings": "5"
-      },
-      "B": {
-        "Resonance 1": "2",
-        "Resonance 2": "3",
-        "Resonance 3": "4",
-        "Resonance 4": "5"
-      },
-      "C": {
-        "Time's Pulse 1": "2",
-        "Time's Pulse 2": "3",
-        "Time's Pulse 3": "4",
-        "Pulse Up: Ploy": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/00/Lena_Bereft_Angel_Face.webp/revision/latest?cb=20250507032349",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6f/Lena_Bereft_Angel_BtlFace_D.webp/revision/latest?cb=20250507032339",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/89/Lena_Bereft_Angel_BtlFace_C.webp/revision/latest?cb=20250507032328",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/69/Lena_Bereft_Angel_BtlFace.webp/revision/latest?cb=20250507032256"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Bereft Angel",
-      "Lena: Bereft Angel",
-      "Fallen Lena",
-      "F Lena",
-      "lena2"
-    ],
-    "HARD_ALT_NAME": [
-      "Bereft Angel",
-      "Lena: Bereft Angel",
-      "Fallen Lena",
-      "F Lena",
-      "lena2"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u95c7\u30ec\u30ca",
-    "voice": "Brittany Cox",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "archanea"
-    ],
-    "chibi": "archanea",
-    "quotes": {
-      "Castle Hall": [
-        "Ju...li...an... Ahhh! My head... I cannot remember...",
-        "Those I save will take from others. Why... Why do I save lives then?",
-        "We offer our lives to Lord Medeus... That...is our fate.",
-        "This world is filled with humans who continue to harm one another. As such, this world should not exist.",
-        "Lord Medeus devoted all his power to Naga, who desired peace. Humans betrayed this desire."
-      ],
-      "Visit": [
-        "You are to be the fuel that propels Lord Medeus to his goals, [S]."
-      ],
-      "Level": [
-        "If everything fades...the world will be without pain...without sadness...",
-        "I will not allow anyone to get in the way of Lord Medeus.",
-        "I am sorry I fell short of your expectations, Lord Medeus..."
-      ],
-      "Summon": [
-        "I am not the cleric you know as Lena. No... I am Lord Medeus's loyal servant. I will give my life for him."
-      ],
-      "Learn Skill": [
-        "This must be another manifestation of Lord Medeus's will."
-      ],
-      "Confession": [
-        "I have seen with my own eyes countless lives lost to war...\nEven if I healed someone...they would return to battle and take another's life. A vicious cycle...\nHumanity will continue to spread this sadness across the land.\nSo, let us be done with it. Let us erase the rage, the hatred, the agony from this world...\nSuch is the reason Lord Medeus has descended upon us from the heavens. He shall end all conflict.\nAnd you, too, are to offer your life to him...for your final salvation, [S]."
-      ],
-      "Special": [
-        "You will die.",
-        "Lord Medeus...",
-        "Do not resist.",
-        "Stay away..."
-      ],
-      "Status": [
-        "Y-yes?",
-        "Here.",
-        "Please. Please...",
-        "Those who resist Lord Medeus will die.",
-        "I'm scared... Oh, gods!",
-        "Am I being punished? Did I ask too much from others?",
-        "Julian, where are you? Call to me...",
-        "Please... Please don't leave me..."
-      ],
-      "Map Select": [
-        "Yes?",
-        "Where?",
-        "As you command..."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Fallen Lena",
-    "SEARCH_NAME": "Fallen Lena",
-    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Fallen Lena",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "lena"
-    ],
-    "prf": {
-      "": "martyrsstaff",
-      "eff": "martyrsstaff",
-      "atk": "martyrsstaff",
-      "spd": "martyrsstaff",
-      "def": "martyrsstaff",
-      "res": "martyrsstaff"
-    }
-  },
-  "fafnir": {
-    "name": "F\u00e1fnir",
-    "title": "King of Desolation",
-    "description": "King of Ni\u00f0avellir who rose from his station as a lowly soldier. Remembers nothing of his past.",
-    "origin": "Heroes",
-    "artist": "Kozaki Yusuke (\u30b3\u30b6\u30ad\u30e6\u30fc\u30b9\u30b1)",
-    "move": "Cavalry",
-    "weapon": "Lance",
-    "color": "Blue",
-    "duel": false,
-    "id": "1241",
+    "id": "1246",
     "type": false,
     "version": "9.5",
     "duo": false,
@@ -715,153 +708,152 @@
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 9,
-      "spd": 12,
-      "def": 11,
-      "res": 3
+      "atk": 8,
+      "spd": 11,
+      "def": 5,
+      "res": 9
     },
     "growth": {
       "hp": 50,
       "atk": 90,
-      "spd": 80,
-      "def": 60,
-      "res": 35
+      "spd": 70,
+      "def": 45,
+      "res": 50
     },
     "superboon": [
-      "atk"
+      "atk",
+      "spd",
+      "def"
     ],
     "superbane": [
-      "hp"
+      "hp",
+      "res"
     ],
     "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Silver Lance": "3",
-      "Iron Hrei\u00f0marr": "5"
+      "Assault": "1",
+      "Bouquet Baton": "3",
+      "Bouquet Baton+": "5"
     },
     "assist": {
-      "Hrei\u00f0marr": "5"
+      "Heal": "1",
+      "Mend": "2",
+      "Physic": "3",
+      "Physic+": "5"
     },
     "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4"
+      "Imbue": "2",
+      "Swift-Winds Balm": "3",
+      "Windfire Balm": "4"
     },
     "passive": {
-      "A": {},
-      "B": {
-        "Lull Spd/Def 1": "3",
-        "Lull Spd/Def 2": "4",
-        "Lull Spd/Def 3": "5"
+      "A": {
+        "Atk/Spd Form 1": "1",
+        "Atk/Spd Form 2": "2",
+        "Atk/Spd Form 3": "4"
       },
+      "B": {},
       "C": {
-        "Rouse Atk/Spd 1": "1",
-        "Rouse Atk/Spd 2": "2",
-        "Rouse Atk/Spd 3": "4"
+        "Spd/Res Rein 1": "3",
+        "Spd/Res Rein 2": "4",
+        "Spd/Res Rein 3": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2b/Fafnir_King_of_Desolation_Face.webp/revision/latest?cb=20210917064649",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fa/Fafnir_King_of_Desolation_BtlFace_D.webp/revision/latest?cb=20210917064642",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Fafnir_King_of_Desolation_BtlFace_C.webp/revision/latest?cb=20210917064638",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/82/Fafnir_King_of_Desolation_BtlFace.webp/revision/latest?cb=20210917093843"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e2/Lana_Benevolent_Bride_Face.webp/revision/latest?cb=20250516043247",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/eb/Lana_Benevolent_Bride_BtlFace_D.webp/revision/latest?cb=20250516043242",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5f/Lana_Benevolent_Bride_BtlFace_C.webp/revision/latest?cb=20250516043237",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/42/Lana_Benevolent_Bride_BtlFace.webp/revision/latest?cb=20250516043222"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "King of Desolation",
-      "F\u00e1fnir: King of Desolation",
-      "F\u00e1fnir",
-      "Normal F\u00e1fnir",
-      "Base F\u00e1fnir",
-      "Regular F\u00e1fnir",
-      "fafnir"
+      "Benevolent Bride",
+      "Lana: Benevolent Bride",
+      "Bridal Lana",
+      "lana"
     ],
     "HARD_ALT_NAME": [
-      "King of Desolation",
-      "F\u00e1fnir: King of Desolation",
-      "F\u00e1fnir",
-      "Normal F\u00e1fnir",
-      "Base F\u00e1fnir",
-      "Regular F\u00e1fnir",
-      "fafnir"
+      "Benevolent Bride",
+      "Lana: Benevolent Bride",
+      "Bridal Lana",
+      "lana",
+      "B Lana"
     ],
-    "gender": "M",
-    "rarity": 3,
+    "gender": "F",
+    "rarity": 4,
     "pool": "grail",
-    "internal_id": "PID_\u30d5\u30a1\u30d5\u30cb\u30fc\u30eb\u5473\u65b9",
-    "voice": "Griffin Puatu",
+    "internal_id": "PID_\u82b1\u5ac1\u30e9\u30ca",
+    "voice": "Nadia Marshall",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "askr"
+      "jugdral"
     ],
-    "chibi": "heroes",
+    "chibi": "fe4",
     "quotes": {
       "Castle Hall": [
-        "Where... What am I searching for? I struggle to even know who I am...",
-        "My kingdom is Ni\u00f0avellir, the realm of the dvergar. I was not born of royalty; I took the throne of my own strength.",
-        "Do you find our weapons and mounts that unusual? Well, go on then. I'll allow you to touch them.",
-        "You should be grateful that I'll allow a peasant such as you to have a match against me.",
-        "Does that person we passed back there have anything to do with my past? Something feels familiar..."
+        "Though I am not much help in battle, I am happy just to be by Lord Seliph's side.",
+        "I have such fond memories of Lord Seliph and myself playing together as children. I wish to be like that again.",
+        "How do I look? If Mother were here, she would ensure everything was in its place.",
+        "You would like to know whose bride I want to be? But, I... I never really thought about it.",
+        "I have no intention of forgoing my true purpose as a cleric, even in times like these."
       ],
       "Visit": [
-        "Next, I'll take your castle. I already took [F]'s."
+        "I pray the gods will shower words of celebration upon this land of [S]'s castle!"
       ],
       "Level": [
-        "Who do you think I am? This is nothing for me.",
-        "Not good enough.",
-        "This...cannot be..."
+        "I pray you, too, will be blessed!",
+        "Larcei and Lady Julia deserve to be truly happy. And I, too, will do my best to be happy as well!",
+        "I find myself trembling under the gaze of so many..."
       ],
       "Summon": [
-        "I am F\u00e1fnir, king of Ni\u00f0avellir. I shall train you ignorant swine to do my bidding. Do your best to obey me."
+        "I hear this festival is a celebration of sharing love. I will work with Larcei and Lady Julia to ensure all enjoy it."
       ],
       "Learn Skill": [
-        "How insightful of you. Now, eyes up. You won't want to miss what lies ahead."
+        "Thank you. Let me know if anything troubles you. I will help in any way I can, [S]."
       ],
       "Confession": [
-        "Ni\u00f0avellir is my country, but to call it my homeland is...just not right. I have no memories of my homeland.\nAnd my family, well... I picked them up on a whim, nothing more... But they've proven themselves useful.\nFamily has nothing to do with one's homeland. Only a naive peasant could think that.\nNo... It does not matter where my homeland is if I hold the whole world in my hands.\nEventually, I will rule your homeland as well. For now, I'll humor you and act as your subordinate. Ahaha..."
+        "Wedding dresses are so lovely... Whoever wears such a gown is truly blessed.\nI wonder if a day will come for me where I will promise to share a future with the one I love.\nThough, there are many lovers who have been torn apart by countless wars.\nI pray this sorrow will end, and that all people will be blessed and joined with the one they love.\nAnd so, I will enjoy this celebration from the bottom of my heart and express my feelings to all I love...\nIncluding the one who is most precious to me.\nI would be happy if you chose to watch over me as well, [S]."
       ],
       "Special": [
-        "Struggle! Prove yourself!",
-        "I will tame you.",
-        "I am king!",
-        "Give up."
+        "I am here.",
+        "You are my all.",
+        "I love you.",
+        "Together forever!"
       ],
       "Status": [
-        "-",
-        "I am F\u00e1fnir, king of Ni\u00f0avellir. You should kneel.",
-        "You would sully me with your touch.",
-        "Reginn and \u00d3tr? I found them on the battlefield and brought them along. It was a whim, nothing more...",
-        "I will conquer all worlds. That is how it is and shall be.",
-        "This is the crown of Ni\u00f0avellir's king. Is it not magnificent?",
-        "Not here... This isn't right! Where... What am I searching for?",
-        "I feel a strange relief that you summoned me. Strange indeed, this feeling..."
+        "*sigh*",
+        "This blessing...",
+        "Wish for happiness.",
+        "I am Lana. I am honored to be a part of this festival... And in such a lovely dress.",
+        "Lord Seliph and I often played together when we were young.",
+        "After I marry, I wish to be blessed with many children... That is my hope.",
+        "My heart cannot help but quaver when I hear those words.",
+        "I worry over you, so...I will stay by your side."
       ],
       "Map Select": [
-        "Indeed, yes.",
-        "Hmm.",
-        "Entertain me."
+        "I will.",
+        "Where to?",
+        "I am with you."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "F\u00e1fnir",
-    "SEARCH_NAME": "F\u00e1fnir",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>F\u00e1fnir",
+    "short_name": "Bridal Lana",
+    "SEARCH_NAME": "Bridal Lana",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Bridal Lana",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "fafnir"
-    ],
+    "reference": [],
     "prf": {
-      "": "ironhreidmarr",
-      "eff": "ironhreidmarr",
-      "atk": "ironhreidmarr",
-      "spd": "ironhreidmarr",
-      "def": "ironhreidmarr",
-      "res": "ironhreidmarr"
+      "": "bouquetbaton",
+      "eff": "bouquetbaton",
+      "atk": "bouquetbaton",
+      "spd": "bouquetbaton",
+      "def": "bouquetbaton",
+      "res": "bouquetbaton"
     }
   }
 }
