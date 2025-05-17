@@ -16,7 +16,7 @@ local Item = {}
 -- Character --
 ---------------------------------------------------
 Character.__index = Character
-setmetatable(Character,  fe3.Character)
+setmetatable(Character, Character)
 
 Character.section = almanac.get("database/fe3/redirect.json")
 Character.helper_job_growth = false
@@ -30,7 +30,7 @@ end
 function Character:default_options()
     return {
         class = self.data.job,
-        book = "b2"
+        book = "bsfe"
     }
 end
 
