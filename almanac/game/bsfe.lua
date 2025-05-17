@@ -57,12 +57,6 @@ function Redirect:setup()
     self.book = self.options.book
 end
 
-local redirect_table = {
-    b1 = Book 1,
-    b2 = Book 2
-    
-}
-
 function Redirect:show()
     local character = self:get()
     
@@ -107,10 +101,20 @@ Item.section = almanac.get("database/fe3/item.json")
 -- Job --
 ---------------------------------------------------
 Job.__index = Job
-setmetatable(Job, almanac.workspaces.Job)
+setmetatable(Job, fe3.Job)
 
 Job.section = almanac.get("database/fe3/job.json")
-Job.hp_bonus = false
+
+-- Only return the res for display stuff and dread fither
+function Job:get_base(display)
+    local base = util.copy(self.data.base)
+    
+    if not display and self.id ~= "dreadfighter" then
+        base.res = 0
+    end
+    
+    return base
+end
 
 return {
     Character = Character,
