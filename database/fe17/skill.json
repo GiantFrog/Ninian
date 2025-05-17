@@ -2970,7 +2970,7 @@
   },
   "windsweep": {
     "name": "Windsweep",
-    "desc": "If unit initiates combat with a sword, foe may not counterattack. Trigger %=Lck.",
+    "desc": "When unit attacks with a sword, foe may not counterattack. Trigger %=Lck.",
     "cost": 0,
     "reference": {
       "Bond Ring": "Alm S"
