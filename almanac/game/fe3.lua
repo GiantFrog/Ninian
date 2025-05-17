@@ -287,7 +287,7 @@ end
 ---------------------------------------------------
 
 BSFE.__index = BSFE
-setmetatable(BSFE,  fe2.Character)
+setmetatable(BSFE, Character)
 
 BSFE.section = almanac.get("database/fe3/bsfe.json")
 BSFE.helper_job_growth = false
