@@ -3304,7 +3304,11 @@
       "Spring Henry",
       "Bunny Henry",
       "Spring Henri",
-      "Bunny Henri"
+      "Bunny Henri",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "raven",
@@ -3369,12 +3373,17 @@
       "Senry",
       "Bunny Henry",
       "Spring Henri",
-      "Bunny Henri"
+      "Bunny Henri",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "heroes": {
       "henry": "<:Red_Tome:1124846175577710642>Henry",
       "henry2": "<:Green_Tome:1124845959873036289>Halloween Henry",
       "henry3": "<:Colorless_Bow:1124845636659982457>Spring Henry",
+      "henryR": "<:Red_Tome:1124846175577710642>Henry (Resplendent)",
       "kamui": "<:Red_Sword:1124846201070698536>Kamui",
       "karel": "<:Red_Sword:1124846201070698536>Karel",
       "oscar": "<:Blue_Lance:1124845569496584302>Oscar",

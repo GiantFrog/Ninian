@@ -17003,7 +17003,11 @@
       "Regular Pandreo",
       "Base Pandreo",
       "Normal Pandreo",
-      "pandreo"
+      "pandreo",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Petrine",
@@ -17109,7 +17113,11 @@
       "Regular Pandreo",
       "Base Pandreo",
       "Normal Pandreo",
-      "pandreo"
+      "pandreo",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "heroes": {
       "arion": "<:Blue_Lance:1124845569496584302>Arion",
@@ -17117,6 +17125,7 @@
       "geese": "<:Blue_Lance:1124845569496584302>Pirate Geese",
       "heath2": "<:Colorless_Bow:1124845636659982457>Ninja Heath",
       "hector4R": "<:Blue_Lance:1124845569496584302>Brave Hector (Resplendent)",
+      "henryR": "<:Red_Tome:1124846175577710642>Henry (Resplendent)",
       "hilda4": "<:Red_Tome:1124846175577710642>Jugdral Hilda",
       "jaffar2": "<:Green_Dagger:1124845796169351320>Winter Jaffar",
       "kyle": "<:Blue_Lance:1124845569496584302>Kyle",
@@ -24431,7 +24440,11 @@
       "Resplendent Laegjarn",
       "Resp Laegjarn",
       "R Laegjarn",
-      "Laegjarn (Resplendent)"
+      "Laegjarn (Resplendent)",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Normal Gaia",
@@ -24549,7 +24562,11 @@
       "Resplendent Laegjarn",
       "Resp Laegjarn",
       "R Laegjarn",
-      "Laegjarn (Resplendent)"
+      "Laegjarn (Resplendent)",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "heroes": {
       "alfonse4": "<:Green_Tome:1124845959873036289>Valentines Alfonse",
@@ -24565,6 +24582,7 @@
       "geese": "<:Blue_Lance:1124845569496584302>Pirate Geese",
       "heath2": "<:Colorless_Bow:1124845636659982457>Ninja Heath",
       "hector4R": "<:Blue_Lance:1124845569496584302>Brave Hector (Resplendent)",
+      "henryR": "<:Red_Tome:1124846175577710642>Henry (Resplendent)",
       "hilda4": "<:Red_Tome:1124846175577710642>Jugdral Hilda",
       "ignatz": "<:Colorless_Bow:1124845636659982457>Winter Ignatz",
       "kaden2": "<:Red_Beast:1124846309208248381>New Year Kaden",
