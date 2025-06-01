@@ -11739,7 +11739,15 @@
       "Normal Uther",
       "Regular Uther",
       "Hector's Brother",
-      "uther"
+      "uther",
+      "Mortal Legend",
+      "Black Knight: Mortal Legend",
+      "Legendary Black Knight",
+      "Legend Black Knight",
+      "Leg Black Knight",
+      "L Black Knight",
+      "black knight3",
+      "blackknight3"
     ],
     "HARD_ALT_NAME": [
       "ryoma",
@@ -12080,13 +12088,22 @@
       "Normal Uther",
       "Regular Uther",
       "Hector's Brother",
-      "uther"
+      "uther",
+      "Mortal Legend",
+      "Black Knight: Mortal Legend",
+      "Legendary Black Knight",
+      "Legend Black Knight",
+      "Leg Black Knight",
+      "L Black Knight",
+      "black knight3",
+      "blackknight3"
     ],
     "heroes": {
       "aelfric": "<:Red_Tome:1124846175577710642>Aelfric",
       "altina": "<:Red_Sword:1124846201070698536>Altina",
       "altina2": "<:Red_Sword:1124846201070698536>Harmonic Altina",
       "ashera": "<:Colorless_Tome:1124845725960904734>Ashera",
+      "blackknight3": "<:Red_Sword:1124846201070698536>Legendary Black Knight",
       "caineghis": "<:Colorless_Beast:1124845615935918110>Caineghis",
       "cecilia": "<:Green_Tome:1124845959873036289>Cecilia",
       "cecilia2": "<:Colorless_Dagger:1124845658617155734>Winter Cecilia",

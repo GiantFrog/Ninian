@@ -24318,7 +24318,15 @@
       "Resplendent Black Knight",
       "Resp Black Knight",
       "R Black Knight",
-      "Black Knight (Resplendent)"
+      "Black Knight (Resplendent)",
+      "Mortal Legend",
+      "Black Knight: Mortal Legend",
+      "Legendary Black Knight",
+      "Legend Black Knight",
+      "Leg Black Knight",
+      "L Black Knight",
+      "black knight3",
+      "blackknight3"
     ],
     "HARD_ALT_NAME": [
       "blackknight",
@@ -24378,11 +24386,20 @@
       "Resplendent Black Knight",
       "Resp Black Knight",
       "R Black Knight",
-      "Black Knight (Resplendent)"
+      "Black Knight (Resplendent)",
+      "Mortal Legend",
+      "Black Knight: Mortal Legend",
+      "Legendary Black Knight",
+      "Legend Black Knight",
+      "Leg Black Knight",
+      "L Black Knight",
+      "black knight3",
+      "blackknight3"
     ],
     "heroes": {
       "blackknight": "<:Red_Sword:1124846201070698536>Black Knight",
       "blackknight2": "<:Green_Axe:1124845885277343754>Winter Black Knight",
+      "blackknight3": "<:Red_Sword:1124846201070698536>Legendary Black Knight",
       "blackknightR": "<:Red_Sword:1124846201070698536>Black Knight (Resplendent)",
       "finn": "<:Blue_Lance:1124845569496584302>Finn",
       "zelgius": "<:Red_Sword:1124846201070698536>Zelgius",
