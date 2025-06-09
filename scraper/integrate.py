@@ -129,47 +129,55 @@ def credits(key, resp=False):
     return
 
 
-def weapon_get(key):
+def weapon_get(key, new_weapon=None, new_rarity=5):
     # get the units list of weapons
     unit = char[key]
     weapons = unit["weapons"].keys()
 
-    rarity = 0
-    wep = ""
+    if new_weapon:
+        rarity = new_rarity
+        wep = new_weapon
+        global skill
+        with open('../database/feh/skill.json', 'r', encoding="utf-8") as f:
+            skill = json.load(f)
+    else:
+        rarity = 0
+        wep = ""
 
-    # get their highest rarity weapon
-    for i in weapons:
-        temp_rarity = int(unit["weapons"][i])
-        if temp_rarity >= rarity:
-            rarity = temp_rarity;
-            wep = i
+        # get their highest rarity weapon
+        for i in weapons:
+            temp_rarity = int(unit["weapons"][i])
+            if temp_rarity >= rarity:
+                rarity = temp_rarity
+                wep = i
 
     # regex to determine the key used in skill.json
 
     wep_key = utility.compress(wep)
 
-
     all_keys = skill.keys()
 
-    # choose the highest rarity between character's avaiable rarity and the weapon's unlock rarity (its going to b4 5
+    # choose the highest rarity between character's available rarity and the weapon's unlock rarity (its going to b4 5
     # star like 99% of the time)
     true_rarity = max(rarity, unit['rarity'])
 
-    # if they're using an existsing weapon
+    # if they're using an existing weapon
     if wep_key in all_keys:
         entry = skill[wep_key]
         entry['reference'][wep][key] = str(true_rarity)
 
     # new weapon, go scrape the wiki page
     else:
-        if (wep == 'Thief'):
+        if wep == 'Thief':
             entry = weapon.scrape_page('Thief_(weapon)')
         else:
             entry = weapon.scrape_page(wep)
-        ref = {}
-        ref[wep] = {}
-        ref[wep][key] = str(true_rarity)
-        entry['reference'] = ref;
+        ref = {
+            wep: {
+                key: str(true_rarity)
+            }
+        }
+        entry['reference'] = ref
         entry['skill'][0]['weapon_type'] = f"{unit['color']}_{unit['weapon']}"
 
     for i in unit['HARD_ALT_NAME']:
@@ -177,31 +185,36 @@ def weapon_get(key):
 
     entry['HARD_ALT_NAME'] = list(set(entry['HARD_ALT_NAME']))
 
+    # strip the hero's name from the aliases of previous weapons
+    for old_weapon in weapons:
+        old_key = utility.compress(old_weapon)
+        if old_key != wep_key:
+            old_alts = skill[old_key]['HARD_ALT_NAME']
+            unit_alts = unit["ALT_NAME"] + unit["HARD_ALT_NAME"]
+            unit_alts.append(key)
+            skill[old_key]['HARD_ALT_NAME'] = [alias for alias in old_alts if alias not in unit_alts]
+
     skill[wep_key] = entry
     with open('../database/feh/skill.json', 'w', encoding="utf-8") as fp:
         json.dump(skill, fp, indent=2)
 
-    return
-
 def integrate_skills(key):
-
     unit = char[key]
     
-    if (any(unit['assist'])):
+    if any(unit['assist']):
         integrate_as_sp('assist', key)
-    if (any(unit['special'])):
+    if any(unit['special']):
         integrate_as_sp('special', key)
    
     passives =  unit['passive']
-    if (any(passives['A'])):
+    if any(passives['A']):
         integrate_passive('A', key)
-    if (any(passives['B'])):
+    if any(passives['B']):
         integrate_passive('B', key)
-    if (any(passives['C'])):
+    if any(passives['C']):
         integrate_passive('C', key)
-    if (any(passives['X'])):
+    if any(passives['X']):
         integrate_passive('X', key)
-    return
 
 def integrate_as_sp(slot, key):
     unit = char[key]
@@ -234,9 +247,6 @@ def integrate_as_sp(slot, key):
             ref[intobj[i]['name']][key] =  intobj[i]['rarity']
             newskill['reference'] = ref
             skill[i] = newskill
-
-    return
-
 
 def integrate_passive(slot, key):
     unit = char[key]
@@ -300,25 +310,11 @@ def main(units):
         portrait.portrait(i, char[i])
     return
 
+# Please put code to manually run in here, so it doesn't run when we import this package elsewhere!
+if __name__ == "__main__":
+    with open('update.json', 'r', encoding="utf-8") as f:
+        units = json.load(f)
 
-with open('update.json', 'r', encoding="utf-8") as f:
-    units = json.load(f)
+    main(units)
 
-main(units)
-
-#credits('robin14', False)
-
-weapon_get("louise")
-weapon_get("arete")
-
-
-
-
-
-
-
-
-
-
-
-
+    #credits('robin14', False)

@@ -1,14 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import portrait
-import re
 import utility
+from scraper import integrate
 
 refines = [
-"louise",
-"arete"
-
+    "dedue",
+    "fernand",
+    "miranda"
 ]
 
 path = "../database/feh/images/passive/"
@@ -21,7 +20,7 @@ with open('../database/feh/skill.json', 'r') as f:
 
 
 def ref(key):
-
+    # TODO would be real cool to use a pool search to look up char keys, but then it loads oifey.__init__ and that's no good
     unit = char[key]
     page_name = unit['name'] + ': ' + unit['title']
     # Follow the same steps for feheroes.fandom
@@ -31,34 +30,26 @@ def ref(key):
     # The information we want on the page is stored under '<div role="document" class="page">
     document = soup.find(class_="mw-parser-output")
 
-
-    # get the name and title of the unit and append both to the unit_info
-    wiki_info = document.find(class_="wikitable hero-infobox").find_all('tr')
-
-
-
-
     skill_tables = document.find_all(class_="wikitable default unsortable skills-table")
-    weapons = {};
+    weapons = {}
     link = ""
     wep_table = skill_tables[0].find_all('tr')
     for i in range(1, len(wep_table)):
-        #print(cols)
         cols = wep_table[i].find_all('td')
         link = cols[0].find_all('a')[0]['href']
         wep = list(cols[0].stripped_strings)[0]
         unlock = list(cols[6].stripped_strings)[0]
         weapons[wep] = unlock
 
-    last = list(weapons.keys()).pop();
-
+    last = list(weapons.keys()).pop()
     wep_key = utility.compress(last)
 
-
-    
-    weapon = skills[wep_key]   
-
-
+    global skills
+    if wep_key not in skills:
+        integrate.weapon_get(key, new_weapon=last)
+        with open('../database/feh/skill.json', 'r') as f:
+            skills = json.load(f)
+    weapon = skills[wep_key]
 
     fandom = requests.get(f'https://feheroes.fandom.com/{link}')
     soup = BeautifulSoup(fandom.text, 'html.parser')
@@ -77,40 +68,31 @@ def ref(key):
     og_desc = weapon['skill'][0]['description']
 
     refine = {
-    "special" : []
+        "special": [],
+        "description": False if desc == og_desc else desc
     }
-
-    if (desc == og_desc):
-        refine['description'] = False
-    else:
-        refine['description'] = desc
 
     refine['special'].append(eff)
     weapon['refine'] = refine
-
-
-
 
     try:
         file_counter = open("counter.txt", "r+")
         count = file_counter.read()
         count = int(count)
+        if count:
+            data = requests.get(url).content
+            f = open(path + str(count) + '.png', 'wb')
+            f.write(data)
+            f.close()
+            weapon['icon'] = count
+            count = count+1
+            count = (str(count))
+            file_counter.truncate(0)
+            file_counter.seek(0)
+            file_counter.write(count)
+            file_counter.close()
     except Exception as e:
-        print("Something went wrong with opening the file. Error: ", e)
-
-    if count:
-    
-        data = requests.get(url).content
-        f = open(path + str(count) + '.png', 'wb')
-        f.write(data)
-        f.close()
-        weapon['icon'] = count
-        count = count+1
-        count = (str(count))
-        file_counter.truncate(0)
-        file_counter.seek(0)
-        file_counter.write(count)
-        file_counter.close()
+        print("Something went wrong with opening counter.txt, and no new skill icon was written. Error: ", e)
 
 
     unit['prf'][''] = wep_key + 'eff'
@@ -120,11 +102,8 @@ def ref(key):
     unit['prf']['def'] = wep_key + 'def'
     unit['prf']['res'] = wep_key + 'res'
 
-
-
     char[key] = unit
     skills[wep_key] = weapon
-
 
     print(char[key]['prf'])
     print(skills[wep_key]['refine'])
@@ -134,13 +113,6 @@ def ref(key):
     with open('../database/feh/skill.json', 'w') as fp:
         json.dump(skills, fp, indent=2)
 
-
-   
-    #print(blank)
-    return
-
 for i in range(0, len(refines)):
     ref(refines[i])
 #print(scrape_page('/wiki/Lucina:_Future_Witness'))
-
-

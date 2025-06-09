@@ -1,181 +1,872 @@
 {
-  "blackknight3": {
-    "name": "Black Knight",
-    "title": "Mortal Legend",
-    "description": "A swordsman and general, revered as the strongest of Daein's Four Riders under Mad King Ashnard. It is said he protected the Dawn Maiden, who sought to restore Daein's former prosperity. Appears in Fire Emblem: Radiant Dawn.",
-    "origin": "Radiant Dawn",
-    "artist": "Kita Senri (\u5317\u5343\u91cc)",
-    "move": "Armored",
-    "weapon": "Sword",
+  "excellus": {
+    "name": "Excellus",
+    "title": "Conqueror\u2019s Wile",
+    "description": "A tactician who serves Walhart, the emperor of Valm. Acts superior to others and does not hesitate to make use of and discard them. Appears in Fire Emblem Awakening.",
+    "origin": "Awakening",
+    "artist": "\u30aa\u30c3\u30c8\u30f3",
+    "move": "Infantry",
+    "weapon": "Tome",
     "color": "Red",
     "duel": false,
-    "id": "1247",
-    "type": "legendary",
-    "version": "9.5",
+    "id": "1252",
+    "type": false,
+    "version": "9.6",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 25,
-      "atk": 10,
-      "spd": 3,
-      "def": 12,
-      "res": 11
+      "hp": 18,
+      "atk": 12,
+      "spd": 6,
+      "def": 9,
+      "res": 8
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 30,
-      "def": 85,
-      "res": 80
+      "hp": 55,
+      "atk": 80,
+      "spd": 35,
+      "def": 50,
+      "res": 90
     },
     "superboon": [
-      "atk"
+      "res"
     ],
     "superbane": [
-      "hp",
-      "spd"
+      "def"
     ],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Final Sword": "5"
+      "Fire": "1",
+      "Elfire": "2",
+      "Rau\u00f0rsparrow": "3",
+      "Rau\u00f0rsparrow+": "5"
     },
-    "assist": {},
+    "assist": {
+      "Rally Attack": "3",
+      "Rally Up Atk": "4"
+    },
     "special": {
-      "New Moon": "3",
-      "Luna": "4",
-      "Pitch-Dark Luna": "5"
+      "Chilling Wind": "3",
+      "Glacies": "4"
     },
     "passive": {
-      "A": {
-        "Distant Counter": "4",
-        "Distant A/D Form": "5"
-      },
+      "A": {},
       "B": {
-        "Vengeful Fighter 1": "2",
-        "Vengeful Fighter 2": "3",
-        "Vengeful Fighter 3": "4",
-        "Counter Fighter": "5"
+        "Def/Res Ruse 1": "3",
+        "Def/Res Ruse 2": "4",
+        "Def/Res Ruse 3": "5"
       },
       "C": {
-        "A/D Far Save 1": "2",
-        "A/D Far Save 2": "3",
-        "A/D Far Save 3": "4",
-        "A/D Briar F Save": "5"
+        "Atk Ploy 1": "1",
+        "Atk Ploy 2": "2",
+        "Atk Ploy 3": "4"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6e/Black_Knight_Mortal_Legend_Face.webp/revision/latest?cb=20250530045941",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b7/Black_Knight_Mortal_Legend_BtlFace_D.webp/revision/latest?cb=20250530045936",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/71/Black_Knight_Mortal_Legend_BtlFace_C.webp/revision/latest?cb=20250530045932",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cf/Black_Knight_Mortal_Legend_BtlFace.webp/revision/latest?cb=20250530045917"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d0/Excellus_Conquerors_Wile_Face.webp/revision/latest?cb=20250605053358",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/39/Excellus_Conquerors_Wile_BtlFace_D.webp/revision/latest?cb=20250605053353",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/64/Excellus_Conquerors_Wile_BtlFace_C.webp/revision/latest?cb=20250605053348",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3b/Excellus_Conquerors_Wile_BtlFace.webp/revision/latest?cb=20250605053333"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Mortal Legend",
-      "Black Knight: Mortal Legend",
-      "Legendary Black Knight",
-      "Legend Black Knight",
-      "Leg Black Knight",
-      "L Black Knight",
-      "black knight3",
-      "blackknight3"
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
     ],
     "HARD_ALT_NAME": [
-      "Mortal Legend",
-      "Black Knight: Mortal Legend",
-      "Legendary Black Knight",
-      "Legend Black Knight",
-      "Leg Black Knight",
-      "L Black Knight",
-      "black knight3",
-      "blackknight3"
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
     ],
     "gender": "M",
-    "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u4f1d\u627f\u6f06\u9ed2\u306e\u9a0e\u58eb",
-    "voice": "Robert Clotworthy",
+    "rarity": 3,
+    "pool": "grail",
+    "internal_id": "PID_\u30a8\u30af\u30bb\u30e9\u30a4",
+    "voice": "Spike Spencer",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "tellius"
+      "ylisse"
     ],
-    "chibi": "fe10",
+    "chibi": "fe13",
     "quotes": {
       "Castle Hall": [
-        "Darkness is my way of life. How could anyone really know me if they cannot see me?",
-        "To surpass General Gawain was my ultimate goal as a swordsman.",
-        "No thanks are needed. I do nothing more than fulfill my duty.",
-        "My armor lost its protection after my battle with him...",
-        "The light of judgment is approaching..."
+        "I'll end up on the winning side one way or another! Whee hee hee hee!",
+        "Everything is going exactly as I planned! To hell with him...with the both of them!",
+        "Today's \"struggle\"? I think you mean today's SLAUGHTER.",
+        "I'm after Yen'fay! I could care less whether the little girl lives or dies. Whee hee hee hee!",
+        "They always forget who I am! Whatever I do, this spider crawls out alive! Eee hee hee hee!"
       ],
       "Visit": [
-        "Use your strong will to keep on the path toward self-improvement, just as [F]has."
+        "Oooh, it appears I'm just in time for the reunion! Delicious..."
       ],
       "Level": [
-        "Make your peace. This blow will be your end.",
-        "In battle, you either kill or be killed... There is nothing else.",
-        "Fate is immutable."
+        "Did you see the grief etched on their face? The mix of longing and pain in the eyes?",
+        "You have important matters to think after, and to deal with...quickly. Feel free to thank me some other time!",
+        "Whee hee hee! Disgusting!"
       ],
       "Summon": [
-        "You are the tactician who commands Heroes from other worlds? Then I shall make my blade of use to you."
+        "Be confused! Be insecure! Be afraid! In the face of the brilliant tactician, Excellus! Wee hee hee hee hee!"
       ],
       "Learn Skill": [
-        "My life was shrouded in darkness. There was not anyone capable of measuring its meaning...until now."
+        "I'll fry them where they stand with my magic! We will crush them all..."
       ],
       "Confession": [
-        "I assume you ask to know what I am thinking out of either pity or compassion...\nYou want to know why a man such as me would abandon his identity to live only by the sword?\nI find the world in which I live to be grotesque, filled with endless conflict between those who harbor hate.\nMortals filled with contempt that knows no bounds...\nIf you wish to hear more, then you should inquire of my master, [S].\nAs for me, I will return to the darkness beneath the moonlight.\nI wish to remain a phantom in the night, one that crosses blades with him in the end."
+        "Well, well, if it isn't [S]!\nI like that name. It shines like a light.\nPity about your looks. But no matter. I've always been surrounded by oafs.\nYes, I know. Looks and brains\u2014I've got it all. I'm the god of tacticians!\nAnd speaking as the god of tacticians, I'd say you're not half bad yourself. You could use some pointers, though.\nI can tell you're salivating at the very idea of sharing in my wisdom, so... Let's do it. Starting tomorrow.\nReady for your first lesson? You may be surprised, but I do love teaching an eager student. Wee hee hee!"
       ],
       "Special": [
-        "Say your prayers.",
-        "This will end you.",
-        "Let us settle this.",
-        "For my lord..."
+        "Eee hee hee!",
+        "A spell to amuse you!",
+        "I've touched a nerve!",
+        "Good fool!"
       ],
       "Status": [
-        "Hm...",
-        "Hahahaha... A Legendary Hero? Me? What sort of legacy could I have left?",
-        "Hm. Strike my armor all you wish. You will only hurt your hand.",
-        "I was once one of the Four Riders, serving the army of old Daein.",
-        "If you hope to protect her, become stronger. Strong enough to surpass me, and stronger still.",
-        "My maiden...I will stop at nothing to protect you.",
-        "Son of Gawain...and courageous warriors...",
-        "I will become your shield. Do not leave my side."
+        "Hm.",
+        "I am Excellus! You should feel honored to stand near me!",
+        "Oooh, so you wish to bask in my presence? My, you flatter me!",
+        "Mm, seeing the grief etched on good men's faces...the longing and pain as they meet their demise...is so thrilling!",
+        "I don't know about you, but I try to avoid committing murder...myself.",
+        "**One must attain the only sparkling beauty in this world:** the flower that is victory!",
+        "I only brought the rebels to that general so they might...learn from her shining example!",
+        "You summoned me here. You had better take responsibility for that!"
       ],
       "Map Select": [
-        "Indeed.",
-        "You would let them go?",
-        "Let us begin."
+        "Wonderful!",
+        "Oh?",
+        "Just in time!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Legendary Black Knight",
-    "SEARCH_NAME": "Legendary Black Knight",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Legendary Black Knight",
+    "short_name": "Excellus",
+    "SEARCH_NAME": "Excellus",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Excellus",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "raudrsparrow",
+      "eff": "raudrsparrow",
+      "atk": "raudrsparrow",
+      "spd": "raudrsparrow",
+      "def": "raudrsparrow",
+      "res": "raudrsparrow"
+    }
+  },
+  "grima": {
+    "name": "Grima",
+    "title": "Tyrant of Despair",
+    "description": "Grima, having consumed Robin. The world, filled with death and destruction, greets its end. Appears in Fire Emblem Awakening.",
+    "origin": "Awakening",
+    "artist": "\u516d\u7fbd\u7530\u30c8\u30e2\u30a8",
+    "move": "Armored",
+    "weapon": "Breath",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1251",
+    "type": false,
+    "version": "9.6",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 22,
+      "atk": 13,
+      "spd": 5,
+      "def": 12,
+      "res": 9
+    },
+    "growth": {
+      "hp": 60,
+      "atk": 80,
+      "spd": 30,
+      "def": 75,
+      "res": 90
+    },
+    "superboon": [
+      "res"
+    ],
+    "superbane": [
+      "spd",
+      "def"
+    ],
+    "weapons": {
+      "Fire Breath": "1",
+      "Fire Breath+": "2",
+      "Flametongue": "3",
+      "Despairing Breath": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Iceberg": "4",
+      "Armored Glacier": "5"
+    },
+    "passive": {
+      "A": {
+        "Def/Res Scowl 1": "2",
+        "Def/Res Scowl 2": "3",
+        "Def/Res Scowl 3": "4",
+        "Def/Res Scowl 4": "5"
+      },
+      "B": {
+        "Wily Fighter 1": "2",
+        "Wily Fighter 2": "3",
+        "Wily Fighter 3": "4",
+        "Wily Fighter 4": "5"
+      },
+      "C": {
+        "A/R Near Save 1": "2",
+        "A/R Near Save 2": "3",
+        "A/R Near Save 3": "4",
+        "A/R Briar N Save": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ec/Grima_Tyrant_of_Despair_Face.webp/revision/latest?cb=20250605053213",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c4/Grima_Tyrant_of_Despair_BtlFace_D.webp/revision/latest?cb=20250605053208",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/45/Grima_Tyrant_of_Despair_BtlFace_C.webp/revision/latest?cb=20250605053203",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c3/Grima_Tyrant_of_Despair_BtlFace.webp/revision/latest?cb=20250605053148"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
+    ],
+    "HARD_ALT_NAME": [
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "",
+    "internal_id": "PID_\u30ae\u30e0\u30ec\u30fc\u5973",
+    "voice": "Lauren Landa",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "ylisse"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "Robin? Unfortunately, our hearts and minds have melded... They can never be separated...",
+        "Robin, you fool. I thought you might want to leave your comrades with a heroic, selfless image.\nBut you left them with the final memory that you were their undoing!",
+        "Tell me what it is you desire... With me, you can have it all...",
+        "WRETCHED CHILD OF NAGA... YOU WILL BE DESTROYED!",
+        "A future of annihilation and despair awaits humanity. And I caused it... It is quite something, don't you think?"
+      ],
+      "Visit": [
+        "It seems you two have souls of similar quality... That is, you and [F]."
+      ],
+      "Level": [
+        "WRETCHED...YOU ARE NOTHING! YOU WILL RETURN TO NOTHING!",
+        "May I request the vile vermin leave my sight?",
+        "You have all thrown your lives away, and the result is the same! It never changes, no matter the time or world."
+      ],
+      "Summon": [
+        "I AM...GRIMA. I AM...DESPAIR."
+      ],
+      "Learn Skill": [
+        "THE DRAGON'S MIGHT...WILL BE MADE WHOLE."
+      ],
+      "Confession": [
+        "You are wise, [S].\nYou are not like the fools who brandish their power without discretion...\nNow, I surmise you understand why it is I...OBEY SO WILLINGLY...\nI am here to eliminate every Fire Emblem, from every world in which they exist.\nSince you are wise, you know it is meaningless to stop me. You know Grima's true horror...\nI will grant you the freedom to choose if you wish to remain with me when this world meets its end..."
+      ],
+      "Special": [
+        "I AM GRIMA!",
+        "I AM DESPAIR!",
+        "ARROGANT MORTAL.",
+        "YOU ARE NOTHING!"
+      ],
+      "Status": [
+        "*sigh*",
+        "I AM...GRIMA. I AM...DESPAIR.",
+        "Hmm... What are you...",
+        "Wretched child of Naga... You will be destroyed.",
+        "Once our powers are joined the dragon's might will be made whole.",
+        "Return to me... For we are one.",
+        "The bonds between humans... So frail. Short-lived. Futile.",
+        "Now you too...are a part of me."
+      ],
+      "Map Select": [
+        "Yes...",
+        "*grunt*",
+        "To ruin..."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Grima",
+    "SEARCH_NAME": "Grima",
+    "DISPLAY_NAME": "<:Colorless_Breath:1124845679076978798>Grima",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "blackknight"
+      "robin6",
+      "robin7",
+      "robin10"
     ],
     "prf": {
-      "": "finalsword",
-      "eff": "finalsword",
-      "atk": "finalsword",
-      "spd": "finalsword",
-      "def": "finalsword",
-      "res": "finalsword"
+      "": "despairingbreath",
+      "eff": "despairingbreath",
+      "atk": "despairingbreath",
+      "spd": "despairingbreath",
+      "def": "despairingbreath",
+      "res": "despairingbreath"
+    }
+  },
+  "grima2": {
+    "name": "Grima",
+    "title": "Tyrant of Ruin",
+    "description": "Grima, having consumed Robin. The world, filled with death and destruction, greets its end. Appears in Fire Emblem Awakening.",
+    "origin": "Awakening",
+    "artist": "PenekoR (\u043f\u732b\uff32)",
+    "move": "Armored",
+    "weapon": "Breath",
+    "color": "Blue",
+    "duel": false,
+    "id": "1250",
+    "type": false,
+    "version": "9.6",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 21,
+      "atk": 10,
+      "spd": 5,
+      "def": 13,
+      "res": 12
     },
-    "blessing": "Fire",
-    "boost": {
-      "hp": 3,
-      "atk": 2
+    "growth": {
+      "hp": 60,
+      "atk": 90,
+      "spd": 30,
+      "def": 75,
+      "res": 80
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "spd",
+      "def"
+    ],
+    "weapons": {
+      "Fire Breath": "1",
+      "Fire Breath+": "2",
+      "Obstinate Breath": "3",
+      "Obstinate Breath+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Res Scowl 1": "1",
+        "Atk/Res Scowl 2": "2",
+        "Atk/Res Scowl 3": "4"
+      },
+      "B": {
+        "Slick Fighter 1": "3",
+        "Slick Fighter 2": "4",
+        "Slick Fighter 3": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/46/Grima_Tyrant_of_Ruin_Face.webp/revision/latest?cb=20250605053138",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Grima_Tyrant_of_Ruin_BtlFace_D.webp/revision/latest?cb=20250605053133",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8a/Grima_Tyrant_of_Ruin_BtlFace_C.webp/revision/latest?cb=20250605053128",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1c/Grima_Tyrant_of_Ruin_BtlFace.webp/revision/latest?cb=20250605052649"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
+    ],
+    "HARD_ALT_NAME": [
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "",
+    "internal_id": "PID_\u30ae\u30e0\u30ec\u30fc\u7537",
+    "voice": "David Vincent",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "ylisse"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "Robin? Unfortunately, our hearts and minds have melded... They can never be separated...",
+        "Robin, you fool. I thought you might want to leave your comrades with a heroic, selfless image.\nBut you left them with the final memory that you were their undoing!",
+        "Tell me what it is you desire... With me, you can have it all...",
+        "WRETCHED CHILD OF NAGA...YOU WILL BE DESTROYED!",
+        "A future of annihilation and despair awaits humanity. And I caused it... It is quite something, don't you think?"
+      ],
+      "Visit": [
+        "It seems you two have souls of similar quality... That is, you and [F]."
+      ],
+      "Level": [
+        "WRETCHED...YOU ARE NOTHING! YOU WILL RETURN TO NOTHING!",
+        "May I request the vile vermin leave my sight?",
+        "You have all thrown your lives away, and the result is the same! It never changes, no matter the time or world."
+      ],
+      "Summon": [
+        "I AM...GRIMA. I AM...DESPAIR."
+      ],
+      "Learn Skill": [
+        "THE DRAGON'S MIGHT...WILL BE MADE WHOLE."
+      ],
+      "Confession": [
+        "Summoner, do you not find it odd...\nThat I...OBEY SO WILLINGLY?\nI am here to eliminate every Fire Emblem, from the worlds in which they exist.\nHowever, tracking them down is no simple task, so I decided to show myself here, where power gathers.\nI grant you a choice...to stand at my side or be devoured by me, when this world meets its end."
+      ],
+      "Special": [
+        "I AM GRIMA!",
+        "I AM DESPAIR!",
+        "Vile creature...",
+        "YOU ARE NOTHING!"
+      ],
+      "Status": [
+        "*grunt*",
+        "I AM...GRIMA. I AM...DESPAIR.",
+        "YOU DARE...TO TOUCH ME?",
+        "WRETCHED CHILD OF NAGA... YOU WILL BE DESTROYED.",
+        "Once our powers are joined...THE DRAGON'S MIGHT WILL BE MADE WHOLE!",
+        "You are all powerless, frail, insignificant. You are NOTHING!",
+        "The bonds between humans... So frail. Short-lived. Futile.",
+        "Now you too...are a part of me."
+      ],
+      "Map Select": [
+        "*smug grunt*",
+        "Hmm?",
+        "I bring ruin."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Grima",
+    "SEARCH_NAME": "Grima",
+    "DISPLAY_NAME": "<:Blue_Breath:1124845312637403236>Grima",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "grima",
+      "robin5",
+      "robin8"
+    ],
+    "prf": {
+      "": "obstinatebreath",
+      "eff": "obstinatebreath",
+      "atk": "obstinatebreath",
+      "spd": "obstinatebreath",
+      "def": "obstinatebreath",
+      "res": "obstinatebreath"
+    }
+  },
+  "noire3": {
+    "name": "Noire",
+    "title": "Of Two Minds",
+    "description": "Daughter of Tharja. Timid and pessimistic, but turns into a totally different person when enraged. Appears in Fire Emblem Awakening.",
+    "origin": "Awakening",
+    "artist": "kyusokyu (\u4e45\u84bc\u7a79)",
+    "move": "Infantry",
+    "weapon": "Bow",
+    "color": "Red",
+    "duel": false,
+    "id": "1249",
+    "type": "rearmed",
+    "version": "9.6",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 16,
+      "atk": 11,
+      "spd": 8,
+      "def": 13,
+      "res": 6
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
+      "spd": 90,
+      "def": 50,
+      "res": 50
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "def",
+      "res"
+    ],
+    "weapons": {
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Silver Bow": "3",
+      "Arcane Hex Bow": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Moonbow": "4",
+      "Curved Shot": "5"
+    },
+    "passive": {
+      "A": {
+        "Sorcery Blade 1": "2",
+        "Sorcery Blade 2": "3",
+        "Sorcery Blade 3": "4",
+        "Atk/Spd Hexedge": "5"
+      },
+      "B": {
+        "Speedtaker 1": "2",
+        "Speedtaker 2": "3",
+        "Speedtaker 3": "4",
+        "Speedtaker 4": "5"
+      },
+      "C": {
+        "Blood & Thunder": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f8/Noire_Of_Two_Minds_Face.webp/revision/latest?cb=20250605053323",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/12/Noire_Of_Two_Minds_BtlFace_D.webp/revision/latest?cb=20250605053318",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Noire_Of_Two_Minds_BtlFace_C.webp/revision/latest?cb=20250605053313",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/53/Noire_Of_Two_Minds_BtlFace.webp/revision/latest?cb=20250605053258"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
+    ],
+    "HARD_ALT_NAME": [
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30ce\u30ef\u30fc\u30eb",
+    "voice": "Michelle Ruff",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "ylisse"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "Are you ever scared to use your weapon? It can be awfully loud, and loud noises are awfully frighte\u2014\nHALT! DO NOT DARE FIRE OFF THAT DIVINE WEAPON IN MY PRESENCE!",
+        "I'm scared to fight, but I can't run away. In the future I'm from, my parents faced much scarier things...\nAnd it was all just to protect me.",
+        "I'll use this delicious fruit I found outside to make you something. I'm pretty good at making sweets.",
+        "Let's take a walk through the forest for a change of pace. If we see any bears, we can just run away.\nEscaping is sort of my thing, if nothing else...",
+        "Aieee! O-oh, it's just you... I'm sorry for being such a coward. I wish I had more guts..."
+      ],
+      "Visit": [
+        "EEK! Are you...are you the summoner here? I've, um... Brought a greeting from [F]."
+      ],
+      "Level": [
+        "This new strength is... It's unnatural. A CURSE?!",
+        "Whew... This means I can keep fighting...",
+        "Aieee! I... I don't feel any different at all!"
+      ],
+      "Summon": [
+        "I'm Noire... Uh... Tharja's daughter... Wh-why am I here? I'll be able to go home soon... Right?"
+      ],
+      "Learn Skill": [
+        "Y-you gave me more power? I'll use it to...to become stronger."
+      ],
+      "Confession": [
+        "Oh, [S]!\nWh-what are you doing here? Do you need me for... Wait...\nYou aren't sending me into battle, are you?\nPhew, you're not? Oh, I'm so glad. I'm already busy with something else at the moment.\nHuh? I'm not hiding anything in my hands.\nI SAID I AM HIDING NOTHING! I AM NOT CREATING A THING SUCH AS A TALISMAN!\nHEAVENS FORBID I SHOULD PERFORM AN ACT OF KINDNESS FOR A MORTAL SUCH AS YOU.\nUh, I mean... Ugh, it happened again. Sorry. OK, I'll admit it. I was creating a talisman for you.\nUnlike the Heroes, you won't come back to life if you fall in battle.\nI don't want to lose someone so precious to me. I've been putting a lot of care into this talisman, so...\nI hope you'll accept it when it's finally finished."
+      ],
+      "Special": [
+        "Blood and thunder!",
+        "Time to play!",
+        "You're not gonna make it!",
+        "Ahahahaha!"
+      ],
+      "Status": [
+        "-",
+        "What do you want?!",
+        "You have a weapon that can summon Heroes? That's amazing!",
+        "This place... Do you have any strange diseases here? I can't get sick...",
+        "Eek! What do you think you're doing? Surprising me like that!",
+        "I'm always making trouble for you. I'm sorry. I promise... I'll get stronger.",
+        "I've lost my parents \u2014 and I've lost my talisman. But I have to go on \u2014 I have to give it my all.",
+        "I am so scared. But I'll fight as hard as I can. I want to help."
+      ],
+      "Map Select": [
+        "All right.",
+        "M-me?",
+        "O-OK."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Rearmed Noire",
+    "SEARCH_NAME": "Rearmed Noire",
+    "DISPLAY_NAME": "<:Red_Bow:1124846280951218289>Rearmed Noire",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "noire",
+      "noire2"
+    ],
+    "prf": {
+      "": "arcanehexbow",
+      "eff": "arcanehexbow",
+      "atk": "arcanehexbow",
+      "spd": "arcanehexbow",
+      "def": "arcanehexbow",
+      "res": "arcanehexbow"
+    }
+  },
+  "tharja7": {
+    "name": "Tharja",
+    "title": "Gloomy Mage",
+    "description": "A dark mage who spends her days researching strange charms. Her usual gloominess is contrary to her secret passion. Appears in Fire Emblem Awakening.",
+    "origin": "Awakening",
+    "artist": "Mai Okuma (\u5927\u718a\u307e\u3044)",
+    "move": "Flying",
+    "weapon": "Tome",
+    "color": "Green",
+    "duel": false,
+    "id": "1248",
+    "type": "attuned",
+    "version": "9.6",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 13,
+      "atk": 11,
+      "spd": 8,
+      "def": 3,
+      "res": 16
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 30,
+      "res": 60
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "def"
+    ],
+    "weapons": {
+      "Wind": "1",
+      "Elwind": "2",
+      "Rexcalibur": "3",
+      "Kindred Tome": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4",
+      "Ice Wall": "5"
+    },
+    "passive": {
+      "A": {
+        "Already Dead": "5"
+      },
+      "B": {
+        "Sabotage Spd 1": "2",
+        "Sabotage Spd 2": "3",
+        "Sabotage Spd 3": "4",
+        "Spd/Res Havoc": "5"
+      },
+      "C": {
+        "Savage Blow 1": "2",
+        "Savage Blow 2": "3",
+        "Savage Blow 3": "4",
+        "Deadly Miasma": "5"
+      },
+      "X": {
+        "Crux Echo": "5"
+      }
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0f/Tharja_Gloomy_Mage_Face.webp/revision/latest?cb=20250605053248",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5a/Tharja_Gloomy_Mage_BtlFace_D.webp/revision/latest?cb=20250605053243",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/01/Tharja_Gloomy_Mage_BtlFace_C.webp/revision/latest?cb=20250605053238",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cd/Tharja_Gloomy_Mage_BtlFace.webp/revision/latest?cb=20250605053223"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
+    ],
+    "HARD_ALT_NAME": [
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u97ff\u5fc3\u30b5\u30fc\u30ea\u30e3",
+    "voice": "Not yet recorded.",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "ylisse"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "My homeland still carries so much bitterness toward Ylisse. I never shared those petty feelings.",
+        "I was instructed in the dark arts from infancy. Even my umbilical cord was cut with a curse.",
+        "I need some salamander skin. I don't suppose they would have something like that in the shop?",
+        "Dark magic can be medicinal if you want it to be. Warding off a malicious influence, like a flu, would be simple.",
+        "Ah...I see why my future self didn't share this knowledge. The dark arts carry with them tremendous risks."
+      ],
+      "Visit": [
+        "I need the heads of two black snakes. There were none to be found in [F]'s castle."
+      ],
+      "Level": [
+        "Heheheh... My curses are unrelenting. I will curse them down to the last of their descendants!",
+        "Noire, you can rest easy knowing I will erase from existence anyone who dares to frighten you.",
+        "If it's for my daughter's future, then I care not what happens to me. I am a mother, after all..."
+      ],
+      "Summon": [
+        "I'm Tharja, a dark mage. I'm keeping an eye on, Noire, my daughter...my future daughter... It's complicated."
+      ],
+      "Learn Skill": [
+        "After all this time, I would consider hearing what you want to say. I can make an exception for you."
+      ],
+      "Confession": [
+        "The world is full of strange things... I've come to a conclusion about one, though. Care to hear what it is?\nIt's about my future daughter...Noire. Her magical power is impressive, and yet, she is not a dark mage.\nMy daughter, not a dark mage? Is it not odd that the future me taught her nothing.\nI wondered why that would be. But after seeing her, I think maybe I did not want her using dark magic.\nCurses are dangerous things. Why pass down something like that?\nNot an exciting revelation, was it? It was simple. A future great dark mage chose to act as a mother. Heheh..."
+      ],
+      "Special": [
+        "Think you're prepared?",
+        "Let's see what this does!",
+        "A pointless struggle...",
+        "Must protect her..."
+      ],
+      "Status": [
+        "-",
+        "I am Tharja... Noire is my daughter from the future.",
+        "Ah! Sorry to disappoint you, but I only have eyes for someone else...",
+        "This outfit is similar to what Noire wears, though I do not carry a bow.",
+        "You say it's my fault that girl is easily frightened? What's done cannot be undone...",
+        "Hm... I wonder which outfit Robin would prefer, my usual attire or this...",
+        "Even if she never learns hexes, she still has her own path to follow.",
+        "How can I describe the feelings I have for you? They differ from those I have for my beloved and my daughter."
+      ],
+      "Map Select": [
+        "I suppose.",
+        "Maybe...",
+        "This one's easy."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Attuned Tharja",
+    "SEARCH_NAME": "Attuned Tharja",
+    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Attuned Tharja",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "tharja",
+      "tharja2",
+      "tharja3",
+      "tharja4",
+      "tharja5",
+      "tharja6"
+    ],
+    "prf": {
+      "": "kindredtome",
+      "eff": "kindredtome",
+      "atk": "kindredtome",
+      "spd": "kindredtome",
+      "def": "kindredtome",
+      "res": "kindredtome"
     }
   }
 }

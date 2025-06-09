@@ -7621,7 +7621,16 @@
       "Resplendent Robin",
       "Resp Robin",
       "R Robin",
-      "Robin (Resplendent)"
+      "Robin (Resplendent)",
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
     ],
     "HARD_ALT_NAME": [
       "michalis",
@@ -8099,10 +8108,20 @@
       "Resplendent Robin",
       "Resp Robin",
       "R Robin",
-      "Robin (Resplendent)"
+      "Robin (Resplendent)",
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
     ],
     "heroes": {
       "chrom6": "<:Red_Bow:1124846280951218289>Duo Chrom",
+      "grima2": "<:Blue_Breath:1124845312637403236>Grima",
       "michalis": "<:Green_Axe:1124845885277343754>Michalis",
       "michalis2": "<:Blue_Lance:1124845569496584302>Spring Michalis",
       "robin": "<:Blue_Tome:1124845593211191297>Male Robin",
@@ -16808,7 +16827,15 @@
       "F B Robin",
       "Female Choose Your Legends Robin",
       "robin16",
-      "frobin8"
+      "frobin8",
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
     ],
     "HARD_ALT_NAME": [
       "sheena",
@@ -17312,9 +17339,18 @@
       "F B Robin",
       "Female Choose Your Legends Robin",
       "robin16",
-      "frobin8"
+      "frobin8",
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
     ],
     "heroes": {
+      "grima": "<:Colorless_Breath:1124845679076978798>Grima",
       "robin10": "<:Colorless_Breath:1124845679076978798>Rearmed Grima",
       "robin14": "<:Blue_Tome:1124845593211191297>Young Female Robin",
       "robin16": "<:Colorless_Tome:1124845725960904734>Brave Female Robin",
@@ -21352,7 +21388,16 @@
       "Noire: Demurely Deft",
       "Ninja Noire",
       "N Noire",
-      "noire2"
+      "noire2",
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
     ],
     "HARD_ALT_NAME": [
       "soleil",
@@ -21376,11 +21421,21 @@
       "Noire: Demurely Deft",
       "Ninja Noire",
       "N Noire",
-      "noire2"
+      "noire2",
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
     ],
     "heroes": {
       "noire": "<:Colorless_Bow:1124845636659982457>Summer Noire",
       "noire2": "<:Colorless_Dagger:1124845658617155734>Ninja Noire",
+      "noire3": "<:Red_Bow:1124846280951218289>Rearmed Noire",
       "soleil": "<:Red_Sword:1124846201070698536>Soleil"
     },
     "name": "Michelle Ruff"
@@ -30168,7 +30223,8 @@
       "alm5": "<:Colorless_Bow:1124845636659982457>Attuned Alm",
       "eik\u00feyrnir2": "<:Blue_Beast:1124845338688233575>Winter Eik\u00feyrnir",
       "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis",
-      "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea"
+      "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea",
+      "tharja7": "<:Green_Tome:1124845959873036289>Attuned Tharja"
     },
     "name": "Not yet recorded.",
     "ALT_NAME": [
@@ -30215,7 +30271,14 @@
       "Fallen Female Alear",
       "Fallen F Alear",
       "F F Alear",
-      "alear8"
+      "alear8",
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
     ],
     "HARD_ALT_NAME": [
       "Dark of Night",
@@ -30261,7 +30324,14 @@
       "Fallen Female Alear",
       "Fallen F Alear",
       "F F Alear",
-      "alear8"
+      "alear8",
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
     ]
   },
   "anjalikunapaneni": {
@@ -30739,6 +30809,28 @@
       "Resp Athena",
       "R Athena",
       "Athena (Resplendent)"
+    ]
+  },
+  "spikespencer": {
+    "heroes": {
+      "excellus": "<:Red_Tome:1124846175577710642>Excellus"
+    },
+    "name": "Spike Spencer",
+    "ALT_NAME": [
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
+    ],
+    "HARD_ALT_NAME": [
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
     ]
   }
 }
