@@ -14350,7 +14350,14 @@
       "Rearm Daraen Female",
       "Alluring Darkness",
       "Arm Grima Female",
-      "Attune Caeda"
+      "Attune Caeda",
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
     ],
     "HARD_ALT_NAME": [
       "Arm Reflet F",
@@ -14470,13 +14477,21 @@
       "Alluring Darkness",
       "sallya5",
       "Arm Grima Female",
-      "Attune Caeda"
+      "Attune Caeda",
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
     ],
     "heroes": {
       "caeda6": "<:Blue_Lance:1124845569496584302>Attuned Caeda",
       "camilla9": "<:Green_Tome:1124845959873036289>Legendary Camilla",
       "robin10": "<:Colorless_Breath:1124845679076978798>Rearmed Grima",
-      "tharja5": "<:Blue_Tome:1124845593211191297>Summer Tharja"
+      "tharja5": "<:Blue_Tome:1124845593211191297>Summer Tharja",
+      "tharja7": "<:Green_Tome:1124845959873036289>Attuned Tharja"
     },
     "name": "Mai Okuma (\u5927\u718a\u307e\u3044)"
   },
@@ -19389,7 +19404,16 @@
       "N Lucina",
       "Duo Lucina",
       "D Lucina",
-      "lucina8"
+      "lucina8",
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
     ],
     "HARD_ALT_NAME": [
       "ryouma4",
@@ -19771,7 +19795,16 @@
       "N Lucina",
       "Duo Lucina",
       "D Lucina",
-      "lucina8"
+      "lucina8",
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
     ],
     "heroes": {
       "ares": "<:Red_Sword:1124846201070698536>Ares",
@@ -19787,6 +19820,7 @@
       "eldigan": "<:Red_Sword:1124846201070698536>Eldigan",
       "ephraim6": "<:Green_Axe:1124845885277343754>Summer Ephraim",
       "glen": "<:Red_Sword:1124846201070698536>Glen",
+      "grima2": "<:Blue_Breath:1124845312637403236>Grima",
       "hubert": "<:Red_Tome:1124846175577710642>Hubert",
       "iago": "<:Red_Tome:1124846175577710642>Iago",
       "inigo3": "<:Green_Bow:1124845936426897428>Spring Inigo",
@@ -29299,6 +29333,82 @@
       "Fallen Lena",
       "F Lena",
       "lena2"
+    ]
+  },
+  "otsuton": {
+    "heroes": {
+      "excellus": "<:Red_Tome:1124846175577710642>Excellus"
+    },
+    "name": "\u30aa\u30c3\u30c8\u30f3",
+    "ALT_NAME": [
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
+    ],
+    "HARD_ALT_NAME": [
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
+    ]
+  },
+  "liuyutiantomoe": {
+    "heroes": {
+      "grima": "<:Colorless_Breath:1124845679076978798>Grima"
+    },
+    "name": "\u516d\u7fbd\u7530\u30c8\u30e2\u30a8",
+    "ALT_NAME": [
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
+    ],
+    "HARD_ALT_NAME": [
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
+    ]
+  },
+  "kyusokyu": {
+    "heroes": {
+      "noire3": "<:Red_Bow:1124846280951218289>Rearmed Noire"
+    },
+    "name": "kyusokyu (\u4e45\u84bc\u7a79)",
+    "ALT_NAME": [
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
+    ],
+    "HARD_ALT_NAME": [
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
     ]
   }
 }
