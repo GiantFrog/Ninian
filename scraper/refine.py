@@ -5,7 +5,9 @@ import utility
 from scraper import integrate
 
 refines = [
-    "erk"
+    "dedue",
+    "fernand",
+    "miranda"
 ]
 
 path = "../database/feh/images/passive/"
@@ -18,7 +20,7 @@ with open('../database/feh/skill.json', 'r') as f:
 
 
 def ref(key):
-
+    # TODO would be real cool to use a pool search to look up char keys, but then it loads oifey.__init__ and that's no good
     unit = char[key]
     page_name = unit['name'] + ': ' + unit['title']
     # Follow the same steps for feheroes.fandom

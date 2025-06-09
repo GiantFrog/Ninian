@@ -137,6 +137,9 @@ def weapon_get(key, new_weapon=None, new_rarity=5):
     if new_weapon:
         rarity = new_rarity
         wep = new_weapon
+        global skill
+        with open('../database/feh/skill.json', 'r', encoding="utf-8") as f:
+            skill = json.load(f)
     else:
         rarity = 0
         wep = ""
