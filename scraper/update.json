@@ -1,530 +1,204 @@
 {
-  "excellus": {
-    "name": "Excellus",
-    "title": "Conqueror\u2019s Wile",
-    "description": "A tactician who serves Walhart, the emperor of Valm. Acts superior to others and does not hesitate to make use of and discard them. Appears in Fire Emblem Awakening.",
-    "origin": "Awakening",
-    "artist": "\u30aa\u30c3\u30c8\u30f3",
+  "celica7": {
+    "name": "Celica",
+    "title": "Sunlit Priestesses",
+    "description": "Celica, a priestess and follower of Mila, and Serra, a cleric and follower of Elimine, bring their protection to the beach this summer. They appear in Fire Emblem Echoes: Shadows of Valentia / Fire Emblem: The Blazing Blade.",
+    "origin": "Echoes + The Blazing Blade",
+    "artist": "\u3075\u308f\u304a\u3080",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1253",
+    "type": false,
+    "version": "9.6",
+    "duo": false,
+    "harmonized": "Neutralizes any\u3010Penalty\u3011, restores 40 HP, and grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit for 1 turn.\nOnce used, Harmonized Skill cannot be activated again right away. At start of every third turn, if Harmonized Skill has already been used, unit can use Harmonized Skill again.\n(Harmonized Skills can be used by tapping the Harmonized button. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.",
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 9,
+      "spd": 12,
+      "def": 5,
+      "res": 5
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 80,
+      "def": 35,
+      "res": 45
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Stone": "1",
+      "Elstone": "2",
+      "Atlas": "3",
+      "Pious Offering": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Luna": "4",
+      "Magic Light": "5"
+    },
+    "passive": {
+      "A": {
+        "Death Blow 1": "2",
+        "Swift Sparrow 1": "3",
+        "Swift Sparrow 2": "4",
+        "Sly Swift Sparrow": "5"
+      },
+      "B": {
+        "Holy Soul of Zofia": "5"
+      },
+      "C": {
+        "Hone Atk 1": "2",
+        "Hone Atk 2": "3",
+        "Hone Atk 3": "4",
+        "A/S Incite Hone": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d0/Celica_Sunlit_Priestesses_Face.webp/revision/latest?cb=20250617043335",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/42/Celica_Sunlit_Priestesses_BtlFace_D.webp/revision/latest?cb=20250617043330",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f7/Celica_Sunlit_Priestesses_BtlFace_C.webp/revision/latest?cb=20250617043325",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5a/Celica_Sunlit_Priestesses_BtlFace.webp/revision/latest?cb=20250617043311"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "celica7"
+    ],
+    "HARD_ALT_NAME": [
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "celica7"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u53cc\u754c\u30bb\u30ea\u30ab",
+    "voice": "Erica Lindbeck + Kate Higgins",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "valentia"
+    ],
+    "chibi": "fe15",
+    "quotes": {
+      "Castle Hall": [
+        "**Serra:** An adorable, helpless person like me is better suited to a summer beach than a rugged battlefield!",
+        "**Celica:** I am used to playing at the beach on Novis Island, where I once lived. It, too, was surrounded by the sea.",
+        "**Serra:** Saint Elimine, I pray that all will enjoy this wonderful summer, and may they fawn over me in my swimsuit.",
+        "**Celica:** Does this swimsuit look all right on me, Serra? I want to be sure before Alm sees it.",
+        "**Serra:** You don't look half bad in a swimsuit yourself, Celica! There is simply no way to conceal our nobility, is there?"
+      ],
+      "Visit": [
+        "**Serra:** I am Serra, a cleric in service to Saint Elimine. I, with Celica, am delivering a letter from [F]."
+      ],
+      "Level": [
+        "**Serra:** Hehe! We will play the leading roles this summer!",
+        "**Celica:** It seems to be working out all right. We won't be beaten by this summer heat!",
+        "**Celica:** Are you all right, Serra? You shouldn't push yourself too hard. Let's rest awhile in the shade."
+      ],
+      "Summon": [
+        "I am Celica, from Zofia. Together, Serra, let us pray for everyone's lasting happiness!"
+      ],
+      "Learn Skill": [
+        "**Serra:** Look at this Celica! Now, no eye on the beach will be able to look away from us!"
+      ],
+      "Confession": [
+        "**Celica:** Serra... You said you were born of a noble family with a long, distinguished history in Etruria, right?\n**Serra:** Y-yes, that's right! Since I was born an aristocrat, no matter what I do, my body overflows with a noble light!\n**Celica:** I can feel that light shining from your soul. Your cheerfulness brings a smile to everyone's faces.\nNo matter if you were born a noble or not, I'm sure your light would still shine on any who beheld it.\n**Serra:** Y-you're right. My family's status may be an insignificant detail...\n**Celica:** Haha... We may follow different gods, but I think we can do our best to bring light to the future together!"
+      ],
+      "Special": [
+        "**Duo:** Tropical attack!",
+        "**Duo:** Let's enjoy... Summer!",
+        "**Celica:** Dazzling sunshine!",
+        "**Serra:** Look at my swimsuit!"
+      ],
+      "Status": [
+        "*sigh*",
+        "\"What do you think of my bathing suit?\" \"Looks good! Now we're an even match!\""
+      ],
+      "Map Select": [
+        "Hmhmhm...",
+        "I cannot wait!",
+        "My turn!"
+      ],
+      "Conversation": [
+        "**Celica:** The sea is beautiful... Come, Serra. Let's go for a swim!",
+        "**Serra:** Ugh! How careless can you be? You've got so much beauty hiding in there somewhere, yet no sensibility.",
+        "You shouldn't just run off to the beach. You need to apply this oil to protect your skin first.",
+        "**Celica:** Thank you, Serra. You know so much about these types of things.",
+        "**Serra:** Of course I do. As the daughter of a count, I must protect my beauty at all costs so as not to shame the family.",
+        "Getting a sunburn is out of the question! But, I still want to play on the beach, of course...",
+        "And everyone might be terribly disappointed if they didn't get to see me in my swimsuit.",
+        "Saint Elimine herself has guided me on a path of servitude... It's the least I can do for them!",
+        "*sigh* OK! Come on. Hurry up, Celica! Let's go!",
+        "**Celica:** But I thought\u2014 I'm not quite ready...",
+        "**Serra:** I must show off how I look in my swimsuit to as many people as possible, as quickly as possible!",
+        "First, we'll walk to the end of this sandy beach, and then we'll swim all the way back.",
+        "**Celica:** Oh? Isn't that rather far? And are you sure about swimming all the way back? It sounds difficult...",
+        "**Serra:** And of course I need to show off how I look when I'm relaxing. So I'll carry a fancy drink in hand too.",
+        "Woo! I am so busy! I can't believe how hard I work for Elimine. So, so commendable! Ugh, I'm tearing up...",
+        "**Celica:** So... Does that mean you will make the most of your time here at the beach?",
+        "**Serra:** Yes, of course I will! Let's go, Celica! Everyone is waiting to see me."
+      ],
+      "Duo Skill": [
+        "\"This summer...\" \"we shine!\"",
+        "\"The beach is the best!\" \"Yes.\""
+      ],
+      "Back Unit Supporting": [
+        "We'll definitely win!",
+        "Lady Serra is here!"
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Summer Celica",
+    "SEARCH_NAME": "Summer Celica",
+    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Summer Celica",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "celica",
+      "celica2",
+      "celica3",
+      "celica4",
+      "celica5",
+      "celica6"
+    ],
+    "prf": {
+      "": "piousoffering",
+      "eff": "piousoffering",
+      "atk": "piousoffering",
+      "spd": "piousoffering",
+      "def": "piousoffering",
+      "res": "piousoffering"
+    }
+  },
+  "nino6": {
+    "name": "Nino",
+    "title": "Burst of Summer",
+    "description": "A young girl and member of the Black Fang, a league of assassins. She brings smiles to the people of Askr, in the midst of the glittering sea. Appears in Fire Emblem: The Blazing Blade.",
+    "origin": "The Blazing Blade",
+    "artist": "Amagasa Yun (\u96e8\u5098\u3086\u3093)",
     "move": "Infantry",
     "weapon": "Tome",
     "color": "Red",
     "duel": false,
-    "id": "1252",
+    "id": "1254",
     "type": false,
-    "version": "9.6",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 12,
-      "spd": 6,
-      "def": 9,
-      "res": 8
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 80,
-      "spd": 35,
-      "def": 50,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "def"
-    ],
-    "weapons": {
-      "Fire": "1",
-      "Elfire": "2",
-      "Rau\u00f0rsparrow": "3",
-      "Rau\u00f0rsparrow+": "5"
-    },
-    "assist": {
-      "Rally Attack": "3",
-      "Rally Up Atk": "4"
-    },
-    "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4"
-    },
-    "passive": {
-      "A": {},
-      "B": {
-        "Def/Res Ruse 1": "3",
-        "Def/Res Ruse 2": "4",
-        "Def/Res Ruse 3": "5"
-      },
-      "C": {
-        "Atk Ploy 1": "1",
-        "Atk Ploy 2": "2",
-        "Atk Ploy 3": "4"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d0/Excellus_Conquerors_Wile_Face.webp/revision/latest?cb=20250605053358",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/39/Excellus_Conquerors_Wile_BtlFace_D.webp/revision/latest?cb=20250605053353",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/64/Excellus_Conquerors_Wile_BtlFace_C.webp/revision/latest?cb=20250605053348",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3b/Excellus_Conquerors_Wile_BtlFace.webp/revision/latest?cb=20250605053333"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Conqueror\u2019s Wile",
-      "Excellus: Conqueror\u2019s Wile",
-      "Base Excellus",
-      "Normal Excellus",
-      "Regular Excellus",
-      "excellus"
-    ],
-    "HARD_ALT_NAME": [
-      "Conqueror\u2019s Wile",
-      "Excellus: Conqueror\u2019s Wile",
-      "Base Excellus",
-      "Normal Excellus",
-      "Regular Excellus",
-      "excellus"
-    ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "grail",
-    "internal_id": "PID_\u30a8\u30af\u30bb\u30e9\u30a4",
-    "voice": "Spike Spencer",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "ylisse"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "I'll end up on the winning side one way or another! Whee hee hee hee!",
-        "Everything is going exactly as I planned! To hell with him...with the both of them!",
-        "Today's \"struggle\"? I think you mean today's SLAUGHTER.",
-        "I'm after Yen'fay! I could care less whether the little girl lives or dies. Whee hee hee hee!",
-        "They always forget who I am! Whatever I do, this spider crawls out alive! Eee hee hee hee!"
-      ],
-      "Visit": [
-        "Oooh, it appears I'm just in time for the reunion! Delicious..."
-      ],
-      "Level": [
-        "Did you see the grief etched on their face? The mix of longing and pain in the eyes?",
-        "You have important matters to think after, and to deal with...quickly. Feel free to thank me some other time!",
-        "Whee hee hee! Disgusting!"
-      ],
-      "Summon": [
-        "Be confused! Be insecure! Be afraid! In the face of the brilliant tactician, Excellus! Wee hee hee hee hee!"
-      ],
-      "Learn Skill": [
-        "I'll fry them where they stand with my magic! We will crush them all..."
-      ],
-      "Confession": [
-        "Well, well, if it isn't [S]!\nI like that name. It shines like a light.\nPity about your looks. But no matter. I've always been surrounded by oafs.\nYes, I know. Looks and brains\u2014I've got it all. I'm the god of tacticians!\nAnd speaking as the god of tacticians, I'd say you're not half bad yourself. You could use some pointers, though.\nI can tell you're salivating at the very idea of sharing in my wisdom, so... Let's do it. Starting tomorrow.\nReady for your first lesson? You may be surprised, but I do love teaching an eager student. Wee hee hee!"
-      ],
-      "Special": [
-        "Eee hee hee!",
-        "A spell to amuse you!",
-        "I've touched a nerve!",
-        "Good fool!"
-      ],
-      "Status": [
-        "Hm.",
-        "I am Excellus! You should feel honored to stand near me!",
-        "Oooh, so you wish to bask in my presence? My, you flatter me!",
-        "Mm, seeing the grief etched on good men's faces...the longing and pain as they meet their demise...is so thrilling!",
-        "I don't know about you, but I try to avoid committing murder...myself.",
-        "**One must attain the only sparkling beauty in this world:** the flower that is victory!",
-        "I only brought the rebels to that general so they might...learn from her shining example!",
-        "You summoned me here. You had better take responsibility for that!"
-      ],
-      "Map Select": [
-        "Wonderful!",
-        "Oh?",
-        "Just in time!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Excellus",
-    "SEARCH_NAME": "Excellus",
-    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Excellus",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "raudrsparrow",
-      "eff": "raudrsparrow",
-      "atk": "raudrsparrow",
-      "spd": "raudrsparrow",
-      "def": "raudrsparrow",
-      "res": "raudrsparrow"
-    }
-  },
-  "grima": {
-    "name": "Grima",
-    "title": "Tyrant of Despair",
-    "description": "Grima, having consumed Robin. The world, filled with death and destruction, greets its end. Appears in Fire Emblem Awakening.",
-    "origin": "Awakening",
-    "artist": "\u516d\u7fbd\u7530\u30c8\u30e2\u30a8",
-    "move": "Armored",
-    "weapon": "Breath",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1251",
-    "type": false,
-    "version": "9.6",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 22,
-      "atk": 13,
-      "spd": 5,
-      "def": 12,
-      "res": 9
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 80,
-      "spd": 30,
-      "def": 75,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "spd",
-      "def"
-    ],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Flametongue": "3",
-      "Despairing Breath": "5"
-    },
-    "assist": {},
-    "special": {
-      "Chilling Wind": "3",
-      "Iceberg": "4",
-      "Armored Glacier": "5"
-    },
-    "passive": {
-      "A": {
-        "Def/Res Scowl 1": "2",
-        "Def/Res Scowl 2": "3",
-        "Def/Res Scowl 3": "4",
-        "Def/Res Scowl 4": "5"
-      },
-      "B": {
-        "Wily Fighter 1": "2",
-        "Wily Fighter 2": "3",
-        "Wily Fighter 3": "4",
-        "Wily Fighter 4": "5"
-      },
-      "C": {
-        "A/R Near Save 1": "2",
-        "A/R Near Save 2": "3",
-        "A/R Near Save 3": "4",
-        "A/R Briar N Save": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ec/Grima_Tyrant_of_Despair_Face.webp/revision/latest?cb=20250605053213",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c4/Grima_Tyrant_of_Despair_BtlFace_D.webp/revision/latest?cb=20250605053208",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/45/Grima_Tyrant_of_Despair_BtlFace_C.webp/revision/latest?cb=20250605053203",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c3/Grima_Tyrant_of_Despair_BtlFace.webp/revision/latest?cb=20250605053148"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Tyrant of Despair",
-      "Grima: Tyrant of Despair",
-      "Base F Grima",
-      "Normal F Grima",
-      "Regular F Grima",
-      "Sombron's Mom",
-      "grima",
-      "fgrima4"
-    ],
-    "HARD_ALT_NAME": [
-      "Tyrant of Despair",
-      "Grima: Tyrant of Despair",
-      "Base F Grima",
-      "Normal F Grima",
-      "Regular F Grima",
-      "Sombron's Mom",
-      "grima",
-      "fgrima4"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u30ae\u30e0\u30ec\u30fc\u5973",
-    "voice": "Lauren Landa",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "ylisse"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "Robin? Unfortunately, our hearts and minds have melded... They can never be separated...",
-        "Robin, you fool. I thought you might want to leave your comrades with a heroic, selfless image.\nBut you left them with the final memory that you were their undoing!",
-        "Tell me what it is you desire... With me, you can have it all...",
-        "WRETCHED CHILD OF NAGA... YOU WILL BE DESTROYED!",
-        "A future of annihilation and despair awaits humanity. And I caused it... It is quite something, don't you think?"
-      ],
-      "Visit": [
-        "It seems you two have souls of similar quality... That is, you and [F]."
-      ],
-      "Level": [
-        "WRETCHED...YOU ARE NOTHING! YOU WILL RETURN TO NOTHING!",
-        "May I request the vile vermin leave my sight?",
-        "You have all thrown your lives away, and the result is the same! It never changes, no matter the time or world."
-      ],
-      "Summon": [
-        "I AM...GRIMA. I AM...DESPAIR."
-      ],
-      "Learn Skill": [
-        "THE DRAGON'S MIGHT...WILL BE MADE WHOLE."
-      ],
-      "Confession": [
-        "You are wise, [S].\nYou are not like the fools who brandish their power without discretion...\nNow, I surmise you understand why it is I...OBEY SO WILLINGLY...\nI am here to eliminate every Fire Emblem, from every world in which they exist.\nSince you are wise, you know it is meaningless to stop me. You know Grima's true horror...\nI will grant you the freedom to choose if you wish to remain with me when this world meets its end..."
-      ],
-      "Special": [
-        "I AM GRIMA!",
-        "I AM DESPAIR!",
-        "ARROGANT MORTAL.",
-        "YOU ARE NOTHING!"
-      ],
-      "Status": [
-        "*sigh*",
-        "I AM...GRIMA. I AM...DESPAIR.",
-        "Hmm... What are you...",
-        "Wretched child of Naga... You will be destroyed.",
-        "Once our powers are joined the dragon's might will be made whole.",
-        "Return to me... For we are one.",
-        "The bonds between humans... So frail. Short-lived. Futile.",
-        "Now you too...are a part of me."
-      ],
-      "Map Select": [
-        "Yes...",
-        "*grunt*",
-        "To ruin..."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Grima",
-    "SEARCH_NAME": "Grima",
-    "DISPLAY_NAME": "<:Colorless_Breath:1124845679076978798>Grima",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "robin6",
-      "robin7",
-      "robin10"
-    ],
-    "prf": {
-      "": "despairingbreath",
-      "eff": "despairingbreath",
-      "atk": "despairingbreath",
-      "spd": "despairingbreath",
-      "def": "despairingbreath",
-      "res": "despairingbreath"
-    }
-  },
-  "grima2": {
-    "name": "Grima",
-    "title": "Tyrant of Ruin",
-    "description": "Grima, having consumed Robin. The world, filled with death and destruction, greets its end. Appears in Fire Emblem Awakening.",
-    "origin": "Awakening",
-    "artist": "PenekoR (\u043f\u732b\uff32)",
-    "move": "Armored",
-    "weapon": "Breath",
-    "color": "Blue",
-    "duel": false,
-    "id": "1250",
-    "type": false,
-    "version": "9.6",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 21,
-      "atk": 10,
-      "spd": 5,
-      "def": 13,
-      "res": 12
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 90,
-      "spd": 30,
-      "def": 75,
-      "res": 80
-    },
-    "superboon": [
-      "atk"
-    ],
-    "superbane": [
-      "spd",
-      "def"
-    ],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Obstinate Breath": "3",
-      "Obstinate Breath+": "5"
-    },
-    "assist": {},
-    "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4"
-    },
-    "passive": {
-      "A": {
-        "Atk/Res Scowl 1": "1",
-        "Atk/Res Scowl 2": "2",
-        "Atk/Res Scowl 3": "4"
-      },
-      "B": {
-        "Slick Fighter 1": "3",
-        "Slick Fighter 2": "4",
-        "Slick Fighter 3": "5"
-      },
-      "C": {},
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/46/Grima_Tyrant_of_Ruin_Face.webp/revision/latest?cb=20250605053138",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Grima_Tyrant_of_Ruin_BtlFace_D.webp/revision/latest?cb=20250605053133",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8a/Grima_Tyrant_of_Ruin_BtlFace_C.webp/revision/latest?cb=20250605053128",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1c/Grima_Tyrant_of_Ruin_BtlFace.webp/revision/latest?cb=20250605052649"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Tyrant of Ruin",
-      "Grima: Tyrant of Ruin",
-      "Base M Grima",
-      "Normal M Grima",
-      "Regular M Grima",
-      "Sexy Grima",
-      "Sombron's Dad",
-      "grima2",
-      "mgrima3"
-    ],
-    "HARD_ALT_NAME": [
-      "Tyrant of Ruin",
-      "Grima: Tyrant of Ruin",
-      "Base M Grima",
-      "Normal M Grima",
-      "Regular M Grima",
-      "Sexy Grima",
-      "Sombron's Dad",
-      "grima2",
-      "mgrima3"
-    ],
-    "gender": "M",
-    "rarity": 4,
-    "pool": "",
-    "internal_id": "PID_\u30ae\u30e0\u30ec\u30fc\u7537",
-    "voice": "David Vincent",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "ylisse"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "Robin? Unfortunately, our hearts and minds have melded... They can never be separated...",
-        "Robin, you fool. I thought you might want to leave your comrades with a heroic, selfless image.\nBut you left them with the final memory that you were their undoing!",
-        "Tell me what it is you desire... With me, you can have it all...",
-        "WRETCHED CHILD OF NAGA...YOU WILL BE DESTROYED!",
-        "A future of annihilation and despair awaits humanity. And I caused it... It is quite something, don't you think?"
-      ],
-      "Visit": [
-        "It seems you two have souls of similar quality... That is, you and [F]."
-      ],
-      "Level": [
-        "WRETCHED...YOU ARE NOTHING! YOU WILL RETURN TO NOTHING!",
-        "May I request the vile vermin leave my sight?",
-        "You have all thrown your lives away, and the result is the same! It never changes, no matter the time or world."
-      ],
-      "Summon": [
-        "I AM...GRIMA. I AM...DESPAIR."
-      ],
-      "Learn Skill": [
-        "THE DRAGON'S MIGHT...WILL BE MADE WHOLE."
-      ],
-      "Confession": [
-        "Summoner, do you not find it odd...\nThat I...OBEY SO WILLINGLY?\nI am here to eliminate every Fire Emblem, from the worlds in which they exist.\nHowever, tracking them down is no simple task, so I decided to show myself here, where power gathers.\nI grant you a choice...to stand at my side or be devoured by me, when this world meets its end."
-      ],
-      "Special": [
-        "I AM GRIMA!",
-        "I AM DESPAIR!",
-        "Vile creature...",
-        "YOU ARE NOTHING!"
-      ],
-      "Status": [
-        "*grunt*",
-        "I AM...GRIMA. I AM...DESPAIR.",
-        "YOU DARE...TO TOUCH ME?",
-        "WRETCHED CHILD OF NAGA... YOU WILL BE DESTROYED.",
-        "Once our powers are joined...THE DRAGON'S MIGHT WILL BE MADE WHOLE!",
-        "You are all powerless, frail, insignificant. You are NOTHING!",
-        "The bonds between humans... So frail. Short-lived. Futile.",
-        "Now you too...are a part of me."
-      ],
-      "Map Select": [
-        "*smug grunt*",
-        "Hmm?",
-        "I bring ruin."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Grima",
-    "SEARCH_NAME": "Grima",
-    "DISPLAY_NAME": "<:Blue_Breath:1124845312637403236>Grima",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "grima",
-      "robin5",
-      "robin8"
-    ],
-    "prf": {
-      "": "obstinatebreath",
-      "eff": "obstinatebreath",
-      "atk": "obstinatebreath",
-      "spd": "obstinatebreath",
-      "def": "obstinatebreath",
-      "res": "obstinatebreath"
-    }
-  },
-  "noire3": {
-    "name": "Noire",
-    "title": "Of Two Minds",
-    "description": "Daughter of Tharja. Timid and pessimistic, but turns into a totally different person when enraged. Appears in Fire Emblem Awakening.",
-    "origin": "Awakening",
-    "artist": "kyusokyu (\u4e45\u84bc\u7a79)",
-    "move": "Infantry",
-    "weapon": "Bow",
-    "color": "Red",
-    "duel": false,
-    "id": "1249",
-    "type": "rearmed",
     "version": "9.6",
     "duo": false,
     "harmonized": false,
@@ -532,15 +206,15 @@
     "base": {
       "hp": 16,
       "atk": 11,
-      "spd": 8,
-      "def": 13,
-      "res": 6
+      "spd": 9,
+      "def": 7,
+      "res": 10
     },
     "growth": {
       "hp": 50,
       "atk": 80,
       "spd": 90,
-      "def": 50,
+      "def": 40,
       "res": 50
     },
     "superboon": [
@@ -548,325 +222,634 @@
     ],
     "superbane": [
       "hp",
-      "def",
       "res"
     ],
     "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Silver Bow": "3",
-      "Arcane Hex Bow": "5"
+      "Fire": "1",
+      "Elfire": "2",
+      "Bolganone": "3",
+      "Bouncin' Ball": "5"
     },
     "assist": {},
     "special": {
-      "New Moon": "3",
-      "Moonbow": "4",
-      "Curved Shot": "5"
+      "Daylight": "3",
+      "Noontime": "4",
+      "Flare": "5"
     },
     "passive": {
       "A": {
-        "Sorcery Blade 1": "2",
-        "Sorcery Blade 2": "3",
-        "Sorcery Blade 3": "4",
-        "Atk/Spd Hexedge": "5"
+        "Atk/Spd Ideal 1": "2",
+        "Atk/Spd Ideal 2": "3",
+        "Atk/Spd Ideal 3": "4",
+        "Perfect Atk/Spd": "5"
       },
       "B": {
-        "Speedtaker 1": "2",
-        "Speedtaker 2": "3",
-        "Speedtaker 3": "4",
-        "Speedtaker 4": "5"
+        "Lull Spd/Res 1": "2",
+        "Lull Spd/Res 2": "3",
+        "Lull Spd/Res 3": "4",
+        "S/R Lull Finish": "5"
       },
       "C": {
-        "Blood & Thunder": "5"
+        "Black Fang Bond": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f8/Noire_Of_Two_Minds_Face.webp/revision/latest?cb=20250605053323",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/12/Noire_Of_Two_Minds_BtlFace_D.webp/revision/latest?cb=20250605053318",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Noire_Of_Two_Minds_BtlFace_C.webp/revision/latest?cb=20250605053313",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/53/Noire_Of_Two_Minds_BtlFace.webp/revision/latest?cb=20250605053258"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cd/Nino_Burst_of_Summer_Face.webp/revision/latest?cb=20250617043300",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a4/Nino_Burst_of_Summer_BtlFace_D.webp/revision/latest?cb=20250617043255",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ed/Nino_Burst_of_Summer_BtlFace_C.webp/revision/latest?cb=20250617043250",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1d/Nino_Burst_of_Summer_BtlFace.webp/revision/latest?cb=20250617043235"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Of Two Minds",
-      "Noire: Of Two Minds",
-      "Base Noire",
-      "Normal Noire",
-      "Regular Noire",
-      "Rearmed Noire",
-      "Rearm Noire",
-      "Arm Noire",
-      "noire3"
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "HARD_ALT_NAME": [
-      "Of Two Minds",
-      "Noire: Of Two Minds",
-      "Base Noire",
-      "Normal Noire",
-      "Regular Noire",
-      "Rearmed Noire",
-      "Rearm Noire",
-      "Arm Noire",
-      "noire3"
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30ce\u30ef\u30fc\u30eb",
-    "voice": "Michelle Ruff",
+    "pool": "seasonal",
+    "internal_id": "PID_\u6c34\u7740\u30cb\u30ce",
+    "voice": "Sarah Blandy",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "ylisse"
+      "elibe"
     ],
-    "chibi": "fe13",
+    "chibi": "fe7",
     "quotes": {
       "Castle Hall": [
-        "Are you ever scared to use your weapon? It can be awfully loud, and loud noises are awfully frighte\u2014\nHALT! DO NOT DARE FIRE OFF THAT DIVINE WEAPON IN MY PRESENCE!",
-        "I'm scared to fight, but I can't run away. In the future I'm from, my parents faced much scarier things...\nAnd it was all just to protect me.",
-        "I'll use this delicious fruit I found outside to make you something. I'm pretty good at making sweets.",
-        "Let's take a walk through the forest for a change of pace. If we see any bears, we can just run away.\nEscaping is sort of my thing, if nothing else...",
-        "Aieee! O-oh, it's just you... I'm sorry for being such a coward. I wish I had more guts..."
+        "Running from the ocean surf makes for great training! If I keep this up, I'll be as fast as Jaffar soon.",
+        "The ocean is beautiful, isn't it? I want the others to see it too.",
+        "Look! Look! That stall made a frozen treat just for me! It's covered in this sweet syrup!",
+        "The ocean is so big. There could be a continent even larger than Elibe somewhere beyond that horizon.",
+        "Uncle Merlinus got this swimsuit for me. What do you think?"
       ],
       "Visit": [
-        "EEK! Are you...are you the summoner here? I've, um... Brought a greeting from [F]."
+        "I'm Nino! I was entrusted with this souvenir from the ocean for you by [F]!"
       ],
       "Level": [
-        "This new strength is... It's unnatural. A CURSE?!",
-        "Whew... This means I can keep fighting...",
-        "Aieee! I... I don't feel any different at all!"
+        "Even at the beach, I put up a good fight! Now I have another story to tell Jaffar.",
+        "Haha! Once we're done here, I'm going to eat a bunch of cold fruit!",
+        "Ugh... The sunlight is so intense. I feel a bit dizzy..."
       ],
       "Summon": [
-        "I'm Noire... Uh... Tharja's daughter... Wh-why am I here? I'll be able to go home soon... Right?"
+        "I'm Nino! Today's important mission is...to enjoy summer at the beach!"
       ],
       "Learn Skill": [
-        "Y-you gave me more power? I'll use it to...to become stronger."
+        "Can I really have this?! This just became the best summer ever!"
       ],
       "Confession": [
-        "Oh, [S]!\nWh-what are you doing here? Do you need me for... Wait...\nYou aren't sending me into battle, are you?\nPhew, you're not? Oh, I'm so glad. I'm already busy with something else at the moment.\nHuh? I'm not hiding anything in my hands.\nI SAID I AM HIDING NOTHING! I AM NOT CREATING A THING SUCH AS A TALISMAN!\nHEAVENS FORBID I SHOULD PERFORM AN ACT OF KINDNESS FOR A MORTAL SUCH AS YOU.\nUh, I mean... Ugh, it happened again. Sorry. OK, I'll admit it. I was creating a talisman for you.\nUnlike the Heroes, you won't come back to life if you fall in battle.\nI don't want to lose someone so precious to me. I've been putting a lot of care into this talisman, so...\nI hope you'll accept it when it's finally finished."
+        "Thanks for inviting me to the sea with you, [S]!\nI had no idea beach adventures could be this much fun.\nI made a new goal for myself. I want to bring the others to the beach next time so we can all have a good time!\nLloyd will be there. And Linus. And Uncle Jan... And Jaffar.\nAfter we swim in the ocean, we'll sit on the sand eating tasty food and watching the sun set together!\nFor that to happen, I need to keep working hard to bring peace to Askr. Haha! I'm super motivated now!"
       ],
       "Special": [
-        "Blood and thunder!",
-        "Time to play!",
-        "You're not gonna make it!",
-        "Ahahahaha!"
+        "Tropical attack!",
+        "I love the ocean!",
+        "I'll remember this!",
+        "Let's have fun!"
       ],
       "Status": [
-        "-",
-        "What do you want?!",
-        "You have a weapon that can summon Heroes? That's amazing!",
-        "This place... Do you have any strange diseases here? I can't get sick...",
-        "Eek! What do you think you're doing? Surprising me like that!",
-        "I'm always making trouble for you. I'm sorry. I promise... I'll get stronger.",
-        "I've lost my parents \u2014 and I've lost my talisman. But I have to go on \u2014 I have to give it my all.",
-        "I am so scared. But I'll fight as hard as I can. I want to help."
+        "O-oh...",
+        "The pretty ocean gives me so much energy; I could run forever!",
+        "*gasp* That's so cold! Is it a frozen snack?",
+        "I'm not so confident in the water, so I'm using a floatie.",
+        "Awww, look! A cute crab!",
+        "Hmm... What souvenir do you think will make Jaffar happy?",
+        "I wish the others could see this ocean...",
+        "I'm so glad we can make wonderful summer memories together."
       ],
       "Map Select": [
-        "All right.",
-        "M-me?",
-        "O-OK."
+        "This way?",
+        "So hot!",
+        "Let's go swimming!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Rearmed Noire",
-    "SEARCH_NAME": "Rearmed Noire",
-    "DISPLAY_NAME": "<:Red_Bow:1124846280951218289>Rearmed Noire",
+    "short_name": "Summer Nino",
+    "SEARCH_NAME": "Summer Nino",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Summer Nino",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "noire",
-      "noire2"
+      "nino",
+      "nino2",
+      "nino3",
+      "nino4",
+      "nino5"
     ],
     "prf": {
-      "": "arcanehexbow",
-      "eff": "arcanehexbow",
-      "atk": "arcanehexbow",
-      "spd": "arcanehexbow",
-      "def": "arcanehexbow",
-      "res": "arcanehexbow"
+      "": "bouncinball",
+      "eff": "bouncinball",
+      "atk": "bouncinball",
+      "spd": "bouncinball",
+      "def": "bouncinball",
+      "res": "bouncinball"
     }
   },
-  "tharja7": {
-    "name": "Tharja",
-    "title": "Gloomy Mage",
-    "description": "A dark mage who spends her days researching strange charms. Her usual gloominess is contrary to her secret passion. Appears in Fire Emblem Awakening.",
-    "origin": "Awakening",
-    "artist": "Mai Okuma (\u5927\u718a\u307e\u3044)",
+  "palla5": {
+    "name": "Palla",
+    "title": "Soaring Summer",
+    "description": "Eldest of the three sisters who are pegasus knights of the Macedonian Whitewings. Enjoys Askr's summer to its fullest. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "origin": "Echoes",
+    "artist": "GomashioPonzu (\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162)",
     "move": "Flying",
-    "weapon": "Tome",
+    "weapon": "Axe",
     "color": "Green",
     "duel": false,
-    "id": "1248",
-    "type": "attuned",
+    "id": "1255",
+    "type": false,
     "version": "9.6",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 13,
-      "atk": 11,
-      "spd": 8,
-      "def": 3,
-      "res": 16
+      "hp": 19,
+      "atk": 10,
+      "spd": 3,
+      "def": 13,
+      "res": 10
     },
     "growth": {
       "hp": 50,
-      "atk": 75,
+      "atk": 90,
+      "spd": 35,
+      "def": 75,
+      "res": 70
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "def"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Fannin' Foliage": "3",
+      "Fannin' Foliage+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "A/D Near Trace 1": "2",
+        "A/D Near Trace 2": "3",
+        "A/D Near Trace 3": "4",
+        "A/D Near Trace 4": "5"
+      },
+      "C": {
+        "Atk/Def Rein 1": "1",
+        "Atk/Def Rein 2": "2",
+        "Atk/Def Rein 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/11/Palla_Soaring_Summer_Face.webp/revision/latest?cb=20250617043411",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/90/Palla_Soaring_Summer_BtlFace_D.webp/revision/latest?cb=20250617043406",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ad/Palla_Soaring_Summer_BtlFace_C.webp/revision/latest?cb=20250617043401",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8a/Palla_Soaring_Summer_BtlFace.webp/revision/latest?cb=20250617043346"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
+    ],
+    "HARD_ALT_NAME": [
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6c34\u7740\u5916\u4f1d\u30d1\u30aa\u30e9",
+    "voice": "Alexis Tipton",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "valentia"
+    ],
+    "chibi": "fe15",
+    "quotes": {
+      "Castle Hall": [
+        "Isn't the ocean fabulous? I wonder... What would it be like to come here with someone special.",
+        "Askr's ocean is quite calm compared to the turbulent waters of the ocean between Archanea and Valentia.",
+        "You can count on me to patrol the beach. I'll get the best view of these sandy shores from the sky.",
+        "Flying above it all with a nice breeze blowing in from the ocean makes me grateful to be a pegasus knight.",
+        "I didn't expect to show up in another world wearing a swimsuit... How will I explain this to my little sisters?"
+      ],
+      "Visit": [
+        "I'm Palla, one of the Macedonian Whitewings, flying in a summery gift from [F]."
+      ],
+      "Level": [
+        "That was a wonderful experience. I will never forget the memories I made this summer.",
+        "Whew... Looks like everything worked out. Let's enjoy some cold drinks to cool ourselves down.",
+        "I know now is not the time to feel self-conscious, but..."
+      ],
+      "Summon": [
+        "I am Palla, of the Whitewings. Isn't Askr's ocean lovely? An ideal spot for me and my pegasus to rest our wings."
+      ],
+      "Learn Skill": [
+        "Oh! What a wonderful gift! I promise I'll live up to expectations."
+      ],
+      "Confession": [
+        "Thank you for inviting me to Askr's beach, [S].\nFrom Archanea to Valentia...my days of fighting had no end in sight. This has been a pleasant change of pace.\nBut, if I could have a wish right now, it would be to show this lovely place to my little sisters too.\nThat desire has only grown stronger during my time here.\nSharing the little things that bring us joy with each other... That is how we have lived our lives to this point.\nI want the three of us to fly to this beach together someday. When that time comes, I truly hope you join us."
+      ],
+      "Special": [
+        "Summer memories!",
+        "Time to cool off!",
+        "The sun is blinding.",
+        "Watch your step!"
+      ],
+      "Status": [
+        "Hmm...",
+        "I've been looking forward to today. The ocean is so beautiful in summertime...",
+        "Oh! Is that drink for me? Thank you. It's even a pretty color too.",
+        "I've never worn a swimsuit before... It makes me feel a little self-conscious.",
+        "I can tell my sisters are jealous, though Catria would never let that show.",
+        "It's really quite enjoyable just walking along the beach with you.",
+        "Watching the sunset along the ocean shore with him\u2014 Uh, no... That's foolishness.",
+        "The sun is beating down hard... We shouldn't forget to wear sunscreen."
+      ],
+      "Map Select": [
+        "Yes.",
+        "It's so hot...",
+        "Let's have fun."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Summer Palla",
+    "SEARCH_NAME": "Summer Palla",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Summer Palla",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "palla",
+      "palla2",
+      "palla3",
+      "palla4"
+    ],
+    "prf": {
+      "": "fanninfoliage",
+      "eff": "fanninfoliage",
+      "atk": "fanninfoliage",
+      "spd": "fanninfoliage",
+      "def": "fanninfoliage",
+      "res": "fanninfoliage"
+    }
+  },
+  "lapis3": {
+    "name": "Lapis",
+    "title": "Forager of the Sea",
+    "description": "A warrior of Brodia and retainer to Alcryst, she hunts for food on the beach and in the ocean. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "Idenshi Hina (\u907a\u4f1d\u5b50\u3072\u306a)",
+    "move": "Infantry",
+    "weapon": "Lance",
+    "color": "Blue",
+    "duel": false,
+    "id": "1256",
+    "type": false,
+    "version": "9.6",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 19,
+      "atk": 10,
+      "spd": 9,
+      "def": 11,
+      "res": 8
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 80,
       "spd": 90,
-      "def": 30,
-      "res": 60
+      "def": 55,
+      "res": 50
     },
     "superboon": [
       "spd"
     ],
     "superbane": [
       "hp",
-      "atk",
-      "def"
+      "res"
     ],
     "weapons": {
-      "Wind": "1",
-      "Elwind": "2",
-      "Rexcalibur": "3",
-      "Kindred Tome": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Silver Lance": "3",
+      "Haulin' Harpoon": "5"
     },
     "assist": {},
     "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4",
-      "Ice Wall": "5"
+      "Dragon Gaze": "3",
+      "Draconic Aura": "4",
+      "Haze Slice": "5"
     },
     "passive": {
       "A": {
-        "Already Dead": "5"
+        "Atk/Spd Clash 1": "2",
+        "Atk/Spd Clash 2": "3",
+        "Atk/Spd Clash 3": "4",
+        "Atk/Spd Excel": "5"
       },
       "B": {
-        "Sabotage Spd 1": "2",
-        "Sabotage Spd 2": "3",
-        "Sabotage Spd 3": "4",
-        "Spd/Res Havoc": "5"
+        "Potent 1": "2",
+        "Potent 2": "3",
+        "Potent 3": "4",
+        "Potent Finish": "5"
       },
       "C": {
-        "Savage Blow 1": "2",
-        "Savage Blow 2": "3",
-        "Savage Blow 3": "4",
-        "Deadly Miasma": "5"
+        "Even Tempest 1": "2",
+        "Even Tempest 2": "3",
+        "Even Tempest 3": "4",
+        "Pulse Tempest F": "5"
       },
-      "X": {
-        "Crux Echo": "5"
-      }
+      "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0f/Tharja_Gloomy_Mage_Face.webp/revision/latest?cb=20250605053248",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5a/Tharja_Gloomy_Mage_BtlFace_D.webp/revision/latest?cb=20250605053243",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/01/Tharja_Gloomy_Mage_BtlFace_C.webp/revision/latest?cb=20250605053238",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cd/Tharja_Gloomy_Mage_BtlFace.webp/revision/latest?cb=20250605053223"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fe/Lapis_Forager_of_the_Sea_Face.webp/revision/latest?cb=20250617043446",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b5/Lapis_Forager_of_the_Sea_BtlFace_D.webp/revision/latest?cb=20250617043441",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/54/Lapis_Forager_of_the_Sea_BtlFace_C.webp/revision/latest?cb=20250617043436",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bc/Lapis_Forager_of_the_Sea_BtlFace.webp/revision/latest?cb=20250617043421"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Gloomy Mage",
-      "Tharja: Gloomy Mage",
-      "Base Tharja",
-      "Normal Tharja",
-      "Regular Tharja",
-      "Attuned Tharja",
-      "tharja7"
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
     ],
     "HARD_ALT_NAME": [
-      "Gloomy Mage",
-      "Tharja: Gloomy Mage",
-      "Base Tharja",
-      "Normal Tharja",
-      "Regular Tharja",
-      "Attuned Tharja",
-      "tharja7"
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
     ],
     "gender": "F",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u97ff\u5fc3\u30b5\u30fc\u30ea\u30e3",
-    "voice": "Not yet recorded.",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6c34\u7740\u30e9\u30d4\u30b9",
+    "voice": "Takayanagi Tomoyo (\u9ad8\u67f3\u77e5\u8449)",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "ylisse"
+      "elyos"
     ],
-    "chibi": "fe13",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "My homeland still carries so much bitterness toward Ylisse. I never shared those petty feelings.",
-        "I was instructed in the dark arts from infancy. Even my umbilical cord was cut with a curse.",
-        "I need some salamander skin. I don't suppose they would have something like that in the shop?",
-        "Dark magic can be medicinal if you want it to be. Warding off a malicious influence, like a flu, would be simple.",
-        "Ah...I see why my future self didn't share this knowledge. The dark arts carry with them tremendous risks."
+        "I'm not just fishing. I'm also gathering colorful shells and beach grass, as one does while enjoying the summer.",
+        "I caught the unique fish you see in my creel from a pond on the Somniel. It's an island that floats in the sky.",
+        "Is the heat wearing you out? I'll go extract salt from some ocean water and make my salt candies for you.",
+        "Leave free diving, distance swimming, and water combat to me! I trained in the raging oceans of Brodia.",
+        "When I tried to make myself a classy swimsuit for playing in the ocean, my hands wove a fishing net instead."
       ],
       "Visit": [
-        "I need the heads of two black snakes. There were none to be found in [F]'s castle."
+        "Mind if I fish while I'm here? After I drop off this summer greeting from [F], that is."
       ],
       "Level": [
-        "Heheheh... My curses are unrelenting. I will curse them down to the last of their descendants!",
-        "Noire, you can rest easy knowing I will erase from existence anyone who dares to frighten you.",
-        "If it's for my daughter's future, then I care not what happens to me. I am a mother, after all..."
+        "Wow! I caught quite the haul today! The ocean really is bountiful.",
+        "I want to try using this power for fishing... What?! No, I meant battle!",
+        "The ocean certainly is moody today. Should I come back another time?"
       ],
       "Summon": [
-        "I'm Tharja, a dark mage. I'm keeping an eye on, Noire, my daughter...my future daughter... It's complicated."
+        "Lapis, royal soldier of Brodia, here to report in! Is this where we're fishing today? I will bring in a big haul."
       ],
       "Learn Skill": [
-        "After all this time, I would consider hearing what you want to say. I can make an exception for you."
+        "Fantastic! This is perfect for summer! I'm not sure I deserve it, but it makes me happy."
       ],
       "Confession": [
-        "The world is full of strange things... I've come to a conclusion about one, though. Care to hear what it is?\nIt's about my future daughter...Noire. Her magical power is impressive, and yet, she is not a dark mage.\nMy daughter, not a dark mage? Is it not odd that the future me taught her nothing.\nI wondered why that would be. But after seeing her, I think maybe I did not want her using dark magic.\nCurses are dangerous things. Why pass down something like that?\nNot an exciting revelation, was it? It was simple. A future great dark mage chose to act as a mother. Heheh..."
+        "Here's some beach grass, tropical fruits, and freshly grilled fish! All for you, [S]!\nOh, no, you didn't look hungry. But... Well, sharing food with a friend is how I show them I care about them.\nWhere I'm from, it's a sign of strong friendship when you give someone the most delicious part of something.\nUm... Heheh. It's just...after our ocean adventures this summer, I wanted to give you a gift to show you how I feel.\nHere, this is for you... It's the head of a huge fish I just caught. That's the most delicious part!"
       ],
       "Special": [
-        "Think you're prepared?",
-        "Let's see what this does!",
-        "A pointless struggle...",
-        "Must protect her..."
+        "I'll finish this!",
+        "Gut you like a fish!",
+        "You'll be minced!",
+        "Summer engage!"
       ],
       "Status": [
         "-",
-        "I am Tharja... Noire is my daughter from the future.",
-        "Ah! Sorry to disappoint you, but I only have eyes for someone else...",
-        "This outfit is similar to what Noire wears, though I do not carry a bow.",
-        "You say it's my fault that girl is easily frightened? What's done cannot be undone...",
-        "Hm... I wonder which outfit Robin would prefer, my usual attire or this...",
-        "Even if she never learns hexes, she still has her own path to follow.",
-        "How can I describe the feelings I have for you? They differ from those I have for my beloved and my daughter."
+        "Swimsuit? Oh, no, this outfit is made for battle in the water. I designed it myself.",
+        "Hold on! Hands off the fish! I've got plans to mince them all later.",
+        "Isn't the ocean amazing? It's beautiful, vast...and full of so many edible things.",
+        "Brodia has a robust fishing industry. I'm better suited to using a harpoon than sitting around with a fishing pole.",
+        "I caught so many fish today! I got matob octopuses and mir catfish. Oh, and even big-eyed sardines.",
+        "I'll give this seashell to Prince Alcryst and this one to Citrinne... When it comes to souvenirs, you can't beat seashells given freely by the sea.",
+        "These garments aren't perfectly made, but even if they get damaged, I can reinforce them with seaweed and keep fighting."
       ],
       "Map Select": [
-        "I suppose.",
-        "Maybe...",
-        "This one's easy."
+        "To the sea.",
+        "Mmm... Tasty fish...",
+        "At a hundred percent!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Attuned Tharja",
-    "SEARCH_NAME": "Attuned Tharja",
-    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Attuned Tharja",
+    "short_name": "Summer Lapis",
+    "SEARCH_NAME": "Summer Lapis",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Summer Lapis",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "tharja",
-      "tharja2",
-      "tharja3",
-      "tharja4",
-      "tharja5",
-      "tharja6"
+      "lapis",
+      "lapis2"
     ],
     "prf": {
-      "": "kindredtome",
-      "eff": "kindredtome",
-      "atk": "kindredtome",
-      "spd": "kindredtome",
-      "def": "kindredtome",
-      "res": "kindredtome"
+      "": "haulinharpoon",
+      "eff": "haulinharpoon",
+      "atk": "haulinharpoon",
+      "spd": "haulinharpoon",
+      "def": "haulinharpoon",
+      "res": "haulinharpoon"
+    }
+  },
+  "fogado2": {
+    "name": "Fogado",
+    "title": "Summer of Bliss",
+    "description": "First prince of Solm. He loves the heat, the ocean, the beach, and everyone. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "argon",
+    "move": "Cavalry",
+    "weapon": "Dagger",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1257",
+    "type": false,
+    "version": "9.6",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 17,
+      "atk": 12,
+      "spd": 8,
+      "def": 7,
+      "res": 6
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 45,
+      "res": 50
+    },
+    "superboon": [
+      "spd",
+      "def"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "res"
+    ],
+    "weapons": {
+      "Iron Dagger": "1",
+      "Steel Dagger": "2",
+      "Tropical Juice": "3",
+      "Tropical Juice+": "5"
+    },
+    "assist": {},
+    "special": {
+      "New Moon": "3",
+      "Luna": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Catch 1": "1",
+        "Atk/Spd Catch 2": "2",
+        "Atk/Spd Catch 3": "4"
+      },
+      "B": {},
+      "C": {
+        "Pulse Smoke 1": "3",
+        "Pulse Smoke 2": "4",
+        "Pulse Smoke 3": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/43/Fogado_Summer_of_Bliss_Face.webp/revision/latest?cb=20250617043521",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b6/Fogado_Summer_of_Bliss_BtlFace_D.webp/revision/latest?cb=20250617043516",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cc/Fogado_Summer_of_Bliss_BtlFace_C.webp/revision/latest?cb=20250617043511",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/34/Fogado_Summer_of_Bliss_BtlFace.webp/revision/latest?cb=20250617043457"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
+    ],
+    "HARD_ALT_NAME": [
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "grail",
+    "internal_id": "PID_\u6c34\u7740\u30d5\u30a9\u30ac\u30fc\u30c8",
+    "voice": "KENN",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "Me? I'm good at all kinds of sports\u2014 you name it! Except for fishing. I can't get the hang of it. Any tips?",
+        "Ta-da! This floatie is made to look like Emblem Ike's ring. Next I need one that looks like Emblem Corrin's!",
+        "I hear Askr's summer is over before you know it. But not this time! If you miss the heat, just come and find me.",
+        "Let's head to the beach later when things quiet down. Beneath the stars, listening to the waves... So relaxing.",
+        "It's summer, so we NEED to throw a party! Let's gather some tasty food and enjoy tonight with our friends."
+      ],
+      "Visit": [
+        "Oh, hi there. I'm Fogado and I'm making the most of this summer with [F]!"
+      ],
+      "Level": [
+        "Wahoo! This is why I love summer!",
+        "This is all thanks to you being there for me. Let's make it a summer to remember!",
+        "Maybe I was goofing off too much! Focus, Fogado!"
+      ],
+      "Summon": [
+        "Huh? I was having fun at the beach and now I'm...here? Ah, well. Nice to meet you! I'm Fogado!"
+      ],
+      "Learn Skill": [
+        "This'll be the best memory from the summer for sure. Thanks!"
+      ],
+      "Confession": [
+        "Hot, isn't it? So hot that we should DEFINITELY go jump in the ocean. What do you say to a swim?\nJust us, I mean. I love partying with our friends, but I wanted to have a nice, long chat with you.\nWe can listen to the murmuring of the tide. Picture it. You'll remember today for the rest of your life.\nAt least, I hope you will! I want to be someone who's special to you. A true friend. I hope you feel the same...\nYou do? Great! Though I guess I shouldn't be surprised. I knew I could count on you.\nOK, let's head to that beach. I know the PERFECT spot. C'mon, hurry it up!"
+      ],
+      "Special": [
+        "A summery feast!",
+        "I love this heat!",
+        "Let's make memories!",
+        "Summer engage!"
+      ],
+      "Status": [
+        "Whoa!",
+        "Take a look! Fogado, captain of the Sentinels and prince of Solm, wearing a swimsuit. Haha. You're swooning again, aren't you?",
+        "Huh, this? It's a floatie! Uh, maybe it isn't a surprise since I live in the desert, but I don't have a lot of experience being in water.",
+        "Solm is a desert queendom, so I love summer! All this bright sunshine is invigorating!",
+        "The ocean sure is beautiful. Just appreciating the scenery and the crashing of the waves is nice.",
+        "There's a place called the Azure Coast where I was raised. I'd like to show it to you someday.",
+        "I bet Pandreo would love to have this seashell as a decoration, and ooh... Bunet is definitely gonna want to taste this fruit.",
+        "Summer won't last, so we can't just lie around! Come on! Let's get out in the sunshine and create some memories!"
+      ],
+      "Map Select": [
+        "Now this is fun!",
+        "Summertime!",
+        "It's heating up!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Summer Fogado",
+    "SEARCH_NAME": "Summer Fogado",
+    "DISPLAY_NAME": "<:Colorless_Dagger:1124845658617155734>Summer Fogado",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "fogado"
+    ],
+    "prf": {
+      "": "tropicaljuice",
+      "eff": "tropicaljuice",
+      "atk": "tropicaljuice",
+      "spd": "tropicaljuice",
+      "def": "tropicaljuice",
+      "res": "tropicaljuice"
     }
   }
 }
