@@ -655,7 +655,11 @@
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -856,7 +860,11 @@
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
     ],
     "heroes": {
       "clair": "<:Blue_Lance:1124845569496584302>Clair",
@@ -874,6 +882,7 @@
       "palla2": "<:Red_Dagger:1124846223518605324>Spring Palla",
       "palla3": "<:Blue_Lance:1124845569496584302>Duo Palla",
       "palla4": "<:Red_Sword:1124846201070698536>Valentian Palla",
+      "palla5": "<:Green_Axe:1124845885277343754>Summer Palla",
       "pallaR": "<:Red_Sword:1124846201070698536>Palla (Resplendent)"
     },
     "name": "Alexis Tipton"
@@ -9222,7 +9231,12 @@
       "Emblem Celica",
       "Engage Celica",
       "E Celica",
-      "celica6"
+      "celica6",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "HARD_ALT_NAME": [
       "Imprisoned Soul",
@@ -9373,7 +9387,12 @@
       "Emblem Celica",
       "Engage Celica",
       "E Celica",
-      "celica6"
+      "celica6",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "heroes": {
       "alm4": "<:Green_Axe:1124845885277343754>Duo Alm",
@@ -9384,6 +9403,7 @@
       "celica4": "<:Green_Tome:1124845959873036289>Legendary Celica",
       "celica5": "<:Colorless_Tome:1124845725960904734>Ascended Celica",
       "celica6": "<:Blue_Tome:1124845593211191297>Emblem Celica",
+      "celica7": "<:Colorless_Tome:1124845725960904734>Summer Celica",
       "celicaR": "<:Red_Tome:1124846175577710642>Celica (Resplendent)",
       "myrrh": "<:Green_Breath:1124845770978361425>Myrrh",
       "myrrh2": "<:Red_Breath:1124846247673610240>Halloween Myrrh",
@@ -14569,7 +14589,12 @@
       "Y Lissa",
       "Baby Lissa",
       "Child Lissa",
-      "lissa4"
+      "lissa4",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "HARD_ALT_NAME": [
       "lissa3",
@@ -14588,9 +14613,15 @@
       "Y Lissa",
       "Baby Lissa",
       "Child Lissa",
-      "lissa4"
+      "lissa4",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "heroes": {
+      "celica7": "<:Colorless_Tome:1124845725960904734>Summer Celica",
       "lissa3": "<:Colorless_Staff:1124845704444137592>Valentines Lissa",
       "lissa4": "<:Green_Axe:1124845885277343754>Young Lissa"
     },
@@ -21780,7 +21811,11 @@
       "Baby Camilla",
       "Child Camilla",
       "Y Camilla",
-      "camilla10"
+      "camilla10",
+      "Resplendent Titania",
+      "Resp Titania",
+      "R Titania",
+      "Titania (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Adrift Camilla",
@@ -21897,7 +21932,11 @@
       "Baby Camilla",
       "Child Camilla",
       "Y Camilla",
-      "camilla10"
+      "camilla10",
+      "Resplendent Titania",
+      "Resp Titania",
+      "R Titania",
+      "Titania (Resplendent)"
     ],
     "heroes": {
       "camilla": "<:Green_Axe:1124845885277343754>Camilla",
@@ -21915,6 +21954,7 @@
       "hinoka4": "<:Green_Bow:1124845936426897428>Duo Hinoka",
       "titania": "<:Green_Axe:1124845885277343754>Titania",
       "titania2": "<:Red_Tome:1124846175577710642>Valentines Titania",
+      "titaniaR": "<:Green_Axe:1124845885277343754>Titania (Resplendent)",
       "ursula": "<:Blue_Tome:1124845593211191297>Ursula",
       "ursula2": "<:Colorless_Dagger:1124845658617155734>Summer Ursula",
       "ursula3": "<:Green_Tome:1124845959873036289>Khadein Ursula",
@@ -25201,7 +25241,11 @@
       "Resplendent Nino",
       "Resp Nino",
       "R Nino",
-      "Nino (Resplendent)"
+      "Nino (Resplendent)",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "HARD_ALT_NAME": [
       "kagero",
@@ -25365,7 +25409,11 @@
       "Resplendent Nino",
       "Resp Nino",
       "R Nino",
-      "Nino (Resplendent)"
+      "Nino (Resplendent)",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "heroes": {
       "fae": "<:Green_Breath:1124845770978361425>Fae",
@@ -25386,6 +25434,7 @@
       "nino3": "<:Blue_Tome:1124845593211191297>Winter Nino",
       "nino4": "<:Red_Tome:1124846175577710642>Khadein Nino",
       "nino5": "<:Green_Dagger:1124845796169351320>Attuned Nino",
+      "nino6": "<:Red_Tome:1124846175577710642>Summer Nino",
       "ninoR": "<:Green_Tome:1124845959873036289>Nino (Resplendent)"
     },
     "name": "Sarah Blandy"
@@ -29997,6 +30046,7 @@
   "kenn": {
     "heroes": {
       "fogado": "<:Green_Bow:1124845936426897428>Fogado",
+      "fogado2": "<:Colorless_Dagger:1124845658617155734>Summer Fogado",
       "ogier": "<:Red_Sword:1124846201070698536>Ogier"
     },
     "name": "KENN",
@@ -30012,7 +30062,11 @@
       "Base Ogier",
       "Normal Ogier",
       "Regular Ogier",
-      "ogier"
+      "ogier",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
     ],
     "HARD_ALT_NAME": [
       "Affable Prince",
@@ -30026,7 +30080,11 @@
       "Base Ogier",
       "Normal Ogier",
       "Regular Ogier",
-      "ogier"
+      "ogier",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
     ]
   },
   "justinelee": {
@@ -30831,6 +30889,24 @@
       "Normal Excellus",
       "Regular Excellus",
       "excellus"
+    ]
+  },
+  "takayanagitomoyo": {
+    "heroes": {
+      "lapis3": "<:Blue_Lance:1124845569496584302>Summer Lapis"
+    },
+    "name": "Takayanagi Tomoyo (\u9ad8\u67f3\u77e5\u8449)",
+    "ALT_NAME": [
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
+    ],
+    "HARD_ALT_NAME": [
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
     ]
   }
 }

@@ -980,7 +980,11 @@
       "H Lethe",
       "Harvest Lethe",
       "Spooky Lethe",
-      "lethe3"
+      "lethe3",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "HARD_ALT_NAME": [
       "Maid Lysithea",
@@ -1000,11 +1004,16 @@
       "H Lethe",
       "Harvest Lethe",
       "Spooky Lethe",
-      "lethe3"
+      "lethe3",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "heroes": {
       "lethe3": "<:Blue_Beast:1124845338688233575>Halloween Lethe",
-      "lysithea4": "<:Colorless_Tome:1124845725960904734>Maid Lysithea"
+      "lysithea4": "<:Colorless_Tome:1124845725960904734>Maid Lysithea",
+      "nino6": "<:Red_Tome:1124846175577710642>Summer Nino"
     },
     "name": "Amagasa Yun (\u96e8\u5098\u3086\u3093)"
   },
@@ -1280,7 +1289,11 @@
       "Ike: Desert Mercenary",
       "Desert Ike",
       "D Ike",
-      "ike8"
+      "ike8",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
     ],
     "HARD_ALT_NAME": [
       "gaiusR",
@@ -1495,7 +1508,11 @@
       "Ike: Desert Mercenary",
       "Desert Ike",
       "D Ike",
-      "ike8"
+      "ike8",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
     ],
     "heroes": {
       "alfonse3": "<:Blue_Tome:1124845593211191297>Duo Alfonse",
@@ -1506,6 +1523,7 @@
       "corrin8": "<:Blue_Breath:1124845312637403236>Fallen Male Corrin",
       "dagr3": "<:Red_Sword:1124846201070698536>Wind Dagr",
       "dimitri6": "<:Green_Axe:1124845885277343754>Winter Dimitri",
+      "fogado2": "<:Colorless_Dagger:1124845658617155734>Summer Fogado",
       "gaiusR": "<:Colorless_Dagger:1124845658617155734>Gaius (Resplendent)",
       "gangrel": "<:Colorless_Dagger:1124845658617155734>Gangrel",
       "hrid2": "<:Red_Sword:1124846201070698536>New Year Hr\u00edd",
@@ -20154,7 +20172,11 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3"
+      "sothe3",
+      "Resplendent Titania",
+      "Resp Titania",
+      "R Titania",
+      "Titania (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "jeorgeR",
@@ -20201,14 +20223,19 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3"
+      "sothe3",
+      "Resplendent Titania",
+      "Resp Titania",
+      "R Titania",
+      "Titania (Resplendent)"
     ],
     "heroes": {
       "ced2": "<:Green_Tome:1124845959873036289>Ascended Ced",
       "ingrid3": "<:Blue_Lance:1124845569496584302>Rearmed Ingrid",
       "jeorgeR": "<:Colorless_Bow:1124845636659982457>Jeorge (Resplendent)",
       "lucina6": "<:Green_Axe:1124845885277343754>Valentines Lucina",
-      "sothe3": "<:Colorless_Dagger:1124845658617155734>Rearmed Sothe"
+      "sothe3": "<:Colorless_Dagger:1124845658617155734>Rearmed Sothe",
+      "titaniaR": "<:Green_Axe:1124845885277343754>Titania (Resplendent)"
     },
     "name": "RIZ3"
   },
@@ -28362,20 +28389,29 @@
   },
   "gomashioponzuo": {
     "heroes": {
-      "camillaR": "<:Green_Axe:1124845885277343754>Camilla (Resplendent)"
+      "camillaR": "<:Green_Axe:1124845885277343754>Camilla (Resplendent)",
+      "palla5": "<:Green_Axe:1124845885277343754>Summer Palla"
     },
     "name": "\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162",
     "ALT_NAME": [
       "Resplendent Camilla",
       "Resp Camilla",
       "R Camilla",
-      "Camilla (Resplendent)"
+      "Camilla (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Camilla",
       "Resp Camilla",
       "R Camilla",
-      "Camilla (Resplendent)"
+      "Camilla (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
     ]
   },
   "yoshio": {
@@ -28570,6 +28606,7 @@
   },
   "yichuanzihina": {
     "heroes": {
+      "lapis3": "<:Blue_Lance:1124845569496584302>Summer Lapis",
       "marni": "<:Green_Axe:1124845885277343754>Marni"
     },
     "name": "\u907a\u4f1d\u5b50\u3072\u306a",
@@ -28579,7 +28616,11 @@
       "Regular Marni",
       "Base Marni",
       "Normal Marni",
-      "marni"
+      "marni",
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
     ],
     "HARD_ALT_NAME": [
       "Pining for Praise",
@@ -28587,7 +28628,11 @@
       "Regular Marni",
       "Base Marni",
       "Normal Marni",
-      "marni"
+      "marni",
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
     ]
   },
   "daiekusuto": {
@@ -29409,6 +29454,26 @@
       "Rearm Noire",
       "Arm Noire",
       "noire3"
+    ]
+  },
+  "huwaomu": {
+    "heroes": {
+      "celica7": "<:Colorless_Tome:1124845725960904734>Summer Celica"
+    },
+    "name": "\u3075\u308f\u304a\u3080",
+    "ALT_NAME": [
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
+    ],
+    "HARD_ALT_NAME": [
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",      
+      "celica7"
     ]
   }
 }
