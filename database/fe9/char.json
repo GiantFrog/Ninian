@@ -85,7 +85,7 @@
     },
     "bastian": {
         "name": "Bastian",
-        "job": "sagem",
+        "job": "sagebastian",
         "lvl": 13,
         "affinity": "wind",
         "note": false,
@@ -348,7 +348,7 @@
     },
     "calill": {
         "name": "Calill",
-        "job": "sagef",
+        "job": "sagecalill",
         "lvl": 6,
         "affinity": "dark",
         "note": false,
