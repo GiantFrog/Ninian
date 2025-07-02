@@ -30,9 +30,7 @@ Portrait.py: This fetches the character headshot and adds it to the veyle databa
 
 Editing: contains frames and icons to add to portraits. If you don't want portraits for any other purpose this folder and the associated functions in portrait.py can be deleted.
 
-Counter.txt: Stores the number for the next skill icon. Don't recommend editing / removing
-
 
 MISC:
-For emblem units, the emblem icon needs to be manually downloaded from the wiki (Look for the newest skill sheet of passive skills and crop it from there. Manually number based on counter.txt and update counter.txt). Make an entry in database/feh/engage.json.
+For emblem units, the emblem icon needs to be manually downloaded from the wiki (Look for the newest skill sheet of passive skills and crop it from there). Make an entry in database/feh/engage.json.
 
