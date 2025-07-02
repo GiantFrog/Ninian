@@ -14191,7 +14191,11 @@
       "Fallen Lloyd",
       "F Lloyd",
       "Corrupted Lloyd",
-      "lloyd2"
+      "lloyd2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "narcian",
@@ -14270,13 +14274,18 @@
       "Fallen Lloyd",
       "F Lloyd",
       "Corrupted Lloyd",
-      "lloyd2"
+      "lloyd2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "heroes": {
       "lloyd": "<:Red_Sword:1124846201070698536>Lloyd",
       "lloyd2": "<:Red_Sword:1124846201070698536>Fallen Lloyd",
       "narcian": "<:Green_Axe:1124845885277343754>Narcian",
       "narcian2": "<:Blue_Lance:1124845569496584302>Spring Narcian",
+      "narcianR": "<:Green_Axe:1124845885277343754>Narcian (Resplendent)",
       "odin": "<:Blue_Tome:1124845593211191297>Odin",
       "odinR": "<:Blue_Tome:1124845593211191297>Odin (Resplendent)",
       "owain": "<:Red_Sword:1124846201070698536>Owain",
@@ -27762,7 +27771,13 @@
       "Base Rune",
       "Normal Rune",
       "Regular Rune",
-      "rune"
+      "rune",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "HARD_ALT_NAME": [
       "micaiah",
@@ -27832,7 +27847,13 @@
       "Base Rune",
       "Normal Rune",
       "Regular Rune",
-      "rune"
+      "rune",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "heroes": {
       "manuela": "<:Red_Sword:1124846201070698536>Winter Manuela",
@@ -27844,6 +27865,7 @@
       "micaiah5": "<:Colorless_Tome:1124845725960904734>Legendary Micaiah",
       "micaiah6": "<:Colorless_Tome:1124845725960904734>Summer Micaiah",
       "micaiah7": "<:Green_Tome:1124845959873036289>Attuned Micaiah",
+      "micaiah8": "<:Colorless_Tome:1124845725960904734>Emblem Micaiah",
       "micaiahR": "<:Blue_Tome:1124845593211191297>Micaiah (Resplendent)",
       "rune": "<:Colorless_Tome:1124845725960904734>Rune"
     },
