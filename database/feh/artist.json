@@ -22445,7 +22445,11 @@
       "Valentine's Hubert",
       "Valentines Hubert",
       "Valentine Hubert",
-      "hubert2"
+      "hubert2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Normal Sirius",
@@ -22626,7 +22630,11 @@
       "Valentine's Hubert",
       "Valentines Hubert",
       "Valentine Hubert",
-      "hubert2"
+      "hubert2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "heroes": {
       "camus": "<:Blue_Lance:1124845569496584302>Camus",
@@ -22645,6 +22653,7 @@
       "laslow": "<:Red_Sword:1124846201070698536>Laslow",
       "leifR": "<:Red_Sword:1124846201070698536>Leif (Resplendent)",
       "linus2": "<:Green_Axe:1124845885277343754>Fallen Linus",
+      "narcianR": "<:Green_Axe:1124845885277343754>Narcian (Resplendent)",
       "nilesR": "<:Colorless_Bow:1124845636659982457>Niles (Resplendent)",
       "odin": "<:Blue_Tome:1124845593211191297>Odin",
       "owain": "<:Red_Sword:1124846201070698536>Owain",
@@ -22821,7 +22830,13 @@
       "Regular Brigid",
       "Attuned Brigid",
       "brigid1",
-      "Awakened Bow"
+      "Awakened Bow",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "HARD_ALT_NAME": [
       "Beautiful Mage",
@@ -22966,7 +22981,13 @@
       "Normal Brigid",
       "Regular Brigid",
       "Attuned Brigid",
-      "brigid1"
+      "brigid1",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "heroes": {
       "august": "<:Colorless_Staff:1124845704444137592>August",
@@ -22977,6 +22998,7 @@
       "ishtarR": "<:Blue_Tome:1124845593211191297>Ishtar (Resplendent)",
       "kamui": "<:Red_Sword:1124846201070698536>Kamui",
       "lucia2": "<:Blue_Lance:1124845569496584302>Festival Lucia",
+      "micaiah8": "<:Colorless_Tome:1124845725960904734>Emblem Micaiah",
       "nyna": "<:Colorless_Staff:1124845704444137592>Nyna",
       "selena4": "<:Red_Tome:1124846175577710642>Valentines Selena",
       "sigurd3": "<:Red_Sword:1124846201070698536>Legendary Sigurd",
@@ -29472,7 +29494,7 @@
       "Sunlit Priestesses",
       "Celica: Sunlit Priestesses",
       "Summer Celica",
-      "Harmonic Celica",      
+      "Harmonic Celica",
       "celica7"
     ]
   }
