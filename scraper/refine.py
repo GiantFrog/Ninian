@@ -1,3 +1,4 @@
+from os import listdir
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -76,23 +77,22 @@ def ref(key):
     weapon['refine'] = refine
 
     try:
-        file_counter = open("counter.txt", "r+")
-        count = file_counter.read()
-        count = int(count)
-        if count:
-            data = requests.get(url).content
-            f = open(path + str(count) + '.png', 'wb')
-            f.write(data)
-            f.close()
-            weapon['icon'] = count
-            count = count+1
-            count = (str(count))
-            file_counter.truncate(0)
-            file_counter.seek(0)
-            file_counter.write(count)
-            file_counter.close()
+        count = 1
+        for file in listdir(path):
+            try:
+                file_number = int(file[:-4])
+                if file_number > count:
+                    count = file_number
+            except (ValueError, TypeError):
+                pass
+
+        data = requests.get(url).content
+        f = open(path + str(count) + '.png', 'wb')
+        f.write(data)
+        f.close()
+        weapon['icon'] = count
     except Exception as e:
-        print("Something went wrong with opening counter.txt, and no new skill icon was written. Error: ", e)
+        print("Something went wrong and no new skill icon was written. Error: ", e)
 
 
     unit['prf'][''] = wep_key + 'eff'
