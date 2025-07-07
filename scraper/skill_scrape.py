@@ -1,3 +1,4 @@
+from os import listdir
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -10,7 +11,16 @@ import string
 path = "../database/feh/images/passive/"
 
 
-
+def passive_icon_number():
+    count = 1
+    for file in listdir(path):
+        try:
+            file_number = int(file[:-4])
+            if file_number > count:
+                count = file_number
+        except (ValueError, TypeError):
+            pass
+    return count
 
 def scrape_passive_skill(page_name):
     if page_name.endswith('?'):
@@ -137,29 +147,16 @@ def scrape_passive_skill(page_name):
         obj['description'] = description[:-2]
         
 
-    # Get the icon number from the counter.txt file
-    try:
-        file_counter = open("counter.txt", "r+")
-        count = file_counter.read()
-        count = int(count)
-    except Exception as e:
-        print("Something went wrong with opening the file. Error: ", e)
+    count = passive_icon_number()
 
-    if count:
-        highest = info = wiki_info[len(wiki_info) - 2]
-        url = highest.find_all('td')[0].find_all('a')[0]['href']
+    highest = info = wiki_info[len(wiki_info) - 2]
+    url = highest.find_all('td')[0].find_all('a')[0]['href']
 
-        data = requests.get(url).content
-        f = open(path + str(count) + '.png', 'wb')
-        f.write(data)
-        f.close()
-        blank['icon'] = count
-        count = count+1
-        count = (str(count))
-        file_counter.truncate(0)
-        file_counter.seek(0)
-        file_counter.write(count)
-        file_counter.close()
+    data = requests.get(url).content
+    f = open(path + str(count) + '.png', 'wb')
+    f.write(data)
+    f.close()
+    blank['icon'] = count
     blank['slot'] = slot
 
     return blank
@@ -392,29 +389,15 @@ def scrape_captain(page_name):
     blank['skill'].append(obj)
     
 
-    # Get the icon number from the counter.txt file
-    try:
-        file_counter = open("counter.txt", "r+")
-        count = file_counter.read()
-        count = int(count)
-    except Exception as e:
-        print("Something went wrong with opening the file. Error: ", e)
+    count = passive_icon_number()
+    highest = wiki_info[1]
+    url = highest.find_all('td')[0].find_all('a')[0]['href']
 
-    if count:
-        highest = wiki_info[1]
-        url = highest.find_all('td')[0].find_all('a')[0]['href']
-
-        data = requests.get(url).content
-        f = open(path + str(count) + '.png', 'wb')
-        f.write(data)
-        f.close()
-        blank['icon'] = count
-        count = count+1
-        count = (str(count))
-        file_counter.truncate(0)
-        file_counter.seek(0)
-        file_counter.write(count)
-        file_counter.close()
+    data = requests.get(url).content
+    f = open(path + str(count) + '.png', 'wb')
+    f.write(data)
+    f.close()
+    blank['icon'] = count
 
     return blank
 # print(scrape_passive_skill('/wiki/Armored_Wall'))
