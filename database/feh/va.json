@@ -481,7 +481,11 @@
       "Underground Lord",
       "Legendary Yuri",
       "Leg Yuri",
-      "Legend Yuri"
+      "Legend Yuri",
+      "Tropical Wolf",
+      "Yuri: Tropical Wolf",
+      "Summer Yuri",
+      "yuri3"
     ],
     "HARD_ALT_NAME": [
       "yuri",
@@ -496,11 +500,16 @@
       "L Yuri",
       "Luri",
       "Leg Yuri",
-      "Legend Yuri"
+      "Legend Yuri",
+      "Tropical Wolf",
+      "Yuri: Tropical Wolf",
+      "Summer Yuri",
+      "yuri3"
     ],
     "heroes": {
       "yuri": "<:Colorless_Dagger:1124845658617155734>Yuri",
-      "yuri2": "<:Red_Dagger:1124846223518605324>Legendary Yuri"
+      "yuri2": "<:Red_Dagger:1124846223518605324>Legendary Yuri",
+      "yuri3": "<:Green_Dagger:1124845796169351320>Summer Yuri"
     },
     "name": "Alejandro Saab"
   },
@@ -30029,7 +30038,8 @@
   "catprotano": {
     "heroes": {
       "heidrun": "<:Green_Beast:1124845912385138738>Hei\u00f0r\u00fan",
-      "heidrun2": "<:Colorless_Tome:1124845725960904734>New Year Hei\u00f0r\u00fan"
+      "heidrun2": "<:Colorless_Tome:1124845725960904734>New Year Hei\u00f0r\u00fan",
+      "heidrun3": "<:Colorless_Beast:1124845615935918110>Summer Hei\u00f0r\u00fan"
     },
     "name": "Cat Protano",
     "ALT_NAME": [
@@ -30046,7 +30056,11 @@
       "New Years Heidrun",
       "NY Heidrun",
       "hei\u00f0r\u00fan2",
-      "heidrun2"
+      "heidrun2",
+      "Peaceful Horizon",
+      "Hei\u00f0r\u00fan: Peaceful Horizon",
+      "Summer Hei\u00f0r\u00fan",
+      "heidrun3"
     ],
     "HARD_ALT_NAME": [
       "Healing Nectar",
@@ -30062,7 +30076,11 @@
       "New Years Heidrun",
       "NY Heidrun",
       "hei\u00f0r\u00fan2",
-      "heidrun2"
+      "heidrun2",
+      "Peaceful Horizon",
+      "Hei\u00f0r\u00fan: Peaceful Horizon",
+      "Summer Hei\u00f0r\u00fan",
+      "heidrun3"
     ]
   },
   "kenn": {
@@ -30929,6 +30947,60 @@
       "Lapis: Forager of the Sea",
       "Summer Lapis",
       "lapis3"
+    ]
+  },
+  "shunsuketakeuchi": {
+    "heroes": {
+      "eikthyrnir3": "<:Red_Beast:1124846309208248381>Summer Eik\u00feyrnir"
+    },
+    "name": "Shunsuke Takeuchi (\u6b66\u5185\u99ff\u8f14)",
+    "ALT_NAME": [
+      "Fit for Waves",
+      "Eik\u00feyrnir: Fit for Waves",
+      "Summer Eik\u00feyrnir",
+      "eikthyrnir3"
+    ],
+    "HARD_ALT_NAME": [
+      "Fit for Waves",
+      "Eik\u00feyrnir: Fit for Waves",
+      "Summer Eik\u00feyrnir",
+      "eikthyrnir3"
+    ]
+  },
+  "sachikamisawasarahemibridcutt": {
+    "heroes": {
+      "hapi2": "<:Blue_Tome:1124845593211191297>Summer Hapi"
+    },
+    "name": "Sachika Misawa + Sarah Emi Bridcutt",
+    "ALT_NAME": [
+      "Eternal Sunlit Pair",
+      "Hapi: Eternal Sunlit Pair",
+      "Summer Hapi",
+      "hapi2"
+    ],
+    "HARD_ALT_NAME": [
+      "Eternal Sunlit Pair",
+      "Hapi: Eternal Sunlit Pair",
+      "Summer Hapi",
+      "hapi2"
+    ]
+  },
+  "nathanhedrick": {
+    "heroes": {
+      "balthus2": "<:Blue_Lance:1124845569496584302>Summer Balthus"
+    },
+    "name": "Nathan Hedrick",
+    "ALT_NAME": [
+      "Summer's Big Bet",
+      "Balthus: Summer's Big Bet",
+      "Summer Balthus",
+      "balthus2"
+    ],
+    "HARD_ALT_NAME": [
+      "Summer's Big Bet",
+      "Balthus: Summer's Big Bet",
+      "Summer Balthus",
+      "balthus2"
     ]
   }
 }
