@@ -3613,7 +3613,11 @@
       "New Years Heidrun",
       "NY Heidrun",
       "hei\u00f0r\u00fan2",
-      "heidrun2"
+      "heidrun2",
+      "Eternal Sunlit Pair",
+      "Hapi: Eternal Sunlit Pair",
+      "Summer Hapi",
+      "hapi2"
     ],
     "HARD_ALT_NAME": [
       "Harvest Kagerou",
@@ -3949,13 +3953,18 @@
       "New Years Heidrun",
       "NY Heidrun",
       "hei\u00f0r\u00fan2",
-      "heidrun2"
+      "heidrun2",
+      "Eternal Sunlit Pair",
+      "Hapi: Eternal Sunlit Pair",
+      "Summer Hapi",
+      "hapi2"
     ],
     "heroes": {
       "byleth3": "<:Red_Tome:1124846175577710642>Duo Byleth",
       "dagr2": "<:Green_Bow:1124845936426897428>Duo Dagr",
       "edelgard3": "<:Green_Axe:1124845885277343754>Brave Edelgard",
       "goldmary": "<:Blue_Lance:1124845569496584302>Summer Goldmary",
+      "hapi2": "<:Blue_Tome:1124845593211191297>Summer Hapi",
       "heidrun2": "<:Colorless_Tome:1124845725960904734>New Year Hei\u00f0r\u00fan",
       "igrene": "<:Red_Bow:1124846280951218289>Igrene",
       "igrene2": "<:Colorless_Dagger:1124845658617155734>Ninja Igrene",
@@ -18765,7 +18774,11 @@
       "Harvest Grima",
       "Harvest M Reflet",
       "Legend Daraen Male",
-      "Harvest Daraen"
+      "Harvest Daraen",
+      "Tropical Wolf",
+      "Yuri: Tropical Wolf",
+      "Summer Yuri",
+      "yuri3"
     ],
     "HARD_ALT_NAME": [
       "Leg M Daraen",
@@ -19006,7 +19019,11 @@
       "Legend Daraen Male",
       "Fobin",
       "F Male Reflet",
-      "F Grima Male"
+      "F Grima Male",
+      "Tropical Wolf",
+      "Yuri: Tropical Wolf",
+      "Summer Yuri",
+      "yuri3"
     ],
     "heroes": {
       "ike7": "<:Red_Sword:1124846201070698536>Emblem Ike",
@@ -19016,7 +19033,8 @@
       "robin5": "<:Green_Breath:1124845770978361425>Fallen Grima",
       "robin8": "<:Colorless_Breath:1124845679076978798>Halloween Male Grima",
       "seteth": "<:Blue_Lance:1124845569496584302>Seteth",
-      "shannan": "<:Red_Sword:1124846201070698536>Shannan"
+      "shannan": "<:Red_Sword:1124846201070698536>Shannan",
+      "yuri3": "<:Green_Dagger:1124845796169351320>Summer Yuri"
     },
     "name": "Okuma Yugo (\u5927\u718a\u3086\u3046\u3054)"
   },
@@ -21304,7 +21322,11 @@
       "Summer Nerthuz",
       "S Nerthuz",
       "Beach Nerthuz",
-      "nerthuz3"
+      "nerthuz3",
+      "Peaceful Horizon",
+      "Hei\u00f0r\u00fan: Peaceful Horizon",
+      "Summer Hei\u00f0r\u00fan",
+      "heidrun3"
     ],
     "HARD_ALT_NAME": [
       "corrin3",
@@ -21567,7 +21589,11 @@
       "Summer Nerthuz",
       "S Nerthuz",
       "Beach Nerthuz",
-      "nerthuz3"
+      "nerthuz3",
+      "Peaceful Horizon",
+      "Hei\u00f0r\u00fan: Peaceful Horizon",
+      "Summer Hei\u00f0r\u00fan",
+      "heidrun3"
     ],
     "heroes": {
       "camilla8": "<:Red_Tome:1124846175577710642>Ninja Camilla",
@@ -21576,6 +21602,7 @@
       "corrin6": "<:Green_Breath:1124845770978361425>Adrift Female Corrin",
       "corrin7": "<:Colorless_Breath:1124845679076978798>Fallen Female Corrin",
       "corrin9": "<:Colorless_Breath:1124845679076978798>Legendary Corrin",
+      "heidrun3": "<:Colorless_Beast:1124845615935918110>Summer Hei\u00f0r\u00fan",
       "ingrid2": "<:Blue_Lance:1124845569496584302>Summer Ingrid",
       "nerpuz3": "<:Green_Beast:1124845912385138738>Summer Ner\u00feuz",
       "tharja3": "<:Red_Tome:1124846175577710642>Bridal Tharja"
@@ -28792,6 +28819,7 @@
   },
   "ppoco": {
     "heroes": {
+      "eikthyrnir3": "<:Red_Beast:1124846309208248381>Summer Eik\u00feyrnir",
       "eik\u00feyrnir2": "<:Blue_Beast:1124845338688233575>Winter Eik\u00feyrnir"
     },
     "name": "P-POCO",
@@ -28807,7 +28835,11 @@
       "W Eik\u00feyrnir",
       "W Eikthyrnir",
       "W Eiki",
-      "eik\u00feyrnir2"
+      "eik\u00feyrnir2",
+      "Fit for Waves",
+      "Eik\u00feyrnir: Fit for Waves",
+      "Summer Eik\u00feyrnir",
+      "eikthyrnir3"
     ],
     "HARD_ALT_NAME": [
       "Blessed Strength",
@@ -28821,7 +28853,11 @@
       "W Eik\u00feyrnir",
       "W Eikthyrnir",
       "W Eiki",
-      "eik\u00feyrnir2"
+      "eik\u00feyrnir2",
+      "Fit for Waves",
+      "Eik\u00feyrnir: Fit for Waves",
+      "Summer Eik\u00feyrnir",
+      "eikthyrnir3"
     ]
   },
   "boren": {
@@ -29136,6 +29172,7 @@
   },
   "kuren": {
     "heroes": {
+      "balthus2": "<:Blue_Lance:1124845569496584302>Summer Balthus",
       "griss": "<:Green_Tome:1124845959873036289>Griss"
     },
     "name": "kuren",
@@ -29151,7 +29188,11 @@
       "Base Griss",
       "Normal Griss",
       "Regular Griss",
-      "griss"
+      "griss",
+      "Summer's Big Bet",
+      "Balthus: Summer's Big Bet",
+      "Summer Balthus",
+      "balthus2"
     ],
     "HARD_ALT_NAME": [
       "Indulging Pain",
@@ -29165,7 +29206,11 @@
       "Base Griss",
       "Normal Griss",
       "Regular Griss",
-      "griss"
+      "griss",
+      "Summer's Big Bet",
+      "Balthus: Summer's Big Bet",
+      "Summer Balthus",
+      "balthus2"
     ]
   },
   "siino": {
