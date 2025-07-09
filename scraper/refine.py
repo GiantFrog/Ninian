@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import utility
-from scraper import integrate
+import integrate
 
 refines = [
     "dedue",

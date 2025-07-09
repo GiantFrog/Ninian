@@ -260,6 +260,7 @@ def integrate_passive(slot, key):
         intobj[compressed]['name'] = i
         intobj[compressed]['rarity'] = skillobj[i]
 
+    global skill
     skillkeys = skill.keys()
     intkeys = intobj.keys()
     for i in intkeys:
