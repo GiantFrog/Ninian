@@ -664,7 +664,11 @@
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -865,7 +869,11 @@
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Soaring Summer",
+      "Palla: Soaring Summer",
+      "Summer Palla",
+      "palla5"
     ],
     "heroes": {
       "clair": "<:Blue_Lance:1124845569496584302>Clair",
@@ -883,6 +891,7 @@
       "palla2": "<:Red_Dagger:1124846223518605324>Spring Palla",
       "palla3": "<:Blue_Lance:1124845569496584302>Duo Palla",
       "palla4": "<:Red_Sword:1124846201070698536>Valentian Palla",
+      "palla5": "<:Green_Axe:1124845885277343754>Summer Palla",
       "pallaR": "<:Red_Sword:1124846201070698536>Palla (Resplendent)"
     },
     "name": "Alexis Tipton"
@@ -1985,7 +1994,15 @@
       "Summer Dedue",
       "S Dedue",
       "Beach Dedue",
-      "dedue2"
+      "dedue2",
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "HARD_ALT_NAME": [
       "saias",
@@ -2017,11 +2034,20 @@
       "Summer Dedue",
       "S Dedue",
       "Beach Dedue",
-      "dedue2"
+      "dedue2",
+      "Dauntless Beast",
+      "Dedue: Dauntless Beast",
+      "Fallen Dedue",
+      "F Dedue",
+      "Rearmed Dedue",
+      "Rearm Dedue",
+      "Arm Dedue",
+      "dedue3"
     ],
     "heroes": {
       "dedue": "<:Green_Axe:1124845885277343754>Dedue",
       "dedue2": "<:Green_Axe:1124845885277343754>Summer Dedue",
+      "dedue3": "<:Blue_Beast:1124845338688233575>Rearmed Dedue",
       "saias": "<:Blue_Tome:1124845593211191297>Saias"
     },
     "name": "Ben Lepley"
@@ -2319,7 +2345,13 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
-      "xane3"
+      "xane3",
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
     "HARD_ALT_NAME": [
       "Harvest Cheney",
@@ -2370,11 +2402,18 @@
       "Young Xane",
       "Y Xane",
       "Attuned Xane",
-      "xane3"
+      "xane3",
+      "Fell Dragon Child",
+      "Alear: Fell Dragon Child",
+      "Fallen M Alear",
+      "Fallen Male Alear",
+      "F M Alear",
+      "alear7"
     ],
     "heroes": {
       "alear2": " <:Red_Sword:1124846201070698536>Male Alear",
       "alear4": "<:Colorless_Breath:1124845679076978798>Legendary Male Alear",
+      "alear7": "<:Red_Sword:1124846201070698536>Fallen Male Alear",
       "xane": "<:Colorless_Tome:1124845725960904734>Halloween Xane",
       "xane2": "<:Colorless_Staff:1124845704444137592>Hatarian Xane",
       "xane3": "<:Blue_Tome:1124845593211191297>Young Xane"
@@ -3104,7 +3143,12 @@
       "Beacon of Honor",
       "Rearmed Ingrid",
       "Rearm Ingrid",
-      "Arm Ingrid"
+      "Arm Ingrid",
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ],
     "HARD_ALT_NAME": [
       "lena",
@@ -3132,13 +3176,19 @@
       "Beacon of Honor",
       "R Ingrid",
       "Rearm Ingrid",
-      "Arm Ingrid"
+      "Arm Ingrid",
+      "Bereft Angel",
+      "Lena: Bereft Angel",
+      "Fallen Lena",
+      "F Lena",
+      "lena2"
     ],
     "heroes": {
       "ingrid": "<:Blue_Lance:1124845569496584302>Ingrid",
       "ingrid2": "<:Blue_Lance:1124845569496584302>Summer Ingrid",
       "ingrid3": "<:Blue_Lance:1124845569496584302>Rearmed Ingrid",
-      "lena": "<:Colorless_Staff:1124845704444137592>Lena"
+      "lena": "<:Colorless_Staff:1124845704444137592>Lena",
+      "lena2": "<:Colorless_Staff:1124845704444137592>Fallen Lena"
     },
     "name": "Brittany Cox"
   },
@@ -3272,7 +3322,11 @@
       "Spring Henry",
       "Bunny Henry",
       "Spring Henri",
-      "Bunny Henri"
+      "Bunny Henri",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "raven",
@@ -3337,12 +3391,17 @@
       "Senry",
       "Bunny Henry",
       "Spring Henri",
-      "Bunny Henri"
+      "Bunny Henri",
+      "Resplendent Henry",
+      "Resp Henry",
+      "R Henry",
+      "Henry (Resplendent)"
     ],
     "heroes": {
       "henry": "<:Red_Tome:1124846175577710642>Henry",
       "henry2": "<:Green_Tome:1124845959873036289>Halloween Henry",
       "henry3": "<:Colorless_Bow:1124845636659982457>Spring Henry",
+      "henryR": "<:Red_Tome:1124846175577710642>Henry (Resplendent)",
       "kamui": "<:Red_Sword:1124846201070698536>Kamui",
       "karel": "<:Red_Sword:1124846201070698536>Karel",
       "oscar": "<:Blue_Lance:1124845569496584302>Oscar",
@@ -4171,7 +4230,11 @@
       "Fallen Female Beleth",
       "Fallen Beleth Female",
       "Fallen F Beleth",
-      "Fallen Beleth F"
+      "Fallen Beleth F",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5"
     ],
     "HARD_ALT_NAME": [
       "julia",
@@ -4293,7 +4356,13 @@
       "Fallen Female Beleth",
       "Fallen Beleth Female",
       "Fallen F Beleth",
-      "Fallen Beleth F"
+      "Fallen Beleth F",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5",
+      "B Julia",
+      "Duo Julia"
     ],
     "heroes": {
       "byleth8": "<:Red_Sword:1124846201070698536>Fallen Byleth",
@@ -4302,6 +4371,7 @@
       "julia2": "<:Blue_Tome:1124845593211191297>Legendary Julia",
       "julia3": "<:Red_Tome:1124846175577710642>Fallen Julia",
       "julia4": "<:Red_Tome:1124846175577710642>Scion Julia",
+      "julia5": "<:Colorless_Tome:1124845725960904734>Bridal Julia",
       "juliaR": "<:Green_Tome:1124845959873036289>Julia (Resplendent)",
       "sothis": "<:Red_Breath:1124846247673610240>Sothis",
       "sothis2": "<:Green_Breath:1124845770978361425>Winter Sothis",
@@ -5532,7 +5602,11 @@
       "Brave Seliph",
       "Brave Celice",
       "Brave Serlis",
-      "Brave Seris"
+      "Brave Seris",
+      "Light's Legacy",
+      "Seliph: Light's Legacy",
+      "Bridal Seliph",
+      "seliph4"
     ],
     "HARD_ALT_NAME": [
       "seliph",
@@ -5633,7 +5707,11 @@
       "Beliph",
       "Brave Celice",
       "Brave Serlis",
-      "Brave Seris"
+      "Brave Seris",
+      "Light's Legacy",
+      "Seliph: Light's Legacy",
+      "Bridal Seliph",
+      "seliph4"
     ],
     "heroes": {
       "ignatz": "<:Colorless_Bow:1124845636659982457>Winter Ignatz",
@@ -5642,6 +5720,7 @@
       "seliph": "<:Red_Sword:1124846201070698536>Seliph",
       "seliph2": "<:Red_Sword:1124846201070698536>Legendary Seliph",
       "seliph3": "<:Red_Sword:1124846201070698536>Brave Seliph",
+      "seliph4": "<:Green_Axe:1124845885277343754>Bridal Seliph",
       "seliphR": "<:Red_Sword:1124846201070698536>Seliph (Resplendent)"
     },
     "name": "Christian La Monte"
@@ -6750,7 +6829,11 @@
       "Base Teeny",
       "Normal Teeny",
       "Base Tinni",
-      "Normal Tinni"
+      "Normal Tinni",
+      "Determined Bride",
+      "Tine: Determined Bride",
+      "Bridal Tine",
+      "tine2"
     ],
     "HARD_ALT_NAME": [
       "tine",
@@ -6778,10 +6861,16 @@
       "Base Teeny",
       "Normal Teeny",
       "Base Tinni",
-      "Normal Tinni"
+      "Normal Tinni",
+      "Determined Bride",
+      "Tine: Determined Bride",
+      "Bridal Tine",
+      "tine2",
+      "B Tine"
     ],
     "heroes": {
-      "tine": "<:Colorless_Tome:1124845725960904734>Tine"
+      "tine": "<:Colorless_Tome:1124845725960904734>Tine",
+      "tine2": "<:Red_Tome:1124846175577710642>Bridal Tine"
     },
     "name": "Courtney Lin"
   },
@@ -7550,7 +7639,16 @@
       "Resplendent Robin",
       "Resp Robin",
       "R Robin",
-      "Robin (Resplendent)"
+      "Robin (Resplendent)",
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
     ],
     "HARD_ALT_NAME": [
       "michalis",
@@ -8028,10 +8126,20 @@
       "Resplendent Robin",
       "Resp Robin",
       "R Robin",
-      "Robin (Resplendent)"
+      "Robin (Resplendent)",
+      "Tyrant of Ruin",
+      "Grima: Tyrant of Ruin",
+      "Base M Grima",
+      "Normal M Grima",
+      "Regular M Grima",
+      "Sexy Grima",
+      "Sombron's Dad",
+      "grima2",
+      "mgrima3"
     ],
     "heroes": {
       "chrom6": "<:Red_Bow:1124846280951218289>Duo Chrom",
+      "grima2": "<:Blue_Breath:1124845312637403236>Grima",
       "michalis": "<:Green_Axe:1124845885277343754>Michalis",
       "michalis2": "<:Blue_Lance:1124845569496584302>Spring Michalis",
       "robin": "<:Blue_Tome:1124845593211191297>Male Robin",
@@ -9132,7 +9240,12 @@
       "Emblem Celica",
       "Engage Celica",
       "E Celica",
-      "celica6"
+      "celica6",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "HARD_ALT_NAME": [
       "Imprisoned Soul",
@@ -9283,7 +9396,12 @@
       "Emblem Celica",
       "Engage Celica",
       "E Celica",
-      "celica6"
+      "celica6",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "heroes": {
       "alm4": "<:Green_Axe:1124845885277343754>Duo Alm",
@@ -9294,6 +9412,7 @@
       "celica4": "<:Green_Tome:1124845959873036289>Legendary Celica",
       "celica5": "<:Colorless_Tome:1124845725960904734>Ascended Celica",
       "celica6": "<:Blue_Tome:1124845593211191297>Emblem Celica",
+      "celica7": "<:Colorless_Tome:1124845725960904734>Summer Celica",
       "celicaR": "<:Red_Tome:1124846175577710642>Celica (Resplendent)",
       "myrrh": "<:Green_Breath:1124845770978361425>Myrrh",
       "myrrh2": "<:Red_Breath:1124846247673610240>Halloween Myrrh",
@@ -10930,7 +11049,14 @@
       "Halloween Seadall",
       "Harvest Seadall",
       "H Seadall",
-      "seadall"
+      "seadall",
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
     ],
     "HARD_ALT_NAME": [
       "chad",
@@ -10939,9 +11065,8 @@
       "Lycian Wildcat",
       "Base Chad",
       "Normal Chad",
-      "fafnir",
       "New Year F\u00e1fnir",
-      "fafnir1",
+      "fafnir2",
       "Fresh Ambition",
       "F\u00e1fnir",
       "NY F\u00e1fnir",
@@ -10953,11 +11078,19 @@
       "Harvest Seadall",
       "H Seadall",
       "seadall",
-      "seadall"
+      "seadall",
+      "King of Desolation",
+      "F\u00e1fnir: King of Desolation",
+      "F\u00e1fnir",
+      "Normal F\u00e1fnir",
+      "Base F\u00e1fnir",
+      "Regular F\u00e1fnir",
+      "fafnir"
     ],
     "heroes": {
       "chad": "<:Colorless_Dagger:1124845658617155734>Chad",
-      "fafnir": "<:Red_Dagger:1124846223518605324>New Year F\u00e1fnir",
+      "fafnir2": "<:Red_Dagger:1124846223518605324>New Year F\u00e1fnir",
+      "fafnir": "<:Blue_Lance:1124845569496584302>F\u00e1fnir",
       "seadall": "<:Red_Tome:1124846175577710642>Halloween Seadall"
     },
     "name": "Griffin Puatu"
@@ -14067,7 +14200,11 @@
       "Fallen Lloyd",
       "F Lloyd",
       "Corrupted Lloyd",
-      "lloyd2"
+      "lloyd2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "narcian",
@@ -14146,13 +14283,18 @@
       "Fallen Lloyd",
       "F Lloyd",
       "Corrupted Lloyd",
-      "lloyd2"
+      "lloyd2",
+      "Resplendent Narcian",
+      "Resp Narcian",
+      "R Narcian",
+      "Narcian (Resplendent)"
     ],
     "heroes": {
       "lloyd": "<:Red_Sword:1124846201070698536>Lloyd",
       "lloyd2": "<:Red_Sword:1124846201070698536>Fallen Lloyd",
       "narcian": "<:Green_Axe:1124845885277343754>Narcian",
       "narcian2": "<:Blue_Lance:1124845569496584302>Spring Narcian",
+      "narcianR": "<:Green_Axe:1124845885277343754>Narcian (Resplendent)",
       "odin": "<:Blue_Tome:1124845593211191297>Odin",
       "odinR": "<:Blue_Tome:1124845593211191297>Odin (Resplendent)",
       "owain": "<:Red_Sword:1124846201070698536>Owain",
@@ -14465,7 +14607,12 @@
       "Y Lissa",
       "Baby Lissa",
       "Child Lissa",
-      "lissa4"
+      "lissa4",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "HARD_ALT_NAME": [
       "lissa3",
@@ -14484,9 +14631,15 @@
       "Y Lissa",
       "Baby Lissa",
       "Child Lissa",
-      "lissa4"
+      "lissa4",
+      "Sunlit Priestesses",
+      "Celica: Sunlit Priestesses",
+      "Summer Celica",
+      "Harmonic Celica",
+      "celica7"
     ],
     "heroes": {
+      "celica7": "<:Colorless_Tome:1124845725960904734>Summer Celica",
       "lissa3": "<:Colorless_Staff:1124845704444137592>Valentines Lissa",
       "lissa4": "<:Green_Axe:1124845885277343754>Young Lissa"
     },
@@ -15974,49 +16127,7 @@
       "Base Elm",
       "Normal Elm",
       "Regular Elm",
-      "elm",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2"
+      "elm"
     ],
     "HARD_ALT_NAME": [
       "rennac",
@@ -16053,53 +16164,11 @@
       "Base Elm",
       "Normal Elm",
       "Regular Elm",
-      "elm",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2",
-      "Retainer to Embla",
-      "Elm: Retainer to Embla",
-      "Base Elm",
-      "Normal Elm",
-      "Regular Elm",
-      "elm2"
+      "elm"
     ],
     "heroes": {
+      "elm2": "<:Green_Beast:1124845912385138738>New Year Elm",
       "elm": "<:Red_Beast:1124846309208248381> Elm",
-      "elm2": "<:Red_Beast:1124846309208248381> Elm",
       "kyza": "<:Red_Beast:1124846309208248381>New Year Kyza",
       "rennac": "<:Green_Dagger:1124845796169351320>Rennac"
     },
@@ -16807,7 +16876,15 @@
       "F B Robin",
       "Female Choose Your Legends Robin",
       "robin16",
-      "frobin8"
+      "frobin8",
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
     ],
     "HARD_ALT_NAME": [
       "sheena",
@@ -17311,9 +17388,18 @@
       "F B Robin",
       "Female Choose Your Legends Robin",
       "robin16",
-      "frobin8"
+      "frobin8",
+      "Tyrant of Despair",
+      "Grima: Tyrant of Despair",
+      "Base F Grima",
+      "Normal F Grima",
+      "Regular F Grima",
+      "Sombron's Mom",
+      "grima",
+      "fgrima4"
     ],
     "heroes": {
+      "grima": "<:Colorless_Breath:1124845679076978798>Grima",
       "robin10": "<:Colorless_Breath:1124845679076978798>Rearmed Grima",
       "robin14": "<:Blue_Tome:1124845593211191297>Young Female Robin",
       "robin16": "<:Colorless_Tome:1124845725960904734>Brave Female Robin",
@@ -18057,7 +18143,11 @@
       "Scion Tomboy",
       "Twelve Tomboy",
       "Festival Tomboy",
-      "Holy Tomboy"
+      "Holy Tomboy",
+      "Bride of Astra",
+      "Larcei: Bride of Astra",
+      "Bridal Larcei",
+      "larcei3"
     ],
     "HARD_ALT_NAME": [
       "thrasir",
@@ -18124,11 +18214,19 @@
       "Scion Tomboy",
       "Twelve Tomboy",
       "Festival Tomboy",
-      "Holy Tomboy"
+      "Holy Tomboy",
+      "Bride of Astra",
+      "Larcei: Bride of Astra",
+      "Bridal Larcei",
+      "larcei3",
+      "B Larcei",
+      "Seliph's Wife",
+      "Selia's Mom"
     ],
     "heroes": {
       "larcei": "<:Red_Sword:1124846201070698536>Larcei",
       "larcei2": "<:Green_Axe:1124845885277343754>Scion Larcei",
+      "larcei3": "<:Blue_Lance:1124845569496584302>Bridal Larcei",
       "lif2": "<:Red_Tome:1124846175577710642>Duo L\u00edf",
       "thrasir": "<:Green_Tome:1124845959873036289>Thrasir"
     },
@@ -21339,7 +21437,16 @@
       "Noire: Demurely Deft",
       "Ninja Noire",
       "N Noire",
-      "noire2"
+      "noire2",
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
     ],
     "HARD_ALT_NAME": [
       "soleil",
@@ -21363,11 +21470,21 @@
       "Noire: Demurely Deft",
       "Ninja Noire",
       "N Noire",
-      "noire2"
+      "noire2",
+      "Of Two Minds",
+      "Noire: Of Two Minds",
+      "Base Noire",
+      "Normal Noire",
+      "Regular Noire",
+      "Rearmed Noire",
+      "Rearm Noire",
+      "Arm Noire",
+      "noire3"
     ],
     "heroes": {
       "noire": "<:Colorless_Bow:1124845636659982457>Summer Noire",
       "noire2": "<:Colorless_Dagger:1124845658617155734>Ninja Noire",
+      "noire3": "<:Red_Bow:1124846280951218289>Rearmed Noire",
       "soleil": "<:Red_Sword:1124846201070698536>Soleil"
     },
     "name": "Michelle Ruff"
@@ -21712,7 +21829,11 @@
       "Baby Camilla",
       "Child Camilla",
       "Y Camilla",
-      "camilla10"
+      "camilla10",
+      "Resplendent Titania",
+      "Resp Titania",
+      "R Titania",
+      "Titania (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Adrift Camilla",
@@ -21829,7 +21950,11 @@
       "Baby Camilla",
       "Child Camilla",
       "Y Camilla",
-      "camilla10"
+      "camilla10",
+      "Resplendent Titania",
+      "Resp Titania",
+      "R Titania",
+      "Titania (Resplendent)"
     ],
     "heroes": {
       "camilla": "<:Green_Axe:1124845885277343754>Camilla",
@@ -21847,6 +21972,7 @@
       "hinoka4": "<:Green_Bow:1124845936426897428>Duo Hinoka",
       "titania": "<:Green_Axe:1124845885277343754>Titania",
       "titania2": "<:Red_Tome:1124846175577710642>Valentines Titania",
+      "titaniaR": "<:Green_Axe:1124845885277343754>Titania (Resplendent)",
       "ursula": "<:Blue_Tome:1124845593211191297>Ursula",
       "ursula2": "<:Colorless_Dagger:1124845658617155734>Summer Ursula",
       "ursula3": "<:Green_Tome:1124845959873036289>Khadein Ursula",
@@ -23309,7 +23435,11 @@
       "Ishtar: Echoing Thunder",
       "Echoing Thunder",
       "Ascended Ishtar",
-      "Bloom Ishtar"
+      "Bloom Ishtar",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5"
     ],
     "HARD_ALT_NAME": [
       "ishtar",
@@ -23339,13 +23469,20 @@
       "Ascended Ishtar",
       "Echoing Thunder",
       "A Ishtar",
-      "Bloom Ishtar"
+      "Bloom Ishtar",
+      "Brides of Light",
+      "Julia: Brides of Light",
+      "Bridal Julia",
+      "julia5",
+      "B Julia",
+      "Duo Julia"
     ],
     "heroes": {
       "ishtar": "<:Blue_Tome:1124845593211191297>Ishtar",
       "ishtar2": "<:Red_Tome:1124846175577710642>Dancer Ishtar",
       "ishtar3": "<:Blue_Tome:1124845593211191297>Ascended Ishtar",
       "ishtarR": "<:Blue_Tome:1124845593211191297>Ishtar (Resplendent)",
+      "julia5": "<:Colorless_Tome:1124845725960904734>Bridal Julia",
       "leonie": "<:Colorless_Bow:1124845636659982457>Summer Leonie"
     },
     "name": "Ratana"
@@ -24303,7 +24440,15 @@
       "Resplendent Black Knight",
       "Resp Black Knight",
       "R Black Knight",
-      "Black Knight (Resplendent)"
+      "Black Knight (Resplendent)",
+      "Mortal Legend",
+      "Black Knight: Mortal Legend",
+      "Legendary Black Knight",
+      "Legend Black Knight",
+      "Leg Black Knight",
+      "L Black Knight",
+      "black knight3",
+      "blackknight3"
     ],
     "HARD_ALT_NAME": [
       "blackknight",
@@ -24363,11 +24508,20 @@
       "Resplendent Black Knight",
       "Resp Black Knight",
       "R Black Knight",
-      "Black Knight (Resplendent)"
+      "Black Knight (Resplendent)",
+      "Mortal Legend",
+      "Black Knight: Mortal Legend",
+      "Legendary Black Knight",
+      "Legend Black Knight",
+      "Leg Black Knight",
+      "L Black Knight",
+      "black knight3",
+      "blackknight3"
     ],
     "heroes": {
       "blackknight": "<:Red_Sword:1124846201070698536>Black Knight",
       "blackknight2": "<:Green_Axe:1124845885277343754>Winter Black Knight",
+      "blackknight3": "<:Red_Sword:1124846201070698536>Legendary Black Knight",
       "blackknightR": "<:Red_Sword:1124846201070698536>Black Knight (Resplendent)",
       "finn": "<:Blue_Lance:1124845569496584302>Finn",
       "zelgius": "<:Red_Sword:1124846201070698536>Zelgius",
@@ -25105,7 +25259,11 @@
       "Resplendent Nino",
       "Resp Nino",
       "R Nino",
-      "Nino (Resplendent)"
+      "Nino (Resplendent)",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "HARD_ALT_NAME": [
       "kagero",
@@ -25269,7 +25427,11 @@
       "Resplendent Nino",
       "Resp Nino",
       "R Nino",
-      "Nino (Resplendent)"
+      "Nino (Resplendent)",
+      "Burst of Summer",
+      "Nino: Burst of Summer",
+      "Summer Nino",
+      "nino6"
     ],
     "heroes": {
       "fae": "<:Green_Breath:1124845770978361425>Fae",
@@ -25290,6 +25452,7 @@
       "nino3": "<:Blue_Tome:1124845593211191297>Winter Nino",
       "nino4": "<:Red_Tome:1124846175577710642>Khadein Nino",
       "nino5": "<:Green_Dagger:1124845796169351320>Attuned Nino",
+      "nino6": "<:Red_Tome:1124846175577710642>Summer Nino",
       "ninoR": "<:Green_Tome:1124845959873036289>Nino (Resplendent)"
     },
     "name": "Sarah Blandy"
@@ -27617,7 +27780,13 @@
       "Base Rune",
       "Normal Rune",
       "Regular Rune",
-      "rune"
+      "rune",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "HARD_ALT_NAME": [
       "micaiah",
@@ -27687,7 +27856,13 @@
       "Base Rune",
       "Normal Rune",
       "Regular Rune",
-      "rune"
+      "rune",
+      "Of Dawn",
+      "Micaiah: Of Dawn",
+      "Emblem Micaiah",
+      "Engage Micaiah",
+      "E Micaiah",
+      "micaiah8"
     ],
     "heroes": {
       "manuela": "<:Red_Sword:1124846201070698536>Winter Manuela",
@@ -27699,6 +27874,7 @@
       "micaiah5": "<:Colorless_Tome:1124845725960904734>Legendary Micaiah",
       "micaiah6": "<:Colorless_Tome:1124845725960904734>Summer Micaiah",
       "micaiah7": "<:Green_Tome:1124845959873036289>Attuned Micaiah",
+      "micaiah8": "<:Colorless_Tome:1124845725960904734>Emblem Micaiah",
       "micaiahR": "<:Blue_Tome:1124845593211191297>Micaiah (Resplendent)",
       "rune": "<:Colorless_Tome:1124845725960904734>Rune"
     },
@@ -28838,41 +29014,6 @@
       "Marth: Love and Courage",
       "duo Marth 2",
       "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
       "marth8"
     ],
     "HARD_ALT_NAME": [
@@ -29122,41 +29263,6 @@
       "Resp Eliwood",
       "R Eliwood",
       "Eliwood (Resplendent)",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
       "Love and Courage",
       "Marth: Love and Courage",
       "duo Marth 2",
@@ -29980,6 +30086,7 @@
   "kenn": {
     "heroes": {
       "fogado": "<:Green_Bow:1124845936426897428>Fogado",
+      "fogado2": "<:Colorless_Dagger:1124845658617155734>Summer Fogado",
       "ogier": "<:Red_Sword:1124846201070698536>Ogier"
     },
     "name": "KENN",
@@ -29995,7 +30102,11 @@
       "Base Ogier",
       "Normal Ogier",
       "Regular Ogier",
-      "ogier"
+      "ogier",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
     ],
     "HARD_ALT_NAME": [
       "Affable Prince",
@@ -30009,7 +30120,11 @@
       "Base Ogier",
       "Normal Ogier",
       "Regular Ogier",
-      "ogier"
+      "ogier",
+      "Summer of Bliss",
+      "Fogado: Summer of Bliss",
+      "Summer Fogado",
+      "fogado2"
     ]
   },
   "justinelee": {
@@ -30202,10 +30317,12 @@
   "notyetrecorded": {
     "heroes": {
       "alear6": "<:Blue_Breath:1124845312637403236>Winter Duo Alear",
+      "alear8": "<:Green_Breath:1124845770978361425>Fallen Female Alear",
       "alm5": "<:Colorless_Bow:1124845636659982457>Attuned Alm",
       "eik\u00feyrnir2": "<:Blue_Beast:1124845338688233575>Winter Eik\u00feyrnir",
       "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis",
-      "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea"
+      "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea",
+      "tharja7": "<:Green_Tome:1124845959873036289>Attuned Tharja"
     },
     "name": "Not yet recorded.",
     "ALT_NAME": [
@@ -30246,7 +30363,20 @@
       "Alm: Powerful Resolve",
       "Attuned Alm",
       "A!Alm",
-      "alm5"
+      "alm5",
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8",
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
     ],
     "HARD_ALT_NAME": [
       "Dark of Night",
@@ -30286,7 +30416,20 @@
       "Alm: Powerful Resolve",
       "Attuned Alm",
       "A!Alm",
-      "alm5"
+      "alm5",
+      "Red Days Past",
+      "Alear: Red Days Past",
+      "Fallen Female Alear",
+      "Fallen F Alear",
+      "F F Alear",
+      "alear8",
+      "Gloomy Mage",
+      "Tharja: Gloomy Mage",
+      "Base Tharja",
+      "Normal Tharja",
+      "Regular Tharja",
+      "Attuned Tharja",
+      "tharja7"
     ]
   },
   "anjalikunapaneni": {
@@ -30676,41 +30819,6 @@
       "Marth: Love and Courage",
       "duo Marth 2",
       "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
       "marth8"
     ],
     "HARD_ALT_NAME": [
@@ -30727,41 +30835,6 @@
       "Child Leo",
       "Y Leo",
       "leo6",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
-      "Love and Courage",
-      "Marth: Love and Courage",
-      "duo Marth 2",
-      "DMarth2",
-      "marth8",
       "Love and Courage",
       "Marth: Love and Courage",
       "duo Marth 2",
@@ -30799,11 +30872,88 @@
       "gotoh2"
     ]
   },
-  "takeuchishunsuke": {
+  "nadiamarshall": {
+    "heroes": {
+      "lana": "<:Colorless_Staff:1124845704444137592>Bridal Lana"
+    },
+    "name": "Nadia Marshall",
+    "ALT_NAME": [
+      "Benevolent Bride",
+      "Lana: Benevolent Bride",
+      "Bridal Lana",
+      "lana"
+    ],
+    "HARD_ALT_NAME": [
+      "Benevolent Bride",
+      "Lana: Benevolent Bride",
+      "Bridal Lana",
+      "lana",
+      "B Lana"
+    ]
+  },
+  "cristinavalenzuela": {
+    "heroes": {
+      "athenaR": "<:Red_Sword:1124846201070698536>Athena (Resplendent)"
+    },
+    "name": "Cristina Valenzuela",
+    "ALT_NAME": [
+      "Resplendent Athena",
+      "Resp Athena",
+      "R Athena",
+      "Athena (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Athena",
+      "Resp Athena",
+      "R Athena",
+      "Athena (Resplendent)"
+    ]
+  },
+  "spikespencer": {
+    "heroes": {
+      "excellus": "<:Red_Tome:1124846175577710642>Excellus"
+    },
+    "name": "Spike Spencer",
+    "ALT_NAME": [
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
+    ],
+    "HARD_ALT_NAME": [
+      "Conqueror\u2019s Wile",
+      "Excellus: Conqueror\u2019s Wile",
+      "Base Excellus",
+      "Normal Excellus",
+      "Regular Excellus",
+      "excellus"
+    ]
+  },
+  "takayanagitomoyo": {
+    "heroes": {
+      "lapis3": "<:Blue_Lance:1124845569496584302>Summer Lapis"
+    },
+    "name": "Takayanagi Tomoyo (\u9ad8\u67f3\u77e5\u8449)",
+    "ALT_NAME": [
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
+    ],
+    "HARD_ALT_NAME": [
+      "Forager of the Sea",
+      "Lapis: Forager of the Sea",
+      "Summer Lapis",
+      "lapis3"
+    ]
+  },
+  "shunsuketakeuchi": {
     "heroes": {
       "eik\u00feyrnir3": "<:Red_Beast:1124846309208248381>Summer Eik\u00feyrnir"
     },
-    "name": "Takeuchi Shunsuke",
+    "name": "Shunsuke Takeuchi (\u6b66\u5185\u99ff\u8f14)",
     "ALT_NAME": [
       "Fit for Waves",
       "Eik\u00feyrnir: Fit for Waves",
