@@ -1,184 +1,976 @@
 {
-  "micaiah8": {
-    "name": "Micaiah",
-    "title": "Of Dawn",
-    "description": "One of the Emblems who were summoned to Elyos. Resides in the Ring of the Dawn Maiden. Appears in Fire Emblem: Radiant Dawn / Fire Emblem Engage.",
-    "origin": "Radiant Dawn + Engage",
-    "artist": "Suzuki Rika (\u9234\u6728\u7406\u83ef)",
-    "move": "Infantry",
-    "weapon": "Tome",
-    "color": "Colorless",
+  "leif4": {
+    "name": "Leif",
+    "title": "Sworn to Country",
+    "description": "Son of Quan, prince of Leonster. He musters warriors to defeat the empire alongside Finn, to whom he owes his life. Appears in Fire Emblem: Thracia 776 / Genealogy of the Holy War.",
+    "origin": "Genealogy of the Holy War + Thracia 776",
+    "artist": "Wada Sachiko (\u30ef\u30c0\u30b5\u30c1\u30b3)",
+    "move": "Cavalry",
+    "weapon": "Bow",
+    "color": "Green",
     "duel": false,
-    "id": "1258",
-    "type": "emblem",
+    "id": "1264",
+    "type": "attuned",
     "version": "9.7",
     "duo": false,
     "harmonized": false,
-    "emblem": "\u3010Switch\u3011\nEnhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nIf a Rally or movement Assist skill is used by unit, restores 20 HP to target ally and neutralizes any\u3010Penalty\u3011on that ally, and grants another action to unit and inflicts \u3010Isolation\u3011on unit and Pair Up cohort through their next action, and also, if unit's or Pair Up Cohort's Range = 2, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort, respectively, through their next action (\"grants another action\" effect and onward is once per turn; if another effect that grants additional action to unit has been triggered at the same time, this effect is also considered to have been triggered).\nEnhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nIf a Rally or movement Assist skill is used by unit, restores 20 HP to target ally and neutralizes any\u3010Penalty\u3011on that ally, and grants another action to unit and inflicts \u3010Isolation\u3011on unit and Pair Up cohort through their next action, and also, if unit's or Pair Up Cohort's Range = 2, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort, respectively, through their next action (\"grants another action\" effect and onward is once per turn; if another effect that grants additional action to unit has been triggered at the same time, this effect is also considered to have been triggered).\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).\n\u3010Isolation\u3011\nTarget cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)",
+    "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 10,
-      "spd": 8,
-      "def": 7,
-      "res": 10
+      "atk": 9,
+      "spd": 3,
+      "def": 12,
+      "res": 8
     },
     "growth": {
       "hp": 50,
       "atk": 90,
-      "spd": 50,
-      "def": 30,
-      "res": 90
+      "spd": 30,
+      "def": 80,
+      "res": 60
     },
     "superboon": [
-      "atk",
-      "res"
+      "atk"
     ],
     "superbane": [
       "hp",
-      "spd",
-      "def"
+      "spd"
     ],
     "weapons": {
-      "Stone": "1",
-      "Elstone": "2",
-      "Atlas": "3",
-      "Maiden's Tome": "5"
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Silver Bow": "3",
+      "Bow of Loyalty": "5"
     },
-    "assist": {
-      "Swap": "3"
-    },
+    "assist": {},
     "special": {
-      "Daylight": "3",
-      "Sol": "4",
-      "Great Sacrifice": "5"
+      "Night Sky": "3",
+      "Astra": "4",
+      "The True Nj\u00f6run": "5"
     },
     "passive": {
       "A": {
-        "Still Water 1": "2",
-        "Still Water 2": "3",
-        "Still Water 3": "4",
-        "Crystalline Water": "5"
+        "Armored Blow 1": "2",
+        "Sturdy Blow 1": "3",
+        "Sturdy Blow 2": "4",
+        "Sturdy Flare": "5"
       },
       "B": {
-        "Sabotage Res 1": "2",
-        "Sabotage Res 2": "3",
-        "Sabotage Res 3": "4",
-        "Atk/Res Havoc": "5"
+        "Seal Def 1": "2",
+        "Seal Def 2": "3",
+        "Seal Def 3": "4",
+        "Arc-Fort Breath": "5"
       },
       "C": {
-        "Silence Ward 1": "2",
-        "Silence Ward 2": "3",
-        "Silence Ward 3": "4",
-        "Silence Ward 4": "5"
+        "Shadow Shift 1": "2",
+        "Shadow Shift 2": "3",
+        "Shadow Shift 3": "4",
+        "Shadow Shift 4": "5"
       },
-      "X": {}
+      "X": {
+        "Sly Echo": "5"
+      }
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f8/Micaiah_Of_Dawn_Face.webp/revision/latest?cb=20250630042113",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/88/Micaiah_Of_Dawn_BtlFace_D.webp/revision/latest?cb=20250630042108",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f8/Micaiah_Of_Dawn_BtlFace_C.webp/revision/latest?cb=20250630042104",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/99/Micaiah_Of_Dawn_BtlFace.webp/revision/latest?cb=20250630042049"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fc/Leif_Sworn_to_Country_Face.webp/revision/latest?cb=20250718045753",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Leif_Sworn_to_Country_BtlFace_D.webp/revision/latest?cb=20250718045748",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/71/Leif_Sworn_to_Country_BtlFace_C.webp/revision/latest?cb=20250718045743",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9b/Leif_Sworn_to_Country_BtlFace.webp/revision/latest?cb=20250718045728"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Of Dawn",
-      "Micaiah: Of Dawn",
-      "Emblem Micaiah",
-      "Engage Micaiah",
-      "E Micaiah",
-      "micaiah8"
+      "Sworn to Country",
+      "Leif: Sworn to Country",
+      "Attuned Leif",
+      "leif4"
     ],
     "HARD_ALT_NAME": [
-      "Of Dawn",
-      "Micaiah: Of Dawn",
-      "Emblem Micaiah",
-      "Engage Micaiah",
-      "E Micaiah",
-      "micaiah8"
+      "Sworn to Country",
+      "Leif: Sworn to Country",
+      "Attuned Leif",
+      "leif4"
     ],
-    "gender": "F",
+    "gender": "M",
     "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u7d0b\u7ae0\u30df\u30ab\u30e4",
-    "voice": "Veronica Taylor",
+    "pool": "focus",
+    "internal_id": "PID_\u97ff\u5fc3\u30ea\u30fc\u30d5",
+    "voice": "Nicolas Roye",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "tellius"
+      "jugdral"
     ],
-    "chibi": "fe10",
+    "chibi": "fe4",
     "quotes": {
       "Castle Hall": [
-        "Whenever I see small, orange birds, I am reminded of Yune. But here, I can meet with the real Yune.",
-        "When I was in Elyos, I was entrusted to the kingdom of Firene as a ring, which was hidden in a shrine.\nI only awoke when I sensed the revival of the Fell Dragon.",
-        "Even after a thousand years, Emblems do not change. I am no longer alone here, watching others come and go.",
-        "It is true that Emblems do not need food to survive. But things are different here in Askr.\nI look forward to sharing a meal with the Dawn Brigade and my allies, just like old times.",
-        "My power was helpful when I used it to bear the injuries of others. But if my engage partner used it...I worried."
+        "If the people are being mistreated, I wish to aid them. We should set off as soon as preparations are complete.",
+        "Unification of the Thracian peninsula was my father's life-long dream. It is my wish to carry on his will.",
+        "If I need to become the symbol of northern Thracia's liberation, then I will do nothing less.",
+        "Finn informed me Prince Shannan is a swordsman of impeccable skill and a great man, beloved by the people.",
+        "When I was a child, Ulster and Queen \u00c1ine's love kept me alive. I will not forget the debt I owe them!"
       ],
       "Visit": [
-        "I feel strange and...nostalgic here, as if I know this place... I have a greeting from [F]."
+        "I wish to free those suffering under the empire's oppression. Now I have [F]'s aid."
       ],
       "Level": [
-        "I foresaw a favorable outcome, but it was your strength that made it happen.",
-        "Hope will never fade from any world. I will not allow that to happen.",
-        "Let us use the power I have now to turn the tides of this battle."
+        "I shall inherit our fathers' will, unify Thracia, and bring light to the world once more!",
+        "Until we reclaim northern Thracia, with its vast blue skies and lush green lands!",
+        "I need to be stronger. I am nothing like Lord Seliph of Chalphy, or Prince Shannan of Isaach..."
       ],
       "Summon": [
-        "I am Emblem Micaiah. I sense the future shifting... Now victory lies ahead. Let us go together."
+        "I am Leif, of northern Thracia's liberation army. I will fight to live up to my father, hailed a knight of Nj\u00f6run."
       ],
       "Learn Skill": [
-        "This power you have granted me comforts me. I can truly feel how much you care. Thank you."
+        "I have received aid from many. I hope to repay those debts someday."
       ],
       "Confession": [
-        "It is rare for you to be resting in the shade of these trees... Do you need something, [S]?\nAh... Of course, I can read your fortune... You must be anxious about the battles to come.\nYou must not worry though... I see a bright future\u2014a radiant future\u2014you and your allies will grasp together.\nHehehe... I am glad to see you smile.\nWhen I was in Elyos and Tellius, nothing warmed my spirit like seeing my allies smile.\nThis may be asking too much as an Emblem, but...I hope to heal spirits as well as bodies on the battlefield.\nI will happily stay by your side until a time of peace when you can smile from the bottom of your heart.\nLet us continue on this path together."
+        "My parents were slain in a battle long ago, and my homeland, Leonster, was occupied by the imperial army...\nMy father's knight, Finn, saved me... Protected by people across the land, I waited for my homeland's liberation.\nMy late father wished to save the people and reclaim peace for the Thracian peninsula.\nI am grateful to Finn, who protected and raised me as a child despite the empire's harsh pursuit.\nFinn never let me go hungry, even if it meant he did not eat. I can scarce imagine how difficult it was.\nI want to live up to all he and those in the liberation army did... To defeat the empire and restore Leonster.\nA dream I share with Finn. I will learn all I can here, and I will grow... I shall make that dream a reality!"
       ],
       "Special": [
-        "Great Sacrifice!",
-        "Emblem guide you!",
-        "May you be healed.",
-        "Emblem engage!"
+        "For Leonster!",
+        "This is justice!",
+        "I will never run!",
+        "Unforgivable!"
       ],
       "Status": [
-        "Ugh...",
-        "You have warm hands. That warmth is a sign that you are cared for deeply.",
-        "Ah! You approached so unexpectedly. Are you hurt? Is there a fortune you wish me to read?",
-        "I am fond of this appearance. Wreathed in blue flame... It is as though I am meant to match Yune.",
-        "My ring was hidden in a shrine in Firene, but Yunaka heard my voice and brought me out of it.",
-        "\"Heal us, Emblem of Dawn...\" That is the invocation to summon me. It will aid you. Of that I am certain.",
-        "It pleases me to see Sothe and others who inspire so many memories... Though, I knew I would come here.",
-        "None of the Micaiahs from whom I originate could have foreseen becoming an Emblem. Like them, you also have limitless potential."
+        "Hm.",
+        "These clothes bear the weight of responsibility.",
+        "Hey! Keep that up and you'll have to answer to Finn.",
+        "Restoring Leonster is our dream. The two of us have spoken of it often.",
+        "I will not run any longer. It's my duty to protect northern Thracia.",
+        "As long as I live, I will never forget the night Leonster fell.",
+        "Since then, it seems Finn has forgotten how to cry. And how to laugh...",
+        "No matter how hard the battle, I know that I will make it with you at my side."
       ],
       "Map Select": [
-        "Yes.",
-        "We shall emerge victorious.",
-        "All will be well."
+        "Ready.",
+        "Where to?",
+        "Time to move!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Emblem Micaiah",
-    "SEARCH_NAME": "Emblem Micaiah",
-    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Emblem Micaiah",
+    "short_name": "Attuned Leif",
+    "SEARCH_NAME": "Attuned Leif",
+    "DISPLAY_NAME": "<:Green_Bow:1124845936426897428>Attuned Leif",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "micaiah",
-      "micaiah2",
-      "micaiah3",
-      "micaiah4",
-      "micaiah5",
-      "micaiah6",
-      "micaiah7"
+      "leif",
+      "leif2",
+      "leif3"
     ],
     "prf": {
-      "": "maidenstome",
-      "eff": "maidenstome",
-      "atk": "maidenstome",
-      "spd": "maidenstome",
-      "def": "maidenstome",
-      "res": "maidenstome"
+      "": "bowofloyalty",
+      "eff": "bowofloyalty",
+      "atk": "bowofloyalty",
+      "spd": "bowofloyalty",
+      "def": "bowofloyalty",
+      "res": "bowofloyalty"
+    }
+  },
+  "machyua": {
+    "name": "Machyua",
+    "title": "Blade of Gales",
+    "description": "A member of the Magi, a group who work toward freeing Munster. A native child of Munster, she has strong animosity toward the empire. Appears in Fire Emblem: Thracia 776.",
+    "origin": "Thracia 776",
+    "artist": "Kasahara",
+    "move": "Infantry",
+    "weapon": "Sword",
+    "color": "Red",
+    "duel": false,
+    "id": "1265",
+    "type": "rearmed",
+    "version": "9.7",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 11,
+      "spd": 9,
+      "def": 10,
+      "res": 9
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 60,
+      "res": 50
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "res"
+    ],
+    "weapons": {
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Silver Sword": "3",
+      "Arcane Renegade": "5"
+    },
+    "assist": {},
+    "special": {
+      "Night Sky": "3",
+      "Glimmer": "4",
+      "Gust": "5"
+    },
+    "passive": {
+      "A": {
+        "Distant Counter": "4",
+        "D Bonus Doubler": "5"
+      },
+      "B": {
+        "Hot-Blooded": "5"
+      },
+      "C": {
+        "Atk/Spd Oath 1": "2",
+        "Atk/Spd Oath 2": "3",
+        "Atk/Spd Oath 3": "4",
+        "Atk/Spd Faith": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/45/Machyua_Blade_of_Gales_Face.webp/revision/latest?cb=20250718045938",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fb/Machyua_Blade_of_Gales_BtlFace_D.webp/revision/latest?cb=20250718045933",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Machyua_Blade_of_Gales_BtlFace_C.webp/revision/latest?cb=20250718045929",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/13/Machyua_Blade_of_Gales_BtlFace.webp/revision/latest?cb=20250718045913"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Blade of Gales",
+      "Machyua: Blade of Gales",
+      "Rearmed Machyua",
+      "Rearm Machyua",
+      "Arm Machyua",
+      "machyua"
+    ],
+    "HARD_ALT_NAME": [
+      "Blade of Gales",
+      "Machyua: Blade of Gales",
+      "Rearmed Machyua",
+      "Rearm Machyua",
+      "Arm Machyua",
+      "machyua"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30de\u30c1\u30e5\u30a2",
+    "voice": "Frankie Kevich",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe5",
+    "quotes": {
+      "Castle Hall": [
+        "Raydrik colluded with the Grannvale Empire while he was general of Connacht... Despicable!",
+        "Loptr's army is so cruel. It only takes one person to stand against them for them to burn everyone alive.",
+        "I am confident in my strength. You don't need to worry about me.",
+        "Time to get some training runs in. Would you like to join me?",
+        "I will never forgive the Grannvale Empire for kidnapping children to offer as Loptr sacrifices."
+      ],
+      "Visit": [
+        "Friendships can last forever, you know? I come to offer just that, from as far as [F]'s."
+      ],
+      "Level": [
+        "We will never stop fighting! Not until Munster is at peace.",
+        "Do not worry. I am with you.",
+        "Thank you, but you don't need to worry about me. I'll be fine."
+      ],
+      "Summon": [
+        "I am Machyua, a member of the Magi. I believe I can be of use to you. Let's go!"
+      ],
+      "Learn Skill": [
+        "Are you sure? Thank you... Really."
+      ],
+      "Confession": [
+        "I will never forgive the empire for what they've done. Countless children sent to Belhalla...\nNow that Munster is influenced by the Loptr Church, you never see children there... It is horrifying...\nOf course, the Magi resist them, along with other brave citizens, but the empire overwhelms us every time.\nMunster\u2014 No. The children should no longer be sacrificed! I beg you, [S]... Please...\nLend us your aid. You don't have to do it right now, but the sooner the better. The Magi are waiting."
+      ],
+      "Special": [
+        "I am with you!",
+        "Munster will prosper!",
+        "Never give up!",
+        "You won't stop me!"
+      ],
+      "Status": [
+        "*sigh*",
+        "I am Machyua, a member of the Magi.",
+        "*gasp* You got me by surprise. *sigh* I still have a lot to learn here.",
+        "Lara is quite the picklock. You can rely on her.",
+        "My dream is to see a rebuilt and peaceful Munster. And I won't stop until I achieve it.",
+        "We in the Magi share the same goal. They are my dear comrades.",
+        "Munster will prosper again...",
+        "Do not worry. I am with you."
+      ],
+      "Map Select": [
+        "On it.",
+        "Are you ready?",
+        "Let's go!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Rearmed Machyua",
+    "SEARCH_NAME": "Rearmed Machyua",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Rearmed Machyua",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "arcanerenegade",
+      "eff": "arcanerenegade",
+      "atk": "arcanerenegade",
+      "spd": "arcanerenegade",
+      "def": "arcanerenegade",
+      "res": "arcanerenegade"
+    }
+  },
+  "linoan": {
+    "name": "Linoan",
+    "title": "Lady of Tarrah",
+    "description": "A noblewoman who inherits her father's last wishes and leads the free city of Tarrah. She is promised in marriage to Arion, prince of Thracia. Appears in Fire Emblem: Thracia 776.",
+    "origin": "Thracia 776",
+    "artist": "Yoshiro Ambe (\u3042\u3093\u3079\u3088\u3057\u308d\u3046)",
+    "move": "Infantry",
+    "weapon": "Staff",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1266",
+    "type": false,
+    "version": "9.7",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 17,
+      "atk": 11,
+      "spd": 11,
+      "def": 5,
+      "res": 9
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 80,
+      "def": 35,
+      "res": 70
+    },
+    "superboon": [
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "atk"
+    ],
+    "weapons": {
+      "Assault": "1",
+      "In the Fold": "3",
+      "In The Fold+": "5"
+    },
+    "assist": {
+      "Heal": "1",
+      "Mend": "2",
+      "Recover": "3",
+      "Recover+": "5"
+    },
+    "special": {
+      "Imbue": "2",
+      "Swift-Winds Balm": "3",
+      "Deluge Balm": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Res Form 1": "3",
+        "Atk/Res Form 2": "4",
+        "Atk/Res Form 3": "5"
+      },
+      "B": {},
+      "C": {
+        "Spur Spd 1": "1",
+        "Drive Spd 1": "2",
+        "Drive Spd 2": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/56/Linoan_Lady_of_Tarrah_Face.webp/revision/latest?cb=20250718045828",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fd/Linoan_Lady_of_Tarrah_BtlFace_D.webp/revision/latest?cb=20250718045823",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Linoan_Lady_of_Tarrah_BtlFace_C.webp/revision/latest?cb=20250718045818",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/eb/Linoan_Lady_of_Tarrah_BtlFace.webp/revision/latest?cb=20250718045804"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Lady of Tarrah",
+      "Linoan: Lady of Tarrah",
+      "linoan"
+    ],
+    "HARD_ALT_NAME": [
+      "Lady of Tarrah",
+      "Linoan: Lady of Tarrah",
+      "linoan"
+    ],
+    "gender": "F",
+    "rarity": 4,
+    "pool": "",
+    "internal_id": "PID_\u30ea\u30ce\u30a2\u30f3",
+    "voice": "Rachel Kimsey",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe5",
+    "quotes": {
+      "Castle Hall": [
+        "I have heard that the noble family of Tarrah is related to Grannvale royalty and are descendants of Saint Heim.",
+        "My father was prepared for what came of protecting Prince Leif. He said it was for the sake of the world...",
+        "Your kindness is unparalleled. If only the world was filled with people like you...",
+        "I heard tales of a free spirit, undisturbed by trifles, a valiant knight of the skies who could not be bested...",
+        "When I see a particular someone, I remember the tales of the crusader D\u00e1inn that were told to me as a child."
+      ],
+      "Visit": [
+        "I am Linoan. I have been blessed by all [F]has done."
+      ],
+      "Level": [
+        "My father was proud to accept Lord Leif into Tarrah. I shall turn his pride into courage!",
+        "We made it through, somehow... I am forever grateful to you.",
+        "I shall return to Tarrah one day... No matter what!"
+      ],
+      "Summon": [
+        "I am Linoan. I stand against the empire for the liberty of Tarrah."
+      ],
+      "Learn Skill": [
+        "You have my thanks, from the bottom of my heart."
+      ],
+      "Confession": [
+        "Please, allow me to explain my circumstances.\nWhen the empire invaded northern Thracia, Tarrah remained free so long as it followed the empire's orders.\nBut my father, he... The empire killed him for protecting Prince Leif. They took our manor, and my freedom.\nAt times I lost sight of my pursuit. But I cannot lose heart. Tarrah needs me! The empire shall never be forgiven.\nI thought you might understand my perspective, [S].\nLet us both take action so that we can leave this world with no regrets."
+      ],
+      "Special": [
+        "We will be free!",
+        "Saint Heim...",
+        "For a new world!",
+        "I will not succumb."
+      ],
+      "Status": [
+        "Mm...",
+        "Gods...please...",
+        "We are grateful.",
+        "I am Linoan. I serve as mayor of Tarrah, a free city.",
+        "I am deeply saddened by my father's death... Though I am proud of what he did.",
+        "The blood of Saint Heim...flows within me?",
+        "I will return to Tarrah one day, and Leif and I will see it as it once was.",
+        "I will stay with you. And one day, we will arrive at Tarrah...together."
+      ],
+      "Map Select": [
+        "Very well.",
+        "What should I do?",
+        "I will go."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": " Linoan",
+    "SEARCH_NAME": " Linoan",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592> Linoan",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "inthefold",
+      "eff": "inthefold",
+      "atk": "inthefold",
+      "spd": "inthefold",
+      "def": "inthefold",
+      "res": "inthefold"
+    }
+  },
+  "homer": {
+    "name": "Homer",
+    "title": "Traveling Bard",
+    "description": "A bard who has traveled throughout Thracia, observing an age of war and chaos. It is said that his saga is beloved by many in the generations that follow him. Appears in Fire Emblem: Thracia 776.",
+    "origin": "Thracia 776",
+    "artist": "ayuko (\u5728\u7531\u5b50)",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Blue",
+    "duel": false,
+    "id": "1267",
+    "type": false,
+    "version": "9.7",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 8,
+      "def": 6,
+      "res": 11
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 45,
+      "res": 50
+    },
+    "superboon": [
+      "spd",
+      "def"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "res"
+    ],
+    "weapons": {
+      "Thunder": "1",
+      "Elthunder": "2",
+      "Bl\u00e1rcrab": "3",
+      "Bl\u00e1rcrab+": "5"
+    },
+    "assist": {
+      "Draw Back": "3"
+    },
+    "special": {},
+    "passive": {
+      "A": {},
+      "B": {
+        "Chill Spd 1": "1",
+        "Chill Spd/Res 1": "2",
+        "Chill Spd/Res 2": "4"
+      },
+      "C": {
+        "Spd/Res Oath 1": "3",
+        "Spd/Res Oath 2": "4",
+        "Spd/Res Oath 3": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b9/Homer_Traveling_Bard_Face.webp/revision/latest?cb=20250718045903",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/58/Homer_Traveling_Bard_BtlFace_D.webp/revision/latest?cb=20250718045858",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f3/Homer_Traveling_Bard_BtlFace_C.webp/revision/latest?cb=20250718045853",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Homer_Traveling_Bard_BtlFace.webp/revision/latest?cb=20250718045838"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Traveling Bard",
+      "Homer: Traveling Bard",
+      "homer"
+    ],
+    "HARD_ALT_NAME": [
+      "Traveling Bard",
+      "Homer: Traveling Bard",
+      "homer"
+    ],
+    "gender": "M",
+    "rarity": 3,
+    "pool": "",
+    "internal_id": "PID_\u30db\u30e1\u30ed\u30b9",
+    "voice": "Aaron Dismuke",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe5",
+    "quotes": {
+      "Castle Hall": [
+        "Aw, thanks for asking, but...I've got plans tonight. Sorry to disappoint.",
+        "How about we rest and forget all our worries?",
+        "All right, all right... So, you really want my help?",
+        "How about a verse? It'll cost you a night of lodging, and perhaps a drink, if you're feeling generous.",
+        "I'm supposed to be on the receiving end of service... Ugh! All right, only for today!"
+      ],
+      "Visit": [
+        "My body isn't the strongest, so don't force me to do any hard labor."
+      ],
+      "Level": [
+        "You can't be serious...",
+        "A simple \"thank you\" is easy to say. But as a bard, how should I express this...",
+        "That's right, I'm a bard. You can call me Homer. A drink and a bed, heh! That's all I really need, if you ask me."
+      ],
+      "Summon": [
+        "I have no intention of staying long. I'll enjoy tonight, and then... We'll see what tomorrow brings."
+      ],
+      "Learn Skill": [
+        "Hey! I'm trying to nap here! Go on, leave me be, [S].\nWhat?! You're so demanding, just like Princess Nanna.\nListen up. I'm not a strong fighter, and I've got no pride for my country or anything like that.\nI'm definitely not a prince on a white horse who's out to save a princess. No... I'd rather sing about it.\nI don't understand fighting for justice. Sometimes it's better to flip the coin and see what's on the other side.\nThis world isn't just made up of valiant heroes and pretty words...\nPeople's passion for their countries is just a dream. But like a drink, it only lasts so long. I can understand that.\nIf I drank from that bottle, as long as I kept my eyes open, any drop left would be pure joy."
+      ],
+      "Confession": [
+        "-"
+      ],
+      "Special": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "Status": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "Map Select": [
+        "",
+        "",
+        ""
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": " Homer",
+    "SEARCH_NAME": " Homer",
+    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297> Homer",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "blarcrab",
+      "eff": "blarcrab",
+      "atk": "blarcrab",
+      "spd": "blarcrab",
+      "def": "blarcrab",
+      "res": "blarcrab"
+    }
+  },
+  "meliai": {
+    "name": "Mel\u00edai",
+    "title": "Warrior Wanderer",
+    "description": "A mysterious warrior who attacks Askr. Though she has lost her memories, she has the power to travel between worlds.",
+    "origin": "Heroes",
+    "artist": "ekao",
+    "move": "Armored",
+    "weapon": "Beast",
+    "color": "Green",
+    "duel": false,
+    "id": "1268",
+    "type": false,
+    "version": "9.7",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 21,
+      "atk": 10,
+      "spd": 3,
+      "def": 14,
+      "res": 13
+    },
+    "growth": {
+      "hp": 60,
+      "atk": 90,
+      "spd": 35,
+      "def": 80,
+      "res": 70
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [],
+    "weapons": {
+      "Whelp (Armored)": "1",
+      "Yearling (Arm.)": "2",
+      "Adult (Armored)": "3",
+      "Wandering Horn": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4",
+      "Sturdy Beast": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Def Form 1": "2",
+        "Atk/Def Form 2": "3",
+        "Atk/Def Form 3": "4",
+        "Atk/Def Fortune": "5"
+      },
+      "B": {
+        "Slick Fighter 1": "2",
+        "Slick Fighter 2": "3",
+        "Slick Fighter 3": "4",
+        "Slick Fighter 4": "5"
+      },
+      "C": {
+        "A/D Near Save 1": "2",
+        "A/D Near Save 2": "3",
+        "A/D Near Save 3": "4",
+        "A/D Briar N Save": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f3/Meliai_Warrior_Wanderer_Face.webp/revision/latest?cb=20250707151429",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1e/Meliai_Warrior_Wanderer_BtlFace_D.webp/revision/latest?cb=20250707151424",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b2/Meliai_Warrior_Wanderer_BtlFace_C.webp/revision/latest?cb=20250707151419",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b5/Meliai_Warrior_Wanderer_BtlFace.webp/revision/latest?cb=20250707151404"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Warrior Wanderer",
+      "Mel\u00edai: Warrior Wanderer",
+      "meliai"
+    ],
+    "HARD_ALT_NAME": [
+      "Warrior Wanderer",
+      "Mel\u00edai: Warrior Wanderer",
+      "meliai"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "",
+    "internal_id": "PID_\u30e1\u30ea\u30a2\u30a8\u5473\u65b9",
+    "voice": "Lily Emil Lammers",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "Askr... Father... Huh? What do you think you're lookin' at?!",
+        "I have always drifted from place to place. I've lost count of how many worlds I passed through.",
+        "Ash said our role here is to devote ourselves to you and your kind. So, tell me. How should I do that?",
+        "If I've got time to stare off into space, I've got time to train. Hey, be my opponent, will ya?",
+        "It's like I can feel Askr's presence in everyone I see here."
+      ],
+      "Visit": [
+        "I was told to come greet you by [F]. How'd I do?"
+      ],
+      "Level": [
+        "I have the power now! And no matter what, I will meet Father!",
+        "What, that? Humph. That's nothin'! I can get that much done before sunup.",
+        "Damn! I can't meet Father like this..."
+      ],
+      "Summon": [
+        "The name's Mel\u00edai. Oh...you mean my true name? Only my father needs to use that."
+      ],
+      "Learn Skill": [
+        "Th-thank you. I'll repay you for this."
+      ],
+      "Confession": [
+        "Of all the places I've been, this Askr's pretty high up there.\nYou're probably wondering about the other Askrs, huh?\nMost of them are peaceful, and the people are friendly. But that's why I never quite fit in.\nI'm sure my father protected them with his love. And that's how they became the way they are.\nHumph. When I think of it like that, I get it. Now I wish I'd paid them the respect they're due.\nThis Askr... It's not the same as my father's. I'd like to care for it the way my father did his."
+      ],
+      "Special": [
+        "Gimme a break!",
+        "Outta my way!",
+        "You're dead!",
+        "SCRAM!"
+      ],
+      "Status": [
+        "-",
+        "I am Mel\u00edai. I chose that name myself.",
+        "You... Try that again and I'll crush you!",
+        "You sure that's me from another world? What a dimwit.",
+        "I have no family, no friends, nothing worth remembering...",
+        "I'm sure my fighting probably looks unrefined to you. That's because I taught myself.",
+        "Askr... Father...",
+        "You're not my enemy, right? Then I think you and I are all right for now."
+      ],
+      "Map Select": [
+        "Humph.",
+        "Which way?",
+        "I'll handle this."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": " Mel\u00edai",
+    "SEARCH_NAME": " Mel\u00edai",
+    "DISPLAY_NAME": "<:Green_Beast:1124845912385138738> Mel\u00edai",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "wanderinghorn",
+      "eff": "wanderinghorn",
+      "atk": "wanderinghorn",
+      "spd": "wanderinghorn",
+      "def": "wanderinghorn",
+      "res": "wanderinghorn"
+    }
+  },
+  "dagdar": {
+    "name": "Dagdar",
+    "title": "Reformed Bandit",
+    "description": "A former leader of bandits who hid in Mount Violdrake. He changed his ways after meeting Eyvel and began to fight against the empire. Appears in Fire Emblem: Thracia 776.",
+    "origin": "Thracia 776",
+    "artist": "\u30c0\u30a4\u30a8\u30af\u30b9\u30c8",
+    "move": "Infantry",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1269",
+    "type": false,
+    "version": "9.7",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 11,
+      "def": 12,
+      "res": 6
+    },
+    "growth": {
+      "hp": 60,
+      "atk": 90,
+      "spd": 55,
+      "def": 75,
+      "res": 45
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [
+      "def"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Reversal Axe": "3",
+      "Reversal Axe+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {
+        "Bonus Doubler 1": "3",
+        "Bonus Doubler 2": "4",
+        "Bonus Doubler 3": "5"
+      },
+      "B": {},
+      "C": {
+        "Atk/Def Oath 1": "1",
+        "Atk/Def Oath 2": "2",
+        "Atk/Def Oath 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/57/Dagdar_Reformed_Bandit_Face.webp/revision/latest?cb=20250718050013",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/07/Dagdar_Reformed_Bandit_BtlFace_D.webp/revision/latest?cb=20250718050008",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ac/Dagdar_Reformed_Bandit_BtlFace_C.webp/revision/latest?cb=20250718050004",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/20/Dagdar_Reformed_Bandit_BtlFace.webp/revision/latest?cb=20250718045949"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Reformed Bandit",
+      "Dagdar: Reformed Bandit",
+      "dagdar"
+    ],
+    "HARD_ALT_NAME": [
+      "Reformed Bandit",
+      "Dagdar: Reformed Bandit",
+      "dagdar"
+    ],
+    "gender": "M",
+    "rarity": 3,
+    "pool": "grail",
+    "internal_id": "PID_\u30c0\u30b0\u30c0",
+    "voice": "Byron Patrick",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "jugdral"
+    ],
+    "chibi": "fe5",
+    "quotes": {
+      "Castle Hall": [
+        "Against the imperial army, even Eyvel would feel threatened.",
+        "It's hard to believe the imperial army would return to such a backwater. They must have had a good reason.",
+        "No one wants to starve to death, but it happens daily in southern Thracia. Everyone is desperate to survive...",
+        "While I was off visiting Fiana, one of my men went back to being a bandit. He may be strong, but he's an idiot.",
+        "Not to worry. I'll be here to help you out from now on."
+      ],
+      "Visit": [
+        "Anyone up to no good around here? If so, send a message to Dagdar at Castle [F]!"
+      ],
+      "Level": [
+        "Imagine, calling me a skirt-chasing, senile old man! Those are fighting words. I'll take every one of them!",
+        "I'll slow them down. You go ahead.",
+        "I guess I haven't got a choice. Worst case, I'll gather up my old comrades and stage an assault with them."
+      ],
+      "Summon": [
+        "I'm Dagdar. I may not be able to take on Eyvel, but I've got no trouble keeping up with those youngsters!"
+      ],
+      "Learn Skill": [
+        "Got it! I'll show them!"
+      ],
+      "Confession": [
+        "I may not look it, but I was once a bandit. I led a massive group that made its home in Mount Violdrake.\nNone stood a chance against us. But, it wasn't right. Eyvel taught me that I was fighting the wrong people.\nThe imperial army's attack on Fiana stopped me on my way to Mount Violdrake, but I still plan to return.\nI will cultivate the arid lands and grow food for the people there. When their bellies are full, their hearts can rest.\nIt won't make up for my past wrongs, but I want to help the starving kids in Thracia. That is my true desire now."
+      ],
+      "Special": [
+        "Not ready to lose!",
+        "Quit boasting!",
+        "Come at me!",
+        "Time to fight it out."
+      ],
+      "Status": [
+        "Huh...",
+        "I'm Dagdar. I'm no bandit... I've washed my hands of that life.",
+        "What do you think you're\u2014 Oh, uh...sorry if I scared ya.",
+        "How is Tanya? I expect she's pulling her weight around here.",
+        "Prince Leif is no coward.",
+        "Not to worry. I've got no trouble keeping up with those youngsters!",
+        "Eyvel... You're really something... Even a seasoned fighter like me is no match for you.",
+        "From now on, you can count on me!"
+      ],
+      "Map Select": [
+        "Aye.",
+        "Got no choice.",
+        "Can't complain."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": " Dagdar",
+    "SEARCH_NAME": " Dagdar",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754> Dagdar",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "reversalaxe",
+      "eff": "reversalaxe",
+      "atk": "reversalaxe",
+      "spd": "reversalaxe",
+      "def": "reversalaxe",
+      "res": "reversalaxe"
     }
   }
 }
