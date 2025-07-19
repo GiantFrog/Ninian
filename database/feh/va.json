@@ -154,7 +154,10 @@
       "Noah: Mercenary-Errant",
       "Mercenary-Errant",
       "Base Noah",
-      "Normal Noah"
+      "Normal Noah",
+      "Traveling Bard",
+      "Homer: Traveling Bard",
+      "homer"
     ],
     "HARD_ALT_NAME": [
       "noah",
@@ -162,9 +165,13 @@
       "noah1",
       "Mercenary-Errant",
       "Base Noah",
-      "Normal Noah"
+      "Normal Noah",
+      "Traveling Bard",
+      "Homer: Traveling Bard",
+      "homer"
     ],
     "heroes": {
+      "homer": "<:Blue_Tome:1124845593211191297> Homer",
       "noah": "<:Blue_Lance:1124845569496584302>Noah"
     },
     "name": "Aaron Dismuke"
@@ -17570,7 +17577,10 @@
       "New Year Cow Girl",
       "New years Cow Girl",
       "New Year Cow",
-      "New years Cow"
+      "New years Cow",
+      "Warrior Wanderer",
+      "Mel\u00edai: Warrior Wanderer",
+      "meliai"
     ],
     "HARD_ALT_NAME": [
       "ash",
@@ -17599,11 +17609,15 @@
       "New Year Cow Girl",
       "New years Cow Girl",
       "New Year Cow",
-      "New years Cow"
+      "New years Cow",
+      "Warrior Wanderer",
+      "Mel\u00edai: Warrior Wanderer",
+      "meliai"
     ],
     "heroes": {
       "ash": "<:Colorless_Beast:1124845615935918110>Ash",
-      "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash"
+      "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash",
+      "meliai": "<:Green_Beast:1124845912385138738> Mel\u00edai"
     },
     "name": "Lily Emil Lammers"
   },
@@ -21446,7 +21460,11 @@
       "Rearmed Noire",
       "Rearm Noire",
       "Arm Noire",
-      "noire3"
+      "noire3",
+      "Resplendent Soleil",
+      "Resp Soleil",
+      "R Soleil",
+      "Soleil (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "soleil",
@@ -21479,13 +21497,18 @@
       "Rearmed Noire",
       "Rearm Noire",
       "Arm Noire",
-      "noire3"
+      "noire3",
+      "Resplendent Soleil",
+      "Resp Soleil",
+      "R Soleil",
+      "Soleil (Resplendent)"
     ],
     "heroes": {
       "noire": "<:Colorless_Bow:1124845636659982457>Summer Noire",
       "noire2": "<:Colorless_Dagger:1124845658617155734>Ninja Noire",
       "noire3": "<:Red_Bow:1124846280951218289>Rearmed Noire",
-      "soleil": "<:Red_Sword:1124846201070698536>Soleil"
+      "soleil": "<:Red_Sword:1124846201070698536>Soleil",
+      "soleilR": "<:Red_Sword:1124846201070698536>Soleil (Resplendent)"
     },
     "name": "Michelle Ruff"
   },
@@ -22327,7 +22350,11 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3"
+      "sothe3",
+      "Sworn to Country",
+      "Leif: Sworn to Country",
+      "Attuned Leif",
+      "leif4"
     ],
     "HARD_ALT_NAME": [
       "sothe",
@@ -22411,12 +22438,17 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3"
+      "sothe3",
+      "Sworn to Country",
+      "Leif: Sworn to Country",
+      "Attuned Leif",
+      "leif4"
     ],
     "heroes": {
       "leif": "<:Red_Sword:1124846201070698536>Leif",
       "leif2": "<:Colorless_Bow:1124845636659982457>Legendary Leif",
       "leif3": "<:Colorless_Bow:1124845636659982457>Harmonic Leif",
+      "leif4": "<:Green_Bow:1124845936426897428>Attuned Leif",
       "leifR": "<:Red_Sword:1124846201070698536>Leif (Resplendent)",
       "micaiah4": "<:Colorless_Tome:1124845725960904734>Duo Micaiah",
       "sothe": "<:Colorless_Dagger:1124845658617155734>Sothe",
@@ -30478,6 +30510,7 @@
   },
   "byronpatrick": {
     "heroes": {
+      "dagdar": "<:Green_Axe:1124845885277343754> Dagdar",
       "uther": "<:Green_Axe:1124845885277343754>Uther"
     },
     "name": "Byron Patrick",
@@ -30488,7 +30521,10 @@
       "Normal Uther",
       "Regular Uther",
       "Hector's Brother",
-      "uther"
+      "uther",
+      "Reformed Bandit",
+      "Dagdar: Reformed Bandit",
+      "dagdar"
     ],
     "HARD_ALT_NAME": [
       "Frugal Militarist",
@@ -30497,7 +30533,10 @@
       "Normal Uther",
       "Regular Uther",
       "Hector's Brother",
-      "uther"
+      "uther",
+      "Reformed Bandit",
+      "Dagdar: Reformed Bandit",
+      "dagdar"
     ]
   },
   "toyosakiaki": {
@@ -31001,6 +31040,44 @@
       "Balthus: Summer's Big Bet",
       "Summer Balthus",
       "balthus2"
+    ]
+  },
+  "frankiekevich": {
+    "heroes": {
+      "machyua": "<:Red_Sword:1124846201070698536>Rearmed Machyua"
+    },
+    "name": "Frankie Kevich",
+    "ALT_NAME": [
+      "Blade of Gales",
+      "Machyua: Blade of Gales",
+      "Rearmed Machyua",
+      "Rearm Machyua",
+      "Arm Machyua",
+      "machyua"
+    ],
+    "HARD_ALT_NAME": [
+      "Blade of Gales",
+      "Machyua: Blade of Gales",
+      "Rearmed Machyua",
+      "Rearm Machyua",
+      "Arm Machyua",
+      "machyua"
+    ]
+  },
+  "rachelkimsey": {
+    "heroes": {
+      "linoan": "<:Colorless_Staff:1124845704444137592> Linoan"
+    },
+    "name": "Rachel Kimsey",
+    "ALT_NAME": [
+      "Lady of Tarrah",
+      "Linoan: Lady of Tarrah",
+      "linoan"
+    ],
+    "HARD_ALT_NAME": [
+      "Lady of Tarrah",
+      "Linoan: Lady of Tarrah",
+      "linoan"
     ]
   }
 }

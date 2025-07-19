@@ -17,11 +17,11 @@ with open(file, 'w') as fp:
     
 
 
-units = ["Celica: Sunlit Priestesses","Nino: Burst of Summer","Palla: Soaring Summer","Lapis: Forager of the Sea","Fogado: Summer of Bliss"]
+units = ["Leif: Sworn to Country", "Machyua: Blade of Gales", "Linoan: Lady of Tarrah", "Homer: Traveling Bard", "Melíai: Warrior Wanderer", "Dagdar: Reformed Bandit"]
 
 
 
-alts = ["Summer"]  # 'None' (as in null) uses defaults such as "normal" and "regular". use [] for no alts. maybe this is unintuitive.
+alts = []  # 'None' (as in null) uses defaults such as "normal" and "regular". use [] for no alts. maybe this is unintuitive.
 #alts = ["Winter", "Christmas", "W"]
 
 version = None  # will calculate the book & chapter the game is currently on when this is run
