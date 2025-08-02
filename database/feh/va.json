@@ -13626,7 +13626,11 @@
       "I Flora",
       "I F Flora",
       "I T Flora",
-      "flora3"
+      "flora3",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Groom Cordelia",
@@ -13854,7 +13858,11 @@
       "I Flora",
       "I F Flora",
       "I T Flora",
-      "flora3"
+      "flora3",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "heroes": {
       "caeldori": "<:Blue_Lance:1124845569496584302>Caeldori",
@@ -13866,6 +13874,7 @@
       "flora": "<:Red_Dagger:1124846223518605324>Flora",
       "flora2": "<:Red_Dagger:1124846223518605324>Picnic Flora",
       "flora3": "<:Colorless_Dagger:1124845658617155734>Ice Flora",
+      "floraR": "<:Red_Dagger:1124846223518605324>Flora (Resplendent)",
       "linde": "<:Blue_Tome:1124845593211191297>Linde",
       "linde2": "<:Colorless_Dagger:1124845658617155734>Summer Linde",
       "linde3": "<:Red_Tome:1124846175577710642>Harmonic Linde",
@@ -31100,6 +31109,74 @@
       "Lady of Tarrah",
       "Linoan: Lady of Tarrah",
       "linoan"
+    ]
+  },
+    "samslade": {
+    "heroes": {
+      "baldr": "<:Red_Sword:1124846201070698536> Baldr"
+    },
+    "name": "Sam Slade",
+    "ALT_NAME": [
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr"
+    ],
+    "HARD_ALT_NAME": [
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr"
+    ]
+  },
+  "emilo": {
+    "heroes": {
+      "hodr": "<:Blue_Bow:1124845525695475845> H\u00f6\u00f0r"
+    },
+    "name": "Emi Lo",
+    "ALT_NAME": [
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr"
+    ],
+    "HARD_ALT_NAME": [
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr"
     ]
   }
 }

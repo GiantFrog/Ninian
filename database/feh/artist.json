@@ -2272,10 +2272,7 @@
       "Resplendent Eliwood",
       "Resp Eliwood",
       "R Eliwood",
-      "Eliwood (Resplendent)",
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "Eliwood (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Valentine's Ephraim",
@@ -2287,15 +2284,11 @@
       "Resplendent Eliwood",
       "Resp Eliwood",
       "R Eliwood",
-      "Eliwood (Resplendent)",
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "Eliwood (Resplendent)"
     ],
     "heroes": {
-      "eliwood4R": "<:Blue_Lance:1124845569496584302>Brave Eliwood (Resplendent)",
       "ephraim7": "<:Blue_Lance:1124845569496584302>Valentines Ephraim",
-      "homer": "<:Blue_Tome:1124845593211191297> Homer"
+      "eliwood4R": "<:Blue_Lance:1124845569496584302>Brave Eliwood (Resplendent)"
     },
     "name": "ayuko (\u5728\u7531\u5b50)"
   },
@@ -4177,13 +4170,11 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2"
     ],
     "HARD_ALT_NAME": [
@@ -4486,13 +4477,11 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2"
     ],
     "heroes": {
@@ -4984,10 +4973,7 @@
       "Valentines Rhea",
       "Valentine Rhea",
       "Duo Rhea",
-      "rhea4",
-      "Warrior Wanderer",
-      "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "rhea4"
     ],
     "HARD_ALT_NAME": [
       "Normal F Corrin",
@@ -5088,10 +5074,7 @@
       "Valentines Rhea",
       "Valentine Rhea",
       "Duo Rhea",
-      "rhea4",
-      "Warrior Wanderer",
-      "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "rhea4"
     ],
     "heroes": {
       "corrin2R": "<:Blue_Breath:1124845312637403236>Female Corrin (Resplendent)",
@@ -5100,7 +5083,6 @@
       "igrene3": "<:Blue_Bow:1124845525695475845>Nabata Igrene",
       "kagero4": "<:Colorless_Dagger:1124845658617155734>Wind Kagero",
       "manuela": "<:Red_Sword:1124846201070698536>Winter Manuela",
-      "meliai": "<:Green_Beast:1124845912385138738> Mel\u00edai",
       "olwenR": "<:Blue_Tome:1124845593211191297>Olwen (Resplendent)",
       "rhea4": "<:Colorless_Breath:1124845679076978798>Valentines Rhea"
     },
@@ -14092,7 +14074,31 @@
       "Base Rune",
       "Normal Rune",
       "Regular Rune",
-      "rune"
+      "rune",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr"
     ],
     "HARD_ALT_NAME": [
       "xander",
@@ -14287,9 +14293,34 @@
       "Base Rune",
       "Normal Rune",
       "Regular Rune",
-      "rune"
+      "rune",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr"
     ],
     "heroes": {
+      "baldr": "<:Red_Sword:1124846201070698536> Baldr",
       "camilla": "<:Green_Axe:1124845885277343754>Camilla",
       "camilla2": "<:Green_Tome:1124845959873036289>Spring Camilla",
       "fjorm": "<:Blue_Lance:1124845569496584302>Fjorm",
@@ -14299,6 +14330,7 @@
       "fjorm5": "<:Red_Sword:1124846201070698536>Summer Fjorm",
       "gunnthra": "<:Green_Tome:1124845959873036289>Gunnthr\u00e1",
       "helbindi": "<:Green_Axe:1124845885277343754>Helbindi",
+      "hodr": "<:Blue_Bow:1124845525695475845> H\u00f6\u00f0r",
       "hrid": "<:Red_Sword:1124846201070698536>Hr\u00edd",
       "laegjarn": "<:Red_Sword:1124846201070698536>Laegjarn",
       "laegjarn3": "<:Blue_Tome:1124845593211191297>Summer Laegjarn",
@@ -17748,13 +17780,11 @@
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3",
       "Ruler of Dragons",
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3"
     ],
     "HARD_ALT_NAME": [
@@ -17778,13 +17808,11 @@
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3",
       "Ruler of Dragons",
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3"
     ],
     "heroes": {
@@ -25376,11 +25404,7 @@
       "Hector: Steel Warrior",
       "Sword Hector",
       "Attuned Hector",
-      "hector7",
-      "Sworn to Country",
-      "Leif: Sworn to Country",
-      "Attuned Leif",
-      "leif4"
+      "hector7"
     ],
     "HARD_ALT_NAME": [
       "Valentine Lin",
@@ -25840,11 +25864,7 @@
       "Hector: Steel Warrior",
       "Sword Hector",
       "Attuned Hector",
-      "hector7",
-      "Sworn to Country",
-      "Leif: Sworn to Country",
-      "Attuned Leif",
-      "leif4"
+      "hector7"
     ],
     "heroes": {
       "asbel": "<:Green_Tome:1124845959873036289>Asbel",
@@ -25863,7 +25883,6 @@
       "hector5": "<:Red_Sword:1124846201070698536>Duo Hector",
       "hector7": "<:Red_Sword:1124846201070698536>Attuned Hector",
       "inigo": "<:Red_Sword:1124846201070698536>Inigo",
-      "leif4": "<:Green_Bow:1124845936426897428>Attuned Leif",
       "leonie": "<:Colorless_Bow:1124845636659982457>Summer Leonie",
       "louise2": "<:Colorless_Bow:1124845636659982457>Bridal Louise",
       "lyn4": "<:Blue_Tome:1124845593211191297>Valentines Lyn",
@@ -25995,19 +26014,16 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2"
     ],
     "HARD_ALT_NAME": [
@@ -26098,19 +26114,16 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2"
     ],
     "heroes": {
@@ -27526,10 +27539,7 @@
       "Normal Edain",
       "Regular Edain",
       "edain",
-      "aideen",
-      "Lady of Tarrah",
-      "Linoan: Lady of Tarrah",
-      "linoan"
+      "aideen"
     ],
     "HARD_ALT_NAME": [
       "Valentines Reflet F",
@@ -27713,10 +27723,7 @@
       "Normal Edain",
       "Regular Edain",
       "edain",
-      "aideen",
-      "Lady of Tarrah",
-      "Linoan: Lady of Tarrah",
-      "linoan"
+      "aideen"
     ],
     "heroes": {
       "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash",
@@ -27725,7 +27732,6 @@
       "elincia3": "<:Blue_Bow:1124845525695475845>Summer Elincia",
       "henriette": "<:Red_Tome:1124846175577710642>Valentines Henriette",
       "hinoka4": "<:Green_Bow:1124845936426897428>Duo Hinoka",
-      "linoan": "<:Colorless_Staff:1124845704444137592> Linoan",
       "merric3": "<:Green_Tome:1124845959873036289>Ascended Merric",
       "nephenee3": "<:Red_Tome:1124846175577710642>Festival Nephenee",
       "nepheneeR": "<:Blue_Lance:1124845569496584302>Nephenee (Resplendent)",
@@ -28551,7 +28557,6 @@
   },
   "zaiyouzi": {
     "heroes": {
-      "homer": "<:Blue_Tome:1124845593211191297> Homer",
       "takumi6": "<:Colorless_Bow:1124845636659982457>Festival Takumi"
     },
     "name": "\u5728\u7531\u5b50",
@@ -28564,10 +28569,7 @@
       "Yukata Takumi",
       "HS Takumi",
       "Fes Takumi",
-      "takumi6",
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "takumi6"
     ],
     "HARD_ALT_NAME": [
       "Wishful Spark",
@@ -28578,10 +28580,7 @@
       "Yukata Takumi",
       "HS Takumi",
       "Fes Takumi",
-      "takumi6",
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "takumi6"
     ]
   },
   "keg": {
@@ -28737,7 +28736,6 @@
   },
   "daiekusuto": {
     "heroes": {
-      "dagdar": "<:Green_Axe:1124845885277343754> Dagdar",
       "jesse": "<:Red_Sword:1124846201070698536>Jesse",
       "yarne3": "<:Red_Beast:1124846309208248381>Halloween Yarne"
     },
@@ -28755,10 +28753,7 @@
       "Base Jesse",
       "Normal Jesse",
       "Regular Jesse",
-      "jesse",
-      "Reformed Bandit",
-      "Dagdar: Reformed Bandit",
-      "dagdar"
+      "jesse"
     ],
     "HARD_ALT_NAME": [
       "Trick or Taguel",
@@ -28773,10 +28768,7 @@
       "Base Jesse",
       "Normal Jesse",
       "Regular Jesse",
-      "jesse",
-      "Reformed Bandit",
-      "Dagdar: Reformed Bandit",
-      "dagdar"
+      "jesse"
     ]
   },
   "mono": {
@@ -29377,7 +29369,8 @@
   },
   "nima": {
     "heroes": {
-      "corrin16": "<:Blue_Breath:1124845312637403236>Young Corrin"
+      "corrin16": "<:Blue_Breath:1124845312637403236>Young Corrin",
+      "floraR": "<:Red_Dagger:1124846223518605324>Flora (Resplendent)"
     },
     "name": "nima",
     "ALT_NAME": [
@@ -29387,7 +29380,11 @@
       "Baby Corrin",
       "Child Corrin",
       "Y Corrin",
-      "corrin16"
+      "corrin16",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Young Kinship",
@@ -29396,7 +29393,11 @@
       "Baby Corrin",
       "Child Corrin",
       "Y Corrin",
-      "corrin16"
+      "corrin16",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ]
   },
   "sabamizore": {
@@ -29410,14 +29411,12 @@
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11"
     ],
     "HARD_ALT_NAME": [
@@ -29426,14 +29425,12 @@
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11"
     ]
   },
@@ -29447,14 +29444,12 @@
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3",
       "Fickle Dragon",
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3"
     ],
@@ -29463,14 +29458,12 @@
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3",
       "Fickle Dragon",
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3"
     ]
@@ -29607,46 +29600,6 @@
       "Summer Celica",
       "Harmonic Celica",
       "celica7"
-    ]
-  },
-  "kasahara": {
-    "heroes": {
-      "machyua": "<:Red_Sword:1124846201070698536>Rearmed Machyua"
-    },
-    "name": "Kasahara",
-    "ALT_NAME": [
-      "Blade of Gales",
-      "Machyua: Blade of Gales",
-      "Rearmed Machyua",
-      "Rearm Machyua",
-      "Arm Machyua",
-      "machyua"
-    ],
-    "HARD_ALT_NAME": [
-      "Blade of Gales",
-      "Machyua: Blade of Gales",
-      "Rearmed Machyua",
-      "Rearm Machyua",
-      "Arm Machyua",
-      "machyua"
-    ]
-  },
-  "jiechuan": {
-    "heroes": {
-      "soleilR": "<:Red_Sword:1124846201070698536>Soleil (Resplendent)"
-    },
-    "name": "\u59d0\u5ddd",
-    "ALT_NAME": [
-      "Resplendent Soleil",
-      "Resp Soleil",
-      "R Soleil",
-      "Soleil (Resplendent)"
-    ],
-    "HARD_ALT_NAME": [
-      "Resplendent Soleil",
-      "Resp Soleil",
-      "R Soleil",
-      "Soleil (Resplendent)"
     ]
   }
 }
