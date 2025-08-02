@@ -2027,8 +2027,7 @@
         "affinity": "ice",
         "note": false,
         "promo": [],
-        "alt": [
-            "you"
+        "alt": [ 
         ],
         "growth": {
             "hp": 85,
