@@ -154,10 +154,7 @@
       "Noah: Mercenary-Errant",
       "Mercenary-Errant",
       "Base Noah",
-      "Normal Noah",
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "Normal Noah"
     ],
     "HARD_ALT_NAME": [
       "noah",
@@ -165,13 +162,9 @@
       "noah1",
       "Mercenary-Errant",
       "Base Noah",
-      "Normal Noah",
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "Normal Noah"
     ],
     "heroes": {
-      "homer": "<:Blue_Tome:1124845593211191297> Homer",
       "noah": "<:Blue_Lance:1124845569496584302>Noah"
     },
     "name": "Aaron Dismuke"
@@ -2345,14 +2338,12 @@
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3",
       "Fickle Dragon",
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3",
       "Fell Dragon Child",
@@ -2404,14 +2395,12 @@
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3",
       "Fickle Dragon",
       "Xane: Fickle Dragon",
       "Young Xane",
       "Y Xane",
-      "Ancient Xane",
       "Attuned Xane",
       "xane3",
       "Fell Dragon Child",
@@ -8476,19 +8465,16 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2"
     ],
     "HARD_ALT_NAME": [
@@ -8504,19 +8490,16 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2",
       "Last Earth Dragon",
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "Ancient Medeus",
       "medeus2"
     ],
     "heroes": {
@@ -13626,7 +13609,11 @@
       "I Flora",
       "I F Flora",
       "I T Flora",
-      "flora3"
+      "flora3",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Groom Cordelia",
@@ -13854,7 +13841,11 @@
       "I Flora",
       "I F Flora",
       "I T Flora",
-      "flora3"
+      "flora3",
+      "Resplendent Flora",
+      "Resp Flora",
+      "R Flora",
+      "Flora (Resplendent)"
     ],
     "heroes": {
       "caeldori": "<:Blue_Lance:1124845569496584302>Caeldori",
@@ -13866,6 +13857,7 @@
       "flora": "<:Red_Dagger:1124846223518605324>Flora",
       "flora2": "<:Red_Dagger:1124846223518605324>Picnic Flora",
       "flora3": "<:Colorless_Dagger:1124845658617155734>Ice Flora",
+      "floraR": "<:Red_Dagger:1124846223518605324>Flora (Resplendent)",
       "linde": "<:Blue_Tome:1124845593211191297>Linde",
       "linde2": "<:Colorless_Dagger:1124845658617155734>Summer Linde",
       "linde3": "<:Red_Tome:1124846175577710642>Harmonic Linde",
@@ -17587,10 +17579,7 @@
       "New Year Cow Girl",
       "New years Cow Girl",
       "New Year Cow",
-      "New years Cow",
-      "Warrior Wanderer",
-      "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "New years Cow"
     ],
     "HARD_ALT_NAME": [
       "ash",
@@ -17619,15 +17608,11 @@
       "New Year Cow Girl",
       "New years Cow Girl",
       "New Year Cow",
-      "New years Cow",
-      "Warrior Wanderer",
-      "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "New years Cow"
     ],
     "heroes": {
       "ash": "<:Colorless_Beast:1124845615935918110>Ash",
-      "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash",
-      "meliai": "<:Green_Beast:1124845912385138738> Mel\u00edai"
+      "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash"
     },
     "name": "Lily Emil Lammers"
   },
@@ -20570,27 +20555,23 @@
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11",
       "Ruler of Dragons",
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11"
     ],
     "HARD_ALT_NAME": [
@@ -20824,27 +20805,23 @@
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11",
       "Ruler of Dragons",
       "Naga: Ruler of Dragons",
       "Young Naga",
       "Y Naga",
-      "Ancient Naga",
       "naga3",
       "Dragon's Progeny",
       "Tiki: Dragon's Progeny",
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "Ancient Tiki",
       "tiki11"
     ],
     "heroes": {
@@ -21478,11 +21455,7 @@
       "Rearmed Noire",
       "Rearm Noire",
       "Arm Noire",
-      "noire3",
-      "Resplendent Soleil",
-      "Resp Soleil",
-      "R Soleil",
-      "Soleil (Resplendent)"
+      "noire3"
     ],
     "HARD_ALT_NAME": [
       "soleil",
@@ -21515,18 +21488,13 @@
       "Rearmed Noire",
       "Rearm Noire",
       "Arm Noire",
-      "noire3",
-      "Resplendent Soleil",
-      "Resp Soleil",
-      "R Soleil",
-      "Soleil (Resplendent)"
+      "noire3"
     ],
     "heroes": {
       "noire": "<:Colorless_Bow:1124845636659982457>Summer Noire",
       "noire2": "<:Colorless_Dagger:1124845658617155734>Ninja Noire",
       "noire3": "<:Red_Bow:1124846280951218289>Rearmed Noire",
-      "soleil": "<:Red_Sword:1124846201070698536>Soleil",
-      "soleilR": "<:Red_Sword:1124846201070698536>Soleil (Resplendent)"
+      "soleil": "<:Red_Sword:1124846201070698536>Soleil"
     },
     "name": "Michelle Ruff"
   },
@@ -22368,11 +22336,7 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3",
-      "Sworn to Country",
-      "Leif: Sworn to Country",
-      "Attuned Leif",
-      "leif4"
+      "sothe3"
     ],
     "HARD_ALT_NAME": [
       "sothe",
@@ -22456,17 +22420,12 @@
       "Rearmed Sothe",
       "Rearm Sothe",
       "Arm Sothe",
-      "sothe3",
-      "Sworn to Country",
-      "Leif: Sworn to Country",
-      "Attuned Leif",
-      "leif4"
+      "sothe3"
     ],
     "heroes": {
       "leif": "<:Red_Sword:1124846201070698536>Leif",
       "leif2": "<:Colorless_Bow:1124845636659982457>Legendary Leif",
       "leif3": "<:Colorless_Bow:1124845636659982457>Harmonic Leif",
-      "leif4": "<:Green_Bow:1124845936426897428>Attuned Leif",
       "leifR": "<:Red_Sword:1124846201070698536>Leif (Resplendent)",
       "micaiah4": "<:Colorless_Tome:1124845725960904734>Duo Micaiah",
       "sothe": "<:Colorless_Dagger:1124845658617155734>Sothe",
@@ -30528,7 +30487,6 @@
   },
   "byronpatrick": {
     "heroes": {
-      "dagdar": "<:Green_Axe:1124845885277343754> Dagdar",
       "uther": "<:Green_Axe:1124845885277343754>Uther"
     },
     "name": "Byron Patrick",
@@ -30539,10 +30497,7 @@
       "Normal Uther",
       "Regular Uther",
       "Hector's Brother",
-      "uther",
-      "Reformed Bandit",
-      "Dagdar: Reformed Bandit",
-      "dagdar"
+      "uther"
     ],
     "HARD_ALT_NAME": [
       "Frugal Militarist",
@@ -30551,10 +30506,7 @@
       "Normal Uther",
       "Regular Uther",
       "Hector's Brother",
-      "uther",
-      "Reformed Bandit",
-      "Dagdar: Reformed Bandit",
-      "dagdar"
+      "uther"
     ]
   },
   "toyosakiaki": {
@@ -30909,13 +30861,11 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2"
     ],
     "HARD_ALT_NAME": [
@@ -30923,13 +30873,11 @@
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2",
       "Apostle of Naga",
       "Gotoh: Apostle of Naga",
       "Young Gotoh",
       "Y Gotoh",
-      "Ancient Gotoh",
       "gotoh2"
     ]
   },
@@ -31064,42 +31012,72 @@
       "balthus2"
     ]
   },
-  "frankiekevich": {
+  "samslade": {
     "heroes": {
-      "machyua": "<:Red_Sword:1124846201070698536>Rearmed Machyua"
+      "baldr": "<:Red_Sword:1124846201070698536> Baldr"
     },
-    "name": "Frankie Kevich",
+    "name": "Sam Slade",
     "ALT_NAME": [
-      "Blade of Gales",
-      "Machyua: Blade of Gales",
-      "Rearmed Machyua",
-      "Rearm Machyua",
-      "Arm Machyua",
-      "machyua"
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr"
     ],
     "HARD_ALT_NAME": [
-      "Blade of Gales",
-      "Machyua: Blade of Gales",
-      "Rearmed Machyua",
-      "Rearm Machyua",
-      "Arm Machyua",
-      "machyua"
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr",
+      "Celestial Sun God",
+      "Baldr: Celestial Sun God",
+      "Base Baldr",
+      "Normal Baldr",
+      "Regular Baldr",
+      "baldr"
     ]
   },
-  "rachelkimsey": {
+  "emilo": {
     "heroes": {
-      "linoan": "<:Colorless_Staff:1124845704444137592> Linoan"
+      "hodr": "<:Blue_Bow:1124845525695475845> H\u00f6\u00f0r"
     },
-    "name": "Rachel Kimsey",
+    "name": "Emi Lo",
     "ALT_NAME": [
-      "Lady of Tarrah",
-      "Linoan: Lady of Tarrah",
-      "linoan"
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr"
     ],
     "HARD_ALT_NAME": [
-      "Lady of Tarrah",
-      "Linoan: Lady of Tarrah",
-      "linoan"
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr",
+      "Dusk Shadow God",
+      "H\u00f6\u00f0r: Dusk Shadow God",
+      "Base H\u00f6\u00f0r",
+      "Normal H\u00f6\u00f0r",
+      "Regular H\u00f6\u00f0r",
+      "hodr"
     ]
   }
 }
