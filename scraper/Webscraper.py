@@ -462,8 +462,8 @@ def scrape_page(page_name, provided_alts=None, version=None):
     # if we don't have a title yet but this isn't a base unit, use the first given alt name.
     if provided_alts and not maindis:
         maindis = provided_alts[0]
-    blank['short_name'] = f'{maindis} {ogname}'
-    blank['SEARCH_NAME'] = f'{maindis} {ogname}'
+    blank['short_name'] = f'{maindis} {ogname}'.lstrip()
+    blank['SEARCH_NAME'] = f'{maindis} {ogname}'.lstrip()
 
     wepid = maps.wepmap[blank['color'] + ' ' + blank['weapon']]
 

@@ -4,11 +4,13 @@ from bs4 import BeautifulSoup
 import json
 import utility
 from scraper import integrate
+from skill_scrape import passive_icon_number
 
 refines = [
-    "dedue",
-    "fernand",
-    "miranda"
+    "katarina2",
+    "nyx",
+    "farina",
+    "morgan4"
 ]
 
 path = "../database/feh/images/passive/"
@@ -77,15 +79,7 @@ def ref(key):
     weapon['refine'] = refine
 
     try:
-        count = 1
-        for file in listdir(path):
-            try:
-                file_number = int(file[:-4])
-                if file_number > count:
-                    count = file_number
-            except (ValueError, TypeError):
-                pass
-
+        count = passive_icon_number()
         data = requests.get(url).content
         f = open(path + str(count) + '.png', 'wb')
         f.write(data)
@@ -113,6 +107,5 @@ def ref(key):
     with open('../database/feh/skill.json', 'w') as fp:
         json.dump(skills, fp, indent=2)
 
-for i in range(0, len(refines)):
-    ref(refines[i])
-#print(scrape_page('/wiki/Lucina:_Future_Witness'))
+for hero in refines:
+    ref(hero)

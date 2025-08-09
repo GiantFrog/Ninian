@@ -12,7 +12,7 @@ path = "../database/feh/images/passive/"
 
 
 def passive_icon_number():
-    count = 1
+    count = 0
     for file in listdir(path):
         try:
             file_number = int(file[:-4])
@@ -20,7 +20,7 @@ def passive_icon_number():
                 count = file_number
         except (ValueError, TypeError):
             pass
-    return count
+    return count + 1
 
 def scrape_passive_skill(page_name):
     if page_name.endswith('?'):

@@ -3159,7 +3159,13 @@
       "Lena: Bereft Angel",
       "Fallen Lena",
       "F Lena",
-      "lena2"
+      "lena2",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ],
     "HARD_ALT_NAME": [
       "lena",
@@ -3192,12 +3198,19 @@
       "Lena: Bereft Angel",
       "Fallen Lena",
       "F Lena",
-      "lena2"
+      "lena2",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ],
     "heroes": {
       "ingrid": "<:Blue_Lance:1124845569496584302>Ingrid",
       "ingrid2": "<:Blue_Lance:1124845569496584302>Summer Ingrid",
       "ingrid3": "<:Blue_Lance:1124845569496584302>Rearmed Ingrid",
+      "ingrid4": "<:Green_Axe:1124845885277343754>Maid Ingrid",
       "lena": "<:Colorless_Staff:1124845704444137592>Lena",
       "lena2": "<:Colorless_Staff:1124845704444137592>Fallen Lena"
     },
@@ -18292,7 +18305,13 @@
       "CYL Felix",
       "B Felix",
       "Choose Your Legends Felix",
-      "felix3"
+      "felix3",
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Maid Felix",
+      "Tea Felix",
+      "Butler Felix",
+      "felix4"
     ],
     "HARD_ALT_NAME": [
       "leon",
@@ -18330,12 +18349,19 @@
       "CYL Felix",
       "B Felix",
       "Choose Your Legends Felix",
-      "felix3"
+      "felix3",
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Maid Felix",
+      "Tea Felix",
+      "Butler Felix",
+      "felix4"
     ],
     "heroes": {
       "felix": "<:Red_Sword:1124846201070698536>Felix",
       "felix2": "<:Blue_Bow:1124845525695475845>Winter Felix",
       "felix3": "<:Red_Sword:1124846201070698536>Brave Felix",
+      "felix4": "<:Blue_Lance:1124845569496584302>Butler Felix",
       "leon": "<:Colorless_Bow:1124845636659982457>Leon",
       "naesala": "<:Blue_Beast:1124845338688233575>Naesala",
       "naesala2": "<:Red_Beast:1124846309208248381>Pirate Naesala"
@@ -23358,7 +23384,13 @@
       "Celine: Teatime Ninja",
       "Ninja Celine",
       "N Celine",
-      "celine2"
+      "celine2",
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Butler C\u00e9line",
+      "c\u00e9line2"
     ],
     "HARD_ALT_NAME": [
       "leanne",
@@ -23400,12 +23432,19 @@
       "Celine: Teatime Ninja",
       "Ninja Celine",
       "N Celine",
-      "celine2"
+      "celine2",
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Butler C\u00e9line",
+      "c\u00e9line2"
     ],
     "heroes": {
       "azura6": "<:Green_Tome:1124845959873036289>Harmonic Azura",
       "celine": "<:Green_Tome:1124845959873036289>C\u00e9line",
       "celine2": "<:Blue_Tome:1124845593211191297>Ninja C\u00e9line",
+      "c\u00e9line2": "<:Red_Tome:1124846175577710642>Maid C\u00e9line",
       "leanne": "<:Colorless_Beast:1124845615935918110>Leanne"
     },
     "name": "Rachelle Heger"
@@ -24507,7 +24546,13 @@
       "Leg Black Knight",
       "L Black Knight",
       "black knight3",
-      "blackknight3"
+      "blackknight3",
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Maid Finn",
+      "Tea Finn",
+      "Butler Finn",
+      "finn2"
     ],
     "HARD_ALT_NAME": [
       "blackknight",
@@ -24575,7 +24620,13 @@
       "Leg Black Knight",
       "L Black Knight",
       "black knight3",
-      "blackknight3"
+      "blackknight3",
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Maid Finn",
+      "Tea Finn",
+      "Butler Finn",
+      "finn2"
     ],
     "heroes": {
       "blackknight": "<:Red_Sword:1124846201070698536>Black Knight",
@@ -24583,6 +24634,7 @@
       "blackknight3": "<:Red_Sword:1124846201070698536>Legendary Black Knight",
       "blackknightR": "<:Red_Sword:1124846201070698536>Black Knight (Resplendent)",
       "finn": "<:Blue_Lance:1124845569496584302>Finn",
+      "finn2": "<:Red_Sword:1124846201070698536>Butler Finn",
       "zelgius": "<:Red_Sword:1124846201070698536>Zelgius",
       "zelgius2": "<:Blue_Lance:1124845569496584302>Ninja Zelgius"
     },
@@ -28225,7 +28277,13 @@
       "Emblem Lyn",
       "Engage Lyn",
       "E Lyn",
-      "lyn9"
+      "lyn9",
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Butler Veronica",
+      "veronica6"
     ],
     "HARD_ALT_NAME": [
       "Bride of the Plains",
@@ -28589,7 +28647,13 @@
       "Emblem Lyn",
       "Engage Lyn",
       "E Lyn",
-      "lyn9"
+      "lyn9",
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Butler Veronica",
+      "veronica6"
     ],
     "heroes": {
       "bramimond": "<:Colorless_Tome:1124845725960904734>Bramimond",
@@ -28618,6 +28682,7 @@
       "veronica3": "<:Green_Axe:1124845885277343754>Harmonic Veronica",
       "veronica4": "<:Blue_Tome:1124845593211191297>Valentines Veronica",
       "veronica5": "<:Red_Tome:1124846175577710642>Legendary Veronica",
+      "veronica6": "<:Colorless_Tome:1124845725960904734>Maid Veronica",
       "veronicaR": "<:Colorless_Staff:1124845704444137592>Brave Veronica (Resplendent)"
     },
     "name": "Wendee Lee"
@@ -30862,6 +30927,7 @@
   },
   "": {
     "heroes": {
+      "ingrid4": "<:Green_Axe:1124845885277343754>Maid Ingrid",
       "leo6": "<:Red_Tome:1124846175577710642>Young Leo",
       "mae2": "<:Green_Tome:1124845959873036289>Spring Mae",
       "marth8": "<:Red_Sword:1124846201070698536> Marth"
@@ -30885,7 +30951,13 @@
       "Marth: Love and Courage",
       "duo Marth 2",
       "DMarth2",
-      "marth8"
+      "marth8",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ],
     "HARD_ALT_NAME": [
       "Spring Cheer",
@@ -30905,7 +30977,13 @@
       "Marth: Love and Courage",
       "duo Marth 2",
       "DMarth2",
-      "marth8"
+      "marth8",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ]
   },
   "kurtbicknell": {
@@ -31111,7 +31189,7 @@
       "linoan"
     ]
   },
-    "samslade": {
+  "samslade": {
     "heroes": {
       "baldr": "<:Red_Sword:1124846201070698536> Baldr"
     },

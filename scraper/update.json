@@ -1,219 +1,213 @@
 {
-  "leif4": {
-    "name": "Leif",
-    "title": "Sworn to Country",
-    "description": "Son of Quan, prince of Leonster. He musters warriors to defeat the empire alongside Finn, to whom he owes his life. Appears in Fire Emblem: Thracia 776 / Genealogy of the Holy War.",
-    "origin": "Genealogy of the Holy War + Thracia 776",
-    "artist": "Wada Sachiko (\u30ef\u30c0\u30b5\u30c1\u30b3)",
-    "move": "Cavalry",
-    "weapon": "Bow",
-    "color": "Green",
+  "c\u00e9line2": {
+    "name": "C\u00e9line",
+    "title": "Blissful Tea Party",
+    "description": "Princess of Firene. Serves the ultimate tea that grants deep satisfaction to any who drink it. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "\u732b\u9b5a\u304b\u3080",
+    "move": "Flying",
+    "weapon": "Tome",
+    "color": "Red",
     "duel": false,
-    "id": "1264",
-    "type": "attuned",
-    "version": "9.7",
+    "id": "1274",
+    "type": false,
+    "version": "9.8",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 18,
-      "atk": 9,
-      "spd": 3,
-      "def": 12,
-      "res": 8
+      "hp": 17,
+      "atk": 10,
+      "spd": 10,
+      "def": 3,
+      "res": 11
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 30,
-      "def": 80,
-      "res": 60
+      "hp": 45,
+      "atk": 75,
+      "spd": 85,
+      "def": 30,
+      "res": 70
     },
     "superboon": [
-      "atk"
+      "hp",
+      "res"
     ],
     "superbane": [
-      "hp",
-      "spd"
+      "atk",
+      "def"
     ],
     "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Silver Bow": "3",
-      "Bow of Loyalty": "5"
+      "Fire": "1",
+      "Elfire": "2",
+      "Teapot": "3",
+      "Teapot+": "5"
     },
-    "assist": {},
-    "special": {
-      "Night Sky": "3",
-      "Astra": "4",
-      "The True Nj\u00f6run": "5"
+    "assist": {
+      "Rally Resistance": "3",
+      "Rally Up Res": "4",
+      "Rally Up Res+": "5"
     },
+    "special": {},
     "passive": {
       "A": {
-        "Armored Blow 1": "2",
-        "Sturdy Blow 1": "3",
-        "Sturdy Blow 2": "4",
-        "Sturdy Flare": "5"
+        "Atk/Spd Catch 1": "2",
+        "Atk/Spd Catch 2": "3",
+        "Atk/Spd Catch 3": "4",
+        "Atk/Spd Mastery": "5"
       },
-      "B": {
-        "Seal Def 1": "2",
-        "Seal Def 2": "3",
-        "Seal Def 3": "4",
-        "Arc-Fort Breath": "5"
-      },
+      "B": {},
       "C": {
-        "Shadow Shift 1": "2",
-        "Shadow Shift 2": "3",
-        "Shadow Shift 3": "4",
-        "Shadow Shift 4": "5"
+        "Spd/Res Rein 1": "1",
+        "Spd/Res Rein 2": "2",
+        "Spd/Res Rein 3": "4"
       },
-      "X": {
-        "Sly Echo": "5"
-      }
+      "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fc/Leif_Sworn_to_Country_Face.webp/revision/latest?cb=20250718045753",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Leif_Sworn_to_Country_BtlFace_D.webp/revision/latest?cb=20250718045748",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/71/Leif_Sworn_to_Country_BtlFace_C.webp/revision/latest?cb=20250718045743",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9b/Leif_Sworn_to_Country_BtlFace.webp/revision/latest?cb=20250718045728"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a5/Celine_Blissful_Tea_Party_Face.webp/revision/latest?cb=20250806042922",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/88/Celine_Blissful_Tea_Party_BtlFace_D.webp/revision/latest?cb=20250806042917",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a2/Celine_Blissful_Tea_Party_BtlFace_C.webp/revision/latest?cb=20250806042912",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8c/Celine_Blissful_Tea_Party_BtlFace.webp/revision/latest?cb=20250806042857"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Sworn to Country",
-      "Leif: Sworn to Country",
-      "Attuned Leif",
-      "leif4"
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Butler C\u00e9line",
+      "c\u00e9line2"
     ],
     "HARD_ALT_NAME": [
-      "Sworn to Country",
-      "Leif: Sworn to Country",
-      "Attuned Leif",
-      "leif4"
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Butler C\u00e9line",
+      "c\u00e9line2"
     ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u97ff\u5fc3\u30ea\u30fc\u30d5",
-    "voice": "Nicolas Roye",
+    "gender": "F",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u304a\u8336\u4f1a\u30bb\u30ea\u30fc\u30cc",
+    "voice": "Rachelle Heger",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "jugdral"
+      "elyos"
     ],
-    "chibi": "fe4",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "If the people are being mistreated, I wish to aid them. We should set off as soon as preparations are complete.",
-        "Unification of the Thracian peninsula was my father's life-long dream. It is my wish to carry on his will.",
-        "If I need to become the symbol of northern Thracia's liberation, then I will do nothing less.",
-        "Finn informed me Prince Shannan is a swordsman of impeccable skill and a great man, beloved by the people.",
-        "When I was a child, Ulster and Queen \u00c1ine's love kept me alive. I will not forget the debt I owe them!"
+        "You don't have to use only the high-quality tea leaves. Any tea can be the best if it makes you happy.",
+        "Firene is the preeminent grower of tea. I once snuck out to a village there to see the tea fields for myself.",
+        "I love selecting flowers for the table. Like pretty peonies! Perhaps I should put out your favorite flowers today.",
+        "A legend says that tea in which lucky leaves float will cure any illness. How wonderful would it be if it were true?",
+        "I used to be quite skilled at guessing the origin of different teas when I tasted them.\nI shall have to start from scratch and study up on the teas popular in Askr."
       ],
       "Visit": [
-        "I wish to free those suffering under the empire's oppression. Now I have [F]'s aid."
+        "I would like to have tea with you next time, but today I bring you a greeting from [F]."
       ],
       "Level": [
-        "I shall inherit our fathers' will, unify Thracia, and bring light to the world once more!",
-        "Until we reclaim northern Thracia, with its vast blue skies and lush green lands!",
-        "I need to be stronger. I am nothing like Lord Seliph of Chalphy, or Prince Shannan of Isaach..."
+        "This makes me happy. A tea with a bright floral aroma would suit these sentiments perfectly.",
+        "I'm pleased with these results. Let us refresh with a fruity tea and continue awhile longer.",
+        "Shall I brew a calming herbal tea?"
       ],
       "Summon": [
-        "I am Leif, of northern Thracia's liberation army. I will fight to live up to my father, hailed a knight of Nj\u00f6run."
+        "I am C\u00e9line. I feel truly blessed to be invited to a tea party in this world. If it pleases you, I will serve the tea."
       ],
       "Learn Skill": [
-        "I have received aid from many. I hope to repay those debts someday."
+        "Thank you for treating me to this. It made for a fantastic tea party."
       ],
       "Confession": [
-        "My parents were slain in a battle long ago, and my homeland, Leonster, was occupied by the imperial army...\nMy father's knight, Finn, saved me... Protected by people across the land, I waited for my homeland's liberation.\nMy late father wished to save the people and reclaim peace for the Thracian peninsula.\nI am grateful to Finn, who protected and raised me as a child despite the empire's harsh pursuit.\nFinn never let me go hungry, even if it meant he did not eat. I can scarce imagine how difficult it was.\nI want to live up to all he and those in the liberation army did... To defeat the empire and restore Leonster.\nA dream I share with Finn. I will learn all I can here, and I will grow... I shall make that dream a reality!"
+        "Welcome, Summoner. I am delighted you made it today. I will start brewing your favorite tea right away.\nMmm, this aroma. From now on, I will recall this pleasant, relaxing time we spent together when I brew this tea.\nIn Firene, attending tea parties was an official duty, but those were rife with tense formality and subtle politics.\nEnjoying this time with Heroes from other worlds, free of that rivalry, is an exceptionally rare treat for me.\nThank you. If I ever return to days of chaos and war, these memories will strengthen my heart to keep fighting."
       ],
       "Special": [
-        "For Leonster!",
-        "This is justice!",
-        "I will never run!",
-        "Unforgivable!"
+        "Tea-party time!",
+        "Now, drink up!",
+        "A joyous fragrance...",
+        "Teatime engage!"
       ],
       "Status": [
-        "Hm.",
-        "These clothes bear the weight of responsibility.",
-        "Hey! Keep that up and you'll have to answer to Finn.",
-        "Restoring Leonster is our dream. The two of us have spoken of it often.",
-        "I will not run any longer. It's my duty to protect northern Thracia.",
-        "As long as I live, I will never forget the night Leonster fell.",
-        "Since then, it seems Finn has forgotten how to cry. And how to laugh...",
-        "No matter how hard the battle, I know that I will make it with you at my side."
+        "*giggle*",
+        "I changed clothes to serve as a tea party hostess... This outfit suits me, don't you agree?",
+        "Oh! It would be awful if I spilled the tea. Please be patient and partake of some confections.",
+        "You would like another cup? These tea leaves do have the most wonderful floral aroma.",
+        "I was always the one being served in Firene, but I actually longed to try being a server myself.",
+        "This is so delicious. I have outdone myself. *giggle* I must have one more taste, just to be sure, of course.",
+        "I remember indulging in tea parties often as a child. I had tea with my mother, my older brother, and...my father...",
+        "I hope you have fun today. I plan to fill your cup to the brim with heartwarming joy."
       ],
       "Map Select": [
-        "Ready.",
-        "Where to?",
-        "Time to move!"
+        "Yes.",
+        "Another pour?",
+        "A lovely aroma."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Attuned Leif",
-    "SEARCH_NAME": "Attuned Leif",
-    "DISPLAY_NAME": "<:Green_Bow:1124845936426897428>Attuned Leif",
+    "short_name": "Maid C\u00e9line",
+    "SEARCH_NAME": "Maid C\u00e9line",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Maid C\u00e9line",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "leif",
-      "leif2",
-      "leif3"
+      "celine"
     ],
     "prf": {
-      "": "bowofloyalty",
-      "eff": "bowofloyalty",
-      "atk": "bowofloyalty",
-      "spd": "bowofloyalty",
-      "def": "bowofloyalty",
-      "res": "bowofloyalty"
+      "": "teapot",
+      "eff": "teapot",
+      "atk": "teapot",
+      "spd": "teapot",
+      "def": "teapot",
+      "res": "teapot"
     }
   },
-  "machyua": {
-    "name": "Machyua",
-    "title": "Blade of Gales",
-    "description": "A member of the Magi, a group who work toward freeing Munster. A native child of Munster, she has strong animosity toward the empire. Appears in Fire Emblem: Thracia 776.",
-    "origin": "Thracia 776",
-    "artist": "Kasahara",
+  "felix4": {
+    "name": "Felix",
+    "title": "Savant's Service",
+    "description": "Heir to House Fraldarius who fearlessly devotes himself to the way of the sword. How will he master his new role as tea-party server? Appears in Fire Emblem: Three Houses.",
+    "origin": "Three Houses",
+    "artist": "\u306a\u306a\u3075\u3058",
     "move": "Infantry",
-    "weapon": "Sword",
-    "color": "Red",
+    "weapon": "Lance",
+    "color": "Blue",
     "duel": false,
-    "id": "1265",
-    "type": "rearmed",
-    "version": "9.7",
+    "id": "1273",
+    "type": false,
+    "version": "9.8",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 18,
-      "atk": 11,
+      "hp": 19,
+      "atk": 12,
       "spd": 9,
-      "def": 10,
-      "res": 9
+      "def": 12,
+      "res": 5
     },
     "growth": {
       "hp": 50,
-      "atk": 75,
+      "atk": 80,
       "spd": 90,
       "def": 60,
-      "res": 50
+      "res": 45
     },
     "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "atk",
+      "spd",
       "res"
     ],
+    "superbane": [
+      "hp"
+    ],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Arcane Renegade": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Silver Lance": "3",
+      "Teatime Lance": "5"
     },
     "assist": {},
     "special": {
@@ -223,366 +217,224 @@
     },
     "passive": {
       "A": {
-        "Distant Counter": "4",
-        "D Bonus Doubler": "5"
+        "Atk/Spd Ideal 1": "2",
+        "Atk/Spd Ideal 2": "3",
+        "Atk/Spd Ideal 3": "4",
+        "Perfect Atk/Spd": "5"
       },
       "B": {
-        "Hot-Blooded": "5"
+        "True Lone Wolf": "5"
       },
       "C": {
-        "Atk/Spd Oath 1": "2",
-        "Atk/Spd Oath 2": "3",
-        "Atk/Spd Oath 3": "4",
-        "Atk/Spd Faith": "5"
+        "Odd Tempest 1": "2",
+        "Odd Tempest 2": "3",
+        "Odd Tempest 3": "4",
+        "Tempest Burst": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/45/Machyua_Blade_of_Gales_Face.webp/revision/latest?cb=20250718045938",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fb/Machyua_Blade_of_Gales_BtlFace_D.webp/revision/latest?cb=20250718045933",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Machyua_Blade_of_Gales_BtlFace_C.webp/revision/latest?cb=20250718045929",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/13/Machyua_Blade_of_Gales_BtlFace.webp/revision/latest?cb=20250718045913"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/52/Felix_Savants_Service_Face.webp/revision/latest?cb=20250806042812",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Felix_Savants_Service_BtlFace_D.webp/revision/latest?cb=20250806042807",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/66/Felix_Savants_Service_BtlFace_C.webp/revision/latest?cb=20250806042802",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/96/Felix_Savants_Service_BtlFace.webp/revision/latest?cb=20250806042747"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Blade of Gales",
-      "Machyua: Blade of Gales",
-      "Rearmed Machyua",
-      "Rearm Machyua",
-      "Arm Machyua",
-      "machyua"
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Maid Felix",
+      "Tea Felix",
+      "Butler Felix",
+      "felix4"
     ],
     "HARD_ALT_NAME": [
-      "Blade of Gales",
-      "Machyua: Blade of Gales",
-      "Rearmed Machyua",
-      "Rearm Machyua",
-      "Arm Machyua",
-      "machyua"
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Maid Felix",
+      "Tea Felix",
+      "Butler Felix",
+      "felix4"
     ],
-    "gender": "F",
+    "gender": "M",
     "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30de\u30c1\u30e5\u30a2",
-    "voice": "Frankie Kevich",
+    "pool": "seasonal",
+    "internal_id": "PID_\u304a\u8336\u4f1a\u30d5\u30a7\u30ea\u30af\u30b9",
+    "voice": "Lucien Dodge",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "jugdral"
+      "fodlan"
     ],
-    "chibi": "fe5",
+    "chibi": "fodlan",
     "quotes": {
       "Castle Hall": [
-        "Raydrik colluded with the Grannvale Empire while he was general of Connacht... Despicable!",
-        "Loptr's army is so cruel. It only takes one person to stand against them for them to burn everyone alive.",
-        "I am confident in my strength. You don't need to worry about me.",
-        "Time to get some training runs in. Would you like to join me?",
-        "I will never forgive the Grannvale Empire for kidnapping children to offer as Loptr sacrifices."
+        "I must never allow Ingrid, the boar, or any of the others to see me wearing this... Especially not Sylvain...",
+        "If you have time for tea, go practice swordsmanship instead. That's how I live and how I plan to keep living.",
+        "I have to choose the right tea leaves for the tea... You appear to be idle. You can accompany me as I do so.",
+        "I prefer practical clothing. But, if the tea party requires this, I will merely note my objection for the record.",
+        "This tea set is of exceptional quality. Like a fine weapon, if it is handled with skill, its quality shines through."
       ],
       "Visit": [
-        "Friendships can last forever, you know? I come to offer just that, from as far as [F]'s."
+        "So you're the one who requested my exceptional tea service. This blend blew away [F].\nGive it a taste."
       ],
       "Level": [
-        "We will never stop fighting! Not until Munster is at peace.",
-        "Do not worry. I am with you.",
-        "Thank you, but you don't need to worry about me. I'll be fine."
+        "This is my signature brew. Go on, have a sip!",
+        "You'll never catch me serving tea at the wrong temperature.",
+        "What's with that dissatisfied scowl? Hold on! I'll pour you another cup!"
       ],
       "Summon": [
-        "I am Machyua, a member of the Magi. I believe I can be of use to you. Let's go!"
+        "I'm Felix, and today I'm serving as a waiter. If you want some of my tea, show me a resolve worthy of it."
       ],
       "Learn Skill": [
-        "Are you sure? Thank you... Really."
+        "Hmph. I'm not sure what you hoped for, but I can thank you with this cup of hot tea."
       ],
       "Confession": [
-        "I will never forgive the empire for what they've done. Countless children sent to Belhalla...\nNow that Munster is influenced by the Loptr Church, you never see children there... It is horrifying...\nOf course, the Magi resist them, along with other brave citizens, but the empire overwhelms us every time.\nMunster\u2014 No. The children should no longer be sacrificed! I beg you, [S]... Please...\nLend us your aid. You don't have to do it right now, but the sooner the better. The Magi are waiting."
+        "When talk of this server business reached me, I thought you had lost your mind.\nHave you never heard the saying \"find the right person for the job\"?\nMy duty as a server began before I was convinced there was any point... but then I noticed something.\nAbove all, a server must focus on the needs of their customers. That's an expectation I can easily meet.\nYou must keep a watchful eye on all your customers and promptly assess their needs at any moment.\nAs in battle, you can't win by blindly swinging a sword. It's crucial to be able to read your foe's intentions.\nWhile serving, I refined situational observation skills I can make use of as I follow the path of the sword."
       ],
       "Special": [
-        "I am with you!",
-        "Munster will prosper!",
-        "Never give up!",
-        "You won't stop me!"
-      ],
-      "Status": [
-        "*sigh*",
-        "I am Machyua, a member of the Magi.",
-        "*gasp* You got me by surprise. *sigh* I still have a lot to learn here.",
-        "Lara is quite the picklock. You can rely on her.",
-        "My dream is to see a rebuilt and peaceful Munster. And I won't stop until I achieve it.",
-        "We in the Magi share the same goal. They are my dear comrades.",
-        "Munster will prosper again...",
-        "Do not worry. I am with you."
-      ],
-      "Map Select": [
-        "On it.",
-        "Are you ready?",
-        "Let's go!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rearmed Machyua",
-    "SEARCH_NAME": "Rearmed Machyua",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Rearmed Machyua",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "arcanerenegade",
-      "eff": "arcanerenegade",
-      "atk": "arcanerenegade",
-      "spd": "arcanerenegade",
-      "def": "arcanerenegade",
-      "res": "arcanerenegade"
-    }
-  },
-  "linoan": {
-    "name": "Linoan",
-    "title": "Lady of Tarrah",
-    "description": "A noblewoman who inherits her father's last wishes and leads the free city of Tarrah. She is promised in marriage to Arion, prince of Thracia. Appears in Fire Emblem: Thracia 776.",
-    "origin": "Thracia 776",
-    "artist": "Yoshiro Ambe (\u3042\u3093\u3079\u3088\u3057\u308d\u3046)",
-    "move": "Infantry",
-    "weapon": "Staff",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1266",
-    "type": false,
-    "version": "9.7",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 17,
-      "atk": 11,
-      "spd": 11,
-      "def": 5,
-      "res": 9
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 75,
-      "spd": 80,
-      "def": 35,
-      "res": 70
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "hp",
-      "atk"
-    ],
-    "weapons": {
-      "Assault": "1",
-      "In the Fold": "3",
-      "In The Fold+": "5"
-    },
-    "assist": {
-      "Heal": "1",
-      "Mend": "2",
-      "Recover": "3",
-      "Recover+": "5"
-    },
-    "special": {
-      "Imbue": "2",
-      "Swift-Winds Balm": "3",
-      "Deluge Balm": "4"
-    },
-    "passive": {
-      "A": {
-        "Atk/Res Form 1": "3",
-        "Atk/Res Form 2": "4",
-        "Atk/Res Form 3": "5"
-      },
-      "B": {},
-      "C": {
-        "Spur Spd 1": "1",
-        "Drive Spd 1": "2",
-        "Drive Spd 2": "4"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/56/Linoan_Lady_of_Tarrah_Face.webp/revision/latest?cb=20250718045828",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fd/Linoan_Lady_of_Tarrah_BtlFace_D.webp/revision/latest?cb=20250718045823",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Linoan_Lady_of_Tarrah_BtlFace_C.webp/revision/latest?cb=20250718045818",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/eb/Linoan_Lady_of_Tarrah_BtlFace.webp/revision/latest?cb=20250718045804"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Lady of Tarrah",
-      "Linoan: Lady of Tarrah",
-      "linoan"
-    ],
-    "HARD_ALT_NAME": [
-      "Lady of Tarrah",
-      "Linoan: Lady of Tarrah",
-      "linoan"
-    ],
-    "gender": "F",
-    "rarity": 4,
-    "pool": "",
-    "internal_id": "PID_\u30ea\u30ce\u30a2\u30f3",
-    "voice": "Rachel Kimsey",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "jugdral"
-    ],
-    "chibi": "fe5",
-    "quotes": {
-      "Castle Hall": [
-        "I have heard that the noble family of Tarrah is related to Grannvale royalty and are descendants of Saint Heim.",
-        "My father was prepared for what came of protecting Prince Leif. He said it was for the sake of the world...",
-        "Your kindness is unparalleled. If only the world was filled with people like you...",
-        "I heard tales of a free spirit, undisturbed by trifles, a valiant knight of the skies who could not be bested...",
-        "When I see a particular someone, I remember the tales of the crusader D\u00e1inn that were told to me as a child."
-      ],
-      "Visit": [
-        "I am Linoan. I have been blessed by all [F]has done."
-      ],
-      "Level": [
-        "My father was proud to accept Lord Leif into Tarrah. I shall turn his pride into courage!",
-        "We made it through, somehow... I am forever grateful to you.",
-        "I shall return to Tarrah one day... No matter what!"
-      ],
-      "Summon": [
-        "I am Linoan. I stand against the empire for the liberty of Tarrah."
-      ],
-      "Learn Skill": [
-        "You have my thanks, from the bottom of my heart."
-      ],
-      "Confession": [
-        "Please, allow me to explain my circumstances.\nWhen the empire invaded northern Thracia, Tarrah remained free so long as it followed the empire's orders.\nBut my father, he... The empire killed him for protecting Prince Leif. They took our manor, and my freedom.\nAt times I lost sight of my pursuit. But I cannot lose heart. Tarrah needs me! The empire shall never be forgiven.\nI thought you might understand my perspective, [S].\nLet us both take action so that we can leave this world with no regrets."
-      ],
-      "Special": [
-        "We will be free!",
-        "Saint Heim...",
-        "For a new world!",
-        "I will not succumb."
+        "Tea service up!",
+        "Drink more.",
+        "Have a tea cake.",
+        "Take a load off."
       ],
       "Status": [
         "Mm...",
-        "Gods...please...",
-        "We are grateful.",
-        "I am Linoan. I serve as mayor of Tarrah, a free city.",
-        "I am deeply saddened by my father's death... Though I am proud of what he did.",
-        "The blood of Saint Heim...flows within me?",
-        "I will return to Tarrah one day, and Leif and I will see it as it once was.",
-        "I will stay with you. And one day, we will arrive at Tarrah...together."
+        "You aren't familiar with the saying, \"The right person for the right job,\" are you? I'll do what you ask, but...",
+        "Watch it! Can't you see I'm holding a tea set?!",
+        "If you have time to drown yourself in tea... Well, whatever. I'll keep my thoughts to myself.",
+        "Slacking off? Of course not. I am waiting for the tea pot to heat up.",
+        "No matter how many tea cakes I bring, they vanish immediately. I don't understand.",
+        "I have seen many kingdoms devastated by war. But this is different... Could this be what peace looks like?",
+        "You may drink the tea I've poured. I can't guarantee you'll enjoy the taste, though."
       ],
       "Map Select": [
-        "Very well.",
-        "What should I do?",
-        "I will go."
+        "Right away.",
+        "Next is...",
+        "Still brewing..."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": " Linoan",
-    "SEARCH_NAME": " Linoan",
-    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592> Linoan",
+    "short_name": "Butler Felix",
+    "SEARCH_NAME": "Butler Felix",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Butler Felix",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "felix",
+      "felix2",
+      "felix3"
+    ],
     "prf": {
-      "": "inthefold",
-      "eff": "inthefold",
-      "atk": "inthefold",
-      "spd": "inthefold",
-      "def": "inthefold",
-      "res": "inthefold"
+      "": "teatimelance",
+      "eff": "teatimelance",
+      "atk": "teatimelance",
+      "spd": "teatimelance",
+      "def": "teatimelance",
+      "res": "teatimelance"
     }
   },
-  "homer": {
-    "name": "Homer",
-    "title": "Traveling Bard",
-    "description": "A bard who has traveled throughout Thracia, observing an age of war and chaos. It is said that his saga is beloved by many in the generations that follow him. Appears in Fire Emblem: Thracia 776.",
-    "origin": "Thracia 776",
-    "artist": "ayuko (\u5728\u7531\u5b50)",
-    "move": "Infantry",
-    "weapon": "Tome",
-    "color": "Blue",
+  "ingrid4": {
+    "name": "Ingrid",
+    "title": "Cordial Teatime",
+    "description": "Ingrid, daughter of Count Galatea, and Nanna, princess of House Nordion, fill the roles of servers with an air of relaxation. They appear in Fire Emblem: Three Houses / Fire Emblem: Thracia 776.",
+    "origin": "Thracia 776 + Three Houses",
+    "artist": "Siino",
+    "move": "Cavalry",
+    "weapon": "Axe",
+    "color": "Green",
     "duel": false,
-    "id": "1267",
+    "id": "1272",
     "type": false,
-    "version": "9.7",
+    "version": "9.8",
     "duo": false,
-    "harmonized": false,
+    "harmonized": "Grants \"unit can move 1 extra space\" to unit (that turn only; does not stack).\nGrants\u3010Resonance: Blades\u3011and\u3010Empathy\u3011to unit and allies from the same titles as unit for 1 turn.\nOnce used, Harmonized Skill cannot be activated again right away. At start of every third turn, if Harmonized Skill has already been used, unit can use Harmonized Skill again.\n(Harmonized Skills can be used by tapping the Harmonized button. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.\n\u3010Empathy\u3011\nGrants bonus to unit's Atk/Spd/Def/Res = number of types of\u3010Bonus\u3011effects, excluding stat bonuses, and\u3010Penalty\u3011effects, excluding stat penalties, active on player team and enemy team during combat (max 7).\n\u3010Bonus\u3011\nAll effects that last \"for 1 turn\" or \"that turn only.\" Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 10,
-      "spd": 8,
-      "def": 6,
-      "res": 11
+      "atk": 11,
+      "spd": 9,
+      "def": 11,
+      "res": 4
     },
     "growth": {
       "hp": 50,
-      "atk": 75,
+      "atk": 80,
       "spd": 90,
-      "def": 45,
-      "res": 50
+      "def": 55,
+      "res": 40
     },
     "superboon": [
-      "spd",
-      "def"
+      "spd"
     ],
     "superbane": [
-      "hp",
-      "atk",
-      "res"
+      "hp"
     ],
     "weapons": {
-      "Thunder": "1",
-      "Elthunder": "2",
-      "Bl\u00e1rcrab": "3",
-      "Bl\u00e1rcrab+": "5"
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Silver Axe": "3",
+      "Silver Spoon": "5"
     },
     "assist": {
-      "Draw Back": "3"
+      "Rally Defense": "3",
+      "Rally Up Def": "4",
+      "Rally Up Def+": "5"
     },
-    "special": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Draconic Aura": "4",
+      "Haze Slice": "5"
+    },
     "passive": {
-      "A": {},
+      "A": {
+        "Lady Knight": "5"
+      },
       "B": {
-        "Chill Spd 1": "1",
-        "Chill Spd/Res 1": "2",
-        "Chill Spd/Res 2": "4"
+        "Flow Refresh 1": "2",
+        "Flow Refresh 2": "3",
+        "Flow Refresh 3": "4",
+        "Potent Assault": "5"
       },
       "C": {
-        "Spd/Res Oath 1": "3",
-        "Spd/Res Oath 2": "4",
-        "Spd/Res Oath 3": "5"
+        "Hone Spd 1": "2",
+        "Hone Spd 2": "3",
+        "Hone Spd 3": "4",
+        "A/S Outcry Dull": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b9/Homer_Traveling_Bard_Face.webp/revision/latest?cb=20250718045903",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/58/Homer_Traveling_Bard_BtlFace_D.webp/revision/latest?cb=20250718045858",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f3/Homer_Traveling_Bard_BtlFace_C.webp/revision/latest?cb=20250718045853",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Homer_Traveling_Bard_BtlFace.webp/revision/latest?cb=20250718045838"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bc/Ingrid_Cordial_Teatime_Face.webp/revision/latest?cb=20250806042847",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2c/Ingrid_Cordial_Teatime_BtlFace_D.webp/revision/latest?cb=20250806042842",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f2/Ingrid_Cordial_Teatime_BtlFace_C.webp/revision/latest?cb=20250806042837",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/68/Ingrid_Cordial_Teatime_BtlFace.webp/revision/latest?cb=20250806042822"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ],
     "HARD_ALT_NAME": [
-      "Traveling Bard",
-      "Homer: Traveling Bard",
-      "homer"
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "",
-    "internal_id": "PID_\u30db\u30e1\u30ed\u30b9",
-    "voice": "Aaron Dismuke",
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u53cc\u754c\u30a4\u30f3\u30b0\u30ea\u30c3\u30c8",
+    "voice": "Brittany Cox + \u2014 Voice actor is uncredited in-game.",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -591,160 +443,192 @@
     "chibi": "fe5",
     "quotes": {
       "Castle Hall": [
-        "Aw, thanks for asking, but...I've got plans tonight. Sorry to disappoint.",
-        "How about we rest and forget all our worries?",
-        "All right, all right... So, you really want my help?",
-        "How about a verse? It'll cost you a night of lodging, and perhaps a drink, if you're feeling generous.",
-        "I'm supposed to be on the receiving end of service... Ugh! All right, only for today!"
+        "**Ingrid:** What delicious looking tea treats! So colorful... And that sweet aroma... No! I need to wait on the customers first.",
+        "**Ingrid:** The time I spent sipping tea with the professor was precious to me. Those memories help support me now.",
+        "**Nanna:** Ingrid is so earnest about choosing sweets to pair with the tea. I would like to learn from her example.",
+        "**Ingrid:** Princess Nanna, that tea-server outfit looks adorable on you! Seeing you in it makes my heart happy.",
+        "**Nanna:** I would like to express my gratitude to those who have watched over me. Maybe I will repay them with this tea."
       ],
       "Visit": [
-        "My body isn't the strongest, so don't force me to do any hard labor."
+        "**Nanna:** I am Nanna of House Nordion. This invitation to tea was placed in my care by [F]."
       ],
       "Level": [
-        "You can't be serious...",
-        "A simple \"thank you\" is easy to say. But as a bard, how should I express this...",
-        "That's right, I'm a bard. You can call me Homer. A drink and a bed, heh! That's all I really need, if you ask me."
+        "**Nanna:** I will give those I love the gift of some extra special time.",
+        "**Ingrid:** I shall proceed along the path of being a bold and just server!",
+        "**Nanna:** I am sorry, it seems I got the blend of tea leaves all wrong..."
       ],
       "Summon": [
-        "I have no intention of staying long. I'll enjoy tonight, and then... We'll see what tomorrow brings."
+        "Are you prepared, Princess Nanna? I am here to aid you. We shall do a grand job fulfilling the role of servers!"
       ],
       "Learn Skill": [
-        "Hey! I'm trying to nap here! Go on, leave me be, [S].\nWhat?! You're so demanding, just like Princess Nanna.\nListen up. I'm not a strong fighter, and I've got no pride for my country or anything like that.\nI'm definitely not a prince on a white horse who's out to save a princess. No... I'd rather sing about it.\nI don't understand fighting for justice. Sometimes it's better to flip the coin and see what's on the other side.\nThis world isn't just made up of valiant heroes and pretty words...\nPeople's passion for their countries is just a dream. But like a drink, it only lasts so long. I can understand that.\nIf I drank from that bottle, as long as I kept my eyes open, any drop left would be pure joy."
+        "**Ingrid:** What kind of tea party sweet is this?! Princess Nanna, um, m-may I try just one little bite? Please."
       ],
       "Confession": [
-        "-"
+        "**Ingrid:** Princess Nanna, as someone devoted to becoming a knight, I found the tale of Ho\u00f0r, the black knight, fascinating!\n**Nanna:** If there is time, I have more stories of the legendary 12 crusaders to tell. Perhaps I could share them over tea?\n**Ingrid:** Yes! I would be delighted to prepare the tea for that. I have learned so much about brewing and serving it.\n**Nanna:** Oh? I would also like to brew tea for you sometime. I am more confident in my ability to prepare it now.\n**Ingrid:** Well then, let us make some tea and take turns serving one another?\n**Nanna:** Haha! That sounds like a lovely time, indeed. I look forward to tasting the tea you prepare for me, Ingrid."
       ],
       "Special": [
-        "",
-        "",
-        "",
-        ""
+        "**Duo:** Our hospitality.",
+        "**Duo:** Enjoy... This moment.",
+        "**Ingrid:** I can pour!",
+        "**Nanna:** Is it delicious?"
       ],
       "Status": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hm?",
+        "\"So many delicious looking sweets... No. Today, I am the server.\" \"Um, Ingrid, are you all right?\""
       ],
       "Map Select": [
-        "",
-        "",
-        ""
+        "Oh?",
+        "Would you like more?",
+        "Yes, right away."
       ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
+      "Conversation": [
+        "**Ingrid:** This is delicious! Princess Nanna, you excel at making tea.",
+        "**Nanna:** Ah, it is nothing. I am used to serving tea to my father and Lord Leif.",
+        "**Ingrid:** Ah, that makes perfect sense. I heard that Lord Leif is a childhood friend of yours.",
+        "**Nanna:** Yes. We grew up around each other. He has always been kind.",
+        "He's also very enthusiastic about the art of combat and his studies. I have great respect for him.",
+        "**Ingrid:** Uh, he sounds wonderful, especially when compared to some of my childhood friends.",
+        "**Nanna:** Did they cause you trouble?",
+        "**Ingrid:** Not that much. There are many things I can respect them for now, but...",
+        "They could still benefit from some... self-improvement, and can be a lot to deal with at times.",
+        "**Nanna:** Oh dear. That must be difficult. At the same time, it sounds as if it could be entertaining.",
+        "**Ingrid:** Heh, I suppose it does keep things from getting boring.",
+        "**Nanna:** Will they also be attending the tea service today?",
+        "**Ingrid:** I believe they are coming. They can't pass up an opportunity to give me a hard time while I'm serving tea.",
+        "**Nanna:** I am looking forward to it. You must introduce me.",
+        "**Ingrid:** I will. Also, um... Before they arrive, would you be willing to teach me the proper way to brew tea?",
+        "I'd like to prepare the tea for my friends myself.",
+        "**Nanna:** I would be happy to show you! Let us make this a lovely little tea party."
+      ],
+      "Duo Skill": [
+        "\"Please\" \"Have more\"",
+        "\"Oh! The sweets!\" \"What?\""
+      ],
+      "Back Unit Supporting": [
+        "You can do this.",
+        "How reliable."
+      ],
       "resplendent": {}
     },
-    "short_name": " Homer",
-    "SEARCH_NAME": " Homer",
-    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297> Homer",
+    "short_name": "Maid Ingrid",
+    "SEARCH_NAME": "Maid Ingrid",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Maid Ingrid",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "ingrid",
+      "ingrid2",
+      "ingrid3"
+    ],
     "prf": {
-      "": "blarcrab",
-      "eff": "blarcrab",
-      "atk": "blarcrab",
-      "spd": "blarcrab",
-      "def": "blarcrab",
-      "res": "blarcrab"
+      "": "silverspoon",
+      "eff": "silverspoon",
+      "atk": "silverspoon",
+      "spd": "silverspoon",
+      "def": "silverspoon",
+      "res": "silverspoon"
     }
   },
-  "meliai": {
-    "name": "Mel\u00edai",
-    "title": "Warrior Wanderer",
-    "description": "A mysterious warrior who attacks Askr. Though she has lost her memories, she has the power to travel between worlds.",
+  "veronica6": {
+    "name": "Veronica",
+    "title": "Royal Reception",
+    "description": "Imperial princess of the Emblian Empire. Hosts a tea party, acting as server, to deepen her ties with Askr, which she once was hostile toward.",
     "origin": "Heroes",
-    "artist": "ekao",
-    "move": "Armored",
-    "weapon": "Beast",
-    "color": "Green",
+    "artist": "Kippu (\u5207\u7b26)",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Colorless",
     "duel": false,
-    "id": "1268",
+    "id": "1275",
     "type": false,
-    "version": "9.7",
+    "version": "9.8",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 21,
-      "atk": 10,
-      "spd": 3,
-      "def": 14,
-      "res": 13
+      "hp": 16,
+      "atk": 12,
+      "spd": 9,
+      "def": 6,
+      "res": 6
     },
     "growth": {
-      "hp": 60,
-      "atk": 90,
-      "spd": 35,
-      "def": 80,
-      "res": 70
+      "hp": 50,
+      "atk": 80,
+      "spd": 90,
+      "def": 35,
+      "res": 45
     },
     "superboon": [
-      "atk",
+      "spd",
       "res"
     ],
-    "superbane": [],
+    "superbane": [
+      "hp"
+    ],
     "weapons": {
-      "Whelp (Armored)": "1",
-      "Yearling (Arm.)": "2",
-      "Adult (Armored)": "3",
-      "Wandering Horn": "5"
+      "Stone": "1",
+      "Elstone": "2",
+      "Atlas": "3",
+      "Princess Teapot": "5"
     },
-    "assist": {},
+    "assist": {
+      "Reposition": "3"
+    },
     "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "Sturdy Beast": "5"
+      "Retribution": "3",
+      "Reprisal": "4",
+      "Immurement": "5"
     },
     "passive": {
       "A": {
-        "Atk/Def Form 1": "2",
-        "Atk/Def Form 2": "3",
-        "Atk/Def Form 3": "4",
-        "Atk/Def Fortune": "5"
+        "Death Blow 1": "2",
+        "Swift Sparrow 1": "3",
+        "Swift Sparrow 2": "4",
+        "Sly Swift Sparrow": "5"
       },
       "B": {
-        "Slick Fighter 1": "2",
-        "Slick Fighter 2": "3",
-        "Slick Fighter 3": "4",
-        "Slick Fighter 4": "5"
+        "Spd/Res Snag 1": "2",
+        "Spd/Res Snag 2": "3",
+        "Spd/Res Snag 3": "4",
+        "Spd/Res Detect": "5"
       },
       "C": {
-        "A/D Near Save 1": "2",
-        "A/D Near Save 2": "3",
-        "A/D Near Save 3": "4",
-        "A/D Briar N Save": "5"
+        "Hone Spd 1": "2",
+        "Hone Spd 2": "3",
+        "Hone Spd 3": "4",
+        "A/S Incite Hone": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f3/Meliai_Warrior_Wanderer_Face.webp/revision/latest?cb=20250707151429",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1e/Meliai_Warrior_Wanderer_BtlFace_D.webp/revision/latest?cb=20250707151424",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b2/Meliai_Warrior_Wanderer_BtlFace_C.webp/revision/latest?cb=20250707151419",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b5/Meliai_Warrior_Wanderer_BtlFace.webp/revision/latest?cb=20250707151404"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Veronica_Royal_Reception_Face.webp/revision/latest?cb=20250806042627",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f5/Veronica_Royal_Reception_BtlFace_D.webp/revision/latest?cb=20250806042622",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/00/Veronica_Royal_Reception_BtlFace_C.webp/revision/latest?cb=20250806042617",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/aa/Veronica_Royal_Reception_BtlFace.webp/revision/latest?cb=20250806042602"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Warrior Wanderer",
-      "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Butler Veronica",
+      "veronica6"
     ],
     "HARD_ALT_NAME": [
-      "Warrior Wanderer",
-      "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Butler Veronica",
+      "veronica6"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u30e1\u30ea\u30a2\u30a8\u5473\u65b9",
-    "voice": "Lily Emil Lammers",
+    "pool": "seasonal",
+    "internal_id": "PID_\u304a\u8336\u4f1a\u30f4\u30a7\u30ed\u30cb\u30ab2",
+    "voice": "Wendee Lee",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -753,154 +637,165 @@
     "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "Askr... Father... Huh? What do you think you're lookin' at?!",
-        "I have always drifted from place to place. I've lost count of how many worlds I passed through.",
-        "Ash said our role here is to devote ourselves to you and your kind. So, tell me. How should I do that?",
-        "If I've got time to stare off into space, I've got time to train. Hey, be my opponent, will ya?",
-        "It's like I can feel Askr's presence in everyone I see here."
+        "What a pleasant aroma. Tea calms the heart, soothes the nerves...and in time, brings tranquility.",
+        "I can't believe I'm here, drinking tea with...friends.",
+        "I am sorry I broke a cup... What? Don't be down? OK. I'll be more careful next time.",
+        "This outfit is lovely... I think I prefer it to what I usually wear.",
+        "I would like to have a tea party with my brother and sister someday. I wonder if they would enjoy my tea..."
       ],
       "Visit": [
-        "I was told to come greet you by [F]. How'd I do?"
+        "I am Veronica, princess of Embla. This tea party invitation is from [F].\nYou will come, won't you?"
       ],
       "Level": [
-        "I have the power now! And no matter what, I will meet Father!",
-        "What, that? Humph. That's nothin'! I can get that much done before sunup.",
-        "Damn! I can't meet Father like this..."
+        "May this cup be a bridge that connects Embla and Askr.",
+        "If you would like more, just ask. I will get it for you.",
+        "I am sorry... Was it too hot?"
       ],
       "Summon": [
-        "The name's Mel\u00edai. Oh...you mean my true name? Only my father needs to use that."
+        "I am Veronica, princess of Embla. I would be happy to develop Embla and Askr's bonds over some tea."
       ],
       "Learn Skill": [
-        "Th-thank you. I'll repay you for this."
+        "I've learned how to brew a delicious cup of tea."
       ],
       "Confession": [
-        "Of all the places I've been, this Askr's pretty high up there.\nYou're probably wondering about the other Askrs, huh?\nMost of them are peaceful, and the people are friendly. But that's why I never quite fit in.\nI'm sure my father protected them with his love. And that's how they became the way they are.\nHumph. When I think of it like that, I get it. Now I wish I'd paid them the respect they're due.\nThis Askr... It's not the same as my father's. I'd like to care for it the way my father did his."
+        "I've thought of many ways the Emblian Empire and the Kingdom of Askr can deepen their bonds...\nBut now I know... Sitting face to face and enjoying tea together, in peace and warmth, is the simplest way.\nTime spent this way builds trust, so bonds grow deeper...\nI'm still not used to this, but... I wish for those who drink my tea to enjoy it. That would make me truly happy."
       ],
       "Special": [
-        "Gimme a break!",
-        "Outta my way!",
-        "You're dead!",
-        "SCRAM!"
+        "It's teatime...",
+        "Another serving?",
+        "Don't burn yourself.",
+        "Having fun?"
       ],
       "Status": [
-        "-",
-        "I am Mel\u00edai. I chose that name myself.",
-        "You... Try that again and I'll crush you!",
-        "You sure that's me from another world? What a dimwit.",
-        "I have no family, no friends, nothing worth remembering...",
-        "I'm sure my fighting probably looks unrefined to you. That's because I taught myself.",
-        "Askr... Father...",
-        "You're not my enemy, right? Then I think you and I are all right for now."
+        "Oh.",
+        "If you're having a tea party, I can serve...if you need help...",
+        "*gasp* *sigh* You almost made me spill the tea.",
+        "So many delicious-looking pastries...",
+        "There are so many sorts of teas... I like the ones with a pleasant aroma.",
+        "This outfit is so...cute. And fluttery too.",
+        "I wish I could have tea with Letizia and Bruno...like we used to...",
+        "Have a seat. I'll brew up one of my best teas for you."
       ],
       "Map Select": [
-        "Humph.",
-        "Which way?",
-        "I'll handle this."
+        "As you say.",
+        "This way?",
+        "Need anything?"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": " Mel\u00edai",
-    "SEARCH_NAME": " Mel\u00edai",
-    "DISPLAY_NAME": "<:Green_Beast:1124845912385138738> Mel\u00edai",
+    "short_name": "Maid Veronica",
+    "SEARCH_NAME": "Maid Veronica",
+    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Maid Veronica",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "veronica",
+      "veronica2",
+      "veronica3",
+      "veronica4",
+      "veronica5"
+    ],
     "prf": {
-      "": "wanderinghorn",
-      "eff": "wanderinghorn",
-      "atk": "wanderinghorn",
-      "spd": "wanderinghorn",
-      "def": "wanderinghorn",
-      "res": "wanderinghorn"
+      "": "princessteapot",
+      "eff": "princessteapot",
+      "atk": "princessteapot",
+      "spd": "princessteapot",
+      "def": "princessteapot",
+      "res": "princessteapot"
     }
   },
-  "dagdar": {
-    "name": "Dagdar",
-    "title": "Reformed Bandit",
-    "description": "A former leader of bandits who hid in Mount Violdrake. He changed his ways after meeting Eyvel and began to fight against the empire. Appears in Fire Emblem: Thracia 776.",
+  "finn2": {
+    "name": "Finn",
+    "title": "Devoted Service",
+    "description": "A devoted vassal who serves Leonster's royal family. Trading his trusty lance for a tea set, he puts his skills as server on display. Appears in Fire Emblem: Thracia 776.",
     "origin": "Thracia 776",
-    "artist": "\u30c0\u30a4\u30a8\u30af\u30b9\u30c8",
-    "move": "Infantry",
-    "weapon": "Axe",
-    "color": "Green",
+    "artist": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
+    "move": "Cavalry",
+    "weapon": "Sword",
+    "color": "Red",
     "duel": false,
-    "id": "1269",
+    "id": "1276",
     "type": false,
-    "version": "9.7",
+    "version": "9.8",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 10,
-      "spd": 11,
-      "def": 12,
-      "res": 6
+      "atk": 11,
+      "spd": 13,
+      "def": 7,
+      "res": 4
     },
     "growth": {
-      "hp": 60,
-      "atk": 90,
-      "spd": 55,
-      "def": 75,
-      "res": 45
+      "hp": 50,
+      "atk": 85,
+      "spd": 75,
+      "def": 70,
+      "res": 35
     },
     "superboon": [
-      "atk",
-      "res"
-    ],
-    "superbane": [
       "def"
     ],
+    "superbane": [
+      "hp",
+      "spd"
+    ],
     "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Reversal Axe": "3",
-      "Reversal Axe+": "5"
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Serving Knife": "3",
+      "Serving Knife+": "5"
     },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4"
+    "assist": {
+      "Shove": "3"
     },
+    "special": {},
     "passive": {
       "A": {
-        "Bonus Doubler 1": "3",
-        "Bonus Doubler 2": "4",
-        "Bonus Doubler 3": "5"
+        "Spd/Def Clash 1": "3",
+        "Spd/Def Clash 2": "4",
+        "Spd/Def Clash 3": "5"
       },
-      "B": {},
-      "C": {
-        "Atk/Def Oath 1": "1",
-        "Atk/Def Oath 2": "2",
-        "Atk/Def Oath 3": "4"
+      "B": {
+        "Spd/Def Snag 1": "1",
+        "Spd/Def Snag 2": "2",
+        "Spd/Def Snag 3": "4"
       },
+      "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/57/Dagdar_Reformed_Bandit_Face.webp/revision/latest?cb=20250718050013",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/07/Dagdar_Reformed_Bandit_BtlFace_D.webp/revision/latest?cb=20250718050008",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ac/Dagdar_Reformed_Bandit_BtlFace_C.webp/revision/latest?cb=20250718050004",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/20/Dagdar_Reformed_Bandit_BtlFace.webp/revision/latest?cb=20250718045949"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d6/Finn_Devoted_Service_Face.webp/revision/latest?cb=20250806042737",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/34/Finn_Devoted_Service_BtlFace_D.webp/revision/latest?cb=20250806042732",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dc/Finn_Devoted_Service_BtlFace_C.webp/revision/latest?cb=20250806042727",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7c/Finn_Devoted_Service_BtlFace.webp/revision/latest?cb=20250806042712"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Reformed Bandit",
-      "Dagdar: Reformed Bandit",
-      "dagdar"
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Maid Finn",
+      "Tea Finn",
+      "Butler Finn",
+      "finn2"
     ],
     "HARD_ALT_NAME": [
-      "Reformed Bandit",
-      "Dagdar: Reformed Bandit",
-      "dagdar"
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Maid Finn",
+      "Tea Finn",
+      "Butler Finn",
+      "finn2"
     ],
     "gender": "M",
-    "rarity": 3,
+    "rarity": 4,
     "pool": "grail",
-    "internal_id": "PID_\u30c0\u30b0\u30c0",
-    "voice": "Byron Patrick",
+    "internal_id": "PID_\u304a\u8336\u4f1a\u30d5\u30a3\u30f3",
+    "voice": "Robert Clotworthy",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -909,68 +804,70 @@
     "chibi": "fe5",
     "quotes": {
       "Castle Hall": [
-        "Against the imperial army, even Eyvel would feel threatened.",
-        "It's hard to believe the imperial army would return to such a backwater. They must have had a good reason.",
-        "No one wants to starve to death, but it happens daily in southern Thracia. Everyone is desperate to survive...",
-        "While I was off visiting Fiana, one of my men went back to being a bandit. He may be strong, but he's an idiot.",
-        "Not to worry. I'll be here to help you out from now on."
+        "I would like to use this opportunity to gift Lord Leif a moment in which he can rest and enjoy a warm cup of tea.",
+        "I know the importance of taking time to appreciate tea. Lord Quan and Lady Ethlyn valued such moments.",
+        "If peace comes to the world, and I no longer have to fight, one thing I plan to enjoy is teatime with my daughter.",
+        "I am not used to such attire, but it would be boorish to don armor for tea. I shall endeavor to wear it well.",
+        "A cup of tea calms the nerves and gives one time to reflect. I would be pleased to aid in that pursuit."
       ],
       "Visit": [
-        "Anyone up to no good around here? If so, send a message to Dagdar at Castle [F]!"
+        "I am Finn of Leonster. I bring with me some high-quality tea leaves sent to you by [F]."
       ],
       "Level": [
-        "Imagine, calling me a skirt-chasing, senile old man! Those are fighting words. I'll take every one of them!",
-        "I'll slow them down. You go ahead.",
-        "I guess I haven't got a choice. Worst case, I'll gather up my old comrades and stage an assault with them."
+        "How is the tea? I pray the time you spend sipping at it will be fruitful for you.",
+        "The path to proper tea cannot be traveled in a single day. I must devote myself to the practice.",
+        "Did I let my guard down?"
       ],
       "Summon": [
-        "I'm Dagdar. I may not be able to take on Eyvel, but I've got no trouble keeping up with those youngsters!"
+        "I am Finn, a knight of Leonster. I am pleased to act as a server for all from the Order of Heroes this day."
       ],
       "Learn Skill": [
-        "Got it! I'll show them!"
+        "I shall strive to improve so that I never forget to consider others."
       ],
       "Confession": [
-        "I may not look it, but I was once a bandit. I led a massive group that made its home in Mount Violdrake.\nNone stood a chance against us. But, it wasn't right. Eyvel taught me that I was fighting the wrong people.\nThe imperial army's attack on Fiana stopped me on my way to Mount Violdrake, but I still plan to return.\nI will cultivate the arid lands and grow food for the people there. When their bellies are full, their hearts can rest.\nIt won't make up for my past wrongs, but I want to help the starving kids in Thracia. That is my true desire now."
+        "I have spent my days fighting foes as a knight.\nNow I'm learning how warmth and hospitality are essential to providing guests an enjoyable experience.\nIt is an attitude that shares similarities with the loyalty and service a retainer gives to their lord.\nI must consider how I can make the guests smile, or what they might wish for, then make those things a reality.\nIt gives me an opportunity to grow as a person, not only as a knight. I am grateful to you for this experience."
       ],
       "Special": [
-        "Not ready to lose!",
-        "Quit boasting!",
-        "Come at me!",
-        "Time to fight it out."
+        "Care for some tea?",
+        "Relax and enjoy.",
+        "What comes next...",
+        "It's piping hot."
       ],
       "Status": [
-        "Huh...",
-        "I'm Dagdar. I'm no bandit... I've washed my hands of that life.",
-        "What do you think you're\u2014 Oh, uh...sorry if I scared ya.",
-        "How is Tanya? I expect she's pulling her weight around here.",
-        "Prince Leif is no coward.",
-        "Not to worry. I've got no trouble keeping up with those youngsters!",
-        "Eyvel... You're really something... Even a seasoned fighter like me is no match for you.",
-        "From now on, you can count on me!"
+        "Aha.",
+        "I am uncertain if I am suited to be a server, but I will put forth my best effort.",
+        "Oh! Do be careful. If the tea spilled, it could burn someone.",
+        "I would like to ensure that Lord Leif is served the finest tea.",
+        "I believe my daughter would appreciate these beautiful sweets.",
+        "Taking time to enjoy tea can warm...even the depths of one's heart.",
+        "Lord Quan and Lady Ethlyn often conversed over tea...",
+        "It would please me if you tried a cup of the tea I have brewed."
       ],
       "Map Select": [
-        "Aye.",
-        "Got no choice.",
-        "Can't complain."
+        "I see.",
+        "Another cup?",
+        "We must be attentive."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": " Dagdar",
-    "SEARCH_NAME": " Dagdar",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754> Dagdar",
+    "short_name": "Butler Finn",
+    "SEARCH_NAME": "Butler Finn",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Butler Finn",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "finn"
+    ],
     "prf": {
-      "": "reversalaxe",
-      "eff": "reversalaxe",
-      "atk": "reversalaxe",
-      "spd": "reversalaxe",
-      "def": "reversalaxe",
-      "res": "reversalaxe"
+      "": "servingknife",
+      "eff": "servingknife",
+      "atk": "servingknife",
+      "spd": "servingknife",
+      "def": "servingknife",
+      "res": "servingknife"
     }
   }
 }

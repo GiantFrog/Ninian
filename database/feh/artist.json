@@ -11339,7 +11339,13 @@
       "Duo Spring Plumeria",
       "Duo Plumeria",
       "D Plumeria",
-      "plumeria4"
+      "plumeria4",
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Butler Veronica",
+      "veronica6"
     ],
     "HARD_ALT_NAME": [
       "nils",
@@ -11528,7 +11534,13 @@
       "Duo Spring Plumeria",
       "Duo Plumeria",
       "D Plumeria",
-      "plumeria4"
+      "plumeria4",
+      "Royal Reception",
+      "Veronica: Royal Reception",
+      "Maid Veronica",
+      "Tea Veronica",
+      "Butler Veronica",
+      "veronica6"
     ],
     "heroes": {
       "chloe2": "<:Red_Tome:1124846175577710642>Spring Chlo\u00e9",
@@ -11548,7 +11560,8 @@
       "plumeria4": "<:Blue_Lance:1124845569496584302>Harmonic Spring Plumeria",
       "rhys": "<:Colorless_Staff:1124845704444137592>Summer Rhys",
       "sonya2": "<:Green_Tome:1124845959873036289>Harmonic Sonya",
-      "triandra2": "<:Colorless_Tome:1124845725960904734>Spring Triandra"
+      "triandra2": "<:Colorless_Tome:1124845725960904734>Spring Triandra",
+      "veronica6": "<:Colorless_Tome:1124845725960904734>Maid Veronica"
     },
     "name": "Kippu (\u5207\u7b26)"
   },
@@ -28992,7 +29005,8 @@
   },
   "makimurashiyunsuke": {
     "heroes": {
-      "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra"
+      "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra",
+      "finn2": "<:Red_Sword:1124846201070698536>Butler Finn"
     },
     "name": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
     "ALT_NAME": [
@@ -29025,7 +29039,13 @@
       "Ayra: Supreme Astra",
       "Legendary Ayra",
       "L Ayra",
-      "ayra3"
+      "ayra3",
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Maid Finn",
+      "Tea Finn",
+      "Butler Finn",
+      "finn2"
     ],
     "HARD_ALT_NAME": [
       "Supreme Astra",
@@ -29057,7 +29077,13 @@
       "Ayra: Supreme Astra",
       "Legendary Ayra",
       "L Ayra",
-      "ayra3"
+      "ayra3",
+      "Devoted Service",
+      "Finn: Devoted Service",
+      "Maid Finn",
+      "Tea Finn",
+      "Butler Finn",
+      "finn2"
     ]
   },
   "tetsubuta": {
@@ -29082,7 +29108,8 @@
   },
   "nanahuzi": {
     "heroes": {
-      "claude7": "<:Blue_Bow:1124845525695475845>Valentines Claude"
+      "claude7": "<:Blue_Bow:1124845525695475845>Valentines Claude",
+      "felix4": "<:Blue_Lance:1124845569496584302>Butler Felix"
     },
     "name": "\u306a\u306a\u3075\u3058",
     "ALT_NAME": [
@@ -29091,7 +29118,13 @@
       "Valentine's Claude",
       "Valentines Claude",
       "Valentine Claude",
-      "claude7"
+      "claude7",
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Maid Felix",
+      "Tea Felix",
+      "Butler Felix",
+      "felix4"
     ],
     "HARD_ALT_NAME": [
       "Distant Deer",
@@ -29099,7 +29132,13 @@
       "Valentine's Claude",
       "Valentines Claude",
       "Valentine Claude",
-      "claude7"
+      "claude7",
+      "Savant's Service",
+      "Felix: Savant's Service",
+      "Maid Felix",
+      "Tea Felix",
+      "Butler Felix",
+      "felix4"
     ]
   },
   "qianzhongminori": {
@@ -29265,7 +29304,8 @@
   },
   "siino": {
     "heroes": {
-      "eitr2": "<:Colorless_Beast:1124845615935918110>Spring Eitr"
+      "eitr2": "<:Colorless_Beast:1124845615935918110>Spring Eitr",
+      "ingrid4": "<:Green_Axe:1124845885277343754>Maid Ingrid"
     },
     "name": "Siino",
     "ALT_NAME": [
@@ -29274,7 +29314,13 @@
       "Spring Eitr",
       "Easter Eitr",
       "S Eitr",
-      "eitr2"
+      "eitr2",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ],
     "HARD_ALT_NAME": [
       "Spring Sunrise",
@@ -29282,7 +29328,13 @@
       "Spring Eitr",
       "Easter Eitr",
       "S Eitr",
-      "eitr2"
+      "eitr2",
+      "Cordial Teatime",
+      "Ingrid: Cordial Teatime",
+      "Maid Ingrid",
+      "Tea Ingrid",
+      "Butler Ingrid",
+      "ingrid4"
     ]
   },
   "pingbankangye": {
@@ -29600,6 +29652,28 @@
       "Summer Celica",
       "Harmonic Celica",
       "celica7"
+    ]
+  },
+  "maoyukamu": {
+    "heroes": {
+      "c\u00e9line2": "<:Red_Tome:1124846175577710642>Maid C\u00e9line"
+    },
+    "name": "\u732b\u9b5a\u304b\u3080",
+    "ALT_NAME": [
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Butler C\u00e9line",
+      "c\u00e9line2"
+    ],
+    "HARD_ALT_NAME": [
+      "Blissful Tea Party",
+      "C\u00e9line: Blissful Tea Party",
+      "Maid C\u00e9line",
+      "Tea C\u00e9line",
+      "Butler C\u00e9line",
+      "c\u00e9line2"
     ]
   }
 }
