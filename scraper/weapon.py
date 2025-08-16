@@ -38,18 +38,15 @@ def scrape_page(page_name):
         blank['wpn'] = name.lower()
 
 
-    wtype = (wiki_info[2].find_all('a')[0]['title'])
-    wtype = wtype.replace(' ', '_')
-    blank['skill'][0]['weapon_type'] = wtype
-
-
     for i in wiki_info:
+        if "Weapon type" in i.text.replace(u'\xa0', ' '):
+            blank['skill'][0]['weapon_type'] = i.find_all('a')[0]['title'].replace(' ', '_')
         if "Might" in i.text:
             strings = list(i.stripped_strings)
             blank['skill'][0]['stats']["mt"] = strings[1]
         if "Range" in i.text:
             strings = list(i.stripped_strings)
-            if (strings[0] == 'Range'):
+            if strings[0] == 'Range':
                 blank['skill'][0]['stats']["rng"] = strings[1]
         if "SP" in i.text:
             strings = list(i.stripped_strings)
@@ -62,10 +59,9 @@ def scrape_page(page_name):
                 blank['skill'][0]['exclusive'] = True
         if "Description" in i.text:
             desc = list(i.stripped_strings)
-            a = desc.pop(0);
             desc2 = '\n'.join(desc)
 
-            if (('[\nExpand\nCollapse\n]') in desc2):
+            if '[\nExpand\nCollapse\n]' in desc2:
                 parts = str(i).split('style="text-align:left;">')
                 desc2 = parts[2][0:-10]
                 desc2 = desc2.replace('<br/>', '\n')
@@ -73,10 +69,10 @@ def scrape_page(page_name):
 
             
             blank['skill'][0]['description'] = desc2
-            #print(desc2)
 
-    obj = {}
-    obj[list(wiki_info[0].stripped_strings)[0]] = {}
+    obj = {
+        list(wiki_info[0].stripped_strings)[0]: {}
+    }
     blank['reference'] = obj
     
 
