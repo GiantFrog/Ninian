@@ -12420,8 +12420,6 @@
       "Frosty Professors",
       "Harmonized Female Beleth",
       "Legend Beleth",
-      "Brave Beleth",
-      "Brave Byleth",
       "Legend Female Byleth",
       "Leg Byleth",
       "Harmonic Beleth",
@@ -12625,8 +12623,6 @@
       "S Beleth",
       "Frosty Professors",
       "Harmonized Female Beleth",
-      "Brave Beleth",
-      "Brave Byleth",
       "Dyleth",
       "bylethfemale4",
       "Legend Female Byleth",
@@ -29511,8 +29507,10 @@
       "Normal M Beleth",
       "Anchor of Hope",
       "Byleth: Anchor of Hope",
-      "Brave Byleth",
-      "CYL Byleth",
+      "Brave Male Byleth",
+      "CYL Male Byleth",
+      "Brave M Byleth",
+      "CYL M Byleth",
       "byleth10"
     ],
     "HARD_ALT_NAME": [
@@ -29654,8 +29652,10 @@
       "Normal M Beleth",
       "Anchor of Hope",
       "Byleth: Anchor of Hope",
-      "Brave Byleth",
-      "CYL Byleth",
+      "Brave Male Byleth",
+      "CYL Male Byleth",
+      "Brave M Byleth",
+      "CYL M Byleth",
       "byleth10"
     ],
     "heroes": {
