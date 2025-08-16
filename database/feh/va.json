@@ -26745,7 +26745,10 @@
       "Bruno: Masked Reveler",
       "Masked Reveler",
       "Winter Bruno",
-      "Christmas Bruno"
+      "Christmas Bruno",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "bruno3"
     ],
     "HARD_ALT_NAME": [
       "navarre",
@@ -26788,11 +26791,15 @@
       "Masked Reveler",
       "W Bruno",
       "Wruno",
-      "Christmas Bruno"
+      "Christmas Bruno",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "bruno3"
     ],
     "heroes": {
       "bruno": "<:Colorless_Staff:1124845704444137592>Spring Bruno",
       "bruno2": "<:Green_Tome:1124845959873036289>Winter Bruno",
+      "bruno3": "<:Blue_Tome:1124845593211191297>Brave Bruno",
       "cain": "<:Red_Sword:1124846201070698536>Cain",
       "navarre": "<:Red_Sword:1124846201070698536>Navarre",
       "navarre2": "<:Blue_Lance:1124845569496584302>Ninja Navarre"
@@ -29501,7 +29508,12 @@
       "Legend M Beleth",
       "Leg Byleth",
       "Leg Beleth",
-      "Normal M Beleth"
+      "Normal M Beleth",
+      "Anchor of Hope",
+      "Byleth: Anchor of Hope",
+      "Brave Byleth",
+      "CYL Byleth",
+      "byleth10"
     ],
     "HARD_ALT_NAME": [
       "Legend Male Byleth",
@@ -29639,9 +29651,15 @@
       "Leg Byleth",
       "Leg Beleth",
       "L Byleth M",
-      "Normal M Beleth"
+      "Normal M Beleth",
+      "Anchor of Hope",
+      "Byleth: Anchor of Hope",
+      "Brave Byleth",
+      "CYL Byleth",
+      "byleth10"
     ],
     "heroes": {
+      "byleth10": "<:Red_Sword:1124846201070698536>Brave Byleth",
       "byleth2": "<:Red_Sword:1124846201070698536>Male Byleth",
       "byleth4": "<:Green_Tome:1124845959873036289>Legendary Male Byleth",
       "byleth7": "<:Blue_Tome:1124845593211191297>Khadein Byleth",
@@ -31255,6 +31273,46 @@
       "Normal H\u00f6\u00f0r",
       "Regular H\u00f6\u00f0r",
       "hodr"
+    ]
+  },
+  "takeuchishunsuke": {
+    "heroes": {
+      "eikthyrnir4": "<:Colorless_Beast:1124845615935918110>Brave Eik\u00feyrnir"
+    },
+    "name": "Takeuchi Shunsuke",
+    "ALT_NAME": [
+      "Resolved to Train",
+      "eikthyrnir: Resolved to Train",
+      "Brave eikthyrnir",
+      "CYL eikthyrnir",
+      "eikthyrnir4"
+    ],
+    "HARD_ALT_NAME": [
+      "Resolved to Train",
+      "eikthyrnir: Resolved to Train",
+      "Brave eikthyrnir",
+      "CYL eikthyrnir",
+      "eikthyrnir4"
+    ]
+  },
+  "juliemaddalena": {
+    "heroes": {
+      "sharena4": "<:Green_Tome:1124845959873036289>Brave Sharena"
+    },
+    "name": "Julie Maddalena",
+    "ALT_NAME": [
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "sharena4"
+    ],
+    "HARD_ALT_NAME": [
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "sharena4"
     ]
   }
 }
