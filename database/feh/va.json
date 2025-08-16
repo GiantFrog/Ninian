@@ -31209,7 +31209,8 @@
   },
   "samslade": {
     "heroes": {
-      "baldr": "<:Red_Sword:1124846201070698536> Baldr"
+      "baldr": "<:Red_Sword:1124846201070698536> Baldr",
+      "baldr2": "<:Blue_Bow:1124845525695475845>Brave Baldr"
     },
     "name": "Sam Slade",
     "ALT_NAME": [
@@ -31224,7 +31225,12 @@
       "Base Baldr",
       "Normal Baldr",
       "Regular Baldr",
-      "baldr"
+      "baldr",
+      "Rays of Judgment",
+      "Baldr: Rays of Judgment",
+      "Brave Baldr",
+      "CYL Baldr",
+      "baldr2"
     ],
     "HARD_ALT_NAME": [
       "Celestial Sun God",
@@ -31238,7 +31244,12 @@
       "Base Baldr",
       "Normal Baldr",
       "Regular Baldr",
-      "baldr"
+      "baldr",
+      "Rays of Judgment",
+      "Baldr: Rays of Judgment",
+      "Brave Baldr",
+      "CYL Baldr",
+      "baldr2"
     ]
   },
   "emilo": {

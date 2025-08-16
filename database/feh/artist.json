@@ -14938,7 +14938,12 @@
       "Regular Fogado",
       "Base Fogado",
       "Normal Fogado",
-      "fogado"
+      "fogado",
+      "Rays of Judgment",
+      "Baldr: Rays of Judgment",
+      "Brave Baldr",
+      "CYL Baldr",
+      "baldr2"
     ],
     "HARD_ALT_NAME": [
       "Timerra: Trick or Meat",
@@ -14956,9 +14961,15 @@
       "Regular Fogado",
       "Base Fogado",
       "Normal Fogado",
-      "fogado"
+      "fogado",
+      "Rays of Judgment",
+      "Baldr: Rays of Judgment",
+      "Brave Baldr",
+      "CYL Baldr",
+      "baldr2"
     ],
     "heroes": {
+      "baldr2": "<:Blue_Bow:1124845525695475845>Brave Baldr",
       "fogado": "<:Green_Bow:1124845936426897428>Fogado",
       "sorenR": "<:Green_Tome:1124845959873036289>Soren (Resplendent)",
       "timerra2": "<:Blue_Lance:1124845569496584302>Halloween Timerra"
