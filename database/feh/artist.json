@@ -13083,7 +13083,10 @@
       "Normal F\u00e1fnir",
       "Base F\u00e1fnir",
       "Regular F\u00e1fnir",
-      "fafnir"
+      "fafnir",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "bruno3"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -13350,7 +13353,10 @@
       "Normal F\u00e1fnir",
       "Base F\u00e1fnir",
       "Regular F\u00e1fnir",
-      "fafnir"
+      "fafnir",
+      "Masked Knight",
+      "Bruno: Masked Knight",
+      "bruno3"
     ],
     "heroes": {
       "alfonse": "<:Red_Sword:1124846201070698536>Alfonse",
@@ -13359,6 +13365,7 @@
       "ash": "<:Colorless_Beast:1124845615935918110>Ash",
       "askr": "<:Colorless_Beast:1124845615935918110>Askr",
       "bruno2": "<:Green_Tome:1124845959873036289>Winter Bruno",
+      "bruno3": "<:Blue_Tome:1124845593211191297>Brave Bruno",
       "camilla7": "<:Colorless_Staff:1124845704444137592>Brave Camilla",
       "chrom7": "<:Blue_Lance:1124845569496584302>Brave Chrom",
       "dagr": "<:Green_Axe:1124845885277343754>Dagr",
@@ -17941,7 +17948,12 @@
       "CYL Alphonse",
       "B Alphonse",
       "Choose Your Legends Alphonse",
-      "alphonse5"
+      "alphonse5",
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "sharena4"
     ],
     "HARD_ALT_NAME": [
       "ravenR",
@@ -18106,7 +18118,12 @@
       "CYL Alphonse",
       "B Alphonse",
       "Choose Your Legends Alphonse",
-      "alphonse5"
+      "alphonse5",
+      "Hopeful Princess",
+      "Sharena: Hopeful Princess",
+      "Brave Sharena",
+      "CYL Sharena",
+      "sharena4"
     ],
     "heroes": {
       "alfonse5": "<:Green_Axe:1124845885277343754>Brave Alfonse",
@@ -18119,6 +18136,7 @@
       "hilda3": "<:Colorless_Staff:1124845704444137592>Duo Fodlan Hilda",
       "ishtar3": "<:Blue_Tome:1124845593211191297>Ascended Ishtar",
       "ravenR": "<:Green_Axe:1124845885277343754>Raven (Resplendent)",
+      "sharena4": "<:Green_Tome:1124845959873036289>Brave Sharena",
       "sigurdR": "<:Red_Sword:1124846201070698536>Sigurd (Resplendent)",
       "takumi5": "<:Blue_Tome:1124845593211191297>Valentines Takumi",
       "ymir": "<:Green_Breath:1124845770978361425>Ymir"
@@ -18263,7 +18281,12 @@
       "H Askr",
       "Harvest Askr",
       "Spooky Askr",
-      "askr3"
+      "askr3",
+      "Resolved to Train",
+      "eikthyrnir: Resolved to Train",
+      "Brave eikthyrnir",
+      "CYL eikthyrnir",
+      "eikthyrnir4"
     ],
     "HARD_ALT_NAME": [
       "Renning",
@@ -18396,7 +18419,12 @@
       "H Askr",
       "Harvest Askr",
       "Spooky Askr",
-      "askr3"
+      "askr3",
+      "Resolved to Train",
+      "eikthyrnir: Resolved to Train",
+      "Brave eikthyrnir",
+      "CYL eikthyrnir",
+      "eikthyrnir4"
     ],
     "heroes": {
       "almR": "<:Red_Sword:1124846201070698536>Alm (Resplendent)",
@@ -18407,6 +18435,7 @@
       "claude5": "<:Green_Dagger:1124845796169351320>Wind Claude",
       "dimitri5": "<:Green_Axe:1124845885277343754>Summer Dimitri",
       "duessel": "<:Blue_Lance:1124845569496584302>Duessel",
+      "eikthyrnir4": "<:Colorless_Beast:1124845615935918110>Brave Eik\u00feyrnir",
       "ephraim3R": "<:Green_Axe:1124845885277343754>Brave Ephraim (Resplendent)",
       "ingrid": "<:Blue_Lance:1124845569496584302>Ingrid",
       "jeralt": "<:Blue_Lance:1124845569496584302>Jeralt",
@@ -28810,6 +28839,7 @@
   },
   "mebaru": {
     "heroes": {
+      "byleth10": "<:Red_Sword:1124846201070698536>Brave Byleth",
       "dimitriR": "<:Blue_Lance:1124845569496584302>Dimitri (Resplendent)"
     },
     "name": "\u3081\u3070\u308b",
@@ -28817,13 +28847,23 @@
       "Resplendent Dimitri",
       "Resp Dimitri",
       "R Dimitri",
-      "Dimitri (Resplendent)"
+      "Dimitri (Resplendent)",
+      "Anchor of Hope",
+      "Byleth: Anchor of Hope",
+      "Brave Byleth",
+      "CYL Byleth",
+      "byleth10"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Dimitri",
       "Resp Dimitri",
       "R Dimitri",
-      "Dimitri (Resplendent)"
+      "Dimitri (Resplendent)",
+      "Anchor of Hope",
+      "Byleth: Anchor of Hope",
+      "Brave Byleth",
+      "CYL Byleth",
+      "byleth10"
     ]
   },
   "unamiya": {
