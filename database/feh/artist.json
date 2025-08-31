@@ -2981,7 +2981,11 @@
       "Malice: Blooming Blade",
       "Desert Malice",
       "D Malice",
-      "malice2"
+      "malice2",
+      "Resplendent Laevatein",
+      "Resp Laevatein",
+      "R Laevatein",
+      "Laevatein (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Leg Female Grima",
@@ -3240,12 +3244,17 @@
       "Malice: Blooming Blade",
       "Desert Malice",
       "D Malice",
-      "malice2"
+      "malice2",
+      "Resplendent Laevatein",
+      "Resp Laevatein",
+      "R Laevatein",
+      "Laevatein (Resplendent)"
     ],
     "heroes": {
       "galzus": "<:Red_Sword:1124846201070698536>Galzus",
       "hinoka2": "<:Colorless_Bow:1124845636659982457>Bow Hinoka",
       "ishtar2": "<:Red_Tome:1124846175577710642>Dancer Ishtar",
+      "laevateinR": "<:Red_Sword:1124846201070698536>Laevatein (Resplendent)",
       "lara": "<:Red_Dagger:1124846223518605324>Lara",
       "malice": "<:Red_Sword:1124846201070698536>Malice",
       "malice2": "<:Red_Sword:1124846201070698536>Malice",
@@ -28299,6 +28308,7 @@
   "dd": {
     "heroes": {
       "alear7": "<:Red_Sword:1124846201070698536>Fallen Male Alear",
+      "diamant3": "<:Green_Axe:1124845885277343754>Legendary Diamant",
       "innes4": "<:Colorless_Bow:1124845636659982457>Innes",
       "leo5": "<:Colorless_Tome:1124845725960904734>Festival Leo",
       "yukimura": "<:Colorless_Dagger:1124845658617155734>Yukimura"
@@ -28331,7 +28341,11 @@
       "Fallen M Alear",
       "Fallen Male Alear",
       "F M Alear",
-      "alear7"
+      "alear7",
+      "Fortified King",
+      "Diamant: Fortified King",
+      "Legendary Diamant",
+      "diamant3"
     ],
     "HARD_ALT_NAME": [
       "Puppet Master",
@@ -28360,7 +28374,11 @@
       "Fallen M Alear",
       "Fallen Male Alear",
       "F M Alear",
-      "alear7"
+      "alear7",
+      "Fortified King",
+      "Diamant: Fortified King",
+      "Legendary Diamant",
+      "diamant3"
     ]
   },
   "takubon": {
