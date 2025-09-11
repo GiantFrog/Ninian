@@ -7,10 +7,13 @@ from scraper import integrate
 from skill_scrape import passive_icon_number
 
 refines = [
-    "katarina2",
-    "nyx",
-    "farina",
-    "morgan4"
+    "askr",
+    "veronica5",
+    "robin13",
+    "gullveig2",
+    "corrin14",
+    "soren5",
+    "bertram"
 ]
 
 path = "../database/feh/images/passive/"
