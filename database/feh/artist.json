@@ -6369,6 +6369,7 @@
       "Dual Warriors",
       "Fir: Dual Warriors",
       "Gladiator Fir",
+      "Harmonic Fir",
       "Ferox Fir",
       "fir4"
     ],
@@ -6442,6 +6443,7 @@
       "Dual Warriors",
       "Fir: Dual Warriors",
       "Gladiator Fir",
+      "Harmonic Fir",
       "Ferox Fir",
       "fir4"
     ],
@@ -19571,6 +19573,7 @@
       "Chulainn: Leading Gladiator",
       "Gladiator Chulainn",
       "Ferox Chulainn",
+      "holyn2",
       "chulainn2"
     ],
     "HARD_ALT_NAME": [
@@ -19967,6 +19970,7 @@
       "Chulainn: Leading Gladiator",
       "Gladiator Chulainn",
       "Ferox Chulainn",
+      "holyn2",
       "chulainn2"
     ],
     "heroes": {
@@ -29608,6 +29612,7 @@
       "Masked Gladiator",
       "Marth: Masked Gladiator",
       "Gladiator Marth",
+      "Gladiator Lucina",
       "Ferox Marth",
       "marth9"
     ],
@@ -29627,6 +29632,7 @@
       "Masked Gladiator",
       "Marth: Masked Gladiator",
       "Gladiator Marth",
+      "Gladiator Lucina",
       "Ferox Marth",
       "marth9"
     ]
