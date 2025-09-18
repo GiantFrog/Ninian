@@ -214,7 +214,7 @@ async def glock(ctx):
     
     embed.attach("image", "database/EpicGun.gif")
     
-    return embed
+    await embed.send(ctx)
 
 # help command
 @maji.commands.classic("help")
