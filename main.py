@@ -208,6 +208,14 @@ async def remix(ctx):
     
     await embed.send(ctx)
 
+@maji.commands.classic("glock")
+async def glock(ctx):
+    embed = maji.Embed()
+    
+    embed.attach("image", "database/EpicGun.gif")
+    
+    return embed
+
 # help command
 @maji.commands.classic("help")
 async def help_command(ctx):
