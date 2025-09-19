@@ -456,6 +456,7 @@ local summoner_bonus = {
     b = {hp = 4, def = 2, res = 2},
     a = {hp = 4, spd = 2, def = 2, res = 2},
     s = {hp = 5, atk = 2, spd = 2, def = 2, res = 2}
+    s+ = {hp = 7, atk = 2, spd = 2, def = 2, res = 2}
 }
 
 function Character:final_base()
@@ -797,6 +798,10 @@ end
 
 function Character:is_emblem()
     return (self.data.type == "emblem")
+end
+
+function Character:is_entwinned()
+    return (self.data.type == "entwinned")
 end
 
 function Character:has_resplendent()
