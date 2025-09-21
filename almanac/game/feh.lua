@@ -97,6 +97,9 @@ function Character:setup()
     self.bonus = self.options.bonus
     
     self.support = self.options.support
+    if self.support == "s+" then
+        self.support = "sp"
+    end
     
     self.boon = self.options.boon
     self.bane = self.options.bane
@@ -339,6 +342,11 @@ function Character:get_info()
         
         text = text .. string.format("Duel: %s\n", self.data.duel)
     end
+
+    -- Check for entwined
+    if self:is_entwined() then
+        text = text .. string.format("%sEntwinned Hero\n", heroes_pack:get("entwined"))
+    end
     
     return text
 end
@@ -455,8 +463,8 @@ local summoner_bonus = {
     c = {hp = 3, res = 2},
     b = {hp = 4, def = 2, res = 2},
     a = {hp = 4, spd = 2, def = 2, res = 2},
-    s = {hp = 5, atk = 2, spd = 2, def = 2, res = 2}
-    s+ = {hp = 7, atk = 2, spd = 2, def = 2, res = 2}
+    s = {hp = 5, atk = 2, spd = 2, def = 2, res = 2},
+    sp = {hp = 7, atk = 2, spd = 2, def = 2, res = 2}
 }
 
 function Character:final_base()
@@ -800,8 +808,8 @@ function Character:is_emblem()
     return (self.data.type == "emblem")
 end
 
-function Character:is_entwinned()
-    return (self.data.type == "entwinned")
+function Character:is_entwined()
+    return (self.data.type == "entwined")
 end
 
 function Character:has_resplendent()
