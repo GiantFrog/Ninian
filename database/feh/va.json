@@ -20672,7 +20672,11 @@
       "Y Tiki",
       "Attuned Tiki",
       "Ancient Tiki",
-      "tiki11"
+      "tiki11",
+      "Resplendent Naga",
+      "Resp Naga",
+      "R Naga",
+      "Naga (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "tiki",
@@ -20926,12 +20930,17 @@
       "Y Tiki",
       "Attuned Tiki",
       "Ancient Tiki",
-      "tiki11"
+      "tiki11",
+      "Resplendent Naga",
+      "Resp Naga",
+      "R Naga",
+      "Naga (Resplendent)"
     ],
     "heroes": {
       "naga": "<:Blue_Breath:1124845312637403236>Naga",
       "naga2": "<:Colorless_Breath:1124845679076978798>Halloween Naga",
       "naga3": "<:Colorless_Breath:1124845679076978798>Young Naga",
+      "nagaR": "<:Blue_Breath:1124845312637403236>Naga (Resplendent)",
       "tiki": "<:Red_Breath:1124846247673610240>Young Tiki",
       "tiki10": "<:Colorless_Breath:1124845679076978798>Harmonic Adult Tiki",
       "tiki11": "<:Green_Breath:1124845770978361425>Attuned Young Tiki",

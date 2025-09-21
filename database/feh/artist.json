@@ -24697,7 +24697,11 @@
       "Resplendent Henry",
       "Resp Henry",
       "R Henry",
-      "Henry (Resplendent)"
+      "Henry (Resplendent)",
+      "Resplendent Naga",
+      "Resp Naga",
+      "R Naga",
+      "Naga (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Normal Gaia",
@@ -24819,7 +24823,11 @@
       "Resplendent Henry",
       "Resp Henry",
       "R Henry",
-      "Henry (Resplendent)"
+      "Henry (Resplendent)",
+      "Resplendent Naga",
+      "Resp Naga",
+      "R Naga",
+      "Naga (Resplendent)"
     ],
     "heroes": {
       "alfonse4": "<:Green_Tome:1124845959873036289>Valentines Alfonse",
@@ -24847,6 +24855,7 @@
       "matthis": "<:Blue_Lance:1124845569496584302>Matthis",
       "melady": "<:Blue_Lance:1124845569496584302>Melady",
       "merricR": "<:Green_Tome:1124845959873036289>Merric (Resplendent)",
+      "nagaR": "<:Blue_Breath:1124845312637403236>Naga (Resplendent)",
       "navarre2": "<:Blue_Lance:1124845569496584302>Ninja Navarre",
       "noah": "<:Blue_Lance:1124845569496584302>Noah",
       "odinR": "<:Blue_Tome:1124845593211191297>Odin (Resplendent)",
