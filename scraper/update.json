@@ -1,213 +1,382 @@
 {
-  "c\u00e9line2": {
-    "name": "C\u00e9line",
-    "title": "Blissful Tea Party",
-    "description": "Princess of Firene. Serves the ultimate tea that grants deep satisfaction to any who drink it. Appears in Fire Emblem Engage.",
-    "origin": "Engage",
-    "artist": "\u732b\u9b5a\u304b\u3080",
-    "move": "Flying",
-    "weapon": "Tome",
-    "color": "Red",
+  "ash3": {
+    "name": "Ash",
+    "title": "Borrowed Power",
+    "description": "Ash, having been granted some power from Mel\u00edai, who is a version of herself from another world, and whom she fights earnestly to save.",
+    "origin": "Heroes",
+    "artist": "u\u4ecb",
+    "move": "Infantry",
+    "weapon": "Beast",
+    "color": "Colorless",
     "duel": false,
-    "id": "1274",
-    "type": false,
-    "version": "9.8",
+    "id": "1288",
+    "type": "entwined",
+    "version": "9.9",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 17,
-      "atk": 10,
-      "spd": 10,
-      "def": 3,
+      "hp": 21,
+      "atk": 13,
+      "spd": 3,
+      "def": 10,
       "res": 11
     },
     "growth": {
-      "hp": 45,
-      "atk": 75,
-      "spd": 85,
-      "def": 30,
-      "res": 70
+      "hp": 55,
+      "atk": 80,
+      "spd": 35,
+      "def": 90,
+      "res": 75
     },
     "superboon": [
-      "hp",
-      "res"
-    ],
-    "superbane": [
-      "atk",
       "def"
     ],
+    "superbane": [
+      "res"
+    ],
     "weapons": {
-      "Fire": "1",
-      "Elfire": "2",
-      "Teapot": "3",
-      "Teapot+": "5"
+      "Whelp (Infantry)": "1",
+      "Yearling (Infantry)": "2",
+      "Adult (Infantry)": "3",
+      "Entwining Horn": "5"
     },
-    "assist": {
-      "Rally Resistance": "3",
-      "Rally Up Res": "4",
-      "Rally Up Res+": "5"
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4",
+      "Flame Wall": "5"
     },
-    "special": {},
     "passive": {
       "A": {
-        "Atk/Spd Catch 1": "2",
-        "Atk/Spd Catch 2": "3",
-        "Atk/Spd Catch 3": "4",
-        "Atk/Spd Mastery": "5"
+        "Distant Counter": "4",
+        "Distant A/D Form": "5"
       },
-      "B": {},
+      "B": {
+        "Laguz Friend 1": "2",
+        "Laguz Friend 2": "3",
+        "Laguz Friend 3": "4",
+        "Laguz Friend 4": "5"
+      },
       "C": {
-        "Spd/Res Rein 1": "1",
-        "Spd/Res Rein 2": "2",
-        "Spd/Res Rein 3": "4"
+        "Heir of Openness": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a5/Celine_Blissful_Tea_Party_Face.webp/revision/latest?cb=20250806042922",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/88/Celine_Blissful_Tea_Party_BtlFace_D.webp/revision/latest?cb=20250806042917",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a2/Celine_Blissful_Tea_Party_BtlFace_C.webp/revision/latest?cb=20250806042912",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8c/Celine_Blissful_Tea_Party_BtlFace.webp/revision/latest?cb=20250806042857"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fb/Ash_Borrowed_Power_Face.webp/revision/latest?cb=20250904052516",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Ash_Borrowed_Power_BtlFace_D.webp/revision/latest?cb=20250904052511",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bb/Ash_Borrowed_Power_BtlFace_C.webp/revision/latest?cb=20250904052506",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8c/Ash_Borrowed_Power_BtlFace.webp/revision/latest?cb=20250904052451"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Blissful Tea Party",
-      "C\u00e9line: Blissful Tea Party",
-      "Maid C\u00e9line",
-      "Tea C\u00e9line",
-      "Butler C\u00e9line",
-      "c\u00e9line2"
+      "Borrowed Power",
+      "Ash: Borrowed Power",
+      "Entwined Ash",
+      "ash3"
     ],
     "HARD_ALT_NAME": [
-      "Blissful Tea Party",
-      "C\u00e9line: Blissful Tea Party",
-      "Maid C\u00e9line",
-      "Tea C\u00e9line",
-      "Butler C\u00e9line",
-      "c\u00e9line2"
+      "Borrowed Power",
+      "Ash: Borrowed Power",
+      "Entwined Ash",
+      "ash3"
     ],
     "gender": "F",
-    "rarity": 4,
-    "pool": "seasonal",
-    "internal_id": "PID_\u304a\u8336\u4f1a\u30bb\u30ea\u30fc\u30cc",
-    "voice": "Rachelle Heger",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u30a2\u30b7\u30e52\u5473\u65b9",
+    "voice": "Lily Emil Lammers",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "elyos"
+      "askr"
     ],
-    "chibi": "fe17",
+    "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "You don't have to use only the high-quality tea leaves. Any tea can be the best if it makes you happy.",
-        "Firene is the preeminent grower of tea. I once snuck out to a village there to see the tea fields for myself.",
-        "I love selecting flowers for the table. Like pretty peonies! Perhaps I should put out your favorite flowers today.",
-        "A legend says that tea in which lucky leaves float will cure any illness. How wonderful would it be if it were true?",
-        "I used to be quite skilled at guessing the origin of different teas when I tasted them.\nI shall have to start from scratch and study up on the teas popular in Askr."
+        "I have been bestowed a new power, and it would be my utmost pleasure to give my very best for everyone.",
+        "I am most grateful to you for providing me with such peace of mind.",
+        "Please do not hesitate to let me know if there is anything that I can assist you with.",
+        "Why, what a lovely day it is. I would very much like to spend this valuable time together with you.",
+        "Mel\u00edai and I are not similar in the slightest. Though I do believe there is something we share in common."
       ],
       "Visit": [
-        "I would like to have tea with you next time, but today I bring you a greeting from [F]."
+        "My sincerest apologies for disturbing you. I have come to deliver greetings from [F]."
       ],
       "Level": [
-        "This makes me happy. A tea with a bright floral aroma would suit these sentiments perfectly.",
-        "I'm pleased with these results. Let us refresh with a fruity tea and continue awhile longer.",
-        "Shall I brew a calming herbal tea?"
+        "If I were to say so myself, I would consider this a satisfactory result.",
+        "I do believe the most important matter is that of moderation.",
+        "I feel utterly ashamed to show my face."
       ],
       "Summon": [
-        "I am C\u00e9line. I feel truly blessed to be invited to a tea party in this world. If it pleases you, I will serve the tea."
+        "I am Ash, retainer to Lord Askr. With this new strength, I wish to be of tremendous service to everyone."
       ],
       "Learn Skill": [
-        "Thank you for treating me to this. It made for a fantastic tea party."
+        "I am exorbitantly grateful to receive such a gift."
       ],
       "Confession": [
-        "Welcome, Summoner. I am delighted you made it today. I will start brewing your favorite tea right away.\nMmm, this aroma. From now on, I will recall this pleasant, relaxing time we spent together when I brew this tea.\nIn Firene, attending tea parties was an official duty, but those were rife with tense formality and subtle politics.\nEnjoying this time with Heroes from other worlds, free of that rivalry, is an exceptionally rare treat for me.\nThank you. If I ever return to days of chaos and war, these memories will strengthen my heart to keep fighting."
+        "Though odd as it may sound, I do feel blessed to have come across a me from another world...\nWe may be the same being, but I am amazed by how different we are due to our vastly different upbringings.\nI was created by Lord Askr to serve all humans. I have not forgotten my duty.\nWhile on this path, I met all these people, overcame hardships, and got to know true joy and sadness.\nMy heart aches with pity, considering how lonesome Mel\u00edai must have been. Which is precisely why...\nI would like to offer my assistance so that she, too, may feel the joy of life and be able to share that with others."
       ],
       "Special": [
-        "Tea-party time!",
-        "Now, drink up!",
-        "A joyous fragrance...",
-        "Teatime engage!"
+        "Please excuse me!",
+        "Kindly refrain!",
+        "Show some restraint.",
+        "I will serve."
       ],
       "Status": [
-        "*giggle*",
-        "I changed clothes to serve as a tea party hostess... This outfit suits me, don't you agree?",
-        "Oh! It would be awful if I spilled the tea. Please be patient and partake of some confections.",
-        "You would like another cup? These tea leaves do have the most wonderful floral aroma.",
-        "I was always the one being served in Firene, but I actually longed to try being a server myself.",
-        "This is so delicious. I have outdone myself. *giggle* I must have one more taste, just to be sure, of course.",
-        "I remember indulging in tea parties often as a child. I had tea with my mother, my older brother, and...my father...",
-        "I hope you have fun today. I plan to fill your cup to the brim with heartwarming joy."
+        "-",
+        "Um... I may have received more power than I am worthy of. As such, I shall endeavor to give my best for all of you.",
+        "*startle* You must understand how befuddling it is to be caught unawares like that.",
+        "While I recognize that Mel\u00edai may be me from another world, I am utterly baffled by how different we are.",
+        "I am positively bursting with joy at being able to work on behalf of everyone.",
+        "I do feel a profound pity for Mel\u00edai, having to live without knowing Lord Askr's love.",
+        "Lord Askr...Father...please watch over us.",
+        "I would be most pleased if you would allow me to stay by your side for a long time to come."
       ],
       "Map Select": [
-        "Yes.",
-        "Another pour?",
-        "A lovely aroma."
+        "Your need is clear.",
+        "A time for prudence...",
+        "Then I shall do so."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Maid C\u00e9line",
-    "SEARCH_NAME": "Maid C\u00e9line",
-    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Maid C\u00e9line",
+    "short_name": "Ash",
+    "SEARCH_NAME": "Ash",
+    "DISPLAY_NAME": "<:Colorless_Beast:1124845615935918110>Ash",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "celine"
+      "ash",
+      "ash2"
     ],
     "prf": {
-      "": "teapot",
-      "eff": "teapot",
-      "atk": "teapot",
-      "spd": "teapot",
-      "def": "teapot",
-      "res": "teapot"
+      "": "entwininghorn",
+      "eff": "entwininghorn",
+      "atk": "entwininghorn",
+      "spd": "entwininghorn",
+      "def": "entwininghorn",
+      "res": "entwininghorn"
     }
   },
-  "felix4": {
-    "name": "Felix",
-    "title": "Savant's Service",
-    "description": "Heir to House Fraldarius who fearlessly devotes himself to the way of the sword. How will he master his new role as tea-party server? Appears in Fire Emblem: Three Houses.",
-    "origin": "Three Houses",
-    "artist": "\u306a\u306a\u3075\u3058",
-    "move": "Infantry",
+  "hinoka6": {
+    "name": "Hinoka",
+    "title": "Warrior of Gusto",
+    "description": "A princess of Hoshido who is sincere in all she does. She trains day in and day out, standing up against any who threaten her family. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Essual (\u30a8\u30b7\u30e5\u30a2\u30eb)",
+    "move": "Flying",
     "weapon": "Lance",
     "color": "Blue",
     "duel": false,
-    "id": "1273",
-    "type": false,
-    "version": "9.8",
+    "id": "1290",
+    "type": "rearmed",
+    "version": "9.9",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 19,
-      "atk": 12,
+      "hp": 18,
+      "atk": 11,
       "spd": 9,
       "def": 12,
-      "res": 5
+      "res": 6
     },
     "growth": {
       "hp": 50,
-      "atk": 80,
+      "atk": 85,
       "spd": 90,
-      "def": 60,
-      "res": 45
+      "def": 55,
+      "res": 50
     },
     "superboon": [
-      "spd",
-      "res"
+      "spd"
     ],
     "superbane": [
-      "hp"
+      "hp",
+      "res"
     ],
     "weapons": {
       "Iron Lance": "1",
       "Steel Lance": "2",
       "Silver Lance": "3",
-      "Teatime Lance": "5"
+      "Arcane Crimson": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Draconic Aura": "4",
+      "Haze Slice": "5"
+    },
+    "passive": {
+      "A": {
+        "Blue Skies 1": "2",
+        "Blue Skies 2": "3",
+        "Blue Skies 3": "4",
+        "Blue Skies 4": "5"
+      },
+      "B": {
+        "Aerobatics 1": "2",
+        "Aerobatics 2": "3",
+        "Aerobatics 3": "4",
+        "Air Superiority": "5"
+      },
+      "C": {
+        "Encouragement": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dc/Hinoka_Warrior_of_Gusto_Face.webp/revision/latest?cb=20250916042418",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/84/Hinoka_Warrior_of_Gusto_BtlFace_D.webp/revision/latest?cb=20250916042413",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f0/Hinoka_Warrior_of_Gusto_BtlFace_C.webp/revision/latest?cb=20250916042409",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/73/Hinoka_Warrior_of_Gusto_BtlFace.webp/revision/latest?cb=20250916042353"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Warrior of Gusto",
+      "Hinoka: Warrior of Gusto",
+      "Rearmed Hinoka",
+      "Rearm Hinoka",
+      "Arm Hinoka",
+      "hinoka6"
+    ],
+    "HARD_ALT_NAME": [
+      "Warrior of Gusto",
+      "Hinoka: Warrior of Gusto",
+      "Rearmed Hinoka",
+      "Rearm Hinoka",
+      "Arm Hinoka",
+      "hinoka6"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30d2\u30ce\u30ab",
+    "voice": "Kaori Nazuka",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "I'd like to spend some quiet time with my pegasus, with no thoughts of battle. I should value times like these.",
+        "I was just taking a breather. I don't mind if you want to join me, [S].",
+        "They say to always conduct yourself as if on the battlefield. Call out to me if you see anything suspicious.",
+        "Rice is a great source of energy. I like to eat up before going into battle.",
+        "I aim to be as strong and capable as my siblings. They are truly splendid."
+      ],
+      "Visit": [
+        "Allow me to offer you greetings from [F]."
+      ],
+      "Level": [
+        "You'll have to best me if you want to get past! That is, if you can!",
+        "Come at me all you want and you'll see the full might of a Hoshidan warrior.",
+        "I won't let anyone past me, no matter who comes my way."
+      ],
+      "Summon": [
+        "I am Princess Hinoka of Hoshido. The pride of the Hoshidan royal family resides in my heart. I'm ready to go!"
+      ],
+      "Learn Skill": [
+        "What do you think? I look strong, don't I?"
+      ],
+      "Confession": [
+        "Is it already time to depart for the next battle? It's not a problem for me, I just...\nI feel a little light-headed from the bath I took earlier... I was just trying to cool off...\nOh? I give off a different impression in the castle than in battle? I grew up as a Hoshidan princess, you know.\nI'm in the midst of learning proper word usage, and how to conduct myself appropriately. But...\nIt's common for me to enter battle, so I place more value in warrior aptitude than princess etiquette.\nAnd I would feel weird being treated like a princess now... So I'd like you to deploy me to the front lines.\nDon't hesitate. Got that, [S]?!"
+      ],
+      "Special": [
+        "In one hit!",
+        "Move it!",
+        "No holding back!",
+        "I WILL win this!"
+      ],
+      "Status": [
+        "-",
+        "A new weapon, huh? I'll do my best to live up to it.",
+        "*react* Hey, watch it! It's not nice to mess with people!",
+        "I swear I'll use this power to bring peace to Hoshido\u2014no, to the world.",
+        "I won't neglect my training, no matter what world I'm in. And I'll have no trouble finding a sparring partner here!",
+        "Quit sayin' such sappy things! It's embarrassing.",
+        "Oh Corrin... I wish I knew what your future holds.",
+        "It brings me great joy to battle alongside you for your cause."
+      ],
+      "Map Select": [
+        "Nice.",
+        "And then?",
+        "I won't lose!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Rearmed Hinoka",
+    "SEARCH_NAME": "Rearmed Hinoka",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Rearmed Hinoka",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "hinoka",
+      "hinoka2",
+      "hinoka3",
+      "hinoka4",
+      "hinoka5"
+    ],
+    "prf": {
+      "": "arcanecrimson",
+      "eff": "arcanecrimson",
+      "atk": "arcanecrimson",
+      "spd": "arcanecrimson",
+      "def": "arcanecrimson",
+      "res": "arcanecrimson"
+    }
+  },
+  "ryoma5": {
+    "name": "Ryoma",
+    "title": "Warrior of Bonds",
+    "description": "The first prince of Hoshido, who bears the responsibility of his country. He polishes his technique with his family's unity ever at the forefront of his mind. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Kita Senri (\u5317\u5343\u91cc)",
+    "move": "Infantry",
+    "weapon": "Sword",
+    "color": "Red",
+    "duel": false,
+    "id": "1289",
+    "type": "attuned",
+    "version": "9.9",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 9,
+      "def": 10,
+      "res": 11
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 85,
+      "spd": 90,
+      "def": 60,
+      "res": 50
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "res"
+    ],
+    "weapons": {
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Silver Sword": "3",
+      "Hoshido Raijinto": "5"
     },
     "assist": {},
     "special": {
@@ -217,657 +386,591 @@
     },
     "passive": {
       "A": {
-        "Atk/Spd Ideal 1": "2",
-        "Atk/Spd Ideal 2": "3",
-        "Atk/Spd Ideal 3": "4",
-        "Perfect Atk/Spd": "5"
+        "Darting Blow 1": "2",
+        "Darting Blow 2": "3",
+        "Darting Blow 3": "4",
+        "Duelist's Blow": "5"
       },
       "B": {
-        "True Lone Wolf": "5"
+        "Bushido Tenet": "5"
       },
       "C": {
-        "Odd Tempest 1": "2",
-        "Odd Tempest 2": "3",
-        "Odd Tempest 3": "4",
-        "Tempest Burst": "5"
+        "Atk/Spd Oath 1": "2",
+        "Atk/Spd Oath 2": "3",
+        "Atk/Spd Oath 3": "4",
+        "Atk/Spd Faith": "5"
       },
-      "X": {}
+      "X": {
+        "Tumultuous Echo": "5"
+      }
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/52/Felix_Savants_Service_Face.webp/revision/latest?cb=20250806042812",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Felix_Savants_Service_BtlFace_D.webp/revision/latest?cb=20250806042807",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/66/Felix_Savants_Service_BtlFace_C.webp/revision/latest?cb=20250806042802",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/96/Felix_Savants_Service_BtlFace.webp/revision/latest?cb=20250806042747"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5c/Ryoma_Warrior_of_Bonds_Face.webp/revision/latest?cb=20250916042343",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/40/Ryoma_Warrior_of_Bonds_BtlFace_D.webp/revision/latest?cb=20250916042338",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/47/Ryoma_Warrior_of_Bonds_BtlFace_C.webp/revision/latest?cb=20250916042333",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ed/Ryoma_Warrior_of_Bonds_BtlFace.webp/revision/latest?cb=20250916042318"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Savant's Service",
-      "Felix: Savant's Service",
-      "Maid Felix",
-      "Tea Felix",
-      "Butler Felix",
-      "felix4"
+      "Warrior of Bonds",
+      "Ryoma: Warrior of Bonds",
+      "Attuned Ryoma",
+      "ryoma5"
     ],
     "HARD_ALT_NAME": [
-      "Savant's Service",
-      "Felix: Savant's Service",
-      "Maid Felix",
-      "Tea Felix",
-      "Butler Felix",
-      "felix4"
+      "Warrior of Bonds",
+      "Ryoma: Warrior of Bonds",
+      "Attuned Ryoma",
+      "ryoma5"
     ],
     "gender": "M",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u304a\u8336\u4f1a\u30d5\u30a7\u30ea\u30af\u30b9",
-    "voice": "Lucien Dodge",
+    "pool": "focus",
+    "internal_id": "PID_\u97ff\u5fc3\u30ea\u30e7\u30a6\u30de",
+    "voice": "Matt Mercer",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fodlan"
+      "fates"
     ],
-    "chibi": "fodlan",
+    "chibi": "fe13",
     "quotes": {
       "Castle Hall": [
-        "I must never allow Ingrid, the boar, or any of the others to see me wearing this... Especially not Sylvain...",
-        "If you have time for tea, go practice swordsmanship instead. That's how I live and how I plan to keep living.",
-        "I have to choose the right tea leaves for the tea... You appear to be idle. You can accompany me as I do so.",
-        "I prefer practical clothing. But, if the tea party requires this, I will merely note my objection for the record.",
-        "This tea set is of exceptional quality. Like a fine weapon, if it is handled with skill, its quality shines through."
+        "As the eldest son of the Hoshidan royal family, I strive to bring everyone together for solidarity.",
+        "Hinoka fights with valor now, but she was quite a crybaby when she was little. She embraces her emotions.",
+        "Takumi lacks a little self-awareness, but I believe he will become stronger given time.",
+        "Azura guards her heart. Even when we spent time together as siblings, I sensed a distance between us.",
+        "Sakura, the youngest, is kind-hearted. She is always prioritizing others. It is an admirable, yet worrisome, trait."
       ],
       "Visit": [
-        "So you're the one who requested my exceptional tea service. This blend blew away [F].\nGive it a taste."
+        "It is [S], right?\nI hope you will continue to be friends with [F]."
       ],
       "Level": [
-        "This is my signature brew. Go on, have a sip!",
-        "You'll never catch me serving tea at the wrong temperature.",
-        "What's with that dissatisfied scowl? Hold on! I'll pour you another cup!"
+        "We siblings hold strong bonds. We are the souls of Hoshido, linked by Corrin. There is no foe we fear!",
+        "Strength isn't solely skill or power. It requires strength of heart to strike down foes without faltering.",
+        "Ahh! No, I must not hesitate if I aim to grow stronger..."
       ],
       "Summon": [
-        "I'm Felix, and today I'm serving as a waiter. If you want some of my tea, show me a resolve worthy of it."
+        "My bonds with my siblings make me stronger. No matter the foe, I will not back down!\nI, Ryoma, high prince of Hoshido, will forge ahead!"
       ],
       "Learn Skill": [
-        "Hmph. I'm not sure what you hoped for, but I can thank you with this cup of hot tea."
+        "You have my gratitude, Summoner. I hope we can form a relationship built on mutual respect."
       ],
       "Confession": [
-        "When talk of this server business reached me, I thought you had lost your mind.\nHave you never heard the saying \"find the right person for the job\"?\nMy duty as a server began before I was convinced there was any point... but then I noticed something.\nAbove all, a server must focus on the needs of their customers. That's an expectation I can easily meet.\nYou must keep a watchful eye on all your customers and promptly assess their needs at any moment.\nAs in battle, you can't win by blindly swinging a sword. It's crucial to be able to read your foe's intentions.\nWhile serving, I refined situational observation skills I can make use of as I follow the path of the sword."
+        "Summoner. That inquisitive gaze... Did you wish to ask me something about this ring?\nLong ago, my siblings and I had it crafted and we made a vow.\nThat vow was to present the ring to Corrin upon our safe reunion. It is something of a luck charm.\nI believe we siblings\u2014Hoshidan and Nohrian\u2014can bring joy to the world if we join together around Corrin.\nI am considering a similar ring for the day when I can finally welcome you to Hoshido, [S].\nThat is how much I value our bond. We, too, are siblings."
       ],
       "Special": [
-        "Tea service up!",
-        "Drink more.",
-        "Have a tea cake.",
-        "Take a load off."
+        "On our bond!",
+        "I will protect them!",
+        "For the fate of all.",
+        "I'll not back down."
       ],
       "Status": [
-        "Mm...",
-        "You aren't familiar with the saying, \"The right person for the right job,\" are you? I'll do what you ask, but...",
-        "Watch it! Can't you see I'm holding a tea set?!",
-        "If you have time to drown yourself in tea... Well, whatever. I'll keep my thoughts to myself.",
-        "Slacking off? Of course not. I am waiting for the tea pot to heat up.",
-        "No matter how many tea cakes I bring, they vanish immediately. I don't understand.",
-        "I have seen many kingdoms devastated by war. But this is different... Could this be what peace looks like?",
-        "You may drink the tea I've poured. I can't guarantee you'll enjoy the taste, though."
+        "-",
+        "Apparently, this outfit represents my bond with my siblings.",
+        "Hm? Use caution. You will find this armor has sharp edges.",
+        "My siblings have grown to possess such strength and kindness. I am extremely proud of them.",
+        "We are greater than Nohr in many ways. Even when it comes to familial bonds.",
+        "I must devote myself to perfecting my swordsmanship so that I can protect everyone.",
+        "Corrin...such an enigmatic child...with a fate shrouded in mystery.",
+        "Strange. I sense a bond between us that is not unlike those I have with my siblings."
       ],
       "Map Select": [
-        "Right away.",
-        "Next is...",
-        "Still brewing..."
+        "Very well.",
+        "A dilemma indeed...",
+        "I'll clear a path."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Butler Felix",
-    "SEARCH_NAME": "Butler Felix",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Butler Felix",
+    "short_name": "Attuned Ryoma",
+    "SEARCH_NAME": "Attuned Ryoma",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Attuned Ryoma",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "felix",
-      "felix2",
-      "felix3"
+      "ryoma",
+      "ryoma2",
+      "ryoma3",
+      "ryoma4"
     ],
     "prf": {
-      "": "teatimelance",
-      "eff": "teatimelance",
-      "atk": "teatimelance",
-      "spd": "teatimelance",
-      "def": "teatimelance",
-      "res": "teatimelance"
+      "": "hoshidoraijinto",
+      "eff": "hoshidoraijinto",
+      "atk": "hoshidoraijinto",
+      "spd": "hoshidoraijinto",
+      "def": "hoshidoraijinto",
+      "res": "hoshidoraijinto"
     }
   },
-  "ingrid4": {
-    "name": "Ingrid",
-    "title": "Cordial Teatime",
-    "description": "Ingrid, daughter of Count Galatea, and Nanna, princess of House Nordion, fill the roles of servers with an air of relaxation. They appear in Fire Emblem: Three Houses / Fire Emblem: Thracia 776.",
-    "origin": "Thracia 776 + Three Houses",
-    "artist": "Siino",
-    "move": "Cavalry",
+  "scarlet": {
+    "name": "Scarlet",
+    "title": "Rebellious Streak",
+    "description": "A knight from Cheve who leads a group of resistance fighters against the army of Nohr. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Yuko (\u5915\u5b50)",
+    "move": "Flying",
     "weapon": "Axe",
     "color": "Green",
     "duel": false,
-    "id": "1272",
+    "id": "1292",
     "type": false,
-    "version": "9.8",
-    "duo": false,
-    "harmonized": "Grants \"unit can move 1 extra space\" to unit (that turn only; does not stack).\nGrants\u3010Resonance: Blades\u3011and\u3010Empathy\u3011to unit and allies from the same titles as unit for 1 turn.\nOnce used, Harmonized Skill cannot be activated again right away. At start of every third turn, if Harmonized Skill has already been used, unit can use Harmonized Skill again.\n(Harmonized Skills can be used by tapping the Harmonized button. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.\n\u3010Empathy\u3011\nGrants bonus to unit's Atk/Spd/Def/Res = number of types of\u3010Bonus\u3011effects, excluding stat bonuses, and\u3010Penalty\u3011effects, excluding stat penalties, active on player team and enemy team during combat (max 7).\n\u3010Bonus\u3011\nAll effects that last \"for 1 turn\" or \"that turn only.\" Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 11,
-      "spd": 9,
-      "def": 11,
-      "res": 4
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 90,
-      "def": 55,
-      "res": 40
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp"
-    ],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Silver Spoon": "5"
-    },
-    "assist": {
-      "Rally Defense": "3",
-      "Rally Up Def": "4",
-      "Rally Up Def+": "5"
-    },
-    "special": {
-      "Dragon Gaze": "3",
-      "Draconic Aura": "4",
-      "Haze Slice": "5"
-    },
-    "passive": {
-      "A": {
-        "Lady Knight": "5"
-      },
-      "B": {
-        "Flow Refresh 1": "2",
-        "Flow Refresh 2": "3",
-        "Flow Refresh 3": "4",
-        "Potent Assault": "5"
-      },
-      "C": {
-        "Hone Spd 1": "2",
-        "Hone Spd 2": "3",
-        "Hone Spd 3": "4",
-        "A/S Outcry Dull": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bc/Ingrid_Cordial_Teatime_Face.webp/revision/latest?cb=20250806042847",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2c/Ingrid_Cordial_Teatime_BtlFace_D.webp/revision/latest?cb=20250806042842",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f2/Ingrid_Cordial_Teatime_BtlFace_C.webp/revision/latest?cb=20250806042837",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/68/Ingrid_Cordial_Teatime_BtlFace.webp/revision/latest?cb=20250806042822"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Cordial Teatime",
-      "Ingrid: Cordial Teatime",
-      "Maid Ingrid",
-      "Tea Ingrid",
-      "Butler Ingrid",
-      "ingrid4"
-    ],
-    "HARD_ALT_NAME": [
-      "Cordial Teatime",
-      "Ingrid: Cordial Teatime",
-      "Maid Ingrid",
-      "Tea Ingrid",
-      "Butler Ingrid",
-      "ingrid4"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u53cc\u754c\u30a4\u30f3\u30b0\u30ea\u30c3\u30c8",
-    "voice": "Brittany Cox + \u2014 Voice actor is uncredited in-game.",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "jugdral"
-    ],
-    "chibi": "fe5",
-    "quotes": {
-      "Castle Hall": [
-        "**Ingrid:** What delicious looking tea treats! So colorful... And that sweet aroma... No! I need to wait on the customers first.",
-        "**Ingrid:** The time I spent sipping tea with the professor was precious to me. Those memories help support me now.",
-        "**Nanna:** Ingrid is so earnest about choosing sweets to pair with the tea. I would like to learn from her example.",
-        "**Ingrid:** Princess Nanna, that tea-server outfit looks adorable on you! Seeing you in it makes my heart happy.",
-        "**Nanna:** I would like to express my gratitude to those who have watched over me. Maybe I will repay them with this tea."
-      ],
-      "Visit": [
-        "**Nanna:** I am Nanna of House Nordion. This invitation to tea was placed in my care by [F]."
-      ],
-      "Level": [
-        "**Nanna:** I will give those I love the gift of some extra special time.",
-        "**Ingrid:** I shall proceed along the path of being a bold and just server!",
-        "**Nanna:** I am sorry, it seems I got the blend of tea leaves all wrong..."
-      ],
-      "Summon": [
-        "Are you prepared, Princess Nanna? I am here to aid you. We shall do a grand job fulfilling the role of servers!"
-      ],
-      "Learn Skill": [
-        "**Ingrid:** What kind of tea party sweet is this?! Princess Nanna, um, m-may I try just one little bite? Please."
-      ],
-      "Confession": [
-        "**Ingrid:** Princess Nanna, as someone devoted to becoming a knight, I found the tale of Ho\u00f0r, the black knight, fascinating!\n**Nanna:** If there is time, I have more stories of the legendary 12 crusaders to tell. Perhaps I could share them over tea?\n**Ingrid:** Yes! I would be delighted to prepare the tea for that. I have learned so much about brewing and serving it.\n**Nanna:** Oh? I would also like to brew tea for you sometime. I am more confident in my ability to prepare it now.\n**Ingrid:** Well then, let us make some tea and take turns serving one another?\n**Nanna:** Haha! That sounds like a lovely time, indeed. I look forward to tasting the tea you prepare for me, Ingrid."
-      ],
-      "Special": [
-        "**Duo:** Our hospitality.",
-        "**Duo:** Enjoy... This moment.",
-        "**Ingrid:** I can pour!",
-        "**Nanna:** Is it delicious?"
-      ],
-      "Status": [
-        "Hm?",
-        "\"So many delicious looking sweets... No. Today, I am the server.\" \"Um, Ingrid, are you all right?\""
-      ],
-      "Map Select": [
-        "Oh?",
-        "Would you like more?",
-        "Yes, right away."
-      ],
-      "Conversation": [
-        "**Ingrid:** This is delicious! Princess Nanna, you excel at making tea.",
-        "**Nanna:** Ah, it is nothing. I am used to serving tea to my father and Lord Leif.",
-        "**Ingrid:** Ah, that makes perfect sense. I heard that Lord Leif is a childhood friend of yours.",
-        "**Nanna:** Yes. We grew up around each other. He has always been kind.",
-        "He's also very enthusiastic about the art of combat and his studies. I have great respect for him.",
-        "**Ingrid:** Uh, he sounds wonderful, especially when compared to some of my childhood friends.",
-        "**Nanna:** Did they cause you trouble?",
-        "**Ingrid:** Not that much. There are many things I can respect them for now, but...",
-        "They could still benefit from some... self-improvement, and can be a lot to deal with at times.",
-        "**Nanna:** Oh dear. That must be difficult. At the same time, it sounds as if it could be entertaining.",
-        "**Ingrid:** Heh, I suppose it does keep things from getting boring.",
-        "**Nanna:** Will they also be attending the tea service today?",
-        "**Ingrid:** I believe they are coming. They can't pass up an opportunity to give me a hard time while I'm serving tea.",
-        "**Nanna:** I am looking forward to it. You must introduce me.",
-        "**Ingrid:** I will. Also, um... Before they arrive, would you be willing to teach me the proper way to brew tea?",
-        "I'd like to prepare the tea for my friends myself.",
-        "**Nanna:** I would be happy to show you! Let us make this a lovely little tea party."
-      ],
-      "Duo Skill": [
-        "\"Please\" \"Have more\"",
-        "\"Oh! The sweets!\" \"What?\""
-      ],
-      "Back Unit Supporting": [
-        "You can do this.",
-        "How reliable."
-      ],
-      "resplendent": {}
-    },
-    "short_name": "Maid Ingrid",
-    "SEARCH_NAME": "Maid Ingrid",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Maid Ingrid",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "ingrid",
-      "ingrid2",
-      "ingrid3"
-    ],
-    "prf": {
-      "": "silverspoon",
-      "eff": "silverspoon",
-      "atk": "silverspoon",
-      "spd": "silverspoon",
-      "def": "silverspoon",
-      "res": "silverspoon"
-    }
-  },
-  "veronica6": {
-    "name": "Veronica",
-    "title": "Royal Reception",
-    "description": "Imperial princess of the Emblian Empire. Hosts a tea party, acting as server, to deepen her ties with Askr, which she once was hostile toward.",
-    "origin": "Heroes",
-    "artist": "Kippu (\u5207\u7b26)",
-    "move": "Cavalry",
-    "weapon": "Tome",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1275",
-    "type": false,
-    "version": "9.8",
+    "version": "9.9",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 16,
-      "atk": 12,
-      "spd": 9,
-      "def": 6,
+      "hp": 18,
+      "atk": 9,
+      "spd": 11,
+      "def": 12,
       "res": 6
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 80,
+      "def": 75,
+      "res": 35
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp",
+      "def"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Doubler Axe": "3",
+      "Doubler Axe+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {
+        "Spd/Def Catch 1": "1",
+        "Spd/Def Catch 2": "2",
+        "Spd/Def Catch 3": "4"
+      },
+      "B": {
+        "Flow Flight 1": "3",
+        "Flow Flight 2": "4",
+        "Flow Flight 3": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/94/Scarlet_Rebellious_Streak_Face.webp/revision/latest?cb=20250916042528",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ef/Scarlet_Rebellious_Streak_BtlFace_D.webp/revision/latest?cb=20250916042523",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/74/Scarlet_Rebellious_Streak_BtlFace_C.webp/revision/latest?cb=20250916042518",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f5/Scarlet_Rebellious_Streak_BtlFace.webp/revision/latest?cb=20250916042503"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Rebellious Streak",
+      "Scarlet: Rebellious Streak",
+      "scarlet"
+    ],
+    "HARD_ALT_NAME": [
+      "Rebellious Streak",
+      "Scarlet: Rebellious Streak",
+      "scarlet"
+    ],
+    "gender": "F",
+    "rarity": 4,
+    "pool": "",
+    "internal_id": "PID_\u30af\u30ea\u30e0\u30be\u30f3",
+    "voice": "Marcella Lentz-Pope",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "This castle is top-notch. I could stay here forever.",
+        "If we let ourselves be pinned down, we'll be treated this way forever. We must strike the throat of our enemy!",
+        "Seems like you're always on the go, [S]!",
+        "This world's accessories are looking pretty sharp! Heh. They match my style.",
+        "If I smash these rocks apart, I can get at the good stuff. The sparkling bits sure pretty up my weapon!"
+      ],
+      "Visit": [
+        "Hah! This castle is pretty neat. I've come with greetings for you from [F]!"
+      ],
+      "Level": [
+        "Bring it, world! Show me what you've got!",
+        "Obviously, I keep getting better!",
+        "Hey, this is nothing to fret over. Better luck next time!"
+      ],
+      "Summon": [
+        "I'm Scarlet. Cheve will not yield to Nohr\u2014I'll make sure of it. I will achieve freedom for my people!"
+      ],
+      "Learn Skill": [
+        "For me? Gotta say, nice choice!"
+      ],
+      "Confession": [
+        "It's almost that time again to pretty up my little friend... Now, hold still... It won't hurt... Ah!\nOh it's you, [S]!\nAs you can see, I'm smashing some rocks apart. You see, the sparkly bits are all mixed in with the rest.\nFirst, I set my friend\u2014my weapon\u2014 down. Then I slather on some of this magical liquid.\nOnce it's all coated, I stick on the shiny fragments. Decorating like this is probably my favorite hobby...\nHey, you should try it some time. Come on. It'll be a nice change of pace!"
+      ],
+      "Special": [
+        "You went and got me mad.",
+        "It's on now!",
+        "I'll get all Nohrian on you!",
+        "Time to show off!"
+      ],
+      "Status": [
+        "-",
+        "I'm Scarlet, by the way. I'm a self-taught fighter, but I'm confident in my abilities.",
+        "Whoa! Heh. Not bad.",
+        "I won't let Nohr oppress my people any longer. For freedom!",
+        "When I found out Ryoma was a Hoshidan prince... Well, it was surprising, to say the least.",
+        "The enemy of my enemy is my friend. Heh, don't sweat it. I'm on your side.",
+        "It's tradition among the knights of Cheve to pin on a flower whenever one faces a monumental event.",
+        "You're pretty special, getting everyone to follow you around like this. But...you're not quite as special as Ryoma."
+      ],
+      "Map Select": [
+        "Right on!",
+        "You OK?",
+        "Looks fantastic!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Scarlet",
+    "SEARCH_NAME": "Scarlet",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Scarlet",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "doubleraxe",
+      "eff": "doubleraxe",
+      "atk": "doubleraxe",
+      "spd": "doubleraxe",
+      "def": "doubleraxe",
+      "res": "doubleraxe"
+    }
+  },
+  "shura": {
+    "name": "Shura",
+    "title": "Righteous Rebel",
+    "description": "Survivor of the ruined nation of Kohga. Now a thief in Nohr, he dreams of rebuilding his homeland. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Meka (\u3081\u304b)",
+    "move": "Infantry",
+    "weapon": "Bow",
+    "color": "Green",
+    "duel": false,
+    "id": "1291",
+    "type": false,
+    "version": "9.9",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 9,
+      "def": 4,
+      "res": 14
     },
     "growth": {
       "hp": 50,
       "atk": 80,
       "spd": 90,
       "def": 35,
-      "res": 45
+      "res": 75
     },
     "superboon": [
-      "spd",
-      "res"
+      "spd"
     ],
     "superbane": [
-      "hp"
+      "hp",
+      "res"
     ],
     "weapons": {
-      "Stone": "1",
-      "Elstone": "2",
-      "Atlas": "3",
-      "Princess Teapot": "5"
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Discord Bow": "3",
+      "Discord Bow+": "5"
     },
-    "assist": {
-      "Reposition": "3"
-    },
+    "assist": {},
     "special": {
-      "Retribution": "3",
-      "Reprisal": "4",
-      "Immurement": "5"
+      "Chilling Wind": "3",
+      "Glacies": "4"
     },
     "passive": {
-      "A": {
-        "Death Blow 1": "2",
-        "Swift Sparrow 1": "3",
-        "Swift Sparrow 2": "4",
-        "Sly Swift Sparrow": "5"
-      },
+      "A": {},
       "B": {
-        "Spd/Res Snag 1": "2",
-        "Spd/Res Snag 2": "3",
-        "Spd/Res Snag 3": "4",
-        "Spd/Res Detect": "5"
+        "Spd/Def Tempo 1": "3",
+        "Spd/Def Tempo 2": "4",
+        "Spd/Def Tempo 3": "5"
       },
       "C": {
-        "Hone Spd 1": "2",
-        "Hone Spd 2": "3",
-        "Hone Spd 3": "4",
-        "A/S Incite Hone": "5"
+        "Spd Ploy 1": "1",
+        "Spd Ploy 2": "2",
+        "Spd Ploy 3": "4"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Veronica_Royal_Reception_Face.webp/revision/latest?cb=20250806042627",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f5/Veronica_Royal_Reception_BtlFace_D.webp/revision/latest?cb=20250806042622",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/00/Veronica_Royal_Reception_BtlFace_C.webp/revision/latest?cb=20250806042617",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/aa/Veronica_Royal_Reception_BtlFace.webp/revision/latest?cb=20250806042602"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e9/Shura_Righteous_Rebel_Face.webp/revision/latest?cb=20250916042453",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Shura_Righteous_Rebel_BtlFace_D.webp/revision/latest?cb=20250916042448",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e8/Shura_Righteous_Rebel_BtlFace_C.webp/revision/latest?cb=20250916042443",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a7/Shura_Righteous_Rebel_BtlFace.webp/revision/latest?cb=20250916042428"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Royal Reception",
-      "Veronica: Royal Reception",
-      "Maid Veronica",
-      "Tea Veronica",
-      "Butler Veronica",
-      "veronica6"
+      "Righteous Rebel",
+      "Shura: Righteous Rebel",
+      "boots",
+      "shura"
     ],
     "HARD_ALT_NAME": [
-      "Royal Reception",
-      "Veronica: Royal Reception",
-      "Maid Veronica",
-      "Tea Veronica",
-      "Butler Veronica",
-      "veronica6"
+      "Righteous Rebel",
+      "Shura: Righteous Rebel",
+      "boots",
+      "shura"
     ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u304a\u8336\u4f1a\u30f4\u30a7\u30ed\u30cb\u30ab2",
-    "voice": "Wendee Lee",
+    "gender": "M",
+    "rarity": 4,
+    "pool": "",
+    "internal_id": "PID_\u30a2\u30b7\u30e5\u30e9",
+    "voice": "Mick Wingert",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "askr"
+      "fates"
     ],
-    "chibi": "heroes",
+    "chibi": "fe13",
     "quotes": {
       "Castle Hall": [
-        "What a pleasant aroma. Tea calms the heart, soothes the nerves...and in time, brings tranquility.",
-        "I can't believe I'm here, drinking tea with...friends.",
-        "I am sorry I broke a cup... What? Don't be down? OK. I'll be more careful next time.",
-        "This outfit is lovely... I think I prefer it to what I usually wear.",
-        "I would like to have a tea party with my brother and sister someday. I wonder if they would enjoy my tea..."
+        "You call us Heroes, but there are all types here. Royalty, nobles, knights, even a few outlaws, like me.\nEven a few people who have lost their homelands...",
+        "I was born a ninja in Hoshido, but I lived as an outlaw in Nohr. I'm one of Kohga's surviving few.",
+        "Be careful when you go out on patrols. Your life actually has value, so don't go dying a careless death.",
+        "I like listening to people talk about their homelands. If you've got the time, tell me about yours.",
+        "You Hero types sure are a noble bunch. Risking your lives to save a kingdom that's not even your own...\nMakes me regret becoming an outlaw, rather than some upstanding soldier with a righteous cause."
       ],
       "Visit": [
-        "I am Veronica, princess of Embla. This tea party invitation is from [F].\nYou will come, won't you?"
+        "Are you [S]?\nI'm here to deliver a greeting from [F]."
       ],
       "Level": [
-        "May this cup be a bridge that connects Embla and Askr.",
-        "If you would like more, just ask. I will get it for you.",
-        "I am sorry... Was it too hot?"
+        "One step closer to rebuilding Kohga...",
+        "I'm glad I'm getting better.",
+        "I hope your expectations of me aren't too high."
       ],
       "Summon": [
-        "I am Veronica, princess of Embla. I would be happy to develop Embla and Askr's bonds over some tea."
+        "I'm Shura, from Nohr. This place has a noble air about it... I don't think an outlaw like me will fit in."
       ],
       "Learn Skill": [
-        "I've learned how to brew a delicious cup of tea."
+        "I'll try to meet your expectations of me, no matter how sparse."
       ],
       "Confession": [
-        "I've thought of many ways the Emblian Empire and the Kingdom of Askr can deepen their bonds...\nBut now I know... Sitting face to face and enjoying tea together, in peace and warmth, is the simplest way.\nTime spent this way builds trust, so bonds grow deeper...\nI'm still not used to this, but... I wish for those who drink my tea to enjoy it. That would make me truly happy."
+        "You on patrol? You spend a lot of time checking up on everyone, but you should get out sometime.\nI headed out just the other day. Took a look around Askr, went people watching... I saw some kids playing.\nThey reminded me of my homeland, Kohga... Before it was destroyed.\nWhen you summoned me out of the blue and started calling me a Hero, I was sure you were dead wrong.\nI wanted nothing more than to get back to my own world as soon as I could. But, well...\nAfter seeing how much this world has that's worth protecting, and after you dedicated so much time to me...\nI remembered what happiness feels like. Well, I at least remembered that there was a time when I was happy.\nBesides, every time I become stronger, I get one step closer to rebuilding Kohga.\nI guess what I'm trying to say is... Thanks. And keep up the good work."
       ],
       "Special": [
-        "It's teatime...",
-        "Another serving?",
-        "Don't burn yourself.",
-        "Having fun?"
+        "No one beats me!",
+        "It's your time to die!",
+        "I got some fight left!",
+        "It's not gonna be me."
       ],
       "Status": [
-        "Oh.",
-        "If you're having a tea party, I can serve...if you need help...",
-        "*gasp* *sigh* You almost made me spill the tea.",
-        "So many delicious-looking pastries...",
-        "There are so many sorts of teas... I like the ones with a pleasant aroma.",
-        "This outfit is so...cute. And fluttery too.",
-        "I wish I could have tea with Letizia and Bruno...like we used to...",
-        "Have a seat. I'll brew up one of my best teas for you."
+        "-",
+        "Don't waste your time talking to me. There are better people to chat with.",
+        "Me? A Hero? Don't say things like that. I'm not a good person.",
+        "If someone destroyed your homeland, wouldn't you seek revenge?",
+        "You don't have to pat me down like that. I haven't been stealing your things.",
+        "Being stuck here surrounded by all these Heroes... Someone may mistake me for an upstanding citizen.",
+        "I'm not ready to die yet...not 'till Kohga's rebuilt, anyway.",
+        "\"Justice?\" \"Heroes?\" Just words. Or so I thought until I met you."
       ],
       "Map Select": [
-        "As you say.",
-        "This way?",
-        "Need anything?"
+        "Yeah?",
+        "Don't get my hopes up.",
+        "Me?"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Maid Veronica",
-    "SEARCH_NAME": "Maid Veronica",
-    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Maid Veronica",
+    "short_name": "Shura",
+    "SEARCH_NAME": "Shura",
+    "DISPLAY_NAME": "<:Green_Bow:1124845936426897428>Shura",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "veronica",
-      "veronica2",
-      "veronica3",
-      "veronica4",
-      "veronica5"
-    ],
+    "reference": [],
     "prf": {
-      "": "princessteapot",
-      "eff": "princessteapot",
-      "atk": "princessteapot",
-      "spd": "princessteapot",
-      "def": "princessteapot",
-      "res": "princessteapot"
+      "": "discordbow",
+      "eff": "discordbow",
+      "atk": "discordbow",
+      "spd": "discordbow",
+      "def": "discordbow",
+      "res": "discordbow"
     }
   },
-  "finn2": {
-    "name": "Finn",
-    "title": "Devoted Service",
-    "description": "A devoted vassal who serves Leonster's royal family. Trading his trusty lance for a tea set, he puts his skills as server on display. Appears in Fire Emblem: Thracia 776.",
-    "origin": "Thracia 776",
-    "artist": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
-    "move": "Cavalry",
-    "weapon": "Sword",
-    "color": "Red",
+  "haitaka": {
+    "name": "Haitaka",
+    "title": "Persistent General",
+    "description": "A spearman from Hoshido who built an impenetrable defense while protecting Fort Dragonfall. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "\u3081\u3044\u3055\u3044",
+    "move": "Infantry",
+    "weapon": "Lance",
+    "color": "Blue",
     "duel": false,
-    "id": "1276",
+    "id": "1293",
     "type": false,
-    "version": "9.8",
+    "version": "9.9",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 18,
-      "atk": 11,
-      "spd": 13,
-      "def": 7,
-      "res": 4
+      "hp": 19,
+      "atk": 9,
+      "spd": 11,
+      "def": 10,
+      "res": 9
     },
     "growth": {
-      "hp": 50,
-      "atk": 85,
-      "spd": 75,
-      "def": 70,
-      "res": 35
+      "hp": 55,
+      "atk": 90,
+      "spd": 80,
+      "def": 65,
+      "res": 45
     },
     "superboon": [
-      "def"
+      "atk",
+      "res"
     ],
-    "superbane": [
-      "hp",
-      "spd"
-    ],
+    "superbane": [],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Serving Knife": "3",
-      "Serving Knife+": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Hexblade Lance": "3",
+      "Hexblade Lance+": "5"
     },
-    "assist": {
-      "Shove": "3"
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4"
     },
-    "special": {},
     "passive": {
       "A": {
-        "Spd/Def Clash 1": "3",
-        "Spd/Def Clash 2": "4",
-        "Spd/Def Clash 3": "5"
+        "Atk/Spd Prime 1": "3",
+        "Atk/Spd Prime 2": "4",
+        "Atk/Spd Prime 3": "5"
       },
-      "B": {
-        "Spd/Def Snag 1": "1",
-        "Spd/Def Snag 2": "2",
-        "Spd/Def Snag 3": "4"
+      "B": {},
+      "C": {
+        "Odd Def Wave 1": "1",
+        "Odd Def Wave 2": "2",
+        "Odd Def Wave 3": "4"
       },
-      "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d6/Finn_Devoted_Service_Face.webp/revision/latest?cb=20250806042737",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/34/Finn_Devoted_Service_BtlFace_D.webp/revision/latest?cb=20250806042732",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dc/Finn_Devoted_Service_BtlFace_C.webp/revision/latest?cb=20250806042727",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7c/Finn_Devoted_Service_BtlFace.webp/revision/latest?cb=20250806042712"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/ba/Haitaka_Persistent_General_Face.webp/revision/latest?cb=20250916042603",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/04/Haitaka_Persistent_General_BtlFace_D.webp/revision/latest?cb=20250916042558",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ab/Haitaka_Persistent_General_BtlFace_C.webp/revision/latest?cb=20250916042553",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4a/Haitaka_Persistent_General_BtlFace.webp/revision/latest?cb=20250916042538"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Devoted Service",
-      "Finn: Devoted Service",
-      "Maid Finn",
-      "Tea Finn",
-      "Butler Finn",
-      "finn2"
+      "Persistent General",
+      "Haitaka: Persistent General",
+      "haitaka"
     ],
     "HARD_ALT_NAME": [
-      "Devoted Service",
-      "Finn: Devoted Service",
-      "Maid Finn",
-      "Tea Finn",
-      "Butler Finn",
-      "finn2"
+      "Persistent General",
+      "Haitaka: Persistent General",
+      "haitaka"
     ],
     "gender": "M",
-    "rarity": 4,
+    "rarity": 3,
     "pool": "grail",
-    "internal_id": "PID_\u304a\u8336\u4f1a\u30d5\u30a3\u30f3",
-    "voice": "Robert Clotworthy",
+    "internal_id": "PID_\u30cf\u30a4\u30bf\u30ab",
+    "voice": "Ernesto Jason Liebrecht",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "jugdral"
+      "fates"
     ],
-    "chibi": "fe5",
+    "chibi": "fe13",
     "quotes": {
       "Castle Hall": [
-        "I would like to use this opportunity to gift Lord Leif a moment in which he can rest and enjoy a warm cup of tea.",
-        "I know the importance of taking time to appreciate tea. Lord Quan and Lady Ethlyn valued such moments.",
-        "If peace comes to the world, and I no longer have to fight, one thing I plan to enjoy is teatime with my daughter.",
-        "I am not used to such attire, but it would be boorish to don armor for tea. I shall endeavor to wear it well.",
-        "A cup of tea calms the nerves and gives one time to reflect. I would be pleased to aid in that pursuit."
+        "The wars in this world are waged by people not unlike those in my own, so my tactics should still be effective.",
+        "Fort Dragonfall is a natural stronghold made from the decayed remains of an ancient dark dragon.",
+        "I've examined this castle's defense system. I have several suggestions for enhancing its functionality.",
+        "In battle, balance is crucial. You will not suffer defeat if you can control the balance during confrontations.",
+        "Hoshido and Nohr\u2014equal nations in constant conflict. That is the history of the world I know."
       ],
       "Visit": [
-        "I am Finn of Leonster. I bring with me some high-quality tea leaves sent to you by [F]."
+        "You should endeavor to work hard alongside [F]."
       ],
       "Level": [
-        "How is the tea? I pray the time you spend sipping at it will be fruitful for you.",
-        "The path to proper tea cannot be traveled in a single day. I must devote myself to the practice.",
-        "Did I let my guard down?"
+        "My strongest skills are in formulating defensive strategies. The opposite... not so much...",
+        "You must hold your ground without breaking formation. That is essential.",
+        "How...mortifying..."
       ],
       "Summon": [
-        "I am Finn, a knight of Leonster. I am pleased to act as a server for all from the Order of Heroes this day."
+        "I am Haitaka, a Hoshidan general. Let me show you some of my Hoshidan combat techniques."
       ],
       "Learn Skill": [
-        "I shall strive to improve so that I never forget to consider others."
+        "I am grateful for the kindness you show outsiders."
       ],
       "Confession": [
-        "I have spent my days fighting foes as a knight.\nNow I'm learning how warmth and hospitality are essential to providing guests an enjoyable experience.\nIt is an attitude that shares similarities with the loyalty and service a retainer gives to their lord.\nI must consider how I can make the guests smile, or what they might wish for, then make those things a reality.\nIt gives me an opportunity to grow as a person, not only as a knight. I am grateful to you for this experience."
+        "Summoner from another world, I am thankful for this unique opportunity.\nSoldiers of Hoshido polish their techniques for their lords and nation, to defend against the Nohrian army.\nI never considered a way of life other than that. My world was simple.\nBut...I've observed the Heroes in this land and learned of their multifarious reasons for going into battle.\nMy spear is for Hoshido, but for now, I will contemplate the meaning of war as I use it for your sake."
       ],
       "Special": [
-        "Care for some tea?",
-        "Relax and enjoy.",
-        "What comes next...",
-        "It's piping hot."
+        "How about this?",
+        "I won't let you past!",
+        "That's far enough!",
+        "Take this!"
       ],
       "Status": [
-        "Aha.",
-        "I am uncertain if I am suited to be a server, but I will put forth my best effort.",
-        "Oh! Do be careful. If the tea spilled, it could burn someone.",
-        "I would like to ensure that Lord Leif is served the finest tea.",
-        "I believe my daughter would appreciate these beautiful sweets.",
-        "Taking time to enjoy tea can warm...even the depths of one's heart.",
-        "Lord Quan and Lady Ethlyn often conversed over tea...",
-        "It would please me if you tried a cup of the tea I have brewed."
+        "-",
+        "I am Haitaka. Care for a little lesson in Hoshidan combat?",
+        "Hey! What are you up to? Do you have a death wish?",
+        "As if I would allow our beautiful Hoshido to be overrun by Nohrian barbarians.",
+        "King Sumeragi and Queen Mikoto were both extraordinary people.",
+        "Battle is cruel. There is often a chance of being captured by the enemy.",
+        "I can hardly believe I am stuck fighting for an army from another world...",
+        "It seems we are connected by fate. I shall hasten your foes to their graves with my spear."
       ],
       "Map Select": [
-        "I see.",
-        "Another cup?",
-        "We must be attentive."
+        "Following orders.",
+        "What?",
+        "Hmph..."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Butler Finn",
-    "SEARCH_NAME": "Butler Finn",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Butler Finn",
+    "short_name": "Haitaka",
+    "SEARCH_NAME": "Haitaka",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Haitaka",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "finn"
-    ],
+    "reference": [],
     "prf": {
-      "": "servingknife",
-      "eff": "servingknife",
-      "atk": "servingknife",
-      "spd": "servingknife",
-      "def": "servingknife",
-      "res": "servingknife"
+      "": "hexbladelance",
+      "eff": "hexbladelance",
+      "atk": "hexbladelance",
+      "spd": "hexbladelance",
+      "def": "hexbladelance",
+      "res": "hexbladelance"
     }
   }
 }
