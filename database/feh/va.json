@@ -17634,7 +17634,11 @@
       "New years Cow",
       "Warrior Wanderer",
       "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "meliai",
+      "Borrowed Power",
+      "Ash: Borrowed Power",
+      "Entwined Ash",
+      "ash3"
     ],
     "HARD_ALT_NAME": [
       "ash",
@@ -17666,11 +17670,16 @@
       "New years Cow",
       "Warrior Wanderer",
       "Mel\u00edai: Warrior Wanderer",
-      "meliai"
+      "meliai",
+      "Borrowed Power",
+      "Ash: Borrowed Power",
+      "Entwined Ash",
+      "ash3"
     ],
     "heroes": {
       "ash": "<:Colorless_Beast:1124845615935918110>Ash",
       "ash2": "<:Blue_Beast:1124845338688233575>New Year Ash",
+      "ash3": "<:Colorless_Beast:1124845615935918110>Ash",
       "meliai": "<:Green_Beast:1124845912385138738> Mel\u00edai"
     },
     "name": "Lily Emil Lammers"
@@ -18733,7 +18742,10 @@
       "Baby Corrin",
       "Child Corrin",
       "Y Corrin",
-      "corrin16"
+      "corrin16",
+      "Rebellious Streak",
+      "Scarlet: Rebellious Streak",
+      "scarlet"
     ],
     "HARD_ALT_NAME": [
       "corrin2",
@@ -19054,7 +19066,10 @@
       "Baby Corrin",
       "Child Corrin",
       "Y Corrin",
-      "corrin16"
+      "corrin16",
+      "Rebellious Streak",
+      "Scarlet: Rebellious Streak",
+      "scarlet"
     ],
     "heroes": {
       "corrin10": "<:Green_Tome:1124845959873036289>Duo Corrin",
@@ -19067,7 +19082,8 @@
       "corrin6": "<:Green_Breath:1124845770978361425>Adrift Female Corrin",
       "corrin7": "<:Colorless_Breath:1124845679076978798>Fallen Female Corrin",
       "corrin9": "<:Colorless_Breath:1124845679076978798>Legendary Corrin",
-      "priscilla": "<:Colorless_Staff:1124845704444137592>Priscilla"
+      "priscilla": "<:Colorless_Staff:1124845704444137592>Priscilla",
+      "scarlet": "<:Green_Axe:1124845885277343754>Scarlet"
     },
     "name": "Marcella Lentz-Pope"
   },
@@ -19631,7 +19647,11 @@
       "Chrom: Pivotal Blow",
       "Gladiator Chrom",
       "Ferox Chrom",
-      "chrom9"
+      "chrom9",
+      "Warrior of Bonds",
+      "Ryoma: Warrior of Bonds",
+      "Attuned Ryoma",
+      "ryoma5"
     ],
     "HARD_ALT_NAME": [
       "chrom",
@@ -19799,7 +19819,11 @@
       "Chrom: Pivotal Blow",
       "Gladiator Chrom",
       "Ferox Chrom",
-      "chrom9"
+      "chrom9",
+      "Warrior of Bonds",
+      "Ryoma: Warrior of Bonds",
+      "Attuned Ryoma",
+      "ryoma5"
     ],
     "heroes": {
       "azama": "<:Colorless_Staff:1124845704444137592>Azama",
@@ -19820,6 +19844,7 @@
       "ryoma2": "<:Red_Sword:1124846201070698536>Legendary Ryoma",
       "ryoma3": "<:Blue_Dagger:1124845543026335764>Dancer Ryoma",
       "ryoma4": "<:Blue_Lance:1124845569496584302>Bath Ryoma",
+      "ryoma5": "<:Red_Sword:1124846201070698536>Attuned Ryoma",
       "ryomaR": "<:Red_Sword:1124846201070698536>Ryoma (Resplendent)",
       "shigure": "<:Blue_Lance:1124845569496584302>Shigure",
       "shigure2": "<:Blue_Tome:1124845593211191297>Dancer Shigure",
@@ -21665,7 +21690,11 @@
       "Base Jesse",
       "Normal Jesse",
       "Regular Jesse",
-      "jesse"
+      "jesse",
+      "Righteous Rebel",
+      "Shura: Righteous Rebel",
+      "boots",
+      "shura"
     ],
     "HARD_ALT_NAME": [
       "abel",
@@ -21735,7 +21764,11 @@
       "Base Jesse",
       "Normal Jesse",
       "Regular Jesse",
-      "jesse"
+      "jesse",
+      "Righteous Rebel",
+      "Shura: Righteous Rebel",
+      "boots",
+      "shura"
     ],
     "heroes": {
       "abel": "<:Blue_Lance:1124845569496584302>Abel",
@@ -21746,7 +21779,8 @@
       "jeorge": "<:Colorless_Bow:1124845636659982457>Jeorge",
       "jeorgeR": "<:Colorless_Bow:1124845636659982457>Jeorge (Resplendent)",
       "jesse": "<:Red_Sword:1124846201070698536>Jesse",
-      "laslow": "<:Red_Sword:1124846201070698536>Laslow"
+      "laslow": "<:Red_Sword:1124846201070698536>Laslow",
+      "shura": "<:Green_Bow:1124845936426897428>Shura"
     },
     "name": "Mick Wingert"
   },
@@ -31266,6 +31300,44 @@
       "Gladiator Ogma",
       "Ferox Ogma",
       "ogma3"
+    ]
+  },
+  "kaorinazuka": {
+    "heroes": {
+      "hinoka6": "<:Blue_Lance:1124845569496584302>Rearmed Hinoka"
+    },
+    "name": "Kaori Nazuka",
+    "ALT_NAME": [
+      "Warrior of Gusto",
+      "Hinoka: Warrior of Gusto",
+      "Rearmed Hinoka",
+      "Rearm Hinoka",
+      "Arm Hinoka",
+      "hinoka6"
+    ],
+    "HARD_ALT_NAME": [
+      "Warrior of Gusto",
+      "Hinoka: Warrior of Gusto",
+      "Rearmed Hinoka",
+      "Rearm Hinoka",
+      "Arm Hinoka",
+      "hinoka6"
+    ]
+  },
+  "ernestojasonliebrecht": {
+    "heroes": {
+      "haitaka": "<:Blue_Lance:1124845569496584302>Haitaka"
+    },
+    "name": "Ernesto Jason Liebrecht",
+    "ALT_NAME": [
+      "Persistent General",
+      "Haitaka: Persistent General",
+      "haitaka"
+    ],
+    "HARD_ALT_NAME": [
+      "Persistent General",
+      "Haitaka: Persistent General",
+      "haitaka"
     ]
   }
 }
