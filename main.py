@@ -88,19 +88,9 @@ engage = oifey.modules["fe17"]
 
 class SommieButton(maji.Button):
     def action(self, interaction):
-        user = oifey.user.get(-1)
-        
-        if not "sommie" in user:
-            user["sommie"] = 0
-        
-        user["sommie"] += 1
-        
-        oifey.user.update(-1, user)
-        
+        oifey.sql.User(interaction.user.id).pet_sommie()
         edit = self.parent.pages[1]
-        
-        edit.description = edit.description.format(user["sommie"])
-        
+        edit.description = edit.description.format(oifey.sql.sommie_pets())
         super().action(interaction)
 
 async def sommie(ctx):
@@ -115,17 +105,6 @@ async def sommie(ctx):
     
     await multi.send(ctx)
     
-@maji.commands.classic("sommie_set")
-async def sommie_set(ctx):
-    if ctx.author.id != client.owner:
-        return
-        
-    user = oifey.user.get(-1)
-    
-    user["sommie"] = int(ctx.content)
-    
-    oifey.user.update(-1, user)
-    
 engage.special["sommie"] = sommie
 
 # ninian
@@ -133,13 +112,10 @@ fe6 = oifey.modules["fe6"]
 
 async def ninian(ctx):
     embed = maji.Embed()
-        
     embed.attach("image", "database/ninian.png")
-    
     return embed
 
 fe6.special["ninian"] = ninian
-
 fe6.special["you"] = ninian
 
 # lorenz
@@ -167,12 +143,10 @@ fe3 = oifey.modules["fe3"]
 b2 = oifey.modules["b2"]
 
 async def lorenz(ctx):
-    if ctx.content.lower().strip() == "b2 lorenz" or ctx.content.lower().strip() == 'lorenz':
-        embed = maji.Embed()
-
-        embed.attach("image", "database/lorenz.gif")
-    
+    embed = maji.Embed()
+    embed.attach("image", "database/lorenz.gif")
     return embed
+
 fe3.special["b2 lorenz"] = lorenz
 b2.special["lorenz"] = lorenz
 
