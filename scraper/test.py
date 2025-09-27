@@ -9,8 +9,8 @@ obj = {}
 file =  './sk.json'
 
 
-#skill_scrape.upgrade_sp('Brutal Shell+')
-#skill_scrape.upgrade_passive('Worldbreaker+')
+skill_scrape.upgrade_sp('Enclosure II')
+skill_scrape.upgrade_passive('Opened Domain+')
 
 with open(file, 'w') as fp:
     json.dump(obj, fp)
@@ -18,12 +18,6 @@ with open(file, 'w') as fp:
 
 
 units = [
-    "Ash: Borrowed Power",
-    "Hinoka: Warrior of Gusto",
-    "Ryoma: Warrior of Bonds",
-    "Scarlet: Rebellious Streak",
-    "Shura: Righteous Rebel",
-    "Haitaka: Persistent General"
 ]
 
 
