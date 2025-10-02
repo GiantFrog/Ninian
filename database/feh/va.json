@@ -13010,7 +13010,11 @@
       "Hatarian Deen",
       "Hatari Deen",
       "Hatarian Dean",
-      "Hatari Dean"
+      "Hatari Dean",
+      "Resplendent Tibarn",
+      "Resp Tibarn",
+      "R Tibarn",
+      "Tibarn (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "tibarn",
@@ -13050,13 +13054,18 @@
       "Heen",
       "Hatari Deen",
       "Hatarian Dean",
-      "Hatari Dean"
+      "Hatari Dean",
+      "Resplendent Tibarn",
+      "Resp Tibarn",
+      "R Tibarn",
+      "Tibarn (Resplendent)"
     ],
     "heroes": {
       "bantu": "<:Red_Breath:1124846247673610240>Bantu",
       "deen": "<:Colorless_Dagger:1124845658617155734>Hatarian Deen",
       "tibarn": "<:Red_Beast:1124846309208248381>Tibarn",
-      "tibarn2": "<:Colorless_Beast:1124845615935918110>Pirate Tibarn"
+      "tibarn2": "<:Colorless_Beast:1124845615935918110>Pirate Tibarn",
+      "tibarnR": "<:Red_Beast:1124846309208248381>Tibarn (Resplendent)"
     },
     "name": "Joe J. Thomas"
   },

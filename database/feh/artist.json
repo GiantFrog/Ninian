@@ -14920,7 +14920,11 @@
       "New Year Kysha",
       "New years Kysha",
       "New Year Kisa",
-      "New years Kisa"
+      "New years Kisa",
+      "Resplendent Tibarn",
+      "Resp Tibarn",
+      "R Tibarn",
+      "Tibarn (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "solon",
@@ -14952,12 +14956,17 @@
       "New Year Kysha",
       "New years Kysha",
       "New Year Kisa",
-      "New years Kisa"
+      "New years Kisa",
+      "Resplendent Tibarn",
+      "Resp Tibarn",
+      "R Tibarn",
+      "Tibarn (Resplendent)"
     ],
     "heroes": {
       "balthus": "<:Green_Axe:1124845885277343754>Balthus",
       "kyza": "<:Red_Beast:1124846309208248381>New Year Kyza",
-      "solon": "<:Red_Tome:1124846175577710642>Solon"
+      "solon": "<:Red_Tome:1124846175577710642>Solon",
+      "tibarnR": "<:Red_Beast:1124846309208248381>Tibarn (Resplendent)"
     },
     "name": "Maji (\u307e\u3058)"
   },
