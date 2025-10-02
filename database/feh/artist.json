@@ -12786,7 +12786,13 @@
       "I T Fjorm",
       "fjorm6",
       "Duo Fjorm",
-      "D Fjorm"
+      "D Fjorm",
+      "Of Fates",
+      "Corrin: Of Fates",
+      "Emblem Corrin",
+      "Engage Corrin",
+      "E Corrin",
+      "corrin17"
     ],
     "HARD_ALT_NAME": [
       "lena",
@@ -12914,10 +12920,17 @@
       "I T Fjorm",
       "Duo Fjorm",
       "D Fjorm",
-      "fjorm6"
+      "fjorm6",
+      "Of Fates",
+      "Corrin: Of Fates",
+      "Emblem Corrin",
+      "Engage Corrin",
+      "E Corrin",
+      "corrin17"
     ],
     "heroes": {
       "alear3": "<:Green_Breath:1124845770978361425>Legendary Alear",
+      "corrin17": "<:Red_Sword:1124846201070698536>Emblem Corrin",
       "est3": "<:Blue_Lance:1124845569496584302>Valentian Est",
       "fjorm6": "<:Blue_Lance:1124845569496584302>Ice Fjorm",
       "flayn": "<:Colorless_Staff:1124845704444137592>Flayn",
@@ -28734,6 +28747,7 @@
   },
   "keg": {
     "heroes": {
+      "lyn10": "<:Green_Beast:1124845912385138738>Lyn",
       "tharjaR": "<:Red_Tome:1124846175577710642>Tharja (Resplendent)"
     },
     "name": "\uff2b\uff45\uff27",
@@ -28741,13 +28755,27 @@
       "Resplendent Tharja",
       "Resp Tharja",
       "R Tharja",
-      "Tharja (Resplendent)"
+      "Tharja (Resplendent)",
+      "Plains Wind",
+      "Lyn: Plains Wind",
+      "lyn10",
+      "mythic lyn",
+      "horse lyn",
+      "uma lyn",
+      "centaur lyn"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Tharja",
       "Resp Tharja",
       "R Tharja",
-      "Tharja (Resplendent)"
+      "Tharja (Resplendent)",
+      "Plains Wind",
+      "Lyn: Plains Wind",
+      "lyn10",
+      "mythic lyn",
+      "horse lyn",
+      "uma lyn",
+      "centaur lyn"
     ]
   },
   "kou": {

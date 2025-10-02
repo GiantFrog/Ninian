@@ -1,593 +1,102 @@
 {
-  "ash3": {
-    "name": "Ash",
-    "title": "Borrowed Power",
-    "description": "Ash, having been granted some power from Mel\u00edai, who is a version of herself from another world, and whom she fights earnestly to save.",
-    "origin": "Heroes",
-    "artist": "u\u4ecb",
-    "move": "Infantry",
-    "weapon": "Beast",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1288",
-    "type": "entwined",
-    "version": "9.9",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 21,
-      "atk": 13,
-      "spd": 3,
-      "def": 10,
-      "res": 11
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 80,
-      "spd": 35,
-      "def": 90,
-      "res": 75
-    },
-    "superboon": [
-      "def"
-    ],
-    "superbane": [
-      "res"
-    ],
-    "weapons": {
-      "Whelp (Infantry)": "1",
-      "Yearling (Infantry)": "2",
-      "Adult (Infantry)": "3",
-      "Entwining Horn": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "Flame Wall": "5"
-    },
-    "passive": {
-      "A": {
-        "Distant Counter": "4",
-        "Distant A/D Form": "5"
-      },
-      "B": {
-        "Laguz Friend 1": "2",
-        "Laguz Friend 2": "3",
-        "Laguz Friend 3": "4",
-        "Laguz Friend 4": "5"
-      },
-      "C": {
-        "Heir of Openness": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fb/Ash_Borrowed_Power_Face.webp/revision/latest?cb=20250904052516",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Ash_Borrowed_Power_BtlFace_D.webp/revision/latest?cb=20250904052511",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bb/Ash_Borrowed_Power_BtlFace_C.webp/revision/latest?cb=20250904052506",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8c/Ash_Borrowed_Power_BtlFace.webp/revision/latest?cb=20250904052451"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Borrowed Power",
-      "Ash: Borrowed Power",
-      "Entwined Ash",
-      "ash3"
-    ],
-    "HARD_ALT_NAME": [
-      "Borrowed Power",
-      "Ash: Borrowed Power",
-      "Entwined Ash",
-      "ash3"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u30a2\u30b7\u30e52\u5473\u65b9",
-    "voice": "Lily Emil Lammers",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "askr"
-    ],
-    "chibi": "heroes",
-    "quotes": {
-      "Castle Hall": [
-        "I have been bestowed a new power, and it would be my utmost pleasure to give my very best for everyone.",
-        "I am most grateful to you for providing me with such peace of mind.",
-        "Please do not hesitate to let me know if there is anything that I can assist you with.",
-        "Why, what a lovely day it is. I would very much like to spend this valuable time together with you.",
-        "Mel\u00edai and I are not similar in the slightest. Though I do believe there is something we share in common."
-      ],
-      "Visit": [
-        "My sincerest apologies for disturbing you. I have come to deliver greetings from [F]."
-      ],
-      "Level": [
-        "If I were to say so myself, I would consider this a satisfactory result.",
-        "I do believe the most important matter is that of moderation.",
-        "I feel utterly ashamed to show my face."
-      ],
-      "Summon": [
-        "I am Ash, retainer to Lord Askr. With this new strength, I wish to be of tremendous service to everyone."
-      ],
-      "Learn Skill": [
-        "I am exorbitantly grateful to receive such a gift."
-      ],
-      "Confession": [
-        "Though odd as it may sound, I do feel blessed to have come across a me from another world...\nWe may be the same being, but I am amazed by how different we are due to our vastly different upbringings.\nI was created by Lord Askr to serve all humans. I have not forgotten my duty.\nWhile on this path, I met all these people, overcame hardships, and got to know true joy and sadness.\nMy heart aches with pity, considering how lonesome Mel\u00edai must have been. Which is precisely why...\nI would like to offer my assistance so that she, too, may feel the joy of life and be able to share that with others."
-      ],
-      "Special": [
-        "Please excuse me!",
-        "Kindly refrain!",
-        "Show some restraint.",
-        "I will serve."
-      ],
-      "Status": [
-        "-",
-        "Um... I may have received more power than I am worthy of. As such, I shall endeavor to give my best for all of you.",
-        "*startle* You must understand how befuddling it is to be caught unawares like that.",
-        "While I recognize that Mel\u00edai may be me from another world, I am utterly baffled by how different we are.",
-        "I am positively bursting with joy at being able to work on behalf of everyone.",
-        "I do feel a profound pity for Mel\u00edai, having to live without knowing Lord Askr's love.",
-        "Lord Askr...Father...please watch over us.",
-        "I would be most pleased if you would allow me to stay by your side for a long time to come."
-      ],
-      "Map Select": [
-        "Your need is clear.",
-        "A time for prudence...",
-        "Then I shall do so."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Ash",
-    "SEARCH_NAME": "Ash",
-    "DISPLAY_NAME": "<:Colorless_Beast:1124845615935918110>Ash",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "ash",
-      "ash2"
-    ],
-    "prf": {
-      "": "entwininghorn",
-      "eff": "entwininghorn",
-      "atk": "entwininghorn",
-      "spd": "entwininghorn",
-      "def": "entwininghorn",
-      "res": "entwininghorn"
-    }
-  },
-  "hinoka6": {
-    "name": "Hinoka",
-    "title": "Warrior of Gusto",
-    "description": "A princess of Hoshido who is sincere in all she does. She trains day in and day out, standing up against any who threaten her family. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Essual (\u30a8\u30b7\u30e5\u30a2\u30eb)",
-    "move": "Flying",
-    "weapon": "Lance",
-    "color": "Blue",
-    "duel": false,
-    "id": "1290",
-    "type": "rearmed",
-    "version": "9.9",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 11,
-      "spd": 9,
-      "def": 12,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 85,
-      "spd": 90,
-      "def": 55,
-      "res": 50
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "res"
-    ],
-    "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Silver Lance": "3",
-      "Arcane Crimson": "5"
-    },
-    "assist": {},
-    "special": {
-      "Dragon Gaze": "3",
-      "Draconic Aura": "4",
-      "Haze Slice": "5"
-    },
-    "passive": {
-      "A": {
-        "Blue Skies 1": "2",
-        "Blue Skies 2": "3",
-        "Blue Skies 3": "4",
-        "Blue Skies 4": "5"
-      },
-      "B": {
-        "Aerobatics 1": "2",
-        "Aerobatics 2": "3",
-        "Aerobatics 3": "4",
-        "Air Superiority": "5"
-      },
-      "C": {
-        "Encouragement": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dc/Hinoka_Warrior_of_Gusto_Face.webp/revision/latest?cb=20250916042418",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/84/Hinoka_Warrior_of_Gusto_BtlFace_D.webp/revision/latest?cb=20250916042413",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f0/Hinoka_Warrior_of_Gusto_BtlFace_C.webp/revision/latest?cb=20250916042409",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/73/Hinoka_Warrior_of_Gusto_BtlFace.webp/revision/latest?cb=20250916042353"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Warrior of Gusto",
-      "Hinoka: Warrior of Gusto",
-      "Rearmed Hinoka",
-      "Rearm Hinoka",
-      "Arm Hinoka",
-      "hinoka6"
-    ],
-    "HARD_ALT_NAME": [
-      "Warrior of Gusto",
-      "Hinoka: Warrior of Gusto",
-      "Rearmed Hinoka",
-      "Rearm Hinoka",
-      "Arm Hinoka",
-      "hinoka6"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30d2\u30ce\u30ab",
-    "voice": "Kaori Nazuka",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fates"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "I'd like to spend some quiet time with my pegasus, with no thoughts of battle. I should value times like these.",
-        "I was just taking a breather. I don't mind if you want to join me, [S].",
-        "They say to always conduct yourself as if on the battlefield. Call out to me if you see anything suspicious.",
-        "Rice is a great source of energy. I like to eat up before going into battle.",
-        "I aim to be as strong and capable as my siblings. They are truly splendid."
-      ],
-      "Visit": [
-        "Allow me to offer you greetings from [F]."
-      ],
-      "Level": [
-        "You'll have to best me if you want to get past! That is, if you can!",
-        "Come at me all you want and you'll see the full might of a Hoshidan warrior.",
-        "I won't let anyone past me, no matter who comes my way."
-      ],
-      "Summon": [
-        "I am Princess Hinoka of Hoshido. The pride of the Hoshidan royal family resides in my heart. I'm ready to go!"
-      ],
-      "Learn Skill": [
-        "What do you think? I look strong, don't I?"
-      ],
-      "Confession": [
-        "Is it already time to depart for the next battle? It's not a problem for me, I just...\nI feel a little light-headed from the bath I took earlier... I was just trying to cool off...\nOh? I give off a different impression in the castle than in battle? I grew up as a Hoshidan princess, you know.\nI'm in the midst of learning proper word usage, and how to conduct myself appropriately. But...\nIt's common for me to enter battle, so I place more value in warrior aptitude than princess etiquette.\nAnd I would feel weird being treated like a princess now... So I'd like you to deploy me to the front lines.\nDon't hesitate. Got that, [S]?!"
-      ],
-      "Special": [
-        "In one hit!",
-        "Move it!",
-        "No holding back!",
-        "I WILL win this!"
-      ],
-      "Status": [
-        "-",
-        "A new weapon, huh? I'll do my best to live up to it.",
-        "*react* Hey, watch it! It's not nice to mess with people!",
-        "I swear I'll use this power to bring peace to Hoshido\u2014no, to the world.",
-        "I won't neglect my training, no matter what world I'm in. And I'll have no trouble finding a sparring partner here!",
-        "Quit sayin' such sappy things! It's embarrassing.",
-        "Oh Corrin... I wish I knew what your future holds.",
-        "It brings me great joy to battle alongside you for your cause."
-      ],
-      "Map Select": [
-        "Nice.",
-        "And then?",
-        "I won't lose!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rearmed Hinoka",
-    "SEARCH_NAME": "Rearmed Hinoka",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Rearmed Hinoka",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "hinoka",
-      "hinoka2",
-      "hinoka3",
-      "hinoka4",
-      "hinoka5"
-    ],
-    "prf": {
-      "": "arcanecrimson",
-      "eff": "arcanecrimson",
-      "atk": "arcanecrimson",
-      "spd": "arcanecrimson",
-      "def": "arcanecrimson",
-      "res": "arcanecrimson"
-    }
-  },
-  "ryoma5": {
-    "name": "Ryoma",
-    "title": "Warrior of Bonds",
-    "description": "The first prince of Hoshido, who bears the responsibility of his country. He polishes his technique with his family's unity ever at the forefront of his mind. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Kita Senri (\u5317\u5343\u91cc)",
-    "move": "Infantry",
+  "corrin17": {
+    "name": "Corrin",
+    "title": "Of Fates",
+    "description": "One of the Emblems who were summoned to Elyos. Resides in the Ring of the Crux of Fate. Appears in Fire Emblem Fates / Fire Emblem Engage.",
+    "origin": "Fates + Engage",
+    "artist": "Kousei Horiguchi (\u6052\u661f\u30db\u30ea\u30b0\u30c1)",
+    "move": "Armored",
     "weapon": "Sword",
     "color": "Red",
     "duel": false,
-    "id": "1289",
-    "type": "attuned",
-    "version": "9.9",
+    "id": "1294",
+    "type": "emblem",
+    "version": "9.10",
     "duo": false,
     "harmonized": false,
-    "emblem": false,
+    "emblem": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nAt start of enemy phase (except for in Pawns of Loki), if there is no\u3010Divine Vein (Icicle)\u3011 currently applied by unit or allies, applies \u3010Divine Vein (Icicle)\u3011to spaces 2 spaces away from unit for 1 turn (excluding spaces occupied by a foe, destructible terrain other than Divine Vein, or warp spaces in Rival Domains), and \u3010Divine Vein (Vert)\u3011to unit's space and spaces within 3 spaces of unit for 1 turn (excluding spaces with\u3010Divine Vein (Icicle)\u3011applied).\n\u3010Divine Vein (Icicle)\u3011\nApplies the following status on space: Foes treat space as impassable terrain while status is active, but status is destructible (with 1 HP). When destroyed, it changes to \u3010Divine Vein (Vert)\u3011. Allies can move into and occupy space. If any allies occupy spaces with Divine Vein (Icicle) applied, attacks targeting those spaces will hit the ally over destroying the Divine Vein (Icicle).\n\u3010Divine Vein (Vert)\u3011\nApplies the following effects on space for foes: Foe cannot warp from this space or into this space (does not affect units with Pass skills or warp effects from structures like camps and fortresses in Rival Domains). Inflicts \u3010Canto Control\u3011on foes that trigger Canto in this space through their next action. Inflicts Atk/Spd-5 and Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed the foe's maximum Special cooldown).\n\u3010Canto Control\u3011\nIf unit's Range = 1, unit can move 1 space when Canto triggers. If unit's Range = 2, their action ends when Canto triggers.",
     "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 9,
-      "def": 10,
-      "res": 11
+      "hp": 21,
+      "atk": 11,
+      "spd": 16,
+      "def": 4,
+      "res": 10
     },
     "growth": {
       "hp": 50,
-      "atk": 85,
-      "spd": 90,
-      "def": 60,
-      "res": 50
+      "atk": 80,
+      "spd": 75,
+      "def": 50,
+      "res": 90
     },
     "superboon": [
-      "spd"
+      "res"
     ],
     "superbane": [
       "hp",
-      "res"
+      "spd",
+      "def"
     ],
     "weapons": {
       "Iron Sword": "1",
       "Steel Sword": "2",
       "Silver Sword": "3",
-      "Hoshido Raijinto": "5"
+      "Sword of Fate": "5"
     },
     "assist": {},
     "special": {
-      "Night Sky": "3",
-      "Glimmer": "4",
-      "Gust": "5"
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4",
+      "Torrential Roar": "5"
     },
     "passive": {
       "A": {
-        "Darting Blow 1": "2",
-        "Darting Blow 2": "3",
-        "Darting Blow 3": "4",
-        "Duelist's Blow": "5"
+        "Wind Boost 1": "2",
+        "Wind Boost 2": "3",
+        "Wind Boost 3": "4",
+        "Torrential Boost": "5"
       },
       "B": {
-        "Bushido Tenet": "5"
+        "Pair Up 1": "2",
+        "Pair Up 2": "3",
+        "Pair Up 3": "4",
+        "Pair Up 4": "5"
       },
       "C": {
-        "Atk/Spd Oath 1": "2",
-        "Atk/Spd Oath 2": "3",
-        "Atk/Spd Oath 3": "4",
-        "Atk/Spd Faith": "5"
+        "A/R Far Save 1": "2",
+        "A/R Far Save 2": "3",
+        "A/R Far Save 3": "4",
+        "S/R Briar M Save": "5"
       },
-      "X": {
-        "Tumultuous Echo": "5"
-      }
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5c/Ryoma_Warrior_of_Bonds_Face.webp/revision/latest?cb=20250916042343",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/40/Ryoma_Warrior_of_Bonds_BtlFace_D.webp/revision/latest?cb=20250916042338",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/47/Ryoma_Warrior_of_Bonds_BtlFace_C.webp/revision/latest?cb=20250916042333",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ed/Ryoma_Warrior_of_Bonds_BtlFace.webp/revision/latest?cb=20250916042318"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Warrior of Bonds",
-      "Ryoma: Warrior of Bonds",
-      "Attuned Ryoma",
-      "ryoma5"
-    ],
-    "HARD_ALT_NAME": [
-      "Warrior of Bonds",
-      "Ryoma: Warrior of Bonds",
-      "Attuned Ryoma",
-      "ryoma5"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u97ff\u5fc3\u30ea\u30e7\u30a6\u30de",
-    "voice": "Matt Mercer",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fates"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "As the eldest son of the Hoshidan royal family, I strive to bring everyone together for solidarity.",
-        "Hinoka fights with valor now, but she was quite a crybaby when she was little. She embraces her emotions.",
-        "Takumi lacks a little self-awareness, but I believe he will become stronger given time.",
-        "Azura guards her heart. Even when we spent time together as siblings, I sensed a distance between us.",
-        "Sakura, the youngest, is kind-hearted. She is always prioritizing others. It is an admirable, yet worrisome, trait."
-      ],
-      "Visit": [
-        "It is [S], right?\nI hope you will continue to be friends with [F]."
-      ],
-      "Level": [
-        "We siblings hold strong bonds. We are the souls of Hoshido, linked by Corrin. There is no foe we fear!",
-        "Strength isn't solely skill or power. It requires strength of heart to strike down foes without faltering.",
-        "Ahh! No, I must not hesitate if I aim to grow stronger..."
-      ],
-      "Summon": [
-        "My bonds with my siblings make me stronger. No matter the foe, I will not back down!\nI, Ryoma, high prince of Hoshido, will forge ahead!"
-      ],
-      "Learn Skill": [
-        "You have my gratitude, Summoner. I hope we can form a relationship built on mutual respect."
-      ],
-      "Confession": [
-        "Summoner. That inquisitive gaze... Did you wish to ask me something about this ring?\nLong ago, my siblings and I had it crafted and we made a vow.\nThat vow was to present the ring to Corrin upon our safe reunion. It is something of a luck charm.\nI believe we siblings\u2014Hoshidan and Nohrian\u2014can bring joy to the world if we join together around Corrin.\nI am considering a similar ring for the day when I can finally welcome you to Hoshido, [S].\nThat is how much I value our bond. We, too, are siblings."
-      ],
-      "Special": [
-        "On our bond!",
-        "I will protect them!",
-        "For the fate of all.",
-        "I'll not back down."
-      ],
-      "Status": [
-        "-",
-        "Apparently, this outfit represents my bond with my siblings.",
-        "Hm? Use caution. You will find this armor has sharp edges.",
-        "My siblings have grown to possess such strength and kindness. I am extremely proud of them.",
-        "We are greater than Nohr in many ways. Even when it comes to familial bonds.",
-        "I must devote myself to perfecting my swordsmanship so that I can protect everyone.",
-        "Corrin...such an enigmatic child...with a fate shrouded in mystery.",
-        "Strange. I sense a bond between us that is not unlike those I have with my siblings."
-      ],
-      "Map Select": [
-        "Very well.",
-        "A dilemma indeed...",
-        "I'll clear a path."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Attuned Ryoma",
-    "SEARCH_NAME": "Attuned Ryoma",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Attuned Ryoma",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "ryoma",
-      "ryoma2",
-      "ryoma3",
-      "ryoma4"
-    ],
-    "prf": {
-      "": "hoshidoraijinto",
-      "eff": "hoshidoraijinto",
-      "atk": "hoshidoraijinto",
-      "spd": "hoshidoraijinto",
-      "def": "hoshidoraijinto",
-      "res": "hoshidoraijinto"
-    }
-  },
-  "scarlet": {
-    "name": "Scarlet",
-    "title": "Rebellious Streak",
-    "description": "A knight from Cheve who leads a group of resistance fighters against the army of Nohr. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Yuko (\u5915\u5b50)",
-    "move": "Flying",
-    "weapon": "Axe",
-    "color": "Green",
-    "duel": false,
-    "id": "1292",
-    "type": false,
-    "version": "9.9",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 9,
-      "spd": 11,
-      "def": 12,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 80,
-      "def": 75,
-      "res": 35
-    },
-    "superboon": [
-      "atk"
-    ],
-    "superbane": [
-      "hp",
-      "def"
-    ],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Doubler Axe": "3",
-      "Doubler Axe+": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4"
-    },
-    "passive": {
-      "A": {
-        "Spd/Def Catch 1": "1",
-        "Spd/Def Catch 2": "2",
-        "Spd/Def Catch 3": "4"
-      },
-      "B": {
-        "Flow Flight 1": "3",
-        "Flow Flight 2": "4",
-        "Flow Flight 3": "5"
-      },
-      "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/94/Scarlet_Rebellious_Streak_Face.webp/revision/latest?cb=20250916042528",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ef/Scarlet_Rebellious_Streak_BtlFace_D.webp/revision/latest?cb=20250916042523",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/74/Scarlet_Rebellious_Streak_BtlFace_C.webp/revision/latest?cb=20250916042518",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f5/Scarlet_Rebellious_Streak_BtlFace.webp/revision/latest?cb=20250916042503"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/92/Corrin_Of_Fates_Face.webp/revision/latest?cb=20250930042448",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/84/Corrin_Of_Fates_BtlFace_D.webp/revision/latest?cb=20250930042443",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/15/Corrin_Of_Fates_BtlFace_C.webp/revision/latest?cb=20250930042439",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7a/Corrin_Of_Fates_BtlFace.webp/revision/latest?cb=20250930042423"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Rebellious Streak",
-      "Scarlet: Rebellious Streak",
-      "scarlet"
+      "Of Fates",
+      "Corrin: Of Fates",
+      "Emblem Corrin",
+      "Engage Corrin",
+      "E Corrin",
+      "corrin17"
     ],
     "HARD_ALT_NAME": [
-      "Rebellious Streak",
-      "Scarlet: Rebellious Streak",
-      "scarlet"
+      "Of Fates",
+      "Corrin: Of Fates",
+      "Emblem Corrin",
+      "Engage Corrin",
+      "E Corrin",
+      "corrin17"
     ],
     "gender": "F",
-    "rarity": 4,
-    "pool": "",
-    "internal_id": "PID_\u30af\u30ea\u30e0\u30be\u30f3",
+    "rarity": 5,
+    "pool": "legend",
+    "internal_id": "PID_\u7d0b\u7ae0\u30ab\u30e0\u30a4\u5973",
     "voice": "Marcella Lentz-Pope",
     "resplendent": false,
     "resplendent_voice": false,
@@ -597,380 +106,269 @@
     "chibi": "fe13",
     "quotes": {
       "Castle Hall": [
-        "This castle is top-notch. I could stay here forever.",
-        "If we let ourselves be pinned down, we'll be treated this way forever. We must strike the throat of our enemy!",
-        "Seems like you're always on the go, [S]!",
-        "This world's accessories are looking pretty sharp! Heh. They match my style.",
-        "If I smash these rocks apart, I can get at the good stuff. The sparkling bits sure pretty up my weapon!"
+        "I am an Emblem who has reached the ends of the paths before me.\nBut when I'm with my siblings, it's as if I have gone back to who I was before.",
+        "In Elyos, I was entrusted to Solm. I was kept in a fortress that was not dissimilar to one in Nohr or Hoshido.",
+        "In Elyos, my power manifested in the form of fog, flames, and ice pillars with Dragon Veins.\nI wonder how it would manifest if you used it.",
+        "I still do not grow hungry here, but it is a wonderful feeling being able to enjoy food. Shall I gather ingredients?",
+        "I often had my ring polished at the Somniel. It sure tickled! I wonder, are you ticklish too?"
       ],
       "Visit": [
-        "Hah! This castle is pretty neat. I've come with greetings for you from [F]!"
+        "I am Emblem Corrin. I see you, too, are in the midst of your journey, just like [F]."
       ],
       "Level": [
-        "Bring it, world! Show me what you've got!",
-        "Obviously, I keep getting better!",
-        "Hey, this is nothing to fret over. Better luck next time!"
+        "This is the result of both your and my decisions. I always had faith we would make the right ones.",
+        "As an Emblem, I wish to grant you many fruitful outcomes for your journey.",
+        "There is meaning behind every experience. I shall have faith this is true and continue my journey."
       ],
       "Summon": [
-        "I'm Scarlet. Cheve will not yield to Nohr\u2014I'll make sure of it. I will achieve freedom for my people!"
+        "I am Corrin, an Emblem. I shall fight with all my might so the path you choose leads to hope."
       ],
       "Learn Skill": [
-        "For me? Gotta say, nice choice!"
+        "This is a power you chose for me? Nothing could bring me more joy."
       ],
       "Confession": [
-        "It's almost that time again to pretty up my little friend... Now, hold still... It won't hurt... Ah!\nOh it's you, [S]!\nAs you can see, I'm smashing some rocks apart. You see, the sparkly bits are all mixed in with the rest.\nFirst, I set my friend\u2014my weapon\u2014 down. Then I slather on some of this magical liquid.\nOnce it's all coated, I stick on the shiny fragments. Decorating like this is probably my favorite hobby...\nHey, you should try it some time. Come on. It'll be a nice change of pace!"
+        "Askr's nights are truly beautiful. The sky full of stars rivals even the world I came from, as well as Solm.\nIsn't it wonderful to think about how we are just one of many possibilities shining in the night sky?\nDo you suppose there are other Emblem versions of me who exist on a different path?\nI am sure there is another me protecting someone with a katana, or roaring as a dragon!\nBut I am here with you, no matter the path you choose to take. For I believe it will lead us to where we seek.\nThis must be how my siblings felt, to watch over me so diligently. Thanks to you I share their sentiments."
       ],
       "Special": [
-        "You went and got me mad.",
-        "It's on now!",
-        "I'll get all Nohrian on you!",
-        "Time to show off!"
+        "Torrential Roar!",
+        "I'll be your guide.",
+        "Roar!",
+        "Emblem, engage!"
       ],
       "Status": [
-        "-",
-        "I'm Scarlet, by the way. I'm a self-taught fighter, but I'm confident in my abilities.",
-        "Whoa! Heh. Not bad.",
-        "I won't let Nohr oppress my people any longer. For freedom!",
-        "When I found out Ryoma was a Hoshidan prince... Well, it was surprising, to say the least.",
-        "The enemy of my enemy is my friend. Heh, don't sweat it. I'm on your side.",
-        "It's tradition among the knights of Cheve to pin on a flower whenever one faces a monumental event.",
-        "You're pretty special, getting everyone to follow you around like this. But...you're not quite as special as Ryoma."
+        "Oh.",
+        "I can imagine the look on my siblings' faces if they saw me like this.",
+        "*gasp* Oh. *giggle* For a second, I didn't see you there.",
+        "My memories of Elyos and of the three paths are what shaped me into who I am.",
+        "The Northern Fortress of Solm is where my ring was... I also spent much time in the Northern Fortress of Nohr.",
+        "\"Bare your fangs, Emblem of Fates\" is the invocation to summon me. I hope you try it someday.",
+        "Seadall is a wonderful dancer. His long, flowing hair reminds me of Azura...",
+        "It is not up to Emblems to decide the world's fate. In Elyos, Alear decides, and here, it is up to you to forge a path into the future."
       ],
       "Map Select": [
-        "Right on!",
-        "You OK?",
-        "Looks fantastic!"
+        "Yes.",
+        "With faith.",
+        "I'll follow you."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Scarlet",
-    "SEARCH_NAME": "Scarlet",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Scarlet",
+    "short_name": "Emblem Corrin",
+    "SEARCH_NAME": "Emblem Corrin",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Emblem Corrin",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "corrin",
+      "corrin2",
+      "corrin3",
+      "corrin4",
+      "corrin5",
+      "corrin6",
+      "corrin7",
+      "corrin8",
+      "corrin9",
+      "corrin10",
+      "corrin11",
+      "corrin12",
+      "corrin13",
+      "corrin14",
+      "corrin15",
+      "corrin16"
+    ],
     "prf": {
-      "": "doubleraxe",
-      "eff": "doubleraxe",
-      "atk": "doubleraxe",
-      "spd": "doubleraxe",
-      "def": "doubleraxe",
-      "res": "doubleraxe"
+      "": "swordoffate",
+      "eff": "swordoffate",
+      "atk": "swordoffate",
+      "spd": "swordoffate",
+      "def": "swordoffate",
+      "res": "swordoffate"
     }
   },
-  "shura": {
-    "name": "Shura",
-    "title": "Righteous Rebel",
-    "description": "Survivor of the ruined nation of Kohga. Now a thief in Nohr, he dreams of rebuilding his homeland. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "Meka (\u3081\u304b)",
-    "move": "Infantry",
-    "weapon": "Bow",
+  "lyn10": {
+    "name": "Lyn",
+    "title": "Plains Wind",
+    "description": "Disciple of the light goddess Naga. Though she cannot remember her past, she remains firm in her convictions. Appears in Fire Emblem: The Blazing Blade / Shadows.",
+    "origin": "The Blazing Blade",
+    "artist": "\uff2b\uff45\uff27",
+    "move": "Cavalry",
+    "weapon": "Beast",
     "color": "Green",
     "duel": false,
-    "id": "1291",
-    "type": false,
-    "version": "9.9",
+    "id": "1295",
+    "type": "legendary",
+    "version": "9.10",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 10,
-      "spd": 9,
-      "def": 4,
-      "res": 14
+      "atk": 11,
+      "spd": 10,
+      "def": 10,
+      "res": 5
     },
     "growth": {
       "hp": 50,
       "atk": 80,
       "spd": 90,
-      "def": 35,
-      "res": 75
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "res"
-    ],
-    "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Discord Bow": "3",
-      "Discord Bow+": "5"
-    },
-    "assist": {},
-    "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4"
-    },
-    "passive": {
-      "A": {},
-      "B": {
-        "Spd/Def Tempo 1": "3",
-        "Spd/Def Tempo 2": "4",
-        "Spd/Def Tempo 3": "5"
-      },
-      "C": {
-        "Spd Ploy 1": "1",
-        "Spd Ploy 2": "2",
-        "Spd Ploy 3": "4"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e9/Shura_Righteous_Rebel_Face.webp/revision/latest?cb=20250916042453",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Shura_Righteous_Rebel_BtlFace_D.webp/revision/latest?cb=20250916042448",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e8/Shura_Righteous_Rebel_BtlFace_C.webp/revision/latest?cb=20250916042443",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a7/Shura_Righteous_Rebel_BtlFace.webp/revision/latest?cb=20250916042428"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Righteous Rebel",
-      "Shura: Righteous Rebel",
-      "boots",
-      "shura"
-    ],
-    "HARD_ALT_NAME": [
-      "Righteous Rebel",
-      "Shura: Righteous Rebel",
-      "boots",
-      "shura"
-    ],
-    "gender": "M",
-    "rarity": 4,
-    "pool": "",
-    "internal_id": "PID_\u30a2\u30b7\u30e5\u30e9",
-    "voice": "Mick Wingert",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fates"
-    ],
-    "chibi": "fe13",
-    "quotes": {
-      "Castle Hall": [
-        "You call us Heroes, but there are all types here. Royalty, nobles, knights, even a few outlaws, like me.\nEven a few people who have lost their homelands...",
-        "I was born a ninja in Hoshido, but I lived as an outlaw in Nohr. I'm one of Kohga's surviving few.",
-        "Be careful when you go out on patrols. Your life actually has value, so don't go dying a careless death.",
-        "I like listening to people talk about their homelands. If you've got the time, tell me about yours.",
-        "You Hero types sure are a noble bunch. Risking your lives to save a kingdom that's not even your own...\nMakes me regret becoming an outlaw, rather than some upstanding soldier with a righteous cause."
-      ],
-      "Visit": [
-        "Are you [S]?\nI'm here to deliver a greeting from [F]."
-      ],
-      "Level": [
-        "One step closer to rebuilding Kohga...",
-        "I'm glad I'm getting better.",
-        "I hope your expectations of me aren't too high."
-      ],
-      "Summon": [
-        "I'm Shura, from Nohr. This place has a noble air about it... I don't think an outlaw like me will fit in."
-      ],
-      "Learn Skill": [
-        "I'll try to meet your expectations of me, no matter how sparse."
-      ],
-      "Confession": [
-        "You on patrol? You spend a lot of time checking up on everyone, but you should get out sometime.\nI headed out just the other day. Took a look around Askr, went people watching... I saw some kids playing.\nThey reminded me of my homeland, Kohga... Before it was destroyed.\nWhen you summoned me out of the blue and started calling me a Hero, I was sure you were dead wrong.\nI wanted nothing more than to get back to my own world as soon as I could. But, well...\nAfter seeing how much this world has that's worth protecting, and after you dedicated so much time to me...\nI remembered what happiness feels like. Well, I at least remembered that there was a time when I was happy.\nBesides, every time I become stronger, I get one step closer to rebuilding Kohga.\nI guess what I'm trying to say is... Thanks. And keep up the good work."
-      ],
-      "Special": [
-        "No one beats me!",
-        "It's your time to die!",
-        "I got some fight left!",
-        "It's not gonna be me."
-      ],
-      "Status": [
-        "-",
-        "Don't waste your time talking to me. There are better people to chat with.",
-        "Me? A Hero? Don't say things like that. I'm not a good person.",
-        "If someone destroyed your homeland, wouldn't you seek revenge?",
-        "You don't have to pat me down like that. I haven't been stealing your things.",
-        "Being stuck here surrounded by all these Heroes... Someone may mistake me for an upstanding citizen.",
-        "I'm not ready to die yet...not 'till Kohga's rebuilt, anyway.",
-        "\"Justice?\" \"Heroes?\" Just words. Or so I thought until I met you."
-      ],
-      "Map Select": [
-        "Yeah?",
-        "Don't get my hopes up.",
-        "Me?"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Shura",
-    "SEARCH_NAME": "Shura",
-    "DISPLAY_NAME": "<:Green_Bow:1124845936426897428>Shura",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "discordbow",
-      "eff": "discordbow",
-      "atk": "discordbow",
-      "spd": "discordbow",
-      "def": "discordbow",
-      "res": "discordbow"
-    }
-  },
-  "haitaka": {
-    "name": "Haitaka",
-    "title": "Persistent General",
-    "description": "A spearman from Hoshido who built an impenetrable defense while protecting Fort Dragonfall. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "\u3081\u3044\u3055\u3044",
-    "move": "Infantry",
-    "weapon": "Lance",
-    "color": "Blue",
-    "duel": false,
-    "id": "1293",
-    "type": false,
-    "version": "9.9",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 9,
-      "spd": 11,
-      "def": 10,
-      "res": 9
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 90,
-      "spd": 80,
-      "def": 65,
+      "def": 60,
       "res": 45
     },
     "superboon": [
-      "atk",
+      "spd",
       "res"
     ],
-    "superbane": [],
+    "superbane": [
+      "hp"
+    ],
     "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Hexblade Lance": "3",
-      "Hexblade Lance+": "5"
+      "Whelp (Cavalry)": "1",
+      "Yearling (Cavalry)": "2",
+      "Adult (Cavalry)": "3",
+      "Winds of Duality": "5"
     },
     "assist": {},
     "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4"
+      "Night Sky": "3",
+      "Astra": "4",
+      "Nimble Beast": "5"
     },
     "passive": {
       "A": {
-        "Atk/Spd Prime 1": "3",
-        "Atk/Spd Prime 2": "4",
-        "Atk/Spd Prime 3": "5"
+        "Reject Tyranny": "5"
       },
-      "B": {},
+      "B": {
+        "Beast Agility 1": "2",
+        "Beast Agility 2": "3",
+        "Beast Agility 3": "4",
+        "Bestial Agility": "5"
+      },
       "C": {
-        "Odd Def Wave 1": "1",
-        "Odd Def Wave 2": "2",
-        "Odd Def Wave 3": "4"
+        "C Feud 1": "2",
+        "C Feud 2": "3",
+        "C Feud 3": "4",
+        "Dark Beast Force": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/ba/Haitaka_Persistent_General_Face.webp/revision/latest?cb=20250916042603",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/04/Haitaka_Persistent_General_BtlFace_D.webp/revision/latest?cb=20250916042558",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ab/Haitaka_Persistent_General_BtlFace_C.webp/revision/latest?cb=20250916042553",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4a/Haitaka_Persistent_General_BtlFace.webp/revision/latest?cb=20250916042538"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ac/Lyn_Plains_Wind_Face.webp/revision/latest?cb=20250930042413",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/eb/Lyn_Plains_Wind_BtlFace_D.webp/revision/latest?cb=20250930042408",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Lyn_Plains_Wind_BtlFace_C.webp/revision/latest?cb=20250930042403",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/59/Lyn_Plains_Wind_BtlFace.webp/revision/latest?cb=20250930042349"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Persistent General",
-      "Haitaka: Persistent General",
-      "haitaka"
+      "Plains Wind",
+      "Lyn: Plains Wind",
+      "lyn10",
+      "mythic lyn",
+      "horse lyn",
+      "uma lyn",
+      "centaur lyn"
     ],
     "HARD_ALT_NAME": [
-      "Persistent General",
-      "Haitaka: Persistent General",
-      "haitaka"
+      "Plains Wind",
+      "Lyn: Plains Wind",
+      "lyn10",
+      "mythic lyn",
+      "horse lyn",
+      "uma lyn",
+      "centaur lyn"
     ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "grail",
-    "internal_id": "PID_\u30cf\u30a4\u30bf\u30ab",
-    "voice": "Ernesto Jason Liebrecht",
+    "gender": "F",
+    "rarity": 5,
+    "pool": "legend",
+    "internal_id": "PID_\u7363\u4eba\u30ea\u30f3",
+    "voice": "Wendee Lee",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "elibe"
     ],
-    "chibi": "fe13",
+    "chibi": "fe7",
     "quotes": {
       "Castle Hall": [
-        "The wars in this world are waged by people not unlike those in my own, so my tactics should still be effective.",
-        "Fort Dragonfall is a natural stronghold made from the decayed remains of an ancient dark dragon.",
-        "I've examined this castle's defense system. I have several suggestions for enhancing its functionality.",
-        "In battle, balance is crucial. You will not suffer defeat if you can control the balance during confrontations.",
-        "Hoshido and Nohr\u2014equal nations in constant conflict. That is the history of the world I know."
+        "The wind feels...welcoming. This is a nice place, isn't it?",
+        "Is...something wrong? The way you're staring at me... Is there something on my face?",
+        "Leave any bandits to me. I can't tolerate those who would harm people just trying to live their lives.",
+        "My hearing is top-notch, and I'm fast too. When someone calls for help, I'm usually the first to arrive.",
+        "You and I appear quite different at a glance, but...we share a desire to look out for the well-being of others."
       ],
       "Visit": [
-        "You should endeavor to work hard alongside [F]."
+        "Um... My appearance? Is something off? Well, I brought you this greeting from [F]."
       ],
       "Level": [
-        "My strongest skills are in formulating defensive strategies. The opposite... not so much...",
-        "You must hold your ground without breaking formation. That is essential.",
-        "How...mortifying..."
+        "There's a gentle wind blowing... I feel as if it's trying to guide me.",
+        "I want to save everyone. I believe that's what my power is meant for.",
+        "I'm sorry. I guess I'm not at my best right now."
       ],
       "Summon": [
-        "I am Haitaka, a Hoshidan general. Let me show you some of my Hoshidan combat techniques."
+        "I am Lyn. I'm told I am a disciple of light, guiding others toward Naga's ideals, but... Um. What is this place?"
       ],
       "Learn Skill": [
-        "I am grateful for the kindness you show outsiders."
+        "Thank you. I hope you can see how grateful I am."
       ],
       "Confession": [
-        "Summoner from another world, I am thankful for this unique opportunity.\nSoldiers of Hoshido polish their techniques for their lords and nation, to defend against the Nohrian army.\nI never considered a way of life other than that. My world was simple.\nBut...I've observed the Heroes in this land and learned of their multifarious reasons for going into battle.\nMy spear is for Hoshido, but for now, I will contemplate the meaning of war as I use it for your sake."
+        "I... The first thing I recall is being in a field, not knowing where I came from or who I was. I remembered nothing.\nA disciple of light... That's what they called me. Meant to guide the world toward Naga's ideals or something...\nThen, I felt like someone was calling me, and suddenly I was here. It's all quite...confusing.\nBut, wherever this is, and whoever I am...what I must do stays the same.\nI will protect the oppressed. That is the cause I will champion."
       ],
       "Special": [
-        "How about this?",
-        "I won't let you past!",
-        "That's far enough!",
-        "Take this!"
+        "I will avenge them!",
+        "In one shot!",
+        "You will fall.",
+        "Begone!"
       ],
       "Status": [
         "-",
-        "I am Haitaka. Care for a little lesson in Hoshidan combat?",
-        "Hey! What are you up to? Do you have a death wish?",
-        "As if I would allow our beautiful Hoshido to be overrun by Nohrian barbarians.",
-        "King Sumeragi and Queen Mikoto were both extraordinary people.",
-        "Battle is cruel. There is often a chance of being captured by the enemy.",
-        "I can hardly believe I am stuck fighting for an army from another world...",
-        "It seems we are connected by fate. I shall hasten your foes to their graves with my spear."
+        "My name is Lyn. I remember nothing more...",
+        "*startle* Is this how you normally greet each other in this world?",
+        "You arrived from another world too? Then we have that much in common.",
+        "It's peculiar, but I get the feeling this isn't the first time we've met.",
+        "Regardless of the world we're in, the most important thing is that everyone can be happy, wouldn't you agree?",
+        "I will never forgive those who destroy the happiness of others.",
+        "My mind is at ease when I'm with you. This wind...it carries whispers of the past."
       ],
       "Map Select": [
-        "Following orders.",
-        "What?",
-        "Hmph..."
+        "Got it.",
+        "Are there bandits here?",
+        "You have orders?"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Haitaka",
-    "SEARCH_NAME": "Haitaka",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Haitaka",
+    "short_name": "Lyn",
+    "SEARCH_NAME": "Lyn",
+    "DISPLAY_NAME": "<:Green_Beast:1124845912385138738>Lyn",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "lyn",
+      "lyn2",
+      "lyn3",
+      "lyn4",
+      "lyn5",
+      "lyn6",
+      "lyn7",
+      "lyn8",
+      "lyn9"
+    ],
     "prf": {
-      "": "hexbladelance",
-      "eff": "hexbladelance",
-      "atk": "hexbladelance",
-      "spd": "hexbladelance",
-      "def": "hexbladelance",
-      "res": "hexbladelance"
+      "": "windsofduality",
+      "eff": "windsofduality",
+      "atk": "windsofduality",
+      "spd": "windsofduality",
+      "def": "windsofduality",
+      "res": "windsofduality"
+    },
+    "blessing": "Light",
+    "boost": {
+      "hp": 5,
+      "res": 5
     }
   }
 }

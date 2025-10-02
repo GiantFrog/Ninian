@@ -18745,7 +18745,13 @@
       "corrin16",
       "Rebellious Streak",
       "Scarlet: Rebellious Streak",
-      "scarlet"
+      "scarlet",
+      "Of Fates",
+      "Corrin: Of Fates",
+      "Emblem Corrin",
+      "Engage Corrin",
+      "E Corrin",
+      "corrin17"
     ],
     "HARD_ALT_NAME": [
       "corrin2",
@@ -19069,13 +19075,20 @@
       "corrin16",
       "Rebellious Streak",
       "Scarlet: Rebellious Streak",
-      "scarlet"
+      "scarlet",
+      "Of Fates",
+      "Corrin: Of Fates",
+      "Emblem Corrin",
+      "Engage Corrin",
+      "E Corrin",
+      "corrin17"
     ],
     "heroes": {
       "corrin10": "<:Green_Tome:1124845959873036289>Duo Corrin",
       "corrin12": "<:Blue_Breath:1124845312637403236>Halloween Female Corrin",
       "corrin14": "<:Colorless_Breath:1124845679076978798>Brave Corrin",
       "corrin16": "<:Blue_Breath:1124845312637403236>Young Corrin",
+      "corrin17": "<:Red_Sword:1124846201070698536>Emblem Corrin",
       "corrin2": "<:Blue_Breath:1124845312637403236>Female Corrin",
       "corrin2R": "<:Blue_Breath:1124845312637403236>Female Corrin (Resplendent)",
       "corrin3": "<:Blue_Tome:1124845593211191297>Summer Corrin",
@@ -28229,7 +28242,14 @@
       "Maid Veronica",
       "Tea Veronica",
       "Butler Veronica",
-      "veronica6"
+      "veronica6",
+      "Plains Wind",
+      "Lyn: Plains Wind",
+      "lyn10",
+      "mythic lyn",
+      "horse lyn",
+      "uma lyn",
+      "centaur lyn"
     ],
     "HARD_ALT_NAME": [
       "Bride of the Plains",
@@ -28599,13 +28619,21 @@
       "Maid Veronica",
       "Tea Veronica",
       "Butler Veronica",
-      "veronica6"
+      "veronica6",
+      "Plains Wind",
+      "Lyn: Plains Wind",
+      "lyn10",
+      "mythic lyn",
+      "horse lyn",
+      "uma lyn",
+      "centaur lyn"
     ],
     "heroes": {
       "bramimond": "<:Colorless_Tome:1124845725960904734>Bramimond",
       "emmeryn": "<:Colorless_Staff:1124845704444137592>Emmeryn",
       "emmeryn2": "<:Colorless_Staff:1124845704444137592>Young Emmeryn",
       "lyn": "<:Red_Sword:1124846201070698536>Lyn",
+      "lyn10": "<:Green_Beast:1124845912385138738>Lyn",
       "lyn2": "<:Colorless_Staff:1124845704444137592>Bridal Lyn",
       "lyn3R": "<:Colorless_Bow:1124845636659982457>Brave Lyn (Resplendent)",
       "lyn4": "<:Blue_Tome:1124845593211191297>Valentines Lyn",
