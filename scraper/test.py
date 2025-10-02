@@ -9,8 +9,8 @@ obj = {}
 file =  './sk.json'
 
 
-skill_scrape.upgrade_sp('Enclosure II')
-skill_scrape.upgrade_passive('Opened Domain+')
+#skill_scrape.upgrade_sp('Enclosure II')
+#skill_scrape.upgrade_passive('Opened Domain+')
 
 with open(file, 'w') as fp:
     json.dump(obj, fp)
@@ -18,6 +18,8 @@ with open(file, 'w') as fp:
 
 
 units = [
+    "Corrin: Of Fates",
+    "Lyn: Plains Wind"
 ]
 
 

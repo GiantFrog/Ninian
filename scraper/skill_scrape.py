@@ -25,6 +25,8 @@ def passive_icon_number():
 def scrape_passive_skill(page_name):
     if page_name.endswith('?'):
         page_name = f'{page_name[:-1]}%3F'
+    if page_name == 'Pair Up':
+        page_name = "Pair Up (Passive)"
     with open('templates/skill_temp.json', 'r') as f:
         template = json.load(f)
     blank = template
