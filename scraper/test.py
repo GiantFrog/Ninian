@@ -9,8 +9,8 @@ obj = {}
 file =  './sk.json'
 
 
-#skill_scrape.upgrade_sp('Enclosure II')
-#skill_scrape.upgrade_passive('Opened Domain+')
+skill_scrape.upgrade_sp('Dragon\'s Dance II')
+skill_scrape.upgrade_passive('Duality+')
 
 with open(file, 'w') as fp:
     json.dump(obj, fp)
@@ -18,13 +18,16 @@ with open(file, 'w') as fp:
 
 
 units = [
-    "Corrin: Of Fates",
-    "Lyn: Plains Wind"
+    "Freyja: Parallel Hearts",
+    "Nerþuz: Divine Abundance",
+    "Peony: Fruitful Dream",
+    "Skrimir: Echoing Howl",
+    "Ranulf: Considerate Gaze"
 ]
 
 
 
-alts = []  # 'None' (as in null) uses defaults such as "normal" and "regular". use [] for no alts. maybe this is unintuitive.
+alts = ["Halloween"]  # 'None' (as in null) uses defaults such as "normal" and "regular". use [] for no alts. maybe this is unintuitive.
 #alts = ["Winter", "Christmas", "W"]
 
 version = None  # will calculate the book & chapter the game is currently on when this is run
