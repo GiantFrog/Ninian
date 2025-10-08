@@ -23768,13 +23768,6 @@
     },
     "refine": false
   },
-  "pjalfi": {
-    "name": "\u00dej\u00e1lfi",
-    "bonus": {
-      "atk": 17
-    },
-    "refine": false
-  },
   "unityblooms": {
     "name": "Unity Blooms+ (Unrefined)",
     "bonus": {
@@ -31390,7 +31383,7 @@
     },
     "refine": false
   },
-  "vallastone": {
+  "vallstone": {
     "name": "Vallastone",
     "bonus": {
       "atk": 16
@@ -36450,90 +36443,6 @@
     "bonus": {
       "atk": 16,
       "hp": 3
-    },
-    "refine": false
-  },
-  "arcanefellarts": {
-    "name": "Arcane Fell Arts (Unrefined)",
-    "bonus": {
-      "atk": 16
-    },
-    "refine": "Arcane Fell Arts"
-  },
-  "arcanefellartsatk": {
-    "name": "Arcane Fell Arts (+Atk)",
-    "bonus": {
-      "atk": 18,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellartsspd": {
-    "name": "Arcane Fell Arts (+Spd)",
-    "bonus": {
-      "atk": 16,
-      "spd": 3,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellartsdef": {
-    "name": "Arcane Fell Arts (+Def)",
-    "bonus": {
-      "atk": 16,
-      "def": 4,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellartsres": {
-    "name": "Arcane Fell Arts (+Res)",
-    "bonus": {
-      "atk": 16,
-      "res": 4,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellstone": {
-    "name": "Arcane Fellstone (Unrefined)",
-    "bonus": {
-      "atk": 16
-    },
-    "refine": "Arcane Fellstone"
-  },
-  "arcanefellstoneatk": {
-    "name": "Arcane Fellstone (+Atk)",
-    "bonus": {
-      "atk": 18,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellstonespd": {
-    "name": "Arcane Fellstone (+Spd)",
-    "bonus": {
-      "atk": 16,
-      "spd": 3,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellstonedef": {
-    "name": "Arcane Fellstone (+Def)",
-    "bonus": {
-      "atk": 16,
-      "def": 4,
-      "hp": 5
-    },
-    "refine": false
-  },
-  "arcanefellstoneres": {
-    "name": "Arcane Fellstone (+Res)",
-    "bonus": {
-      "atk": 16,
-      "res": 4,
-      "hp": 5
     },
     "refine": false
   }
