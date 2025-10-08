@@ -9,8 +9,8 @@ obj = {}
 file =  './sk.json'
 
 
-skill_scrape.upgrade_sp('Dragon\'s Dance II')
-skill_scrape.upgrade_passive('Duality+')
+#skill_scrape.upgrade_sp('Dragon\'s Dance II')
+#skill_scrape.upgrade_passive('Duality+')
 
 with open(file, 'w') as fp:
     json.dump(obj, fp)

@@ -1741,7 +1741,11 @@
       "Base Ranulf",
       "Normal Ranulf",
       "Base Lay",
-      "Normal Lay"
+      "Normal Lay",
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
     "HARD_ALT_NAME": [
       "ranulf",
@@ -1753,10 +1757,15 @@
       "Base Ranulf",
       "Normal Ranulf",
       "Base Lay",
-      "Normal Lay"
+      "Normal Lay",
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
     "heroes": {
-      "ranulf": "<:Green_Beast:1124845912385138738>Ranulf"
+      "ranulf": "<:Green_Beast:1124845912385138738>Ranulf",
+      "ranulf2": "<:Blue_Beast:1124845338688233575>Halloween Ranulf"
     },
     "name": "Armen Taylor"
   },
@@ -3529,7 +3538,12 @@
       "Spring Eitr",
       "Easter Eitr",
       "S Eitr",
-      "eitr2"
+      "eitr2",
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "HARD_ALT_NAME": [
       "eyvel",
@@ -3569,14 +3583,20 @@
       "Spring Eitr",
       "Easter Eitr",
       "S Eitr",
-      "eitr2"
+      "eitr2",
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "heroes": {
       "brigid1": "<:Green_Bow:1124845936426897428>Attuned Brigid",
       "brigid2": "<:Red_Bow:1124846280951218289>Pirate Brigid",
       "eitr": "<:Blue_Beast:1124845338688233575>Eitr",
       "eitr2": "<:Colorless_Beast:1124845615935918110>Spring Eitr",
-      "eyvel": "<:Red_Sword:1124846201070698536>Eyvel"
+      "eyvel": "<:Red_Sword:1124846201070698536>Eyvel",
+      "freyja3": "<:Colorless_Tome:1124845725960904734>Halloween Freyja"
     },
     "name": "Caitlyn Elizabeth"
   },
@@ -6947,7 +6967,7 @@
       "NY Nerthuz",
       "New years Ner\u00feuz",
       "nerthuz2",
-      "nerpuz2",
+      "nerthuz2",
       "Base Nerpuz",
       "Normal Nerthuz",
       "Mythic Nerpuz",
@@ -7002,12 +7022,16 @@
       "Summer Nerpuz",
       "S Nerpuz",
       "Beach Nerpuz",
-      "nerpuz3",
+      "nerthuz3",
       "Nerthuz: Beach Chaperone",
       "Summer Nerthuz",
       "S Nerthuz",
       "Beach Nerthuz",
-      "nerthuz3"
+      "nerthuz3",
+      "Divine Abundance",
+      "Ner\u00feuz: Divine Abundance",
+      "Halloween Ner\u00feuz",
+      "nerthuz4"
     ],
     "HARD_ALT_NAME": [
       "Suave Knight",
@@ -7035,9 +7059,9 @@
       "New years Ner\u00feuz",
       "nerthuz2",
       "nerpuz1",
-      "nerpuz2",
+      "nerthuz2",
       "Kimono Nerthuz",
-      "nerpuz",
+      "nerthuz",
       "New years Nerpuz",
       "NY Ner\u00feuz",
       "Kimono Nerpuz",
@@ -7119,12 +7143,16 @@
       "Summer Nerpuz",
       "S Nerpuz",
       "Beach Nerpuz",
-      "nerpuz3",
+      "nerthuz3",
       "Nerthuz: Beach Chaperone",
       "Summer Nerthuz",
       "S Nerthuz",
       "Beach Nerthuz",
-      "nerthuz3"
+      "nerthuz3",
+      "Divine Abundance",
+      "Ner\u00feuz: Divine Abundance",
+      "Halloween Ner\u00feuz",
+      "nerthuz4"
     ],
     "heroes": {
       "athena": "<:Red_Sword:1124846201070698536>Athena",
@@ -7132,9 +7160,10 @@
       "lachesis2": "<:Green_Dagger:1124845796169351320>Dancer Lachesis",
       "lachesisR": "<:Colorless_Staff:1124845704444137592>Lachesis (Resplendent)",
       "merrin": "<:Red_Sword:1124846201070698536>Merrin",
-      "nerpuz": "<:Blue_Beast:1124845338688233575>Ner\u00feuz",
-      "nerpuz2": "<:Colorless_Beast:1124845615935918110>New Year Ner\u00feuz",
-      "nerpuz3": "<:Green_Beast:1124845912385138738>Summer Ner\u00feuz",
+      "nerthuz4": "<:Red_Beast:1124846309208248381>Halloween Ner\u00feuz",
+      "nerthuz": "<:Blue_Beast:1124845338688233575>Ner\u00feuz",
+      "nerthuz2": "<:Colorless_Beast:1124845615935918110>New Year Ner\u00feuz",
+      "nerthuz3": "<:Green_Beast:1124845912385138738>Summer Ner\u00feuz",
       "tatiana": "<:Blue_Tome:1124845593211191297>Tatiana"
     },
     "name": "Cristina Vee"
@@ -24916,7 +24945,11 @@
       "Young Erase",
       "Ilyana: Treat Harvester",
       "Duo Turner",
-      "Harmonized Peony"
+      "Harmonized Peony",
+      "Fruitful Dream",
+      "Peony: Fruitful Dream",
+      "Halloween Peony",
+      "peony4"
     ],
     "HARD_ALT_NAME": [
       "Flame Tribe Dana",
@@ -25024,7 +25057,11 @@
       "New years Peony",
       "Y Ilyana",
       "Resplendent Ilyana",
-      "dana4"
+      "dana4",
+      "Fruitful Dream",
+      "Peony: Fruitful Dream",
+      "Halloween Peony",
+      "peony4"
     ],
     "heroes": {
       "ilyana": "<:Blue_Tome:1124845593211191297>Ilyana",
@@ -25034,6 +25071,7 @@
       "peony": "<:Blue_Tome:1124845593211191297>Peony",
       "peony2": "<:Green_Tome:1124845959873036289>Duo Peony",
       "peony3": "<:Green_Axe:1124845885277343754>Attuned Peony",
+      "peony4": "<:Blue_Tome:1124845593211191297>Halloween Peony",
       "tana4": "<:Green_Dagger:1124845796169351320>Harmonic Tana"
     },
     "name": "Ryan Bartley"
@@ -26071,7 +26109,12 @@
       "Harmonic Karla",
       "Harmonized Karla",
       "Spring Karla",
-      "Bunny Karla"
+      "Bunny Karla",
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "HARD_ALT_NAME": [
       "freyja",
@@ -26116,11 +26159,17 @@
       "Duo Karla",
       "Harmonized Karla",
       "Spring Karla",
-      "Bunny Karla"
+      "Bunny Karla",
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "heroes": {
       "freyja": "<:Green_Beast:1124845912385138738>Freyja",
       "freyja2": "<:Colorless_Beast:1124845615935918110>Summer Freyja",
+      "freyja3": "<:Colorless_Tome:1124845725960904734>Halloween Freyja",
       "karla3": "<:Green_Axe:1124845885277343754>Harmonic Karla"
     },
     "name": "Stephanie Southerland"
@@ -31375,6 +31424,24 @@
       "Persistent General",
       "Haitaka: Persistent General",
       "haitaka"
+    ]
+  },
+  "jamesaparker": {
+    "heroes": {
+      "skrimir": "<:Green_Beast:1124845912385138738>Halloween Skrimir"
+    },
+    "name": "James A. Parker",
+    "ALT_NAME": [
+      "Echoing Howl",
+      "Skrimir: Echoing Howl",
+      "Halloween Skrimir",
+      "skrimir"
+    ],
+    "HARD_ALT_NAME": [
+      "Echoing Howl",
+      "Skrimir: Echoing Howl",
+      "Halloween Skrimir",
+      "skrimir"
     ]
   }
 }

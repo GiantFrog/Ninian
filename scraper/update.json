@@ -1,212 +1,703 @@
 {
-  "corrin17": {
-    "name": "Corrin",
-    "title": "Of Fates",
-    "description": "One of the Emblems who were summoned to Elyos. Resides in the Ring of the Crux of Fate. Appears in Fire Emblem Fates / Fire Emblem Engage.",
-    "origin": "Fates + Engage",
-    "artist": "Kousei Horiguchi (\u6052\u661f\u30db\u30ea\u30b0\u30c1)",
-    "move": "Armored",
-    "weapon": "Sword",
-    "color": "Red",
+  "freyja3": {
+    "name": "Freyja",
+    "title": "Parallel Hearts",
+    "description": "Freyja, the queen of D\u00f6kk\u00e1lfheimr, the realm of nightmares, and her past self, Eitr. Together, with parallel heartbeats, they join the harvest festival.",
+    "origin": "Heroes",
+    "artist": "hanekoto (\u306f\u306d\u3053\u3068)",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Colorless",
     "duel": false,
-    "id": "1294",
-    "type": "emblem",
+    "id": "1296",
+    "type": false,
     "version": "9.10",
-    "duo": false,
+    "duo": "Neutralizes two\u3010Bonus\u3011effects, excluding stat bonuses and inflicts\u3010Frozen\u3011and \u3010Discord\u3011on foes within 5 rows or 5 columns centered on unit (neutralizes the first applicable \u3010Bonus\u3011effects on foe's list of active effects).\n(Duo Skills can be used once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n\u3010Bonus\u3011\nAll effects that last \"for 1 turn\" or \"that turn only.\" Includes bonuses granted by a skill like Rally or Hone and positive status effects (extra movement or effects like Dominance).\n\u3010Frozen\u3011\nReduces inflicted unit's follow-up ability and increases foe's follow-up ability through unit's next action:\nIncreases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats \u00d7 2; otherwise, X = 10). (For example, if Spd difference necessary increases by 10, Spd must be \u2265 15 more than foe's Spd to make a follow-up attack; stacks with similar skills.)\n\u3010Discord\u3011\nInflicts Atk/Spd/Def/Res-X on unit during combat (X = 2 + number of allies within 2 spaces of unit; max 5) through its next action.",
     "harmonized": false,
-    "emblem": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nAt start of enemy phase (except for in Pawns of Loki), if there is no\u3010Divine Vein (Icicle)\u3011 currently applied by unit or allies, applies \u3010Divine Vein (Icicle)\u3011to spaces 2 spaces away from unit for 1 turn (excluding spaces occupied by a foe, destructible terrain other than Divine Vein, or warp spaces in Rival Domains), and \u3010Divine Vein (Vert)\u3011to unit's space and spaces within 3 spaces of unit for 1 turn (excluding spaces with\u3010Divine Vein (Icicle)\u3011applied).\n\u3010Divine Vein (Icicle)\u3011\nApplies the following status on space: Foes treat space as impassable terrain while status is active, but status is destructible (with 1 HP). When destroyed, it changes to \u3010Divine Vein (Vert)\u3011. Allies can move into and occupy space. If any allies occupy spaces with Divine Vein (Icicle) applied, attacks targeting those spaces will hit the ally over destroying the Divine Vein (Icicle).\n\u3010Divine Vein (Vert)\u3011\nApplies the following effects on space for foes: Foe cannot warp from this space or into this space (does not affect units with Pass skills or warp effects from structures like camps and fortresses in Rival Domains). Inflicts \u3010Canto Control\u3011on foes that trigger Canto in this space through their next action. Inflicts Atk/Spd-5 and Special cooldown charge -1 on foe per attack during combat (only highest value applied; does not stack), and also, if foe's attack can trigger foe's Special, inflicts Special cooldown count+1 on foe before foe's first attack during combat (cannot exceed the foe's maximum Special cooldown).\n\u3010Canto Control\u3011\nIf unit's Range = 1, unit can move 1 space when Canto triggers. If unit's Range = 2, their action ends when Canto triggers.",
+    "emblem": false,
     "base": {
-      "hp": 21,
-      "atk": 11,
-      "spd": 16,
-      "def": 4,
-      "res": 10
+      "hp": 18,
+      "atk": 12,
+      "spd": 10,
+      "def": 8,
+      "res": 6
     },
     "growth": {
       "hp": 50,
       "atk": 80,
-      "spd": 75,
+      "spd": 90,
       "def": 50,
-      "res": 90
+      "res": 50
     },
     "superboon": [
-      "res"
+      "spd"
     ],
     "superbane": [
       "hp",
-      "spd",
-      "def"
+      "def",
+      "res"
     ],
     "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Sword of Fate": "5"
+      "Stone": "1",
+      "Elstone": "2",
+      "Atlas": "3",
+      "Nightmare Staff": "5"
     },
     "assist": {},
     "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4",
-      "Torrential Roar": "5"
+      "Night Sky": "3",
+      "Astra": "4",
+      "Comet": "5"
     },
     "passive": {
       "A": {
-        "Wind Boost 1": "2",
-        "Wind Boost 2": "3",
-        "Wind Boost 3": "4",
-        "Torrential Boost": "5"
+        "Atk/Spd Bond 1": "2",
+        "Atk/Spd Bond 2": "3",
+        "Atk/Spd Bond 3": "4",
+        "Atk/Spd Aria": "5"
       },
       "B": {
-        "Pair Up 1": "2",
-        "Pair Up 2": "3",
-        "Pair Up 3": "4",
-        "Pair Up 4": "5"
+        "Haunting Choker": "5"
       },
       "C": {
-        "A/R Far Save 1": "2",
-        "A/R Far Save 2": "3",
-        "A/R Far Save 3": "4",
-        "S/R Briar M Save": "5"
+        "Time's Pulse 1": "2",
+        "Time's Pulse 2": "3",
+        "Time's Pulse 3": "4",
+        "Pulse On: Blades": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/92/Corrin_Of_Fates_Face.webp/revision/latest?cb=20250930042448",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/84/Corrin_Of_Fates_BtlFace_D.webp/revision/latest?cb=20250930042443",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/15/Corrin_Of_Fates_BtlFace_C.webp/revision/latest?cb=20250930042439",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7a/Corrin_Of_Fates_BtlFace.webp/revision/latest?cb=20250930042423"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bc/Freyja_Parallel_Hearts_Face.webp/revision/latest?cb=20251006041743",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3f/Freyja_Parallel_Hearts_BtlFace_D.webp/revision/latest?cb=20251006041737",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6d/Freyja_Parallel_Hearts_BtlFace_C.webp/revision/latest?cb=20251006041733",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9f/Freyja_Parallel_Hearts_BtlFace.webp/revision/latest?cb=20251006041717"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Of Fates",
-      "Corrin: Of Fates",
-      "Emblem Corrin",
-      "Engage Corrin",
-      "E Corrin",
-      "corrin17"
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "HARD_ALT_NAME": [
-      "Of Fates",
-      "Corrin: Of Fates",
-      "Emblem Corrin",
-      "Engage Corrin",
-      "E Corrin",
-      "corrin17"
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u7d0b\u7ae0\u30ab\u30e0\u30a4\u5973",
-    "voice": "Marcella Lentz-Pope",
+    "pool": "seasonal",
+    "internal_id": "PID_\u6bd4\u7ffc\u30d5\u30ec\u30a4\u30e4",
+    "voice": "Stephanie Southerland + Caitlyn Elizabeth",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "askr"
     ],
-    "chibi": "fe13",
+    "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "I am an Emblem who has reached the ends of the paths before me.\nBut when I'm with my siblings, it's as if I have gone back to who I was before.",
-        "In Elyos, I was entrusted to Solm. I was kept in a fortress that was not dissimilar to one in Nohr or Hoshido.",
-        "In Elyos, my power manifested in the form of fog, flames, and ice pillars with Dragon Veins.\nI wonder how it would manifest if you used it.",
-        "I still do not grow hungry here, but it is a wonderful feeling being able to enjoy food. Shall I gather ingredients?",
-        "I often had my ring polished at the Somniel. It sure tickled! I wonder, are you ticklish too?"
+        "**Freyja:** Eitr is me as a child... Seeing her is like seeing my shame on full display.",
+        "**Eitr:** I come from a world of nothingness. But here... This place is so bright and full of smiles.",
+        "**Freyja:** The mortals here look truly content. I am sure my brother would be happy to see this harvest festival...",
+        "**Eitr:** I am too scared to do this alone... But if someone's with me, then maybe I can...",
+        "**Freyja:** That costume looks great on you, Eitr. Now, try to trick someone."
       ],
       "Visit": [
-        "I am Emblem Corrin. I see you, too, are in the midst of your journey, just like [F]."
+        "**Eitr:** U-um... I'm Eitr. I came to tell you about the harvest festival at [F]'s. O-OK, bye!"
       ],
       "Level": [
-        "This is the result of both your and my decisions. I always had faith we would make the right ones.",
-        "As an Emblem, I wish to grant you many fruitful outcomes for your journey.",
-        "There is meaning behind every experience. I shall have faith this is true and continue my journey."
+        "**Eitr:** Trick or treat! *sigh* I said it!",
+        "**Freyja:** As I expected, your options are trick or treat. What will you choose?",
+        "**Freyja:** This is unlike me..."
       ],
       "Summon": [
-        "I am Corrin, an Emblem. I shall fight with all my might so the path you choose leads to hope."
+        "I am Freyja, ruler of D\u00f6kk\u00e1lfheimr. Hold your head up, Eitr, like me. You are certainly capable of at least that."
       ],
       "Learn Skill": [
-        "This is a power you chose for me? Nothing could bring me more joy."
+        "**Eitr:** Uh, are you sure? No one has ever been so nice to me... Thank you."
       ],
       "Confession": [
-        "Askr's nights are truly beautiful. The sky full of stars rivals even the world I came from, as well as Solm.\nIsn't it wonderful to think about how we are just one of many possibilities shining in the night sky?\nDo you suppose there are other Emblem versions of me who exist on a different path?\nI am sure there is another me protecting someone with a katana, or roaring as a dragon!\nBut I am here with you, no matter the path you choose to take. For I believe it will lead us to where we seek.\nThis must be how my siblings felt, to watch over me so diligently. Thanks to you I share their sentiments."
+        "**Eitr:** At first, all I noticed at the harvest festival were how many people there were... I was so scared...\nBut everyone was kind to me. And I was able to say \"thank you\" to lots of people. So, um...\n**Freyja:** What is it? If you have something to say, speak up.\n**Eitr:** Y-yes. I wanted to be sure to tell you something...\nThank you for staying with me. I hope that future me turns out just like you someday..."
       ],
       "Special": [
-        "Torrential Roar!",
-        "I'll be your guide.",
-        "Roar!",
-        "Emblem, engage!"
+        "**Duo:** Trick or treat!",
+        "**Duo:** Give us... Treats?",
+        "**Freyja:** Act surprised.",
+        "**Eitr:** For me?"
       ],
       "Status": [
-        "Oh.",
-        "I can imagine the look on my siblings' faces if they saw me like this.",
-        "*gasp* Oh. *giggle* For a second, I didn't see you there.",
-        "My memories of Elyos and of the three paths are what shaped me into who I am.",
-        "The Northern Fortress of Solm is where my ring was... I also spent much time in the Northern Fortress of Nohr.",
-        "\"Bare your fangs, Emblem of Fates\" is the invocation to summon me. I hope you try it someday.",
-        "Seadall is a wonderful dancer. His long, flowing hair reminds me of Azura...",
-        "It is not up to Emblems to decide the world's fate. In Elyos, Alear decides, and here, it is up to you to forge a path into the future."
+        "Ugh.",
+        "\"How can you expect to scare them when you yourself tremble in fear?\" \"I... I... *sob*\""
       ],
       "Map Select": [
-        "Yes.",
-        "With faith.",
-        "I'll follow you."
+        "Um...",
+        "I'll scare them off.",
+        "Now?"
       ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
+      "Conversation": [
+        "**Eitr:** *sob* I'm scared... There are so many people here...",
+        "**Freyja:** It is a festival, after all. How long do you intend on cowering?",
+        "**Eitr:** We...have to scare everyone?",
+        "It doesn't matter if I wear a costume or not, one look at me and people would be surprised...",
+        "But then they'd just make fun of me... *sob*",
+        "**Freyja:** Will you stop crying? Here.",
+        "**Eitr:** Is this...a treat for me?",
+        "**Freyja:** You cannot cry with your mouth full. Now, eat up.",
+        "**Eitr:** Oh... All right. Freyr gave me treats too when I was sad...",
+        "**Freyja:** Yes, I know. I am you. However, I know more about the world than you.",
+        "I know it is filled with more than just ill intent and prejudice. Such was the reason Freyr cared for mortals.",
+        "**Eitr:** Really? I guess...you're right. There are some mortals I have encountered who were kind.",
+        "**Freyja:** Perhaps back then, what I... No, what you lacked was courage...",
+        "The courage to believe in mortals, and even in Freyr.",
+        "It would be foolish to keep repeating the same mistake. Now, muster up your courage.",
+        "**Eitr:** Yes... I will try believing in Freyr and... in mortals too.",
+        "**Freyja:** That is the me I know. Now, shall we join the festivities?"
+      ],
+      "Duo Skill": [
+        "\"Let us go!\" \"Uh...\"",
+        "\"I...can't...\" \"Pitiful.\""
+      ],
+      "Back Unit Supporting": [
+        "Don't lose...",
+        "I'm scared..."
+      ],
       "resplendent": {}
     },
-    "short_name": "Emblem Corrin",
-    "SEARCH_NAME": "Emblem Corrin",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Emblem Corrin",
+    "short_name": "Halloween Freyja",
+    "SEARCH_NAME": "Halloween Freyja",
+    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Halloween Freyja",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "corrin",
-      "corrin2",
-      "corrin3",
-      "corrin4",
-      "corrin5",
-      "corrin6",
-      "corrin7",
-      "corrin8",
-      "corrin9",
-      "corrin10",
-      "corrin11",
-      "corrin12",
-      "corrin13",
-      "corrin14",
-      "corrin15",
-      "corrin16"
+      "freyja",
+      "freyja2"
     ],
     "prf": {
-      "": "swordoffate",
-      "eff": "swordoffate",
-      "atk": "swordoffate",
-      "spd": "swordoffate",
-      "def": "swordoffate",
-      "res": "swordoffate"
+      "": "nightmarestaff",
+      "eff": "nightmarestaff",
+      "atk": "nightmarestaff",
+      "spd": "nightmarestaff",
+      "def": "nightmarestaff",
+      "res": "nightmarestaff"
     }
   },
-  "lyn10": {
-    "name": "Lyn",
-    "title": "Plains Wind",
-    "description": "Disciple of the light goddess Naga. Though she cannot remember her past, she remains firm in her convictions. Appears in Fire Emblem: The Blazing Blade / Shadows.",
-    "origin": "The Blazing Blade",
-    "artist": "\uff2b\uff45\uff27",
+  "nerthuz4": {
+    "name": "Ner\u00feuz",
+    "title": "Divine Abundance",
+    "description": "A goddess of Vanaheimr, the realm of light. She celebrates the harvest alongside mortals as the goddess of the land.",
+    "origin": "Heroes",
+    "artist": "Mai Okuma (\u5927\u718a\u307e\u3044)",
     "move": "Cavalry",
     "weapon": "Beast",
-    "color": "Green",
+    "color": "Red",
     "duel": false,
-    "id": "1295",
-    "type": "legendary",
+    "id": "1297",
+    "type": false,
     "version": "9.10",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 18,
+      "atk": 10,
+      "spd": 9,
+      "def": 12,
+      "res": 5
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 85,
+      "spd": 90,
+      "def": 70,
+      "res": 30
+    },
+    "superboon": [
+      "spd",
+      "def"
+    ],
+    "superbane": [
+      "hp",
+      "res"
+    ],
+    "weapons": {
+      "Whelp (Cavalry)": "1",
+      "Yearling (Cavalry)": "2",
+      "Adult (Cavalry)": "3",
+      "Glee of the Land": "5"
+    },
+    "assist": {},
+    "special": {
+      "Night Sky": "3",
+      "Astra": "4",
+      "Galeforce Mist": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Clash 1": "2",
+        "Atk/Spd Clash 2": "3",
+        "Atk/Spd Clash 3": "4",
+        "Atk/Spd Excel": "5"
+      },
+      "B": {
+        "Moonlit Slumber": "5"
+      },
+      "C": {
+        "Hone Spd 1": "2",
+        "Hone Spd 2": "3",
+        "Hone Spd 3": "4",
+        "A/S Bellow": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/dd/Nerthuz_Divine_Abundance_Face.webp/revision/latest?cb=20251006041817",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/19/Nerthuz_Divine_Abundance_BtlFace_D.webp/revision/latest?cb=20251006041812",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/53/Nerthuz_Divine_Abundance_BtlFace_C.webp/revision/latest?cb=20251006041807",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/bd/Nerthuz_Divine_Abundance_BtlFace.webp/revision/latest?cb=20251006041752"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Divine Abundance",
+      "Ner\u00feuz: Divine Abundance",
+      "Halloween Ner\u00feuz",
+      "nerthuz4"
+    ],
+    "HARD_ALT_NAME": [
+      "Divine Abundance",
+      "Ner\u00feuz: Divine Abundance",
+      "Halloween Ner\u00feuz",
+      "nerthuz4"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u30cf\u30ed\u30cd\u30eb\u30c8\u30a5\u30b9",
+    "voice": "Cristina Vee",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "I feel the gratitude of all you sweet little mortals. I am certain the land will continue to grant your wishes.",
+        "The land supports many lives. Let us head toward the future together, and always remain grateful for its bounty.",
+        "Revel in the harvest-festival joy while you can, but winter will soon come... Do not neglect your preparations.",
+        "I am happy to receive treats, but it would be deliciously fun to trick some of these adorable mortals too.",
+        "Well, does this suit me? I tried to fit the mood of the festival. Mortals do make the most interesting outfits."
+      ],
+      "Visit": [
+        "I am Ner\u00feuz, goddess of the land.\nThere is a festival to give thanks for the land's blessings going on at the castle of [F]."
+      ],
+      "Level": [
+        "The land's blessings help to build the future. I pray that this abundance can continue eternally.",
+        "The smiles of these darling mortals are quite infectious!",
+        "Neither gods nor humans can truly thrive apart from the land."
+      ],
+      "Summon": [
+        "I am Ner\u00feuz, goddess of Vanaheimr, here to offer gratitude for the harvest alongside all the precious mortals."
+      ],
+      "Learn Skill": [
+        "This is to celebrate the blessings of Askr's land... I will gratefully accept the thoughtfulness of these mortals."
+      ],
+      "Confession": [
+        "I am enjoying myself at this wonderful harvest festival. Thank you for inviting me, [S].\nAs a goddess who presides over the land, I know how important it is to all its inhabitants.\nPeople spread their roots into it, and live upon it, fueled by its bounty as they forge their history.\nIf they do not forget to show their gratitude, the land will sustain them with its gifts for all of eternity.\nI also watch over them, to ensure their world continues to be filled with abundance, so...\nplease call me for the next harvest festival. The smiles of all the adorable mortals fill my heart to bursting!"
+      ],
+      "Special": [
+        "Trick or treat!",
+        "How about a treat?",
+        "Did I surprise you?",
+        "So darling!"
+      ],
+      "Status": [
+        "-",
+        "If they're offering thanks for the blessings of the land, do you suppose they'll thank me as well?",
+        "*startle* Please don't play pranks on me. Here, you can have some treats...",
+        "Mortals come up with the most adorable ideas. Imagine, dressing up in costumes for a festival...",
+        "Do you enjoy treats? Please, eat as many as you like.",
+        "When I see creatures of the land, I want to give them all the blessings there are to give.",
+        "Dressing up in costumes makes these precious mortals even more adorable. I am truly delighted.",
+        "Oh my, you have a treat stuck to your cheek... That's so cute. Hold still, I'll remove it for you."
+      ],
+      "Map Select": [
+        "Of course, I'll help.",
+        "Which way?",
+        "I'll surprise them."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Halloween Ner\u00feuz",
+    "SEARCH_NAME": "Halloween Ner\u00feuz",
+    "DISPLAY_NAME": "<:Red_Beast:1124846309208248381>Halloween Ner\u00feuz",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "nerthuz",
+      "nerthuz2",
+      "nerthuz3"
+    ],
+    "prf": {
+      "": "gleeoftheland",
+      "eff": "gleeoftheland",
+      "atk": "gleeoftheland",
+      "spd": "gleeoftheland",
+      "def": "gleeoftheland",
+      "res": "gleeoftheland"
+    }
+  },
+  "peony4": {
+    "name": "Peony",
+    "title": "Fruitful Dream",
+    "description": "A lj\u00f3s\u00e1lfr from Lj\u00f3s\u00e1lfheimr, the realm of dreams. She dreams of blissful abundance alongside mortals at the harvest festival.",
+    "origin": "Heroes",
+    "artist": "\u3072\u3068\u548c",
+    "move": "Flying",
+    "weapon": "Tome",
+    "color": "Blue",
+    "duel": false,
+    "id": "1298",
+    "type": false,
+    "version": "9.10",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 16,
+      "atk": 9,
+      "spd": 9,
+      "def": 4,
+      "res": 6
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 90,
+      "def": 45,
+      "res": 50
+    },
+    "superboon": [
+      "spd",
+      "def"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "res"
+    ],
+    "weapons": {
+      "Light": "1",
+      "Ellight": "2",
+      "Shine": "3",
+      "Spooky Lantern": "5"
+    },
+    "assist": {
+      "Dance": "3",
+      "Pleasant Night": "5"
+    },
+    "special": {},
+    "passive": {
+      "A": {},
+      "B": {
+        "Res Cantrip 1": "2",
+        "Res Cantrip 2": "3",
+        "Res Cantrip 3": "4",
+        "D/R Cantrip 3": "5"
+      },
+      "C": {
+        "Shadow Shove 1": "2",
+        "Shadow Shove 2": "3",
+        "Shadow Shove 3": "4",
+        "Shadow Shove 4": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6e/Peony_Fruitful_Dream_Face.webp/revision/latest?cb=20251006041707",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/11/Peony_Fruitful_Dream_BtlFace_D.webp/revision/latest?cb=20251006041702",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0a/Peony_Fruitful_Dream_BtlFace_C.webp/revision/latest?cb=20251006041657",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/51/Peony_Fruitful_Dream_BtlFace.webp/revision/latest?cb=20251006041642"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Fruitful Dream",
+      "Peony: Fruitful Dream",
+      "Halloween Peony",
+      "peony4"
+    ],
+    "HARD_ALT_NAME": [
+      "Fruitful Dream",
+      "Peony: Fruitful Dream",
+      "Halloween Peony",
+      "peony4"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u30cf\u30ed\u30d4\u30a2\u30cb\u30fc",
+    "voice": "Ryan Bartley",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "Pumpkins on the left! Pumpkins on the right! Pumpkins everywhere! How fun! It's like being in a dream.",
+        "I feel like there was a time when I was always hungry... I hope everyone gets a full belly at the harvest festival.",
+        "What a wonderful festival! It would be a waste not to enjoy it to the fullest. I'm going to wake up Mirabilis!",
+        "Lady Freyja and Eitr both have such adorable outfits! I wonder if they're enjoying the harvest festival.",
+        "Isn't my festival outfit wonderful?! I'm going to play lots of tricks in it!"
+      ],
+      "Visit": [
+        "My name's Peony. I'm a lj\u00f3s\u00e1lfr from Lj\u00f3s\u00e1lfheimr. There's a fun festival at [F]'s castle!"
+      ],
+      "Level": [
+        "My dream is for fun, festive days like this one to go on and on!",
+        "Trick or treat! I'm sure this will be fun either way!",
+        "Hm... I wonder if I got a little too carried away."
+      ],
+      "Summon": [
+        "I'm Peony, the Sweet Dream. This festival gives thanks for the harvest, right?! Let's make it like a fun dream!"
+      ],
+      "Learn Skill": [
+        "Is this a portion of the blessings of the land that you're sharing? Thank you! I'll take really good care of it!"
+      ],
+      "Confession": [
+        "Trick or treat, Summoner! Will you give me a treat? Or would you prefer a trick?\nThe harvest festival is so fun! I wish it could go on and on.\nIt looks like I'm not the only one who feels that way. Everyone dreams of these fun days lasting forever.\nAfter a festival ends, they all go on living their lives, looking forward to the next one.\nDreams continue unending. Isn't that why we're here? To safeguard that bounty of happiness!\nI'm going to make the most of the best festival ever, and harvest lots of lots of dreams and joy!"
+      ],
+      "Special": [
+        "Trick or treat!",
+        "Trick time!",
+        "Treats, anyone?",
+        "BooOOoo!"
+      ],
+      "Status": [
+        "Oooooo! *giggle*",
+        "Surprised?",
+        "Have some treats!",
+        "I adore festivals! I was so excited yesterday I couldn't even dream of falling asleep.",
+        "What do you think of this outfit? It's really cute, don't you agree?",
+        "I love how the whole town is shining like Lj\u00f3s\u00e1lfheimr. It's just so pretty...",
+        "Tonight's dreams will be sweet as candy for sure.",
+        "Going to a festival with you is like a really good dream. If only I didn't have to wake up..."
+      ],
+      "Map Select": [
+        "Yeah!",
+        "Where next?",
+        "I'll trick them!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Halloween Peony",
+    "SEARCH_NAME": "Halloween Peony",
+    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Halloween Peony",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "peony",
+      "peony2",
+      "peony3"
+    ],
+    "prf": {
+      "": "spookylantern",
+      "eff": "spookylantern",
+      "atk": "spookylantern",
+      "spd": "spookylantern",
+      "def": "spookylantern",
+      "res": "spookylantern"
+    }
+  },
+  "skrimir": {
+    "name": "Skrimir",
+    "title": "Echoing Howl",
+    "description": "A member of a laguz tribe and viewed as the heir to Caineghis, Gallia's king. With no prior knowledge of the harvest festival, he's here alongside Ranulf. Appears in Fire Emblem: Radiant Dawn.",
+    "origin": "Radiant Dawn",
+    "artist": "Clover.K (\u9ed2\u8449.K)",
+    "move": "Armored",
+    "weapon": "Beast",
+    "color": "Green",
+    "duel": false,
+    "id": "1299",
+    "type": false,
+    "version": "9.10",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 22,
+      "atk": 13,
+      "spd": 6,
+      "def": 10,
+      "res": 11
+    },
+    "growth": {
+      "hp": 70,
+      "atk": 80,
+      "spd": 35,
+      "def": 90,
+      "res": 70
+    },
+    "superboon": [
+      "hp",
+      "def",
+      "res"
+    ],
+    "superbane": [],
+    "weapons": {
+      "Whelp (Armored)": "1",
+      "Yearling (Arm.)": "2",
+      "Adult (Armored)": "3",
+      "Preying Fang": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "Wily Fighter 1": "2",
+        "Wily Fighter 2": "3",
+        "Wily Fighter 3": "4",
+        "Wily Fighter 4": "5"
+      },
+      "C": {
+        "A/D Far Save 1": "1",
+        "A/D Far Save 2": "2",
+        "A/D Far Save 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/48/Skrimir_Echoing_Howl_Face.webp/revision/latest?cb=20251006042002",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c0/Skrimir_Echoing_Howl_BtlFace_D.webp/revision/latest?cb=20251006041957",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5f/Skrimir_Echoing_Howl_BtlFace_C.webp/revision/latest?cb=20251006041952",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/39/Skrimir_Echoing_Howl_BtlFace.webp/revision/latest?cb=20251006041937"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Echoing Howl",
+      "Skrimir: Echoing Howl",
+      "Halloween Skrimir",
+      "skrimir"
+    ],
+    "HARD_ALT_NAME": [
+      "Echoing Howl",
+      "Skrimir: Echoing Howl",
+      "Halloween Skrimir",
+      "skrimir"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u30cf\u30ed\u30b9\u30af\u30ea\u30df\u30eb",
+    "voice": "James A. Parker",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "tellius"
+    ],
+    "chibi": "fe10",
+    "quotes": {
+      "Castle Hall": [
+        "Trick or treat? Is that some kind of sorcery?! Show me the enemy!",
+        "Ranulf thinks I look down on the beorc too much.",
+        "When Ranulf isn't around, people turn to me with their troubles. So I decided to come with him.",
+        "You'll get soft and weak eating only treats! Eat meat, gnaw some bones, and become a warrior like me!",
+        "How are you training soldiers during the festival? I'll be training morning, afternoon, and evening, like always."
+      ],
+      "Visit": [
+        "I'm Skrimir, general of Gallia. I'm in command at the harvest festival at [F]'s castle!"
+      ],
+      "Level": [
+        "I've been waiting for this! I won't give out treats for free. Wrestle me with all you've got!",
+        "Yah! Hah! I'm starting to enjoy this! Come at me some more!",
+        "Grr... How pathetic of me, a general of Gallia! Here, take these treats!"
+      ],
+      "Summon": [
+        "I'm Skrimir! It's finally time to get this festival going. I'll show everyone the strength of the beast tribe!"
+      ],
+      "Learn Skill": [
+        "Are you trying to get on my good side? You're a smart one!"
+      ],
+      "Confession": [
+        "Hmph, such a lighthearted affair! They've combined a ritual to praise the land with lots of fun and games.\nA warrior's festival has combat! Tests of strength with fist and claw! That is how a beast tribe's festival should be.\nWe laguz are always part of the land. All of this just to show their gratitude to it... Typical beorc insolence!\nThe festival food's good though! I bet that's why Ranulf was so eager to get here. He wanted to feast!\nFood is the land's blessing. Digging into it with gusto shows gratitude. I'll eat and eat, then eat some more!\nDon't hold back to be polite. Join me! We should enjoy the blessings of the day, [S]!"
+      ],
+      "Special": [
+        "Trick or treat!",
+        "Surprise, surprise, surprise!",
+        "Hand over the treats!",
+        "I claim victory!"
+      ],
+      "Status": [
+        "-",
+        "They call this a harvest festival costume! It suits me!",
+        "*startle* Hm. I can't believe you caught me by surprise.",
+        "Giving thanks to the land for its bounty... Commendable.",
+        "Is it only treats? No meat? Meat! Meat! Hand over some meat!",
+        "My uncle, the king, ought to see me in this outfit.",
+        "Laguz and beorc are enjoying the festival together... Not a bad thing.",
+        "All right! Time for you to go scare everyone too. Let's move!"
+      ],
+      "Map Select": [
+        "All right!",
+        "No mistakes.",
+        "Let's see what they can do."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Halloween Skrimir",
+    "SEARCH_NAME": "Halloween Skrimir",
+    "DISPLAY_NAME": "<:Green_Beast:1124845912385138738>Halloween Skrimir",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "preyingfang",
+      "eff": "preyingfang",
+      "atk": "preyingfang",
+      "spd": "preyingfang",
+      "def": "preyingfang",
+      "res": "preyingfang"
+    }
+  },
+  "ranulf2": {
+    "name": "Ranulf",
+    "title": "Considerate Gaze",
+    "description": "A cat warrior from Gallia, the home of the beast tribe of laguz. He is considerate of others at the harvest festival, acting as Skrimir's assistant. Appears in Fire Emblem: Radiant Dawn.",
+    "origin": "Radiant Dawn",
+    "artist": "ayuko (\u5728\u7531\u5b50)",
+    "move": "Cavalry",
+    "weapon": "Beast",
+    "color": "Blue",
+    "duel": false,
+    "id": "1300",
+    "type": false,
+    "version": "9.10",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 19,
       "atk": 11,
-      "spd": 10,
+      "spd": 9,
       "def": 10,
       "res": 5
     },
@@ -228,147 +719,123 @@
       "Whelp (Cavalry)": "1",
       "Yearling (Cavalry)": "2",
       "Adult (Cavalry)": "3",
-      "Winds of Duality": "5"
+      "Nocturnal Fang": "5"
     },
     "assist": {},
     "special": {
       "Night Sky": "3",
-      "Astra": "4",
-      "Nimble Beast": "5"
+      "Astra": "4"
     },
     "passive": {
-      "A": {
-        "Reject Tyranny": "5"
-      },
+      "A": {},
       "B": {
-        "Beast Agility 1": "2",
-        "Beast Agility 2": "3",
-        "Beast Agility 3": "4",
-        "Bestial Agility": "5"
+        "Beast Agility 1": "3",
+        "Beast Agility 2": "4",
+        "Beast Agility 3": "5"
       },
       "C": {
-        "C Feud 1": "2",
-        "C Feud 2": "3",
-        "C Feud 3": "4",
-        "Dark Beast Force": "5"
+        "Spd Tactic 1": "1",
+        "Spd Tactic 2": "2",
+        "Spd Tactic 3": "4"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ac/Lyn_Plains_Wind_Face.webp/revision/latest?cb=20250930042413",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/eb/Lyn_Plains_Wind_BtlFace_D.webp/revision/latest?cb=20250930042408",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Lyn_Plains_Wind_BtlFace_C.webp/revision/latest?cb=20250930042403",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/59/Lyn_Plains_Wind_BtlFace.webp/revision/latest?cb=20250930042349"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/9a/Ranulf_Considerate_Gaze_Face.webp/revision/latest?cb=20251006041927",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Ranulf_Considerate_Gaze_BtlFace_D.webp/revision/latest?cb=20251006041923",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b8/Ranulf_Considerate_Gaze_BtlFace_C.webp/revision/latest?cb=20251006041917",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/75/Ranulf_Considerate_Gaze_BtlFace.webp/revision/latest?cb=20251006041903"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Plains Wind",
-      "Lyn: Plains Wind",
-      "lyn10",
-      "mythic lyn",
-      "horse lyn",
-      "uma lyn",
-      "centaur lyn"
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
     "HARD_ALT_NAME": [
-      "Plains Wind",
-      "Lyn: Plains Wind",
-      "lyn10",
-      "mythic lyn",
-      "horse lyn",
-      "uma lyn",
-      "centaur lyn"
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u7363\u4eba\u30ea\u30f3",
-    "voice": "Wendee Lee",
+    "gender": "M",
+    "rarity": 4,
+    "pool": "grail",
+    "internal_id": "PID_\u30cf\u30ed\u30e9\u30a4",
+    "voice": "Armen Taylor",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "elibe"
+      "tellius"
     ],
-    "chibi": "fe7",
+    "chibi": "fe10",
     "quotes": {
       "Castle Hall": [
-        "The wind feels...welcoming. This is a nice place, isn't it?",
-        "Is...something wrong? The way you're staring at me... Is there something on my face?",
-        "Leave any bandits to me. I can't tolerate those who would harm people just trying to live their lives.",
-        "My hearing is top-notch, and I'm fast too. When someone calls for help, I'm usually the first to arrive.",
-        "You and I appear quite different at a glance, but...we share a desire to look out for the well-being of others."
+        "I didn't expect Skrimir to come out at all. He has a tendency to go berserk, so I'm here to keep an eye on him.",
+        "So I hand out treats to the children? Sounds fun. I don't mind a few tricks if we're just playing around.",
+        "I find it very strange that Lethe, of all people, enjoys this festival. Is she just playing the cool cat here?",
+        "The harvest festival, eh? Lethe was fond of it, so I decided to come check it out for myself.",
+        "I'm not that good at dressing up, but participating in a country's cultural events can help build understanding."
       ],
       "Visit": [
-        "Um... My appearance? Is something off? Well, I brought you this greeting from [F]."
+        "I'm here to share portions from the harvest festival. You can give your thanks to [F]."
       ],
       "Level": [
-        "There's a gentle wind blowing... I feel as if it's trying to guide me.",
-        "I want to save everyone. I believe that's what my power is meant for.",
-        "I'm sorry. I guess I'm not at my best right now."
+        "A festival to recognize the blessings of the earth. You know, this one kind of works for me.",
+        "What was it? Trick or treat, right? Well, then, let's have some fun.",
+        "I'm not sure I get how this works yet, so let me know if I make a mistake!"
       ],
       "Summon": [
-        "I am Lyn. I'm told I am a disciple of light, guiding others toward Naga's ideals, but... Um. What is this place?"
+        "I hear you took good care of Lethe. I'm Ranulf...\nActually, formal self-introductions are boring. It's a festival! Let's make this more exciting!"
       ],
       "Learn Skill": [
-        "Thank you. I hope you can see how grateful I am."
+        "You're sure you want me to have this? All right. Thanks."
       ],
       "Confession": [
-        "I... The first thing I recall is being in a field, not knowing where I came from or who I was. I remembered nothing.\nA disciple of light... That's what they called me. Meant to guide the world toward Naga's ideals or something...\nThen, I felt like someone was calling me, and suddenly I was here. It's all quite...confusing.\nBut, wherever this is, and whoever I am...what I must do stays the same.\nI will protect the oppressed. That is the cause I will champion."
+        "I'm surprised Skrimir is attending the festival. The general can be forceful and direct, like how Ike used to be.\nHe has the capacity to be a good heir to the king of the lions, but his views are narrow. This is good for him.\nNot every beorc is an enemy. We're not all that different, especially in the unbiased hearts of our children.\nI have felt the warm spirit of order here.\nI hope the division between laguz and beorc in my world gets resolved, but... Well, that will take a long time.\nAnyway, I learned a lot here. Thank you for this, [S]."
       ],
       "Special": [
-        "I will avenge them!",
-        "In one shot!",
-        "You will fall.",
-        "Begone!"
+        "Trick or treat!",
+        "I'll scare you!",
+        "Gotcha!",
+        "Hand over some treats!"
       ],
       "Status": [
-        "-",
-        "My name is Lyn. I remember nothing more...",
-        "*startle* Is this how you normally greet each other in this world?",
-        "You arrived from another world too? Then we have that much in common.",
-        "It's peculiar, but I get the feeling this isn't the first time we've met.",
-        "Regardless of the world we're in, the most important thing is that everyone can be happy, wouldn't you agree?",
-        "I will never forgive those who destroy the happiness of others.",
-        "My mind is at ease when I'm with you. This wind...it carries whispers of the past."
+        "Ahoy!",
+        "Look at this! I'm a pirate captain now! Well? What do you think?",
+        "Huh? W-w-wait, was that supposed to scare me? You've got a lot to learn.",
+        "Even if I dress up as something else, I'm not hiding my tail. You know that, right?",
+        "Me? A pirate? I typically prefer to keep my feet on the land.",
+        "Maybe Kyza and Lyre won't bicker if I have enough treats.",
+        "I get to eat delicious food and make a ruckus with my comrades? I think I like festivals.",
+        "I get the feeling the festival will be twice as fun with you."
       ],
       "Map Select": [
-        "Got it.",
-        "Are there bandits here?",
-        "You have orders?"
+        "All right!",
+        "That way?",
+        "Time to scare them."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Lyn",
-    "SEARCH_NAME": "Lyn",
-    "DISPLAY_NAME": "<:Green_Beast:1124845912385138738>Lyn",
+    "short_name": "Halloween Ranulf",
+    "SEARCH_NAME": "Halloween Ranulf",
+    "DISPLAY_NAME": "<:Blue_Beast:1124845338688233575>Halloween Ranulf",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "lyn",
-      "lyn2",
-      "lyn3",
-      "lyn4",
-      "lyn5",
-      "lyn6",
-      "lyn7",
-      "lyn8",
-      "lyn9"
+      "ranulf"
     ],
     "prf": {
-      "": "windsofduality",
-      "eff": "windsofduality",
-      "atk": "windsofduality",
-      "spd": "windsofduality",
-      "def": "windsofduality",
-      "res": "windsofduality"
-    },
-    "blessing": "Light",
-    "boost": {
-      "hp": 5,
-      "res": 5
+      "": "nocturnalfang",
+      "eff": "nocturnalfang",
+      "atk": "nocturnalfang",
+      "spd": "nocturnalfang",
+      "def": "nocturnalfang",
+      "res": "nocturnalfang"
     }
   }
 }
