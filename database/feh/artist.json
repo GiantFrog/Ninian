@@ -2283,7 +2283,11 @@
       "Resplendent Eliwood",
       "Resp Eliwood",
       "R Eliwood",
-      "Eliwood (Resplendent)"
+      "Eliwood (Resplendent)",
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
     "HARD_ALT_NAME": [
       "Valentine's Ephraim",
@@ -2295,11 +2299,16 @@
       "Resplendent Eliwood",
       "Resp Eliwood",
       "R Eliwood",
-      "Eliwood (Resplendent)"
+      "Eliwood (Resplendent)",
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
     "heroes": {
+      "eliwood4R": "<:Blue_Lance:1124845569496584302>Brave Eliwood (Resplendent)",
       "ephraim7": "<:Blue_Lance:1124845569496584302>Valentines Ephraim",
-      "eliwood4R": "<:Blue_Lance:1124845569496584302>Brave Eliwood (Resplendent)"
+      "ranulf2": "<:Blue_Beast:1124845338688233575>Halloween Ranulf"
     },
     "name": "ayuko (\u5728\u7531\u5b50)"
   },
@@ -3325,7 +3334,11 @@
       "Resplendent Athena",
       "Resp Athena",
       "R Athena",
-      "Athena (Resplendent)"
+      "Athena (Resplendent)",
+      "Echoing Howl",
+      "Skrimir: Echoing Howl",
+      "Halloween Skrimir",
+      "skrimir"
     ],
     "HARD_ALT_NAME": [
       "ryomaR",
@@ -3389,7 +3402,11 @@
       "Resplendent Athena",
       "Resp Athena",
       "R Athena",
-      "Athena (Resplendent)"
+      "Athena (Resplendent)",
+      "Echoing Howl",
+      "Skrimir: Echoing Howl",
+      "Halloween Skrimir",
+      "skrimir"
     ],
     "heroes": {
       "athenaR": "<:Red_Sword:1124846201070698536>Athena (Resplendent)",
@@ -3399,7 +3416,8 @@
       "felix2": "<:Blue_Bow:1124845525695475845>Winter Felix",
       "naesala2": "<:Red_Beast:1124846309208248381>Pirate Naesala",
       "ryomaR": "<:Red_Sword:1124846201070698536>Ryoma (Resplendent)",
-      "saizo2": "<:Blue_Lance:1124845569496584302>Ninja Saizo"
+      "saizo2": "<:Blue_Lance:1124845569496584302>Ninja Saizo",
+      "skrimir": "<:Green_Beast:1124845912385138738>Halloween Skrimir"
     },
     "name": "Clover.K (\u9ed2\u8449.K)"
   },
@@ -7307,7 +7325,12 @@
       "Bridal Sharena",
       "Duo Sharena",
       "D Sharena",
-      "sharena3"
+      "sharena3",
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "HARD_ALT_NAME": [
       "ilyana",
@@ -7417,11 +7440,17 @@
       "Duo Sharena",
       "D Sharena",
       "Bridal Sharena",
-      "sharena3"
+      "sharena3",
+      "Parallel Hearts",
+      "Freyja: Parallel Hearts",
+      "Halloween Freyja",
+      "Duo Freyja",
+      "freyja3"
     ],
     "heroes": {
       "anna2": "<:Red_Bow:1124846280951218289>New Year Anna",
       "celine": "<:Green_Tome:1124845959873036289>C\u00e9line",
+      "freyja3": "<:Colorless_Tome:1124845725960904734>Halloween Freyja",
       "ilyana": "<:Blue_Tome:1124845593211191297>Ilyana",
       "maria2": "<:Green_Axe:1124845885277343754>Spring Maria",
       "palla3": "<:Blue_Lance:1124845569496584302>Duo Palla",
@@ -14505,7 +14534,11 @@
       "Normal Tharja",
       "Regular Tharja",
       "Attuned Tharja",
-      "tharja7"
+      "tharja7",
+      "Divine Abundance",
+      "Ner\u00feuz: Divine Abundance",
+      "Halloween Ner\u00feuz",
+      "nerthuz4"
     ],
     "HARD_ALT_NAME": [
       "Arm Reflet F",
@@ -14632,11 +14665,16 @@
       "Normal Tharja",
       "Regular Tharja",
       "Attuned Tharja",
-      "tharja7"
+      "tharja7",
+      "Divine Abundance",
+      "Ner\u00feuz: Divine Abundance",
+      "Halloween Ner\u00feuz",
+      "nerthuz4"
     ],
     "heroes": {
       "caeda6": "<:Blue_Lance:1124845569496584302>Attuned Caeda",
       "camilla9": "<:Green_Tome:1124845959873036289>Legendary Camilla",
+      "nerthuz4": "<:Red_Beast:1124846309208248381>Halloween Ner\u00feuz",
       "robin10": "<:Colorless_Breath:1124845679076978798>Rearmed Grima",
       "tharja5": "<:Blue_Tome:1124845593211191297>Summer Tharja",
       "tharja7": "<:Green_Tome:1124845959873036289>Attuned Tharja"
@@ -21502,7 +21540,7 @@
       "Summer Nerpuz",
       "S Nerpuz",
       "Beach Nerpuz",
-      "nerpuz3",
+      "nerthuz3",
       "Nerthuz: Beach Chaperone",
       "Summer Nerthuz",
       "S Nerthuz",
@@ -21769,7 +21807,7 @@
       "Summer Nerpuz",
       "S Nerpuz",
       "Beach Nerpuz",
-      "nerpuz3",
+      "nerthuz3",
       "Nerthuz: Beach Chaperone",
       "Summer Nerthuz",
       "S Nerthuz",
@@ -21789,7 +21827,7 @@
       "corrin9": "<:Colorless_Breath:1124845679076978798>Legendary Corrin",
       "heidrun3": "<:Colorless_Beast:1124845615935918110>Summer Hei\u00f0r\u00fan",
       "ingrid2": "<:Blue_Lance:1124845569496584302>Summer Ingrid",
-      "nerpuz3": "<:Green_Beast:1124845912385138738>Summer Ner\u00feuz",
+      "nerthuz3": "<:Green_Beast:1124845912385138738>Summer Ner\u00feuz",
       "tharja3": "<:Red_Tome:1124846175577710642>Bridal Tharja"
     },
     "name": "Sencha (\u714e\u8336)"
@@ -27450,7 +27488,7 @@
       "Goddess of Hope",
       "Base Sei\u00f0r",
       "Normal Sei\u00f0r",
-      "nerpuz",
+      "nerthuz",
       "Base Nerpuz",
       "Normal Nerthuz",
       "Mythic Nerpuz",
@@ -27556,7 +27594,7 @@
       "kvasir": "<:Red_Tome:1124846175577710642>Kvasir",
       "lene": "<:Red_Sword:1124846201070698536>Lene",
       "mirabilis": "<:Red_Sword:1124846201070698536>Mirabilis",
-      "nerpuz": "<:Blue_Beast:1124845338688233575>Ner\u00feuz",
+      "nerthuz": "<:Blue_Beast:1124845338688233575>Ner\u00feuz",
       "peony": "<:Blue_Tome:1124845593211191297>Peony",
       "peony3": "<:Green_Axe:1124845885277343754>Attuned Peony",
       "plumeria": "<:Red_Tome:1124846175577710642>Plumeria",
@@ -27665,7 +27703,7 @@
       "New Year Cow Girl",
       "RNephenee",
       "Valentine Daraen",
-      "nerpuz2",
+      "nerthuz2",
       "Harvest Corn Female",
       "Merric: Wind Pontifex",
       "Harvest Corn F",
@@ -27844,7 +27882,7 @@
       "V Daraen Female",
       "Valentine Daraen",
       "V Robin F",
-      "nerpuz2",
+      "nerthuz2",
       "Harvest Corn Female",
       "Merric: Wind Pontifex",
       "frobin5",
@@ -27890,7 +27928,7 @@
       "merric3": "<:Green_Tome:1124845959873036289>Ascended Merric",
       "nephenee3": "<:Red_Tome:1124846175577710642>Festival Nephenee",
       "nepheneeR": "<:Blue_Lance:1124845569496584302>Nephenee (Resplendent)",
-      "nerpuz2": "<:Colorless_Beast:1124845615935918110>New Year Ner\u00feuz",
+      "nerthuz2": "<:Colorless_Beast:1124845615935918110>New Year Ner\u00feuz",
       "robin9": "<:Colorless_Tome:1124845725960904734>Valentines Robin"
     },
     "name": "Yoshiro Ambe (\u3042\u3093\u3079\u3088\u3057\u308d\u3046)"
@@ -28728,6 +28766,7 @@
   },
   "zaiyouzi": {
     "heroes": {
+      "ranulf2": "<:Blue_Beast:1124845338688233575>Halloween Ranulf",
       "takumi6": "<:Colorless_Bow:1124845636659982457>Festival Takumi"
     },
     "name": "\u5728\u7531\u5b50",
@@ -28740,7 +28779,11 @@
       "Yukata Takumi",
       "HS Takumi",
       "Fes Takumi",
-      "takumi6"
+      "takumi6",
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ],
     "HARD_ALT_NAME": [
       "Wishful Spark",
@@ -28751,7 +28794,11 @@
       "Yukata Takumi",
       "HS Takumi",
       "Fes Takumi",
-      "takumi6"
+      "takumi6",
+      "Considerate Gaze",
+      "Ranulf: Considerate Gaze",
+      "Halloween Ranulf",
+      "ranulf2"
     ]
   },
   "keg": {
@@ -29748,7 +29795,8 @@
   },
   "hitohe": {
     "heroes": {
-      "lena2": "<:Colorless_Staff:1124845704444137592>Fallen Lena"
+      "lena2": "<:Colorless_Staff:1124845704444137592>Fallen Lena",
+      "peony4": "<:Blue_Tome:1124845593211191297>Halloween Peony"
     },
     "name": "\u3072\u3068\u548c",
     "ALT_NAME": [
@@ -29756,14 +29804,22 @@
       "Lena: Bereft Angel",
       "Fallen Lena",
       "F Lena",
-      "lena2"
+      "lena2",
+      "Fruitful Dream",
+      "Peony: Fruitful Dream",
+      "Halloween Peony",
+      "peony4"
     ],
     "HARD_ALT_NAME": [
       "Bereft Angel",
       "Lena: Bereft Angel",
       "Fallen Lena",
       "F Lena",
-      "lena2"
+      "lena2",
+      "Fruitful Dream",
+      "Peony: Fruitful Dream",
+      "Halloween Peony",
+      "peony4"
     ]
   },
   "otsuton": {
