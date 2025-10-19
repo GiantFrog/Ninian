@@ -374,7 +374,10 @@
       "Winter Artur",
       "Christmas Artur",
       "Winter Asseray",
-      "Christmas Asseray"
+      "Christmas Asseray",
+      "Bolt Axe General",
+      "Gromell: Bolt Axe General",
+      "gromell"
     ],
     "HARD_ALT_NAME": [
       "artur",
@@ -388,10 +391,14 @@
       "W Asseray",
       "Christmas Artur",
       "Winter Asseray",
-      "Christmas Asseray"
+      "Christmas Asseray",
+      "Bolt Axe General",
+      "Gromell: Bolt Axe General",
+      "gromell"
     ],
     "heroes": {
-      "artur": "<:Green_Tome:1124845959873036289>Winter Artur"
+      "artur": "<:Green_Tome:1124845959873036289>Winter Artur",
+      "gromell": "<:Green_Axe:1124845885277343754>Gromell"
     },
     "name": "Adin Rudd"
   },
@@ -1213,7 +1220,10 @@
       "Yukata Lucia",
       "HS Lucia",
       "Fes Lucia",
-      "lucia2"
+      "lucia2",
+      "Hearts of Purity",
+      "Elincia: Hearts of Purity",
+      "elincia6"
     ],
     "HARD_ALT_NAME": [
       "elimine",
@@ -1242,10 +1252,14 @@
       "Yukata Lucia",
       "HS Lucia",
       "Fes Lucia",
-      "lucia2"
+      "lucia2",
+      "Hearts of Purity",
+      "Elincia: Hearts of Purity",
+      "elincia6"
     ],
     "heroes": {
       "elimine": "<:Colorless_Staff:1124845704444137592>Elimine",
+      "elincia6": "<:Red_Sword:1124846201070698536>Elincia",
       "lucia": "<:Red_Sword:1124846201070698536>Lucia",
       "lucia2": "<:Blue_Lance:1124845569496584302>Festival Lucia"
     },
@@ -11187,7 +11201,10 @@
       "Base Elincia",
       "Normal Elincia",
       "Base Erincia",
-      "Normal Erincia"
+      "Normal Erincia",
+      "Hearts of Purity",
+      "Elincia: Hearts of Purity",
+      "elincia6"
     ],
     "HARD_ALT_NAME": [
       "elinciaR",
@@ -11200,9 +11217,13 @@
       "Base Elincia",
       "Normal Elincia",
       "Base Erincia",
-      "Normal Erincia"
+      "Normal Erincia",
+      "Hearts of Purity",
+      "Elincia: Hearts of Purity",
+      "elincia6"
     ],
     "heroes": {
+      "elincia6": "<:Red_Sword:1124846201070698536>Elincia",
       "elinciaR": "<:Red_Sword:1124846201070698536>Elincia (Resplendent)"
     },
     "name": "Heather Gonzales"
@@ -20752,7 +20773,11 @@
       "Resplendent Naga",
       "Resp Naga",
       "R Naga",
-      "Naga (Resplendent)"
+      "Naga (Resplendent)",
+      "Resplendent Tiki",
+      "Resp Tiki",
+      "R Tiki",
+      "Tiki (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "tiki",
@@ -21010,7 +21035,11 @@
       "Resplendent Naga",
       "Resp Naga",
       "R Naga",
-      "Naga (Resplendent)"
+      "Naga (Resplendent)",
+      "Resplendent Tiki",
+      "Resp Tiki",
+      "R Tiki",
+      "Tiki (Resplendent)"
     ],
     "heroes": {
       "naga": "<:Blue_Breath:1124845312637403236>Naga",
@@ -21025,6 +21054,7 @@
       "tiki3": "<:Green_Axe:1124845885277343754>Summer Adult Tiki",
       "tiki4": "<:Red_Breath:1124846247673610240>Summer Young Tiki",
       "tiki5": "<:Blue_Breath:1124845312637403236>Legendary Young Tiki",
+      "tiki5R": "<:Blue_Breath:1124845312637403236>Legendary Young Tiki (Resplendent)",
       "tiki6": "<:Colorless_Breath:1124845679076978798>Fallen Young Tiki",
       "tiki7": "<:Blue_Breath:1124845312637403236>Harmonic Young Tiki",
       "tiki8": "<:Green_Breath:1124845770978361425>Brave Adult Tiki",
@@ -24524,7 +24554,10 @@
       "Young Bole",
       "Child Bole",
       "Mini Bole",
-      "Baby Bole"
+      "Baby Bole",
+      "Intrepid Warrior",
+      "Boyd: Intrepid Warrior",
+      "boyd2"
     ],
     "HARD_ALT_NAME": [
       "ogma2",
@@ -24550,10 +24583,14 @@
       "Young Bole",
       "Child Bole",
       "Mini Bole",
-      "Baby Bole"
+      "Baby Bole",
+      "Intrepid Warrior",
+      "Boyd: Intrepid Warrior",
+      "boyd2"
     ],
     "heroes": {
       "boyd": "<:Green_Axe:1124845885277343754>Young Boyd",
+      "boyd2": "<:Green_Axe:1124845885277343754>Boyd",
       "ogma2": "<:Blue_Lance:1124845569496584302>Summer Ogma"
     },
     "name": "River Kanoff"
@@ -31350,7 +31387,8 @@
   },
   "juliemaddalena": {
     "heroes": {
-      "sharena4": "<:Green_Tome:1124845959873036289>Brave Sharena"
+      "sharena4": "<:Green_Tome:1124845959873036289>Brave Sharena",
+      "sharena5": "<:Blue_Lance:1124845569496584302>Sharena"
     },
     "name": "Julie Maddalena",
     "ALT_NAME": [
@@ -31358,14 +31396,20 @@
       "Sharena: Hopeful Princess",
       "Brave Sharena",
       "CYL Sharena",
-      "sharena4"
+      "sharena4",
+      "Borrowed Divinity",
+      "Sharena: Borrowed Divinity",
+      "sharena5"
     ],
     "HARD_ALT_NAME": [
       "Hopeful Princess",
       "Sharena: Hopeful Princess",
       "Brave Sharena",
       "CYL Sharena",
-      "sharena4"
+      "sharena4",
+      "Borrowed Divinity",
+      "Sharena: Borrowed Divinity",
+      "sharena5"
     ]
   },
   "jessiejamesgrelle": {
@@ -31442,6 +31486,44 @@
       "Skrimir: Echoing Howl",
       "Halloween Skrimir",
       "skrimir"
+    ]
+  },
+  "ayumumurase": {
+    "heroes": {
+      "soren6": "<:Blue_Tome:1124845593211191297>Rearmed Soren"
+    },
+    "name": "Ayumu Murase",
+    "ALT_NAME": [
+      "Isolated Strategist",
+      "Soren: Isolated Strategist",
+      "Rearmed Soren",
+      "Rearm Soren",
+      "Arm Soren",
+      "soren6"
+    ],
+    "HARD_ALT_NAME": [
+      "Isolated Strategist",
+      "Soren: Isolated Strategist",
+      "Rearmed Soren",
+      "Rearm Soren",
+      "Arm Soren",
+      "soren6"
+    ]
+  },
+  "benbalmeceda": {
+    "heroes": {
+      "stefan": "<:Red_Sword:1124846201070698536>Stefan"
+    },
+    "name": "Ben Balmeceda",
+    "ALT_NAME": [
+      "No-Man's-Blade",
+      "Stefan: No-Man's-Blade",
+      "stefan"
+    ],
+    "HARD_ALT_NAME": [
+      "No-Man's-Blade",
+      "Stefan: No-Man's-Blade",
+      "stefan"
     ]
   }
 }

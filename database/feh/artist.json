@@ -13166,7 +13166,10 @@
       "fafnir",
       "Masked Knight",
       "Bruno: Masked Knight",
-      "bruno3"
+      "bruno3",
+      "Borrowed Divinity",
+      "Sharena: Borrowed Divinity",
+      "sharena5"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -13436,7 +13439,10 @@
       "fafnir",
       "Masked Knight",
       "Bruno: Masked Knight",
-      "bruno3"
+      "bruno3",
+      "Borrowed Divinity",
+      "Sharena: Borrowed Divinity",
+      "sharena5"
     ],
     "heroes": {
       "alfonse": "<:Red_Sword:1124846201070698536>Alfonse",
@@ -13471,6 +13477,7 @@
       "reginn": "<:Red_Sword:1124846201070698536>Reginn",
       "sharena": "<:Blue_Lance:1124845569496584302>Sharena",
       "sharena2": "<:Green_Tome:1124845959873036289>Spring Sharena",
+      "sharena5": "<:Blue_Lance:1124845569496584302>Sharena",
       "thrasir": "<:Green_Tome:1124845959873036289>Thrasir",
       "veronica": "<:Colorless_Staff:1124845704444137592>Brave Veronica",
       "veronica5": "<:Red_Tome:1124846175577710642>Legendary Veronica"
@@ -14000,7 +14007,10 @@
       "Alm: Powerful Resolve",
       "Attuned Alm",
       "A!Alm",
-      "alm5"
+      "alm5",
+      "Bolt Axe General",
+      "Gromell: Bolt Axe General",
+      "gromell"
     ],
     "HARD_ALT_NAME": [
       "luthier",
@@ -14037,11 +14047,15 @@
       "Alm: Powerful Resolve",
       "Attuned Alm",
       "A!Alm",
-      "alm5"
+      "alm5",
+      "Bolt Axe General",
+      "Gromell: Bolt Axe General",
+      "gromell"
     ],
     "heroes": {
       "alm5": "<:Colorless_Bow:1124845636659982457>Attuned Alm",
       "chrom4R": "<:Red_Sword:1124846201070698536>Horse Chrom (Resplendent)",
+      "gromell": "<:Green_Axe:1124845885277343754>Gromell",
       "luthier": "<:Green_Tome:1124845959873036289>Luthier",
       "priam": "<:Red_Sword:1124846201070698536>Priam",
       "sain": "<:Blue_Lance:1124845569496584302>Sain"
@@ -22704,7 +22718,10 @@
       "Ogma: Former Gladiator",
       "Gladiator Ogma",
       "Ferox Ogma",
-      "ogma3"
+      "ogma3",
+      "Intrepid Warrior",
+      "Boyd: Intrepid Warrior",
+      "boyd2"
     ],
     "HARD_ALT_NAME": [
       "Normal Sirius",
@@ -22894,9 +22911,13 @@
       "Ogma: Former Gladiator",
       "Gladiator Ogma",
       "Ferox Ogma",
-      "ogma3"
+      "ogma3",
+      "Intrepid Warrior",
+      "Boyd: Intrepid Warrior",
+      "boyd2"
     ],
     "heroes": {
+      "boyd2": "<:Green_Axe:1124845885277343754>Boyd",
       "camus": "<:Blue_Lance:1124845569496584302>Camus",
       "diamant": "<:Red_Sword:1124846201070698536>Diamant",
       "diamant2": "<:Green_Axe:1124845885277343754>Ninja Diamant",
@@ -23097,7 +23118,10 @@
       "Emblem Micaiah",
       "Engage Micaiah",
       "E Micaiah",
-      "micaiah8"
+      "micaiah8",
+      "Hearts of Purity",
+      "Elincia: Hearts of Purity",
+      "elincia6"
     ],
     "HARD_ALT_NAME": [
       "Beautiful Mage",
@@ -23248,13 +23272,17 @@
       "Emblem Micaiah",
       "Engage Micaiah",
       "E Micaiah",
-      "micaiah8"
+      "micaiah8",
+      "Hearts of Purity",
+      "Elincia: Hearts of Purity",
+      "elincia6"
     ],
     "heroes": {
       "august": "<:Colorless_Staff:1124845704444137592>August",
       "ayraR": "<:Red_Sword:1124846201070698536>Ayra (Resplendent)",
       "brigid1": "<:Green_Bow:1124845936426897428>Attuned Brigid",
       "eldiganR": "<:Red_Sword:1124846201070698536>Eldigan (Resplendent)",
+      "elincia6": "<:Red_Sword:1124846201070698536>Elincia",
       "flavia2": "<:Red_Sword:1124846201070698536>Bridal Flavia",
       "ishtarR": "<:Blue_Tome:1124845593211191297>Ishtar (Resplendent)",
       "kamui": "<:Red_Sword:1124846201070698536>Kamui",
@@ -28837,7 +28865,8 @@
   "kou": {
     "heroes": {
       "dimitri7": "<:Red_Sword:1124846201070698536>Valentines Dimitri",
-      "haarR": "<:Green_Axe:1124845885277343754>Haar (Resplendent)"
+      "haarR": "<:Green_Axe:1124845885277343754>Haar (Resplendent)",
+      "stefan": "<:Red_Sword:1124846201070698536>Stefan"
     },
     "name": "\u30b3\u30a6",
     "ALT_NAME": [
@@ -28850,7 +28879,10 @@
       "Valentine's Dimitri",
       "Valentines Dimitri",
       "Valentine Dimitri",
-      "dimitri7"
+      "dimitri7",
+      "No-Man's-Blade",
+      "Stefan: No-Man's-Blade",
+      "stefan"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Haar",
@@ -28862,7 +28894,10 @@
       "Valentine's Dimitri",
       "Valentines Dimitri",
       "Valentine Dimitri",
-      "dimitri7"
+      "dimitri7",
+      "No-Man's-Blade",
+      "Stefan: No-Man's-Blade",
+      "stefan"
     ]
   },
   "kawachirin": {
@@ -29428,7 +29463,8 @@
   },
   "maxianmichi": {
     "heroes": {
-      "rafal": "<:Red_Breath:1124846247673610240>Rafal"
+      "rafal": "<:Red_Breath:1124846247673610240>Rafal",
+      "soren6": "<:Blue_Tome:1124845593211191297>Rearmed Soren"
     },
     "name": "\u9ebb\u5148\u307f\u3061",
     "ALT_NAME": [
@@ -29443,7 +29479,13 @@
       "Base Rafal",
       "Normal Rafal",
       "Regular Rafal",
-      "rafal"
+      "rafal",
+      "Isolated Strategist",
+      "Soren: Isolated Strategist",
+      "Rearmed Soren",
+      "Rearm Soren",
+      "Arm Soren",
+      "soren6"
     ],
     "HARD_ALT_NAME": [
       "Atoning Dragon",
@@ -29457,7 +29499,13 @@
       "Base Rafal",
       "Normal Rafal",
       "Regular Rafal",
-      "rafal"
+      "rafal",
+      "Isolated Strategist",
+      "Soren: Isolated Strategist",
+      "Rearmed Soren",
+      "Rearm Soren",
+      "Arm Soren",
+      "soren6"
     ]
   },
   "heijingsusumu": {
@@ -29621,20 +29669,29 @@
   },
   "qiuyuanlin": {
     "heroes": {
-      "clairR": "<:Blue_Lance:1124845569496584302>Clair (Resplendent)"
+      "clairR": "<:Blue_Lance:1124845569496584302>Clair (Resplendent)",
+      "tiki5R": "<:Blue_Breath:1124845312637403236>Legendary Young Tiki (Resplendent)"
     },
     "name": "\u8429\u539f\u51db",
     "ALT_NAME": [
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Resplendent Tiki",
+      "Resp Tiki",
+      "R Tiki",
+      "Tiki (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Resplendent Tiki",
+      "Resp Tiki",
+      "R Tiki",
+      "Tiki (Resplendent)"
     ]
   },
   "jiami": {
