@@ -29669,20 +29669,29 @@
   },
   "qiuyuanlin": {
     "heroes": {
-      "clairR": "<:Blue_Lance:1124845569496584302>Clair (Resplendent)"
+      "clairR": "<:Blue_Lance:1124845569496584302>Clair (Resplendent)",
+      "tiki5R": "<:Blue_Breath:1124845312637403236>Legendary Young Tiki (Resplendent)"
     },
     "name": "\u8429\u539f\u51db",
     "ALT_NAME": [
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Resplendent Tiki",
+      "Resp Tiki",
+      "R Tiki",
+      "Tiki (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Clair",
       "Resp Clair",
       "R Clair",
-      "Clair (Resplendent)"
+      "Clair (Resplendent)",
+      "Resplendent Tiki",
+      "Resp Tiki",
+      "R Tiki",
+      "Tiki (Resplendent)"
     ]
   },
   "jiami": {
