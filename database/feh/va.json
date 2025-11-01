@@ -14324,7 +14324,11 @@
       "Resplendent Narcian",
       "Resp Narcian",
       "R Narcian",
-      "Narcian (Resplendent)"
+      "Narcian (Resplendent)",
+      "Resplendent Lloyd",
+      "Resp Lloyd",
+      "R Lloyd",
+      "Lloyd (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "narcian",
@@ -14407,11 +14411,16 @@
       "Resplendent Narcian",
       "Resp Narcian",
       "R Narcian",
-      "Narcian (Resplendent)"
+      "Narcian (Resplendent)",
+      "Resplendent Lloyd",
+      "Resp Lloyd",
+      "R Lloyd",
+      "Lloyd (Resplendent)"
     ],
     "heroes": {
       "lloyd": "<:Red_Sword:1124846201070698536>Lloyd",
       "lloyd2": "<:Red_Sword:1124846201070698536>Fallen Lloyd",
+      "lloydR": "<:Red_Sword:1124846201070698536>Lloyd (Resplendent)",
       "narcian": "<:Green_Axe:1124845885277343754>Narcian",
       "narcian2": "<:Blue_Lance:1124845569496584302>Spring Narcian",
       "narcianR": "<:Green_Axe:1124845885277343754>Narcian (Resplendent)",
@@ -31524,6 +31533,22 @@
       "No-Man's-Blade",
       "Stefan: No-Man's-Blade",
       "stefan"
+    ]
+  },
+  "elsielovelock": {
+    "heroes": {
+      "heimdallr": "<:Blue_Tome:1124845593211191297>Heimdallr"
+    },
+    "name": "Elsie Lovelock",
+    "ALT_NAME": [
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
+    ],
+    "HARD_ALT_NAME": [
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
     ]
   }
 }

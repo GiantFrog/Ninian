@@ -145,4 +145,4 @@ def scrape_resp(key):
 
     return
 
-scrape_resp('tiki5')
+scrape_resp('lloyd')

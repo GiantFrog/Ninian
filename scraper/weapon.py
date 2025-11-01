@@ -16,7 +16,7 @@ def scrape_page(page_name):
     document = soup.find(class_="mw-parser-output")
     # get the name and title of the unit and append both to the unit_info
 
-    wiki_info = document.find(class_="wikitable default ibox").find_all('tr')
+    wiki_info = document.find(class_="hero-infobox").find_all('tr')
     #print(wiki_info)
     
     blank['name'] = list(wiki_info[0].stripped_strings)[0]

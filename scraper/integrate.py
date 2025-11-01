@@ -240,9 +240,12 @@ def integrate_as_sp(slot, key):
                 skill[i]['reference'] = ref
             else:
                 print('new skill: ' + intobj[i]['name'])
-        else: 
-            print(intobj[i]['name'])
-            newskill = skill_scrape.scrape_assist_special(intobj[i]['name'].replace('/', ' '))
+        else:
+            try:
+                newskill = skill_scrape.scrape_assist_special(intobj[i]['name'].replace('/', ' '))
+            except:
+                print(f"WARNING! {intobj[i]['name']} might be an enemy weapon. Skipping.")
+                continue
             ref = newskill['reference']
             ref[intobj[i]['name']][key] =  intobj[i]['rarity']
             newskill['reference'] = ref
