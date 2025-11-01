@@ -31525,5 +31525,21 @@
       "Stefan: No-Man's-Blade",
       "stefan"
     ]
+  },
+  "elsielovelock": {
+    "heroes": {
+      "heimdallr": "<:Blue_Tome:1124845593211191297>Heimdallr"
+    },
+    "name": "Elsie Lovelock",
+    "ALT_NAME": [
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
+    ],
+    "HARD_ALT_NAME": [
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
+    ]
   }
 }

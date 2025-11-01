@@ -14212,7 +14212,10 @@
       "Base H\u00f6\u00f0r",
       "Normal H\u00f6\u00f0r",
       "Regular H\u00f6\u00f0r",
-      "hodr"
+      "hodr",
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
     ],
     "HARD_ALT_NAME": [
       "xander",
@@ -14431,7 +14434,10 @@
       "Base H\u00f6\u00f0r",
       "Normal H\u00f6\u00f0r",
       "Regular H\u00f6\u00f0r",
-      "hodr"
+      "hodr",
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
     ],
     "heroes": {
       "baldr": "<:Red_Sword:1124846201070698536> Baldr",
@@ -14443,6 +14449,7 @@
       "fjorm4": "<:Green_Axe:1124845885277343754>Ascended Fjorm",
       "fjorm5": "<:Red_Sword:1124846201070698536>Summer Fjorm",
       "gunnthra": "<:Green_Tome:1124845959873036289>Gunnthr\u00e1",
+      "heimdallr": "<:Blue_Tome:1124845593211191297>Heimdallr",
       "helbindi": "<:Green_Axe:1124845885277343754>Helbindi",
       "hodr": "<:Blue_Bow:1124845525695475845> H\u00f6\u00f0r",
       "hrid": "<:Red_Sword:1124846201070698536>Hr\u00edd",

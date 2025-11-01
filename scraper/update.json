@@ -1,48 +1,49 @@
 {
-  "soren6": {
-    "name": "Soren",
-    "title": "Isolated Strategist",
-    "description": "Young tactician of the Greil Mercenaries. He has a tendency to disrupt the harmony of others by not mincing words. Appears in Fire Emblem: Path of Radiance.",
-    "origin": "Path of Radiance",
-    "artist": "\u9ebb\u5148\u307f\u3061",
-    "move": "Infantry",
+  "heimdallr": {
+    "name": "Heimdallr",
+    "title": "God of Foresight",
+    "description": "A god of \u00c1sgar\u00f0r, the celestial realm. Has an intellectual nature and can foresee the actions of others.",
+    "origin": "Heroes",
+    "artist": "Maeshima Shigeki (\u524d\u5d8b\u91cd\u6a5f)",
+    "move": "Cavalry",
     "weapon": "Tome",
     "color": "Blue",
     "duel": false,
-    "id": "1302",
-    "type": "rearmed",
+    "id": "1307",
+    "type": "legendary",
     "version": "9.10",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 9,
-      "spd": 14,
-      "def": 3,
+      "atk": 14,
+      "spd": 3,
+      "def": 5,
       "res": 10
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 55,
-      "def": 35,
+      "hp": 55,
+      "atk": 80,
+      "spd": 30,
+      "def": 55,
       "res": 90
     },
     "superboon": [
-      "atk",
       "res"
     ],
     "superbane": [
-      "hp"
+      "spd"
     ],
     "weapons": {
-      "Thunder": "1",
-      "Elthunder": "2",
-      "Thoron": "3",
-      "Arcane Rexbolt": "5"
+      "Light": "1",
+      "Ellight": "2",
+      "Shine": "3",
+      "Mystic Gjallarhorn": "5"
     },
-    "assist": {},
+    "assist": {
+      "Gjallarhorn": "5"
+    },
     "special": {
       "Chilling Wind": "3",
       "Glacies": "4",
@@ -50,216 +51,44 @@
     },
     "passive": {
       "A": {
-        "Refined Magic": "5"
+        "Atk/Res Bond 1": "2",
+        "Atk/Res Bond 2": "3",
+        "Atk/Res Bond 3": "4",
+        "Atk/Res Aria": "5"
       },
       "B": {
-        "Sabotage Res 1": "2",
-        "Sabotage Res 2": "3",
-        "Sabotage Res 3": "4",
-        "Atk/Res Havoc": "5"
+        "An Open Book": "5"
       },
       "C": {
-        "Time's Pulse 1": "2",
-        "Time's Pulse 2": "3",
-        "Time's Pulse 3": "4",
-        "Preempt: Ploy": "5"
+        "Fortify Res 1": "2",
+        "Fortify Res 2": "3",
+        "Fortify Res 3": "4",
+        "A/R Hone Assault": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0c/Soren_Isolated_Strategist_Face.webp/revision/latest?cb=20251017043410",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ad/Soren_Isolated_Strategist_BtlFace_D.webp/revision/latest?cb=20251017043404",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cb/Soren_Isolated_Strategist_BtlFace_C.webp/revision/latest?cb=20251017043352",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/67/Soren_Isolated_Strategist_BtlFace.webp/revision/latest?cb=20251017043338"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8d/Heimdallr_God_of_Foresight_Face.webp/revision/latest?cb=20250605052644",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4d/Heimdallr_God_of_Foresight_BtlFace_D.webp/revision/latest?cb=20250605052639",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b6/Heimdallr_God_of_Foresight_BtlFace_C.webp/revision/latest?cb=20250605052634",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/96/Heimdallr_God_of_Foresight_BtlFace.webp/revision/latest?cb=20250605052619"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Isolated Strategist",
-      "Soren: Isolated Strategist",
-      "Rearmed Soren",
-      "Rearm Soren",
-      "Arm Soren",
-      "soren6"
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
     ],
     "HARD_ALT_NAME": [
-      "Isolated Strategist",
-      "Soren: Isolated Strategist",
-      "Rearmed Soren",
-      "Rearm Soren",
-      "Arm Soren",
-      "soren6"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30bb\u30cd\u30ea\u30aa",
-    "voice": "Ayumu Murase",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe9",
-    "quotes": {
-      "Castle Hall": [
-        "I doubt you have any business with me. If you have time to bother others, consider reflecting on yourself.",
-        "The name Four Riders is given to the persons of highest ability among the king's advisors.",
-        "If it's Ike you're after, check the food stalls before doing anything else. I'd start with those that serve meat.",
-        "If you have something for Ike, I can hold on to it for you.",
-        "There is no doubt the enigmatic general known as the Black Knight is the one who killed Commander Greil."
-      ],
-      "Visit": [
-        "I have something for you. It's from [F]. Here."
-      ],
-      "Level": [
-        "A feint is meaningless if it is overdone... We must be thorough when we take them by storm.",
-        "This is not surprising. There were no flaws in my strategy.",
-        "I must stay with Ike for the entirety of his journey."
-      ],
-      "Summon": [
-        "I am Soren of the Greil Mercenaries. I hope to expand my knowledge and experience in battle to support Ike."
-      ],
-      "Learn Skill": [
-        "If you're all right with me here, then know I will meet your expectations."
-      ],
-      "Confession": [
-        "\"Lehran's Medallion still exists. While it does, we cannot allow a war that could stand to engulf all our nations.\"\nDeghinsea, the Black Dragon King of Goldoa, said something of the sort. I wondered at the meaning behind it.\nI thought a galdr was key to releasing the dark god, but what if Daein's king is trying another way...\nAn objective of sowing disorder with warfare. That might explain the mad invasions into Crimea and Gallia.\nOn the surface, he appeared to want to expand Daein's power.\nStrife and discord spreading across the land would eventually reach the lost medallion.\nIf that's his intention, Daein's king is extremely dangerous. I must regroup with Ike and the others immediately."
-      ],
-      "Special": [
-        "Thunder!",
-        "I won't yield.",
-        "Time to give up.",
-        "I'll see you retreat."
-      ],
-      "Status": [
-        "-",
-        "A new weapon? I'll make good use of it, for Ike.",
-        "Hmm... Could you do something more meaningful with your time? Preferably without involving me.",
-        "Even the most powerful weapons lose purpose if they're not wielded well. I will devote myself to my training.",
-        "Why do you stare? I am not here for your entertainment.",
-        "I suppose I must acknowledge that being here is not exactly unpleasant.",
-        "I wonder if Ike will be happy I've acquired this new power.",
-        "I'll use this power for your sake as well, because I must."
-      ],
-      "Map Select": [
-        "You think so?",
-        "What next?",
-        "I will break through."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rearmed Soren",
-    "SEARCH_NAME": "Rearmed Soren",
-    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Rearmed Soren",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "soren",
-      "soren2",
-      "soren3",
-      "soren4",
-      "soren5"
-    ],
-    "prf": {
-      "": "arcanerexbolt",
-      "eff": "arcanerexbolt",
-      "atk": "arcanerexbolt",
-      "spd": "arcanerexbolt",
-      "def": "arcanerexbolt",
-      "res": "arcanerexbolt"
-    }
-  },
-  "sharena5": {
-    "name": "Sharena",
-    "title": "Borrowed Divinity",
-    "description": "Sharena, having been granted power through the weapon of another world's Askr. Whether here or there, her love of Askr is ever strong.",
-    "origin": "Heroes",
-    "artist": "Kozaki Yusuke (\u30b3\u30b6\u30ad\u30e6\u30fc\u30b9\u30b1)",
-    "move": "Cavalry",
-    "weapon": "Lance",
-    "color": "Blue",
-    "duel": false,
-    "id": "1301",
-    "type": false,
-    "version": "9.10",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 11,
-      "spd": 10,
-      "def": 9,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 85,
-      "spd": 90,
-      "def": 60,
-      "res": 40
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp"
-    ],
-    "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Silver Lance": "3",
-      "\u00c1sj\u00e1 of Askr": "5"
-    },
-    "assist": {},
-    "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4",
-      "Archrival": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Spd Clash 1": "2",
-        "Atk/Spd Clash 2": "3",
-        "Atk/Spd Clash 3": "4",
-        "Atk/Spd Excel": "5"
-      },
-      "B": {
-        "Flow Refresh 1": "2",
-        "Flow Refresh 2": "3",
-        "Flow Refresh 3": "4",
-        "Assault Impetus": "5"
-      },
-      "C": {
-        "Entwined Onrush": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Sharena_Borrowed_Divinity_Face.webp/revision/latest?cb=20251006041532",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5c/Sharena_Borrowed_Divinity_BtlFace_D.webp/revision/latest?cb=20251006041527",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/eb/Sharena_Borrowed_Divinity_BtlFace_C.webp/revision/latest?cb=20251006041522",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e4/Sharena_Borrowed_Divinity_BtlFace.webp/revision/latest?cb=20251006041509"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Borrowed Divinity",
-      "Sharena: Borrowed Divinity",
-      "sharena5"
-    ],
-    "HARD_ALT_NAME": [
-      "Borrowed Divinity",
-      "Sharena: Borrowed Divinity",
-      "sharena5"
+      "God of Foresight",
+      "Heimdallr: God of Foresight",
+      "heimdallr"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u30b7\u30e3\u30ed\u30f322025\u5473\u65b9",
-    "voice": "Julie Maddalena",
+    "pool": "legend",
+    "internal_id": "PID_\u30d8\u30a4\u30e0\u30c0\u30eb\u5473\u65b9",
+    "voice": "Elsie Lovelock",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -268,725 +97,73 @@
     "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "All cleaned up! Oh, this? It is Lord Askr's weapon, bestowed upon me by Lady Embla. I have to keep it clean.",
-        "I've been going on walks lately during my patrols, and I've discovered all sorts of new things!",
-        "With this new power... Your Sharena can help with anything!",
-        "Would you like to go for a walk together? It'll be so much fun!",
-        "I tried to ask Mel\u00edai about Sharena and Alfonse from her world, but she kept evading me."
+        "So there are renowned strategists in the Order of Heroes, hm? Best be aware that my foresight is infallible.",
+        "My king offered up his eye and his life to receive great knowledge... Yet, he desires even more...",
+        "\u00c1sgar\u00f0r is the pinnacle of the nine realms. I will acknowledge us celestial gods come with a sort of arrogance.",
+        "Loki\u2014so chaotic\u2014is the only being whom I cannot predict... I cannot stand her!",
+        "I...was wrong... And now, I cannot shake this sense that the course of the world has changed drastically."
       ],
       "Visit": [
-        "Oh good, it's you! You've caused quite a stir over your well-being at [F]'s castle."
+        "You are right on schedule. It appears [F]predicts well."
       ],
       "Level": [
-        "I did it! Your Sharena is here to help!",
-        "Being greedy is never a good quality.",
-        "Huh? That wasn't a challenge, was it?"
+        "I dislike the unexpected. Oh, however... If unplanned events like these are likely occur...",
+        "Satisfactorily on schedule.",
+        "I anticipated this, though it means nothing if I fail to avoid it."
       ],
       "Summon": [
-        "I'm Sharena and I bear the will of another world's Lord Askr. No matter what, I'll protect the Kingdom of Askr!"
+        "I am Heimdallr, god of foresight, servant of the king of heaven. I know your next move."
       ],
       "Learn Skill": [
-        "For me?! Yay! I'll get even more fired up!"
+        "This power is proof of your accurate predictions. Very good, indeed."
       ],
       "Confession": [
-        "Aren't you curious about the other versions of me and Alfonse from Mel\u00edai's world?\nIt sounds like she met even more Askran royals. But when I asked her about it, she avoided me. Though...\nShe did say, \"You're a woman, huh?\" Wait! Does that mean the me in her world is a... And Alfonse is...\nOh! It's just amazing thinking about all the other worlds out there! Now I'm even more excited to visit them!"
+        "The king of heaven, who respects knowledge above all else, trusts but one servant more than any other...\nIt is me, the god of foresight. And there is more to me than foreseeing the future.\nOne is able to proceed precisely on schedule when prepared to avoid anything that obstructs the plan.\nTherefore, I dislike people engaging in actions that are not a part of that plan. It disrupts my peace...\nI do hope, as my new master, that you are not such a disorderly person as this, [S]."
       ],
       "Special": [
-        "I'll handle it!",
-        "I'll vanquish them!",
-        "With my strength!",
-        "Watch this!"
+        "I predicted this.",
+        "As foreseen.",
+        "It is time.",
+        "Right on schedule."
       ],
       "Status": [
-        "*giggle*",
-        "Ta-da! Your Sharena is here and all powered up!",
-        "Oh! Ah, you got me...",
-        "OK, enough flattering me. So...what is it?",
-        "Borrowing Lord Askr's power is liking having the strength of one hundred warriors!",
-        "What do you think the other versions of me are like? Maybe there's even one nothing like me in another world...",
-        "I hope I can help Alfonse even more now...",
-        "Your Sharena will put her life on the line to keep protecting you."
+        "Humph.",
+        "I am Heimdallr, god of foresight. Be aware that I predict the future.",
+        "Humph. I knew that would be your next move.",
+        "Why could I not predict your actions? Who are you?",
+        "If one predicts accurately based on the facts, the future becomes an open book.",
+        "As long as things go according to plan, one can be at peace.",
+        "Loki... Why must you always meddle with the plan?",
+        "Ponder, predict, then fight. It seems we agree on these fundamentals, so I see no reason we cannot be friends."
       ],
       "Map Select": [
-        "Righty-ho!",
-        "What should I do?",
-        "I got this!"
+        "I saw that coming.",
+        "What shall I do?",
+        "As I anticipated."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Sharena",
-    "SEARCH_NAME": "Sharena",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Sharena",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "sharena",
-      "sharena2",
-      "sharena3",
-      "sharena4"
-    ],
-    "prf": {
-      "": "asjaofaskr",
-      "eff": "asjaofaskr",
-      "atk": "asjaofaskr",
-      "spd": "asjaofaskr",
-      "def": "asjaofaskr",
-      "res": "asjaofaskr"
-    }
-  },
-  "stefan": {
-    "name": "Stefan",
-    "title": "No-Man's-Blade",
-    "description": "A Branded swordsman who has the blood of both beorc and laguz. He is a direct descendant of Soan, one of the legendary three heroes. Appears in Fire Emblem: Path of Radiance.",
-    "origin": "Path of Radiance",
-    "artist": "kou (\u30b3\u30a6)",
-    "move": "Infantry",
-    "weapon": "Sword",
-    "color": "Red",
-    "duel": false,
-    "id": "1305",
-    "type": false,
-    "version": "9.10",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 11,
-      "spd": 10,
-      "def": 9,
-      "res": 9
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 90,
-      "def": 65,
-      "res": 50
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "res"
-    ],
-    "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Vague Katti": "5"
-    },
-    "assist": {},
-    "special": {
-      "Night Sky": "3",
-      "Glimmer": "4",
-      "Gust": "5"
-    },
-    "passive": {
-      "A": {},
-      "B": {
-        "Close Call 1": "2",
-        "Close Call 2": "3",
-        "Close Call 3": "4",
-        "Harrowing Call": "5"
-      },
-      "C": {
-        "Even Tempest 1": "2",
-        "Even Tempest 2": "3",
-        "Even Tempest 3": "4",
-        "Brutal Tempest": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/90/Stefan_No-Mans-Blade_Face.webp/revision/latest?cb=20251017043628",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/78/Stefan_No-Mans-Blade_BtlFace_D.webp/revision/latest?cb=20251017043625",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Stefan_No-Mans-Blade_BtlFace_C.webp/revision/latest?cb=20251017043618",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/16/Stefan_No-Mans-Blade_BtlFace.webp/revision/latest?cb=20251017043556"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "No-Man's-Blade",
-      "Stefan: No-Man's-Blade",
-      "stefan"
-    ],
-    "HARD_ALT_NAME": [
-      "No-Man's-Blade",
-      "Stefan: No-Man's-Blade",
-      "stefan"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u30bd\u30fc\u30f3\u30d0\u30eb\u30b1",
-    "voice": "Ben Balmeceda",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe9",
-    "quotes": {
-      "Castle Hall": [
-        "I am curious about Gallia's beast tribes. I'd like to ask you about them sometime.",
-        "Hmm... It seems I made an error.",
-        "The people here are all so different. I will make a note of this for now.",
-        "Find me when you come to the dunes. We can sit and talk, with no fighting.",
-        "Do you not intend to go fishing? There's no greenery in the desert, so it feels nice to cast a line into a river."
-      ],
-      "Visit": [
-        "It seems I was wrong. I have no use for this place. And so, with your leave..."
-      ],
-      "Level": [
-        "Once this battle is finished, you'll have time to converse, yes? Off we go then!",
-        "Sheathe your blade. If that's all the skill you possess, you're not ready to challenge me.",
-        "Oh no! This is nothing to worry about."
-      ],
-      "Summon": [
-        "I am Stefan! I come from a desolate wasteland where I play at being a hermit. Now, what about you?"
-      ],
-      "Learn Skill": [
-        "This, too, is honorable. For now, I will devote myself to this path."
-      ],
-      "Confession": [
-        "Today's the day I promised to take you fishing. Are you ready to head out, [S]?\nOh! Perhaps I've been too hasty. But...we have time. I'll wait for you to make your preparations.\nBy the way, I've been meaning to ask, what are you doing here? For what do you use that head of yours?\nI speak lightly when I say I never thought I'd wind up in a place like this.\nBut, if this is the will of the goddess, I will savor the moment, whether I'm in a dream or part of an illusion.\nI'll accept things as they are and watch over my swaying fishing line... Or...something like that.\nNow then, off we go! I have a feeling we'll reel in a big one today."
-      ],
-      "Special": [
-        "I've no use for you.",
-        "I bid thee farewell.",
-        "Very well.",
-        "What a shame."
-      ],
-      "Status": [
-        "-",
-        "I am Stefan! I come from a desolate wasteland where I play at being a hermit.",
-        "Was that supposed to be an attack? You left yourself wide open.",
-        "You can fight alongside me without knowing my history, can you not?",
-        "I ask you to treat our meeting as a dream and let it fade from your memory.",
-        "I'm interested in Gallia's beast tribes. Fascinated, really. Can we go somewhere and talk?",
-        "I'm here in part because I'm curious, but mostly because the guiding hand of fate led me to you.",
-        "I can be of service. Your technique... How powerful will it be when perfected? I would like to know."
-      ],
-      "Map Select": [
-        "I shall help you win.",
-        "That's one option...",
-        "Off we go then!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Stefan",
-    "SEARCH_NAME": "Stefan",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Stefan",
+    "short_name": "Heimdallr",
+    "SEARCH_NAME": "Heimdallr",
+    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Heimdallr",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [],
     "prf": {
-      "": "vaguekatti",
-      "eff": "vaguekatti",
-      "atk": "vaguekatti",
-      "spd": "vaguekatti",
-      "def": "vaguekatti",
-      "res": "vaguekatti"
-    }
-  },
-  "elincia6": {
-    "name": "Elincia",
-    "title": "Hearts of Purity",
-    "description": "Princess of Crimea, born and raised hidden from most of the world. Her bond with Lucia is like that of a sister. Appears in Fire Emblem: Path of Radiance.",
-    "origin": "Path of Radiance",
-    "artist": "Suzuki Rika (\u9234\u6728\u7406\u83ef)",
-    "move": "Infantry",
-    "weapon": "Sword",
-    "color": "Red",
-    "duel": false,
-    "id": "1303",
-    "type": false,
-    "version": "9.10",
-    "duo": "Grants\u3010Bulwark\u3011to unit and allies within 2 spaces of unit for 1 turn.\nApplies\u3010Divine Vein (Stone)\u3011to unit's space and spaces within 2 spaces of unit for 2 turns.\n(Duo Skills can be used\u00a0once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Bulwark\u3011\nFoes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).\nFoes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).\n\u3010Divine Vein (Stone)\u3011\nApplies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding R\u00f8kkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
-    "harmonized": "Grants\u3010Bulwark\u3011to unit and allies within 2 spaces of unit for 1 turn.\nApplies\u3010Divine Vein (Stone)\u3011to unit's space and spaces within 2 spaces of unit for 2 turns.\n(Duo Skills can be used\u00a0once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Bulwark\u3011\nFoes with Range = 1 cannot move through spaces adjacent to unit (does not affect foes with Pass skills).\nFoes with Range = 2 cannot move through spaces within 2 spaces of unit (does not affect foes with Pass skills).\n\u3010Divine Vein (Stone)\u3011\nApplies the following effects on space for unit and allies: Grants Def/Res+6 during combat, reduces damage from foe's Specials by 10 during combat (excluding area-of-effect Specials), and reduces damage from area-of-effect Specials by 50% (excluding R\u00f8kkr area-of-effect Specials). (Divine Vein effects do not stack; replaces any existing Divine Vein effect; Divine Vein effects applied simultaneously cancel each other out. Does not count as defensive terrain.)",
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 11,
-      "spd": 10,
-      "def": 9,
-      "res": 10
+      "": "mysticgjallarhorn",
+      "eff": "mysticgjallarhorn",
+      "atk": "mysticgjallarhorn",
+      "spd": "mysticgjallarhorn",
+      "def": "mysticgjallarhorn",
+      "res": "mysticgjallarhorn"
     },
-    "growth": {
-      "hp": 50,
-      "atk": 85,
-      "spd": 90,
-      "def": 50,
-      "res": 60
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "def"
-    ],
-    "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Bonded Blades": "5"
-    },
-    "assist": {
-      "Draw Back": "3",
-      "Draw Back Gait": "5"
-    },
-    "special": {},
-    "passive": {
-      "A": {
-        "Distant Counter": "4",
-        "D Bonus Amp": "5"
-      },
-      "B": {
-        "Velocity 1": "2",
-        "Velocity 2": "3",
-        "Velocity 3": "4",
-        "Null C-Avoid": "5"
-      },
-      "C": {
-        "Ties of Crimea": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/10/Elincia_Hearts_of_Purity_Face.webp/revision/latest?cb=20251017043451",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/34/Elincia_Hearts_of_Purity_BtlFace_D.webp/revision/latest?cb=20251017043443",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e9/Elincia_Hearts_of_Purity_BtlFace_C.webp/revision/latest?cb=20251017043438",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/67/Elincia_Hearts_of_Purity_BtlFace.webp/revision/latest?cb=20251017043423"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Hearts of Purity",
-      "Elincia: Hearts of Purity",
-      "elincia6"
-    ],
-    "HARD_ALT_NAME": [
-      "Hearts of Purity",
-      "Elincia: Hearts of Purity",
-      "elincia6"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "",
-    "internal_id": "PID_\u6bd4\u7ffc\u30a8\u30ea\u30f3\u30b7\u30a2",
-    "voice": "Heather Gonzales + AmaLee",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe9",
-    "quotes": {
-      "Castle Hall": [
-        "**Elincia:** I am the last hope of those who wish for Crimea's restoration. I want to fully embrace the importance of that.",
-        "**Lucia:** General Ike taught me a lesson at Delbray Castle. Now, I strive to put Princess Elincia's feelings first.",
-        "**Elincia:** I am relieved that Lucia, Geoffrey, and Bastian survived... Please, do not throw your life away, Lucia.",
-        "**Lucia:** Even at an ally's encampment, we must not trust strangers. They may appear nice, but villains often do.",
-        "**Elincia:** Thanks to the instruction of Tanith of Begnion, I am prepared for true battle. I am grateful to Marcia too."
-      ],
-      "Visit": [
-        "I am in the correct place, am I not? Lucia and I come bearing greetings for you from [F]."
-      ],
-      "Level": [
-        "**Elincia:** Father, Mother, Uncle... I shall not cease in my efforts to reclaim our homeland of Crimea!",
-        "**Elincia:** I don't want... I don't want anyone else to be sacrificed.",
-        "**Lucia:** Princess Elincia, take care. A snake could be lurking in the grass."
-      ],
-      "Summon": [
-        "How do you fare? You have my most sincere gratitude for inviting me and my retainer, Lucia."
-      ],
-      "Learn Skill": [
-        "**Lucia:** I am grateful for the offer. Princess Elincia will be very pleased."
-      ],
-      "Confession": [
-        "**Elincia:** Lucia, thank you for everything. You spend your days always on high alert to compensate for my lack of caution.\n**Lucia:** That's because I am your primary bodyguard, Princess Elincia. It's only appropriate that I remain vigilant.\n**Elincia:** But...I am a daughter kept hidden from the public, and not recognized as the official princess of Crimea...\n**Lucia:** \"The secret princess of Crimea is fighting to save us all.\" Such talk of your battles alongside General Ike...\nIt spreads even to Crimea. Retainers and the people alike all eagerly await the return of the princess of Crimea.\n**Elincia:** It does my heart good to hear that. I may cause you more worries, but I am prepared to do whatever I can!"
-      ],
-      "Special": [
-        "**Duo:** Our strength combined!",
-        "**Duo:** Lucia! Let's go!",
-        "**Elincia:** We shall not lose.",
-        "**Lucia:** I'm stepping in!"
-      ],
-      "Status": [
-        "*chuckle*",
-        "\"Having you with me is reassuring, Lucia.\" \"Leave it to me, Princess Elincia. I will not fail to claim victory for you.\""
-      ],
-      "Map Select": [
-        "A tricky situation...",
-        "We make our attack.",
-        "Allow me."
-      ],
-      "Conversation": [
-        "**Elincia:** Hya! Waa! Hyuah!",
-        "**Lucia:** All right! That is enough training for today. You mustn't overdo it.",
-        "**Elincia:** Whew... I found it difficult to score against you. How disappointing...",
-        "**Lucia:** Don't be discouraged. The progress you've made is something to behold, Princess Elincia.",
-        "**Elincia:** But I need to become substantially stronger. For Crimea's sake...",
-        "**Lucia:** You are putting in plenty of effort. But, if you feel it's not adequate...",
-        "I think that your greatest asset is your agility, Princess Elincia.",
-        "I shall devise some training methods through which we can help you make better use of that.",
-        "**Elincia:** Thank you, Lucia. I am always relying upon you, aren't I?",
-        "**Lucia:** You may rely upon me as much as you wish.",
-        "**Elincia:** I had hoped you would say that. In that case, might I rely upon you for one more thing?",
-        "**Lucia:** Certainly. What is it?",
-        "**Elincia:** In truth...all this training has given me quite an appetite.",
-        "**Lucia:** Oh! Of course. I can take care of that right away.",
-        "I had a feeling you would ask, so I baked a cake ahead of time.",
-        "**Elincia:** Lucia, you have made me so happy! Thank you.",
-        "**Lucia:** Oh, a hug... That takes me back to when we were children. Heh..."
-      ],
-      "Duo Skill": [
-        "\"Victory-\" \"-is ours!\"",
-        "\"Peace-\" \"-for this world.\""
-      ],
-      "Back Unit Supporting": [
-        "You have my support.",
-        "I am your shield!"
-      ],
-      "resplendent": {}
-    },
-    "short_name": "Elincia",
-    "SEARCH_NAME": "Elincia",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Elincia",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "elincia",
-      "elincia2",
-      "elincia3",
-      "elincia4",
-      "elincia5"
-    ],
-    "prf": {
-      "": "bondedblades",
-      "eff": "bondedblades",
-      "atk": "bondedblades",
-      "spd": "bondedblades",
-      "def": "bondedblades",
-      "res": "bondedblades"
-    }
-  },
-  "boyd2": {
-    "name": "Boyd",
-    "title": "Intrepid Warrior",
-    "description": "Warrior of the Greil Mercenaries. Second of three brothers, he has a boisterous personality. What you see is what you get with him. Appears in Fire Emblem: Path of Radiance.",
-    "origin": "Path of Radiance",
-    "artist": "Suekane Kumiko (\u30b9\u30a8\u30ab\u30cd\u30af\u30df\u30b3)",
-    "move": "Infantry",
-    "weapon": "Axe",
-    "color": "Green",
-    "duel": false,
-    "id": "1304",
-    "type": false,
-    "version": "9.10",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 21,
-      "atk": 10,
-      "spd": 10,
-      "def": 11,
-      "res": 6
-    },
-    "growth": {
-      "hp": 70,
-      "atk": 90,
-      "spd": 80,
-      "def": 60,
-      "res": 35
-    },
-    "superboon": [
-      "hp",
-      "atk"
-    ],
-    "superbane": [],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Campaign Axe": "3",
-      "Campaign Axe+": "5"
-    },
-    "assist": {
-      "Shove": "3"
-    },
-    "special": {},
-    "passive": {
-      "A": {},
-      "B": {
-        "Atk/Spd Link 1": "3",
-        "Atk/Spd Link 2": "4",
-        "Atk/Spd Link 3": "5"
-      },
-      "C": {
-        "Even Atk Wave 1": "1",
-        "Even Atk Wave 2": "2",
-        "Even Atk Wave 3": "4"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d5/Boyd_Intrepid_Warrior_Face.webp/revision/latest?cb=20251017043537",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/af/Boyd_Intrepid_Warrior_BtlFace_D.webp/revision/latest?cb=20251017043532",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/43/Boyd_Intrepid_Warrior_BtlFace_C.webp/revision/latest?cb=20251017043526",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/46/Boyd_Intrepid_Warrior_BtlFace.webp/revision/latest?cb=20251017043510"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Intrepid Warrior",
-      "Boyd: Intrepid Warrior",
-      "boyd2"
-    ],
-    "HARD_ALT_NAME": [
-      "Intrepid Warrior",
-      "Boyd: Intrepid Warrior",
-      "boyd2"
-    ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "",
-    "internal_id": "PID_\u30dc\u30fc\u30ec",
-    "voice": "River Kanoff",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe9",
-    "quotes": {
-      "Castle Hall": [
-        "My axe is great against lances but not against swords. Wait! That means I'm weaker facing Ike. That can't be!",
-        "When Titania told us Ike would be the new commander, Gatrie and Shinon left. They only wanted to follow Greil.",
-        "Listen up. Don't act on impulse the way Ike does, or you're sure to have a painful outcome.",
-        "If you need any help, just let me know. But don't you ever try to hold me at arm's length. Got it?",
-        "Hyaaa! Gyaaa! Hrrraaaa! Phew... That's enough practicing for today. I just don't feel into it."
-      ],
-      "Visit": [
-        "Hey! I brought you this gift from [F]!"
-      ],
-      "Level": [
-        "Yeah! We won because we're better than them!",
-        "Now, come at me however you want! I'll take you on!",
-        "Oh, Titania! I didn't see you there. I was training so hard that... She's not even there, is she?"
-      ],
-      "Summon": [
-        "I'm Boyd, one of the original Greil Mercenaries. Just sit back and watch how a professional handles things!"
-      ],
-      "Learn Skill": [
-        "Thanks for this. Now, leave it to me!"
-      ],
-      "Confession": [
-        "Mercenaries risk our lives facing foes. I look rough, don't I? It's that kind of job. There is no other job for me.\nOh, don't get the wrong idea, though. I do this job because I like it. I want to repay Commander Greil.\nRolf's mother left him and our father passed away. After Oscar's return, life was still difficult and discouraging.\nCommander Greil saved me and my brothers by providing a \"job\" that got us a place to sleep and food to eat.\nThe commander was Ike and Mist's father, but he also called us family. And Titania is unexpectedly caring.\nSo, I'm a mercenary and a warrior protecting his family. Just watch! I'll grow even stronger!"
-      ],
-      "Special": [
-        "Come on!",
-        "I'm ready for ya!",
-        "Are you scared of me?",
-        "I'll take whatever you can dish out!"
-      ],
-      "Status": [
-        "-",
-        "I'm Boyd, of the Greil Mercenaries. It's good to meet you.",
-        "Whoa! Come on! What's that all about?",
-        "I have an older brother and a younger one. There's Oscar, and then there's Rolf.",
-        "The commander gave us jobs, a place to sleep, food on our plates... He gave us our lives back.",
-        "I can give a rookie like you a few tips. Like, don't let yourself get worked up and jump out in front of everyone.",
-        "I'll do anything to protect my family... That's why Ike can always count on me.",
-        "If you need any help, just let me know."
-      ],
-      "Map Select": [
-        "All right.",
-        "What are we doing?",
-        "Just sit back."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Boyd",
-    "SEARCH_NAME": "Boyd",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Boyd",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "boyd"
-    ],
-    "prf": {
-      "": "campaignaxe",
-      "eff": "campaignaxe",
-      "atk": "campaignaxe",
-      "spd": "campaignaxe",
-      "def": "campaignaxe",
-      "res": "campaignaxe"
-    }
-  },
-  "gromell": {
-    "name": "Gromell",
-    "title": "Bolt Axe General",
-    "description": "A well-known and brave general among the army of Daein. He faced off against Crimea's army at Marhaut Range. Appears in Fire Emblem: Path of Radiance.",
-    "origin": "Path of Radiance",
-    "artist": "maCo",
-    "move": "Flying",
-    "weapon": "Axe",
-    "color": "Green",
-    "duel": false,
-    "id": "1306",
-    "type": false,
-    "version": "9.10",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 8,
-      "def": 10,
-      "res": 10
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 85,
-      "spd": 50,
-      "def": 90,
-      "res": 50
-    },
-    "superboon": [
-      "def"
-    ],
-    "superbane": [
-      "spd",
-      "res"
-    ],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Bolt Axe": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4"
-    },
-    "passive": {
-      "A": {
-        "Brazen Atk/Def 1": "1",
-        "Brazen Atk/Def 2": "2",
-        "Brazen Atk/Def 3": "4"
-      },
-      "B": {
-        "Flow Force 1": "3",
-        "Flow Force 2": "4",
-        "Flow Force 3": "5"
-      },
-      "C": {},
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1f/Gromell_Bolt_Axe_General_Face.webp/revision/latest?cb=20251017043716",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/12/Gromell_Bolt_Axe_General_BtlFace_D.webp/revision/latest?cb=20251017043704",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2c/Gromell_Bolt_Axe_General_BtlFace_C.webp/revision/latest?cb=20251017043658",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ec/Gromell_Bolt_Axe_General_BtlFace.webp/revision/latest?cb=20251017043643"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Bolt Axe General",
-      "Gromell: Bolt Axe General",
-      "gromell"
-    ],
-    "HARD_ALT_NAME": [
-      "Bolt Axe General",
-      "Gromell: Bolt Axe General",
-      "gromell"
-    ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "grail",
-    "internal_id": "PID_\u30b0\u30ed\u30fc\u30e1\u30eb",
-    "voice": "Adin Rudd",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe9",
-    "quotes": {
-      "Castle Hall": [
-        "If you believe justice lies in Begnion, you should die like a cowardly dog!",
-        "Shiharam betrayed his country and is of no use at all. I saw this coming.",
-        "Begnion's dracoknights and pegasus knights cannot stand against Daein's aerial prowess. We will prevail!",
-        "Tauroneo brings shame to the Daein army! I will execute him for his black-hearted treachery!",
-        "Those birds spread the stink of sub-humans... I'll pluck their wings and laugh as they fall to their doom!"
-      ],
-      "Visit": [
-        "Hm... You may be more fit to command than I thought. You and [F]astound me."
-      ],
-      "Level": [
-        "Gather as many fools as you like. You weaklings can never stand against the mighty!",
-        "Grr! So you've made it this far, have you? Then prepare to be sent down screaming!",
-        "I'll teach you to regret your impudence!"
-      ],
-      "Summon": [
-        "What are you doing? Fall in line! As long as I, Gromell, am here, our defenses are impenetrable."
-      ],
-      "Learn Skill": [
-        "What have you done?! Explain it so I can understand!"
-      ],
-      "Confession": [
-        "Those creatures may resemble humans, but they are not people. They are either bird or beast.\nWe have a mutual hate for each other. You know those vile birds, especially the herons, deceive people, right?\nTheir beauty disturbs me. It is hard to believe they are of this world. I'm convinced, those birds are monsters!\nAs my king wishes, I am to correct the wrongs of this world. For nothing good comes of embracing monsters.\nOpen your eyes, use your strength, and gather with me beneath the flag of Daein, [S]."
-      ],
-      "Special": [
-        "Die like a cowardly dog!",
-        "I'll teach you!",
-        "You shameful...",
-        "I will execute you!"
-      ],
-      "Status": [
-        "-",
-        "My name is Gromell. I am a general of Daein.",
-        "*grunt* What is this, an ambush?",
-        "When my army stages an attack, it is an impenetrable wall that none can break through.",
-        "None can defy King Ashnard. Not a single person, here nor there.",
-        "The bird tribes really are beautiful. It is hard to believe they are of this world. *disgusted sigh* Monsters...",
-        "No matter how many fools you gather around you, you will never overcome your weakness.",
-        "There is potential here."
-      ],
-      "Map Select": [
-        "Yes.",
-        "Grr!",
-        "This is a problem."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Gromell",
-    "SEARCH_NAME": "Gromell",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Gromell",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "boltaxe",
-      "eff": "boltaxe",
-      "atk": "boltaxe",
-      "spd": "boltaxe",
-      "def": "boltaxe",
-      "res": "boltaxe"
+    "blessing": "Anima",
+    "boost": {
+      "hp": 5,
+      "atk": 3
     }
   }
 }

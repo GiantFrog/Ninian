@@ -18,12 +18,7 @@ with open(file, 'w') as fp:
 
 
 units = [
-    "Soren: Isolated Strategist",
-    "Sharena: Borrowed Divinity",
-    "Stefan: No-Man's-Blade",
-    "Elincia: Hearts of Purity",
-    "Boyd: Intrepid Warrior",
-    "Gromell: Bolt Axe General"
+    "Heimdallr: God of Foresight"
 ]
 
 

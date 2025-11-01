@@ -41,7 +41,10 @@ def scrape_passive_skill(page_name):
     blank['name'] = page_name.replace('_', " ")
 
     # get the name and title of the unit and append both to the unit_info
-    wiki_info = document.find(class_="wikitable default skills-table").find_all('tr')
+    table = document.find(class_="wikitable default skills-table")
+    if table is None:
+        table = document.find(class_="wikitable default")
+    wiki_info = table.find_all('tr')
 
     # print(len(wiki_info))
     slot = ""
