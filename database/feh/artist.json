@@ -5011,7 +5011,12 @@
       "Valentines Rhea",
       "Valentine Rhea",
       "Duo Rhea",
-      "rhea4"
+      "rhea4",
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "HARD_ALT_NAME": [
       "Normal F Corrin",
@@ -5112,12 +5117,18 @@
       "Valentines Rhea",
       "Valentine Rhea",
       "Duo Rhea",
-      "rhea4"
+      "rhea4",
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "heroes": {
       "corrin2R": "<:Blue_Breath:1124845312637403236>Female Corrin (Resplendent)",
       "dorothea": "<:Blue_Tome:1124845593211191297>Dorothea",
       "dorothea3": "<:Red_Tome:1124846175577710642>Harmonic Dorothea",
+      "gullveig4": "<:Colorless_Tome:1124845725960904734>Ninja Gullveig",
       "igrene3": "<:Blue_Bow:1124845525695475845>Nabata Igrene",
       "kagero4": "<:Colorless_Dagger:1124845658617155734>Wind Kagero",
       "manuela": "<:Red_Sword:1124846201070698536>Winter Manuela",
@@ -19009,7 +19020,12 @@
       "Tropical Wolf",
       "Yuri: Tropical Wolf",
       "Summer Yuri",
-      "yuri3"
+      "yuri3",
+      "Ninja Mercenary",
+      "Shez: Ninja Mercenary",
+      "Ninja Shez",
+      "Ninja M!Shez",
+      "shez9"
     ],
     "HARD_ALT_NAME": [
       "Leg M Daraen",
@@ -19254,7 +19270,12 @@
       "Tropical Wolf",
       "Yuri: Tropical Wolf",
       "Summer Yuri",
-      "yuri3"
+      "yuri3",
+      "Ninja Mercenary",
+      "Shez: Ninja Mercenary",
+      "Ninja Shez",
+      "Ninja M!Shez",
+      "shez9"
     ],
     "heroes": {
       "ike7": "<:Red_Sword:1124846201070698536>Emblem Ike",
@@ -19265,6 +19286,7 @@
       "robin8": "<:Colorless_Breath:1124845679076978798>Halloween Male Grima",
       "seteth": "<:Blue_Lance:1124845569496584302>Seteth",
       "shannan": "<:Red_Sword:1124846201070698536>Shannan",
+      "shez9": "<:Green_Axe:1124845885277343754>Ninja Shez",
       "yuri3": "<:Green_Dagger:1124845796169351320>Summer Yuri"
     },
     "name": "Okuma Yugo (\u5927\u718a\u3086\u3046\u3054)"
@@ -28760,7 +28782,8 @@
   "yoshio": {
     "heroes": {
       "nidhoggr2": "<:Blue_Beast:1124845338688233575>New Year N\u00ed\u00f0h\u00f6ggr",
-      "petra2": "<:Red_Bow:1124846280951218289>Summer Petra"
+      "petra2": "<:Red_Bow:1124846280951218289>Summer Petra",
+      "shez8": "<:Blue_Dagger:1124845543026335764>Ninja Shez"
     },
     "name": "YOSHIO",
     "ALT_NAME": [
@@ -28779,7 +28802,12 @@
       "New Year Nidhoggr",
       "New Years Nidhoggr",
       "NY Nidhoggr",
-      "nidhoggr2"
+      "nidhoggr2",
+      "Covert Mercenary",
+      "Shez: Covert Mercenary",
+      "Ninja Shez",
+      "Ninja F!Shez",
+      "shez8"
     ],
     "HARD_ALT_NAME": [
       "Faraway Sun",
@@ -28796,7 +28824,12 @@
       "New Year Nidhoggr",
       "New Years Nidhoggr",
       "NY Nidhoggr",
-      "nidhoggr2"
+      "nidhoggr2",
+      "Covert Mercenary",
+      "Shez: Covert Mercenary",
+      "Ninja Shez",
+      "Ninja F!Shez",
+      "shez8"
     ]
   },
   "zaiyouzi": {
@@ -28981,7 +29014,8 @@
   "yichuanzihina": {
     "heroes": {
       "lapis3": "<:Blue_Lance:1124845569496584302>Summer Lapis",
-      "marni": "<:Green_Axe:1124845885277343754>Marni"
+      "marni": "<:Green_Axe:1124845885277343754>Marni",
+      "yunaka3": "<:Red_Bow:1124846280951218289>Ninja Yunaka"
     },
     "name": "\u907a\u4f1d\u5b50\u3072\u306a",
     "ALT_NAME": [
@@ -28994,7 +29028,11 @@
       "Forager of the Sea",
       "Lapis: Forager of the Sea",
       "Summer Lapis",
-      "lapis3"
+      "lapis3",
+      "Stealthy Imitator",
+      "Yunaka: Stealthy Imitator",
+      "Ninja Yunaka",
+      "yunaka3"
     ],
     "HARD_ALT_NAME": [
       "Pining for Praise",
@@ -29006,7 +29044,11 @@
       "Forager of the Sea",
       "Lapis: Forager of the Sea",
       "Summer Lapis",
-      "lapis3"
+      "lapis3",
+      "Stealthy Imitator",
+      "Yunaka: Stealthy Imitator",
+      "Ninja Yunaka",
+      "yunaka3"
     ]
   },
   "daiekusuto": {
@@ -29888,7 +29930,8 @@
   },
   "otsuton": {
     "heroes": {
-      "excellus": "<:Red_Tome:1124846175577710642>Excellus"
+      "excellus": "<:Red_Tome:1124846175577710642>Excellus",
+      "hrid4": "<:Green_Axe:1124845885277343754>Ninja Hr\u00edd"
     },
     "name": "\u30aa\u30c3\u30c8\u30f3",
     "ALT_NAME": [
@@ -29897,7 +29940,11 @@
       "Base Excellus",
       "Normal Excellus",
       "Regular Excellus",
-      "excellus"
+      "excellus",
+      "Frigid Ninja",
+      "Hr\u00edd: Frigid Ninja",
+      "Ninja Hr\u00edd",
+      "hrid4"
     ],
     "HARD_ALT_NAME": [
       "Conqueror\u2019s Wile",
@@ -29905,7 +29952,11 @@
       "Base Excellus",
       "Normal Excellus",
       "Regular Excellus",
-      "excellus"
+      "excellus",
+      "Frigid Ninja",
+      "Hr\u00edd: Frigid Ninja",
+      "Ninja Hr\u00edd",
+      "hrid4"
     ]
   },
   "liuyutiantomoe": {
