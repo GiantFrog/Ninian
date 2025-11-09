@@ -1,94 +1,100 @@
 {
-  "heimdallr": {
-    "name": "Heimdallr",
-    "title": "God of Foresight",
-    "description": "A god of \u00c1sgar\u00f0r, the celestial realm. Has an intellectual nature and can foresee the actions of others.",
+  "gullveig4": {
+    "name": "Gullveig",
+    "title": "Hidden in Time",
+    "description": "Future self, Gullveig, and past self, Kvasir. Two beings, whose destinies do not intersect, have come together.",
     "origin": "Heroes",
-    "artist": "Maeshima Shigeki (\u524d\u5d8b\u91cd\u6a5f)",
+    "artist": "ekao",
     "move": "Cavalry",
     "weapon": "Tome",
-    "color": "Blue",
+    "color": "Colorless",
     "duel": false,
-    "id": "1307",
-    "type": "legendary",
-    "version": "9.10",
-    "duo": false,
+    "id": "1308",
+    "type": false,
+    "version": "9.11",
+    "duo": "(Duo Skills can be used\u00a0once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)",
     "harmonized": false,
     "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 14,
-      "spd": 3,
-      "def": 5,
-      "res": 10
+      "atk": 10,
+      "spd": 10,
+      "def": 8,
+      "res": 4
     },
     "growth": {
       "hp": 55,
-      "atk": 80,
-      "spd": 30,
-      "def": 55,
-      "res": 90
+      "atk": 85,
+      "spd": 90,
+      "def": 50,
+      "res": 30
     },
     "superboon": [
-      "res"
-    ],
-    "superbane": [
       "spd"
     ],
+    "superbane": [
+      "def",
+      "res"
+    ],
     "weapons": {
-      "Light": "1",
-      "Ellight": "2",
-      "Shine": "3",
-      "Mystic Gjallarhorn": "5"
+      "Stone": "1",
+      "Elstone": "2",
+      "Atlas": "3",
+      "Scrolls of Time": "5"
     },
-    "assist": {
-      "Gjallarhorn": "5"
-    },
+    "assist": {},
     "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4",
-      "Ice Wall": "5"
+      "Retribution": "3",
+      "Vengeance": "4",
+      "Future and Past": "5"
     },
     "passive": {
       "A": {
-        "Atk/Res Bond 1": "2",
-        "Atk/Res Bond 2": "3",
-        "Atk/Res Bond 3": "4",
-        "Atk/Res Aria": "5"
+        "Darting Blow 1": "2",
+        "Swift Sparrow 1": "3",
+        "Swift Sparrow 2": "4",
+        "Sly Swift Sparrow": "5"
       },
       "B": {
-        "An Open Book": "5"
+        "Poison Strike 1": "2",
+        "Poison Strike 2": "3",
+        "Poison Strike 3": "4",
+        "Conjuring Breath": "5"
       },
       "C": {
-        "Fortify Res 1": "2",
-        "Fortify Res 2": "3",
-        "Fortify Res 3": "4",
-        "A/R Hone Assault": "5"
+        "Hone Spd 1": "2",
+        "Hone Spd 2": "3",
+        "Hone Spd 3": "4",
+        "A/S Hone Assault": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8d/Heimdallr_God_of_Foresight_Face.webp/revision/latest?cb=20250605052644",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4d/Heimdallr_God_of_Foresight_BtlFace_D.webp/revision/latest?cb=20250605052639",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b6/Heimdallr_God_of_Foresight_BtlFace_C.webp/revision/latest?cb=20250605052634",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/96/Heimdallr_God_of_Foresight_BtlFace.webp/revision/latest?cb=20250605052619"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/45/Gullveig_Hidden_in_Time_Face.webp/revision/latest?cb=20251105050838",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c4/Gullveig_Hidden_in_Time_BtlFace_D.webp/revision/latest?cb=20251105050833",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/18/Gullveig_Hidden_in_Time_BtlFace_C.webp/revision/latest?cb=20251105050828",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5a/Gullveig_Hidden_in_Time_BtlFace.webp/revision/latest?cb=20251105050813"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "God of Foresight",
-      "Heimdallr: God of Foresight",
-      "heimdallr"
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "HARD_ALT_NAME": [
-      "God of Foresight",
-      "Heimdallr: God of Foresight",
-      "heimdallr"
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u30d8\u30a4\u30e0\u30c0\u30eb\u5473\u65b9",
-    "voice": "Elsie Lovelock",
+    "pool": "seasonal",
+    "internal_id": "PID_\u6bd4\u7ffc\u30b0\u30eb\u30f4\u30a7\u30a4\u30b02",
+    "voice": "Alice Himora + Valeria Rodriguez",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -97,73 +103,758 @@
     "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "So there are renowned strategists in the Order of Heroes, hm? Best be aware that my foresight is infallible.",
-        "My king offered up his eye and his life to receive great knowledge... Yet, he desires even more...",
-        "\u00c1sgar\u00f0r is the pinnacle of the nine realms. I will acknowledge us celestial gods come with a sort of arrogance.",
-        "Loki\u2014so chaotic\u2014is the only being whom I cannot predict... I cannot stand her!",
-        "I...was wrong... And now, I cannot shake this sense that the course of the world has changed drastically."
+        "**Gullveig:** I share the same soul as Kvasir, so she and I should be able to perform covert tasks in perfect tandem.",
+        "**Gullveig:** I know the future, yet...I did not see myself this way.",
+        "**Kvasir:** If I remember correctly, Gullveig, ninja have signature sayings. For example...\"Sparkling Shuriken.\"",
+        "**Kvasir:** Being with Gullveig, I feel...at peace. I am sure she does also...",
+        "**Kvasir:** I hear ninja erase their presence. Though, even if I wanted to, I could never hide Gullveig's radiance."
       ],
       "Visit": [
-        "You are right on schedule. It appears [F]predicts well."
+        "I will leave a gift in secret for you. And with that, our infiltration mission is complete, [F]."
       ],
       "Level": [
-        "I dislike the unexpected. Oh, however... If unplanned events like these are likely occur...",
-        "Satisfactorily on schedule.",
-        "I anticipated this, though it means nothing if I fail to avoid it."
+        "**Kvasir:** I think that went well. Do you think we are worthy ninja now, Gullveig?",
+        "**Gullveig:** What I am now is a ninja...not the Golden Seer.",
+        "**Kvasir:** I am sorry... I could not keep up with Gullveig's radiance."
       ],
       "Summon": [
-        "I am Heimdallr, god of foresight, servant of the king of heaven. I know your next move."
+        "I am the Golden Seer. No... I am Gullveig, a ninja. Let us be on our way, Kvasir."
       ],
       "Learn Skill": [
-        "This power is proof of your accurate predictions. Very good, indeed."
+        "**Kvasir:** May this power be a bridge from the past to the future..."
       ],
       "Confession": [
-        "The king of heaven, who respects knowledge above all else, trusts but one servant more than any other...\nIt is me, the god of foresight. And there is more to me than foreseeing the future.\nOne is able to proceed precisely on schedule when prepared to avoid anything that obstructs the plan.\nTherefore, I dislike people engaging in actions that are not a part of that plan. It disrupts my peace...\nI do hope, as my new master, that you are not such a disorderly person as this, [S]."
+        "**Kvasir:** The secret message is not easy to find. I am afraid we will lose if nothing changes.\n**Gullveig:** It is all right, Kvasir. Even if we do not claim it, this experience is not one often had.\nYou and I, future and past, would not have crossed paths. Yet here, we have spent time together.\nFor that, the summoner has my gratitude.\n**Kvasir:** I feel the same. I will never forget this time we spent together, as ninja.\nNo matter what, we should be joyful to have worked together in this moment. \"Sparkling Shuriken!\""
       ],
       "Special": [
-        "I predicted this.",
-        "As foreseen.",
-        "It is time.",
-        "Right on schedule."
+        "**Duo:** An opening!",
+        "**Duo:** Your life... Is mine.",
+        "**Gullveig:** Your defenses are weak.",
+        "**Kvasir:** I can read you."
       ],
       "Status": [
-        "Humph.",
-        "I am Heimdallr, god of foresight. Be aware that I predict the future.",
-        "Humph. I knew that would be your next move.",
-        "Why could I not predict your actions? Who are you?",
-        "If one predicts accurately based on the facts, the future becomes an open book.",
-        "As long as things go according to plan, one can be at peace.",
-        "Loki... Why must you always meddle with the plan?",
-        "Ponder, predict, then fight. It seems we agree on these fundamentals, so I see no reason we cannot be friends."
+        "-",
+        "\u2022 Time's flow is again contravened\u2014to bring us together.\u2022 I look forward to seeing what will happen now."
       ],
       "Map Select": [
-        "I saw that coming.",
-        "What shall I do?",
-        "As I anticipated."
+        "Well...",
+        "Careful.",
+        "I will hide in shadow."
+      ],
+      "Conversation": [
+        "**Gullveig:** It seems this secret message is also a fake.",
+        "If we do not claim the real thing soon, we will never win.",
+        "**Kvasir:** I have no wish to lose... We were invited by someone I do not want to disappoint.",
+        "I want to see that smiling face when we win.",
+        "**Gullveig:** I feel the same. But remember... Win or lose, we will receive our smile.",
+        "As long as we enjoy ourselves. That's just how the summoner is.",
+        "**Kvasir:** You are right. But I do want to win.",
+        "Do you think I'll get a pat on the head? And a little praise? I hope so.",
+        "**Gullveig:** That is a lovely idea. Do you suppose that I might receive the same?",
+        "**Kvasir:** I do not think so. You are an adult. I think it would be rude.",
+        "**Gullveig:** I see... Being an adult is not always good.",
+        "I am sure I can ask for a different reward.",
+        "**Kvasir:** Oh? Like what?",
+        "**Gullveig:** Perhaps the summoner will grant me an embrace.",
+        "**Kvasir:** Not just for you! I want a hug too!",
+        "**Gullveig:** All this talk... And we have not yet located the secret message.",
+        "**Kvasir:** I am even more motivated now... I will win, no matter what!"
+      ],
+      "Duo Skill": [
+        "We take on... The task.",
+        "With this... It is over."
+      ],
+      "Back Unit Supporting": [
+        "Do your best.",
+        "Watching over you."
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Ninja Gullveig",
+    "SEARCH_NAME": "Ninja Gullveig",
+    "DISPLAY_NAME": "<:Colorless_Tome:1124845725960904734>Ninja Gullveig",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "gullveig",
+      "gullveig2",
+      "gullveig3"
+    ],
+    "prf": {
+      "": "scrollsoftime",
+      "eff": "scrollsoftime",
+      "atk": "scrollsoftime",
+      "spd": "scrollsoftime",
+      "def": "scrollsoftime",
+      "res": "scrollsoftime"
+    }
+  },
+  "hrid4": {
+    "name": "Hr\u00edd",
+    "title": "Frigid Ninja",
+    "description": "The eldest prince of Nifl, Kingdom of Ice. He's come to the festival dressed in ninja garb for the first time.",
+    "origin": "Heroes",
+    "artist": "\u30aa\u30c3\u30c8\u30f3",
+    "move": "Cavalry",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1311",
+    "type": false,
+    "version": "9.11",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 8,
+      "def": 10,
+      "res": 8
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 50,
+      "def": 90,
+      "res": 45
+    },
+    "superboon": [
+      "atk",
+      "def",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "spd"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Silver Axe": "3",
+      "Glacial Greataxe": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {
+        "Solid Ground 1": "2",
+        "Solid Ground 2": "3",
+        "Solid Ground 3": "4",
+        "Shatterproof": "5"
+      },
+      "B": {
+        "Glacial Seal": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2c/Hrid_Frigid_Ninja_Face.webp/revision/latest?cb=20251105050803",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a0/Hrid_Frigid_Ninja_BtlFace_D.webp/revision/latest?cb=20251105050758",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c6/Hrid_Frigid_Ninja_BtlFace_C.webp/revision/latest?cb=20251105050753",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/43/Hrid_Frigid_Ninja_BtlFace.webp/revision/latest?cb=20251105050738"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Frigid Ninja",
+      "Hr\u00edd: Frigid Ninja",
+      "Ninja Hr\u00edd",
+      "hrid4"
+    ],
+    "HARD_ALT_NAME": [
+      "Frigid Ninja",
+      "Hr\u00edd: Frigid Ninja",
+      "Ninja Hr\u00edd",
+      "hrid4"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u5fcd\u8005\u30d5\u30ea\u30fc\u30ba",
+    "voice": "Mark Whitten",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "askr"
+    ],
+    "chibi": "heroes",
+    "quotes": {
+      "Castle Hall": [
+        "Competing to find a secret note has my heart dancing with excitement. I shall gather some information first.",
+        "Some parts of Nifl could learn a thing or two from Askr's many and varied festivals.",
+        "As one to whom a kingdom has been entrusted, I understand how critical spies are for obtaining information.",
+        "I had heard about ninja garb like this from my sister. Hm... It is quite easy to move around in.",
+        "I heard ninja use fire and water techniques. I wonder, do they use any ice techniques?"
+      ],
+      "Visit": [
+        "I am Hr\u00edd, prince of Nifl. I hereby extend an invitation to the ninja festival at [F]'s."
+      ],
+      "Level": [
+        "I gave it my all and, in my own way, I was able to perform as a ninja.",
+        "Cool and collected, like ice, hm? It seems the way of the ninja suits me.",
+        "I have found it difficult to erase my presence. All there is to do is train even harder."
+      ],
+      "Summon": [
+        "I am Hr\u00edd, prince of Nifl. This is my first time acting as a ninja. I shall give it my all and enjoy myself."
+      ],
+      "Learn Skill": [
+        "I am grateful. Now, I will be able to contribute even more as a spy."
+      ],
+      "Confession": [
+        "Have you ever seen Nifl's snowy landscape, [S]?\nThe snow falls in silence, and before you know it, everything is covered in a blanket of pure white...\nNinja are similar, approaching without making a sound and drastically changing the course of battle.\nAfterward, they disappear without a trace... Just as snow melts away.\nI have gained more knowledge of the ninja at this festival.\nAnd I believe the techniques I have learned here will be useful in my travels throughout this land."
+      ],
+      "Special": [
+        "It is my duty.",
+        "You are finished!",
+        "I shall end this.",
+        "I found your weakness."
+      ],
+      "Status": [
+        "-",
+        "I have no knowledge of the ninja, but I shall give it my all.",
+        "*startle* Ninja should remain hidden from their opponents, correct?",
+        "My sister participated in this and found it quite enjoyable. Do you think I will be able to enjoy it as much?",
+        "Ninja run on water? Hm... Do they freeze it?",
+        "This outfit is intriguing. I am fond of how easily I can move in it.",
+        "To think, exceptional spies like this exist in other worlds...",
+        "I am grateful to participate in this festival with you."
+      ],
+      "Map Select": [
+        "I will slip through.",
+        "Ninja, tracking!",
+        "With caution."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Heimdallr",
-    "SEARCH_NAME": "Heimdallr",
-    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Heimdallr",
+    "short_name": "Ninja Hr\u00edd",
+    "SEARCH_NAME": "Ninja Hr\u00edd",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Ninja Hr\u00edd",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "hrid"
+    ],
     "prf": {
-      "": "mysticgjallarhorn",
-      "eff": "mysticgjallarhorn",
-      "atk": "mysticgjallarhorn",
-      "spd": "mysticgjallarhorn",
-      "def": "mysticgjallarhorn",
-      "res": "mysticgjallarhorn"
+      "": "glacialgreataxe",
+      "eff": "glacialgreataxe",
+      "atk": "glacialgreataxe",
+      "spd": "glacialgreataxe",
+      "def": "glacialgreataxe",
+      "res": "glacialgreataxe"
+    }
+  },
+  "shez8": {
+    "name": "Shez",
+    "title": "Covert Mercenary",
+    "description": "An accomplished mercenary from F\u00f3dlan. Here, she takes part in the secret-missive scramble as a ninja. Appears in Fire Emblem Warriors: Three Hopes.",
+    "origin": "Three Houses",
+    "artist": "YOSHIO (\u3088\u3057\u7537)",
+    "move": "Infantry",
+    "weapon": "Dagger",
+    "color": "Blue",
+    "duel": false,
+    "id": "1310",
+    "type": false,
+    "version": "9.11",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 9,
+      "spd": 10,
+      "def": 10,
+      "res": 8
     },
-    "blessing": "Anima",
-    "boost": {
-      "hp": 5,
-      "atk": 3
+    "growth": {
+      "hp": 50,
+      "atk": 85,
+      "spd": 90,
+      "def": 65,
+      "res": 40
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Iron Dagger": "1",
+      "Steel Dagger": "2",
+      "Silver Dagger": "3",
+      "Covert Duality": "5"
+    },
+    "assist": {},
+    "special": {
+      "Night Sky": "3",
+      "Astra": "4",
+      "Comet": "5"
+    },
+    "passive": {
+      "A": {
+        "Rapid Slice": "5"
+      },
+      "B": {
+        "Disarm Trap 1": "2",
+        "Disarm Trap 2": "3",
+        "Disarm Trap 3": "4",
+        "Full Disarm": "5"
+      },
+      "C": {
+        "Lookout 1": "2",
+        "Lookout 2": "3",
+        "Lookout 3": "4",
+        "Lookout Smog": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f2/Shez_Covert_Mercenary_Face.webp/revision/latest?cb=20251105051104",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Shez_Covert_Mercenary_BtlFace_D.webp/revision/latest?cb=20251105051100",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8a/Shez_Covert_Mercenary_BtlFace_C.webp/revision/latest?cb=20251105051055",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Shez_Covert_Mercenary_BtlFace.webp/revision/latest?cb=20251105051040"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Covert Mercenary",
+      "Shez: Covert Mercenary",
+      "Ninja Shez",
+      "Ninja F!Shez",
+      "shez8"
+    ],
+    "HARD_ALT_NAME": [
+      "Covert Mercenary",
+      "Shez: Covert Mercenary",
+      "Ninja Shez",
+      "Ninja F!Shez",
+      "shez8"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u5fcd\u8005\u30b7\u30a7\u30ba\u5973",
+    "voice": "Dawn M. Bennett",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fodlan"
+    ],
+    "chibi": "fodlan",
+    "quotes": {
+      "Castle Hall": [
+        "I've accomplished many rescues, retreats, defensive missions... But, I don't recall any covert operations.",
+        "As a mercenary, I've had to hide from foes plenty of times. I'm used to concealing my presence.",
+        "I suspect Commander Anna may have the secret missive... I'll investigate her first.",
+        "This outfit's really for covert operations? Am I the only one who feels like it draws more attention?",
+        "Never thought I'd be at a festival competing against myself from another world. Hmph. I can't lose."
+      ],
+      "Visit": [
+        "I'm Shez, a mercenary from F\u00f3dlan. There's a ninja festival happening at [F]'s castle."
+      ],
+      "Level": [
+        "Mission accomplished. Pretty good, eh?",
+        "You're moving so slow. It's like you want me to defeat you.",
+        "Do I stand out too much? This ninja technique is difficult to grasp..."
+      ],
+      "Summon": [
+        "I'm Shez, a mercenary from F\u00f3dlan. So, my job here is to obtain a secret missive? I'm on it."
+      ],
+      "Learn Skill": [
+        "It'll be interesting to grow as a ninja instead of as a mercenary."
+      ],
+      "Confession": [
+        "You're wide open! Time to take your life, [S]!\nHa! Just kidding. What'd you think? I played the part well, eh? I'm a pretty good ninja, right?\nEven though I've accomplished so many missions, it's quite a change, takin' on ninja tasks.\nSabotaging, assassinating, gathering intel...all in secret. Ninja may have the power to change the course of battle.\nIt's the names of heroes, monarchs, and aristocrats that will go down in history. But it's ninja who affect it.\nMakes me feel close to them. You see, mercenaries aren't remembered either, so we have that in common."
+      ],
+      "Special": [
+        "Your life is mine!",
+        "You're wide open.",
+        "I'll strike from here!",
+        "Don't hold back!"
+      ],
+      "Status": [
+        "-",
+        "So ninja are scouts and assassins? Very interesting.",
+        "A-ah... Already playing ninja, are you?",
+        "Getting to train while I'm at the festival is like killing two birds with one stone.",
+        "*yawn* I can't help but take a breather when I know I'm hidden.",
+        "Tah! Haa! I'm pretty good with ninja weapons too, eh?",
+        "This outfit's light so it's easy to move around in. I like it.",
+        "I'll secure your victory. I'm ready!"
+      ],
+      "Map Select": [
+        "Aha.",
+        "Give the order.",
+        "I'll take 'em."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Ninja Shez",
+    "SEARCH_NAME": "Ninja Shez",
+    "DISPLAY_NAME": "<:Blue_Dagger:1124845543026335764>Ninja Shez",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "shez",
+      "shez2",
+      "shez3",
+      "shez4",
+      "shez5",
+      "shez6",
+      "shez7"
+    ],
+    "prf": {
+      "": "covertduality",
+      "eff": "covertduality",
+      "atk": "covertduality",
+      "spd": "covertduality",
+      "def": "covertduality",
+      "res": "covertduality"
+    }
+  },
+  "yunaka3": {
+    "name": "Yunaka",
+    "title": "Stealthy Imitator",
+    "description": "A wandering thief, trained in the art of ninja, who is enjoying the festival by making full use of her stealth and impersonation skills. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "Idenshi Hina (\u907a\u4f1d\u5b50\u3072\u306a)",
+    "move": "Infantry",
+    "weapon": "Bow",
+    "color": "Red",
+    "duel": false,
+    "id": "1309",
+    "type": false,
+    "version": "9.11",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 10,
+      "def": 9,
+      "res": 8
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 85,
+      "spd": 90,
+      "def": 50,
+      "res": 55
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "def"
+    ],
+    "weapons": {
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Silver Bow": "3",
+      "Bow of Stealth": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4",
+      "Archrival": "5"
+    },
+    "passive": {
+      "A": {
+        "Ninja-Zap": "5"
+      },
+      "B": {
+        "Lull Spd/Def 1": "2",
+        "Lull Spd/Def 2": "3",
+        "Lull Spd/Def 3": "4",
+        "S/D Lull Finish": "5"
+      },
+      "C": {
+        "Odd Spd Wave 1": "2",
+        "Odd Spd Wave 2": "3",
+        "Odd Spd Wave 3": "4",
+        "Odd Spd Wave 4": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/70/Yunaka_Stealthy_Imitator_Face.webp/revision/latest?cb=20251105051140",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1b/Yunaka_Stealthy_Imitator_BtlFace_D.webp/revision/latest?cb=20251105051135",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/81/Yunaka_Stealthy_Imitator_BtlFace_C.webp/revision/latest?cb=20251105051130",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/8f/Yunaka_Stealthy_Imitator_BtlFace.webp/revision/latest?cb=20251105051115"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Stealthy Imitator",
+      "Yunaka: Stealthy Imitator",
+      "Ninja Yunaka",
+      "yunaka3"
+    ],
+    "HARD_ALT_NAME": [
+      "Stealthy Imitator",
+      "Yunaka: Stealthy Imitator",
+      "Ninja Yunaka",
+      "yunaka3"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u5fcd\u8005\u30e6\u30ca\u30ab",
+    "voice": "Laura Post",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "All these shinobi around... I bet some are in disguise. Is the Hero you see really who you think they are?",
+        "They say there are people dressed like shinobi in Pale Sands on Elyos. I'm checking that out when I go back!",
+        "In a book of ninja techniques I found tactics with names like water-escape arts and fire-escape arts. Neat!",
+        "The Hoshidan-style outfits are great, but this is business as usual for me. Stay hidden and fulfill my mission!",
+        "As a shinobi, I put shuriken in my hair instead of stars. I can use 'em to fight in a pinch too!"
+      ],
+      "Visit": [
+        "Nin-zappy! I'm humble ninja Yunaka, bringing a secret missive for the lord here from [F]!"
+      ],
+      "Level": [
+        "I'd expect no less! I can throw my shuriken straight and true!",
+        "To be worthy of the title of shinobi, I must deliver reliable results!",
+        "Maybe I stood out a little too much. Not so nin-zappy..."
+      ],
+      "Summon": [
+        "Nin-zappy! Humble Yunaka here, in the form of a shinobi! Oops. Shinobi probably shouldn't shout, huh?"
+      ],
+      "Learn Skill": [
+        "Thanks! This will help with new battle strategies. A shinobi is stronger with lots of moves in their arsenal!"
+      ],
+      "Confession": [
+        "Oh, Summoner! I've been thinking as I watch everyone enjoying the festival from over here.\nShinobi are odd. They hide, gather intelligence, and even assassinate... Yet this event is so flashy.\nThere was no \"assassin's festival\" where I'm from. Why would there be? Everyone loathes assassins.\nI think shinobi operate from a place of more loyalty and faith. While I'd never glorifying killing, I must say...\nthe sight of shinobi fulfilling jobs for their lords is beautiful. If past me had that, at least, then...\nNo, never mind. I'm participating, and I'm going to enjoy this festival! Hiya papaya and nin-zappy, Summoner!"
+      ],
+      "Special": [
+        "I'll take your life.",
+        "A stealthy kill.",
+        "Fulfilling my mission.",
+        "Ninja engage!"
+      ],
+      "Status": [
+        "Hehehe!",
+        "Could you detect my presence? Before I spoke to you, that is.",
+        "Aaah! Hey, stop poking at me! Want me to drop my hidden weapons?",
+        "I'm quite skilled at the ninja technique of hiding myself with invisibility magic. Want to see? Or...not see, I guess?",
+        "Shuriken, kunai, kusarigama... I am so excited about all these curious weapons!",
+        "I've heard Micaiah is a ninja too. I wonder where she is?",
+        "The main duties of a shinobi are intelligence gathering and...assassinations. Kind of reminds me of earlier days...",
+        "Feast your eyes on the art of disguise! I'll start by imitating the Divine Dragon's voice. \"I am guided by the Emblems. Emblem Engage!\""
+      ],
+      "Map Select": [
+        "Gotcha!",
+        "Nin-zappy!",
+        "They won't see me coming!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Ninja Yunaka",
+    "SEARCH_NAME": "Ninja Yunaka",
+    "DISPLAY_NAME": "<:Red_Bow:1124846280951218289>Ninja Yunaka",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "yunaka",
+      "yunaka2"
+    ],
+    "prf": {
+      "": "bowofstealth",
+      "eff": "bowofstealth",
+      "atk": "bowofstealth",
+      "spd": "bowofstealth",
+      "def": "bowofstealth",
+      "res": "bowofstealth"
+    }
+  },
+  "shez9": {
+    "name": "Shez",
+    "title": "Ninja Mercenary",
+    "description": "A mercenary who has set foot on many a battlefield. Here, he challenges the secret missive scramble as a ninja. Appears in Fire Emblem Warriors: Three Hopes.",
+    "origin": "Three Houses",
+    "artist": "Okuma Yugo (\u5927\u718a\u3086\u3046\u3054)",
+    "move": "Infantry",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1312",
+    "type": false,
+    "version": "9.11",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 11,
+      "spd": 9,
+      "def": 11,
+      "res": 9
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 85,
+      "spd": 90,
+      "def": 75,
+      "res": 35
+    },
+    "superboon": [
+      "spd"
+    ],
+    "superbane": [
+      "hp",
+      "def"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Ninja Chakrams": "3",
+      "Ninja Chakrams+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Solo 1": "1",
+        "Atk/Spd Solo 2": "2",
+        "Atk/Spd Solo 3": "4"
+      },
+      "B": {
+        "Close Call 1": "3",
+        "Close Call 2": "4",
+        "Close Call 3": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cd/Shez_Ninja_Mercenary_Face.webp/revision/latest?cb=20251105051030",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3a/Shez_Ninja_Mercenary_BtlFace_D.webp/revision/latest?cb=20251105051025",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/28/Shez_Ninja_Mercenary_BtlFace_C.webp/revision/latest?cb=20251105051020",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/56/Shez_Ninja_Mercenary_BtlFace.webp/revision/latest?cb=20251105051005"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Ninja Mercenary",
+      "Shez: Ninja Mercenary",
+      "Ninja Shez",
+      "Ninja M!Shez",
+      "shez9"
+    ],
+    "HARD_ALT_NAME": [
+      "Ninja Mercenary",
+      "Shez: Ninja Mercenary",
+      "Ninja Shez",
+      "Ninja M!Shez",
+      "shez9"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "grail",
+    "internal_id": "PID_\u5fcd\u8005\u30b7\u30a7\u30ba\u7537",
+    "voice": "Damien Haas",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fodlan"
+    ],
+    "chibi": "fodlan",
+    "quotes": {
+      "Castle Hall": [
+        "Mercenaries need to be able to adapt the way ninja adjust to shifting situations. I could learn from them.",
+        "I once infiltrated enemy lines to stir chaos and confusion. That's a proper mercenary job, you know.",
+        "It's not just ninja who need to gather information and identify their foe's weaknesses. It's mercenaries too.",
+        "This ninja garb'll come in handy. I should be able to infiltrate anywhere without being noticed.",
+        "Another me is at this festival, eh? I'm sure I know what they've got up their sleeve, but I can't let my guard down."
+      ],
+      "Visit": [
+        "I am Shez, a mercenary. I've been entrusted with inviting you to a ninja festival by [F]."
+      ],
+      "Level": [
+        "If I see an opening, I don't let it pass me by. That's how a ninja fights... Chakram Attack! You like it?",
+        "Deal the finishing blow without making a sound. That's the ninja way, right?",
+        "I went too far, huh? I'm not cut out for this..."
+      ],
+      "Summon": [
+        "I'm Shez, a mercenary from F\u00f3dlan. My job here is to make this ninja festival more exciting, eh?"
+      ],
+      "Learn Skill": [
+        "This power is necessary for a ninja. I'll use it with gratitude!"
+      ],
+      "Confession": [
+        "I didn't end up finding the secret missive, after all... I feel like I let you down, [S].\nHowever, I did manage to make this festival more exciting, right? I mean, people seemed to enjoy it.\nThe ninja techniques I learned here are different from my usual ones.\nGathering information, infiltrating the enemy, and fighting in unexpected ways are useful tactics in battle.\nAs long as I keep fighting, I'll never forget what I learned from this experience.\nEven after I return to F\u00f3dlan, I will whisper, \"Chakram Attack.\""
+      ],
+      "Special": [
+        "You're mine!",
+        "Wide open!",
+        "Found your weak spot.",
+        "Executing mission."
+      ],
+      "Status": [
+        "-",
+        "Interesting festival. I'm itching to put my skills to the test here.",
+        "*react* I didn't see you there. Was that a ninja move?",
+        "Enjoying the festival while learning ninja techniques? Talk about a great deal.",
+        "Strange weapon, huh? You could really hurt yourself if you're not careful.",
+        "This outfit is comfortable. And warm, too.",
+        "Approaching the enemy without getting noticed? I guess ninja and mercenaries are the same that way.",
+        "For you, I'll carry out any mission."
+      ],
+      "Map Select": [
+        "Got it.",
+        "Not so sure...",
+        "I'm in!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Ninja Shez",
+    "SEARCH_NAME": "Ninja Shez",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Ninja Shez",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "shez",
+      "shez2",
+      "shez3",
+      "shez4",
+      "shez5",
+      "shez6",
+      "shez7",
+      "shez8"
+    ],
+    "prf": {
+      "": "ninjachakrams",
+      "eff": "ninjachakrams",
+      "atk": "ninjachakrams",
+      "spd": "ninjachakrams",
+      "def": "ninjachakrams",
+      "res": "ninjachakrams"
     }
   }
 }
