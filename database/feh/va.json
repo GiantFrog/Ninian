@@ -958,7 +958,12 @@
       "Beach Gullveig",
       "Duo Gullveig",
       "D Gullveig",
-      "gullveig3"
+      "gullveig3",
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "HARD_ALT_NAME": [
       "seidr2",
@@ -999,12 +1004,18 @@
       "Beach Gullveig",
       "Duo Gullveig",
       "D Gullveig",
-      "gullveig3"
+      "gullveig3",
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "heroes": {
       "gullveig": "<:Colorless_Tome:1124845725960904734>Gullveig",
       "gullveig2": "<:Blue_Tome:1124845593211191297>Brave Gullveig",
       "gullveig3": "<:Red_Tome:1124846175577710642>Summer Gullveig",
+      "gullveig4": "<:Colorless_Tome:1124845725960904734>Ninja Gullveig",
       "heidr": "<:Green_Tome:1124845959873036289>Hei\u00f0r",
       "seidr2": "<:Blue_Tome:1124845593211191297>New Year Sei\u00f0r"
     },
@@ -7256,7 +7267,12 @@
       "Leg M Shez",
       "Male L Shez",
       "shez6",
-      "mshez3"
+      "mshez3",
+      "Ninja Mercenary",
+      "Shez: Ninja Mercenary",
+      "Ninja Shez",
+      "Ninja M!Shez",
+      "shez9"
     ],
     "HARD_ALT_NAME": [
       "shez",
@@ -7320,14 +7336,20 @@
       "Leg M Shez",
       "Male L Shez",
       "shez6",
-      "mshez3"
+      "mshez3",
+      "Ninja Mercenary",
+      "Shez: Ninja Mercenary",
+      "Ninja Shez",
+      "Ninja M!Shez",
+      "shez9"
     ],
     "heroes": {
       "saul": "<:Colorless_Staff:1124845704444137592>Saul",
       "saul2": "<:Colorless_Staff:1124845704444137592>Bridal Saul",
       "shez": "<:Red_Sword:1124846201070698536>Male Shez",
       "shez5": "<:Blue_Lance:1124845569496584302>Summer Male Shez",
-      "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez"
+      "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez",
+      "shez9": "<:Green_Axe:1124845885277343754>Ninja Shez"
     },
     "name": "Damien Haas"
   },
@@ -8307,7 +8329,12 @@
       "Christmas Shez",
       "W Shez",
       "W F Shez",
-      "shez7"
+      "shez7",
+      "Covert Mercenary",
+      "Shez: Covert Mercenary",
+      "Ninja Shez",
+      "Ninja F!Shez",
+      "shez8"
     ],
     "HARD_ALT_NAME": [
       "ullr",
@@ -8404,13 +8431,19 @@
       "Christmas Shez",
       "W Shez",
       "W F Shez",
-      "shez7"
+      "shez7",
+      "Covert Mercenary",
+      "Shez: Covert Mercenary",
+      "Ninja Shez",
+      "Ninja F!Shez",
+      "shez8"
     ],
     "heroes": {
       "shez2": "<:Green_Axe:1124845885277343754>Female Shez",
       "shez3": "<:Blue_Dagger:1124845543026335764>Legendary Female Shez",
       "shez4": "<:Red_Sword:1124846201070698536>Summer Female Shez",
       "shez7": "<:Green_Dagger:1124845796169351320>Winter Female Shez",
+      "shez8": "<:Blue_Dagger:1124845543026335764>Ninja Shez",
       "ullr": "<:Blue_Bow:1124845525695475845>Ullr"
     },
     "name": "Dawn M. Bennett"
@@ -16403,7 +16436,11 @@
       "Aided Yunaka",
       "Aid Yunaka",
       "Yunaka",
-      "yunaka1"
+      "yunaka1",
+      "Stealthy Imitator",
+      "Yunaka: Stealthy Imitator",
+      "Ninja Yunaka",
+      "yunaka3"
     ],
     "HARD_ALT_NAME": [
       "Harmonic Shamir",
@@ -16443,14 +16480,19 @@
       "Aided Yunaka",
       "Aid Yunaka",
       "Yunaka",
-      "yunaka1"
+      "yunaka1",
+      "Stealthy Imitator",
+      "Yunaka: Stealthy Imitator",
+      "Ninja Yunaka",
+      "yunaka3"
     ],
     "heroes": {
       "catherine": "<:Red_Sword:1124846201070698536>Catherine",
       "shamir3": "<:Blue_Bow:1124845525695475845>Duo Shamir",
       "silvia": "<:Red_Sword:1124846201070698536>Silvia",
       "yunaka": "<:Colorless_Dagger:1124845658617155734>Aided Yunaka",
-      "yunaka2": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka"
+      "yunaka2": "<:Colorless_Dagger:1124845658617155734>Winter Yunaka",
+      "yunaka3": "<:Red_Bow:1124846280951218289>Ninja Yunaka"
     },
     "name": "Laura Post"
   },
@@ -27837,7 +27879,12 @@
       "Legendary Kvasir",
       "Kimono Kvasir",
       "Time's Goddesses",
-      "Unknown Future"
+      "Unknown Future",
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "HARD_ALT_NAME": [
       "Kvasir: Seer of the Past",
@@ -27868,9 +27915,15 @@
       "Legendary Kvasir",
       "Kimono Kvasir",
       "Time's Goddesses",
-      "Unknown Future"
+      "Unknown Future",
+      "Hidden in Time",
+      "Gullveig: Hidden in Time",
+      "Ninja Gullveig",
+      "duo gullveig2",
+      "gullveig4"
     ],
     "heroes": {
+      "gullveig4": "<:Colorless_Tome:1124845725960904734>Ninja Gullveig",
       "kvasir": "<:Red_Tome:1124846175577710642>Kvasir",
       "kvasir2": "<:Green_Tome:1124845959873036289>New Year Kvasir",
       "seidr": "<:Green_Tome:1124845959873036289>Sei\u00f0r",
@@ -31549,6 +31602,24 @@
       "God of Foresight",
       "Heimdallr: God of Foresight",
       "heimdallr"
+    ]
+  },
+  "markwhitten": {
+    "heroes": {
+      "hrid4": "<:Green_Axe:1124845885277343754>Ninja Hr\u00edd"
+    },
+    "name": "Mark Whitten",
+    "ALT_NAME": [
+      "Frigid Ninja",
+      "Hr\u00edd: Frigid Ninja",
+      "Ninja Hr\u00edd",
+      "hrid4"
+    ],
+    "HARD_ALT_NAME": [
+      "Frigid Ninja",
+      "Hr\u00edd: Frigid Ninja",
+      "Ninja Hr\u00edd",
+      "hrid4"
     ]
   }
 }
