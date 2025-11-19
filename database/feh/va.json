@@ -26610,6 +26610,10 @@
       "Resplendent Edelgard",
       "Resp Edelgard",
       "R Edelgard",
+      "Edelgard (Resplendent)",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
       "Edelgard (Resplendent)"
     ],
     "HARD_ALT_NAME": [
@@ -26727,12 +26731,17 @@
       "Resplendent Edelgard",
       "Resp Edelgard",
       "R Edelgard",
+      "Edelgard (Resplendent)",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
       "Edelgard (Resplendent)"
     ],
     "heroes": {
       "edelgard": "<:Green_Axe:1124845885277343754>Edelgard",
       "edelgard2": "<:Green_Axe:1124845885277343754>Legendary Edelgard",
       "edelgard3": "<:Green_Axe:1124845885277343754>Brave Edelgard",
+      "edelgard3R": "<:Green_Axe:1124845885277343754>Brave Edelgard (Resplendent)",
       "edelgard4": "<:Colorless_Beast:1124845615935918110>Fallen Edelgard",
       "edelgard5": "<:Red_Sword:1124846201070698536>Harmonic Edelgard",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",

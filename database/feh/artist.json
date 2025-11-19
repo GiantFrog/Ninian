@@ -29325,6 +29325,7 @@
   "makimurashiyunsuke": {
     "heroes": {
       "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra",
+      "edelgard3R": "<:Green_Axe:1124845885277343754>Brave Edelgard (Resplendent)",
       "finn2": "<:Red_Sword:1124846201070698536>Butler Finn"
     },
     "name": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
@@ -29364,7 +29365,11 @@
       "Maid Finn",
       "Tea Finn",
       "Butler Finn",
-      "finn2"
+      "finn2",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Supreme Astra",
@@ -29402,7 +29407,11 @@
       "Maid Finn",
       "Tea Finn",
       "Butler Finn",
-      "finn2"
+      "finn2",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ]
   },
   "tetsubuta": {
