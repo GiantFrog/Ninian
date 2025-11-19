@@ -18539,7 +18539,10 @@
       "Base Augustus",
       "Normal Augustus",
       "Base Augustos",
-      "Normal Augustos"
+      "Normal Augustos",
+      "Celestial King",
+      "Alfa\u00f0\u00f6r: Celestial King",
+      "alfador"
     ],
     "HARD_ALT_NAME": [
       "bertram",
@@ -18569,9 +18572,13 @@
       "Base Augustus",
       "Normal Augustus",
       "Base Augustos",
-      "Normal Augustos"
+      "Normal Augustos",
+      "Celestial King",
+      "Alfa\u00f0\u00f6r: Celestial King",
+      "alfador"
     ],
     "heroes": {
+      "alfador": "<:Blue_Tome:1124845593211191297>Alfa\u00f0\u00f6r",
       "august": "<:Colorless_Staff:1124845704444137592>August",
       "bertram": "<:Red_Sword:1124846201070698536>Bertram"
     },
@@ -26610,6 +26617,10 @@
       "Resplendent Edelgard",
       "Resp Edelgard",
       "R Edelgard",
+      "Edelgard (Resplendent)",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
       "Edelgard (Resplendent)"
     ],
     "HARD_ALT_NAME": [
@@ -26727,12 +26738,17 @@
       "Resplendent Edelgard",
       "Resp Edelgard",
       "R Edelgard",
+      "Edelgard (Resplendent)",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
       "Edelgard (Resplendent)"
     ],
     "heroes": {
       "edelgard": "<:Green_Axe:1124845885277343754>Edelgard",
       "edelgard2": "<:Green_Axe:1124845885277343754>Legendary Edelgard",
       "edelgard3": "<:Green_Axe:1124845885277343754>Brave Edelgard",
+      "edelgard3R": "<:Green_Axe:1124845885277343754>Brave Edelgard (Resplendent)",
       "edelgard4": "<:Colorless_Beast:1124845615935918110>Fallen Edelgard",
       "edelgard5": "<:Red_Sword:1124846201070698536>Harmonic Edelgard",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",
@@ -31620,6 +31636,22 @@
       "Hr\u00edd: Frigid Ninja",
       "Ninja Hr\u00edd",
       "hrid4"
+    ]
+  },
+  "miapaige": {
+    "heroes": {
+      "vali": "<:Green_Tome:1124845959873036289>V\u00e1li"
+    },
+    "name": "Mia Paige",
+    "ALT_NAME": [
+      "God of Vengeance",
+      "V\u00e1li: God of Vengeance",
+      "vali"
+    ],
+    "HARD_ALT_NAME": [
+      "God of Vengeance",
+      "V\u00e1li: God of Vengeance",
+      "vali"
     ]
   }
 }

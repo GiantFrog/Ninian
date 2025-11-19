@@ -14226,7 +14226,13 @@
       "hodr",
       "God of Foresight",
       "Heimdallr: God of Foresight",
-      "heimdallr"
+      "heimdallr",
+      "God of Vengeance",
+      "V\u00e1li: God of Vengeance",
+      "vali",
+      "Celestial King",
+      "Alfa\u00f0\u00f6r: Celestial King",
+      "alfador"
     ],
     "HARD_ALT_NAME": [
       "xander",
@@ -14448,9 +14454,16 @@
       "hodr",
       "God of Foresight",
       "Heimdallr: God of Foresight",
-      "heimdallr"
+      "heimdallr",
+      "God of Vengeance",
+      "V\u00e1li: God of Vengeance",
+      "vali",
+      "Celestial King",
+      "Alfa\u00f0\u00f6r: Celestial King",
+      "alfador"
     ],
     "heroes": {
+      "alfador": "<:Blue_Tome:1124845593211191297>Alfa\u00f0\u00f6r",
       "baldr": "<:Red_Sword:1124846201070698536> Baldr",
       "camilla": "<:Green_Axe:1124845885277343754>Camilla",
       "camilla2": "<:Green_Tome:1124845959873036289>Spring Camilla",
@@ -14474,6 +14487,7 @@
       "surtr": "<:Green_Axe:1124845885277343754>Surtr",
       "thorr": "<:Green_Axe:1124845885277343754>Th\u00f3rr",
       "thorr2": "<:Blue_Tome:1124845593211191297>Duo Th\u00f3rr",
+      "vali": "<:Green_Tome:1124845959873036289>V\u00e1li",
       "xander": "<:Red_Sword:1124846201070698536>Xander",
       "ylgr": "<:Blue_Dagger:1124845543026335764>Ylgr"
     },
@@ -29325,6 +29339,7 @@
   "makimurashiyunsuke": {
     "heroes": {
       "ayra3": "<:Red_Sword:1124846201070698536>Legendary Ayra",
+      "edelgard3R": "<:Green_Axe:1124845885277343754>Brave Edelgard (Resplendent)",
       "finn2": "<:Red_Sword:1124846201070698536>Butler Finn"
     },
     "name": "\u30de\u30ad\u30e0\u30e9\u30b7\u30e5\u30f3\u30b9\u30b1",
@@ -29364,7 +29379,11 @@
       "Maid Finn",
       "Tea Finn",
       "Butler Finn",
-      "finn2"
+      "finn2",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Supreme Astra",
@@ -29402,7 +29421,11 @@
       "Maid Finn",
       "Tea Finn",
       "Butler Finn",
-      "finn2"
+      "finn2",
+      "Resplendent Edelgard",
+      "Resp Edelgard",
+      "R Edelgard",
+      "Edelgard (Resplendent)"
     ]
   },
   "tetsubuta": {
