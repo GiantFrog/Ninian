@@ -10,8 +10,8 @@ file =  './sk.json'
 
 
 #skill_scrape.upgrade_sp('')
-skill_scrape.upgrade_passive('Swift Slice')
-skill_scrape.upgrade_passive('Assured Rebirth')
+#skill_scrape.upgrade_passive('Swift Slice')
+#skill_scrape.upgrade_passive('Assured Rebirth')
 
 with open(file, 'w') as fp:
     json.dump(obj, fp)
@@ -19,16 +19,13 @@ with open(file, 'w') as fp:
 
 
 units = [
-    "Gullveig: Hidden in Time",
-    "Hríd: Frigid Ninja",
-    "Shez: Covert Mercenary",
-    "Yunaka: Stealthy Imitator",
-    "Shez: Ninja Mercenary"
+    "Váli:_God_of_Vengeance",
+    "Alfaðör: Celestial King"
 ]
 
 
 
-alts = ["Ninja"]  # 'None' (as in null) uses defaults such as "normal" and "regular". use [] for no alts. maybe this is unintuitive.
+alts = []  # 'None' (as in null) uses defaults such as "normal" and "regular". use [] for no alts. maybe this is unintuitive.
 #alts = ["Winter", "Christmas", "W"]
 
 version = None  # will calculate the book & chapter the game is currently on when this is run

@@ -14226,7 +14226,13 @@
       "hodr",
       "God of Foresight",
       "Heimdallr: God of Foresight",
-      "heimdallr"
+      "heimdallr",
+      "God of Vengeance",
+      "V\u00e1li: God of Vengeance",
+      "vali",
+      "Celestial King",
+      "Alfa\u00f0\u00f6r: Celestial King",
+      "alfador"
     ],
     "HARD_ALT_NAME": [
       "xander",
@@ -14448,9 +14454,16 @@
       "hodr",
       "God of Foresight",
       "Heimdallr: God of Foresight",
-      "heimdallr"
+      "heimdallr",
+      "God of Vengeance",
+      "V\u00e1li: God of Vengeance",
+      "vali",
+      "Celestial King",
+      "Alfa\u00f0\u00f6r: Celestial King",
+      "alfador"
     ],
     "heroes": {
+      "alfador": "<:Blue_Tome:1124845593211191297>Alfa\u00f0\u00f6r",
       "baldr": "<:Red_Sword:1124846201070698536> Baldr",
       "camilla": "<:Green_Axe:1124845885277343754>Camilla",
       "camilla2": "<:Green_Tome:1124845959873036289>Spring Camilla",
@@ -14474,6 +14487,7 @@
       "surtr": "<:Green_Axe:1124845885277343754>Surtr",
       "thorr": "<:Green_Axe:1124845885277343754>Th\u00f3rr",
       "thorr2": "<:Blue_Tome:1124845593211191297>Duo Th\u00f3rr",
+      "vali": "<:Green_Tome:1124845959873036289>V\u00e1li",
       "xander": "<:Red_Sword:1124846201070698536>Xander",
       "ylgr": "<:Blue_Dagger:1124845543026335764>Ylgr"
     },
