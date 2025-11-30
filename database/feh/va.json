@@ -25199,7 +25199,11 @@
       "Base Denis",
       "Normal Denis",
       "Base Donny",
-      "Normal Donny"
+      "Normal Donny",
+      "Resplendent Donnel",
+      "Resp Donnel",
+      "R Donnel",
+      "Donnel (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "raigh",
@@ -25246,11 +25250,16 @@
       "Sunny Villager",
       "Summer Donnel",
       "Summer Donny",
-      "Summer Dennis"
+      "Summer Dennis",
+      "Resplendent Donnel",
+      "Resp Donnel",
+      "R Donnel",
+      "Donnel (Resplendent)"
     ],
     "heroes": {
       "donnel": "<:Blue_Lance:1124845569496584302>Donnel",
       "donnel2": "<:Green_Axe:1124845885277343754>Summer Donnel",
+      "donnelR": "<:Blue_Lance:1124845569496584302>Donnel (Resplendent)",
       "raigh": "<:Red_Tome:1124846175577710642>Raigh",
       "stahl": "<:Red_Sword:1124846201070698536>Stahl"
     },

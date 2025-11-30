@@ -35,7 +35,10 @@ def scrape_resp(key):
     document = soup.find(class_="mw-parser-output")
 
     # get the unit's name, images, and other info found in the first table
-    wiki_info = document.find(class_="wikitable hero-infobox").find_all('tr')
+    try:
+        wiki_info = document.find(class_="wikitable hero-infobox").find_all('tr')
+    except:
+        wiki_info = document.find(class_="hero-infobox").find_all('tr')
     ogname = list(wiki_info[0].stripped_strings)[0]
    
     art = list(wiki_info[1].stripped_strings)  # art
@@ -145,4 +148,4 @@ def scrape_resp(key):
 
     return
 
-scrape_resp('edelgard3')
+scrape_resp('donnel')

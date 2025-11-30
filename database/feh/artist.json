@@ -23649,7 +23649,11 @@
       "Normal Hayato",
       "Base Hayato",
       "Regular Hayato",
-      "hayato"
+      "hayato",
+      "Resplendent Donnel",
+      "Resp Donnel",
+      "R Donnel",
+      "Donnel (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Rising Dragon",
@@ -23666,9 +23670,14 @@
       "Normal Hayato",
       "Base Hayato",
       "Regular Hayato",
-      "hayato"
+      "hayato",
+      "Resplendent Donnel",
+      "Resp Donnel",
+      "R Donnel",
+      "Donnel (Resplendent)"
     ],
     "heroes": {
+      "donnelR": "<:Blue_Lance:1124845569496584302>Donnel (Resplendent)",
       "hayato": "<:Red_Tome:1124846175577710642>Hayato",
       "kana3": "<:Red_Breath:1124846247673610240>New Year Male Kana"
     },
