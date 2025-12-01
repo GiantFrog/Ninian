@@ -688,7 +688,11 @@
       "Gladiator Marth",
       "Gladiator Lucina",
       "Ferox Marth",
-      "marth9"
+      "marth9",
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
     ],
     "HARD_ALT_NAME": [
       "lucy3",
@@ -899,7 +903,11 @@
       "Gladiator Marth",
       "Gladiator Lucina",
       "Ferox Marth",
-      "marth9"
+      "marth9",
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
     ],
     "heroes": {
       "clair": "<:Blue_Lance:1124845569496584302>Clair",
@@ -913,6 +921,7 @@
       "lucina7": "<:Green_Axe:1124845885277343754>Rearmed Lucina",
       "lucina8": "<:Colorless_Bow:1124845636659982457>Ninja Lucina",
       "lucinaR": "<:Red_Sword:1124846201070698536>Lucina (Resplendent)",
+      "lyn11": "<:Colorless_Bow:1124845636659982457>Lyn",
       "marth9": "<:Blue_Lance:1124845569496584302>Gladiator Marth",
       "mia3": "<:Colorless_Dagger:1124845658617155734>Harmonic Mia",
       "palla2": "<:Red_Dagger:1124846223518605324>Spring Palla",
@@ -10878,7 +10887,11 @@
       "Ike: Desert Mercenary",
       "Desert Ike",
       "D Ike",
-      "ike8"
+      "ike8",
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "HARD_ALT_NAME": [
       "ike1",
@@ -11091,7 +11104,11 @@
       "Ike: Desert Mercenary",
       "Desert Ike",
       "D Ike",
-      "ike8"
+      "ike8",
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "heroes": {
       "eirika5": "<:Red_Sword:1124846201070698536>Duo Eirika",
@@ -11116,6 +11133,7 @@
       "ike6": "<:Red_Sword:1124846201070698536>Duo Ike",
       "ike7": "<:Red_Sword:1124846201070698536>Emblem Ike",
       "ike8": "<:Blue_Lance:1124845569496584302>Ike",
+      "ike9": "<:Green_Axe:1124845885277343754>Ike",
       "ikeR": "<:Red_Sword:1124846201070698536>Ike (Resplendent)",
       "lukas": "<:Blue_Lance:1124845569496584302>Lukas",
       "lukas2": "<:Blue_Lance:1124845569496584302>Picnic Lukas",
@@ -23926,7 +23944,11 @@
       "CYL Alphonse",
       "B Alphonse",
       "Choose Your Legends Alphonse",
-      "alphonse5"
+      "alphonse5",
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "HARD_ALT_NAME": [
       "roy",
@@ -24112,7 +24134,11 @@
       "CYL Alphonse",
       "B Alphonse",
       "Choose Your Legends Alphonse",
-      "alphonse5"
+      "alphonse5",
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "heroes": {
       "alfonse": "<:Red_Sword:1124846201070698536>Alfonse",
@@ -24125,6 +24151,7 @@
       "gaius": "<:Colorless_Dagger:1124845658617155734>Gaius",
       "gaius2": "<:Colorless_Bow:1124845636659982457>Summer Gaius",
       "gaiusR": "<:Colorless_Dagger:1124845658617155734>Gaius (Resplendent)",
+      "ike9": "<:Green_Axe:1124845885277343754>Ike",
       "roy": "<:Red_Sword:1124846201070698536>Roy",
       "roy2": "<:Red_Sword:1124846201070698536>Brave Roy",
       "roy2R": "<:Red_Sword:1124846201070698536>Brave Roy (Resplendent)",
@@ -25199,7 +25226,11 @@
       "Base Denis",
       "Normal Denis",
       "Base Donny",
-      "Normal Donny"
+      "Normal Donny",
+      "Resplendent Donnel",
+      "Resp Donnel",
+      "R Donnel",
+      "Donnel (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "raigh",
@@ -25246,11 +25277,16 @@
       "Sunny Villager",
       "Summer Donnel",
       "Summer Donny",
-      "Summer Dennis"
+      "Summer Dennis",
+      "Resplendent Donnel",
+      "Resp Donnel",
+      "R Donnel",
+      "Donnel (Resplendent)"
     ],
     "heroes": {
       "donnel": "<:Blue_Lance:1124845569496584302>Donnel",
       "donnel2": "<:Green_Axe:1124845885277343754>Summer Donnel",
+      "donnelR": "<:Blue_Lance:1124845569496584302>Donnel (Resplendent)",
       "raigh": "<:Red_Tome:1124846175577710642>Raigh",
       "stahl": "<:Red_Sword:1124846201070698536>Stahl"
     },
@@ -28422,7 +28458,11 @@
       "mythic lyn",
       "horse lyn",
       "uma lyn",
-      "centaur lyn"
+      "centaur lyn",
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
     ],
     "HARD_ALT_NAME": [
       "Bride of the Plains",
@@ -28799,7 +28839,11 @@
       "mythic lyn",
       "horse lyn",
       "uma lyn",
-      "centaur lyn"
+      "centaur lyn",
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
     ],
     "heroes": {
       "bramimond": "<:Colorless_Tome:1124845725960904734>Bramimond",
@@ -28807,6 +28851,7 @@
       "emmeryn2": "<:Colorless_Staff:1124845704444137592>Young Emmeryn",
       "lyn": "<:Red_Sword:1124846201070698536>Lyn",
       "lyn10": "<:Green_Beast:1124845912385138738>Lyn",
+      "lyn11": "<:Colorless_Bow:1124845636659982457>Lyn",
       "lyn2": "<:Colorless_Staff:1124845704444137592>Bridal Lyn",
       "lyn3R": "<:Colorless_Bow:1124845636659982457>Brave Lyn (Resplendent)",
       "lyn4": "<:Blue_Tome:1124845593211191297>Valentines Lyn",
@@ -31652,6 +31697,28 @@
       "God of Vengeance",
       "V\u00e1li: God of Vengeance",
       "vali"
+    ]
+  },
+  "kelseyjaffer": {
+    "heroes": {
+      "vanitas": "<:Green_Breath:1124845770978361425>Rearmed Vanitas"
+    },
+    "name": "Kelsey Jaffer",
+    "ALT_NAME": [
+      "Hollow God",
+      "Vanitas: Hollow God",
+      "Rearmed Vanitas",
+      "Rearm Vanitas",
+      "Arm Vanitas",
+      "vanitas"
+    ],
+    "HARD_ALT_NAME": [
+      "Hollow God",
+      "Vanitas: Hollow God",
+      "Rearmed Vanitas",
+      "Rearm Vanitas",
+      "Arm Vanitas",
+      "vanitas"
     ]
   }
 }
