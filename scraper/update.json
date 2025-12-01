@@ -1,266 +1,485 @@
 {
-  "vali": {
-    "name": "V\u00e1li",
-    "title": "God of Vengeance",
-    "description": "A god of \u00c1sgar\u00f0r, the celestial realm, with a vindictive personality. Adores her sister Baldr, swearing an oath to exact vengeance on those who have harmed her.",
-    "origin": "Heroes",
-    "artist": "Maeshima Shigeki (\u524d\u5d8b\u91cd\u6a5f)",
-    "move": "Flying",
-    "weapon": "Tome",
+  "ike9": {
+    "name": "Ike",
+    "title": "Zealous Inheritors",
+    "description": "Ike and Roy are youths who look up to their fathers and overcome many hardships with courage in their hearts. They appear in Fire Emblem: Path of Radiance / The Binding Blade.",
+    "origin": "The Binding Blade + Path of Radiance",
+    "artist": "Hiiragi Akio (\u67ca\u6681\u751f)",
+    "move": "Infantry",
+    "weapon": "Axe",
     "color": "Green",
     "duel": false,
-    "id": "1314",
-    "type": "legendary",
+    "id": "1315",
+    "type": false,
     "version": "9.11",
     "duo": false,
-    "harmonized": false,
+    "harmonized": "Grants\u3010Resonance: Shields\u3011to unit and allies from the same titles as unit.\nGrants another action to certain target, and if Canto has already been triggered, re-enables Canto (if there are allies from the same titles as unit on the map who have already acted, targets ally with the highest HP among those allies; otherwise, targets unit; if multiple targets meet the conditions, effect will not trigger).\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Shields\u3011\nGrants Def/Res+4 during combat and the following effect for 1 turn: \"During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack.\"",
     "emblem": false,
     "base": {
-      "hp": 20,
+      "hp": 19,
       "atk": 10,
-      "spd": 11,
-      "def": 5,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 85,
-      "def": 45,
-      "res": 45
-    },
-    "superboon": [
-      "atk",
-      "def",
-      "res"
-    ],
-    "superbane": [
-      "hp"
-    ],
-    "weapons": {
-      "Wind": "1",
-      "Elwind": "2",
-      "Rexcalibur": "3",
-      "Enraptured God": "5"
-    },
-    "assist": {
-      "Vengeful God": "5"
-    },
-    "special": {
-      "Miracle": "3",
-      "Invincible Sister": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Spd Bond 1": "2",
-        "Atk/Spd Bond 2": "3",
-        "Atk/Spd Bond 3": "4",
-        "Atk/Spd Aria": "5"
-      },
-      "B": {
-        "Chill Res 1": "2",
-        "Chill Spd/Res 1": "3",
-        "Chill Spd/Res 2": "4",
-        "Spd/Res Shackle": "5"
-      },
-      "C": {
-        "Spur Spd 1": "2",
-        "Spur Atk/Spd 1": "3",
-        "Spur Atk/Spd 2": "4",
-        "Null Uplift A/S": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/10/Vali_God_of_Vengeance_Face.webp/revision/latest?cb=20250718045513",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/0f/Vali_God_of_Vengeance_BtlFace_D.webp/revision/latest?cb=20250718045508",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d6/Vali_God_of_Vengeance_BtlFace_C.webp/revision/latest?cb=20250718045503",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/50/Vali_God_of_Vengeance_BtlFace.webp/revision/latest?cb=20250718045448"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "God of Vengeance",
-      "V\u00e1li: God of Vengeance",
-      "vali"
-    ],
-    "HARD_ALT_NAME": [
-      "God of Vengeance",
-      "V\u00e1li: God of Vengeance",
-      "vali"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u30f4\u30a1\u30fc\u30ea\u5473\u65b9",
-    "voice": "Mia Paige",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "askr"
-    ],
-    "chibi": "heroes",
-    "quotes": {
-      "Castle Hall": [
-        "Where is she? Where is Baldr? When I see her here, I will burn the sight of her into my eyes...",
-        "I am thinking about how I will greet Baldr... Do not interrupt me!",
-        "I am the god of vengeance. Even if I fall, I will never stop until I have my revenge! Never forget that.",
-        "Any loss to Baldr is like a tiny stone under her. She will just grow stronger and more beautiful because of it!",
-        "This doll is my favorite weapon, yet... It does not even come close to Baldr's beauty."
-      ],
-      "Visit": [
-        "Can you believe someone asked Baldr to pass on a message? I will handle it. It is from [F]."
-      ],
-      "Level": [
-        "Look, Baldr, I did it!",
-        "This is expected. I, too, am a god of \u00c1sgar\u00f0r, you know.",
-        "No! I will not give up yet!"
-      ],
-      "Summon": [
-        "I am V\u00e1li, the strong, wise, beautiful Celestial Sun God Baldr's...little sister!"
-      ],
-      "Learn Skill": [
-        "With this power, I shall avenge my sister!"
-      ],
-      "Confession": [
-        "I have not done anything wrong! I am simply waiting for my sister to come home.\nI have no doubt she will be victorious, but...there could be awful mortals out there...\nIf she falls into someone's trap, then...I...\nThat coward will feel the wrath of my vengeance! Even if I have to chase them to the ends of the realms!\nThen, Baldr will praise me with her kind, beautiful smile. Ahhh..."
-      ],
-      "Special": [
-        "Behold\u2014vengeance!",
-        "As Baldr would!",
-        "How dare you!",
-        "You will see!"
-      ],
-      "Status": [
-        "Baldr...",
-        "I am V\u00e1li. Of course, you have heard of Baldr, my perfect older sister.",
-        "*gasp* You will feel the wrath of my vengeance!",
-        "*laugh* You have no hope of standing against Baldr.",
-        "I shall avenge you, my sister.",
-        "No one can rival Baldr. No one!",
-        "*sigh* She is so strong, so wise, so beautiful...",
-        "I only do as you say for my sister's sake."
-      ],
-      "Map Select": [
-        "Hm?",
-        "Where would she go?",
-        "I cannot lose."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "V\u00e1li",
-    "SEARCH_NAME": "V\u00e1li",
-    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>V\u00e1li",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "enrapturedgod",
-      "eff": "enrapturedgod",
-      "atk": "enrapturedgod",
-      "spd": "enrapturedgod",
-      "def": "enrapturedgod",
-      "res": "enrapturedgod"
-    },
-    "blessing": "Dark",
-    "boost": {
-      "hp": 5,
-      "def": 5
-    }
-  },
-  "alfador": {
-    "name": "Alfa\u00f0\u00f6r",
-    "title": "Celestial King",
-    "description": "King of the gods of \u00c1sgar\u00f0r, the celestial realm. He desires to know everything and will sacrifice whatever it takes to obtain this knowledge.",
-    "origin": "Heroes",
-    "artist": "Maeshima Shigeki (\u524d\u5d8b\u91cd\u6a5f)",
-    "move": "Flying",
-    "weapon": "Tome",
-    "color": "Blue",
-    "duel": false,
-    "id": "1313",
-    "type": "legendary",
-    "version": "9.11",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 16,
-      "atk": 12,
-      "spd": 6,
-      "def": 7,
+      "spd": 8,
+      "def": 10,
       "res": 11
     },
     "growth": {
       "hp": 50,
-      "atk": 85,
+      "atk": 90,
       "spd": 50,
-      "def": 40,
-      "res": 90
+      "def": 90,
+      "res": 55
     },
     "superboon": [
-      "res"
+      "atk",
+      "def"
     ],
     "superbane": [
       "hp",
       "spd"
     ],
     "weapons": {
-      "Thunder": "1",
-      "Elthunder": "2",
-      "Thoron": "3",
-      "Ethereal Gungnir": "5"
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Silver Axe": "3",
+      "Urvan Brilliance": "5"
     },
-    "assist": {
-      "Celestial Gungnir": "5"
-    },
+    "assist": {},
     "special": {
-      "Rally Attack": "3",
-      "Rally Up Atk": "4",
-      "Rally Up Atk+": "5"
+      "Daylight": "3",
+      "Sol": "4",
+      "Aether's Course": "5"
     },
     "passive": {
       "A": {
-        "Atk/Res Bond 1": "2",
-        "Atk/Res Bond 2": "3",
-        "Atk/Res Bond 3": "4",
-        "Atk/Res Aria": "5"
+        "Armored Blow 1": "2",
+        "Armored Blow 2": "3",
+        "Armored Blow 3": "4",
+        "Warrior's Blow": "5"
       },
       "B": {
-        "Chill Res 1": "2",
-        "Chill Def/Res 1": "3",
-        "Chill Def/Res 2": "4",
-        "Def/Res Shackle": "5"
+        "Quick Riposte 1": "2",
+        "Quick Riposte 2": "3",
+        "Quick Riposte 3": "4",
+        "Patience": "5"
       },
       "C": {
-        "Covetous One": "5"
+        "Even Tempest 1": "2",
+        "Even Tempest 2": "3",
+        "Even Tempest 3": "4",
+        "Brutal Tempest": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/56/Alfador_Celestial_King_Face.webp/revision/latest?cb=20250605052614",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/84/Alfador_Celestial_King_BtlFace_D.webp/revision/latest?cb=20250916042308",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/27/Alfador_Celestial_King_BtlFace_C.webp/revision/latest?cb=20250916042303",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1e/Alfador_Celestial_King_BtlFace.webp/revision/latest?cb=20250916042248"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Ike_Zealous_Inheritors_Face.webp/revision/latest?cb=20251128043617",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5b/Ike_Zealous_Inheritors_BtlFace_D.webp/revision/latest?cb=20251128043612",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fc/Ike_Zealous_Inheritors_BtlFace_C.webp/revision/latest?cb=20251128043607",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/80/Ike_Zealous_Inheritors_BtlFace.webp/revision/latest?cb=20251128043552"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Celestial King",
-      "Alfa\u00f0\u00f6r: Celestial King",
-      "alfador"
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "HARD_ALT_NAME": [
-      "Celestial King",
-      "Alfa\u00f0\u00f6r: Celestial King",
-      "alfador"
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "gender": "M",
     "rarity": 5,
     "pool": "legend",
-    "internal_id": "PID_\u5929\u306e\u738b\u5473\u65b9",
-    "voice": "Luis Bermudez",
+    "internal_id": "PID_\u53cc\u754c\u7dcf\u9078\u6319\u30a2\u30a4\u30af",
+    "voice": "Greg Chun + Ray Chase",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "tellius"
+    ],
+    "chibi": "fe9",
+    "quotes": {
+      "Castle Hall": [
+        "**Ike:** Battle is risky business, but there's always something to learn. Every conflict is unique.",
+        "**Roy:** We've fought together and talked about many things. We're close enough now to call each other friend.",
+        "**Ike:** Roy and I may have been raised differently, but now that we've fought together, I trust him with my life.",
+        "**Roy:** Humans and dragons\u2014no, even just humans have unending conflict. But we can have empathy. This, I believe.",
+        "**Ike:** Whenever there's a battle, our strength is needed. I hope a time comes when that's not true."
+      ],
+      "Visit": [
+        "**Ike:** I'm Ike, of the Greil Mercenaries. Roy and I are here to deliver a greeting from [F]."
+      ],
+      "Level": [
+        "**Ike:** Our foes fought well. Our goal is not to defeat them, but to come to an understanding afterwards.",
+        "**Ike:** Master your own strength, and you won't be defeated. Right, Roy?",
+        "**Roy:** All sorts of people have supported me until now, but in the end it will be my heart that is tested."
+      ],
+      "Summon": [
+        "I'm Ike, from the Greil Mercenaries. This here is Roy, a comrade you can trust with your life. You called for us?"
+      ],
+      "Learn Skill": [
+        "**Ike:** Leave it to us then. You're good, right, Roy?"
+      ],
+      "Confession": [
+        "**Ike:** Many voices called out to us. We're here now...\n**Roy:** We've seen this before\u2014people led astray by desire, their mistakes leading to conflict...\nBut we've also seen people overcome such adversities.\n**Ike:** Right and wrong is a matter of perspective.\nWhat's important is if you can accept something as just. And staying true to your convictions.\n**Roy:** The person who taught me once said, \"A general lacking confidence cannot gain the trust of their subordinates.\"\n**Ike:** It seems you were blessed with a good teacher, Roy.\nLet us forge ahead together, and act with confidence in our convictions."
+      ],
+      "Special": [
+        "**Duo:** With one strike!",
+        "**Duo:** \"We'll end this!\" \"Right!\"",
+        "**Ike:** You won't escape!",
+        "**Roy:** We will win!"
+      ],
+      "Status": [
+        "-",
+        "\"I'm counting on you, Roy.\" \"And I, you. Together, we'll win this.\""
+      ],
+      "Map Select": [
+        "Hmm...",
+        "Let's do this!",
+        "On our way."
+      ],
+      "Conversation": [
+        "**Roy:** I see you're wearing the same clothes your father wears. My attire matches my father's as well.",
+        "**Ike:** Ah. No wonder.",
+        "**Roy:** Oh? Does something look off about me?",
+        "**Ike:** Just that your clothes look like they belong on someone more mature.",
+        "**Roy:** Are you saying I am childish?",
+        "**Ike:** I-I'm saying you normally dress your age.",
+        "**Roy:** But...my father was my age when he wore these clothes.",
+        "**Ike:** Then I guess you don't look like him.",
+        "**Roy:** Yes, I do! People say we share the exact same hair color, and our eyes are the same too!",
+        "**Ike:** Hm.",
+        "**Roy:** What about you, Ike? Do you resemble your father?",
+        "**Ike:** I got my hair and eyes from my mother. The rest is anyone's guess.",
+        "But, even if I don't look like him, I still aim to be like him.",
+        "**Roy:** I, too, have a goal to be like my father.",
+        "He is strong and kind and fair to everyone. I hope to rule as he did someday.",
+        "**Ike:** I'm sure you will then.",
+        "**Roy:** Thank you. Let's both do our best to be like our fathers."
+      ],
+      "Duo Skill": [
+        "\"Turn conviction\" \"into strength!\"",
+        "\"We will achieve\" \"victory!\""
+      ],
+      "Back Unit Supporting": [
+        "I believe in you.",
+        "I have your back."
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Ike",
+    "SEARCH_NAME": "Ike",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Ike",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "ike",
+      "ike2",
+      "ike3",
+      "ike4",
+      "ike5",
+      "ike6",
+      "ike7",
+      "ike8"
+    ],
+    "prf": {
+      "": "urvanbrilliance",
+      "eff": "urvanbrilliance",
+      "atk": "urvanbrilliance",
+      "spd": "urvanbrilliance",
+      "def": "urvanbrilliance",
+      "res": "urvanbrilliance"
+    }
+  },
+  "lyn11": {
+    "name": "Lyn",
+    "title": "Glitters of Hope",
+    "description": "Lyn and Lucina continue to fight on, never giving up hope, even when forced to deal with harsh conditions. They appear in Fire Emblem: The Blazing Blade / Awakening.",
+    "origin": "The Blazing Blade + Awakening",
+    "artist": "cuboon",
+    "move": "Cavalry",
+    "weapon": "Bow",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1316",
+    "type": false,
+    "version": "9.11",
+    "duo": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit.\nGrants another action to a certain target, and if Canto has already been triggered, re-enables Canto (if there are allies from the same titles as unit on the map who have already acted, targets ally with the highest HP among those allies; otherwise, targets unit; if multiple targets meet the conditions, effect will not trigger).\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.",
+    "harmonized": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit.\nGrants another action to a certain target, and if Canto has already been triggered, re-enables Canto (if there are allies from the same titles as unit on the map who have already acted, targets ally with the highest HP among those allies; otherwise, targets unit; if multiple targets meet the conditions, effect will not trigger).\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.",
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 10,
+      "def": 8,
+      "res": 5
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 85,
+      "spd": 90,
+      "def": 50,
+      "res": 45
+    },
+    "superboon": [
+      "spd",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "def"
+    ],
+    "weapons": {
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Silver Bow": "3",
+      "Intrinsic Mulagir": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4",
+      "Archrival": "5"
+    },
+    "passive": {
+      "A": {
+        "Sacae's Decree": "5"
+      },
+      "B": {
+        "Poison Strike 1": "2",
+        "Poison Strike 2": "3",
+        "Poison Strike 3": "4",
+        "Execution Breath": "5"
+      },
+      "C": {
+        "Hone Spd 1": "2",
+        "Hone Spd 2": "3",
+        "Hone Spd 3": "4",
+        "A/S Hone Assault": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/31/Lyn_Glitters_of_Hope_Face.webp/revision/latest?cb=20251128043542",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Lyn_Glitters_of_Hope_BtlFace_D.webp/revision/latest?cb=20251128043537",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/91/Lyn_Glitters_of_Hope_BtlFace_C.webp/revision/latest?cb=20251128043532",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c6/Lyn_Glitters_of_Hope_BtlFace.webp/revision/latest?cb=20251128043517"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
+    ],
+    "HARD_ALT_NAME": [
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "legend",
+    "internal_id": "PID_\u53cc\u754c\u7dcf\u9078\u6319\u30ea\u30f3",
+    "voice": "Wendee Lee + Alexis Tipton",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elibe"
+    ],
+    "chibi": "fe7",
+    "quotes": {
+      "Castle Hall": [
+        "**Lyn:** Endless skies above an ocean of windswept grass... I shall forever protect the land my mother loved.",
+        "**Lucina:** Rage and hatred can, at times, help one survive the day. But it takes more than that to preserve one's humanity.",
+        "**Lyn:** Lucina, don't try to do it all on your own. I'm with you. The same goes for you, [S].",
+        "**Lyn:** The people of the plains among whom I was born and raised were attacked and broken by bandits.\nYou had some difficult experiences too, didn't you, Lucina?",
+        "**Lucina:** People lived on, even in the future full of despair. So I will fight alongside them and never abandon hope."
+      ],
+      "Visit": [
+        "**Lyn:** I bring greetings to you from [F].\nStay friends, all right?"
+      ],
+      "Level": [
+        "**Lyn:** Honor the bravery of warriors! By the blood that flows in these veins, I shall grasp victory with integrity!",
+        "**Lyn:** Father... Mother... Watch over me.",
+        "**Lucina:** We should demonstrate to the people of this world that if you keep fighting, the light of hope will not fade."
+      ],
+      "Summon": [
+        "I am Lyndis. If a great battle is about to begin, know that I came here with Lucina to aid you!"
+      ],
+      "Learn Skill": [
+        "**Lyn:** Thank you! The voices of the people will not go unheard."
+      ],
+      "Confession": [
+        "**Lyn:** ...\n**Lucina:** Lyn? Is something wrong?\n**Lyn:** Not really... I was just thinking about my parents...\nMy mother, born to an aristocratic family, eloped with my father, a man of the plains. Then, I was born...\nIt's strange. Even now, I can feel them watching over me...always.\n**Lucina:** I think...I understand what you feel. No matter what world I'm in, my parents are with me in my heart.\nBonds connect the past and future... We may be able to fight together with them thanks to those bonds."
+      ],
+      "Special": [
+        "**Duo:** Using our strength!",
+        "**Duo:** \"Aim!\" \"Shoot!\"",
+        "**Lyn:** I never miss!",
+        "**Lucina:** We will strike true!"
+      ],
+      "Status": [
+        "-",
+        "\"I'm delighted to partner up with you.\" \"Likewise! I look forward to seeing what we can accomplish!\""
+      ],
+      "Map Select": [
+        "Which target?",
+        "Leave it to me.",
+        "We'll give it a shot."
+      ],
+      "Conversation": [
+        "**Lucina:** Lady Lyn, you work with that horse like it is an extension of you. That's truly amazing!",
+        "**Lyn:** *giggle* Thank you. The plains of Sacae are so vast, I rode horses all the time there.",
+        "I still have room for improvement. My father was far better at it than me.",
+        "**Lucina:** Your father... Was he also the one who taught you archery?",
+        "**Lyn:** He was. Horse riding... Archery... My father taught me everything I know.",
+        "**Lucina:** We have that in common, then. I learned much of what I know from my father as well.",
+        "I'm skilled with a lance now, but he also taught me the way of the sword and martial arts. *laugh* One time he-",
+        "**Lyn:** What?",
+        "**Lucina:** He smashed a practice dummy through a wall of our castle. Then I could come and go as I pleased.",
+        "**Lyn:** *laugh* It sounds as though you had quite an interesting father.",
+        "**Lucina:** He's strong, kind, and entertaining. I really love him.",
+        "I work to be more like him and to protect the world he loved.",
+        "**Lyn:** I want to become a strong warrior like my father and protect Sacae.",
+        "**Lucina:** We really are a lot alike! I can see us becoming close friends.",
+        "**Lyn:** I feel the same. I hope it's not too forward of me, but I'd like to ask something of you.",
+        "**Lucina:** Of course. What is it?",
+        "**Lyn:** I would like it if you just called me Lyn. I hope we can have a long and happy friendship, Lucina!"
+      ],
+      "Duo Skill": [
+        "\"Our target...\" \"There!\"",
+        "\"Taking...\" \"...aim!\""
+      ],
+      "Back Unit Supporting": [
+        "I'm watching over you.",
+        "My strength is yours."
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Lyn",
+    "SEARCH_NAME": "Lyn",
+    "DISPLAY_NAME": "<:Colorless_Bow:1124845636659982457>Lyn",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "lyn",
+      "lyn2",
+      "lyn3",
+      "lyn4",
+      "lyn5",
+      "lyn6",
+      "lyn7",
+      "lyn8",
+      "lyn9",
+      "lyn10"
+    ],
+    "prf": {
+      "": "intrinsicmulagir",
+      "eff": "intrinsicmulagir",
+      "atk": "intrinsicmulagir",
+      "spd": "intrinsicmulagir",
+      "def": "intrinsicmulagir",
+      "res": "intrinsicmulagir"
+    }
+  },
+  "vanitas": {
+    "name": "Vanitas",
+    "title": "Hollow God",
+    "description": "A young god who rules an alternate Askran Kingdom. She is hostile toward Askr and any who associate with him.",
+    "origin": "Heroes",
+    "artist": "So-taro (\u5275-taro)",
+    "move": "Armored",
+    "weapon": "Breath",
+    "color": "Green",
+    "duel": false,
+    "id": "1317",
+    "type": "rearmed",
+    "version": "9.11",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 23,
+      "atk": 13,
+      "spd": 3,
+      "def": 13,
+      "res": 10
+    },
+    "growth": {
+      "hp": 65,
+      "atk": 80,
+      "spd": 35,
+      "def": 75,
+      "res": 90
+    },
+    "superboon": [
+      "res"
+    ],
+    "superbane": [
+      "def"
+    ],
+    "weapons": {
+      "Fire Breath": "1",
+      "Fire Breath+": "2",
+      "Flametongue": "3",
+      "Arcane Outburst": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4",
+      "Dragon Ice": "5"
+    },
+    "passive": {
+      "A": {
+        "Unfledged God": "5"
+      },
+      "B": {
+        "Special Fighter 1": "2",
+        "Special Fighter 2": "3",
+        "Special Fighter 3": "4",
+        "Scowling Fighter": "5"
+      },
+      "C": {
+        "A/R Near Save 1": "2",
+        "A/R Near Save 2": "3",
+        "A/R Near Save 3": "4",
+        "A/R Twin M Save": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cf/Vanitas_Hollow_God_Face.webp/revision/latest?cb=20251105050920",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3b/Vanitas_Hollow_God_BtlFace_D.webp/revision/latest?cb=20251105050915",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ab/Vanitas_Hollow_God_BtlFace_C.webp/revision/latest?cb=20251105050910",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c7/Vanitas_Hollow_God_BtlFace.webp/revision/latest?cb=20251105050855"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Hollow God",
+      "Vanitas: Hollow God",
+      "Rearmed Vanitas",
+      "Rearm Vanitas",
+      "Arm Vanitas",
+      "vanitas"
+    ],
+    "HARD_ALT_NAME": [
+      "Hollow God",
+      "Vanitas: Hollow God",
+      "Rearmed Vanitas",
+      "Rearm Vanitas",
+      "Arm Vanitas",
+      "vanitas"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30f4\u30a1\u30cb\u30bf\u30b9\u5473\u65b9",
+    "voice": "Kelsey Jaffer",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -269,73 +488,68 @@
     "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "These warriors from many different worlds... Might they have any knowledge to impart unto me?",
-        "I performed the Rite of Heaven and learned all there is to know about the nine realms...\nYet the writings that depict the beginning of creation still elude me.",
-        "Ignorant animals engage in senseless battles. One should achieve their desires without fighting.",
-        "Though I may rule the heavens...I still do not have all I desire. I seek infinite knowledge...",
-        "I obtained my ravens through the rite. They surround, peck at, and slaughter those who turn their backs on heaven."
+        "This is...Askr? It is so different than my Askr...",
+        "This world is mine...",
+        "I have learned your name, [S]...",
+        "You have nothing to do? Then...you may play with me...",
+        "Stairs... Books... There are many things to learn here."
       ],
       "Visit": [
-        "Tell me all you know. I am certain there is more to you than what I heard from [F]."
+        "You...are a friend of [F]'s.\nAm I...correct?"
       ],
       "Level": [
-        "Hmm... I accept. For there is no knowledge greater than that gained through experience.",
-        "This is insufficient to fuel my persistence.",
-        "What must I offer to satisfy my desire?"
+        "I think...I did well.",
+        "This was to be expected.",
+        "If I do not do something, Askr will be taken from me."
       ],
       "Summon": [
-        "No soul is so ignorant to not know of the ruler aloft the nine realms. It is I, Alfa\u00f0\u00f6r, the Celestial King."
+        "I am Vanitas... My name and the land of Askr are all I have."
       ],
       "Learn Skill": [
-        "I shall transcend the creator, no matter the sacrifice."
+        "For me? You are...certain? This makes me happy."
       ],
       "Confession": [
-        "Towers piercing the heavens, iron carriages traversing vast lands... A world that uses no magic...\nYour world has mastered steel and intellect, far from influence of gods and spirits. It is fascinating...\nThere was once no thing or place I could glean from, having learned everything about the nine realms...\nEverything except the writings that depict creation, that is...\nIt is satisfying to absorb knowledge once inaccessible to me. However, I have not yet reached the creator...\nI shall obtain more knowledge and ascend to the highest echelon..."
+        "Grass... Stone... I am learning. Oh? What is it, [S]?\nI have seen all these things before, but there was no one to tell me what they were called.\nThe people in this castle have been kind to me... They have taught me so much.\nI...would like to repay you. If only there was something I could do...\nOh, there is no need to rush? Then... will you wait for me?\nI will learn as much as I can so that I can be useful to you..."
       ],
       "Special": [
-        "I am heaven.",
-        "Your offering?",
-        "You will not flee.",
-        "Futile."
+        "Who needs Askr?",
+        "It is my world.",
+        "I shall destroy them!",
+        "Come no closer."
       ],
       "Status": [
-        "*sigh*",
-        "There is no need to give you my name. There is not a single soul who does not know who I am.",
-        "*grunt* What is it you seek? Hm?",
-        "I seek to know all things about this world.",
-        "If there is knowledge to be obtained, any cost is trivial.",
-        "The writings that depict the beginning of creation hold secrets within them... Secrets I must discern.",
-        "Alfa\u00f0\u00f6r... That is a name worthy of me.",
-        "Tell me all about the world from whence you came, then I shall grant you what you desire."
+        "Oh.",
+        "I am Vanitas. All I have is my name and the land of Askr.",
+        "What are you doing?",
+        "Askr takes what is mine. He is...unnecessary.",
+        "Is this a country? It is filled with so many people...",
+        "I do not understand. I was told my being here was enough...",
+        "I...am alone. I always will be...",
+        "It is permissible for me to be here? You are certain?"
       ],
       "Map Select": [
-        "Satisfactory.",
-        "And your strategy?",
-        "Surrender all knowledge."
+        "Ah...",
+        "But...",
+        "Here."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Alfa\u00f0\u00f6r",
-    "SEARCH_NAME": "Alfa\u00f0\u00f6r",
-    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Alfa\u00f0\u00f6r",
+    "short_name": "Rearmed Vanitas",
+    "SEARCH_NAME": "Rearmed Vanitas",
+    "DISPLAY_NAME": "<:Green_Breath:1124845770978361425>Rearmed Vanitas",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [],
     "prf": {
-      "": "etherealgungnir",
-      "eff": "etherealgungnir",
-      "atk": "etherealgungnir",
-      "spd": "etherealgungnir",
-      "def": "etherealgungnir",
-      "res": "etherealgungnir"
-    },
-    "blessing": "Astra",
-    "boost": {
-      "hp": 5,
-      "atk": 3
+      "": "arcaneoutburst",
+      "eff": "arcaneoutburst",
+      "atk": "arcaneoutburst",
+      "spd": "arcaneoutburst",
+      "def": "arcaneoutburst",
+      "res": "arcaneoutburst"
     }
   }
 }

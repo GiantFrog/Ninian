@@ -192,7 +192,7 @@ def scrape_assist_special(page_name):
     blank['slot'] = slot
 
     # get the information on the skill from the main table
-    wiki_info = document.find(class_="wikitable").find_all('tr')
+    wiki_info = document.find(class_="cargoTable").find_all('tr')
 
     for i in range(1, len(wiki_info) - 1):
         info = list(wiki_info[i].stripped_strings)

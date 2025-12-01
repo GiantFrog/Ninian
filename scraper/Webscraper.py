@@ -66,7 +66,10 @@ def scrape_page(page_name, provided_alts=None, version=None):
     document = soup.find(class_="mw-parser-output")
 
     # get the name and title of the unit and append both to the wiki_info
-    wiki_info = document.find(class_="wikitable hero-infobox").find_all('tr')
+    try:
+        wiki_info = document.find(class_="wikitable hero-infobox").find_all('tr')
+    except:
+        wiki_info = document.find(class_="hero-infobox").find_all('tr')
 
     blank['name'] = list(wiki_info[0].stripped_strings)[0]
     mainkey, blank['reference'] = determine_key(blank['name'])
@@ -249,7 +252,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
     lvl1_raw = lvl1_table[5].find_all('td')
     lvl1 = []
     for i in range(1, 6):
-        stat = str(lvl1_raw[i])[4:-5].split("/")
+        stat = lvl1_raw[i].text.split("/")
         lvl1.append(int(stat[1]))
         blank['base'][keys[int(i)-1]] = lvl1[i-1]
 
@@ -261,7 +264,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
     blank['superbane'] = []
     blank['superboon'] = []
     for i in range(1, 6):
-        stat = str(lvl40_raw[i])[4:-5].split("/")
+        stat = lvl40_raw[i].text.split("/")
         bane_diff = int(stat[1]) - int(stat[0])
         boon_diff = int(stat[2]) - int(stat[1])
         lvl40.append(int(stat[1]))
@@ -313,9 +316,9 @@ def scrape_page(page_name, provided_alts=None, version=None):
             unlock = list(cols[5].stripped_strings)[0]
             blank[key][skill] = unlock
 
-    passive_table = document.find_all(class_="wikitable default skills-table")
+    passive_table = document.find_all(class_="wikitable default")
 
-    ptable = passive_table[0].find_all('tr')
+    ptable = passive_table[-1].find_all('tr')
     headers = list(ptable[0].stripped_strings)
     slot = 'A'
     from collections import defaultdict

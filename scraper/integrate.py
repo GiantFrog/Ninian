@@ -1,4 +1,6 @@
 import json
+import traceback
+
 import weapon
 import re
 import skill_scrape
@@ -245,6 +247,7 @@ def integrate_as_sp(slot, key):
                 newskill = skill_scrape.scrape_assist_special(intobj[i]['name'].replace('/', ' '))
             except:
                 print(f"WARNING! {intobj[i]['name']} might be an enemy weapon. Skipping.")
+                traceback.print_exc()
                 continue
             ref = newskill['reference']
             ref[intobj[i]['name']][key] =  intobj[i]['rarity']

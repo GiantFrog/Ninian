@@ -3655,7 +3655,11 @@
       "Eternal Sunlit Pair",
       "Hapi: Eternal Sunlit Pair",
       "Summer Hapi",
-      "hapi2"
+      "hapi2",
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
     ],
     "HARD_ALT_NAME": [
       "Harvest Kagerou",
@@ -3995,7 +3999,11 @@
       "Eternal Sunlit Pair",
       "Hapi: Eternal Sunlit Pair",
       "Summer Hapi",
-      "hapi2"
+      "hapi2",
+      "Glitters of Hope",
+      "Lyn: Glitters of Hope",
+      "harmonic lyn",
+      "lyn11"
     ],
     "heroes": {
       "byleth3": "<:Red_Tome:1124846175577710642>Duo Byleth",
@@ -4014,6 +4022,7 @@
       "laegjarn5": "<:Blue_Bow:1124845525695475845>Duo Laegjarn",
       "lukas": "<:Blue_Lance:1124845569496584302>Lukas",
       "lukas2": "<:Blue_Lance:1124845569496584302>Picnic Lukas",
+      "lyn11": "<:Colorless_Bow:1124845636659982457>Lyn",
       "lyn8": "<:Blue_Lance:1124845569496584302>Flame Lyn",
       "lynR": "<:Red_Sword:1124846201070698536>Lyn (Resplendent)",
       "olwen": "<:Blue_Tome:1124845593211191297>Olwen",
@@ -7850,7 +7859,11 @@
       "Baby Xander",
       "Child Xander",
       "Y Xander",
-      "xander6"
+      "xander6",
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "HARD_ALT_NAME": [
       "roy2R",
@@ -7901,10 +7914,15 @@
       "Baby Xander",
       "Child Xander",
       "Y Xander",
-      "xander6"
+      "xander6",
+      "Zealous Inheritors",
+      "Ike: Zealous Inheritors",
+      "harmonic ike",
+      "ike9"
     ],
     "heroes": {
       "claudeR": "<:Colorless_Bow:1124845636659982457>Claude (Resplendent)",
+      "ike9": "<:Green_Axe:1124845885277343754>Ike",
       "robin14": "<:Blue_Tome:1124845593211191297>Young Female Robin",
       "roy2R": "<:Red_Sword:1124846201070698536>Brave Roy (Resplendent)",
       "shez6": "<:Red_Dagger:1124846223518605324>Legendary Male Shez",
@@ -22484,7 +22502,8 @@
   "sotaro": {
     "heroes": {
       "dedue3": "<:Blue_Beast:1124845338688233575>Rearmed Dedue",
-      "timerra": "<:Blue_Lance:1124845569496584302>Attuned Timerra"
+      "timerra": "<:Blue_Lance:1124845569496584302>Attuned Timerra",
+      "vanitas": "<:Green_Breath:1124845770978361425>Rearmed Vanitas"
     },
     "name": "So-taro (\u5275-taro)",
     "ALT_NAME": [
@@ -22503,7 +22522,13 @@
       "Rearmed Dedue",
       "Rearm Dedue",
       "Arm Dedue",
-      "dedue3"
+      "dedue3",
+      "Hollow God",
+      "Vanitas: Hollow God",
+      "Rearmed Vanitas",
+      "Rearm Vanitas",
+      "Arm Vanitas",
+      "vanitas"
     ],
     "HARD_ALT_NAME": [
       "Desert Warrior",
@@ -22521,7 +22546,13 @@
       "Rearmed Dedue",
       "Rearm Dedue",
       "Arm Dedue",
-      "dedue3"
+      "dedue3",
+      "Hollow God",
+      "Vanitas: Hollow God",
+      "Rearmed Vanitas",
+      "Rearm Vanitas",
+      "Arm Vanitas",
+      "vanitas"
     ]
   },
   "sudaayaka": {
