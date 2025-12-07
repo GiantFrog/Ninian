@@ -10,6 +10,15 @@ if sys.platform.startswith("win"):
 
 load_dotenv()
 
+async def get_emblem(client, page):
+    emblemPayload = {
+        "tables": "EmblemHero",
+        "fields": "Effect",
+        "where": "_pageName = \"" + page + "\"",
+    }
+    emblemQuery = await client.call_get_api("cargoquery", **emblemPayload)
+    return emblemQuery["cargoquery"][0]["title"]["Effect"]
+
 # convert game titles as received from the db
 def convertGameTitle(title):
     match title:
@@ -23,15 +32,22 @@ def convertGameTitle(title):
 async def main():
     client = Bot(sitename="https://feheroes.fandom.com", api="https://feheroes.fandom.com/api.php", index="https://feheroes.fandom.com/wiki/Main_Page", username=os.environ["FEH_BOT_USERNAME"], password=os.environ["FEH_BOT_PASSWORD"])
     await client.login()
-    payload = {
+
+    unitIdentityPayload = {
          "tables": "Units",
-        "fields": "Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, Properties, _ID=ID",
-        "where": "ReleaseDate > 2025-10-10",
+        "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, Properties, _ID=ID",
+        "where": "ReleaseDate > 2025-10-10 and Properties holds \"emblem\"",
         "order_by": "ReleaseDate DESC",
-        "limit": "500",
+        "limit": "5",
     }
+
     dict = {}
-    unitIdentityQuery = await client.call_get_api("cargoquery", **payload)
+    unitIdentityQuery = await client.call_get_api("cargoquery", **unitIdentityPayload)
+    newUnits = [
+        element["title"]["Page"]
+        for element in unitIdentityQuery["cargoquery"]
+    ]
+
     for entry in unitIdentityQuery["cargoquery"]:
         unitProperties = {}
         dataInside = entry["title"]
@@ -45,16 +61,22 @@ async def main():
         unitProperties["color"] = color
         unitProperties["id"] = dataInside["ID"]
         unitProperties["weapon"] = weapon
-        unitProperties["origin"] = " + ".join([
-            convertGameTitle(i)
-            for i in dataInside["Origin"].split(",")
-        ])
+        unitProperties["origin"] = " + ".join(convertGameTitle(title) for title in dataInside["Origin"].split(","))
         if len(dataInside["Gender"]) == 1:
             unitProperties["gender"] = dataInside["Gender"][0]
             # database data is either Female, Male or N
         else:
             unitProperties["gender"] = ""
-        dict[dataInside["Name"] + dataInside["Title"]] = unitProperties
+
+        dbProperties = dataInside["Properties"]
+        extraProperties = {}
+        if "emblem" in dbProperties:
+            extraProperties["emblem"] = await get_emblem(client, dataInside["Page"])
+
+        unitProperties = {**unitProperties, **extraProperties }
+        dict[dataInside["Page"]] = unitProperties
+        
+
     with open("test.json", "w") as f:
         json.dump(dict, f)
 
