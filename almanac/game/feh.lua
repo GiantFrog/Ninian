@@ -45,6 +45,7 @@ function Character:default_options()
         rarity = 5,
         merge = 0,
         flower = 0,
+        chosen = 0,
         resplendent = false,
         max = false,
         secret = false,
@@ -62,6 +63,7 @@ function Character:setup()
     if self.options.max or self.options.secret then
         self.options.flower = self:flower_limit()
         self.options.merge = 10
+        self.options.chosen = 10
         
         if self:has_resplendent() then
             self.options.resplendent = true
@@ -91,6 +93,7 @@ function Character:setup()
     self.rarity = self.options.rarity
     self.merge = self.options.merge
     self.flower = self.options.flower
+    self.chosen = self.options.chosen
     
     self.resplendent = self.options.resplendent
     self.aide = self.options.aide
@@ -347,6 +350,11 @@ function Character:get_info()
     if self:is_entwined() then
         text = text .. string.format("%sEntwinned Hero\n", heroes_pack:get("entwined"))
     end
+
+   -- Check for chosen
+    if self:is_chosen() then
+        text = text .. string.format("%sChosen Hero\n", heroes_pack:get("chosen"))
+    end
     
     return text
 end
@@ -432,6 +440,10 @@ function Character:star_level()
         text = text .. string.format("%s+%s", self:flower_icon(), self.flower)
     end
     
+    if self.chosen > 0 then
+        text = text .. string.format("%s+%s", self:chosen_icon(), self.chosen)
+    end
+
     return text
 end
 
@@ -604,6 +616,21 @@ function Character:calc_base()
         end
     end
     
+    -- Chosen bonus
+    if self.chosen > 0 then
+        local increase = 1
+        
+        for i = 1, self.chosen do
+            if increase == 6 then
+                increase = 1
+            end
+            
+            boost(increase)
+            
+            increase = increase + 1
+        end
+    end
+
     return base
 end
 
@@ -812,6 +839,10 @@ function Character:is_entwined()
     return (self.data.type == "entwined")
 end
 
+function Character:is_chosen()
+    return (self.data.type == "chosen")
+end
+
 function Character:has_resplendent()
     return (self.data.resplendent)
 end
@@ -822,6 +853,10 @@ end
 
 function Character:flower_icon()
     return heroes_pack:get( string.format("feh_flower%s", self.data.move) )
+end
+
+function Character:chosen_icon()
+    return heroes_pack:get("feh_chosen")
 end
 
 function Character:movement_icon()
