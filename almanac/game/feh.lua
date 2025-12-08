@@ -856,7 +856,7 @@ function Character:flower_icon()
 end
 
 function Character:chosen_icon()
-    return heroes_pack:get( string.format("feh_chosen%s", self.data.move) )
+    return heroes_pack:get("chosen")
 end
 
 function Character:movement_icon()
