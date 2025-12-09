@@ -19,7 +19,16 @@ def is_superboon_or_superbane(growthRate):
             return "superboon"
         case _:
             return ""
-    
+
+async def get_duo(client, page):
+    duoPayload = {
+        "tables": "DuoHero",
+        "fields": "DuoSkill",
+        "where": "_pageName = \"" + page + "\"",
+    }
+    duoQuery = await client.call_get_api("cargoquery", **duoPayload)
+    return duoQuery["cargoquery"][0]["title"]["DuoSkill"]
+
 async def get_legendary(client, page):
     legendaryPayload = {
         "tables": "LegendaryHero",
@@ -124,7 +133,10 @@ async def main():
         elif "harmonized" in dbProperties:
             specialUnitProperties["harmonized"] = await get_harmonized(client, dataInside["Page"])
         elif "legendary" in dbProperties:
-            specialUnitProperties = await get_legendary(client, page)
+            legendaryProperties = await get_legendary(client, page)
+            specialUnitProperties = {**specialUnitProperties, **legendaryProperties}
+        elif "duo" in dbProperties:
+            specialUnitProperties["duo"] = await get_duo(client, page)
             
 
         unitProperties = {**unitProperties, **specialUnitProperties }
