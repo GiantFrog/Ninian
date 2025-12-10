@@ -19,9 +19,11 @@ with open(file, 'w') as fp:
 
 
 units = [
-    "Ike: Zealous Inheritors",
-    "Lyn: Glitters of Hope",
-    "Vanitas: Hollow God"
+    "Alfonse: Opening Miracle",
+    "Ignatz: Worldly Artist",
+    "Lorenz: Red-Rose Noble",
+    "Lysithea: Duality Prodigy",
+    "Raphael: Beast of Leicester"
 ]
 
 
