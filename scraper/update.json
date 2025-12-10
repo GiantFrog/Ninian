@@ -1,53 +1,51 @@
 {
-  "ike9": {
-    "name": "Ike",
-    "title": "Zealous Inheritors",
-    "description": "Ike and Roy are youths who look up to their fathers and overcome many hardships with courage in their hearts. They appear in Fire Emblem: Path of Radiance / The Binding Blade.",
-    "origin": "The Binding Blade + Path of Radiance",
-    "artist": "Hiiragi Akio (\u67ca\u6681\u751f)",
+  "alfonse6": {
+    "name": "Alfonse",
+    "title": "Opening Miracle",
+    "description": "A kind and serious prince of Askr who is eager to maintain peace. He fights to save the world with power entrusted to him by Askr, the god of openness.",
+    "origin": "Heroes",
+    "artist": "Kozaki Yusuke (\u30b3\u30b6\u30ad\u30e6\u30fc\u30b9\u30b1)",
     "move": "Infantry",
-    "weapon": "Axe",
-    "color": "Green",
+    "weapon": "Sword",
+    "color": "Red",
     "duel": false,
-    "id": "1315",
+    "id": "1318",
     "type": false,
-    "version": "9.11",
+    "version": "10.0",
     "duo": false,
-    "harmonized": "Grants\u3010Resonance: Shields\u3011to unit and allies from the same titles as unit.\nGrants another action to certain target, and if Canto has already been triggered, re-enables Canto (if there are allies from the same titles as unit on the map who have already acted, targets ally with the highest HP among those allies; otherwise, targets unit; if multiple targets meet the conditions, effect will not trigger).\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Shields\u3011\nGrants Def/Res+4 during combat and the following effect for 1 turn: \"During unit's first combat in player phase or enemy phase, foe cannot make a follow-up attack.\"",
+    "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 19,
-      "atk": 10,
-      "spd": 8,
-      "def": 10,
-      "res": 11
+      "hp": 10,
+      "atk": 3,
+      "spd": 12,
+      "def": 13,
+      "res": 0
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
-      "spd": 50,
-      "def": 90,
-      "res": 55
+      "hp": 90,
+      "atk": 30,
+      "spd": 85,
+      "def": 80,
+      "res": 35
     },
     "superboon": [
-      "atk",
-      "def"
+      "hp"
     ],
     "superbane": [
-      "hp",
-      "spd"
+      "atk"
     ],
     "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Urvan Brilliance": "5"
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Silver Sword": "3",
+      "Chosen Sword": "5"
     },
     "assist": {},
     "special": {
-      "Daylight": "3",
-      "Sol": "4",
-      "Aether's Course": "5"
+      "Glowing Ember": "3",
+      "Bonfire": "4",
+      "Ascendant King": "5"
     },
     "passive": {
       "A": {
@@ -57,429 +55,41 @@
         "Warrior's Blow": "5"
       },
       "B": {
-        "Quick Riposte 1": "2",
-        "Quick Riposte 2": "3",
-        "Quick Riposte 3": "4",
-        "Patience": "5"
+        "Guard 1": "2",
+        "Guard 2": "3",
+        "Guard 3": "4",
+        "Rejuvenate": "5"
       },
       "C": {
-        "Even Tempest 1": "2",
-        "Even Tempest 2": "3",
-        "Even Tempest 3": "4",
-        "Brutal Tempest": "5"
+        "Time's Pulse 1": "2",
+        "Time's Pulse 2": "3",
+        "Time's Pulse 3": "4",
+        "Preempt: Ploy": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Ike_Zealous_Inheritors_Face.webp/revision/latest?cb=20251128043617",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5b/Ike_Zealous_Inheritors_BtlFace_D.webp/revision/latest?cb=20251128043612",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fc/Ike_Zealous_Inheritors_BtlFace_C.webp/revision/latest?cb=20251128043607",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/80/Ike_Zealous_Inheritors_BtlFace.webp/revision/latest?cb=20251128043552"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/22/Alfonse_Opening_Miracle_Face.webp/revision/latest?cb=20251205042929",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7f/Alfonse_Opening_Miracle_BtlFace_D.webp/revision/latest?cb=20251205043854",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/74/Alfonse_Opening_Miracle_BtlFace_C.webp/revision/latest?cb=20251205043849",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/61/Alfonse_Opening_Miracle_BtlFace.webp/revision/latest?cb=20251205043834"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Zealous Inheritors",
-      "Ike: Zealous Inheritors",
-      "harmonic ike",
-      "ike9"
+      "Opening Miracle",
+      "Alfonse: Opening Miracle",
+      "alfonse6"
     ],
     "HARD_ALT_NAME": [
-      "Zealous Inheritors",
-      "Ike: Zealous Inheritors",
-      "harmonic ike",
-      "ike9"
+      "Opening Miracle",
+      "Alfonse: Opening Miracle",
+      "alfonse6"
     ],
     "gender": "M",
     "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u53cc\u754c\u7dcf\u9078\u6319\u30a2\u30a4\u30af",
-    "voice": "Greg Chun + Ray Chase",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe9",
-    "quotes": {
-      "Castle Hall": [
-        "**Ike:** Battle is risky business, but there's always something to learn. Every conflict is unique.",
-        "**Roy:** We've fought together and talked about many things. We're close enough now to call each other friend.",
-        "**Ike:** Roy and I may have been raised differently, but now that we've fought together, I trust him with my life.",
-        "**Roy:** Humans and dragons\u2014no, even just humans have unending conflict. But we can have empathy. This, I believe.",
-        "**Ike:** Whenever there's a battle, our strength is needed. I hope a time comes when that's not true."
-      ],
-      "Visit": [
-        "**Ike:** I'm Ike, of the Greil Mercenaries. Roy and I are here to deliver a greeting from [F]."
-      ],
-      "Level": [
-        "**Ike:** Our foes fought well. Our goal is not to defeat them, but to come to an understanding afterwards.",
-        "**Ike:** Master your own strength, and you won't be defeated. Right, Roy?",
-        "**Roy:** All sorts of people have supported me until now, but in the end it will be my heart that is tested."
-      ],
-      "Summon": [
-        "I'm Ike, from the Greil Mercenaries. This here is Roy, a comrade you can trust with your life. You called for us?"
-      ],
-      "Learn Skill": [
-        "**Ike:** Leave it to us then. You're good, right, Roy?"
-      ],
-      "Confession": [
-        "**Ike:** Many voices called out to us. We're here now...\n**Roy:** We've seen this before\u2014people led astray by desire, their mistakes leading to conflict...\nBut we've also seen people overcome such adversities.\n**Ike:** Right and wrong is a matter of perspective.\nWhat's important is if you can accept something as just. And staying true to your convictions.\n**Roy:** The person who taught me once said, \"A general lacking confidence cannot gain the trust of their subordinates.\"\n**Ike:** It seems you were blessed with a good teacher, Roy.\nLet us forge ahead together, and act with confidence in our convictions."
-      ],
-      "Special": [
-        "**Duo:** With one strike!",
-        "**Duo:** \"We'll end this!\" \"Right!\"",
-        "**Ike:** You won't escape!",
-        "**Roy:** We will win!"
-      ],
-      "Status": [
-        "-",
-        "\"I'm counting on you, Roy.\" \"And I, you. Together, we'll win this.\""
-      ],
-      "Map Select": [
-        "Hmm...",
-        "Let's do this!",
-        "On our way."
-      ],
-      "Conversation": [
-        "**Roy:** I see you're wearing the same clothes your father wears. My attire matches my father's as well.",
-        "**Ike:** Ah. No wonder.",
-        "**Roy:** Oh? Does something look off about me?",
-        "**Ike:** Just that your clothes look like they belong on someone more mature.",
-        "**Roy:** Are you saying I am childish?",
-        "**Ike:** I-I'm saying you normally dress your age.",
-        "**Roy:** But...my father was my age when he wore these clothes.",
-        "**Ike:** Then I guess you don't look like him.",
-        "**Roy:** Yes, I do! People say we share the exact same hair color, and our eyes are the same too!",
-        "**Ike:** Hm.",
-        "**Roy:** What about you, Ike? Do you resemble your father?",
-        "**Ike:** I got my hair and eyes from my mother. The rest is anyone's guess.",
-        "But, even if I don't look like him, I still aim to be like him.",
-        "**Roy:** I, too, have a goal to be like my father.",
-        "He is strong and kind and fair to everyone. I hope to rule as he did someday.",
-        "**Ike:** I'm sure you will then.",
-        "**Roy:** Thank you. Let's both do our best to be like our fathers."
-      ],
-      "Duo Skill": [
-        "\"Turn conviction\" \"into strength!\"",
-        "\"We will achieve\" \"victory!\""
-      ],
-      "Back Unit Supporting": [
-        "I believe in you.",
-        "I have your back."
-      ],
-      "resplendent": {}
-    },
-    "short_name": "Ike",
-    "SEARCH_NAME": "Ike",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Ike",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "ike",
-      "ike2",
-      "ike3",
-      "ike4",
-      "ike5",
-      "ike6",
-      "ike7",
-      "ike8"
-    ],
-    "prf": {
-      "": "urvanbrilliance",
-      "eff": "urvanbrilliance",
-      "atk": "urvanbrilliance",
-      "spd": "urvanbrilliance",
-      "def": "urvanbrilliance",
-      "res": "urvanbrilliance"
-    }
-  },
-  "lyn11": {
-    "name": "Lyn",
-    "title": "Glitters of Hope",
-    "description": "Lyn and Lucina continue to fight on, never giving up hope, even when forced to deal with harsh conditions. They appear in Fire Emblem: The Blazing Blade / Awakening.",
-    "origin": "The Blazing Blade + Awakening",
-    "artist": "cuboon",
-    "move": "Cavalry",
-    "weapon": "Bow",
-    "color": "Colorless",
-    "duel": false,
-    "id": "1316",
-    "type": false,
-    "version": "9.11",
-    "duo": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit.\nGrants another action to a certain target, and if Canto has already been triggered, re-enables Canto (if there are allies from the same titles as unit on the map who have already acted, targets ally with the highest HP among those allies; otherwise, targets unit; if multiple targets meet the conditions, effect will not trigger).\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.",
-    "harmonized": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit.\nGrants another action to a certain target, and if Canto has already been triggered, re-enables Canto (if there are allies from the same titles as unit on the map who have already acted, targets ally with the highest HP among those allies; otherwise, targets unit; if multiple targets meet the conditions, effect will not trigger).\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.",
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 10,
-      "def": 8,
-      "res": 5
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 85,
-      "spd": 90,
-      "def": 50,
-      "res": 45
-    },
-    "superboon": [
-      "spd",
-      "res"
-    ],
-    "superbane": [
-      "hp",
-      "def"
-    ],
-    "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Silver Bow": "3",
-      "Intrinsic Mulagir": "5"
-    },
-    "assist": {},
-    "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4",
-      "Archrival": "5"
-    },
-    "passive": {
-      "A": {
-        "Sacae's Decree": "5"
-      },
-      "B": {
-        "Poison Strike 1": "2",
-        "Poison Strike 2": "3",
-        "Poison Strike 3": "4",
-        "Execution Breath": "5"
-      },
-      "C": {
-        "Hone Spd 1": "2",
-        "Hone Spd 2": "3",
-        "Hone Spd 3": "4",
-        "A/S Hone Assault": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/31/Lyn_Glitters_of_Hope_Face.webp/revision/latest?cb=20251128043542",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Lyn_Glitters_of_Hope_BtlFace_D.webp/revision/latest?cb=20251128043537",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/91/Lyn_Glitters_of_Hope_BtlFace_C.webp/revision/latest?cb=20251128043532",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c6/Lyn_Glitters_of_Hope_BtlFace.webp/revision/latest?cb=20251128043517"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Glitters of Hope",
-      "Lyn: Glitters of Hope",
-      "harmonic lyn",
-      "lyn11"
-    ],
-    "HARD_ALT_NAME": [
-      "Glitters of Hope",
-      "Lyn: Glitters of Hope",
-      "harmonic lyn",
-      "lyn11"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u53cc\u754c\u7dcf\u9078\u6319\u30ea\u30f3",
-    "voice": "Wendee Lee + Alexis Tipton",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "elibe"
-    ],
-    "chibi": "fe7",
-    "quotes": {
-      "Castle Hall": [
-        "**Lyn:** Endless skies above an ocean of windswept grass... I shall forever protect the land my mother loved.",
-        "**Lucina:** Rage and hatred can, at times, help one survive the day. But it takes more than that to preserve one's humanity.",
-        "**Lyn:** Lucina, don't try to do it all on your own. I'm with you. The same goes for you, [S].",
-        "**Lyn:** The people of the plains among whom I was born and raised were attacked and broken by bandits.\nYou had some difficult experiences too, didn't you, Lucina?",
-        "**Lucina:** People lived on, even in the future full of despair. So I will fight alongside them and never abandon hope."
-      ],
-      "Visit": [
-        "**Lyn:** I bring greetings to you from [F].\nStay friends, all right?"
-      ],
-      "Level": [
-        "**Lyn:** Honor the bravery of warriors! By the blood that flows in these veins, I shall grasp victory with integrity!",
-        "**Lyn:** Father... Mother... Watch over me.",
-        "**Lucina:** We should demonstrate to the people of this world that if you keep fighting, the light of hope will not fade."
-      ],
-      "Summon": [
-        "I am Lyndis. If a great battle is about to begin, know that I came here with Lucina to aid you!"
-      ],
-      "Learn Skill": [
-        "**Lyn:** Thank you! The voices of the people will not go unheard."
-      ],
-      "Confession": [
-        "**Lyn:** ...\n**Lucina:** Lyn? Is something wrong?\n**Lyn:** Not really... I was just thinking about my parents...\nMy mother, born to an aristocratic family, eloped with my father, a man of the plains. Then, I was born...\nIt's strange. Even now, I can feel them watching over me...always.\n**Lucina:** I think...I understand what you feel. No matter what world I'm in, my parents are with me in my heart.\nBonds connect the past and future... We may be able to fight together with them thanks to those bonds."
-      ],
-      "Special": [
-        "**Duo:** Using our strength!",
-        "**Duo:** \"Aim!\" \"Shoot!\"",
-        "**Lyn:** I never miss!",
-        "**Lucina:** We will strike true!"
-      ],
-      "Status": [
-        "-",
-        "\"I'm delighted to partner up with you.\" \"Likewise! I look forward to seeing what we can accomplish!\""
-      ],
-      "Map Select": [
-        "Which target?",
-        "Leave it to me.",
-        "We'll give it a shot."
-      ],
-      "Conversation": [
-        "**Lucina:** Lady Lyn, you work with that horse like it is an extension of you. That's truly amazing!",
-        "**Lyn:** *giggle* Thank you. The plains of Sacae are so vast, I rode horses all the time there.",
-        "I still have room for improvement. My father was far better at it than me.",
-        "**Lucina:** Your father... Was he also the one who taught you archery?",
-        "**Lyn:** He was. Horse riding... Archery... My father taught me everything I know.",
-        "**Lucina:** We have that in common, then. I learned much of what I know from my father as well.",
-        "I'm skilled with a lance now, but he also taught me the way of the sword and martial arts. *laugh* One time he-",
-        "**Lyn:** What?",
-        "**Lucina:** He smashed a practice dummy through a wall of our castle. Then I could come and go as I pleased.",
-        "**Lyn:** *laugh* It sounds as though you had quite an interesting father.",
-        "**Lucina:** He's strong, kind, and entertaining. I really love him.",
-        "I work to be more like him and to protect the world he loved.",
-        "**Lyn:** I want to become a strong warrior like my father and protect Sacae.",
-        "**Lucina:** We really are a lot alike! I can see us becoming close friends.",
-        "**Lyn:** I feel the same. I hope it's not too forward of me, but I'd like to ask something of you.",
-        "**Lucina:** Of course. What is it?",
-        "**Lyn:** I would like it if you just called me Lyn. I hope we can have a long and happy friendship, Lucina!"
-      ],
-      "Duo Skill": [
-        "\"Our target...\" \"There!\"",
-        "\"Taking...\" \"...aim!\""
-      ],
-      "Back Unit Supporting": [
-        "I'm watching over you.",
-        "My strength is yours."
-      ],
-      "resplendent": {}
-    },
-    "short_name": "Lyn",
-    "SEARCH_NAME": "Lyn",
-    "DISPLAY_NAME": "<:Colorless_Bow:1124845636659982457>Lyn",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "lyn",
-      "lyn2",
-      "lyn3",
-      "lyn4",
-      "lyn5",
-      "lyn6",
-      "lyn7",
-      "lyn8",
-      "lyn9",
-      "lyn10"
-    ],
-    "prf": {
-      "": "intrinsicmulagir",
-      "eff": "intrinsicmulagir",
-      "atk": "intrinsicmulagir",
-      "spd": "intrinsicmulagir",
-      "def": "intrinsicmulagir",
-      "res": "intrinsicmulagir"
-    }
-  },
-  "vanitas": {
-    "name": "Vanitas",
-    "title": "Hollow God",
-    "description": "A young god who rules an alternate Askran Kingdom. She is hostile toward Askr and any who associate with him.",
-    "origin": "Heroes",
-    "artist": "So-taro (\u5275-taro)",
-    "move": "Armored",
-    "weapon": "Breath",
-    "color": "Green",
-    "duel": false,
-    "id": "1317",
-    "type": "rearmed",
-    "version": "9.11",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 23,
-      "atk": 13,
-      "spd": 3,
-      "def": 13,
-      "res": 10
-    },
-    "growth": {
-      "hp": 65,
-      "atk": 80,
-      "spd": 35,
-      "def": 75,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "def"
-    ],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Flametongue": "3",
-      "Arcane Outburst": "5"
-    },
-    "assist": {},
-    "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4",
-      "Dragon Ice": "5"
-    },
-    "passive": {
-      "A": {
-        "Unfledged God": "5"
-      },
-      "B": {
-        "Special Fighter 1": "2",
-        "Special Fighter 2": "3",
-        "Special Fighter 3": "4",
-        "Scowling Fighter": "5"
-      },
-      "C": {
-        "A/R Near Save 1": "2",
-        "A/R Near Save 2": "3",
-        "A/R Near Save 3": "4",
-        "A/R Twin M Save": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/cf/Vanitas_Hollow_God_Face.webp/revision/latest?cb=20251105050920",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3b/Vanitas_Hollow_God_BtlFace_D.webp/revision/latest?cb=20251105050915",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ab/Vanitas_Hollow_God_BtlFace_C.webp/revision/latest?cb=20251105050910",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c7/Vanitas_Hollow_God_BtlFace.webp/revision/latest?cb=20251105050855"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Hollow God",
-      "Vanitas: Hollow God",
-      "Rearmed Vanitas",
-      "Rearm Vanitas",
-      "Arm Vanitas",
-      "vanitas"
-    ],
-    "HARD_ALT_NAME": [
-      "Hollow God",
-      "Vanitas: Hollow God",
-      "Rearmed Vanitas",
-      "Rearm Vanitas",
-      "Arm Vanitas",
-      "vanitas"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30f4\u30a1\u30cb\u30bf\u30b9\u5473\u65b9",
-    "voice": "Kelsey Jaffer",
+    "pool": "",
+    "internal_id": "PID_\u6551\u4e16\u30a2\u30eb\u30d5\u30a9\u30f3\u30b9",
+    "voice": "Ray Chase",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -488,68 +98,722 @@
     "chibi": "heroes",
     "quotes": {
       "Castle Hall": [
-        "This is...Askr? It is so different than my Askr...",
-        "This world is mine...",
-        "I have learned your name, [S]...",
-        "You have nothing to do? Then...you may play with me...",
-        "Stairs... Books... There are many things to learn here."
+        "To the creator, I'm sure Ragnar\u00f6k is like a game...",
+        "Dangerous battles lie ahead of us. Please, you must remain by my side, [S].",
+        "Nifl and M\u00faspell have also entrusted their worlds to Heroes. If we work together, then perhaps it is possible...",
+        "I will fulfill the duty that has been entrusted to me by Askr, the Divine Dragon. For the sake of the realms.",
+        "The future has been entrusted to me by Divine Dragon Askr. I shall cut a path to it... Now let's save the world."
       ],
       "Visit": [
-        "You...are a friend of [F]'s.\nAm I...correct?"
+        "\"How is the battle progressing for you? Tell me if you need anything.\" That is from [F]."
       ],
       "Level": [
-        "I think...I did well.",
-        "This was to be expected.",
-        "If I do not do something, Askr will be taken from me."
+        "I will not yield, no matter what kind of annihilation I face!",
+        "Yet, the battle continues... I shall not be satisfied by this.",
+        "This is no good. This will not be enough to save everyone!"
       ],
       "Summon": [
-        "I am Vanitas... My name and the land of Askr are all I have."
+        "Ragnar\u00f6k consists of three stages of annihilation... Worry not. I will not lose, so long as you are with me."
       ],
       "Learn Skill": [
-        "For me? You are...certain? This makes me happy."
+        "I shall overcome adversity and the twilight, for the sake of Askr's future."
       ],
       "Confession": [
-        "Grass... Stone... I am learning. Oh? What is it, [S]?\nI have seen all these things before, but there was no one to tell me what they were called.\nThe people in this castle have been kind to me... They have taught me so much.\nI...would like to repay you. If only there was something I could do...\nOh, there is no need to rush? Then... will you wait for me?\nI will learn as much as I can so that I can be useful to you..."
+        "There are three stages set to take place, one after another...\nThe winter of annihilation, the wolf of annihilation, and the sword of annihilation...\nI would be lying if I said I was certain. I question how we can win. How can we prevent the most loss?\nYet, I have no intention of fleeing. I will fight for the Divine Dragon Askr and the people of this world.\nI feel as though I can overcome any hardship and open a path to the future, as long as you are by my side.\nThank you for sticking with me thus far. Let us survive this together, no matter what, [S]."
       ],
       "Special": [
-        "Who needs Askr?",
-        "It is my world.",
-        "I shall destroy them!",
-        "Come no closer."
+        "Into the future!",
+        "For the nine realms!",
+        "O Divine Dragon Askr...",
+        "This ends here and now!"
       ],
       "Status": [
-        "Oh.",
-        "I am Vanitas. All I have is my name and the land of Askr.",
-        "What are you doing?",
-        "Askr takes what is mine. He is...unnecessary.",
-        "Is this a country? It is filled with so many people...",
-        "I do not understand. I was told my being here was enough...",
-        "I...am alone. I always will be...",
-        "It is permissible for me to be here? You are certain?"
+        "-",
+        "This power was entrusted to me by the Divine Dragon Askr and...by our world...",
+        "Hm? You never change, do you?",
+        "For the sake of all who live in the nine realms, we cannot fail.",
+        "Quite some time has passed since we first met, hasn't it?",
+        "You have remained by my side for so long now... I am truly grateful.",
+        "I shall shoulder the power entrusted to me and the responsibility it entails. I will bear all of it.",
+        "I have not forgotten my promise to you. When we finally achieve peace, I shall open the way and return you to the world you call home..."
       ],
       "Map Select": [
-        "Ah...",
-        "But...",
-        "Here."
+        "With all my being.",
+        "What shall I do?",
+        "Outstanding."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Rearmed Vanitas",
-    "SEARCH_NAME": "Rearmed Vanitas",
-    "DISPLAY_NAME": "<:Green_Breath:1124845770978361425>Rearmed Vanitas",
+    "short_name": "Alfonse",
+    "SEARCH_NAME": "Alfonse",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Alfonse",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "alfonse",
+      "alfonse2",
+      "alfonse3",
+      "alfonse4",
+      "alfonse5"
+    ],
     "prf": {
-      "": "arcaneoutburst",
-      "eff": "arcaneoutburst",
-      "atk": "arcaneoutburst",
-      "spd": "arcaneoutburst",
-      "def": "arcaneoutburst",
-      "res": "arcaneoutburst"
+      "": "chosensword",
+      "eff": "chosensword",
+      "atk": "chosensword",
+      "spd": "chosensword",
+      "def": "chosensword",
+      "res": "chosensword"
+    },
+    "boost": {}
+  },
+  "ignatz2": {
+    "name": "Ignatz",
+    "title": "Worldly Artist",
+    "description": "A student of the Golden Deer House who was raised in a merchant family. As their second son, he was enrolled in the Officers Academy. Appears in Fire Emblem: Three Houses.",
+    "origin": "Three Houses",
+    "artist": "nekomochi (\u30cd\u30b3\u30e2\u30c1)",
+    "move": "Infantry",
+    "weapon": "Bow",
+    "color": "Colorless",
+    "duel": false,
+    "id": "1320",
+    "type": false,
+    "version": "10.0",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 13,
+      "atk": 9,
+      "spd": 4,
+      "def": 11,
+      "res": 0
+    },
+    "growth": {
+      "hp": 75,
+      "atk": 90,
+      "spd": 35,
+      "def": 80,
+      "res": 30
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp"
+    ],
+    "weapons": {
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Silver Bow": "3",
+      "Watchful Bow": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Ideal 1": "2",
+        "Atk/Spd Ideal 2": "3",
+        "Atk/Spd Ideal 3": "4",
+        "Perfect Atk/Spd": "5"
+      },
+      "B": {
+        "Sabotage Def 1": "2",
+        "Sabotage Def 2": "3",
+        "Sabotage Def 3": "4",
+        "Spd/Def Havoc": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6e/Ignatz_Worldly_Artist_Face.webp/revision/latest?cb=20251205044354",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/92/Ignatz_Worldly_Artist_BtlFace_D.webp/revision/latest?cb=20251205044348",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/25/Ignatz_Worldly_Artist_BtlFace_C.webp/revision/latest?cb=20251205044344",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/72/Ignatz_Worldly_Artist_BtlFace.webp/revision/latest?cb=20251205044329"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Worldly Artist",
+      "Ignatz: Worldly Artist",
+      "ignatz2"
+    ],
+    "HARD_ALT_NAME": [
+      "Worldly Artist",
+      "Ignatz: Worldly Artist",
+      "ignatz2"
+    ],
+    "gender": "M",
+    "rarity": 5,
+    "pool": "",
+    "internal_id": "PID_\u30a4\u30b0\u30ca\u30fc\u30c4",
+    "voice": "Christian La Monte",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fodlan"
+    ],
+    "chibi": "fodlan",
+    "quotes": {
+      "Castle Hall": [
+        "Reading books from different regions makes me feel like I've visited those places. Aren't stories wonderful?",
+        "I'm from a merchant family employed by nobles. I'm not inheriting the business. My brother is.\nMy father said that I'm to become a knight.",
+        "The professor is inspiring. In fact, I know a lot of people who are. I'll do my best to keep up.",
+        "I haven't had many chances to travel, so I'm kind of excited.",
+        "Oh... I had a little extra time, so I'm using it to paint some landscapes. I like to paint. It's relaxing."
+      ],
+      "Visit": [
+        "My name is Ignatz. Correct me if I'm wrong, but I believe this castle is [S]'s."
+      ],
+      "Level": [
+        "Yes! I did it!",
+        "I can get things done when I put my mind to it, you know!",
+        "Know that there are no hard feelings."
+      ],
+      "Summon": [
+        "I'm Ignatz Victor. My parents are Alliance merchants. I look forward to learning from you."
+      ],
+      "Learn Skill": [
+        "I feel like I'm starting to understand some things!"
+      ],
+      "Confession": [
+        "Goddess... Ah!\nOh, it's you. You should have said something. Sorry I made you wait for me, [S].\nI actually wasn't praying. I was just wondering what the goddess of our world looks like.\nWhen she descended to the land in the past, they say she charmed the people all over F\u00f3dlan.\nEven now, she watches over us from the heavens. I believe she must be very beautiful.\nIt is said that one day she will be resurrected in F\u00f3dlan. I would very much like to witness that."
+      ],
+      "Special": [
+        "Let me paint you a picture!",
+        "I can do this!",
+        "I'm so sorry!",
+        "I'll show you!"
+      ],
+      "Status": [
+        "-",
+        "I'm Ignatz Victor. My parents are Alliance merchants.",
+        "Ah! Oh no, my glasses! Where are my glasses?!",
+        "I can't wait to see what kinds of flowers bloom in this world.",
+        "Painting is a hobby of mine. Want me to do your portrait?",
+        "Askr is quite a picturesque place.",
+        "There are so many impressive figures here. I'll try my best to measure up.",
+        "I may not look it, but I can handle myself pretty well. I'll prove it to you."
+      ],
+      "Map Select": [
+        "Ready anytime!",
+        "Are you sure?",
+        "Let's get moving."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Ignatz",
+    "SEARCH_NAME": "Ignatz",
+    "DISPLAY_NAME": "<:Colorless_Bow:1124845636659982457>Ignatz",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "ignatz"
+    ],
+    "prf": {
+      "": "watchfulbow",
+      "eff": "watchfulbow",
+      "atk": "watchfulbow",
+      "spd": "watchfulbow",
+      "def": "watchfulbow",
+      "res": "watchfulbow"
+    }
+  },
+  "lorenz2": {
+    "name": "Lorenz",
+    "title": "Red-Rose Noble",
+    "description": "A student of the Golden Deer House who stands out as the arrogant heir to a well-known noble house. Appears in Fire Emblem: Three Houses.",
+    "origin": "Three Houses",
+    "artist": "PenekoR (\u043f\u732b\uff32)",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Blue",
+    "duel": false,
+    "id": "1321",
+    "type": false,
+    "version": "10.0",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 9,
+      "atk": 12,
+      "spd": 6,
+      "def": 5,
+      "res": 0
+    },
+    "growth": {
+      "hp": 90,
+      "atk": 75,
+      "spd": 40,
+      "def": 50,
+      "res": 10
+    },
+    "superboon": [
+      "hp"
+    ],
+    "superbane": [
+      "atk",
+      "def"
+    ],
+    "weapons": {
+      "Thunder": "1",
+      "Elthunder": "2",
+      "Bl\u00e1rsparrow": "3",
+      "Bl\u00e1rsparrow+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Bond 1": "1",
+        "Atk/Spd Bond 2": "2",
+        "Atk/Spd Bond 3": "4"
+      },
+      "B": {
+        "A/S Far Trace 1": "3",
+        "A/S Far Trace 2": "4",
+        "A/S Far Trace 3": "5"
+      },
+      "C": {},
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/93/Lorenz_Red-Rose_Noble_Face.webp/revision/latest?cb=20251205044244",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/78/Lorenz_Red-Rose_Noble_BtlFace_D.webp/revision/latest?cb=20251205044239",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/79/Lorenz_Red-Rose_Noble_BtlFace_C.webp/revision/latest?cb=20251205044234",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/b/b3/Lorenz_Red-Rose_Noble_BtlFace.webp/revision/latest?cb=20251205044219"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Red-Rose Noble",
+      "Lorenz: Red-Rose Noble",
+      "lorenz2"
+    ],
+    "HARD_ALT_NAME": [
+      "Red-Rose Noble",
+      "Lorenz: Red-Rose Noble",
+      "lorenz2"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "",
+    "internal_id": "PID_\u30ed\u30fc\u30ec\u30f3\u30c4",
+    "voice": "Ben Diskin",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fodlan"
+    ],
+    "chibi": "fodlan",
+    "quotes": {
+      "Castle Hall": [
+        "It is the duty of every F\u00f3dlan noble to demonstrate piety toward Seiros.",
+        "Golden Deer are sacred creatures said to have protected Leicester since time immemorial.\nNaturally, I am a member of the Golden Deer House.",
+        "I hope you are being mindful of your health? They say it is important to rest your mind and body.",
+        "The Church of Seiros considers the Goddess's Rite of Rebirth to be the most significant ritual.",
+        "Truthfully, I am not a devout believer, but, as heir of Gloucester territory, I must not neglect my prayers."
+      ],
+      "Visit": [
+        "I presume you are the one called [S], yes?\nTake a look at what I was asked to give you by [F]."
+      ],
+      "Level": [
+        "A trivial victory! My best is still far ahead of me.",
+        "You are outclassed! You cannot hope to best a noble like me.",
+        "I thought I gave it my all!"
+      ],
+      "Summon": [
+        "I am Lorenz Hellman Gloucester. As heir to the noble House Gloucester, I shall demonstrate battle with pride."
+      ],
+      "Learn Skill": [
+        "I am still not satisfied."
+      ],
+      "Confession": [
+        "Women within the castle are avoiding me? Are you certain? Alas, I think I know why they might be hesitant.\nAfter all, I am heir to the noble House Gloucester. My future wife must join a noble society, even if she dislikes it.\nIt is a world full of annoying decorum and customs. Someone raised as a commoner would see it as strict.\nBut she cannot be just for show. We must have a relationship built upon respect and support of one another.\nThe lady I wed must be well-bred, refined, and intelligent. No wonder women are wary of my advances.\nWith that in mind, I intend to seek out a partner most suited to me in this land, and strive to act with sincerity."
+      ],
+      "Special": [
+        "Don't you know who I am?",
+        "An offensive sight!",
+        "Enough of this nonsense.",
+        "Out of my way!"
+      ],
+      "Status": [
+        "-",
+        "My name is Lorenz Hellman Gloucester. You will want to remember it.",
+        "I beg your pardon? It would benefit you to pay more attention to the way you carry yourself in the presence of nobility.",
+        "It is the duty of the nobility to protect the commonfolk. In return, the commoner need only show deference and respect.",
+        "As I'm sure you know, the future of all F\u00f3dlan is my responsibility!",
+        "If you are looking for tea, Ferdinand's impeccable taste is absolutely worth your attention. Assuming I am not available, of course.",
+        "To find the analogue of your beauty in nature, I can turn only to the lily. Only that flower is so sweet and... Ah! How much of that did you hear?",
+        "I know my presence can be intimidating, but there is no need to be nervous. If I did not wish to spend time with you, I would not."
+      ],
+      "Map Select": [
+        "Now is the time.",
+        "Let us be cautious.",
+        "I stand ready."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Lorenz",
+    "SEARCH_NAME": "Lorenz",
+    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Lorenz",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "lorenz"
+    ],
+    "prf": {
+      "": "blarsparrow",
+      "eff": "blarsparrow",
+      "atk": "blarsparrow",
+      "spd": "blarsparrow",
+      "def": "blarsparrow",
+      "res": "blarsparrow"
+    }
+  },
+  "lysithea5": {
+    "name": "Lysithea",
+    "title": "Duality Prodigy",
+    "description": "Daughter of Count Ordelia and noble of the Leicester Alliance. With two Crests residing within her, she challenges the very principles of the universe. Appears in Fire Emblem: Three Houses.",
+    "origin": "Three Houses",
+    "artist": "ne-on",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Green",
+    "duel": false,
+    "id": "1319",
+    "type": "rearmed",
+    "version": "10.0",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 10,
+      "atk": 9,
+      "spd": 9,
+      "def": 10,
+      "res": 0
+    },
+    "growth": {
+      "hp": 90,
+      "atk": 90,
+      "spd": 40,
+      "def": 50,
+      "res": 20
+    },
+    "superboon": [
+      "hp",
+      "atk"
+    ],
+    "superbane": [
+      "def"
+    ],
+    "weapons": {
+      "Wind": "1",
+      "Elwind": "2",
+      "Rexcalibur": "3",
+      "Suttungr's Mys.": "5"
+    },
+    "assist": {},
+    "special": {
+      "Dragon Gaze": "3",
+      "Dragon Fang": "4",
+      "Logic": "5"
+    },
+    "passive": {
+      "A": {
+        "True Genius": "5"
+      },
+      "B": {
+        "Poison Strike 1": "2",
+        "Poison Strike 2": "3",
+        "Poison Strike 3": "4",
+        "Conjuring Breath": "5"
+      },
+      "C": {
+        "Time's Pulse 1": "2",
+        "Time's Pulse 2": "3",
+        "Time's Pulse 3": "4",
+        "Creation Pulse": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f1/Lysithea_Duality_Prodigy_Face.webp/revision/latest?cb=20251205044429",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/90/Lysithea_Duality_Prodigy_BtlFace_D.webp/revision/latest?cb=20251205044424",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4b/Lysithea_Duality_Prodigy_BtlFace_C.webp/revision/latest?cb=20251205044419",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/20/Lysithea_Duality_Prodigy_BtlFace.webp/revision/latest?cb=20251205044404"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Duality Prodigy",
+      "Lysithea: Duality Prodigy",
+      "Rearmed Lysithea",
+      "Rearm Lysithea",
+      "Arm Lysithea",
+      "lysithea5"
+    ],
+    "HARD_ALT_NAME": [
+      "Duality Prodigy",
+      "Lysithea: Duality Prodigy",
+      "Rearmed Lysithea",
+      "Rearm Lysithea",
+      "Arm Lysithea",
+      "lysithea5"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30ea\u30b7\u30c6\u30a2",
+    "voice": "Janice Roman Roku",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fodlan"
+    ],
+    "chibi": "fodlan",
+    "quotes": {
+      "Castle Hall": [
+        "My research is a battle with the time I have left. So much so that I wish I didn't have to sleep.",
+        "Techniques and experiments that utilize blood... The Crests infused in me conflict with the laws of nature.\nThey continue to eat away at my life...",
+        "Studying has never been distressing to me. To the contrary, what is the point of life without learning?",
+        "No one in this world is born with the Crests I know from mine? I see... There is so much to contemplate.",
+        "I feel as though you carry yourself in a way that resembles the professor, [S]."
+      ],
+      "Visit": [
+        "I am Lysithea von Ordelia. I have learned all about another world while staying at [F]'s."
+      ],
+      "Level": [
+        "One day, I shall describe the rules of nature that govern this world in precise detail. I am not there yet...",
+        "I crushed the enemy's formation. Let us strike again before they have a moment to counterattack.",
+        "I shall continue to force myself to grow, even if it means giving up on the idea of a normal life."
+      ],
+      "Summon": [
+        "I am Lysithea von Ordelia. Just to let you know, I have no time to waste."
+      ],
+      "Learn Skill": [
+        "I will prove that you chose correctly."
+      ],
+      "Confession": [
+        "Do you have some business with me, [S]?\nWait! Don't answer that. I know... You've come to recruit me for my brilliant mind. Isn't that right?\nI have learned some fascinating things here. Such as, people in this world are never endowed with Crests.\nThis is strong ground on which to base my analysis of the origin and influence of Crests.\nNow, if I can just elucidate how they function...\nBut I have no time for that. The magic users who made my body this way sentenced me to a short life.\nSo...if you help me with my research, I will agree to remain here."
+      ],
+      "Special": [
+        "You leave me no choice!",
+        "Ready for this?",
+        "I chose this path.",
+        "Down with the Empire!"
+      ],
+      "Status": [
+        "-",
+        "This tome is Suttungr's Mystery. It's a Hero's Relic.",
+        "Ahh! Ahem... If you were trying to surprise me, you have a lot to learn. I don't scare so easily anymore.",
+        "Look at me now. I've gotten so much more sophisticated in the last five years, wouldn't you say?",
+        "We must overthrow the Empire. I will not permit their meddling any longer!",
+        "There's a mysterious power aiding the Empire... If we could just discover its true identity...",
+        "I chose my path. I must press on. That's all anyone can do, really.",
+        "You look tired. How about we have some sweets while enjoying tea?"
+      ],
+      "Map Select": [
+        "All right.",
+        "Your strategy?",
+        "I am on it!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Rearmed Lysithea",
+    "SEARCH_NAME": "Rearmed Lysithea",
+    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Rearmed Lysithea",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "lysithea",
+      "lysithea2",
+      "lysithea3",
+      "lysithea4"
+    ],
+    "prf": {
+      "": "suttungrsmys",
+      "eff": "suttungrsmys",
+      "atk": "suttungrsmys",
+      "spd": "suttungrsmys",
+      "def": "suttungrsmys",
+      "res": "suttungrsmys"
+    }
+  },
+  "raphael2": {
+    "name": "Raphael",
+    "title": "Beast of Leicester",
+    "description": "A student of the Golden Deer House whose stomach matches his large physique. He is not one to neglect to train his muscles. Appears in Fire Emblem: Three Houses.",
+    "origin": "Three Houses",
+    "artist": "\u30c0\u30a4\u30a8\u30af\u30b9\u30c8",
+    "move": "Armored",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1322",
+    "type": false,
+    "version": "10.0",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 10,
+      "atk": 9,
+      "spd": 10,
+      "def": 7,
+      "res": 0
+    },
+    "growth": {
+      "hp": 90,
+      "atk": 50,
+      "spd": 90,
+      "def": 40,
+      "res": 45
+    },
+    "superboon": [
+      "hp",
+      "spd"
+    ],
+    "superbane": [
+      "atk"
+    ],
+    "weapons": {
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Melee Axe": "3",
+      "Melee Axe+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "Bold Fighter 1": "1",
+        "Bold Fighter 2": "2",
+        "Bold Fighter 3": "4"
+      },
+      "C": {
+        "Assault Troop 1": "3",
+        "Assault Troop 2": "4",
+        "Assault Troop 3": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/09/Raphael_Beast_of_Leicester_Face.webp/revision/latest?cb=20251205044318",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2f/Raphael_Beast_of_Leicester_BtlFace_D.webp/revision/latest?cb=20251205044314",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/80/Raphael_Beast_of_Leicester_BtlFace_C.webp/revision/latest?cb=20251205044309",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3d/Raphael_Beast_of_Leicester_BtlFace.webp/revision/latest?cb=20251205044254"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Beast of Leicester",
+      "Raphael: Beast of Leicester",
+      "raphael2"
+    ],
+    "HARD_ALT_NAME": [
+      "Beast of Leicester",
+      "Raphael: Beast of Leicester",
+      "raphael2"
+    ],
+    "gender": "M",
+    "rarity": 3,
+    "pool": "grail",
+    "internal_id": "PID_\u30e9\u30d5\u30a1\u30a8\u30eb",
+    "voice": "Zachery T. Rice",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fodlan"
+    ],
+    "chibi": "fodlan",
+    "quotes": {
+      "Castle Hall": [
+        "Muscles beat Crests and Heroes' Relics and delicious food\u2014 Wait, not delicious food. That wins out here!",
+        "Don't you think everyone's making too big a fuss over these Crests or Heroes' Relics or whatever they are?\nAre they really that important?",
+        "Do you know what's on the menu tonight? Come on, tell me!",
+        "Ugh. I really need to eat. I can't hold out until the next meal!",
+        "Why can't the dining hall stay open all the time? My muscles need more food if I'm gonna get stronger!"
+      ],
+      "Visit": [
+        "Wanna see my muscles? I've trained 'em up so good and even got praised by [F]for 'em!"
+      ],
+      "Level": [
+        "Look at my muscles! I have my own way of training them.",
+        "Plenty more where that came from.",
+        "Huh... Ugh."
+      ],
+      "Summon": [
+        "Nice to meet you! I'm Raphael Kirsten. Who are you?"
+      ],
+      "Learn Skill": [
+        "Making my muscles proud."
+      ],
+      "Confession": [
+        "*sniffle* *sniffle* Oh! I didn't see you there, [S]!\nI was just thinking about my little sis. She lives with my grandpa now...\nSee, our parents were merchants, but they died in an accident, and I'm not smart enough for a...thinking job.\nSo I sold all our valuables and used the money to pay my way into the academy... And my sis, well...\nShe wants what's best for me, but she's the smart one in the family! She's the one that should be here!\nBut she won't ask me for anything... *sob* I...I'm gonna train my muscles so much that I become unbeatable!"
+      ],
+      "Special": [
+        "Time for seconds!",
+        "Get outta here!",
+        "I'm on a roll!",
+        "Ba-boom!"
+      ],
+      "Status": [
+        "-",
+        "I'm Raphael Kirsten. So...are you strong? Let's see those muscles!",
+        "Whoa there! You lookin' for a fight?",
+        "There are so many strong Heroes around here. One of 'ems gotta have tips for how I can get bigger muscles!",
+        "I can't grow if I can't eat!",
+        "There's gonna be a feast to welcome all the new Heroes, right? Right?",
+        "My hometown is a real calm, peaceful place... It'd be nice to go back every now and then.",
+        "Let's keep fighting! And winning!"
+      ],
+      "Map Select": [
+        "I got it!",
+        "My stomach's rumbling!",
+        "I'm not worried!"
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Raphael",
+    "SEARCH_NAME": "Raphael",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Raphael",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "raphael"
+    ],
+    "prf": {
+      "": "meleeaxe",
+      "eff": "meleeaxe",
+      "atk": "meleeaxe",
+      "spd": "meleeaxe",
+      "def": "meleeaxe",
+      "res": "meleeaxe"
     }
   }
 }

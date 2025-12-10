@@ -7,13 +7,11 @@ from scraper import integrate
 from skill_scrape import passive_icon_number
 
 refines = [
-    "medeus",
-    "shez3",
-    "constance",
-    "zeke",
-    "kyza",
-    "benny",
-    "gustav"
+    "hapi",
+    "orochi",
+    "malice",
+    "riev",
+    "myrrh3",
 ]
 
 path = "../database/feh/images/passive/"
@@ -61,7 +59,7 @@ def ref(key):
     soup = BeautifulSoup(fandom.text, 'html.parser')
 
     wep_document = soup.find(class_="mw-parser-output")
-    refine_info = wep_document.find(class_="wikitable sortable").find_all('tr')
+    refine_info = wep_document.find(class_="cargoTable").find_all('tr')
 
     cols = refine_info[1].find_all('td')
     url = cols[0].find_all('a')[0]['href']

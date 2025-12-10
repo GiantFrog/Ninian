@@ -253,8 +253,9 @@ def scrape_page(page_name, provided_alts=None, version=None):
     lvl1 = []
     for i in range(1, 6):
         stat = lvl1_raw[i].text.split("/")
-        lvl1.append(int(stat[1]))
-        blank['base'][keys[int(i)-1]] = lvl1[i-1]
+        if len(stat) == 3:
+            lvl1.append(int(stat[1]))
+            blank['base'][keys[int(i)-1]] = lvl1[i-1]
 
     # table 1: lvl 40 stats
     lvl40_table = tables[1].find_all('tr')
@@ -265,13 +266,14 @@ def scrape_page(page_name, provided_alts=None, version=None):
     blank['superboon'] = []
     for i in range(1, 6):
         stat = lvl40_raw[i].text.split("/")
-        bane_diff = int(stat[1]) - int(stat[0])
-        boon_diff = int(stat[2]) - int(stat[1])
-        lvl40.append(int(stat[1]))
-        if boon_diff == 4:
-            blank['superboon'].append(keys[i-1])
-        if bane_diff == 4:
-            blank['superbane'].append(keys[i-1])
+        if len(stat) == 3:
+            bane_diff = int(stat[1]) - int(stat[0])
+            boon_diff = int(stat[2]) - int(stat[1])
+            lvl40.append(int(stat[1]))
+            if boon_diff == 4:
+                blank['superboon'].append(keys[i-1])
+            if bane_diff == 4:
+                blank['superbane'].append(keys[i-1])
 
 
     # table 2: growths
@@ -279,7 +281,7 @@ def scrape_page(page_name, provided_alts=None, version=None):
 
     growths = []
     for i in range(1, 6):
-        gr = str(growths_table[i])[4:-6]
+        gr = str(growths_table[i])[-8:-6]
         growths.append(int(gr))
         blank['growth'][keys[i-1]] = growths[i-1]
 
