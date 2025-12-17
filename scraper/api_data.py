@@ -20,10 +20,64 @@ def is_superboon_or_superbane(growthRate):
         case _:
             return ""
 
+async def get_skills(client, units):
+    unitSkillsPayload = {
+        "tables": "UnitSkills, Skills",
+        "fields": "UnitSkills._pageName=UnitPage, Skills.Name=SkillName, skillPos, unlockRarity, Scategory, Description",
+        "where": f"UnitSkills._pageName in ({', '.join(units)})",
+        "join_on": "Skills.WikiName = UnitSkills.skill",
+        "order_by": "Scategory DESC, defaultRarity ASC",
+    }
+    unitSkillsQuery = await client.call_get_api("cargoquery", **unitSkillsPayload)
+
+    output = {}
+
+    for result in unitSkillsQuery["cargoquery"]:
+        content = result["title"]
+        unit = content["UnitPage"]
+        if unit not in output:
+            output[unit] = {
+                "weapons": {},
+                "assist": {},
+                "special": {},
+                "passive": {
+                    "A": {},
+                    "B": {},
+                    "C": {},
+                    "X": {},
+                }
+            }
+        match content["Scategory"]:
+            case "passivea":
+                output[unit]["passive"]["A"][content["SkillName"]] = content["unlockRarity"]
+                break
+            case "passiveb":
+                output[unit]["passive"]["B"][content["SkillName"]] = content["unlockRarity"]
+                break
+            case "passivec":
+                output[unit]["passive"]["C"][content["SkillName"]] = content["unlockRarity"]
+                break
+            case "passivex":
+                output[unit]["passive"]["X"][content["SkillName"]] = content["unlockRarity"]
+            case "weapon":
+                output[unit]["weapons"][content["SkillName"]] = content["unlockRarity"]
+                break
+            case "assist":
+                output[unit]["assist"][content["SkillName"]] = content["unlockRarity"]
+                break
+            case "special":
+                output[unit]["special"][content["SkillName"]] = content["unlockRarity"]
+    
+    return output
+    
+
+
+
+
 async def get_duo(client, page):
     duoPayload = {
         "tables": "DuoHero",
-        "fields": "DuoSkill",
+        "fields": "DuoSkill, Duel",
         "where": "_pageName = \"" + page + "\"",
     }
     duoQuery = await client.call_get_api("cargoquery", **duoPayload)
@@ -32,27 +86,29 @@ async def get_duo(client, page):
 async def get_legendary(client, page):
     legendaryPayload = {
         "tables": "LegendaryHero",
-        "fields": "LegendaryEffect, AllyBoostHP, AllyBoostAtk, AllyBoostSpd, AllyBoostDef, AllyBoostRes",
+        "fields": "LegendaryEffect, AllyBoostHP, AllyBoostAtk, AllyBoostSpd, AllyBoostDef, AllyBoostRes, Duel",
         "where": "_pageName = \"" + page + "\"",
     }
     legendaryQuery = await client.call_get_api("cargoquery", **legendaryPayload)
     legendaryData = legendaryQuery["cargoquery"][0]["title"]
     stats = {}
-    if int(legendaryData["AllyBoostHP"] != 0):
-        stats["hp"] = int(legendaryData["AllyBoostHP"])
-    if int(legendaryData["AllyBoostAtk"] != 0):
-        stats["atk"] = int(legendaryData["AllyBoostAtk"])
-    if int(legendaryData["AllyBoostSpd"] != 0):
-        stats["spd"] = int(legendaryData["AllyBoostSpd"])
-    if int(legendaryData["AllyBoostDef"] != 0):
-        stats["def"] = int(legendaryData["AllyBoostDef"])
-    if int(legendaryData["AllyBoostRes"] != 0):
-        stats["res"] = int(legendaryData["AllyBoostRes"])
+    boost_map = {
+        "AllyBoostHP": "hp",
+        "AllyBoostAtk": "atk",
+        "AllyBoostSpd": "spd",
+        "AllyBoostDef": "def",
+        "AllyBoostRes": "res",
+    }
 
+    for src, dst in boost_map.items():
+        value = int(legendaryData.get(src, 0))
+        if value != 0:
+            stats[dst] = value
     returnedData = {
         "type": "legendary",
         "blessing": legendaryData["LegendaryEffect"],
         "stats": stats,
+        "duel": legendaryData["Duel"],
     }
     return returnedData
 
@@ -93,9 +149,9 @@ async def main():
     today = datetime.today().strftime('%Y-%m-%d')
 
     unitIdentityPayload = {
-         "tables": "Units",
-        "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, Properties, _ID=ID",
-        "where": "ReleaseDate > " + today + " and Properties holds \"emblem\"",
+        "tables": "Units",
+        "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, TagID, Properties, _ID=ID",
+        "where": "ReleaseDate > " + today + " and WikiName not like \"%ENEMY\"",
         "order_by": "ReleaseDate DESC",
     }
 
@@ -104,18 +160,31 @@ async def main():
     for entry in unitIdentityQuery["cargoquery"]:
         unitProperties = {}
         dataInside = entry["title"]
+        formattedWikipage = dataInside["WikiName"].replace(" ", "_")
+
         unitProperties["name"] = dataInside["Name"]
         unitProperties["title"] = dataInside["Title"]
         unitProperties["description"] = dataInside["Description"]
-        unitProperties["origin"] = dataInside["Origin"]
         unitProperties["move"] = dataInside["MoveType"]
         unitProperties["artist"] = dataInside["Artist"]
         color, weapon = dataInside["WeaponType"].split(" ")
         unitProperties["color"] = color
         unitProperties["id"] = dataInside["ID"]
         unitProperties["weapon"] = weapon
+        unitProperties["voice"] = dataInside["ActorEN"]
+        unitProperties["internal_id"] = dataInside["TagID"]
+        unitProperties["resplendent"] = False
+        unitProperties["resplendent_voice"] = False
+        unitProperties["images"] = {
+            "portrait": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_Face.webp",
+            "attack": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_BtlFace.webp",
+            "special": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_BtlFace_C.webp",
+            "damage": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_BtlFace_D.webp",
+        }
+        unitProperties["resplendent_images"] = False
+        unitProperties["release"] = dataInside["ReleaseDate"]
         unitProperties["origin"] = " + ".join(convertGameTitle(title) for title in dataInside["Origin"].split(","))
-        if len(dataInside["Gender"]) == 1:
+        if len(dataInside["Gender"]) != 1:
             unitProperties["gender"] = dataInside["Gender"][0]
             # database data is either Female, Male or N
         else:
@@ -137,6 +206,7 @@ async def main():
             specialUnitProperties = {**specialUnitProperties, **legendaryProperties}
         elif "duo" in dbProperties:
             specialUnitProperties["duo"] = await get_duo(client, page)
+        
             
 
         unitProperties = {**unitProperties, **specialUnitProperties }
@@ -146,13 +216,27 @@ async def main():
         jsonDict[heroFullName] = {}
         newUnitsForQueries.append("\"" + heroFullName + "\"")
 
-    unitStatsAndSkillsPayload = {
+    unitStatsPayload = {
         "tables": "UnitStats",
         "fields": "_pageName=Page, Lv1HP5, HPGR3, Lv1Atk5, AtkGR3, Lv1Spd5, SpdGR3, Lv1Def5, DefGR3, Lv1Res5, ResGR3",
         "where": f"_pageName in ({', '.join(newUnitsForQueries)})"
     }
     
-    unitStatsQuery = await client.call_get_api("cargoquery", **unitStatsAndSkillsPayload)    
+    unitStatsQuery = await client.call_get_api("cargoquery", **unitStatsPayload)
+
+    for newUnit in newUnitsForQueries:
+        versionPayload = {
+            "tables": "VersionUpdates",
+            "fields": "CONCAT(Major, '&period;', Minor) = Version",
+            "where": "Date(ReleaseTime) <= '" + json[newUnit]["release"] + "'",
+            "limit": "1",
+            "order_by": "ReleaseTime DESC",
+        }
+        versionQuery = await client.call_get_api("cargoquery", **versionPayload)
+        version = versionQuery["cargoquery"][0]["title"]["Version"]
+        del json[newUnit]["release"]
+        json[newUnit]["version"] = version
+
     for element in unitStatsQuery["cargoquery"]:
         innerData = element["title"]
         page = innerData["Page"]
@@ -172,8 +256,10 @@ async def main():
                 "res": int(innerData["ResGR3"])
             }
         }
+    
+    skills = await get_skills(client, newUnitsForQueries)
 
-    jsonDict[dataInside["Page"]] = {**jsonDict[dataInside["Page"]], **unitProperties}        
+    jsonDict[dataInside["Page"]] = {**jsonDict[dataInside["Page"]], **skills, **unitProperties}        
 
     with open("test.json", "w") as f:
         json.dump(jsonDict, f)
