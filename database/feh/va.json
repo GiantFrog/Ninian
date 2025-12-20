@@ -5269,7 +5269,11 @@
       "Resplendent Quan",
       "Resp Quan",
       "R Quan",
-      "Quan (Resplendent)"
+      "Quan (Resplendent)",
+      "Resplendent Dimitri",
+      "Resp Dimitri",
+      "R Dimitri",
+      "Dimitri (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Christmas Dimitri",
@@ -5383,12 +5387,17 @@
       "Resplendent Quan",
       "Resp Quan",
       "R Quan",
-      "Quan (Resplendent)"
+      "Quan (Resplendent)",
+      "Resplendent Dimitri",
+      "Resp Dimitri",
+      "R Dimitri",
+      "Dimitri (Resplendent)"
     ],
     "heroes": {
       "boey": "<:Green_Tome:1124845959873036289>Boey",
       "dimitri": "<:Blue_Lance:1124845569496584302>Dimitri",
       "dimitri2": "<:Blue_Lance:1124845569496584302>Brave Dimitri",
+      "dimitri2R": "<:Blue_Lance:1124845569496584302>Brave Dimitri (Resplendent)",
       "dimitri3": "<:Blue_Lance:1124845569496584302>Legendary Dimitri",
       "dimitri4": "<:Blue_Lance:1124845569496584302>Fallen Dimitri",
       "dimitri5": "<:Green_Axe:1124845885277343754>Summer Dimitri",

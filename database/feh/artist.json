@@ -30251,5 +30251,23 @@
       "R Lloyd",
       "Lloyd (Resplendent)"
     ]
+  },
+  "bikku": {
+    "heroes": {
+      "dimitri2R": "<:Blue_Lance:1124845569496584302>Brave Dimitri (Resplendent)"
+    },
+    "name": "bikku",
+    "ALT_NAME": [
+      "Resplendent Dimitri",
+      "Resp Dimitri",
+      "R Dimitri",
+      "Dimitri (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Dimitri",
+      "Resp Dimitri",
+      "R Dimitri",
+      "Dimitri (Resplendent)"
+    ]
   }
 }
