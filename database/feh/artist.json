@@ -211,7 +211,12 @@
       "Base Metodey",
       "Normal Metodey",
       "Regular Metodey",
-      "metodey"
+      "metodey",
+      "Winter Shadow",
+      "Zelkov: Winter Shadow",
+      "Christmas Zelkov",
+      "Winter Zelkov",
+      "zelkov"
     ],
     "HARD_ALT_NAME": [
       "innesR",
@@ -278,13 +283,19 @@
       "Base Metodey",
       "Normal Metodey",
       "Regular Metodey",
-      "metodey"
+      "metodey",
+      "Winter Shadow",
+      "Zelkov: Winter Shadow",
+      "Christmas Zelkov",
+      "Winter Zelkov",
+      "zelkov"
     ],
     "heroes": {
       "innesR": "<:Colorless_Bow:1124845636659982457>Innes (Resplendent)",
       "metodey": "<:Colorless_Dagger:1124845658617155734>Metodey",
       "seliph2": "<:Red_Sword:1124846201070698536>Legendary Seliph",
-      "shez": "<:Red_Sword:1124846201070698536>Male Shez"
+      "shez": "<:Red_Sword:1124846201070698536>Male Shez",
+      "zelkov": "<:Colorless_Dagger:1124845658617155734>Christmas Zelkov"
     },
     "name": "Akira Egawa (\u6c5f\u5ddd\u3042\u304d\u3089)"
   },
@@ -4222,7 +4233,12 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "medeus2"
+      "medeus2",
+      "Midwinter Toil",
+      "Gatekeeper: Midwinter Toil",
+      "Christmas Gatekeeper",
+      "Winter Gatekeeper",
+      "gatekeeper2"
     ],
     "HARD_ALT_NAME": [
       "New Experiences",
@@ -4529,13 +4545,19 @@
       "Medeus: Last Earth Dragon",
       "Young Medeus",
       "Y Medeus",
-      "medeus2"
+      "medeus2",
+      "Midwinter Toil",
+      "Gatekeeper: Midwinter Toil",
+      "Christmas Gatekeeper",
+      "Winter Gatekeeper",
+      "gatekeeper2"
     ],
     "heroes": {
       "ashnard": "<:Red_Sword:1124846201070698536>Fallen Ashnard",
       "blackknight": "<:Red_Sword:1124846201070698536>Black Knight",
       "fomortiis": "<:Colorless_Beast:1124845615935918110>Fomortiis",
       "fomortiis2": "<:Red_Beast:1124846309208248381>Winter Fomortiis",
+      "gatekeeper2": "<:Colorless_Tome:1124845725960904734>Christmas Gatekeeper",
       "greil": "<:Green_Axe:1124845885277343754>Valentines Greil",
       "gustav": "<:Green_Axe:1124845885277343754>Valentines Gustav",
       "hardin": "<:Blue_Lance:1124845569496584302>Hardin",
@@ -9863,7 +9885,13 @@
       "I Thea",
       "I F Thea",
       "I T Thea",
-      "thea2"
+      "thea2",
+      "Flurry Embrace",
+      "Ivy: Flurry Embrace",
+      "Christmas Ivy",
+      "Winter Ivy",
+      "Harmonic Ivy",
+      "ivy3"
     ],
     "HARD_ALT_NAME": [
       "Honorable Ninja",
@@ -10067,7 +10095,13 @@
       "I Thea",
       "I F Thea",
       "I T Thea",
-      "thea2"
+      "thea2",
+      "Flurry Embrace",
+      "Ivy: Flurry Embrace",
+      "Christmas Ivy",
+      "Winter Ivy",
+      "Harmonic Ivy",
+      "ivy3"
     ],
     "heroes": {
       "azuraR": "<:Blue_Lance:1124845569496584302>Azura (Resplendent)",
@@ -10079,6 +10113,7 @@
       "erinys": "<:Blue_Lance:1124845569496584302>Erinys",
       "idunn3": "<:Blue_Breath:1124845312637403236>Ascended Idunn",
       "ivy": "<:Blue_Tome:1124845593211191297>Attuned Ivy",
+      "ivy3": "<:Red_Tome:1124846175577710642>Christmas Ivy",
       "kageroR": "<:Colorless_Dagger:1124845658617155734>Kagero (Resplendent)",
       "lyn3R": "<:Colorless_Bow:1124845636659982457>Brave Lyn (Resplendent)",
       "mercedes": "<:Colorless_Staff:1124845704444137592>Mercedes",
@@ -29511,7 +29546,8 @@
   },
   "tetsubuta": {
     "heroes": {
-      "morgan2R": "<:Blue_Tome:1124845593211191297>Female Morgan (Resplendent)"
+      "morgan2R": "<:Blue_Tome:1124845593211191297>Female Morgan (Resplendent)",
+      "seidr3": "<:Green_Tome:1124845959873036289>Christmas Sei\u00f0r"
     },
     "name": "\u3066\u3064\u3076\u305f",
     "ALT_NAME": [
@@ -29519,14 +29555,24 @@
       "Resplendent Female Morgan",
       "Resp Morgan",
       "R F Morgan",
-      "Female Morgan (Resplendent)"
+      "Female Morgan (Resplendent)",
+      "Candlelit Hope",
+      "Sei\u00f0r: Candlelit Hope",
+      "Christmas Seidr",
+      "Winter Seidr",
+      "seidr3"
     ],
     "HARD_ALT_NAME": [
       "Resplendent F Morgan",
       "Resplendent Female Morgan",
       "Resp F Morgan",
       "R F Morgan",
-      "Female Morgan (Resplendent)"
+      "Female Morgan (Resplendent)",
+      "Candlelit Hope",
+      "Sei\u00f0r: Candlelit Hope",
+      "Christmas Seidr",
+      "Winter Seidr",
+      "seidr3"
     ]
   },
   "nanahuzi": {
@@ -29940,6 +29986,7 @@
   },
   "hanada": {
     "heroes": {
+      "alfred2": "<:Blue_Lance:1124845569496584302>Christmas Alfred",
       "marth9": "<:Blue_Lance:1124845569496584302>Gladiator Marth",
       "xane3": "<:Blue_Tome:1124845593211191297>Young Xane"
     },
@@ -29962,7 +30009,12 @@
       "Gladiator Marth",
       "Gladiator Lucina",
       "Ferox Marth",
-      "marth9"
+      "marth9",
+      "Joyous Snowdrop",
+      "Alfred: Joyous Snowdrop",
+      "Christmas Alfred",
+      "Winter Alfred",
+      "alfred2"
     ],
     "HARD_ALT_NAME": [
       "Fickle Dragon",
@@ -29982,7 +30034,12 @@
       "Gladiator Marth",
       "Gladiator Lucina",
       "Ferox Marth",
-      "marth9"
+      "marth9",
+      "Joyous Snowdrop",
+      "Alfred: Joyous Snowdrop",
+      "Christmas Alfred",
+      "Winter Alfred",
+      "alfred2"
     ]
   },
   "tengweiduye": {

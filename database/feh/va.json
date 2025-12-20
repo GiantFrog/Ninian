@@ -7473,7 +7473,12 @@
       "Base Knoll",
       "Normal Knoll",
       "Base Nord",
-      "Normal Nord"
+      "Normal Nord",
+      "Winter Shadow",
+      "Zelkov: Winter Shadow",
+      "Christmas Zelkov",
+      "Winter Zelkov",
+      "zelkov"
     ],
     "HARD_ALT_NAME": [
       "knoll",
@@ -7485,10 +7490,16 @@
       "Base Knoll",
       "Normal Knoll",
       "Base Nord",
-      "Normal Nord"
+      "Normal Nord",
+      "Winter Shadow",
+      "Zelkov: Winter Shadow",
+      "Christmas Zelkov",
+      "Winter Zelkov",
+      "zelkov"
     ],
     "heroes": {
-      "knoll": "<:Red_Tome:1124846175577710642>Knoll"
+      "knoll": "<:Red_Tome:1124846175577710642>Knoll",
+      "zelkov": "<:Colorless_Dagger:1124845658617155734>Christmas Zelkov"
     },
     "name": "David Matranga"
   },
@@ -16238,7 +16249,12 @@
       "Base Asbel",
       "Normal Asbel",
       "Base Asvel",
-      "Normal Asvel"
+      "Normal Asvel",
+      "Midwinter Toil",
+      "Gatekeeper: Midwinter Toil",
+      "Christmas Gatekeeper",
+      "Winter Gatekeeper",
+      "gatekeeper2"
     ],
     "HARD_ALT_NAME": [
       "asbel",
@@ -16250,10 +16266,16 @@
       "Base Asbel",
       "Normal Asbel",
       "Base Asvel",
-      "Normal Asvel"
+      "Normal Asvel",
+      "Midwinter Toil",
+      "Gatekeeper: Midwinter Toil",
+      "Christmas Gatekeeper",
+      "Winter Gatekeeper",
+      "gatekeeper2"
     ],
     "heroes": {
-      "asbel": "<:Green_Tome:1124845959873036289>Asbel"
+      "asbel": "<:Green_Tome:1124845959873036289>Asbel",
+      "gatekeeper2": "<:Colorless_Tome:1124845725960904734>Christmas Gatekeeper"
     },
     "name": "Kylen Deporter"
   },
@@ -22182,7 +22204,13 @@
       "Resplendent Titania",
       "Resp Titania",
       "R Titania",
-      "Titania (Resplendent)"
+      "Titania (Resplendent)",
+      "Flurry Embrace",
+      "Ivy: Flurry Embrace",
+      "Christmas Ivy",
+      "Winter Ivy",
+      "Harmonic Ivy",
+      "ivy3"
     ],
     "HARD_ALT_NAME": [
       "Adrift Camilla",
@@ -22303,7 +22331,13 @@
       "Resplendent Titania",
       "Resp Titania",
       "R Titania",
-      "Titania (Resplendent)"
+      "Titania (Resplendent)",
+      "Flurry Embrace",
+      "Ivy: Flurry Embrace",
+      "Christmas Ivy",
+      "Winter Ivy",
+      "Harmonic Ivy",
+      "ivy3"
     ],
     "heroes": {
       "camilla": "<:Green_Axe:1124845885277343754>Camilla",
@@ -22319,6 +22353,7 @@
       "camilla9": "<:Green_Tome:1124845959873036289>Legendary Camilla",
       "camillaR": "<:Green_Axe:1124845885277343754>Camilla (Resplendent)",
       "hinoka4": "<:Green_Bow:1124845936426897428>Duo Hinoka",
+      "ivy3": "<:Red_Tome:1124846175577710642>Christmas Ivy",
       "titania": "<:Green_Axe:1124845885277343754>Titania",
       "titania2": "<:Red_Tome:1124846175577710642>Valentines Titania",
       "titaniaR": "<:Green_Axe:1124845885277343754>Titania (Resplendent)",
@@ -22589,7 +22624,12 @@
       "Arm Alfredo",
       "Rearmed Albert",
       "Rearm Albert",
-      "Arm Albert"
+      "Arm Albert",
+      "Joyous Snowdrop",
+      "Alfred: Joyous Snowdrop",
+      "Christmas Alfred",
+      "Winter Alfred",
+      "alfred2"
     ],
     "HARD_ALT_NAME": [
       "alfred",
@@ -22611,10 +22651,16 @@
       "Arm Alfredo",
       "Rearmed Albert",
       "Rearm Albert",
-      "Arm Albert"
+      "Arm Albert",
+      "Joyous Snowdrop",
+      "Alfred: Joyous Snowdrop",
+      "Christmas Alfred",
+      "Winter Alfred",
+      "alfred2"
     ],
     "heroes": {
-      "alfred": "<:Blue_Lance:1124845569496584302>Rearmed Alfred"
+      "alfred": "<:Blue_Lance:1124845569496584302>Rearmed Alfred",
+      "alfred2": "<:Blue_Lance:1124845569496584302>Christmas Alfred"
     },
     "name": "Nick Wolfhard"
   },
@@ -24278,7 +24324,13 @@
       "Attuned Ivy",
       "Jill: Fiery Dracoknight",
       "Ivy: Tidal Breeze",
-      "Regular Ivy"
+      "Regular Ivy",
+      "Flurry Embrace",
+      "Ivy: Flurry Embrace",
+      "Christmas Ivy",
+      "Winter Ivy",
+      "Harmonic Ivy",
+      "ivy3"
     ],
     "HARD_ALT_NAME": [
       "ivy2",
@@ -24308,12 +24360,19 @@
       "Attuned Ivy",
       "Ivy: Tidal Breeze",
       "Base Jill",
-      "abbey"
+      "abbey",
+      "Flurry Embrace",
+      "Ivy: Flurry Embrace",
+      "Christmas Ivy",
+      "Winter Ivy",
+      "Harmonic Ivy",
+      "ivy3"
     ],
     "heroes": {
       "farina": "<:Blue_Lance:1124845569496584302>Farina",
       "ivy": "<:Blue_Tome:1124845593211191297>Attuned Ivy",
       "ivy2": "<:Green_Tome:1124845959873036289>Summer Ivy",
+      "ivy3": "<:Red_Tome:1124846175577710642>Christmas Ivy",
       "jill": "<:Green_Axe:1124845885277343754>Jill"
     },
     "name": "Reba Buhr"
@@ -27970,7 +28029,12 @@
       "Gullveig: Hidden in Time",
       "Ninja Gullveig",
       "duo gullveig2",
-      "gullveig4"
+      "gullveig4",
+      "Candlelit Hope",
+      "Sei\u00f0r: Candlelit Hope",
+      "Christmas Seidr",
+      "Winter Seidr",
+      "seidr3"
     ],
     "HARD_ALT_NAME": [
       "Kvasir: Seer of the Past",
@@ -28006,14 +28070,20 @@
       "Gullveig: Hidden in Time",
       "Ninja Gullveig",
       "duo gullveig2",
-      "gullveig4"
+      "gullveig4",
+      "Candlelit Hope",
+      "Sei\u00f0r: Candlelit Hope",
+      "Christmas Seidr",
+      "Winter Seidr",
+      "seidr3"
     ],
     "heroes": {
       "gullveig4": "<:Colorless_Tome:1124845725960904734>Ninja Gullveig",
       "kvasir": "<:Red_Tome:1124846175577710642>Kvasir",
       "kvasir2": "<:Green_Tome:1124845959873036289>New Year Kvasir",
       "seidr": "<:Green_Tome:1124845959873036289>Sei\u00f0r",
-      "seidr2": "<:Blue_Tome:1124845593211191297>New Year Sei\u00f0r"
+      "seidr2": "<:Blue_Tome:1124845593211191297>New Year Sei\u00f0r",
+      "seidr3": "<:Green_Tome:1124845959873036289>Christmas Sei\u00f0r"
     },
     "name": "Valeria Rodriguez"
   },
