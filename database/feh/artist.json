@@ -30320,5 +30320,23 @@
       "R Dimitri",
       "Dimitri (Resplendent)"
     ]
+  },
+  "sakanahen": {
+    "heroes": {
+      "myrrhR": "<:Green_Breath:1124845770978361425>Myrrh (Resplendent)"
+    },
+    "name": "\u3055\u304b\u306a\u3078\u3093",
+    "ALT_NAME": [
+      "Resplendent Myrrh",
+      "Resp Myrrh",
+      "R Myrrh",
+      "Myrrh (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Myrrh",
+      "Resp Myrrh",
+      "R Myrrh",
+      "Myrrh (Resplendent)"
+    ]
   }
 }

@@ -9420,7 +9420,11 @@
       "Celica: Sunlit Priestesses",
       "Summer Celica",
       "Harmonic Celica",
-      "celica7"
+      "celica7",
+      "Resplendent Myrrh",
+      "Resp Myrrh",
+      "R Myrrh",
+      "Myrrh (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Imprisoned Soul",
@@ -9576,7 +9580,11 @@
       "Celica: Sunlit Priestesses",
       "Summer Celica",
       "Harmonic Celica",
-      "celica7"
+      "celica7",
+      "Resplendent Myrrh",
+      "Resp Myrrh",
+      "R Myrrh",
+      "Myrrh (Resplendent)"
     ],
     "heroes": {
       "alm4": "<:Green_Axe:1124845885277343754>Duo Alm",
@@ -9593,7 +9601,8 @@
       "myrrh2": "<:Red_Breath:1124846247673610240>Halloween Myrrh",
       "myrrh3": "<:Colorless_Breath:1124845679076978798>Harmonic Myrrh",
       "myrrh4": "<:Blue_Breath:1124845312637403236>Legendary Myrrh",
-      "myrrh5": "<:Colorless_Breath:1124845679076978798>Valentines Myrrh"
+      "myrrh5": "<:Colorless_Breath:1124845679076978798>Valentines Myrrh",
+      "myrrhR": "<:Green_Breath:1124845770978361425>Myrrh (Resplendent)"
     },
     "name": "Erica Lindbeck"
   },
