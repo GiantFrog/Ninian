@@ -328,7 +328,13 @@
       "Resplendent Catria",
       "Resp Catria",
       "R Catria",
-      "Catria (Resplendent)"
+      "Catria (Resplendent)",
+      "Of Rivals",
+      "Edelgard: Of Rivals",
+      "Emblem Edelgard",
+      "Engage Edelgard",
+      "E Edelgard",
+      "edelgard8"
     ],
     "HARD_ALT_NAME": [
       "T Laila",
@@ -367,11 +373,18 @@
       "Resplendent Catria",
       "Resp Catria",
       "R Catria",
-      "Catria (Resplendent)"
+      "Catria (Resplendent)",
+      "Of Rivals",
+      "Edelgard: Of Rivals",
+      "Emblem Edelgard",
+      "Engage Edelgard",
+      "E Edelgard",
+      "edelgard8"
     ],
     "heroes": {
       "altina3": "<:Green_Axe:1124845885277343754>Nabata Altina",
       "catriaR": "<:Blue_Lance:1124845569496584302>Catria (Resplendent)",
+      "edelgard8": "<:Green_Axe:1124845885277343754>Emblem Edelgard",
       "leila2": "<:Red_Tome:1124846175577710642>Thief Leila",
       "lucina4R": "<:Blue_Lance:1124845569496584302>Brave Lucina (Resplendent)"
     },
@@ -6591,7 +6604,12 @@
       "Brides of Light",
       "Julia: Brides of Light",
       "Bridal Julia",
-      "julia5"
+      "julia5",
+      "New Year's Elite",
+      "Baldr: New Year's Elite",
+      "New Year Baldr",
+      "duo baldr",
+      "baldr3"
     ],
     "HARD_ALT_NAME": [
       "effie",
@@ -6689,9 +6707,15 @@
       "Bridal Julia",
       "julia5",
       "B Julia",
-      "Duo Julia"
+      "Duo Julia",
+      "New Year's Elite",
+      "Baldr: New Year's Elite",
+      "New Year Baldr",
+      "duo baldr",
+      "baldr3"
     ],
     "heroes": {
+      "baldr3": "<:Blue_Lance:1124845569496584302>New Year Baldr",
       "edelgard2": "<:Green_Axe:1124845885277343754>Legendary Edelgard",
       "effie": "<:Blue_Lance:1124845569496584302>Effie",
       "eir3": "<:Green_Dagger:1124845796169351320>Ascended Eir",
@@ -8410,7 +8434,11 @@
       "Rearmed Nuibaba",
       "Rearm Nuibaba",
       "Arm Nuibaba",
-      "nuibaba"
+      "nuibaba",
+      "New Year's Vision",
+      "Heimdallr: New Year's Vision",
+      "New Year Heimdallr",
+      "heimdallr2"
     ],
     "HARD_ALT_NAME": [
       "eremiya",
@@ -8431,10 +8459,15 @@
       "Rearmed Nuibaba",
       "Rearm Nuibaba",
       "Arm Nuibaba",
-      "nuibaba"
+      "nuibaba",
+      "New Year's Vision",
+      "Heimdallr: New Year's Vision",
+      "New Year Heimdallr",
+      "heimdallr2"
     ],
     "heroes": {
       "eremiya": "<:Colorless_Staff:1124845704444137592>Eremiya",
+      "heimdallr2": "<:Green_Tome:1124845959873036289>New Year Heimdallr",
       "nuibaba": "<:Blue_Tome:1124845593211191297>Rearmed Nuibaba"
     },
     "name": "Homare (\u8a89)"
@@ -17343,7 +17376,11 @@
       "Resplendent Henry",
       "Resp Henry",
       "R Henry",
-      "Henry (Resplendent)"
+      "Henry (Resplendent)",
+      "Festive Horseman",
+      "Sedgar: Festive Horseman",
+      "New Year Sedgar",
+      "sedgar2"
     ],
     "HARD_ALT_NAME": [
       "Petrine",
@@ -17453,7 +17490,11 @@
       "Resplendent Henry",
       "Resp Henry",
       "R Henry",
-      "Henry (Resplendent)"
+      "Henry (Resplendent)",
+      "Festive Horseman",
+      "Sedgar: Festive Horseman",
+      "New Year Sedgar",
+      "sedgar2"
     ],
     "heroes": {
       "arion": "<:Blue_Lance:1124845569496584302>Arion",
@@ -17468,7 +17509,8 @@
       "ludveck": "<:Green_Axe:1124845885277343754>Ludveck",
       "pandreo": "<:Colorless_Staff:1124845704444137592>Pandreo",
       "petrine": "<:Blue_Lance:1124845569496584302>Petrine",
-      "sedgar": "<:Green_Bow:1124845936426897428>Sedgar"
+      "sedgar": "<:Green_Bow:1124845936426897428>Sedgar",
+      "sedgar2": "<:Colorless_Bow:1124845636659982457>New Year Sedgar"
     },
     "name": "motsutsu"
   },
@@ -29396,7 +29438,8 @@
   },
   "eku": {
     "heroes": {
-      "leila3": "<:Colorless_Dagger:1124845658617155734>Rearmed Leila"
+      "leila3": "<:Colorless_Dagger:1124845658617155734>Rearmed Leila",
+      "v\u00e1li2": "<:Red_Tome:1124846175577710642>New Year V\u00e1li"
     },
     "name": "\u3048\u304f",
     "ALT_NAME": [
@@ -29405,7 +29448,11 @@
       "Rearmed Leila",
       "Rearm Leila",
       "Arm Leila",
-      "leila3"
+      "leila3",
+      "Devoted Sister",
+      "V\u00e1li: Devoted Sister",
+      "New Year V\u00e1li",
+      "v\u00e1li2"
     ],
     "HARD_ALT_NAME": [
       "Superb Shadow",
@@ -29413,7 +29460,11 @@
       "Rearmed Leila",
       "Rearm Leila",
       "Arm Leila",
-      "leila3"
+      "leila3",
+      "Devoted Sister",
+      "V\u00e1li: Devoted Sister",
+      "New Year V\u00e1li",
+      "v\u00e1li2"
     ]
   },
   "aiwo": {
@@ -30268,6 +30319,24 @@
       "Resp Dimitri",
       "R Dimitri",
       "Dimitri (Resplendent)"
+    ]
+  },
+  "sakanahen": {
+    "heroes": {
+      "myrrhR": "<:Green_Breath:1124845770978361425>Myrrh (Resplendent)"
+    },
+    "name": "\u3055\u304b\u306a\u3078\u3093",
+    "ALT_NAME": [
+      "Resplendent Myrrh",
+      "Resp Myrrh",
+      "R Myrrh",
+      "Myrrh (Resplendent)"
+    ],
+    "HARD_ALT_NAME": [
+      "Resplendent Myrrh",
+      "Resp Myrrh",
+      "R Myrrh",
+      "Myrrh (Resplendent)"
     ]
   }
 }
