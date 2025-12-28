@@ -26759,7 +26759,13 @@
       "Resplendent Edelgard",
       "Resp Edelgard",
       "R Edelgard",
-      "Edelgard (Resplendent)"
+      "Edelgard (Resplendent)",
+      "Of Rivals",
+      "Edelgard: Of Rivals",
+      "Emblem Edelgard",
+      "Engage Edelgard",
+      "E Edelgard",
+      "edelgard8"
     ],
     "HARD_ALT_NAME": [
       "S Edelgard",
@@ -26880,7 +26886,13 @@
       "Resplendent Edelgard",
       "Resp Edelgard",
       "R Edelgard",
-      "Edelgard (Resplendent)"
+      "Edelgard (Resplendent)",
+      "Of Rivals",
+      "Edelgard: Of Rivals",
+      "Emblem Edelgard",
+      "Engage Edelgard",
+      "E Edelgard",
+      "edelgard8"
     ],
     "heroes": {
       "edelgard": "<:Green_Axe:1124845885277343754>Edelgard",
@@ -26891,6 +26903,7 @@
       "edelgard5": "<:Red_Sword:1124846201070698536>Harmonic Edelgard",
       "edelgard6": "<:Blue_Lance:1124845569496584302>Winter Edelgard",
       "edelgard7": "<:Green_Axe:1124845885277343754>Valentines Edelgard",
+      "edelgard8": "<:Green_Axe:1124845885277343754>Emblem Edelgard",
       "edelgardR": "<:Green_Axe:1124845885277343754>Edelgard (Resplendent)",
       "flavia": "<:Red_Sword:1124846201070698536>Flavia",
       "flavia2": "<:Red_Sword:1124846201070698536>Bridal Flavia",
@@ -31532,7 +31545,8 @@
   "samslade": {
     "heroes": {
       "baldr": "<:Red_Sword:1124846201070698536> Baldr",
-      "baldr2": "<:Blue_Bow:1124845525695475845>Brave Baldr"
+      "baldr2": "<:Blue_Bow:1124845525695475845>Brave Baldr",
+      "baldr3": "<:Blue_Lance:1124845569496584302>New Year Baldr"
     },
     "name": "Sam Slade",
     "ALT_NAME": [
@@ -31552,7 +31566,12 @@
       "Baldr: Rays of Judgment",
       "Brave Baldr",
       "CYL Baldr",
-      "baldr2"
+      "baldr2",
+      "New Year's Elite",
+      "Baldr: New Year's Elite",
+      "New Year Baldr",
+      "duo baldr",
+      "baldr3"
     ],
     "HARD_ALT_NAME": [
       "Celestial Sun God",
@@ -31571,11 +31590,17 @@
       "Baldr: Rays of Judgment",
       "Brave Baldr",
       "CYL Baldr",
-      "baldr2"
+      "baldr2",
+      "New Year's Elite",
+      "Baldr: New Year's Elite",
+      "New Year Baldr",
+      "duo baldr",
+      "baldr3"
     ]
   },
   "emilo": {
     "heroes": {
+      "baldr3": "<:Blue_Lance:1124845569496584302>New Year Baldr",
       "hodr": "<:Blue_Bow:1124845525695475845> H\u00f6\u00f0r"
     },
     "name": "Emi Lo",
@@ -31591,7 +31616,12 @@
       "Base H\u00f6\u00f0r",
       "Normal H\u00f6\u00f0r",
       "Regular H\u00f6\u00f0r",
-      "hodr"
+      "hodr",
+      "New Year's Elite",
+      "Baldr: New Year's Elite",
+      "New Year Baldr",
+      "duo baldr",
+      "baldr3"
     ],
     "HARD_ALT_NAME": [
       "Dusk Shadow God",
@@ -31605,7 +31635,12 @@
       "Base H\u00f6\u00f0r",
       "Normal H\u00f6\u00f0r",
       "Regular H\u00f6\u00f0r",
-      "hodr"
+      "hodr",
+      "New Year's Elite",
+      "Baldr: New Year's Elite",
+      "New Year Baldr",
+      "duo baldr",
+      "baldr3"
     ]
   },
   "takeuchishunsuke": {
@@ -31771,18 +31806,27 @@
   },
   "elsielovelock": {
     "heroes": {
-      "heimdallr": "<:Blue_Tome:1124845593211191297>Heimdallr"
+      "heimdallr": "<:Blue_Tome:1124845593211191297>Heimdallr",
+      "heimdallr2": "<:Green_Tome:1124845959873036289>New Year Heimdallr"
     },
     "name": "Elsie Lovelock",
     "ALT_NAME": [
       "God of Foresight",
       "Heimdallr: God of Foresight",
-      "heimdallr"
+      "heimdallr",
+      "New Year's Vision",
+      "Heimdallr: New Year's Vision",
+      "New Year Heimdallr",
+      "heimdallr2"
     ],
     "HARD_ALT_NAME": [
       "God of Foresight",
       "Heimdallr: God of Foresight",
-      "heimdallr"
+      "heimdallr",
+      "New Year's Vision",
+      "Heimdallr: New Year's Vision",
+      "New Year Heimdallr",
+      "heimdallr2"
     ]
   },
   "markwhitten": {
@@ -31805,18 +31849,27 @@
   },
   "miapaige": {
     "heroes": {
-      "vali": "<:Green_Tome:1124845959873036289>V\u00e1li"
+      "vali": "<:Green_Tome:1124845959873036289>V\u00e1li",
+      "v\u00e1li2": "<:Red_Tome:1124846175577710642>New Year V\u00e1li"
     },
     "name": "Mia Paige",
     "ALT_NAME": [
       "God of Vengeance",
       "V\u00e1li: God of Vengeance",
-      "vali"
+      "vali",
+      "Devoted Sister",
+      "V\u00e1li: Devoted Sister",
+      "New Year V\u00e1li",
+      "v\u00e1li2"
     ],
     "HARD_ALT_NAME": [
       "God of Vengeance",
       "V\u00e1li: God of Vengeance",
-      "vali"
+      "vali",
+      "Devoted Sister",
+      "V\u00e1li: Devoted Sister",
+      "New Year V\u00e1li",
+      "v\u00e1li2"
     ]
   },
   "kelseyjaffer": {
@@ -31839,6 +31892,24 @@
       "Rearm Vanitas",
       "Arm Vanitas",
       "vanitas"
+    ]
+  },
+  "brandonjay": {
+    "heroes": {
+      "sedgar2": "<:Colorless_Bow:1124845636659982457>New Year Sedgar"
+    },
+    "name": "Brandon Jay",
+    "ALT_NAME": [
+      "Festive Horseman",
+      "Sedgar: Festive Horseman",
+      "New Year Sedgar",
+      "sedgar2"
+    ],
+    "HARD_ALT_NAME": [
+      "Festive Horseman",
+      "Sedgar: Festive Horseman",
+      "New Year Sedgar",
+      "sedgar2"
     ]
   }
 }
