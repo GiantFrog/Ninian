@@ -5,146 +5,19 @@ import os
 import json
 import sys
 from datetime import datetime
+from special_heroes import get_harmonized, get_emblem, get_legendary, get_duo
+from utils import is_superboon_or_superbane, convert_game_title
+from queries import get_unit_skills
 # prevent "runtime error" errors
 if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 load_dotenv()
 
-def is_superboon_or_superbane(growthRate):
-    match growthRate:
-        case 30 | 50 | 75 | 95:
-            return "superbane"
-        case 25 | 45 | 70 | 90:
-            return "superboon"
-        case _:
-            return ""
-
-async def get_skills(client, units):
-    unitSkillsPayload = {
-        "tables": "UnitSkills, Skills",
-        "fields": "UnitSkills._pageName=UnitPage, Skills.Name=SkillName, skillPos, unlockRarity, Scategory, Description",
-        "where": f"UnitSkills._pageName in ({', '.join(units)})",
-        "join_on": "Skills.WikiName = UnitSkills.skill",
-        "order_by": "Scategory DESC, defaultRarity ASC",
-    }
-    unitSkillsQuery = await client.call_get_api("cargoquery", **unitSkillsPayload)
-
-    output = {}
-
-    for result in unitSkillsQuery["cargoquery"]:
-        content = result["title"]
-        unit = content["UnitPage"]
-        if unit not in output:
-            output[unit] = {
-                "weapons": {},
-                "assist": {},
-                "special": {},
-                "passive": {
-                    "A": {},
-                    "B": {},
-                    "C": {},
-                    "X": {},
-                }
-            }
-        match content["Scategory"]:
-            case "passivea":
-                output[unit]["passive"]["A"][content["SkillName"]] = content["unlockRarity"]
-                break
-            case "passiveb":
-                output[unit]["passive"]["B"][content["SkillName"]] = content["unlockRarity"]
-                break
-            case "passivec":
-                output[unit]["passive"]["C"][content["SkillName"]] = content["unlockRarity"]
-                break
-            case "passivex":
-                output[unit]["passive"]["X"][content["SkillName"]] = content["unlockRarity"]
-            case "weapon":
-                output[unit]["weapons"][content["SkillName"]] = content["unlockRarity"]
-                break
-            case "assist":
-                output[unit]["assist"][content["SkillName"]] = content["unlockRarity"]
-                break
-            case "special":
-                output[unit]["special"][content["SkillName"]] = content["unlockRarity"]
-    
-    return output
-    
-
-
-
-
-async def get_duo(client, page):
-    duoPayload = {
-        "tables": "DuoHero",
-        "fields": "DuoSkill, Duel",
-        "where": "_pageName = \"" + page + "\"",
-    }
-    duoQuery = await client.call_get_api("cargoquery", **duoPayload)
-    return duoQuery["cargoquery"][0]["title"]["DuoSkill"]
-
-async def get_legendary(client, page):
-    legendaryPayload = {
-        "tables": "LegendaryHero",
-        "fields": "LegendaryEffect, AllyBoostHP, AllyBoostAtk, AllyBoostSpd, AllyBoostDef, AllyBoostRes, Duel",
-        "where": "_pageName = \"" + page + "\"",
-    }
-    legendaryQuery = await client.call_get_api("cargoquery", **legendaryPayload)
-    legendaryData = legendaryQuery["cargoquery"][0]["title"]
-    stats = {}
-    boost_map = {
-        "AllyBoostHP": "hp",
-        "AllyBoostAtk": "atk",
-        "AllyBoostSpd": "spd",
-        "AllyBoostDef": "def",
-        "AllyBoostRes": "res",
-    }
-
-    for src, dst in boost_map.items():
-        value = int(legendaryData.get(src, 0))
-        if value != 0:
-            stats[dst] = value
-    returnedData = {
-        "type": "legendary",
-        "blessing": legendaryData["LegendaryEffect"],
-        "stats": stats,
-        "duel": legendaryData["Duel"],
-    }
-    return returnedData
-
-async def get_emblem(client, page):
-    emblemPayload = {
-        "tables": "EmblemHero",
-        "fields": "Effect",
-        "where": "_pageName = \"" + page + "\"",
-    }
-    emblemQuery = await client.call_get_api("cargoquery", **emblemPayload)
-    return emblemQuery["cargoquery"][0]["title"]["Effect"]
-
-async def get_harmonized(client, page):
-    harmonizedPayload = {
-        "tables": "HarmonizedHero",
-        "fields": "HarmonizedSkill",
-        "where": "_pageName = \"" + page + "\"",
-    }
-    harmonizedQuery = await client.call_get_api("cargoquery", **harmonizedPayload)
-    return harmonizedQuery["cargoquery"][0]["title"]["HarmonizedSkill"]
-
-# convert game titles as received from the db
-def convertGameTitle(title):
-    match title:
-        case "Fire Emblem Echoes: Shadows of Valentia":
-            return "Echoes"
-        case "Fire Emblem Warriors: Three Hopes":
-            return "Three Houses"
-        case _:
-            return title.replace("Fire Emblem", "").replace(":", "").strip()
-
 async def main():
     client = Bot(sitename="https://feheroes.fandom.com", api="https://feheroes.fandom.com/api.php", index="https://feheroes.fandom.com/wiki/Main_Page", username=os.environ["FEH_BOT_USERNAME"], password=os.environ["FEH_BOT_PASSWORD"])
     await client.login()
     jsonDict = {}
-
 
     today = datetime.today().strftime('%Y-%m-%d')
 
@@ -183,7 +56,7 @@ async def main():
         }
         unitProperties["resplendent_images"] = False
         unitProperties["release"] = dataInside["ReleaseDate"]
-        unitProperties["origin"] = " + ".join(convertGameTitle(title) for title in dataInside["Origin"].split(","))
+        unitProperties["origin"] = " + ".join(convert_game_title(title) for title in dataInside["Origin"].split(","))
         if len(dataInside["Gender"]) != 1:
             unitProperties["gender"] = dataInside["Gender"][0]
             # database data is either Female, Male or N
@@ -197,17 +70,18 @@ async def main():
             "duo": False,
             "duel": False,
         }
+
+        page = dataInside["Page"]
+        
         if "emblem" in dbProperties:
-            specialUnitProperties["emblem"] = await get_emblem(client, dataInside["Page"])
+            specialUnitProperties["emblem"] = await get_emblem(client, page)
         elif "harmonized" in dbProperties:
-            specialUnitProperties["harmonized"] = await get_harmonized(client, dataInside["Page"])
+            specialUnitProperties["harmonized"] = await get_harmonized(client, page)
         elif "legendary" in dbProperties:
             legendaryProperties = await get_legendary(client, page)
             specialUnitProperties = {**specialUnitProperties, **legendaryProperties}
         elif "duo" in dbProperties:
             specialUnitProperties["duo"] = await get_duo(client, page)
-        
-            
 
         unitProperties = {**unitProperties, **specialUnitProperties }
 
@@ -228,7 +102,7 @@ async def main():
         versionPayload = {
             "tables": "VersionUpdates",
             "fields": "CONCAT(Major, '&period;', Minor) = Version",
-            "where": "Date(ReleaseTime) <= '" + json[newUnit]["release"] + "'",
+            "where": "Date(ReleaseTime) >= '" + json[newUnit]["release"] + "'",
             "limit": "1",
             "order_by": "ReleaseTime DESC",
         }
@@ -257,7 +131,7 @@ async def main():
             }
         }
     
-    skills = await get_skills(client, newUnitsForQueries)
+    skills = await get_unit_skills(client, newUnitsForQueries)
 
     jsonDict[dataInside["Page"]] = {**jsonDict[dataInside["Page"]], **skills, **unitProperties}        
 
