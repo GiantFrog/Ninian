@@ -1,546 +1,358 @@
 {
-  "edelgard8": {
-    "name": "Edelgard",
-    "title": "Of Rivals",
-    "description": "One of the Emblems who were summoned to another Elyos. Resides in the Bracelet of the Three Houses. Appears in Fire Emblem: Three Houses / Engage.",
-    "origin": "Three Houses + Engage",
-    "artist": "Akka (\u3042\u3063\u304b)",
-    "move": "Armored",
-    "weapon": "Axe",
-    "color": "Green",
+  "larachel5": {
+    "name": "L'Arachel",
+    "title": "Justice-Armed",
+    "description": "Niece of Mansel, the Divine Emperor of Rausten. With a new weapon at her side, she travels the land preaching justice and order. Appears in Fire Emblem: The Sacred Stones.",
+    "origin": "The Sacred Stones",
+    "artist": "\u3055\u3070\u307f\u305e\u308c",
+    "move": "Cavalry",
+    "weapon": "Staff",
+    "color": "Colorless",
     "duel": false,
-    "id": "1328",
-    "type": "emblem",
-    "version": "10.0",
+    "id": "1333",
+    "type": "rearmed",
+    "version": "10.1",
     "duo": false,
-    "harmonized": false,
-    "emblem": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nIf unit initiates combat, grants another action to unit after combat (once per turn; triggers only when unit's Range = 1).\nNeutralizes effects that grant unit another action after combat and after unit acts and effects that are triggered at those times (such as effects that re-enable Canto after Canto triggers or effects that inflict Gravity on unit and unit's Pair Up cohort); does not apply to Specials like Galeforce that grant unit another action when triggered, status effects like Share Spoils, or effects that grant unit another action if an Assist skill is used.",
-    "base": {
-      "hp": 23,
-      "atk": 10,
-      "spd": 8,
-      "def": 14,
-      "res": 7
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 90,
-      "spd": 50,
-      "def": 80,
-      "res": 70
-    },
-    "superboon": [
-      "atk",
-      "res"
-    ],
-    "superbane": [
-      "spd"
-    ],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Black Eagle Axe": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "United Storm": "5"
-    },
-    "passive": {
-      "A": {
-        "Strat Flame 1": "2",
-        "Strat Flame 2": "3",
-        "Strat Flame 3": "4",
-        "Strat Flame 4": "5"
-      },
-      "B": {
-        "Quick Riposte 1": "2",
-        "Quick Riposte 2": "3",
-        "Quick Riposte 3": "4",
-        "Patience": "5"
-      },
-      "C": {
-        "Strat Assault 1": "2",
-        "Strat Assault 2": "3",
-        "Strat Assault 3": "4",
-        "Strat Assault 4": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d4/Edelgard_Of_Rivals_Face.webp/revision/latest?cb=20251225052502",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/16/Edelgard_Of_Rivals_BtlFace_D.webp/revision/latest?cb=20251225052457",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/92/Edelgard_Of_Rivals_BtlFace_C.webp/revision/latest?cb=20251225052452",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4f/Edelgard_Of_Rivals_BtlFace.webp/revision/latest?cb=20251225052437"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Of Rivals",
-      "Edelgard: Of Rivals",
-      "Emblem Edelgard",
-      "Engage Edelgard",
-      "E Edelgard",
-      "edelgard8"
-    ],
-    "HARD_ALT_NAME": [
-      "Of Rivals",
-      "Edelgard: Of Rivals",
-      "Emblem Edelgard",
-      "Engage Edelgard",
-      "E Edelgard",
-      "edelgard8"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u7d0b\u7ae0\u30a8\u30fc\u30c7\u30eb",
-    "voice": "Tara Platt",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "fodlan"
-    ],
-    "chibi": "fodlan",
-    "quotes": {
-      "Castle Hall": [
-        "A me from the Officers Academy is here. It is odd. We look alike, but only I know where her journey takes her.",
-        "Though ruled by dragons, Elyos lacks the corruption I despise. Besides, the Divine Dragon there was already...",
-        "Everyone in the Black Eagle House is still precious to me. I may no longer lead them, but I hope to see them.",
-        "I can eat and drink here, so I wish to try the teas I used to share with the professor. Would you like to join me?",
-        "Dimitri, Claude, and I now fight as one. It can now be said that they have become trusted allies."
-      ],
-      "Visit": [
-        "This greeting is a show of friendship from [F].\nI suspect I will be visiting this castle again in the future."
-      ],
-      "Level": [
-        "A positive result. Dimitri and Claude will also be pleased with this.",
-        "Such notable improvement comes as no surprise. Now, shall we continue to the next battle?",
-        "Pessimism serves no purpose now, for this is not the end."
-      ],
-      "Summon": [
-        "I am Emblem Edelgard. I entrust you with my power that you might wield it as your heart desires."
-      ],
-      "Learn Skill": [
-        "It is important to have power, as an Emblem and as an individual Hero."
-      ],
-      "Confession": [
-        "Is something wrong, Summoner? You are eyeing me with such interest. Is it that my expression seems too soft?\nIt makes sense that you might think so if you knew only the me in F\u00f3dlan. I do not bear the same burdens.\nAs an Emblem, I existed apart from the world of F\u00f3dlan, and the Elyos I manifested in was destroyed.\nMy...our purpose is to unite in the effort of fighting alongside you to support your goals and values.\nAt times, you seem mysterious, like the professor or the Divine Dragon. Please, allow me to stay by your side."
-      ],
-      "Special": [
-        "Houses unite!",
-        "Emblem guide you!",
-        "I will unify them!",
-        "Emblem engage!"
-      ],
-      "Status": [
-        "-",
-        "This world is very comfortable. I feel as though...I can simply be myself.",
-        "Ahhh! Oh... I apologize for losing my composure. I am still getting used to being able to feel it when I am touched.",
-        "If you are looking for Dimitri and Claude, they are not with me right now. It is only me.",
-        "I was sealed away in Elyos for a long time. By the time I awakened, the world was already headed for ruin.",
-        "\"Lead us, Emblem of Rivals...\" That is the invocation that summoned us. Have you memorized it?",
-        "We were three Emblems in one, so it is lonely being by myself. Although the quiet is a refreshing change.",
-        "This version of me is an Emblem. An entity that doesn't follow a separate path. I will endeavor to be worthy of everyone's trust."
-      ],
-      "Map Select": [
-        "Certainly.",
-        "We will win.",
-        "Expect greatness."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Emblem Edelgard",
-    "SEARCH_NAME": "Emblem Edelgard",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Emblem Edelgard",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "edelgard",
-      "edelgard2",
-      "edelgard3",
-      "edelgard4",
-      "edelgard5",
-      "edelgard6",
-      "edelgard7"
-    ],
-    "prf": {
-      "": "blackeagleaxe",
-      "eff": "blackeagleaxe",
-      "atk": "blackeagleaxe",
-      "spd": "blackeagleaxe",
-      "def": "blackeagleaxe",
-      "res": "blackeagleaxe"
-    }
-  },
-  "baldr3": {
-    "name": "Baldr",
-    "title": "New Year's Elite",
-    "description": "Gods of \u00c1sgar\u00f0r, the celestial realm, who descend from the heavens to deliver the best possible New Year.",
-    "origin": "Heroes",
-    "artist": "HACCAN",
-    "move": "Flying",
-    "weapon": "Lance",
-    "color": "Blue",
-    "duel": false,
-    "id": "1329",
-    "type": false,
-    "version": "10.0",
-    "duo": "Neutralizes any\u3010Penalty\u3011and grants Atk/Spd/Def/Res+6,\u3010Fringe Bonus\u3011, and \u3010Cancel Affinity\u3011to unit and allies within 3 spaces of unit for 1 turn.\n(Duo Skills can be used\u00a0once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Penalty\u3011\nAll effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).\n\u3010Fringe Bonus\u3011\nGrants bonus to Atk/Spd/Def/Res during combat = highest bonus on each stat between unit and allies within 2 spaces of unit for 1 turn. Calculates each stat bonus independently.\n\u3010Cancel Affinity\u3011\nIf unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills for 1 turn.",
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 19,
-      "atk": 11,
-      "spd": 10,
-      "def": 10,
-      "res": 6
+      "hp": 18,
+      "atk": 10,
+      "spd": 11,
+      "def": 3,
+      "res": 8
     },
     "growth": {
       "hp": 50,
-      "atk": 85,
-      "spd": 90,
-      "def": 55,
+      "atk": 90,
+      "spd": 85,
+      "def": 35,
       "res": 50
     },
     "superboon": [
-      "spd"
+      "atk"
     ],
     "superbane": [
       "hp",
       "res"
     ],
     "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Silver Lance": "3",
-      "Godly Devices": "5"
+      "Assault": "1",
+      "Arcane Latona": "5"
     },
-    "assist": {},
+    "assist": {
+      "Heal": "1",
+      "Mend": "2",
+      "Ice Lock": "3",
+      "Ice Lock+": "5"
+    },
     "special": {
-      "Dragon Gaze": "3",
-      "Dragon Fang": "4",
-      "Archrival": "5"
+      "Imbue": "2",
+      "Miracle": "3",
+      "Holy Panic": "5"
     },
     "passive": {
       "A": {
-        "Heaven's Stead N": "5"
+        "Peerless Beauty": "5"
       },
       "B": {
-        "Flier Formation 1": "2",
-        "Flier Formation 2": "3",
-        "Flier Formation 3": "4",
-        "Heavenly Soar": "5"
+        "Live to Serve 1": "2",
+        "Live to Serve 2": "3",
+        "Live to Serve 3": "4",
+        "Preempt Amplify": "5"
       },
       "C": {
-        "Shadow Shift 1": "2",
-        "Shadow Shift 2": "3",
-        "Shadow Shift 3": "4",
-        "Shadow Shift 4": "5"
+        "Hone Atk 1": "2",
+        "Hone Atk 2": "3",
+        "Hone Atk 3": "4",
+        "A/S Hone Assault": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a4/Baldr_New_Years_Elite_Face.webp/revision/latest?cb=20251226072005",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2f/Baldr_New_Years_Elite_BtlFace_D.webp/revision/latest?cb=20251226072001",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/ff/Baldr_New_Years_Elite_BtlFace_C.webp/revision/latest?cb=20251226071955",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/16/Baldr_New_Years_Elite_BtlFace.webp/revision/latest?cb=20251226071940"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a2/LArachel_Justice-Armed_Face.webp/revision/latest?cb=20260105134829",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2a/LArachel_Justice-Armed_BtlFace_D.webp/revision/latest?cb=20260105134819",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/57/LArachel_Justice-Armed_BtlFace_C.webp/revision/latest?cb=20260105134808",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c7/LArachel_Justice-Armed_BtlFace.webp/revision/latest?cb=20260105134736"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "New Year's Elite",
-      "Baldr: New Year's Elite",
-      "New Year Baldr",
-      "duo baldr",
-      "baldr3"
+      "Justice-Armed",
+      "L'Arachel: Justice-Armed",
+      "Rearmed L'Arachel",
+      "Rearm L'Arachel",
+      "Arm L'Arachel",
+      "larachel5"
     ],
     "HARD_ALT_NAME": [
-      "New Year's Elite",
-      "Baldr: New Year's Elite",
-      "New Year Baldr",
-      "duo baldr",
-      "baldr3"
+      "Justice-Armed",
+      "L'Arachel: Justice-Armed",
+      "Rearmed L'Arachel",
+      "Rearm L'Arachel",
+      "Arm L'Arachel",
+      "larachel5"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u6bd4\u7ffc\u30d0\u30eb\u30c9\u30eb",
-    "voice": "Sam Slade + Emi Lo",
+    "pool": "focus",
+    "internal_id": "PID_\u9b54\u5668\u30e9\u30fc\u30c1\u30a7\u30eb",
+    "voice": "Carrie Keranen",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "askr"
+      "magvel"
     ],
-    "chibi": "heroes",
+    "chibi": "fe8",
     "quotes": {
       "Castle Hall": [
-        "**H\u00f6\u00f0r:** I am so happy I get to celebrate the New Year with Baldr. And V\u00e1li is happy as well... Oh, thank goodness.",
-        "**Baldr:** You may know me as the Celestial Sun God. Bow to me as you do to the sun when it first ascends this year!",
-        "**H\u00f6\u00f0r:** All this food... So colorful and so beautiful. This must be a custom of mortals. I...like it.",
-        "**H\u00f6\u00f0r:** Are you not...uncomfortable, Baldr? This kimono is so tight. I do not know if I can handle it...",
-        "**Baldr:** I train every day, no matter if it's the first of the year or the last. Unrivaled strength stems from consistency!"
+        "Ahh... This reminds me of the tea parties I had in my Rausten Palace. I shall invite you over some time.",
+        "The Stones of Grado, Frelia, and Jehanna are gone, but hope is not.\nThe Stone of Rausten is safe, after all.",
+        "No need to worry. I'm not on my own. I have my friends who share the same aspirations.",
+        "I am not lost! Dozla and Rennac ran off somewhere and abandoned me!",
+        "Ivaldi and the Staff of Latona are the Sacred Twin relics of Saint Latona, most holy father of Rausten!"
       ],
       "Visit": [
-        "We are Baldr and H\u00f6\u00f0r, from \u00c1sgar\u00f0r. Let us celebrate a new year's arrival alongside [F]!"
+        "So, you are a friend of [F]'s?\nWell then, now you are considered a friend of the beautiful princess of peerless beauty, me!"
       ],
       "Level": [
-        "**Baldr:** Ohohohoho! We shall be unstoppable in all our endeavors this year, as with every year!",
-        "**H\u00f6\u00f0r:** H-Happy New Year! Oh, Baldr... I did it. I said the New Year's greeting.",
-        "**H\u00f6\u00f0r:** I am so sorry... The year just began and I am already holding you back, Baldr..."
+        "It is time for me to be on my way, my friends. As the princess of Rausten, I still have many duties to perform.",
+        "Friends of justice! Allies of order and righteousness! I, L'Arachel, have arrived! Now, I shall deliver justice!",
+        "But...I am the beautiful princess of peerless beauty. This must be a mistake!"
       ],
       "Summon": [
-        "We, Baldr and H\u00f6\u00f0r, have descended from the heavenly realm of \u00c1sgar\u00f0r! I will make this the most brilliant year!"
+        "My name is L'Arachel, the hidden and beautiful princess of peerless beauty! You have my permission to call me so!"
       ],
       "Learn Skill": [
-        "**H\u00f6\u00f0r:** Baldr, I have received money for the New Year... It is called an otoshidama. I would like to share it with you."
+        "Very well, then. Feast your eyes on my magnificent performance!"
       ],
       "Confession": [
-        "**H\u00f6\u00f0r:** B-Baldr, wait... I cannot run so fast in this kimono...\n**Baldr:** Oh, H\u00f6\u00f0r. You will be fine. If you keep moving, you will get used to it. Now, quickly, this way!\nThere is so much to do on New Year's in Midgard!\nThere is hanetsuki, a facial puzzle game called fukuwarai, kite flying, spinning tops...\nAnd it is my duty to emerge victorious in each and every one of them! I will start the new year in brilliant fashion!\n**H\u00f6\u00f0r:** Oh...that is so like you, Baldr. You are so noble and so proud... It is dazzling. Your brilliance is blinding to me...\n**Baldr:** You shine with brilliance as well, H\u00f6\u00f0r! Now, let us shine together! Ohohohoho!"
+        "You seem to be quite determined to battle evil day in and day out, [S]!\nAnd even considering the Demon King himself has gowned a puppet to infiltrate the world of us humans...\nUnforgivable! He eats away at people's hearts, taking control of them!\nReverting the hearts that have been tainted with evil is tantamount to raising the dead.\nWith Saint Latona's relics\u2014No! Not even with the power of the Sacred Stones would it be possible...\nYou must have caution! Do not speak the name of the Demon King without care.\nOf course, you understand my worry."
       ],
       "Special": [
-        "**Duo:** A heavenly New Year!",
-        "**Duo:** \"A perfect year!\" \"Really?\"",
-        "**Baldr:** You should accept this!",
-        "**H\u00f6\u00f0r:** Let's have a good year."
+        "With grace, of course.",
+        "A test of faith!",
+        "You have been judged!",
+        "Admire all you want."
       ],
       "Status": [
         "-",
-        "\"These outfits bring out our natural beauty. I approve.\" \"Even...for me?\""
+        "I shall heal you.",
+        "I'm not finished yet.",
+        "\"Beautiful princess of peerless beauty\" doesn't quite fit anymore... I must think of a new introduction that matches my radiance with this new power.",
+        "It's understandable that you would be so captivated by me.",
+        "I'll eradicate all the evils of this world with my new power!",
+        "Father, Mother... Worry not, for I have grown stronger.",
+        "Our meeting was fashioned by the gods."
       ],
       "Map Select": [
-        "Um... I...",
-        "Follow my example.",
-        "What do I do?"
-      ],
-      "Conversation": [
-        "**H\u00f6\u00f0r:** A-ahh... Uhhh...",
-        "**Baldr:** H\u00f6\u00f0r, what are those strange noises you are making?",
-        "**H\u00f6\u00f0r:** Oh, I just can't seem to get comfortable in this kimono. It is so...tight.",
-        "**Baldr:** Yes, well... It should not matter what we wear. We must stand gallant.",
-        "Lift your head. Chin up. Straighten your back. Eyes forward.",
-        "**H\u00f6\u00f0r:** But I'm not like you, Baldr. There is no reason for me to look so...dignified.",
-        "**Baldr:** Nonsense. You are my sister. Where is your confidence?",
-        "**H\u00f6\u00f0r:** But I am not strong or pretty. I am... not worthy of being your sister.",
-        "**Baldr:** How can you say such foolish things? Do you not see your beauty or your strength?",
-        "You are magnificent. You are not afraid to show weakness...",
-        "And you seek truth with sincerity and allow justice to guide you. You must believe in yourself, H\u00f6\u00f0r.",
-        "**H\u00f6\u00f0r:** Y-you really think that of me?",
-        "**Baldr:** Of course. I have kept my eye on you more than anyone else has. Do you not believe me?",
-        "If so, you disrespect me.",
-        "**H\u00f6\u00f0r:** N-No! I mean... Yes, I believe you.",
-        "**Baldr:** Good. Then you can carry yourself with confidence, starting this year.",
-        "**H\u00f6\u00f0r:** That will be difficult. But if you say I should, then I'll try my best... I will make it my New Year's resolution."
-      ],
-      "Duo Skill": [
-        "\"Happy\" \"New Year...\"",
-        "\"This year...\" \"I will not yield!\""
-      ],
-      "Back Unit Supporting": [
-        "You are Baldr...",
-        "Don't worry..."
-      ],
-      "resplendent": {}
-    },
-    "short_name": "New Year Baldr",
-    "SEARCH_NAME": "New Year Baldr",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>New Year Baldr",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "baldr",
-      "baldr2"
-    ],
-    "prf": {
-      "": "godlydevices",
-      "eff": "godlydevices",
-      "atk": "godlydevices",
-      "spd": "godlydevices",
-      "def": "godlydevices",
-      "res": "godlydevices"
-    }
-  },
-  "heimdallr2": {
-    "name": "Heimdallr",
-    "title": "New Year's Vision",
-    "description": "A god of \u00c1sgar\u00f0r, the celestial realm, who is known for her foresight. She plans out the perfect year on its very first day.",
-    "origin": "Heroes",
-    "artist": "Homare (\u8a89)",
-    "move": "Cavalry",
-    "weapon": "Tome",
-    "color": "Green",
-    "duel": false,
-    "id": "1331",
-    "type": false,
-    "version": "10.0",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 12,
-      "spd": 3,
-      "def": 6,
-      "res": 10
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 85,
-      "spd": 30,
-      "def": 55,
-      "res": 90
-    },
-    "superboon": [
-      "res"
-    ],
-    "superbane": [
-      "hp",
-      "spd"
-    ],
-    "weapons": {
-      "Wind": "1",
-      "Elwind": "2",
-      "Rexcalibur": "3",
-      "New Year's Fan": "5"
-    },
-    "assist": {},
-    "special": {
-      "Chilling Wind": "3",
-      "Glacies": "4",
-      "Ice Wall": "5"
-    },
-    "passive": {
-      "A": {
-        "Atk/Res Bond 1": "2",
-        "Atk/Res Bond 2": "3",
-        "Atk/Res Bond 3": "4",
-        "Atk/Res Aria": "5"
-      },
-      "B": {
-        "An Open Book": "5"
-      },
-      "C": {
-        "Atk/Res Gap 1": "2",
-        "Atk/Res Gap 2": "3",
-        "Atk/Res Gap 3": "4",
-        "Atk/Res Liberate": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1d/Heimdallr_New_Years_Vision_Face.webp/revision/latest?cb=20251226072114",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Heimdallr_New_Years_Vision_BtlFace_D.webp/revision/latest?cb=20251226072110",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/51/Heimdallr_New_Years_Vision_BtlFace_C.webp/revision/latest?cb=20251226072105",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/24/Heimdallr_New_Years_Vision_BtlFace.webp/revision/latest?cb=20251226072050"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "New Year's Vision",
-      "Heimdallr: New Year's Vision",
-      "New Year Heimdallr",
-      "heimdallr2"
-    ],
-    "HARD_ALT_NAME": [
-      "New Year's Vision",
-      "Heimdallr: New Year's Vision",
-      "New Year Heimdallr",
-      "heimdallr2"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e74\u660e\u30d8\u30a4\u30e0\u30c0\u30eb",
-    "voice": "Elsie Lovelock",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "askr"
-    ],
-    "chibi": "heroes",
-    "quotes": {
-      "Castle Hall": [
-        "Even I did not foresee myself celebrating the coming of a new year amongst mortals.",
-        "At the onset of every new year, mortals wonder what will come of the future... It is fascinating, yes?",
-        "I have decided not to foresee the results of my fortune. Or rather, I cannot do so, even if I wish to.",
-        "Never have I donned such attire as this...kimono. Tell me, has Loki worn one as well?",
-        "My plans? Humph. This is the year I shall best Loki."
-      ],
-      "Visit": [
-        "I am Heimdallr, god of foresight. It is my prediction that [F]will aid you."
-      ],
-      "Level": [
-        "My plans are flawless. There is nothing I do not foresee.",
-        "Got caught up in the New Year's festivities? I suppose predicting this was unnecessary.",
-        "I saw this coming..."
-      ],
-      "Summon": [
-        "I am Heimdallr, god of foresight. I wish to proceed with my plans for this year without disruption."
-      ],
-      "Learn Skill": [
-        "Even I did not expect such a gift. You have my gratitude."
-      ],
-      "Confession": [
-        "I foresee all matters, however...this event was unexpected.\nDespite that, I see all that will occur from this year forward, including what becomes of you and me.\nIt is unwise for you to conclude that my foresight renders my plans painless.\nNo... In order to proceed as foreseen, it takes constant effort and careful preparation.\nYou shall aid me in my endeavors, for that is a future that cannot hide from my sight."
-      ],
-      "Special": [
-        "For the new year!",
-        "Right again.",
-        "I foresaw this.",
-        "This year is bright."
-      ],
-      "Status": [
-        "Humph.",
-        "I am Heimdallr, god of foresight. The events of this year cannot hide from my predictions.",
-        "Ah ah ah... *sigh* I knew you would try that.",
-        "My plans for the year are ready to come to fruition. *sigh* It is relaxing knowing what is to come.",
-        "New Year's Day determines one's fate for the coming year... Humph. I am fond of this sentiment.",
-        "Omikuji are a fascinating tradition of fortunes. Yet, not even I can foretell what predictions may emerge.",
-        "One day, Loki, I will read you like the cheap book you are...",
-        "You and I will have a good year. According to plan, of course."
-      ],
-      "Map Select": [
-        "I know.",
-        "I'll hear you out.",
-        "My turn to act."
+        "As you wish.",
+        "What shall we do?",
+        "I'll captivate them."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "New Year Heimdallr",
-    "SEARCH_NAME": "New Year Heimdallr",
-    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>New Year Heimdallr",
+    "short_name": "Rearmed L'Arachel",
+    "SEARCH_NAME": "Rearmed L'Arachel",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Rearmed L'Arachel",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "heimdallr"
+      "larachel"
     ],
     "prf": {
-      "": "newyearsfan",
-      "eff": "newyearsfan",
-      "atk": "newyearsfan",
-      "spd": "newyearsfan",
-      "def": "newyearsfan",
-      "res": "newyearsfan"
+      "": "arcanelatona",
+      "eff": "arcanelatona",
+      "atk": "arcanelatona",
+      "spd": "arcanelatona",
+      "def": "arcanelatona",
+      "res": "arcanelatona"
     }
   },
-  "sedgar2": {
-    "name": "Sedgar",
-    "title": "Festive Horseman",
-    "description": "Second in command of the Coyote's Men of Aurelis under Hardin's command. He is calm and collected as he stands amidst the morning glow, unaffected by the New Year's liveliness. Appears in Fire Emblem: Mystery of the Emblem.",
-    "origin": "Shadow Dragon",
-    "artist": "motsutsu",
-    "move": "Cavalry",
-    "weapon": "Bow",
-    "color": "Colorless",
+  "lute3": {
+    "name": "Lute",
+    "title": "Limitless Curiosity",
+    "description": "An exceptional mage, acknowledged as such by herself as well as others. She pursues the potential of magic with rare talent. Appears in Fire Emblem: The Sacred Stones.",
+    "origin": "The Sacred Stones",
+    "artist": "\u91ce\u9593\u5d07\u53f2",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Red",
     "duel": false,
-    "id": "1332",
+    "id": "1334",
+    "type": "aided",
+    "version": "10.1",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 15,
+      "atk": 10,
+      "spd": 12,
+      "def": 3,
+      "res": 14
+    },
+    "growth": {
+      "hp": 45,
+      "atk": 90,
+      "spd": 75,
+      "def": 30,
+      "res": 80
+    },
+    "superboon": [
+      "hp",
+      "atk"
+    ],
+    "superbane": [
+      "spd",
+      "def"
+    ],
+    "weapons": {
+      "Fire": "1",
+      "Elfire": "2",
+      "Bolganone": "3",
+      "Unequaled Tome": "5"
+    },
+    "assist": {},
+    "special": {
+      "Night Sky": "3",
+      "Astra": "4",
+      "Comet": "5"
+    },
+    "passive": {
+      "A": {
+        "Superior Talent": "5"
+      },
+      "B": {
+        "Lull Atk/Res 1": "2",
+        "Lull Atk/Res 2": "3",
+        "Lull Atk/Res 3": "4",
+        "A/R Lull Finish": "5"
+      },
+      "C": {
+        "Time's Pulse 1": "2",
+        "Time's Pulse 2": "3",
+        "Time's Pulse 3": "4",
+        "Preempt: Ploy": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c4/Lute_Limitless_Curiosity_Face.webp/revision/latest?cb=20260105134943",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4b/Lute_Limitless_Curiosity_BtlFace_D.webp/revision/latest?cb=20260105134933",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/af/Lute_Limitless_Curiosity_BtlFace_C.webp/revision/latest?cb=20260105134922",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/df/Lute_Limitless_Curiosity_BtlFace.webp/revision/latest?cb=20260105134850"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Limitless Curiosity",
+      "Lute: Limitless Curiosity",
+      "Aided Lute",
+      "Aid Lute",
+      "lute3"
+    ],
+    "HARD_ALT_NAME": [
+      "Limitless Curiosity",
+      "Lute: Limitless Curiosity",
+      "Aided Lute",
+      "Aid Lute",
+      "lute3"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "focus",
+    "internal_id": "PID_\u304a\u4f9b\u30eb\u30fc\u30c6",
+    "voice": "Brina Palencia",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "magvel"
+    ],
+    "chibi": "fe8",
+    "quotes": {
+      "Castle Hall": [
+        "A different world. Different cultures. As long as language exists, I'll achieve understanding. I am superior, after all.",
+        "This monster is merely the beginning. As my research progresses, I may try this for mauthe doogs and cyclopes.",
+        "When Grandmother said my father and mother were traveling in distant lands, could she have meant like this?",
+        "A warm beverage can help to heat you up from within when you have morning or evening chills.",
+        "Ah! Hearing someone call out to me so suddenly is startling. Even when it's you, [S]."
+      ],
+      "Visit": [
+        "Requests from others are classified into seven categories and 25 items. That's how I manage my errands."
+      ],
+      "Level": [
+        "I predicted this outcome from the beginning. After all, I'm Lute, genius mage extraordinaire.",
+        "Are you really getting back up? It doesn't bother me. I'll simply deal with you again.",
+        "This is a good resource for measuring fortune. Mages obtaining this solution may one day control peoples' fates."
+      ],
+      "Summon": [
+        "I am Lute. I'm a mage! Possibly the best. I may subdue monsters like this with my superior talent and research."
+      ],
+      "Learn Skill": [
+        "Very interesting... I will help myself."
+      ],
+      "Confession": [
+        "While deciphering a piece from A Young Girl's Primer to Nazonian Magic, I realized something.\nThe best way to research monsters is to live with one.\nThat's why I have this mogall. Not to feed or care for it, but ultimately to research it.\nWe should be able to keep monsters in check. Once I finish my research, no one will have to fear them.\nSince I also research you, having you live here should move things along. My mogall will welcome a new ally.\nWhether summoner or monster, I will treat you equally. After all...I am superior."
+      ],
+      "Special": [
+        "My research is confirmed.",
+        "Time for you to leave.",
+        "Let's try this.",
+        "Time well spent."
+      ],
+      "Status": [
+        "-",
+        "It's time I demonstrate the results of my new research.",
+        "*gasp* Oh, it's you. I thought it might have been a tentacle.",
+        "I'm researching this mogall's behavior. Don't worry, it's completely harmless.",
+        "It would be a benefit to humanity if I were able to control all monsters.",
+        "Again? Why do people keep screaming and running away in fear?",
+        "I have fallen. For my own excellence, of course.",
+        "I'm sure my brilliant mind will be useful to you."
+      ],
+      "Map Select": [
+        "I'll do just that.",
+        "Statistically speaking...",
+        "Allow me to demonstrate."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Aided Lute",
+    "SEARCH_NAME": "Aided Lute",
+    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Aided Lute",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "lute",
+      "lute2"
+    ],
+    "prf": {
+      "": "unequaledtome",
+      "eff": "unequaledtome",
+      "atk": "unequaledtome",
+      "spd": "unequaledtome",
+      "def": "unequaledtome",
+      "res": "unequaledtome"
+    }
+  },
+  "franz": {
+    "name": "Franz",
+    "title": "The Faithful",
+    "description": "A knight of Renais who has just finished his tenure as squire. He is an earnest and kind individual. Appears in Fire Emblem: The Sacred Stones.",
+    "origin": "The Sacred Stones",
+    "artist": "otorihara",
+    "move": "Cavalry",
+    "weapon": "Lance",
+    "color": "Blue",
+    "duel": false,
+    "id": "1335",
     "type": false,
-    "version": "10.0",
+    "version": "10.1",
     "duo": false,
     "harmonized": false,
     "emblem": false,
@@ -548,310 +360,451 @@
       "hp": 19,
       "atk": 11,
       "spd": 9,
-      "def": 7,
-      "res": 5
+      "def": 9,
+      "res": 6
     },
     "growth": {
-      "hp": 50,
+      "hp": 55,
       "atk": 80,
       "spd": 90,
-      "def": 55,
-      "res": 45
+      "def": 60,
+      "res": 40
     },
     "superboon": [
-      "spd",
-      "res"
+      "spd"
     ],
-    "superbane": [
-      "hp"
-    ],
+    "superbane": [],
     "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Horse Bow": "3",
-      "Horse Bow+": "5"
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Melee Lance": "3",
+      "Melee Lance+": "5"
     },
     "assist": {
-      "Reposition": "3"
+      "Swap": "3"
     },
     "special": {},
     "passive": {
-      "A": {
-        "Atk/Spd Catch 1": "1",
-        "Atk/Spd Catch 2": "2",
-        "Atk/Spd Catch 3": "4"
-      },
+      "A": {},
       "B": {
-        "Spd/Def Snag 1": "2",
-        "Spd/Def Snag 2": "3",
-        "Spd/Def Snag 3": "4",
-        "Spd/Def Detect": "5"
+        "Flow Refresh 1": "3",
+        "Flow Refresh 2": "4",
+        "Flow Refresh 3": "5"
       },
-      "C": {},
+      "C": {
+        "Rouse Atk/Spd 1": "1",
+        "Rouse Atk/Spd 2": "2",
+        "Rouse Atk/Spd 3": "4"
+      },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f4/Sedgar_Festive_Horseman_Face.webp/revision/latest?cb=20251226072150",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/aa/Sedgar_Festive_Horseman_BtlFace_D.webp/revision/latest?cb=20251226072145",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Sedgar_Festive_Horseman_BtlFace_C.webp/revision/latest?cb=20251226072139",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/50/Sedgar_Festive_Horseman_BtlFace.webp/revision/latest?cb=20251226072124"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/42/Franz_The_Faithful_Face.webp/revision/latest?cb=20260105135057",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Franz_The_Faithful_BtlFace_D.webp/revision/latest?cb=20260105135047",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/40/Franz_The_Faithful_BtlFace_C.webp/revision/latest?cb=20260105135036",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/60/Franz_The_Faithful_BtlFace.webp/revision/latest?cb=20260105135004"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Festive Horseman",
-      "Sedgar: Festive Horseman",
-      "New Year Sedgar",
-      "sedgar2"
+      "The Faithful",
+      "Franz: The Faithful",
+      "franz"
     ],
     "HARD_ALT_NAME": [
-      "Festive Horseman",
-      "Sedgar: Festive Horseman",
-      "New Year Sedgar",
-      "sedgar2"
+      "The Faithful",
+      "Franz: The Faithful",
+      "franz"
     ],
     "gender": "M",
     "rarity": 4,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e74\u660e\u30b6\u30ac\u30ed",
-    "voice": "Brandon Jay",
+    "pool": "global",
+    "internal_id": "PID_\u30d5\u30e9\u30f3\u30c4",
+    "voice": "John Patneaude",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "archanea"
+      "magvel"
     ],
-    "chibi": "archanea",
+    "chibi": "fe8",
     "quotes": {
       "Castle Hall": [
-        "We celebrate the new year where I'm from too. Even still, Hoshido's New Year's customs are full of surprises.",
-        "I imagine everyone in Aurelis dancing hand in hand right about now.\nIt was under Lord Hardin that we brought peace back to the kingdom.",
-        "I'm sure preparing all this food was a lot of work... But the people of the plains prefer not to overindulge.",
-        "It is good to enjoy the New Year celebrations, but...I saw someone lacking any sort of restraint...",
-        "This white, paste-like thing is delicious."
+        "Please, allow me to fight beside you, [S]!",
+        "I've just finished my time as a squire, but...I am every bit a knight of Renais.",
+        "Even if you act lazy as part of your charm, once the battle starts, everyone will see how sharp you are.",
+        "Holding my fishing pole like this, I can feel my spear arm getting stronger, which gives me a sense of calm.",
+        "One day, I want to be a great knight like General Seth."
       ],
       "Visit": [
-        "I am Sedgar, of the knights of Aurelis. This is a New Year's gift to share from [F]."
+        "I'm Franz, a knight of Renais. I'm here on an errand from [F]'s castle."
       ],
       "Level": [
-        "They say you should drink and make merry. But the New Year doesn't excuse poor behavior.",
-        "Happy New Year! I will show the proper etiquette of one directly under Lord Hardin.",
-        "\"May we continue to cooperate in the coming year.\" How did that sound?"
+        "I'll keep pushing forward for Renais, and become a knight as great as my brother.",
+        "I wonder... Have I gotten a little stronger at least?",
+        "Looks like I still need more training..."
       ],
       "Summon": [
-        "Happy New Year! I am Sedgar, a knight of Aurelis. I may be a little too excited... I must be careful."
+        "I'm Franz, a knight of Renais. I've only just finished my time as a squire, but I'm here to do my best!"
       ],
       "Learn Skill": [
-        "I must grow stronger in order to battle through to the next year."
+        "There must be something that I can do!"
       ],
       "Confession": [
-        "Happy New Year! It feels a bit strange starting out the new year practicing the customs of another kingdom...\nI am curious what is happening back home, but...I suppose my curiosity does nothing for me here.\nIt will take time for me to get used to these food and drink habits. And that's not to mention this kimono.\nIn the end, the Coyote's Men are people of the plains. I do not intend to become like an Archanean noble.\nNot to worry though. People like us are necessary to maintain peace among those celebrating the New Year."
+        "This will be a tough battle, [S]...\nI've been busy myself. I'm sort of embarrassed to say, but...this satchel I made seems to be pretty popular.\nThere's a pouch on the side for a skin of water, a place for food, and even a hidden pocket for herbs.\nI designed it so it won't shake while riding, and you can carry it on your back or sling it over your shoulders.\nIt feels good making something that everyone appreciates... It's probably my only redeeming trait.\nI've made one embroidered with your name, [S]. I hope you put it to good use!"
       ],
       "Special": [
-        "Happy New Year!",
-        "Let's celebrate!",
-        "Make this a good year.",
-        "Together, we ride!"
+        "For Renais!",
+        "This is my duty.",
+        "I must win!",
+        "Until the end!"
       ],
       "Status": [
         "-",
-        "To a happy and prosperous new year!",
-        "*stutter* Hey! Careful, or you'll mess up my kimono.",
-        "The weapons are all polished and ready to greet the new year.",
-        "Wolf is incredibly talented, to put it simply.",
-        "The Coyote's Men will greet Lord Hardin together and wish him a happy new year.",
-        "In this new year, I must grow even further...",
-        "This year, as with every year, I devote all my strength for the sake of peace. And I shall do so by your side."
+        "I'm Franz, every bit a knight of Renais.",
+        "Oh! I-I thought you were Forde for a moment.",
+        "Is there some place around here I could go fishing? Not while I'm on duty, of course.",
+        "General Seth, the Silver Knight, is my hero.",
+        "The only memory I have of my father was a deep scar he got from battle. But I know...he was a brave knight.",
+        "Someday, I will become a knight even greater than my brother or my father.",
+        "If you're tired, I can teach you some traditional relaxation exercises from Renais."
       ],
       "Map Select": [
-        "All right.",
-        "This is the right path?",
-        "I shall."
+        "Yes.",
+        "Are you sure?",
+        "I'll fight on!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "New Year Sedgar",
-    "SEARCH_NAME": "New Year Sedgar",
-    "DISPLAY_NAME": "<:Colorless_Bow:1124845636659982457>New Year Sedgar",
+    "short_name": "Franz",
+    "SEARCH_NAME": "Franz",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Franz",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "sedgar"
-    ],
+    "reference": [],
     "prf": {
-      "": "horsebow",
-      "eff": "horsebow",
-      "atk": "horsebow",
-      "spd": "horsebow",
-      "def": "horsebow",
-      "res": "horsebow"
+      "": "meleelance",
+      "eff": "meleelance",
+      "atk": "meleelance",
+      "spd": "meleelance",
+      "def": "meleelance",
+      "res": "meleelance"
     }
   },
-  "v\u00e1li2": {
-    "name": "V\u00e1li",
-    "title": "Devoted Sister",
-    "description": "A god of \u00c1sgar\u00f0r, the celestial realm, who adores her sister Baldr and is celebrating the New Year and all its splendor with her.",
-    "origin": "Heroes",
-    "artist": "\u3048\u304f",
+  "morva": {
+    "name": "Morva",
+    "title": "Darkling Warden",
+    "description": "Leader of the dragon tribe who once stood by humanity during a battle in the distant past. He has a longstanding conflict with Fomortiis, the Demon King. Appears in Fire Emblem: The Sacred Stones.",
+    "origin": "The Sacred Stones",
+    "artist": "\u67f4\u5c71\u308f\u3093\u304f\u308d",
     "move": "Flying",
-    "weapon": "Tome",
-    "color": "Red",
+    "weapon": "Breath",
+    "color": "Green",
     "duel": false,
-    "id": "1330",
+    "id": "1336",
     "type": false,
-    "version": "10.0",
+    "version": "10.1",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 21,
+      "hp": 18,
       "atk": 10,
-      "spd": 11,
-      "def": 4,
-      "res": 6
+      "spd": 3,
+      "def": 13,
+      "res": 12
     },
     "growth": {
-      "hp": 55,
+      "hp": 50,
       "atk": 90,
-      "spd": 85,
-      "def": 50,
+      "spd": 35,
+      "def": 80,
+      "res": 75
+    },
+    "superboon": [
+      "atk"
+    ],
+    "superbane": [
+      "hp",
+      "res"
+    ],
+    "weapons": {
+      "Fire Breath": "1",
+      "Fire Breath+": "2",
+      "Flametongue": "3",
+      "Purging Breath": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4",
+      "Dragon Flame": "5"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "Dragon's Ire 1": "2",
+        "Dragon's Ire 2": "3",
+        "Dragon's Ire 3": "4",
+        "Dragon's Scales": "5"
+      },
+      "C": {
+        "Atk/Res Rein 1": "2",
+        "Atk/Res Rein 2": "3",
+        "Atk/Res Rein 3": "4",
+        "A/R Hold Guide": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1d/Morva_Darkling_Warden_Face.webp/revision/latest?cb=20260105135211",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/67/Morva_Darkling_Warden_BtlFace_D.webp/revision/latest?cb=20260105135200",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Morva_Darkling_Warden_BtlFace_C.webp/revision/latest?cb=20260105135149",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f2/Morva_Darkling_Warden_BtlFace.webp/revision/latest?cb=20260105135117"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Darkling Warden",
+      "Morva: Darkling Warden",
+      "morva"
+    ],
+    "HARD_ALT_NAME": [
+      "Darkling Warden",
+      "Morva: Darkling Warden",
+      "morva"
+    ],
+    "gender": "M",
+    "rarity": 5,
+    "pool": "global",
+    "internal_id": "PID_\u30e0\u30eb\u30f4\u30a1",
+    "voice": "Jonathan Lipow",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "magvel"
+    ],
+    "chibi": "fe8",
+    "quotes": {
+      "Castle Hall": [
+        "The protection of the blessed stones is lost. The dark is rising.\nKing of shadows...they appear to be waiting for you.",
+        "Hundreds of years later, Demon King, you can clothe yourself in human flesh, but cannot hide your foul mien.",
+        "Myrrh left the woods long ago in pursuit of the Demon King. I hope she is well...",
+        "It seems those who gather here all bear an unusual destiny. You are no exception, [S].",
+        "I bear this form, but I am a dragonkin from Magvel. It would be better if I avoided interacting with humankind."
+      ],
+      "Visit": [
+        "I agree with [F].\nMoving forward, it may be necessary for us manaketes to learn about the lives of humans."
+      ],
+      "Level": [
+        "I cannot abandon humankind to the Demon King. In this land, he shall be defeated again as he was long ago.",
+        "I live and breathe to protect all.",
+        "Myrrh, do not concern yourself with me. Continue to follow the path you have chosen."
+      ],
+      "Summon": [
+        "I am Morva. Several hundred years ago, I sealed away the darkness that nests in Magvel.\nThe undying roots of corruption still plague the land."
+      ],
+      "Learn Skill": [
+        "I never imagined I would gain yet new strength after having lived for a millennia..."
+      ],
+      "Confession": [
+        "A long time ago, deep in the woods in Magvel, I defeated the Demon King alongside heroes with Sacred Stones.\nThe blood he shed sullied the land. Rot and poison ever flowed from his corpse into the once-beautiful forest.\nFor several hundred years, monsters that spawned from the filth awaited the return of their progenitor.\nDarkness nestled within life itself. An evil soul consuming hearts and minds. Demon King Fomortiis's true form.\nWe must defend the people. Should the Demon King be resurrected, we will destroy him once again.\nSummoner, when you and your allies realize how terrifying he truly is, only then you will understand my words."
+      ],
+      "Special": [
+        "It is my duty.",
+        "Witness your defeat.",
+        "As it once did...",
+        "The time is now!"
+      ],
+      "Status": [
+        "-",
+        "I am Morva, leader of the dragons, guardian of the Darkling Woods.",
+        "*react* Oh, I thought you were Myrrh.",
+        "Ancient king of shadows... They appear to be waiting for you.",
+        "I live and breathe to protect mankind. I cannot abandon them to evil.",
+        "Myrrh left the woods long ago to test the limits of evil's influence. Could she have... No...",
+        "Myrrh, I hope you are unharmed...",
+        "You have proven yourself honorable. I will place my trust in you."
+      ],
+      "Map Select": [
+        "Yes.",
+        "Dubitable...",
+        "I shall be off."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Morva",
+    "SEARCH_NAME": "Morva",
+    "DISPLAY_NAME": "<:Green_Breath:1124845770978361425>Morva",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "purgingbreath",
+      "eff": "purgingbreath",
+      "atk": "purgingbreath",
+      "spd": "purgingbreath",
+      "def": "purgingbreath",
+      "res": "purgingbreath"
+    }
+  },
+  "garcia": {
+    "name": "Garcia",
+    "title": "Warrior Reborn",
+    "description": "A warrior hailing from the village of Ide in Renais. He is a former military commander, feared for his might. Appears in Fire Emblem: The Sacred Stones.",
+    "origin": "The Sacred Stones",
+    "artist": "\u84bc\u4e95 \u3089\u3081\u304d",
+    "move": "Infantry",
+    "weapon": "Axe",
+    "color": "Green",
+    "duel": false,
+    "id": "1337",
+    "type": false,
+    "version": "10.1",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 24,
+      "atk": 10,
+      "spd": 8,
+      "def": 11,
+      "res": 5
+    },
+    "growth": {
+      "hp": 60,
+      "atk": 90,
+      "spd": 75,
+      "def": 75,
       "res": 35
     },
     "superboon": [
       "atk"
     ],
     "superbane": [
+      "spd",
       "def"
     ],
     "weapons": {
-      "Fire": "1",
-      "Elfire": "2",
-      "Bolganone": "3",
-      "Sister Hagoita": "5"
+      "Iron Axe": "1",
+      "Steel Axe": "2",
+      "Hexblade Axe": "3",
+      "Hexblade Axe+": "5"
     },
     "assist": {},
     "special": {
-      "Miracle": "3",
-      "Invincible Sister": "5"
+      "Glowing Ember": "3",
+      "Ignis": "4"
     },
     "passive": {
       "A": {
-        "Atk/Spd Bond 1": "2",
-        "Atk/Spd Bond 2": "3",
-        "Atk/Spd Bond 3": "4",
-        "Atk/Spd Aria": "5"
+        "Atk/Def Finish 1": "1",
+        "Atk/Def Finish 2": "2",
+        "Atk/Def Finish 3": "4"
       },
       "B": {
-        "Chill Res 1": "2",
-        "Chill Spd/Res 1": "3",
-        "Chill Spd/Res 2": "4",
-        "Spd/Res Shackle": "5"
+        "Atk/Def Tempo 1": "3",
+        "Atk/Def Tempo 2": "4",
+        "Atk/Def Tempo 3": "5"
       },
-      "C": {
-        "Spur Spd 1": "2",
-        "Spur Atk/Spd 1": "3",
-        "Spur Atk/Spd 2": "4",
-        "Uplift Imbue A/S": "5"
-      },
+      "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/ca/Vali_Devoted_Sister_Face.webp/revision/latest?cb=20251226072040",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a6/Vali_Devoted_Sister_BtlFace_D.webp/revision/latest?cb=20251226072034",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/18/Vali_Devoted_Sister_BtlFace_C.webp/revision/latest?cb=20251226072031",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/fd/Vali_Devoted_Sister_BtlFace.webp/revision/latest?cb=20251226072015"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a3/Garcia_Warrior_Reborn_Face.webp/revision/latest?cb=20260105135334",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/90/Garcia_Warrior_Reborn_BtlFace_D.webp/revision/latest?cb=20260105135323",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a2/Garcia_Warrior_Reborn_BtlFace_C.webp/revision/latest?cb=20260105135314",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Garcia_Warrior_Reborn_BtlFace.webp/revision/latest?cb=20260105135232"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Devoted Sister",
-      "V\u00e1li: Devoted Sister",
-      "New Year V\u00e1li",
-      "v\u00e1li2"
+      "Warrior Reborn",
+      "Garcia: Warrior Reborn",
+      "garcia"
     ],
     "HARD_ALT_NAME": [
-      "Devoted Sister",
-      "V\u00e1li: Devoted Sister",
-      "New Year V\u00e1li",
-      "v\u00e1li2"
+      "Warrior Reborn",
+      "Garcia: Warrior Reborn",
+      "garcia"
     ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u5e74\u660e\u30f4\u30a1\u30fc\u30ea",
-    "voice": "Mia Paige",
+    "gender": "M",
+    "rarity": 3,
+    "pool": "grail",
+    "internal_id": "PID_\u30ac\u30eb\u30b7\u30a2",
+    "voice": "Mick Lauer",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "askr"
+      "magvel"
     ],
-    "chibi": "heroes",
+    "chibi": "fe8",
     "quotes": {
       "Castle Hall": [
-        "The one thing even more brilliant than the New Year's sunrise is the smile of my sister, Baldr!",
-        "Aiding Baldr is everything to me, the purpose of my existence. That will never change, even in the new year!",
-        "I will lend you my aid this year. But I won't forgive terrible leadership!",
-        "This kimono is so...tight! But it does match Baldr's, so... I will wear it proudly!",
-        "My goal this year is to defeat every enemy of Baldr! No matter what!"
+        "Before I knew it, my son had become a warrior. He turned out just fine without my help...",
+        "I quit fighting so I could be with my family. At least, that was my intention. But now...I must fight once more!",
+        "You can't fight on an empty stomach. Eating is very important to keep up your strength. Especially breakfast.",
+        "The army's full of young men who are strong in their specific fields but weak in others.",
+        "I'm preparing myself for the battle. Please don't come near me right now."
       ],
       "Visit": [
-        "I am V\u00e1li, a goddess of \u00c1sgar\u00f0r. I am enjoying the New Year with my sister at [F]'s castle."
+        "I'm Garcia, father of Ross the warrior. I ask that you take good care of my son should the time arise."
       ],
       "Level": [
-        "Did you see that, Baldr? This year, as with every year, I devote myself wholly to you!",
-        "I will not stop getting stronger this year!",
-        "Grrr... This year is a mess already! I can't face Baldr like this!"
+        "I won't give up the fight. For the future of all children.",
+        "If you want to survive this war, you must focus on the enemy before you. The others can wait till later.",
+        "Hmm..."
       ],
       "Summon": [
-        "I am V\u00e1li. I can't believe I get to spend New Year's with Baldr... This is the perfect year!"
+        "I'm Garcia. I may be a little fatigued, but I've still got some fight left in me. Allow me to fight."
       ],
       "Learn Skill": [
-        "This year is shaping up! I'll be able to help Baldr even more now!"
+        "I have no regrets, nothing to fear."
       ],
       "Confession": [
-        "Baldr looks so lovely in her kimono. I may have used up all my good luck this year simply by seeing her.\nDon't you see... The world revolves around Baldr, this year and every year. There is no doubting that.\nWhat we must do is remove anything that could possibly get in her way!\nI will pulverize anything that clouds her brilliance!\nYou are no exception, you know. Support her well and stay out of her way! Got it?!"
+        "I was once lionized for my strength. But, being in battle after battle, I had neglected my family.\nIt all changed when my wife died of illness. When I could barely recognize my son's face, I realized my error...\nI swore on my wife's grave that I would be a father from that moment on. So I quit the army.\nI would never allow myself to forget that I am Ross's only father.\nEven he grew up to be a valiant warrior. Now, I fight for a better future for the people.\nWhat do you say we fight together, [S]?"
       ],
       "Special": [
-        "Vengeance, millionfold!",
-        "This is for Baldr!",
-        "Happy New Year!",
-        "Watch this!"
+        "Haven't lost my touch!",
+        "Show me what you've got!",
+        "This is not the end!",
+        "I'll cut clean through!"
       ],
       "Status": [
-        "Hm...",
-        "The saying is \"Happy New Year!\" Of course I know that!",
-        "*grunt* This is the year you'll face judgment for your acts.",
-        "Baldr looks impeccable, as always. I could faint before such majesty...",
-        "A New Year's present from Baldr?! I will treasure it for the rest of my life!",
-        "An enemy of my sister is an enemy of mine. I will avenge her even if I die doing so.",
-        "I am told the belief held here is that New Year's Day is the sun's birthday. *gasp* So it is a celebration for my sister, the Celestial Sun God.",
-        "For as long as the mission is with Baldr, I will fight beside you."
+        "-",
+        "These old bones still have some fight left in them, if you'll have me.",
+        "*react* Don't surprise a man with an axe, if you value your fingers.",
+        "I used to pass the time practicing archery with a friend... I hope he's well.",
+        "How is my son? Behaving sensibly, I hope.",
+        "There's no greater tragedy than when a parent must bury his child.",
+        "Risa, you'd be so happy. Ross has grown into a strong young man.",
+        "If I accomplished anything in this life, I raised a strong warrior."
       ],
       "Map Select": [
-        "Fine.",
-        "Toward the enemy.",
-        "Just like Baldr!"
+        "Very well.",
+        "Let's get started, then.",
+        "Time to focus."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "New Year V\u00e1li",
-    "SEARCH_NAME": "New Year V\u00e1li",
-    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>New Year V\u00e1li",
+    "short_name": "Garcia",
+    "SEARCH_NAME": "Garcia",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Garcia",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [
-      "vali"
-    ],
+    "reference": [],
     "prf": {
-      "": "sisterhagoita",
-      "eff": "sisterhagoita",
-      "atk": "sisterhagoita",
-      "spd": "sisterhagoita",
-      "def": "sisterhagoita",
-      "res": "sisterhagoita"
+      "": "hexbladeaxe",
+      "eff": "hexbladeaxe",
+      "atk": "hexbladeaxe",
+      "spd": "hexbladeaxe",
+      "def": "hexbladeaxe",
+      "res": "hexbladeaxe"
     }
   }
 }
