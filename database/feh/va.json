@@ -12210,7 +12210,11 @@
       "Rearmed Lysithea",
       "Rearm Lysithea",
       "Arm Lysithea",
-      "lysithea5"
+      "lysithea5",
+      "Resplendent Lysithea",
+      "Resp Lysithea",
+      "R Lysithea",
+      "Lysithea (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Janice Kawaye",
@@ -12254,11 +12258,16 @@
       "Rearmed Lysithea",
       "Rearm Lysithea",
       "Arm Lysithea",
-      "lysithea5"
+      "lysithea5",
+      "Resplendent Lysithea",
+      "Resp Lysithea",
+      "R Lysithea",
+      "Lysithea (Resplendent)"
     ],
     "heroes": {
       "lysithea": "<:Red_Tome:1124846175577710642>Lysithea",
       "lysithea2": "<:Red_Tome:1124846175577710642>Brave Lysithea",
+      "lysithea2R": "<:Red_Tome:1124846175577710642>Brave Lysithea (Resplendent)",
       "lysithea3": "<:Colorless_Tome:1124845725960904734>Harmonic Lysithea",
       "lysithea4": "<:Colorless_Tome:1124845725960904734>Maid Lysithea",
       "lysithea5": "<:Green_Tome:1124845959873036289>Rearmed Lysithea"

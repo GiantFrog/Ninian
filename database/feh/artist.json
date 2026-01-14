@@ -29037,6 +29037,7 @@
   "keg": {
     "heroes": {
       "lyn10": "<:Green_Beast:1124845912385138738>Lyn",
+      "lysithea2R": "<:Red_Tome:1124846175577710642>Brave Lysithea (Resplendent)",
       "tharjaR": "<:Red_Tome:1124846175577710642>Tharja (Resplendent)"
     },
     "name": "\uff2b\uff45\uff27",
@@ -29051,7 +29052,11 @@
       "mythic lyn",
       "horse lyn",
       "uma lyn",
-      "centaur lyn"
+      "centaur lyn",
+      "Resplendent Lysithea",
+      "Resp Lysithea",
+      "R Lysithea",
+      "Lysithea (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Tharja",
@@ -29064,7 +29069,11 @@
       "mythic lyn",
       "horse lyn",
       "uma lyn",
-      "centaur lyn"
+      "centaur lyn",
+      "Resplendent Lysithea",
+      "Resp Lysithea",
+      "R Lysithea",
+      "Lysithea (Resplendent)"
     ]
   },
   "kou": {

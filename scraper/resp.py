@@ -148,4 +148,4 @@ def scrape_resp(key):
 
     return
 
-scrape_resp('myrrh')
+scrape_resp('lysithea2')
