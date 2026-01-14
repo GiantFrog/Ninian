@@ -19444,7 +19444,10 @@
       "Base Jedah",
       "Normal Jedah",
       "Regular Jedah",
-      "jedah"
+      "jedah",
+      "The Faithful",
+      "Franz: The Faithful",
+      "franz"
     ],
     "HARD_ALT_NAME": [
       "P Lifis",
@@ -19469,9 +19472,13 @@
       "Base Jedah",
       "Normal Jedah",
       "Regular Jedah",
-      "jedah"
+      "jedah",
+      "The Faithful",
+      "Franz: The Faithful",
+      "franz"
     ],
     "heroes": {
+      "franz": "<:Blue_Lance:1124845569496584302>Franz",
       "jedah": "<:Red_Tome:1124846175577710642>Jedah",
       "lifis": "<:Green_Axe:1124845885277343754>Pirate Lifis",
       "perne": "<:Colorless_Dagger:1124845658617155734>Perne"
@@ -30012,6 +30019,7 @@
   },
   "sabamizore": {
     "heroes": {
+      "larachel5": "<:Colorless_Staff:1124845704444137592>Rearmed L'Arachel",
       "tiki11": "<:Green_Breath:1124845770978361425>Attuned Young Tiki"
     },
     "name": "\u3055\u3070\u307f\u305e\u308c",
@@ -30027,7 +30035,13 @@
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "tiki11"
+      "tiki11",
+      "Justice-Armed",
+      "L'Arachel: Justice-Armed",
+      "Rearmed L'Arachel",
+      "Rearm L'Arachel",
+      "Arm L'Arachel",
+      "larachel5"
     ],
     "HARD_ALT_NAME": [
       "Dragon's Progeny",
@@ -30041,7 +30055,13 @@
       "Young Tiki",
       "Y Tiki",
       "Attuned Tiki",
-      "tiki11"
+      "tiki11",
+      "Justice-Armed",
+      "L'Arachel: Justice-Armed",
+      "Rearmed L'Arachel",
+      "Rearm L'Arachel",
+      "Arm L'Arachel",
+      "larachel5"
     ]
   },
   "hanada": {
@@ -30346,6 +30366,58 @@
       "Resp Myrrh",
       "R Myrrh",
       "Myrrh (Resplendent)"
+    ]
+  },
+  "yejianchongshi": {
+    "heroes": {
+      "lute3": "<:Red_Tome:1124846175577710642>Aided Lute"
+    },
+    "name": "\u91ce\u9593\u5d07\u53f2",
+    "ALT_NAME": [
+      "Limitless Curiosity",
+      "Lute: Limitless Curiosity",
+      "Aided Lute",
+      "Aid Lute",
+      "lute3"
+    ],
+    "HARD_ALT_NAME": [
+      "Limitless Curiosity",
+      "Lute: Limitless Curiosity",
+      "Aided Lute",
+      "Aid Lute",
+      "lute3"
+    ]
+  },
+  "chaishanwankuro": {
+    "heroes": {
+      "morva": "<:Green_Breath:1124845770978361425>Morva"
+    },
+    "name": "\u67f4\u5c71\u308f\u3093\u304f\u308d",
+    "ALT_NAME": [
+      "Darkling Warden",
+      "Morva: Darkling Warden",
+      "morva"
+    ],
+    "HARD_ALT_NAME": [
+      "Darkling Warden",
+      "Morva: Darkling Warden",
+      "morva"
+    ]
+  },
+  "cangjingrameki": {
+    "heroes": {
+      "garcia": "<:Green_Axe:1124845885277343754>Garcia"
+    },
+    "name": "\u84bc\u4e95 \u3089\u3081\u304d",
+    "ALT_NAME": [
+      "Warrior Reborn",
+      "Garcia: Warrior Reborn",
+      "garcia"
+    ],
+    "HARD_ALT_NAME": [
+      "Warrior Reborn",
+      "Garcia: Warrior Reborn",
+      "garcia"
     ]
   }
 }

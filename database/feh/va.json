@@ -3114,7 +3114,12 @@
       "Ayra: Supreme Astra",
       "Legendary Ayra",
       "L Ayra",
-      "ayra3"
+      "ayra3",
+      "Limitless Curiosity",
+      "Lute: Limitless Curiosity",
+      "Aided Lute",
+      "Aid Lute",
+      "lute3"
     ],
     "HARD_ALT_NAME": [
       "ayra",
@@ -3198,7 +3203,12 @@
       "Ayra: Supreme Astra",
       "Legendary Ayra",
       "L Ayra",
-      "ayra3"
+      "ayra3",
+      "Limitless Curiosity",
+      "Lute: Limitless Curiosity",
+      "Aided Lute",
+      "Aid Lute",
+      "lute3"
     ],
     "heroes": {
       "ayra": "<:Red_Sword:1124846201070698536>Ayra",
@@ -3207,6 +3217,7 @@
       "ayraR": "<:Red_Sword:1124846201070698536>Ayra (Resplendent)",
       "lute": "<:Blue_Tome:1124845593211191297>Lute",
       "lute2": "<:Blue_Tome:1124845593211191297>Summer Lute",
+      "lute3": "<:Red_Tome:1124846175577710642>Aided Lute",
       "lysithea3": "<:Colorless_Tome:1124845725960904734>Harmonic Lysithea"
     },
     "name": "Brina Palencia"
@@ -4166,7 +4177,13 @@
       "L'Arachel: Summer Princess",
       "Summer Princess",
       "Summer L'Arachel",
-      "Summer Larchel"
+      "Summer Larchel",
+      "Justice-Armed",
+      "L'Arachel: Justice-Armed",
+      "Rearmed L'Arachel",
+      "Rearm L'Arachel",
+      "Arm L'Arachel",
+      "larachel5"
     ],
     "HARD_ALT_NAME": [
       "gunnthra",
@@ -4240,7 +4257,13 @@
       "S L'Arachel",
       "S Larchel",
       "S'Arachel",
-      "Summer Larchel"
+      "Summer Larchel",
+      "Justice-Armed",
+      "L'Arachel: Justice-Armed",
+      "Rearmed L'Arachel",
+      "Rearm L'Arachel",
+      "Arm L'Arachel",
+      "larachel5"
     ],
     "heroes": {
       "gunnthra": "<:Green_Tome:1124845959873036289>Gunnthr\u00e1",
@@ -4250,6 +4273,7 @@
       "larachel2": "<:Green_Tome:1124845959873036289>Halloween L'Arachel",
       "larachel3": "<:Colorless_Staff:1124845704444137592>Young L'Arachel",
       "larachel4": "<:Colorless_Staff:1124845704444137592>Summer L'Arachel",
+      "larachel5": "<:Colorless_Staff:1124845704444137592>Rearmed L'Arachel",
       "larachelR": "<:Blue_Tome:1124845593211191297>L'Arachel (Resplendent)"
     },
     "name": "Carrie Keranen"
@@ -31928,6 +31952,54 @@
       "Sedgar: Festive Horseman",
       "New Year Sedgar",
       "sedgar2"
+    ]
+  },
+  "johnpatneaude": {
+    "heroes": {
+      "franz": "<:Blue_Lance:1124845569496584302>Franz"
+    },
+    "name": "John Patneaude",
+    "ALT_NAME": [
+      "The Faithful",
+      "Franz: The Faithful",
+      "franz"
+    ],
+    "HARD_ALT_NAME": [
+      "The Faithful",
+      "Franz: The Faithful",
+      "franz"
+    ]
+  },
+  "jonathanlipow": {
+    "heroes": {
+      "morva": "<:Green_Breath:1124845770978361425>Morva"
+    },
+    "name": "Jonathan Lipow",
+    "ALT_NAME": [
+      "Darkling Warden",
+      "Morva: Darkling Warden",
+      "morva"
+    ],
+    "HARD_ALT_NAME": [
+      "Darkling Warden",
+      "Morva: Darkling Warden",
+      "morva"
+    ]
+  },
+  "micklauer": {
+    "heroes": {
+      "garcia": "<:Green_Axe:1124845885277343754>Garcia"
+    },
+    "name": "Mick Lauer",
+    "ALT_NAME": [
+      "Warrior Reborn",
+      "Garcia: Warrior Reborn",
+      "garcia"
+    ],
+    "HARD_ALT_NAME": [
+      "Warrior Reborn",
+      "Garcia: Warrior Reborn",
+      "garcia"
     ]
   }
 }
