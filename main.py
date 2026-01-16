@@ -180,7 +180,7 @@ b2.special["lorenz"] = lorenz
 async def calendar(ctx):
     embed = maji.Embed()
     
-    embed.attach("image", "https://froginata.com/infographs/calendar.png")
+    embed.attach("image", "https://froginata.com/infographs/calendar.jpg")
     
     await embed.send(ctx)
 
