@@ -1,16 +1,390 @@
 {
-  "larachel5": {
-    "name": "L'Arachel",
-    "title": "Justice-Armed",
-    "description": "Niece of Mansel, the Divine Emperor of Rausten. With a new weapon at her side, she travels the land preaching justice and order. Appears in Fire Emblem: The Sacred Stones.",
-    "origin": "The Sacred Stones",
-    "artist": "\u3055\u3070\u307f\u305e\u308c",
-    "move": "Cavalry",
-    "weapon": "Staff",
+  "azura8": {
+    "name": "Azura",
+    "title": "Lady of the Sky",
+    "description": "A songstress who was raised in Hoshido. She participates in the Ilian festival, where her song resounds throughout. Appears in Fire Emblem Fates.",
+    "origin": "Fates",
+    "artist": "Saine (\u3055\u3044\u306d)",
+    "move": "Flying",
+    "weapon": "Lance",
+    "color": "Blue",
+    "duel": false,
+    "id": "1339",
+    "type": false,
+    "version": "10.1",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 14,
+      "atk": 9,
+      "spd": 13,
+      "def": 3,
+      "res": 9
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 75,
+      "spd": 80,
+      "def": 30,
+      "res": 90
+    },
+    "superboon": [
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "atk",
+      "def"
+    ],
+    "weapons": {
+      "Iron Lance": "1",
+      "Steel Lance": "2",
+      "Silver Lance": "3",
+      "Ilian Greatlance": "5"
+    },
+    "assist": {
+      "Sing": "3",
+      "Songful Essence": "5"
+    },
+    "special": {},
+    "passive": {
+      "A": {
+        "Still Water 1": "2",
+        "Still Water 2": "3",
+        "Still Water 3": "4",
+        "Crystalline Water": "5"
+      },
+      "B": {
+        "Sabotage Def 1": "2",
+        "Sabotage Def 2": "3",
+        "Sabotage Def 3": "4",
+        "Def/Res Discord": "5"
+      },
+      "C": {
+        "Spd/Def Rein 1": "2",
+        "Spd/Def Rein 2": "3",
+        "Spd/Def Rein 3": "4",
+        "S/D Crux: Ploy": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/97/Azura_Lady_of_the_Sky_Face.webp/revision/latest?cb=20260116045117",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/da/Azura_Lady_of_the_Sky_BtlFace_D.webp/revision/latest?cb=20260116045112",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Azura_Lady_of_the_Sky_BtlFace_C.webp/revision/latest?cb=20260116045107",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Azura_Lady_of_the_Sky_BtlFace.webp/revision/latest?cb=20260116045052"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Lady of the Sky",
+      "Azura: Lady of the Sky",
+      "Cosplay Azura",
+      "Pegknight Azura",
+      "azura8"
+    ],
+    "HARD_ALT_NAME": [
+      "Lady of the Sky",
+      "Azura: Lady of the Sky",
+      "Cosplay Azura",
+      "Pegknight Azura",
+      "azura8"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u30a4\u30ea\u30a2\u30a2\u30af\u30a2",
+    "voice": "Rena Strober",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "fates"
+    ],
+    "chibi": "fe13",
+    "quotes": {
+      "Castle Hall": [
+        "I offer up my song to the mercenaries of Ilia, who fight in a foreign land for the sake of their homeland.",
+        "The harsh environment in which they live drives people to build bonds with one another, no matter the world.",
+        "A song meant to improve the morale of those who fight may be suitable for a festival celebrating Ilia.",
+        "Songs reach the hearts of the pegasi too. I can tell they are listening, and I appreciate their attention.",
+        "I appreciate this garb from Ilia. I am fond of color combinations that are built around a blue base."
+      ],
+      "Visit": [
+        "I am Azura. A festival for Ilia is going on now at the castle of [F].\nI will be contributing to the festive atmosphere with my songs."
+      ],
+      "Level": [
+        "I pray that my voice rises to reach Ilia's skies when I sing.",
+        "May my song light the flame of courage in everyone's hearts.",
+        "It does not seem as if my voice is up to the task today, does it?"
+      ],
+      "Summon": [
+        "I am Azura. A festival for Ilia, land of mercenaries... I shall do my best to support it with my song."
+      ],
+      "Learn Skill": [
+        "I get the sense that I can ride through even the harshest of northern winds with this power."
+      ],
+      "Confession": [
+        "Has it ever seemed to you as if the wind itself was singing?\nListen closely, and you can hear the singing voices. Sometimes cheerful... Sometimes melancholy...\nI wonder what songs the winds that blow from the mountains of Ilia sing?\nTo be a mercenary, fated to cross blades even with family should one meet them on the battlefield...\nIt is a harsh environment, but one that has supported Ilia and nurtured its people's pride as mercenaries.\nI shall offer my respect in a form that is natural to me...through a song sent on the wind to those distant skies."
+      ],
+      "Special": [
+        "Striking from above!",
+        "You won't escape.",
+        "I have you cornered.",
+        "The final ballad."
+      ],
+      "Status": [
+        "-",
+        "Stay strong.",
+        "I will refresh you.",
+        "There were pegasi in Hoshido as well. They are truly beautiful creatures.",
+        "Using a lance from the back of a pegasus certainly is challenging.",
+        "Soaring through the skies is so inspiring, it makes me want to break out in song.",
+        "Perhaps Corrin would enjoy going on a leisurely flight together some time.",
+        "I composed a new song while riding my pegasus. Shall I sing it for you?"
+      ],
+      "Map Select": [
+        "I'll do it.",
+        "Be calm...",
+        "Let us go."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Cosplay Azura",
+    "SEARCH_NAME": "Cosplay Azura",
+    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Cosplay Azura",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "azura",
+      "azura2",
+      "azura3",
+      "azura4",
+      "azura5",
+      "azura6",
+      "azura7"
+    ],
+    "prf": {
+      "": "iliangreatlance",
+      "eff": "iliangreatlance",
+      "atk": "iliangreatlance",
+      "spd": "iliangreatlance",
+      "def": "iliangreatlance",
+      "res": "iliangreatlance"
+    }
+  },
+  "hilda6": {
+    "name": "Hilda",
+    "title": "Skyward Wings",
+    "description": "Hilda, the lazy daughter of a privileged family, and Florina, from Ilia, descend from the skies to participate in the Ilian festival! They appear in Fire Emblem: Three Houses / The Blazing Blade.",
+    "origin": "The Blazing Blade + Three Houses",
+    "artist": "GomashioPonzu (\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162)",
+    "move": "Flying",
+    "weapon": "Bow",
     "color": "Colorless",
     "duel": false,
-    "id": "1333",
-    "type": "rearmed",
+    "id": "1338",
+    "type": false,
+    "version": "10.1",
+    "duo": false,
+    "harmonized": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit.\nInflicts\u3010Frozen\u3011and\u3010Share Spoils+\u3011on closest foes and any foe within 2 spaces of those foes through their next actions.\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.\n\u3010Frozen\u3011\nIncreases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats \u00d7 2; otherwise, X = 10).\n\u3010Share Spoils+\u3011\nInflicts Atk/Spd/Def/Res-5 on unit during combat and neutralizes \"reduces damage by X%\" effects from unit's non-Special skills (excluding area-of-effect Specials).\nOnce per turn for the entire map, if foe initiates combat and if unit is defeated in combat, grants another action to that foe after combat (this effect has priority over other similar effects aside from Share Spoils; if this status and Share Spoils are both active at the same time, they are both treated as having been triggered; other similar effects aside from Share Spoils are treated as not having triggered).",
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 11,
+      "def": 10,
+      "res": 4
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 85,
+      "def": 70,
+      "res": 30
+    },
+    "superboon": [
+      "atk",
+      "def"
+    ],
+    "superbane": [
+      "hp",
+      "res"
+    ],
+    "weapons": {
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Silver Bow": "3",
+      "Skybound Bow": "5"
+    },
+    "assist": {
+      "Rally Defense": "3",
+      "Rally Def/Res": "4",
+      "Rally Def/Res+": "5"
+    },
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4",
+      "Waning Shot": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Spd Catch 1": "2",
+        "Atk/Spd Catch 2": "3",
+        "Atk/Spd Catch 3": "4",
+        "Atk/Spd Airspace": "5"
+      },
+      "B": {
+        "Atk/Spd Link 1": "2",
+        "Atk/Spd Link 2": "3",
+        "Atk/Spd Link 3": "4",
+        "Atk/Spd Favor": "5"
+      },
+      "C": {
+        "Strat Assault 1": "2",
+        "Strat Assault 2": "3",
+        "Strat Assault 3": "4",
+        "Strat Assault 4": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/89/Hilda_Skyward_Wings_Face.webp/revision/latest?cb=20260116045227",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6d/Hilda_Skyward_Wings_BtlFace_D.webp/revision/latest?cb=20260116045222",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/72/Hilda_Skyward_Wings_BtlFace_C.webp/revision/latest?cb=20260116045217",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7e/Hilda_Skyward_Wings_BtlFace.webp/revision/latest?cb=20260116045202"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Skyward Wings",
+      "Hilda: Skyward Wings",
+      "Cosplay Hilda",
+      "Pegknight Hilda",
+      "hilda6"
+    ],
+    "HARD_ALT_NAME": [
+      "Skyward Wings",
+      "Hilda: Skyward Wings",
+      "Cosplay Hilda",
+      "Pegknight Hilda",
+      "Harmonic Hilda",
+      "hilda6"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u53cc\u754c\u30d2\u30eb\u30c0",
+    "voice": "Salli Saffioti + Julie Maddalena",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elibe"
+    ],
+    "chibi": "fe7",
+    "quotes": {
+      "Castle Hall": [
+        "**Florina:** I'm the youngest of three sisters, so... I feel as though you're a big sister to me, Hilda.",
+        "**Hilda:** Ilia is a country of mercenaries, huh? I feel Baltie would be more suited to making money by fighting.",
+        "**Florina:** It looks like Huey has taken a liking to you, Hilda. Hehe... You two are already so comfortable together.",
+        "**Florina:** This is what the Pegasus Knights of Ilia wear... It really looks so wonderful on you, Hilda.",
+        "**Hilda:** It is rather cold in Ilia, isn't it? And our outfits are rather thin. I wonder how we'll hold up."
+      ],
+      "Visit": [
+        "Florina and I are in the midst of setting the party ablaze at the Ilian festival at [F]'s."
+      ],
+      "Level": [
+        "**Hilda:** Thanks for the backup, Florina! If I say so myself, we make a pretty good pair!",
+        "**Florina:** We...won! It is reassuring to have you beside me, Hilda.",
+        "**Florina:** I'm so sorry... I dragged you down, Hilda..."
+      ],
+      "Summon": [
+        "I'm here to join in on the Ilian festival! I can count on you to show me around, right, Florina?"
+      ],
+      "Learn Skill": [
+        "**Hilda:** Isn't it divine, Florina?! With this, we can grow even stronger than we already are!"
+      ],
+      "Confession": [
+        "**Hilda:** Ahhh... The Ilian festival is so much fun! I got to know Florina, and I got to ride a pegasus.\n**Florina:** I had fun too. It felt nice to see the people of Askr learn about my homeland of Ilia...\nBut I wish it didn't have to end. I grew so close to Hilda...\n**Hilda:** What do you mean?! We're going to continue to be friends from now on!\n**Florina:** Oh? You'll...stay my friend? Well then, won't you come visit me in Ilia some day?\n**Hilda:** Of course! I promise! Perhaps such a request can even be granted by [S]..."
+      ],
+      "Special": [
+        "**Duo:** We must believe!",
+        "**Duo:** \"We're here!\" \"From above...\"",
+        "**Hilda:** How's this?",
+        "**Florina:** Pardon us!"
+      ],
+      "Status": [
+        "-",
+        "\"Pegasus Knight outfits are so lovely! Tell me, how do I look?\" \"Oh! Uh, you...look...wonderful.\""
+      ],
+      "Map Select": [
+        "Um...",
+        "Over here?",
+        "I'll do my best..."
+      ],
+      "Conversation": [
+        "**Hilda:** I'm relying on you today, Florina. Let's work together!",
+        "**Florina:** Yes... I'm so happy I get to work with someone like you...",
+        "**Hilda:** Huh? Ohhh, you mean because I'm such a delicate maiden?",
+        "**Florina:** No, I mean, you're always so full of energy. And you say whatever's on your mind...",
+        "**Hilda:** What are you talking about?!",
+        "You must mean how sweet I am. People can't help but want to protect me!",
+        "**Florina:** Uh...no. I mean...yes. I mean...",
+        "**Hilda:** That's what I thought. You, too, have plenty of potential. All you need is to learn to put that cuteness to use.",
+        "Now, just follow my example to your little heart's content.",
+        "**Florina:** Oh?",
+        "**Hilda:** All the things that are difficult, you need to force\u2014I-I mean, encourage others to do them for you.",
+        "**Florina:** R-Really?",
+        "**Hilda:** First, identify people who are likely to help you. Men are more likely, of course.",
+        "**Florina:** Oh, but...I-I can't talk to men.",
+        "**Hilda:** What do you mean?! That's such a waste of talent.",
+        "Don't worry, I'll teach you everything I know.",
+        "**Florina:** Oh... Are you sure?"
+      ],
+      "Duo Skill": [
+        "\"Let's go!\" \"OK.\"",
+        "\"*sob*\" \"Don't cry!\""
+      ],
+      "Back Unit Supporting": [
+        "I-I'm cheering for you.",
+        "You must..."
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Cosplay Hilda",
+    "SEARCH_NAME": "Cosplay Hilda",
+    "DISPLAY_NAME": "<:Colorless_Bow:1124845636659982457>Cosplay Hilda",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "hilda",
+      "hilda2",
+      "hilda3",
+      "hilda4",
+      "hilda5"
+    ],
+    "prf": {
+      "": "skyboundbow",
+      "eff": "skyboundbow",
+      "atk": "skyboundbow",
+      "spd": "skyboundbow",
+      "def": "skyboundbow",
+      "res": "skyboundbow"
+    }
+  },
+  "mia6": {
+    "name": "Mia",
+    "title": "Zenith Challenger",
+    "description": "A swordswoman and member of the Greil Mercenaries. She mounts a pegasus at the Ilian festival, where mercenaries gather. Appears in Fire Emblem: Radiant Dawn.",
+    "origin": "Radiant Dawn",
+    "artist": "Mai Okuma (\u5927\u718a\u307e\u3044)",
+    "move": "Flying",
+    "weapon": "Sword",
+    "color": "Red",
+    "duel": false,
+    "id": "1340",
+    "type": false,
     "version": "10.1",
     "duo": false,
     "harmonized": false,
@@ -18,339 +392,172 @@
     "base": {
       "hp": 18,
       "atk": 10,
-      "spd": 11,
-      "def": 3,
-      "res": 8
+      "spd": 10,
+      "def": 12,
+      "res": 6
     },
     "growth": {
       "hp": 50,
-      "atk": 90,
-      "spd": 85,
-      "def": 35,
-      "res": 50
+      "atk": 80,
+      "spd": 90,
+      "def": 75,
+      "res": 35
     },
     "superboon": [
-      "atk"
+      "spd"
     ],
     "superbane": [
       "hp",
-      "res"
-    ],
-    "weapons": {
-      "Assault": "1",
-      "Arcane Latona": "5"
-    },
-    "assist": {
-      "Heal": "1",
-      "Mend": "2",
-      "Ice Lock": "3",
-      "Ice Lock+": "5"
-    },
-    "special": {
-      "Imbue": "2",
-      "Miracle": "3",
-      "Holy Panic": "5"
-    },
-    "passive": {
-      "A": {
-        "Peerless Beauty": "5"
-      },
-      "B": {
-        "Live to Serve 1": "2",
-        "Live to Serve 2": "3",
-        "Live to Serve 3": "4",
-        "Preempt Amplify": "5"
-      },
-      "C": {
-        "Hone Atk 1": "2",
-        "Hone Atk 2": "3",
-        "Hone Atk 3": "4",
-        "A/S Hone Assault": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a2/LArachel_Justice-Armed_Face.webp/revision/latest?cb=20260105134829",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2a/LArachel_Justice-Armed_BtlFace_D.webp/revision/latest?cb=20260105134819",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/57/LArachel_Justice-Armed_BtlFace_C.webp/revision/latest?cb=20260105134808",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c7/LArachel_Justice-Armed_BtlFace.webp/revision/latest?cb=20260105134736"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Justice-Armed",
-      "L'Arachel: Justice-Armed",
-      "Rearmed L'Arachel",
-      "Rearm L'Arachel",
-      "Arm L'Arachel",
-      "larachel5"
-    ],
-    "HARD_ALT_NAME": [
-      "Justice-Armed",
-      "L'Arachel: Justice-Armed",
-      "Rearmed L'Arachel",
-      "Rearm L'Arachel",
-      "Arm L'Arachel",
-      "larachel5"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u9b54\u5668\u30e9\u30fc\u30c1\u30a7\u30eb",
-    "voice": "Carrie Keranen",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "magvel"
-    ],
-    "chibi": "fe8",
-    "quotes": {
-      "Castle Hall": [
-        "Ahh... This reminds me of the tea parties I had in my Rausten Palace. I shall invite you over some time.",
-        "The Stones of Grado, Frelia, and Jehanna are gone, but hope is not.\nThe Stone of Rausten is safe, after all.",
-        "No need to worry. I'm not on my own. I have my friends who share the same aspirations.",
-        "I am not lost! Dozla and Rennac ran off somewhere and abandoned me!",
-        "Ivaldi and the Staff of Latona are the Sacred Twin relics of Saint Latona, most holy father of Rausten!"
-      ],
-      "Visit": [
-        "So, you are a friend of [F]'s?\nWell then, now you are considered a friend of the beautiful princess of peerless beauty, me!"
-      ],
-      "Level": [
-        "It is time for me to be on my way, my friends. As the princess of Rausten, I still have many duties to perform.",
-        "Friends of justice! Allies of order and righteousness! I, L'Arachel, have arrived! Now, I shall deliver justice!",
-        "But...I am the beautiful princess of peerless beauty. This must be a mistake!"
-      ],
-      "Summon": [
-        "My name is L'Arachel, the hidden and beautiful princess of peerless beauty! You have my permission to call me so!"
-      ],
-      "Learn Skill": [
-        "Very well, then. Feast your eyes on my magnificent performance!"
-      ],
-      "Confession": [
-        "You seem to be quite determined to battle evil day in and day out, [S]!\nAnd even considering the Demon King himself has gowned a puppet to infiltrate the world of us humans...\nUnforgivable! He eats away at people's hearts, taking control of them!\nReverting the hearts that have been tainted with evil is tantamount to raising the dead.\nWith Saint Latona's relics\u2014No! Not even with the power of the Sacred Stones would it be possible...\nYou must have caution! Do not speak the name of the Demon King without care.\nOf course, you understand my worry."
-      ],
-      "Special": [
-        "With grace, of course.",
-        "A test of faith!",
-        "You have been judged!",
-        "Admire all you want."
-      ],
-      "Status": [
-        "-",
-        "I shall heal you.",
-        "I'm not finished yet.",
-        "\"Beautiful princess of peerless beauty\" doesn't quite fit anymore... I must think of a new introduction that matches my radiance with this new power.",
-        "It's understandable that you would be so captivated by me.",
-        "I'll eradicate all the evils of this world with my new power!",
-        "Father, Mother... Worry not, for I have grown stronger.",
-        "Our meeting was fashioned by the gods."
-      ],
-      "Map Select": [
-        "As you wish.",
-        "What shall we do?",
-        "I'll captivate them."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Rearmed L'Arachel",
-    "SEARCH_NAME": "Rearmed L'Arachel",
-    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Rearmed L'Arachel",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "larachel"
-    ],
-    "prf": {
-      "": "arcanelatona",
-      "eff": "arcanelatona",
-      "atk": "arcanelatona",
-      "spd": "arcanelatona",
-      "def": "arcanelatona",
-      "res": "arcanelatona"
-    }
-  },
-  "lute3": {
-    "name": "Lute",
-    "title": "Limitless Curiosity",
-    "description": "An exceptional mage, acknowledged as such by herself as well as others. She pursues the potential of magic with rare talent. Appears in Fire Emblem: The Sacred Stones.",
-    "origin": "The Sacred Stones",
-    "artist": "\u91ce\u9593\u5d07\u53f2",
-    "move": "Infantry",
-    "weapon": "Tome",
-    "color": "Red",
-    "duel": false,
-    "id": "1334",
-    "type": "aided",
-    "version": "10.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 15,
-      "atk": 10,
-      "spd": 12,
-      "def": 3,
-      "res": 14
-    },
-    "growth": {
-      "hp": 45,
-      "atk": 90,
-      "spd": 75,
-      "def": 30,
-      "res": 80
-    },
-    "superboon": [
-      "hp",
-      "atk"
-    ],
-    "superbane": [
-      "spd",
       "def"
     ],
     "weapons": {
-      "Fire": "1",
-      "Elfire": "2",
-      "Bolganone": "3",
-      "Unequaled Tome": "5"
+      "Iron Sword": "1",
+      "Steel Sword": "2",
+      "Silver Sword": "3",
+      "Ilian Longsword": "5"
     },
     "assist": {},
     "special": {
       "Night Sky": "3",
       "Astra": "4",
-      "Comet": "5"
+      "Celestial Form": "5"
     },
     "passive": {
       "A": {
-        "Superior Talent": "5"
+        "Blue Skies 1": "2",
+        "Blue Skies 2": "3",
+        "Blue Skies 3": "4",
+        "Blue-Sky Gust": "5"
       },
       "B": {
-        "Lull Atk/Res 1": "2",
-        "Lull Atk/Res 2": "3",
-        "Lull Atk/Res 3": "4",
-        "A/R Lull Finish": "5"
+        "Aerobatics 1": "2",
+        "Aerobatics 2": "3",
+        "Aerobatics 3": "4",
+        "Heavenly Soar": "5"
       },
       "C": {
-        "Time's Pulse 1": "2",
-        "Time's Pulse 2": "3",
-        "Time's Pulse 3": "4",
-        "Preempt: Ploy": "5"
+        "Spur Spd 1": "2",
+        "Spur Atk/Spd 1": "3",
+        "Spur Atk/Spd 2": "4",
+        "Null Uplift A/S": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c4/Lute_Limitless_Curiosity_Face.webp/revision/latest?cb=20260105134943",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4b/Lute_Limitless_Curiosity_BtlFace_D.webp/revision/latest?cb=20260105134933",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/af/Lute_Limitless_Curiosity_BtlFace_C.webp/revision/latest?cb=20260105134922",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/df/Lute_Limitless_Curiosity_BtlFace.webp/revision/latest?cb=20260105134850"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/98/Mia_Zenith_Challenger_Face.webp/revision/latest?cb=20260116045152",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/54/Mia_Zenith_Challenger_BtlFace_D.webp/revision/latest?cb=20260116045147",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d1/Mia_Zenith_Challenger_BtlFace_C.webp/revision/latest?cb=20260116045142",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Mia_Zenith_Challenger_BtlFace.webp/revision/latest?cb=20260116045127"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Limitless Curiosity",
-      "Lute: Limitless Curiosity",
-      "Aided Lute",
-      "Aid Lute",
-      "lute3"
+      "Zenith Challenger",
+      "Mia: Zenith Challenger",
+      "Cosplay Mia",
+      "Pegknight Mia",
+      "mia6"
     ],
     "HARD_ALT_NAME": [
-      "Limitless Curiosity",
-      "Lute: Limitless Curiosity",
-      "Aided Lute",
-      "Aid Lute",
-      "lute3"
+      "Zenith Challenger",
+      "Mia: Zenith Challenger",
+      "Cosplay Mia",
+      "Pegknight Mia",
+      "mia6"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "focus",
-    "internal_id": "PID_\u304a\u4f9b\u30eb\u30fc\u30c6",
-    "voice": "Brina Palencia",
+    "pool": "seasonal",
+    "internal_id": "PID_\u30a4\u30ea\u30a2\u30ef\u30e6",
+    "voice": "Anne Yatco",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "magvel"
+      "tellius"
     ],
-    "chibi": "fe8",
+    "chibi": "fe10",
     "quotes": {
       "Castle Hall": [
-        "A different world. Different cultures. As long as language exists, I'll achieve understanding. I am superior, after all.",
-        "This monster is merely the beginning. As my research progresses, I may try this for mauthe doogs and cyclopes.",
-        "When Grandmother said my father and mother were traveling in distant lands, could she have meant like this?",
-        "A warm beverage can help to heat you up from within when you have morning or evening chills.",
-        "Ah! Hearing someone call out to me so suddenly is startling. Even when it's you, [S]."
+        "Only the strong mercenaries survive. It's harsh, but I get it. I like it!",
+        "I've been a mercenary for so long, I understand in my bones how hard it is to make a living as one.",
+        "I've ridden a pegasus at Askr's summer festival too. I guess it's my fate, huh?",
+        "A festival where mercenaries pit their skills against one another sounds fun! I bet my boss Ike would think so too!",
+        "Whaddaya think? How do I look? I sure like that Ilian outfits are so easy to move around in!"
       ],
       "Visit": [
-        "Requests from others are classified into seven categories and 25 items. That's how I manage my errands."
+        "I'm Mia of the Greil Mercenaries. An Ilian festival where mercenaries gather is at [F]'s castle!"
       ],
       "Level": [
-        "I predicted this outcome from the beginning. After all, I'm Lute, genius mage extraordinaire.",
-        "Are you really getting back up? It doesn't bother me. I'll simply deal with you again.",
-        "This is a good resource for measuring fortune. Mages obtaining this solution may one day control peoples' fates."
+        "I felt that one! I guess I'll keep it up and be remembered as a mercenary in other worlds!",
+        "I'll survive no matter what! That's how mercenaries fight, after all.",
+        "You haven't seen my best with a sword, that's for sure."
       ],
       "Summon": [
-        "I am Lute. I'm a mage! Possibly the best. I may subdue monsters like this with my superior talent and research."
+        "I'm Mia! A festival for mercenaries? I'm in! And I'll take my pegasus along for the ride. Who's ready to spar?!"
       ],
       "Learn Skill": [
-        "Very interesting... I will help myself."
+        "Ooh, nice! My swordsmanship is about to get even sharper!"
       ],
       "Confession": [
-        "While deciphering a piece from A Young Girl's Primer to Nazonian Magic, I realized something.\nThe best way to research monsters is to live with one.\nThat's why I have this mogall. Not to feed or care for it, but ultimately to research it.\nWe should be able to keep monsters in check. Once I finish my research, no one will have to fear them.\nSince I also research you, having you live here should move things along. My mogall will welcome a new ally.\nWhether summoner or monster, I will treat you equally. After all...I am superior."
+        "I heard that mercenaries of Ilia will fight with all their might against any opponent\u2014even their own kin!\nSo, no matter your foe, if you're paid to fight, you have to fight. Sounds like harsh work, huh?\nBut the people of Ilia have survived this way for decades.\nHaving faced off against some of them, I can tell you, they'll do far more than most.\nBut I'm just as prepared as anyone. I want to become the strongest Hero, reaching greater heights than any!\nI know just how difficult that'll be at this festival. But that's exactly what makes it so rewarding!"
       ],
       "Special": [
-        "My research is confirmed.",
-        "Time for you to leave.",
-        "Let's try this.",
-        "Time well spent."
+        "Comin' in hot!",
+        "Let's see what you got!",
+        "Now we're talking!",
+        "My turn."
       ],
       "Status": [
         "-",
-        "It's time I demonstrate the results of my new research.",
-        "*gasp* Oh, it's you. I thought it might have been a tentacle.",
-        "I'm researching this mogall's behavior. Don't worry, it's completely harmless.",
-        "It would be a benefit to humanity if I were able to control all monsters.",
-        "Again? Why do people keep screaming and running away in fear?",
-        "I have fallen. For my own excellence, of course.",
-        "I'm sure my brilliant mind will be useful to you."
+        "Whaddaya think? How do I look as a pegasus knight?",
+        "*react* Oh, yeah? Challenging me to a duel, huh?",
+        "Having a pegasus for a partner is the best. They're so adorable!",
+        "I hear the winters in Ilia are freezing. Sounds like the next step for my training!",
+        "I could really pull off this pegasus knight thing. My fortune says so.",
+        "I might be able to find my archrival more easily from the sky...",
+        "Ready for a stroll through the skies, Boss? Hop on!"
       ],
       "Map Select": [
-        "I'll do just that.",
-        "Statistically speaking...",
-        "Allow me to demonstrate."
+        "Whatever you say, Boss.",
+        "What now?",
+        "Let's fly!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Aided Lute",
-    "SEARCH_NAME": "Aided Lute",
-    "DISPLAY_NAME": "<:Red_Tome:1124846175577710642>Aided Lute",
+    "short_name": "Cosplay Mia",
+    "SEARCH_NAME": "Cosplay Mia",
+    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Cosplay Mia",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "lute",
-      "lute2"
+      "mia",
+      "mia2",
+      "mia3",
+      "mia4",
+      "mia5"
     ],
     "prf": {
-      "": "unequaledtome",
-      "eff": "unequaledtome",
-      "atk": "unequaledtome",
-      "spd": "unequaledtome",
-      "def": "unequaledtome",
-      "res": "unequaledtome"
+      "": "ilianlongsword",
+      "eff": "ilianlongsword",
+      "atk": "ilianlongsword",
+      "spd": "ilianlongsword",
+      "def": "ilianlongsword",
+      "res": "ilianlongsword"
     }
   },
-  "franz": {
-    "name": "Franz",
-    "title": "The Faithful",
-    "description": "A knight of Renais who has just finished his tenure as squire. He is an earnest and kind individual. Appears in Fire Emblem: The Sacred Stones.",
-    "origin": "The Sacred Stones",
-    "artist": "otorihara",
-    "move": "Cavalry",
-    "weapon": "Lance",
-    "color": "Blue",
+  "minerva4": {
+    "name": "Minerva",
+    "title": "Above the Stars",
+    "description": "Eldest princess of Macedon. She mounts a pegasus for the first time in ages to participate in the Ilian festival, where mercenaries gather. Appears in Fire Emblem: Mystery of the Emblem.",
+    "origin": "Shadow Dragon",
+    "artist": "RIZ3",
+    "move": "Flying",
+    "weapon": "Axe",
+    "color": "Green",
     "duel": false,
-    "id": "1335",
+    "id": "1341",
     "type": false,
     "version": "10.1",
     "duo": false,
@@ -358,341 +565,30 @@
     "emblem": false,
     "base": {
       "hp": 19,
-      "atk": 11,
+      "atk": 12,
       "spd": 9,
-      "def": 9,
-      "res": 6
-    },
-    "growth": {
-      "hp": 55,
-      "atk": 80,
-      "spd": 90,
-      "def": 60,
-      "res": 40
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [],
-    "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Melee Lance": "3",
-      "Melee Lance+": "5"
-    },
-    "assist": {
-      "Swap": "3"
-    },
-    "special": {},
-    "passive": {
-      "A": {},
-      "B": {
-        "Flow Refresh 1": "3",
-        "Flow Refresh 2": "4",
-        "Flow Refresh 3": "5"
-      },
-      "C": {
-        "Rouse Atk/Spd 1": "1",
-        "Rouse Atk/Spd 2": "2",
-        "Rouse Atk/Spd 3": "4"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/42/Franz_The_Faithful_Face.webp/revision/latest?cb=20260105135057",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Franz_The_Faithful_BtlFace_D.webp/revision/latest?cb=20260105135047",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/40/Franz_The_Faithful_BtlFace_C.webp/revision/latest?cb=20260105135036",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/60/Franz_The_Faithful_BtlFace.webp/revision/latest?cb=20260105135004"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "The Faithful",
-      "Franz: The Faithful",
-      "franz"
-    ],
-    "HARD_ALT_NAME": [
-      "The Faithful",
-      "Franz: The Faithful",
-      "franz"
-    ],
-    "gender": "M",
-    "rarity": 4,
-    "pool": "global",
-    "internal_id": "PID_\u30d5\u30e9\u30f3\u30c4",
-    "voice": "John Patneaude",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "magvel"
-    ],
-    "chibi": "fe8",
-    "quotes": {
-      "Castle Hall": [
-        "Please, allow me to fight beside you, [S]!",
-        "I've just finished my time as a squire, but...I am every bit a knight of Renais.",
-        "Even if you act lazy as part of your charm, once the battle starts, everyone will see how sharp you are.",
-        "Holding my fishing pole like this, I can feel my spear arm getting stronger, which gives me a sense of calm.",
-        "One day, I want to be a great knight like General Seth."
-      ],
-      "Visit": [
-        "I'm Franz, a knight of Renais. I'm here on an errand from [F]'s castle."
-      ],
-      "Level": [
-        "I'll keep pushing forward for Renais, and become a knight as great as my brother.",
-        "I wonder... Have I gotten a little stronger at least?",
-        "Looks like I still need more training..."
-      ],
-      "Summon": [
-        "I'm Franz, a knight of Renais. I've only just finished my time as a squire, but I'm here to do my best!"
-      ],
-      "Learn Skill": [
-        "There must be something that I can do!"
-      ],
-      "Confession": [
-        "This will be a tough battle, [S]...\nI've been busy myself. I'm sort of embarrassed to say, but...this satchel I made seems to be pretty popular.\nThere's a pouch on the side for a skin of water, a place for food, and even a hidden pocket for herbs.\nI designed it so it won't shake while riding, and you can carry it on your back or sling it over your shoulders.\nIt feels good making something that everyone appreciates... It's probably my only redeeming trait.\nI've made one embroidered with your name, [S]. I hope you put it to good use!"
-      ],
-      "Special": [
-        "For Renais!",
-        "This is my duty.",
-        "I must win!",
-        "Until the end!"
-      ],
-      "Status": [
-        "-",
-        "I'm Franz, every bit a knight of Renais.",
-        "Oh! I-I thought you were Forde for a moment.",
-        "Is there some place around here I could go fishing? Not while I'm on duty, of course.",
-        "General Seth, the Silver Knight, is my hero.",
-        "The only memory I have of my father was a deep scar he got from battle. But I know...he was a brave knight.",
-        "Someday, I will become a knight even greater than my brother or my father.",
-        "If you're tired, I can teach you some traditional relaxation exercises from Renais."
-      ],
-      "Map Select": [
-        "Yes.",
-        "Are you sure?",
-        "I'll fight on!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Franz",
-    "SEARCH_NAME": "Franz",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Franz",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "meleelance",
-      "eff": "meleelance",
-      "atk": "meleelance",
-      "spd": "meleelance",
-      "def": "meleelance",
-      "res": "meleelance"
-    }
-  },
-  "morva": {
-    "name": "Morva",
-    "title": "Darkling Warden",
-    "description": "Leader of the dragon tribe who once stood by humanity during a battle in the distant past. He has a longstanding conflict with Fomortiis, the Demon King. Appears in Fire Emblem: The Sacred Stones.",
-    "origin": "The Sacred Stones",
-    "artist": "\u67f4\u5c71\u308f\u3093\u304f\u308d",
-    "move": "Flying",
-    "weapon": "Breath",
-    "color": "Green",
-    "duel": false,
-    "id": "1336",
-    "type": false,
-    "version": "10.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 3,
-      "def": 13,
-      "res": 12
+      "def": 12,
+      "res": 4
     },
     "growth": {
       "hp": 50,
-      "atk": 90,
-      "spd": 35,
-      "def": 80,
-      "res": 75
-    },
-    "superboon": [
-      "atk"
-    ],
-    "superbane": [
-      "hp",
-      "res"
-    ],
-    "weapons": {
-      "Fire Breath": "1",
-      "Fire Breath+": "2",
-      "Flametongue": "3",
-      "Purging Breath": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "Dragon Flame": "5"
-    },
-    "passive": {
-      "A": {},
-      "B": {
-        "Dragon's Ire 1": "2",
-        "Dragon's Ire 2": "3",
-        "Dragon's Ire 3": "4",
-        "Dragon's Scales": "5"
-      },
-      "C": {
-        "Atk/Res Rein 1": "2",
-        "Atk/Res Rein 2": "3",
-        "Atk/Res Rein 3": "4",
-        "A/R Hold Guide": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/1d/Morva_Darkling_Warden_Face.webp/revision/latest?cb=20260105135211",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/67/Morva_Darkling_Warden_BtlFace_D.webp/revision/latest?cb=20260105135200",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Morva_Darkling_Warden_BtlFace_C.webp/revision/latest?cb=20260105135149",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/f/f2/Morva_Darkling_Warden_BtlFace.webp/revision/latest?cb=20260105135117"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Darkling Warden",
-      "Morva: Darkling Warden",
-      "morva"
-    ],
-    "HARD_ALT_NAME": [
-      "Darkling Warden",
-      "Morva: Darkling Warden",
-      "morva"
-    ],
-    "gender": "M",
-    "rarity": 5,
-    "pool": "global",
-    "internal_id": "PID_\u30e0\u30eb\u30f4\u30a1",
-    "voice": "Jonathan Lipow",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "magvel"
-    ],
-    "chibi": "fe8",
-    "quotes": {
-      "Castle Hall": [
-        "The protection of the blessed stones is lost. The dark is rising.\nKing of shadows...they appear to be waiting for you.",
-        "Hundreds of years later, Demon King, you can clothe yourself in human flesh, but cannot hide your foul mien.",
-        "Myrrh left the woods long ago in pursuit of the Demon King. I hope she is well...",
-        "It seems those who gather here all bear an unusual destiny. You are no exception, [S].",
-        "I bear this form, but I am a dragonkin from Magvel. It would be better if I avoided interacting with humankind."
-      ],
-      "Visit": [
-        "I agree with [F].\nMoving forward, it may be necessary for us manaketes to learn about the lives of humans."
-      ],
-      "Level": [
-        "I cannot abandon humankind to the Demon King. In this land, he shall be defeated again as he was long ago.",
-        "I live and breathe to protect all.",
-        "Myrrh, do not concern yourself with me. Continue to follow the path you have chosen."
-      ],
-      "Summon": [
-        "I am Morva. Several hundred years ago, I sealed away the darkness that nests in Magvel.\nThe undying roots of corruption still plague the land."
-      ],
-      "Learn Skill": [
-        "I never imagined I would gain yet new strength after having lived for a millennia..."
-      ],
-      "Confession": [
-        "A long time ago, deep in the woods in Magvel, I defeated the Demon King alongside heroes with Sacred Stones.\nThe blood he shed sullied the land. Rot and poison ever flowed from his corpse into the once-beautiful forest.\nFor several hundred years, monsters that spawned from the filth awaited the return of their progenitor.\nDarkness nestled within life itself. An evil soul consuming hearts and minds. Demon King Fomortiis's true form.\nWe must defend the people. Should the Demon King be resurrected, we will destroy him once again.\nSummoner, when you and your allies realize how terrifying he truly is, only then you will understand my words."
-      ],
-      "Special": [
-        "It is my duty.",
-        "Witness your defeat.",
-        "As it once did...",
-        "The time is now!"
-      ],
-      "Status": [
-        "-",
-        "I am Morva, leader of the dragons, guardian of the Darkling Woods.",
-        "*react* Oh, I thought you were Myrrh.",
-        "Ancient king of shadows... They appear to be waiting for you.",
-        "I live and breathe to protect mankind. I cannot abandon them to evil.",
-        "Myrrh left the woods long ago to test the limits of evil's influence. Could she have... No...",
-        "Myrrh, I hope you are unharmed...",
-        "You have proven yourself honorable. I will place my trust in you."
-      ],
-      "Map Select": [
-        "Yes.",
-        "Dubitable...",
-        "I shall be off."
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Morva",
-    "SEARCH_NAME": "Morva",
-    "DISPLAY_NAME": "<:Green_Breath:1124845770978361425>Morva",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [],
-    "prf": {
-      "": "purgingbreath",
-      "eff": "purgingbreath",
-      "atk": "purgingbreath",
-      "spd": "purgingbreath",
-      "def": "purgingbreath",
-      "res": "purgingbreath"
-    }
-  },
-  "garcia": {
-    "name": "Garcia",
-    "title": "Warrior Reborn",
-    "description": "A warrior hailing from the village of Ide in Renais. He is a former military commander, feared for his might. Appears in Fire Emblem: The Sacred Stones.",
-    "origin": "The Sacred Stones",
-    "artist": "\u84bc\u4e95 \u3089\u3081\u304d",
-    "move": "Infantry",
-    "weapon": "Axe",
-    "color": "Green",
-    "duel": false,
-    "id": "1337",
-    "type": false,
-    "version": "10.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 24,
-      "atk": 10,
-      "spd": 8,
-      "def": 11,
-      "res": 5
-    },
-    "growth": {
-      "hp": 60,
-      "atk": 90,
-      "spd": 75,
+      "atk": 80,
+      "spd": 90,
       "def": 75,
       "res": 35
     },
     "superboon": [
-      "atk"
+      "spd"
     ],
     "superbane": [
-      "spd",
+      "hp",
       "def"
     ],
     "weapons": {
       "Iron Axe": "1",
       "Steel Axe": "2",
-      "Hexblade Axe": "3",
-      "Hexblade Axe+": "5"
+      "Silver Axe": "3",
+      "Ilian Battleaxe": "5"
     },
     "assist": {},
     "special": {
@@ -701,110 +597,117 @@
     },
     "passive": {
       "A": {
-        "Atk/Def Finish 1": "1",
-        "Atk/Def Finish 2": "2",
-        "Atk/Def Finish 3": "4"
+        "Dragoon Pillar": "5"
       },
       "B": {
-        "Atk/Def Tempo 1": "3",
-        "Atk/Def Tempo 2": "4",
-        "Atk/Def Tempo 3": "5"
+        "Wyvern Flight 1": "2",
+        "Wyvern Flight 2": "3",
+        "Wyvern Flight 3": "4",
+        "Wyvern Rift": "5"
       },
       "C": {},
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a3/Garcia_Warrior_Reborn_Face.webp/revision/latest?cb=20260105135334",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/90/Garcia_Warrior_Reborn_BtlFace_D.webp/revision/latest?cb=20260105135323",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a2/Garcia_Warrior_Reborn_BtlFace_C.webp/revision/latest?cb=20260105135314",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Garcia_Warrior_Reborn_BtlFace.webp/revision/latest?cb=20260105135232"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Minerva_Above_the_Stars_Face.webp/revision/latest?cb=20260116045007",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e8/Minerva_Above_the_Stars_BtlFace_D.webp/revision/latest?cb=20260116045002",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2d/Minerva_Above_the_Stars_BtlFace_C.webp/revision/latest?cb=20260116044957",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Minerva_Above_the_Stars_BtlFace.webp/revision/latest?cb=20260116044942"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Warrior Reborn",
-      "Garcia: Warrior Reborn",
-      "garcia"
+      "Above the Stars",
+      "Minerva: Above the Stars",
+      "Cosplay Minerva",
+      "Pegknight Minerva",
+      "minerva4"
     ],
     "HARD_ALT_NAME": [
-      "Warrior Reborn",
-      "Garcia: Warrior Reborn",
-      "garcia"
+      "Above the Stars",
+      "Minerva: Above the Stars",
+      "Cosplay Minerva",
+      "Pegknight Minerva",
+      "minerva4"
     ],
-    "gender": "M",
-    "rarity": 3,
-    "pool": "grail",
-    "internal_id": "PID_\u30ac\u30eb\u30b7\u30a2",
-    "voice": "Mick Lauer",
+    "gender": "F",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u30a4\u30ea\u30a2\u30df\u30cd\u30eb\u30d0",
+    "voice": "Cindy Robinson",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "magvel"
+      "archanea"
     ],
-    "chibi": "fe8",
+    "chibi": "archanea",
     "quotes": {
       "Castle Hall": [
-        "Before I knew it, my son had become a warrior. He turned out just fine without my help...",
-        "I quit fighting so I could be with my family. At least, that was my intention. But now...I must fight once more!",
-        "You can't fight on an empty stomach. Eating is very important to keep up your strength. Especially breakfast.",
-        "The army's full of young men who are strong in their specific fields but weak in others.",
-        "I'm preparing myself for the battle. Please don't come near me right now."
+        "There is no holding back on the battlefield, even if fighting against your own kin...\nIt is as though I can feel the harsh life of a mercenary.",
+        "The land of Macedon is mostly dense forest; it is not fertile. This indeed marks a commonality with Ilia.",
+        "If not for being born royalty, I could have potentially lived the life of a mercenary.",
+        "I am sure Macedon's Whitewings would be interested to know that Ilia is a natural habitat for pegasi.",
+        "This outfit is that of a pegasus knight of Ilia. I am fond of its practicality and lack of constraining adornments."
       ],
       "Visit": [
-        "I'm Garcia, father of Ross the warrior. I ask that you take good care of my son should the time arise."
+        "I am Minerva, princess of Macedon. You have been invited to an Ilian festival by [F]."
       ],
       "Level": [
-        "I won't give up the fight. For the future of all children.",
-        "If you want to survive this war, you must focus on the enemy before you. The others can wait till later.",
-        "Hmm..."
+        "That was a fine battle. I am happy I was able to improve alongside others at this festival.",
+        "I shall demonstrate Macedonian pride through might and technique!",
+        "It seems I may have gotten ahead of myself when I mounted a pegasus for the first time in quite a while."
       ],
       "Summon": [
-        "I'm Garcia. I may be a little fatigued, but I've still got some fight left in me. Allow me to fight."
+        "I, Minerva, first princess of Macedon, shall face this Ilian festival of mercenaries alongside this pegasus."
       ],
       "Learn Skill": [
-        "I have no regrets, nothing to fear."
+        "I graciously accept your gift from a land of mercenaries. I shall make good use of it."
       ],
       "Confession": [
-        "I was once lionized for my strength. But, being in battle after battle, I had neglected my family.\nIt all changed when my wife died of illness. When I could barely recognize my son's face, I realized my error...\nI swore on my wife's grave that I would be a father from that moment on. So I quit the army.\nI would never allow myself to forget that I am Ross's only father.\nEven he grew up to be a valiant warrior. Now, I fight for a better future for the people.\nWhat do you say we fight together, [S]?"
+        "The first time I took to battle, I was riding a pegasus, not a wyvern.\nI switched to a wyvern to show those around me the strength of Macedonian royalty.\nThe fate of Macedon is characterized by this strength. It is the reason we have overcome countless struggles.\nMuch like Ilia, Macedon is not a wealthy land\u2014that is for certain. We have needed our strength to survive.\nHowever, we do not wish for endless war. What we truly seek are days of peace.\nMy wish is for conflict in all worlds to end. Then I will lay down my weapon and soar across Ilia's skies."
       ],
       "Special": [
-        "Haven't lost my touch!",
-        "Show me what you've got!",
-        "This is not the end!",
-        "I'll cut clean through!"
+        "Too slow!",
+        "You're wide open.",
+        "Found your weak spot.",
+        "You will not escape!"
       ],
       "Status": [
         "-",
-        "These old bones still have some fight left in them, if you'll have me.",
-        "*react* Don't surprise a man with an axe, if you value your fingers.",
-        "I used to pass the time practicing archery with a friend... I hope he's well.",
-        "How is my son? Behaving sensibly, I hope.",
-        "There's no greater tragedy than when a parent must bury his child.",
-        "Risa, you'd be so happy. Ross has grown into a strong young man.",
-        "If I accomplished anything in this life, I raised a strong warrior."
+        "I shall observe the full might of the Pegasus Knights of Ilia.",
+        "*startle* Do not sneak up on me. Where are your manners?",
+        "I was once a pegasus rider myself.",
+        "The Whitewings of Macedon shall not be bested. I request a sparring match.",
+        "It's been a while since I wore an outfit as light as this.",
+        "I wonder if my pegasus is still in the forest...",
+        "My wish for you is to experience the gentle breeze from the back of a pegasus."
       ],
       "Map Select": [
-        "Very well.",
-        "Let's get started, then.",
-        "Time to focus."
+        "Yes.",
+        "What shall I do?",
+        "I will finish it."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Garcia",
-    "SEARCH_NAME": "Garcia",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Garcia",
+    "short_name": "Cosplay Minerva",
+    "SEARCH_NAME": "Cosplay Minerva",
+    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Cosplay Minerva",
     "RANDOM_IGNORE": true,
     "alt": false,
-    "reference": [],
+    "reference": [
+      "minerva",
+      "minerva2",
+      "minerva3"
+    ],
     "prf": {
-      "": "hexbladeaxe",
-      "eff": "hexbladeaxe",
-      "atk": "hexbladeaxe",
-      "spd": "hexbladeaxe",
-      "def": "hexbladeaxe",
-      "res": "hexbladeaxe"
+      "": "ilianbattleaxe",
+      "eff": "ilianbattleaxe",
+      "atk": "ilianbattleaxe",
+      "spd": "ilianbattleaxe",
+      "def": "ilianbattleaxe",
+      "res": "ilianbattleaxe"
     }
   }
 }

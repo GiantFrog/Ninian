@@ -14677,7 +14677,12 @@
       "Divine Abundance",
       "Ner\u00feuz: Divine Abundance",
       "Halloween Ner\u00feuz",
-      "nerthuz4"
+      "nerthuz4",
+      "Zenith Challenger",
+      "Mia: Zenith Challenger",
+      "Cosplay Mia",
+      "Pegknight Mia",
+      "mia6"
     ],
     "HARD_ALT_NAME": [
       "Arm Reflet F",
@@ -14808,11 +14813,17 @@
       "Divine Abundance",
       "Ner\u00feuz: Divine Abundance",
       "Halloween Ner\u00feuz",
-      "nerthuz4"
+      "nerthuz4",
+      "Zenith Challenger",
+      "Mia: Zenith Challenger",
+      "Cosplay Mia",
+      "Pegknight Mia",
+      "mia6"
     ],
     "heroes": {
       "caeda6": "<:Blue_Lance:1124845569496584302>Attuned Caeda",
       "camilla9": "<:Green_Tome:1124845959873036289>Legendary Camilla",
+      "mia6": "<:Red_Sword:1124846201070698536>Cosplay Mia",
       "nerthuz4": "<:Red_Beast:1124846309208248381>Halloween Ner\u00feuz",
       "robin10": "<:Colorless_Breath:1124845679076978798>Rearmed Grima",
       "tharja5": "<:Blue_Tome:1124845593211191297>Summer Tharja",
@@ -20610,7 +20621,12 @@
       "Resplendent Titania",
       "Resp Titania",
       "R Titania",
-      "Titania (Resplendent)"
+      "Titania (Resplendent)",
+      "Above the Stars",
+      "Minerva: Above the Stars",
+      "Cosplay Minerva",
+      "Pegknight Minerva",
+      "minerva4"
     ],
     "HARD_ALT_NAME": [
       "jeorgeR",
@@ -20661,13 +20677,19 @@
       "Resplendent Titania",
       "Resp Titania",
       "R Titania",
-      "Titania (Resplendent)"
+      "Titania (Resplendent)",
+      "Above the Stars",
+      "Minerva: Above the Stars",
+      "Cosplay Minerva",
+      "Pegknight Minerva",
+      "minerva4"
     ],
     "heroes": {
       "ced2": "<:Green_Tome:1124845959873036289>Ascended Ced",
       "ingrid3": "<:Blue_Lance:1124845569496584302>Rearmed Ingrid",
       "jeorgeR": "<:Colorless_Bow:1124845636659982457>Jeorge (Resplendent)",
       "lucina6": "<:Green_Axe:1124845885277343754>Valentines Lucina",
+      "minerva4": "<:Green_Axe:1124845885277343754>Cosplay Minerva",
       "sothe3": "<:Colorless_Dagger:1124845658617155734>Rearmed Sothe",
       "titaniaR": "<:Green_Axe:1124845885277343754>Titania (Resplendent)"
     },
@@ -20931,7 +20953,12 @@
       "Base Paula",
       "Normal Paula",
       "Base Paora",
-      "Normal Paora"
+      "Normal Paora",
+      "Lady of the Sky",
+      "Azura: Lady of the Sky",
+      "Cosplay Azura",
+      "Pegknight Azura",
+      "azura8"
     ],
     "HARD_ALT_NAME": [
       "pallaR",
@@ -20952,9 +20979,15 @@
       "Base Paula",
       "Normal Paula",
       "Base Paora",
-      "Normal Paora"
+      "Normal Paora",
+      "Lady of the Sky",
+      "Azura: Lady of the Sky",
+      "Cosplay Azura",
+      "Pegknight Azura",
+      "azura8"
     ],
     "heroes": {
+      "azura8": "<:Blue_Lance:1124845569496584302>Cosplay Azura",
       "pallaR": "<:Red_Sword:1124846201070698536>Palla (Resplendent)"
     },
     "name": "Saine (\u3055\u3044\u306d)"
@@ -28927,6 +28960,7 @@
   "gomashioponzuo": {
     "heroes": {
       "camillaR": "<:Green_Axe:1124845885277343754>Camilla (Resplendent)",
+      "hilda6": "<:Colorless_Bow:1124845636659982457>Cosplay Hilda",
       "palla5": "<:Green_Axe:1124845885277343754>Summer Palla"
     },
     "name": "\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162",
@@ -28938,7 +28972,12 @@
       "Soaring Summer",
       "Palla: Soaring Summer",
       "Summer Palla",
-      "palla5"
+      "palla5",
+      "Skyward Wings",
+      "Hilda: Skyward Wings",
+      "Cosplay Hilda",
+      "Pegknight Hilda",
+      "hilda6"
     ],
     "HARD_ALT_NAME": [
       "Resplendent Camilla",
@@ -28948,7 +28987,13 @@
       "Soaring Summer",
       "Palla: Soaring Summer",
       "Summer Palla",
-      "palla5"
+      "palla5",
+      "Skyward Wings",
+      "Hilda: Skyward Wings",
+      "Cosplay Hilda",
+      "Pegknight Hilda",
+      "Harmonic Hilda",
+      "hilda6"
     ]
   },
   "yoshio": {
