@@ -1666,7 +1666,12 @@
       "Yukata Mia",
       "HS Mia",
       "Fes Mia",
-      "mia5"
+      "mia5",
+      "Zenith Challenger",
+      "Mia: Zenith Challenger",
+      "Cosplay Mia",
+      "Pegknight Mia",
+      "mia6"
     ],
     "HARD_ALT_NAME": [
       "miaR",
@@ -1702,11 +1707,17 @@
       "Yukata Mia",
       "HS Mia",
       "Fes Mia",
-      "mia5"
+      "mia5",
+      "Zenith Challenger",
+      "Mia: Zenith Challenger",
+      "Cosplay Mia",
+      "Pegknight Mia",
+      "mia6"
     ],
     "heroes": {
       "mia4": "<:Red_Sword:1124846201070698536>Young Mia",
       "mia5": "<:Green_Axe:1124845885277343754>Festival Mia",
+      "mia6": "<:Red_Sword:1124846201070698536>Cosplay Mia",
       "miaR": "<:Red_Sword:1124846201070698536>Mia (Resplendent)"
     },
     "name": "Anne Yatco"
@@ -6228,7 +6239,12 @@
       "Rearmed Nuibaba",
       "Rearm Nuibaba",
       "Arm Nuibaba",
-      "nuibaba"
+      "nuibaba",
+      "Above the Stars",
+      "Minerva: Above the Stars",
+      "Cosplay Minerva",
+      "Pegknight Minerva",
+      "minerva4"
     ],
     "HARD_ALT_NAME": [
       "peri",
@@ -6359,7 +6375,12 @@
       "Rearmed Nuibaba",
       "Rearm Nuibaba",
       "Arm Nuibaba",
-      "nuibaba"
+      "nuibaba",
+      "Above the Stars",
+      "Minerva: Above the Stars",
+      "Cosplay Minerva",
+      "Pegknight Minerva",
+      "minerva4"
     ],
     "heroes": {
       "aversa": "<:Red_Tome:1124846175577710642>Aversa",
@@ -6376,6 +6397,7 @@
       "minerva": "<:Green_Axe:1124845885277343754>Minerva",
       "minerva2": "<:Green_Axe:1124845885277343754>Young Minerva",
       "minerva3": "<:Blue_Lance:1124845569496584302>Spring Minerva",
+      "minerva4": "<:Green_Axe:1124845885277343754>Cosplay Minerva",
       "minervaR": "<:Green_Axe:1124845885277343754>Minerva (Resplendent)",
       "nuibaba": "<:Blue_Tome:1124845593211191297>Rearmed Nuibaba",
       "peri": "<:Blue_Lance:1124845569496584302>Peri"
@@ -24532,7 +24554,12 @@
       "Attuned Azura",
       "Attuned Aqua",
       "aqua7",
-      "azura7"
+      "azura7",
+      "Lady of the Sky",
+      "Azura: Lady of the Sky",
+      "Cosplay Azura",
+      "Pegknight Azura",
+      "azura8"
     ],
     "HARD_ALT_NAME": [
       "azura",
@@ -24603,7 +24630,12 @@
       "Attuned Azura",
       "Attuned Aqua",
       "aqua7",
-      "azura7"
+      "azura7",
+      "Lady of the Sky",
+      "Azura: Lady of the Sky",
+      "Cosplay Azura",
+      "Pegknight Azura",
+      "azura8"
     ],
     "heroes": {
       "azura": "<:Blue_Lance:1124845569496584302>Azura",
@@ -24613,6 +24645,7 @@
       "azura5": "<:Blue_Tome:1124845593211191297>Legendary Azura",
       "azura6": "<:Green_Tome:1124845959873036289>Harmonic Azura",
       "azura7": "<:Green_Axe:1124845885277343754>Attuned Azura",
+      "azura8": "<:Blue_Lance:1124845569496584302>Cosplay Azura",
       "azuraR": "<:Blue_Lance:1124845569496584302>Azura (Resplendent)"
     },
     "name": "Rena Strober"
@@ -31707,6 +31740,7 @@
   },
   "juliemaddalena": {
     "heroes": {
+      "hilda6": "<:Colorless_Bow:1124845636659982457>Cosplay Hilda",
       "sharena4": "<:Green_Tome:1124845959873036289>Brave Sharena",
       "sharena5": "<:Blue_Lance:1124845569496584302>Sharena"
     },
@@ -31719,7 +31753,12 @@
       "sharena4",
       "Borrowed Divinity",
       "Sharena: Borrowed Divinity",
-      "sharena5"
+      "sharena5",
+      "Skyward Wings",
+      "Hilda: Skyward Wings",
+      "Cosplay Hilda",
+      "Pegknight Hilda",
+      "hilda6"
     ],
     "HARD_ALT_NAME": [
       "Hopeful Princess",
@@ -31729,7 +31768,13 @@
       "sharena4",
       "Borrowed Divinity",
       "Sharena: Borrowed Divinity",
-      "sharena5"
+      "sharena5",
+      "Skyward Wings",
+      "Hilda: Skyward Wings",
+      "Cosplay Hilda",
+      "Pegknight Hilda",
+      "Harmonic Hilda",
+      "hilda6"
     ]
   },
   "jessiejamesgrelle": {
