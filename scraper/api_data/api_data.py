@@ -69,6 +69,7 @@ async def main():
             "harmonized": False,
             "duo": False,
             "duel": False,
+            "aided": False,
         }
 
         page = dataInside["Page"]
@@ -82,6 +83,10 @@ async def main():
             specialUnitProperties = {**specialUnitProperties, **legendaryProperties}
         elif "duo" in dbProperties:
             specialUnitProperties["duo"] = await get_duo(client, page)
+        elif "aided" in dbProperties:
+            specialUnitProperties["type"] = "aided"
+        elif "chosen" in dbProperties:
+            specialUnitProperties["type"] = "chosen"
 
         unitProperties = {**unitProperties, **specialUnitProperties }
 
@@ -130,6 +135,16 @@ async def main():
                 "res": int(innerData["ResGR3"])
             }
         }
+
+    growthRates = {
+        "hp": int(innerData["HPGR3"]),
+        "atk": int(innerData["AtkGR3"]),
+        "spd": int(innerData["SpdGR3"]),
+        "def": int(innerData["DefGR3"]),
+        "res": int(innerData["ResGR3"])
+    }
+    supertraits = is_superboon_or_superbane(growthRates)
+    jsonDict[dataInside["Page"]] = {**jsonDict[dataInside["Page"]], **supertraits}        
     
     skills = await get_unit_skills(client, newUnitsForQueries)
 

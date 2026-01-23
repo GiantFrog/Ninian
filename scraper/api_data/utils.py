@@ -1,11 +1,19 @@
-def is_superboon_or_superbane(growthRate):
-    match growthRate:
-        case 30 | 50 | 75 | 95:
-            return "superbane"
-        case 25 | 45 | 70 | 90:
-            return "superboon"
-        case _:
-            return ""
+def is_superboon_or_superbane(growthRates):
+    superboons = []
+    superbanes = []
+    for stat in growthRates:
+        growthRate = growthRates[stat]
+        match growthRate:
+            case 30 | 50 | 75 | 95:
+                return superbanes.append(stat)
+            case 25 | 45 | 70 | 90:
+                superboons.append(stat)
+    result = {
+        "superbanes": superbanes,
+        "superboons": superboons,
+    }
+    return result
+                
         
 # convert game titles as received from the db
 def convert_game_title(title):

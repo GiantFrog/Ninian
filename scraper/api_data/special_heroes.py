@@ -53,3 +53,8 @@ async def get_harmonized(client, page):
     }
     harmonizedQuery = await client.call_get_api("cargoquery", **harmonizedPayload)
     return harmonizedQuery["cargoquery"][0]["title"]["HarmonizedSkill"]
+
+async def get_aided(client, page):
+    aidedPayload = {
+        ""
+    }
