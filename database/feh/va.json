@@ -13058,7 +13058,11 @@
       "New Year Palne",
       "New years Palne",
       "New Year Velvet",
-      "New years Velvet"
+      "New years Velvet",
+      "Resplendent Panne",
+      "Resp Panne",
+      "R Panne",
+      "Panne (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "panne",
@@ -13108,13 +13112,18 @@
       "New Year Palne",
       "New years Palne",
       "New Year Velvet",
-      "New years Velvet"
+      "New years Velvet",
+      "Resplendent Panne",
+      "Resp Panne",
+      "R Panne",
+      "Panne (Resplendent)"
     ],
     "heroes": {
       "ashera": "<:Colorless_Tome:1124845725960904734>Ashera",
       "cornelia": "<:Colorless_Staff:1124845704444137592>Cornelia",
       "panne": "<:Blue_Beast:1124845338688233575>Panne",
-      "panne2": "<:Red_Beast:1124846309208248381>New Year Panne"
+      "panne2": "<:Red_Beast:1124846309208248381>New Year Panne",
+      "panneR": "<:Blue_Beast:1124845338688233575>Panne (Resplendent)"
     },
     "name": "Jessica Gee-George"
   },

@@ -25054,7 +25054,11 @@
       "Resplendent Naga",
       "Resp Naga",
       "R Naga",
-      "Naga (Resplendent)"
+      "Naga (Resplendent)",
+      "Resplendent Panne",
+      "Resp Panne",
+      "R Panne",
+      "Panne (Resplendent)"
     ],
     "HARD_ALT_NAME": [
       "Normal Gaia",
@@ -25180,7 +25184,11 @@
       "Resplendent Naga",
       "Resp Naga",
       "R Naga",
-      "Naga (Resplendent)"
+      "Naga (Resplendent)",
+      "Resplendent Panne",
+      "Resp Panne",
+      "R Panne",
+      "Panne (Resplendent)"
     ],
     "heroes": {
       "alfonse4": "<:Green_Tome:1124845959873036289>Valentines Alfonse",
@@ -25212,6 +25220,7 @@
       "navarre2": "<:Blue_Lance:1124845569496584302>Ninja Navarre",
       "noah": "<:Blue_Lance:1124845569496584302>Noah",
       "odinR": "<:Blue_Tome:1124845593211191297>Odin (Resplendent)",
+      "panneR": "<:Blue_Beast:1124845338688233575>Panne (Resplendent)",
       "petrine": "<:Blue_Lance:1124845569496584302>Petrine",
       "priam": "<:Red_Sword:1124846201070698536>Priam",
       "sain": "<:Blue_Lance:1124845569496584302>Sain",
