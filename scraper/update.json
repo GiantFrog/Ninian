@@ -1,100 +1,99 @@
 {
-  "azura8": {
-    "name": "Azura",
-    "title": "Lady of the Sky",
-    "description": "A songstress who was raised in Hoshido. She participates in the Ilian festival, where her song resounds throughout. Appears in Fire Emblem Fates.",
+  "elise6": {
+    "name": "Elise",
+    "title": "Sincere Sister",
+    "description": "Princess of Nohr who adores her siblings to a charming extent. Her pure and sincere kindness moves people's hearts. Appears in Fire Emblem Fates.",
     "origin": "Fates",
-    "artist": "Saine (\u3055\u3044\u306d)",
-    "move": "Flying",
-    "weapon": "Lance",
-    "color": "Blue",
+    "artist": "\u9ebb\u5148\u307f\u3061",
+    "move": "Cavalry",
+    "weapon": "Staff",
+    "color": "Colorless",
     "duel": false,
-    "id": "1339",
-    "type": false,
+    "id": "1343",
+    "type": "legendary",
     "version": "10.1",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 14,
+      "hp": 16,
       "atk": 9,
-      "spd": 13,
-      "def": 3,
-      "res": 9
+      "spd": 9,
+      "def": 4,
+      "res": 12
     },
     "growth": {
       "hp": 50,
-      "atk": 75,
-      "spd": 80,
+      "atk": 90,
+      "spd": 90,
       "def": 30,
-      "res": 90
+      "res": 50
     },
     "superboon": [
-      "res"
+      "atk",
+      "spd"
     ],
     "superbane": [
       "hp",
-      "atk",
-      "def"
+      "def",
+      "res"
     ],
     "weapons": {
-      "Iron Lance": "1",
-      "Steel Lance": "2",
-      "Silver Lance": "3",
-      "Ilian Greatlance": "5"
+      "Assault": "1",
+      "Budding Staff": "5"
     },
     "assist": {
-      "Sing": "3",
-      "Songful Essence": "5"
+      "Heal": "1",
+      "Mend": "2",
+      "Ice Lock": "3",
+      "Ice Lock+": "5"
     },
-    "special": {},
+    "special": {
+      "Imbue": "2",
+      "Swift-Winds Balm": "3",
+      "Windfire Balm": "4",
+      "Windfire Charm": "5"
+    },
     "passive": {
       "A": {
-        "Still Water 1": "2",
-        "Still Water 2": "3",
-        "Still Water 3": "4",
-        "Crystalline Water": "5"
+        "Atk/Spd Bond 1": "2",
+        "Atk/Spd Bond 2": "3",
+        "Atk/Spd Bond 3": "4",
+        "Atk/Spd Aria": "5"
       },
       "B": {
-        "Sabotage Def 1": "2",
-        "Sabotage Def 2": "3",
-        "Sabotage Def 3": "4",
-        "Def/Res Discord": "5"
+        "Chill Spd 1": "2",
+        "Chill Spd/Res 1": "3",
+        "Chill Spd/Res 2": "4",
+        "Spd/Res Shackle": "5"
       },
       "C": {
-        "Spd/Def Rein 1": "2",
-        "Spd/Def Rein 2": "3",
-        "Spd/Def Rein 3": "4",
-        "S/D Crux: Ploy": "5"
+        "Budding Flower": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/97/Azura_Lady_of_the_Sky_Face.webp/revision/latest?cb=20260116045117",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/da/Azura_Lady_of_the_Sky_BtlFace_D.webp/revision/latest?cb=20260116045112",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5d/Azura_Lady_of_the_Sky_BtlFace_C.webp/revision/latest?cb=20260116045107",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/de/Azura_Lady_of_the_Sky_BtlFace.webp/revision/latest?cb=20260116045052"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6b/Elise_Sincere_Sister_Face.webp/revision/latest?cb=20260129042930",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/09/Elise_Sincere_Sister_BtlFace_D.webp/revision/latest?cb=20260129042925",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Elise_Sincere_Sister_BtlFace_C.webp/revision/latest?cb=20260129042920",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ab/Elise_Sincere_Sister_BtlFace.webp/revision/latest?cb=20260129042905"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Lady of the Sky",
-      "Azura: Lady of the Sky",
-      "Cosplay Azura",
-      "Pegknight Azura",
-      "azura8"
+      "Sincere Sister",
+      "Elise: Sincere Sister",
+      "elise6"
     ],
     "HARD_ALT_NAME": [
-      "Lady of the Sky",
-      "Azura: Lady of the Sky",
-      "Cosplay Azura",
-      "Pegknight Azura",
-      "azura8"
+      "Sincere Sister",
+      "Elise: Sincere Sister",
+      "elise6"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u30a4\u30ea\u30a2\u30a2\u30af\u30a2",
-    "voice": "Rena Strober",
+    "pool": "legend",
+    "internal_id": "PID_\u4f1d\u627f\u30a8\u30ea\u30fc\u30bc",
+    "voice": "Liv Strander",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
@@ -103,110 +102,113 @@
     "chibi": "fe13",
     "quotes": {
       "Castle Hall": [
-        "I offer up my song to the mercenaries of Ilia, who fight in a foreign land for the sake of their homeland.",
-        "The harsh environment in which they live drives people to build bonds with one another, no matter the world.",
-        "A song meant to improve the morale of those who fight may be suitable for a festival celebrating Ilia.",
-        "Songs reach the hearts of the pegasi too. I can tell they are listening, and I appreciate their attention.",
-        "I appreciate this garb from Ilia. I am fond of color combinations that are built around a blue base."
+        "I thought all Heroes were strong like my big brother Xander, but there are all kinds of people here!",
+        "People are no different no matter where they live, whether in Hoshido or in Nohr.",
+        "If there's a wish you want to come true, then you can't give up, no matter what!",
+        "Did you see me? I took out all the little bones in that fish before I ate it!",
+        "If it's possible for the royal families of enemy countries to be friends, well then...the whole world can be friends!"
       ],
       "Visit": [
-        "I am Azura. A festival for Ilia is going on now at the castle of [F].\nI will be contributing to the festive atmosphere with my songs."
+        "I found this on the ground when I went for a walk. It belongs in this castle, right? I did good, didn't I?!"
       ],
       "Level": [
-        "I pray that my voice rises to reach Ilia's skies when I sing.",
-        "May my song light the flame of courage in everyone's hearts.",
-        "It does not seem as if my voice is up to the task today, does it?"
+        "Justice, huh? I believe you don't need a sword to protect those you love...",
+        "Stop fighting! Rrr... If you don't quit it, I'll have to punish you!",
+        "If I want to become a great, noble lady, I can't let this place get me down!"
       ],
       "Summon": [
-        "I am Azura. A festival for Ilia, land of mercenaries... I shall do my best to support it with my song."
+        "I'm Elise! I'm feeling great today, so you'll get to see just what I can do!"
       ],
       "Learn Skill": [
-        "I get the sense that I can ride through even the harshest of northern winds with this power."
+        "So...do you think I've grown into a mature adult?"
       ],
       "Confession": [
-        "Has it ever seemed to you as if the wind itself was singing?\nListen closely, and you can hear the singing voices. Sometimes cheerful... Sometimes melancholy...\nI wonder what songs the winds that blow from the mountains of Ilia sing?\nTo be a mercenary, fated to cross blades even with family should one meet them on the battlefield...\nIt is a harsh environment, but one that has supported Ilia and nurtured its people's pride as mercenaries.\nI shall offer my respect in a form that is natural to me...through a song sent on the wind to those distant skies."
+        "Um...no... That's not quite right... Oh! There you go. Nice and gentle, [S].\nThen just tie the end... Voil\u00e0! You did it! You made a crown of flowers!\nIt's true, Nohr and Hoshido always fought, but...something's wrong if people hate each other forever...\nI say, if you want to play together, just play! I know more than people think I do!\nYou know how I feel, right? Hehe... I thought so!"
       ],
       "Special": [
-        "Striking from above!",
-        "You won't escape.",
-        "I have you cornered.",
-        "The final ballad."
+        "I'll show 'em who's boss!",
+        "My killer left hook!",
+        "Kapow! Kaboom!",
+        "And a little of this!"
       ],
       "Status": [
         "-",
-        "Stay strong.",
-        "I will refresh you.",
-        "There were pegasi in Hoshido as well. They are truly beautiful creatures.",
-        "Using a lance from the back of a pegasus certainly is challenging.",
-        "Soaring through the skies is so inspiring, it makes me want to break out in song.",
-        "Perhaps Corrin would enjoy going on a leisurely flight together some time.",
-        "I composed a new song while riding my pegasus. Shall I sing it for you?"
+        "I'll help you de-stress!",
+        "We'll be OK!",
+        "A Legendary Hero? Me? Oh, yay! That's amazing! ...Right?",
+        "That's your way of saying I've been doing a good job? Aww, thank you!",
+        "After the fighting was over, we all became really good friends!",
+        "OK, Elise, you're going to grow into a beautiful lady like your sister! You can do it! Let's go!",
+        "I love being here with you, so I promise I'll never let us get separated. No matter what!"
       ],
       "Map Select": [
-        "I'll do it.",
-        "Be calm...",
-        "Let us go."
+        "Sure thing!",
+        "Hey!",
+        "Show me how?"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Cosplay Azura",
-    "SEARCH_NAME": "Cosplay Azura",
-    "DISPLAY_NAME": "<:Blue_Lance:1124845569496584302>Cosplay Azura",
+    "short_name": "Elise",
+    "SEARCH_NAME": "Elise",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Elise",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "azura",
-      "azura2",
-      "azura3",
-      "azura4",
-      "azura5",
-      "azura6",
-      "azura7"
+      "elise",
+      "elise2",
+      "elise3",
+      "elise4",
+      "elise5"
     ],
     "prf": {
-      "": "iliangreatlance",
-      "eff": "iliangreatlance",
-      "atk": "iliangreatlance",
-      "spd": "iliangreatlance",
-      "def": "iliangreatlance",
-      "res": "iliangreatlance"
+      "": "buddingstaff",
+      "eff": "buddingstaff",
+      "atk": "buddingstaff",
+      "spd": "buddingstaff",
+      "def": "buddingstaff",
+      "res": "buddingstaff"
+    },
+    "blessing": "Fire",
+    "boost": {
+      "hp": 3,
+      "res": 4
     }
   },
-  "hilda6": {
-    "name": "Hilda",
-    "title": "Skyward Wings",
-    "description": "Hilda, the lazy daughter of a privileged family, and Florina, from Ilia, descend from the skies to participate in the Ilian festival! They appear in Fire Emblem: Three Houses / The Blazing Blade.",
-    "origin": "The Blazing Blade + Three Houses",
-    "artist": "GomashioPonzu (\u3054\u307e\u3057\u304a\u30dd\u30f3\u9162)",
-    "move": "Flying",
-    "weapon": "Bow",
-    "color": "Colorless",
+  "byleth11": {
+    "name": "Byleth",
+    "title": "Of the Academy",
+    "description": "One of the Emblems who were summoned to Elyos. Resides in the Ring of the Instructor. Appears in Fire Emblem: Three Houses / Engage.",
+    "origin": "Three Houses + Engage",
+    "artist": "Fujisaka Kimihiko (\u85e4\u5742\u516c\u5f66)",
+    "move": "Infantry",
+    "weapon": "Tome",
+    "color": "Blue",
     "duel": false,
-    "id": "1338",
-    "type": false,
+    "id": "1342",
+    "type": "emblem",
     "version": "10.1",
     "duo": false,
-    "harmonized": "Grants\u3010Resonance: Blades\u3011to unit and allies from the same titles as unit.\nInflicts\u3010Frozen\u3011and\u3010Share Spoils+\u3011on closest foes and any foe within 2 spaces of those foes through their next actions.\n(Harmonized Skills can be used by tapping the Harmonized button.\u00a0This skill can only be used once per map. Harmonized Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Resonance: Blades\u3011\nGrants Atk/Spd+4 during combat for 1 turn.\n\u3010Frozen\u3011\nIncreases Spd difference necessary for unit to make a follow-up attack by X and decreases Spd difference necessary for foe to make a follow-up attack by X during combat (if foe's Def > unit's Def, X = 10 + difference between Def stats \u00d7 2; otherwise, X = 10).\n\u3010Share Spoils+\u3011\nInflicts Atk/Spd/Def/Res-5 on unit during combat and neutralizes \"reduces damage by X%\" effects from unit's non-Special skills (excluding area-of-effect Specials).\nOnce per turn for the entire map, if foe initiates combat and if unit is defeated in combat, grants another action to that foe after combat (this effect has priority over other similar effects aside from Share Spoils; if this status and Share Spoils are both active at the same time, they are both treated as having been triggered; other similar effects aside from Share Spoils are treated as not having triggered).",
-    "emblem": false,
+    "harmonized": false,
+    "emblem": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nWhen unit is not equipped with a character- specific Assist skill, if a Rally or movement Assist skill is used by unit and if target ally has already acted, grants another action to target ally, and if Canto has already been triggered, re-enables Canto (once per turn; this effect does not trigger if target ally has Sing or Dance).\nEquipping this skill counts as equipping a Sing or Dance skill.",
     "base": {
       "hp": 18,
-      "atk": 10,
-      "spd": 11,
-      "def": 10,
+      "atk": 11,
+      "spd": 10,
+      "def": 11,
       "res": 4
     },
     "growth": {
       "hp": 50,
-      "atk": 90,
-      "spd": 85,
+      "atk": 80,
+      "spd": 90,
       "def": 70,
       "res": 30
     },
     "superboon": [
-      "atk",
+      "spd",
       "def"
     ],
     "superbane": [
@@ -214,27 +216,26 @@
       "res"
     ],
     "weapons": {
-      "Iron Bow": "1",
-      "Steel Bow": "2",
-      "Silver Bow": "3",
-      "Skybound Bow": "5"
+      "Light": "1",
+      "Ellight": "2",
+      "Shine": "3",
+      "Instructor's Opus": "5"
     },
     "assist": {
-      "Rally Defense": "3",
-      "Rally Def/Res": "4",
-      "Rally Def/Res+": "5"
+      "Reposition": "3",
+      "Reposition Gait": "5"
     },
     "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4",
-      "Waning Shot": "5"
+      "Night Sky": "3",
+      "Astra": "4",
+      "Goddess Dance": "5"
     },
     "passive": {
       "A": {
-        "Atk/Spd Catch 1": "2",
-        "Atk/Spd Catch 2": "3",
-        "Atk/Spd Catch 3": "4",
-        "Atk/Spd Airspace": "5"
+        "Atk/Spd Ideal 1": "2",
+        "Atk/Spd Ideal 2": "3",
+        "Atk/Spd Ideal 3": "4",
+        "Perfect Atk/Spd": "5"
       },
       "B": {
         "Atk/Spd Link 1": "2",
@@ -243,471 +244,122 @@
         "Atk/Spd Favor": "5"
       },
       "C": {
-        "Strat Assault 1": "2",
-        "Strat Assault 2": "3",
-        "Strat Assault 3": "4",
-        "Strat Assault 4": "5"
+        "Instruct 1": "2",
+        "Instruct 2": "3",
+        "Instruct 3": "4",
+        "Instruct 4": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/89/Hilda_Skyward_Wings_Face.webp/revision/latest?cb=20260116045227",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6d/Hilda_Skyward_Wings_BtlFace_D.webp/revision/latest?cb=20260116045222",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/72/Hilda_Skyward_Wings_BtlFace_C.webp/revision/latest?cb=20260116045217",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/7e/Hilda_Skyward_Wings_BtlFace.webp/revision/latest?cb=20260116045202"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e7/Byleth_Of_the_Academy_Face.webp/revision/latest?cb=20260129043005",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/69/Byleth_Of_the_Academy_BtlFace_D.webp/revision/latest?cb=20260129043000",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a1/Byleth_Of_the_Academy_BtlFace_C.webp/revision/latest?cb=20260129042955",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/51/Byleth_Of_the_Academy_BtlFace.webp/revision/latest?cb=20260129042940"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Skyward Wings",
-      "Hilda: Skyward Wings",
-      "Cosplay Hilda",
-      "Pegknight Hilda",
-      "hilda6"
+      "Of the Academy",
+      "Byleth: Of the Academy",
+      "Emblem Byleth",
+      "Engage Byleth",
+      "E Byleth",
+      "byleth11"
     ],
     "HARD_ALT_NAME": [
-      "Skyward Wings",
-      "Hilda: Skyward Wings",
-      "Cosplay Hilda",
-      "Pegknight Hilda",
-      "Harmonic Hilda",
-      "hilda6"
+      "Of the Academy",
+      "Byleth: Of the Academy",
+      "Emblem Byleth",
+      "Engage Byleth",
+      "E Byleth",
+      "byleth11"
     ],
-    "gender": "F",
+    "gender": "M",
     "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u53cc\u754c\u30d2\u30eb\u30c0",
-    "voice": "Salli Saffioti + Julie Maddalena",
+    "pool": "legend",
+    "internal_id": "PID_\u7d0b\u7ae0\u30d9\u30ec\u30c8",
+    "voice": "Zach Aguilar",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "elibe"
+      "fodlan"
     ],
-    "chibi": "fe7",
+    "chibi": "fodlan",
     "quotes": {
       "Castle Hall": [
-        "**Florina:** I'm the youngest of three sisters, so... I feel as though you're a big sister to me, Hilda.",
-        "**Hilda:** Ilia is a country of mercenaries, huh? I feel Baltie would be more suited to making money by fighting.",
-        "**Florina:** It looks like Huey has taken a liking to you, Hilda. Hehe... You two are already so comfortable together.",
-        "**Florina:** This is what the Pegasus Knights of Ilia wear... It really looks so wonderful on you, Hilda.",
-        "**Hilda:** It is rather cold in Ilia, isn't it? And our outfits are rather thin. I wonder how we'll hold up."
+        "With so many students here and there, I find myself wanting to care for them...\nHowever, that is the role of the original me, not the me as I am now.",
+        "I was in Lythos Castle in Elyos, but...I fell into enemy hands and turned my blade on my friends.\nI wish to never again be at war with those familiar to me.",
+        "People have questioned my age as a professor. But I have lived now for several thousand years...\nPerhaps I have developed a more dignified presence by now.",
+        "I can actually taste the foods I once could only smell at the Somniel.\nDo you think the food I once ate at the Officers Academy is here as well?",
+        "You wish to engage with me? I do not mind. I can use Goddess Dance.\nDo you happen to have any companions you wish to move more than others?"
       ],
       "Visit": [
-        "Florina and I are in the midst of setting the party ablaze at the Ilian festival at [F]'s."
+        "Whether academy friends or allies in battle... I hope you will stay on good terms with [F]."
       ],
       "Level": [
-        "**Hilda:** Thanks for the backup, Florina! If I say so myself, we make a pretty good pair!",
-        "**Florina:** We...won! It is reassuring to have you beside me, Hilda.",
-        "**Florina:** I'm so sorry... I dragged you down, Hilda..."
+        "I wish to continue to guide everyone as a professor and as an Emblem.",
+        "That was fruitful. I shall take what I have learned and use it in my next encounter.",
+        "Do not be discouraged. There are still plenty more opportunities."
       ],
       "Summon": [
-        "I'm here to join in on the Ilian festival! I can count on you to show me around, right, Florina?"
+        "I am Emblem Byleth. If you have a need, then I wish to fill it. I shall be a guide using the power at my disposal."
       ],
       "Learn Skill": [
-        "**Hilda:** Isn't it divine, Florina?! With this, we can grow even stronger than we already are!"
+        "I shall be your trustworthy partner. I will not disappoint."
       ],
       "Confession": [
-        "**Hilda:** Ahhh... The Ilian festival is so much fun! I got to know Florina, and I got to ride a pegasus.\n**Florina:** I had fun too. It felt nice to see the people of Askr learn about my homeland of Ilia...\nBut I wish it didn't have to end. I grew so close to Hilda...\n**Hilda:** What do you mean?! We're going to continue to be friends from now on!\n**Florina:** Oh? You'll...stay my friend? Well then, won't you come visit me in Ilia some day?\n**Hilda:** Of course! I promise! Perhaps such a request can even be granted by [S]..."
+        "What seems to be the matter, [S]?\nI shall lend my ear if there is something you wish to tell me... Oh? You want to know about me?\nI did not expect this... Listening to others is my strong suit. It is not often I have spoken of myself.\nHowever, if that is your wish, then I will oblige.\nI have seen more in F\u00f3dlan and Elyos than any other version of me. And it is not so easy to converse on a whim.\nAs a professor and an Emblem, I understand how frustrating it can be to speak and have no one hear...\nSo I know how precious this is. Now then, if you wish to hear tales of the distant past, it will take some time."
       ],
       "Special": [
-        "**Duo:** We must believe!",
-        "**Duo:** \"We're here!\" \"From above...\"",
-        "**Hilda:** How's this?",
-        "**Florina:** Pardon us!"
+        "Goddess Dance.",
+        "I offer my guidance.",
+        "I'll teach you.",
+        "Emblem engage!"
       ],
       "Status": [
-        "-",
-        "\"Pegasus Knight outfits are so lovely! Tell me, how do I look?\" \"Oh! Uh, you...look...wonderful.\""
-      ],
-      "Map Select": [
-        "Um...",
-        "Over here?",
-        "I'll do my best..."
-      ],
-      "Conversation": [
-        "**Hilda:** I'm relying on you today, Florina. Let's work together!",
-        "**Florina:** Yes... I'm so happy I get to work with someone like you...",
-        "**Hilda:** Huh? Ohhh, you mean because I'm such a delicate maiden?",
-        "**Florina:** No, I mean, you're always so full of energy. And you say whatever's on your mind...",
-        "**Hilda:** What are you talking about?!",
-        "You must mean how sweet I am. People can't help but want to protect me!",
-        "**Florina:** Uh...no. I mean...yes. I mean...",
-        "**Hilda:** That's what I thought. You, too, have plenty of potential. All you need is to learn to put that cuteness to use.",
-        "Now, just follow my example to your little heart's content.",
-        "**Florina:** Oh?",
-        "**Hilda:** All the things that are difficult, you need to force\u2014I-I mean, encourage others to do them for you.",
-        "**Florina:** R-Really?",
-        "**Hilda:** First, identify people who are likely to help you. Men are more likely, of course.",
-        "**Florina:** Oh, but...I-I can't talk to men.",
-        "**Hilda:** What do you mean?! That's such a waste of talent.",
-        "Don't worry, I'll teach you everything I know.",
-        "**Florina:** Oh... Are you sure?"
-      ],
-      "Duo Skill": [
-        "\"Let's go!\" \"OK.\"",
-        "\"*sob*\" \"Don't cry!\""
-      ],
-      "Back Unit Supporting": [
-        "I-I'm cheering for you.",
-        "You must..."
-      ],
-      "resplendent": {}
-    },
-    "short_name": "Cosplay Hilda",
-    "SEARCH_NAME": "Cosplay Hilda",
-    "DISPLAY_NAME": "<:Colorless_Bow:1124845636659982457>Cosplay Hilda",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "hilda",
-      "hilda2",
-      "hilda3",
-      "hilda4",
-      "hilda5"
-    ],
-    "prf": {
-      "": "skyboundbow",
-      "eff": "skyboundbow",
-      "atk": "skyboundbow",
-      "spd": "skyboundbow",
-      "def": "skyboundbow",
-      "res": "skyboundbow"
-    }
-  },
-  "mia6": {
-    "name": "Mia",
-    "title": "Zenith Challenger",
-    "description": "A swordswoman and member of the Greil Mercenaries. She mounts a pegasus at the Ilian festival, where mercenaries gather. Appears in Fire Emblem: Radiant Dawn.",
-    "origin": "Radiant Dawn",
-    "artist": "Mai Okuma (\u5927\u718a\u307e\u3044)",
-    "move": "Flying",
-    "weapon": "Sword",
-    "color": "Red",
-    "duel": false,
-    "id": "1340",
-    "type": false,
-    "version": "10.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 18,
-      "atk": 10,
-      "spd": 10,
-      "def": 12,
-      "res": 6
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 90,
-      "def": 75,
-      "res": 35
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "def"
-    ],
-    "weapons": {
-      "Iron Sword": "1",
-      "Steel Sword": "2",
-      "Silver Sword": "3",
-      "Ilian Longsword": "5"
-    },
-    "assist": {},
-    "special": {
-      "Night Sky": "3",
-      "Astra": "4",
-      "Celestial Form": "5"
-    },
-    "passive": {
-      "A": {
-        "Blue Skies 1": "2",
-        "Blue Skies 2": "3",
-        "Blue Skies 3": "4",
-        "Blue-Sky Gust": "5"
-      },
-      "B": {
-        "Aerobatics 1": "2",
-        "Aerobatics 2": "3",
-        "Aerobatics 3": "4",
-        "Heavenly Soar": "5"
-      },
-      "C": {
-        "Spur Spd 1": "2",
-        "Spur Atk/Spd 1": "3",
-        "Spur Atk/Spd 2": "4",
-        "Null Uplift A/S": "5"
-      },
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/98/Mia_Zenith_Challenger_Face.webp/revision/latest?cb=20260116045152",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/54/Mia_Zenith_Challenger_BtlFace_D.webp/revision/latest?cb=20260116045147",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d1/Mia_Zenith_Challenger_BtlFace_C.webp/revision/latest?cb=20260116045142",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e3/Mia_Zenith_Challenger_BtlFace.webp/revision/latest?cb=20260116045127"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Zenith Challenger",
-      "Mia: Zenith Challenger",
-      "Cosplay Mia",
-      "Pegknight Mia",
-      "mia6"
-    ],
-    "HARD_ALT_NAME": [
-      "Zenith Challenger",
-      "Mia: Zenith Challenger",
-      "Cosplay Mia",
-      "Pegknight Mia",
-      "mia6"
-    ],
-    "gender": "F",
-    "rarity": 5,
-    "pool": "seasonal",
-    "internal_id": "PID_\u30a4\u30ea\u30a2\u30ef\u30e6",
-    "voice": "Anne Yatco",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "tellius"
-    ],
-    "chibi": "fe10",
-    "quotes": {
-      "Castle Hall": [
-        "Only the strong mercenaries survive. It's harsh, but I get it. I like it!",
-        "I've been a mercenary for so long, I understand in my bones how hard it is to make a living as one.",
-        "I've ridden a pegasus at Askr's summer festival too. I guess it's my fate, huh?",
-        "A festival where mercenaries pit their skills against one another sounds fun! I bet my boss Ike would think so too!",
-        "Whaddaya think? How do I look? I sure like that Ilian outfits are so easy to move around in!"
-      ],
-      "Visit": [
-        "I'm Mia of the Greil Mercenaries. An Ilian festival where mercenaries gather is at [F]'s castle!"
-      ],
-      "Level": [
-        "I felt that one! I guess I'll keep it up and be remembered as a mercenary in other worlds!",
-        "I'll survive no matter what! That's how mercenaries fight, after all.",
-        "You haven't seen my best with a sword, that's for sure."
-      ],
-      "Summon": [
-        "I'm Mia! A festival for mercenaries? I'm in! And I'll take my pegasus along for the ride. Who's ready to spar?!"
-      ],
-      "Learn Skill": [
-        "Ooh, nice! My swordsmanship is about to get even sharper!"
-      ],
-      "Confession": [
-        "I heard that mercenaries of Ilia will fight with all their might against any opponent\u2014even their own kin!\nSo, no matter your foe, if you're paid to fight, you have to fight. Sounds like harsh work, huh?\nBut the people of Ilia have survived this way for decades.\nHaving faced off against some of them, I can tell you, they'll do far more than most.\nBut I'm just as prepared as anyone. I want to become the strongest Hero, reaching greater heights than any!\nI know just how difficult that'll be at this festival. But that's exactly what makes it so rewarding!"
-      ],
-      "Special": [
-        "Comin' in hot!",
-        "Let's see what you got!",
-        "Now we're talking!",
-        "My turn."
-      ],
-      "Status": [
-        "-",
-        "Whaddaya think? How do I look as a pegasus knight?",
-        "*react* Oh, yeah? Challenging me to a duel, huh?",
-        "Having a pegasus for a partner is the best. They're so adorable!",
-        "I hear the winters in Ilia are freezing. Sounds like the next step for my training!",
-        "I could really pull off this pegasus knight thing. My fortune says so.",
-        "I might be able to find my archrival more easily from the sky...",
-        "Ready for a stroll through the skies, Boss? Hop on!"
-      ],
-      "Map Select": [
-        "Whatever you say, Boss.",
-        "What now?",
-        "Let's fly!"
-      ],
-      "Conversation": false,
-      "Duo Skill": false,
-      "Back Unit Supporting": false,
-      "resplendent": {}
-    },
-    "short_name": "Cosplay Mia",
-    "SEARCH_NAME": "Cosplay Mia",
-    "DISPLAY_NAME": "<:Red_Sword:1124846201070698536>Cosplay Mia",
-    "RANDOM_IGNORE": true,
-    "alt": false,
-    "reference": [
-      "mia",
-      "mia2",
-      "mia3",
-      "mia4",
-      "mia5"
-    ],
-    "prf": {
-      "": "ilianlongsword",
-      "eff": "ilianlongsword",
-      "atk": "ilianlongsword",
-      "spd": "ilianlongsword",
-      "def": "ilianlongsword",
-      "res": "ilianlongsword"
-    }
-  },
-  "minerva4": {
-    "name": "Minerva",
-    "title": "Above the Stars",
-    "description": "Eldest princess of Macedon. She mounts a pegasus for the first time in ages to participate in the Ilian festival, where mercenaries gather. Appears in Fire Emblem: Mystery of the Emblem.",
-    "origin": "Shadow Dragon",
-    "artist": "RIZ3",
-    "move": "Flying",
-    "weapon": "Axe",
-    "color": "Green",
-    "duel": false,
-    "id": "1341",
-    "type": false,
-    "version": "10.1",
-    "duo": false,
-    "harmonized": false,
-    "emblem": false,
-    "base": {
-      "hp": 19,
-      "atk": 12,
-      "spd": 9,
-      "def": 12,
-      "res": 4
-    },
-    "growth": {
-      "hp": 50,
-      "atk": 80,
-      "spd": 90,
-      "def": 75,
-      "res": 35
-    },
-    "superboon": [
-      "spd"
-    ],
-    "superbane": [
-      "hp",
-      "def"
-    ],
-    "weapons": {
-      "Iron Axe": "1",
-      "Steel Axe": "2",
-      "Silver Axe": "3",
-      "Ilian Battleaxe": "5"
-    },
-    "assist": {},
-    "special": {
-      "Glowing Ember": "3",
-      "Ignis": "4"
-    },
-    "passive": {
-      "A": {
-        "Dragoon Pillar": "5"
-      },
-      "B": {
-        "Wyvern Flight 1": "2",
-        "Wyvern Flight 2": "3",
-        "Wyvern Flight 3": "4",
-        "Wyvern Rift": "5"
-      },
-      "C": {},
-      "X": {}
-    },
-    "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/55/Minerva_Above_the_Stars_Face.webp/revision/latest?cb=20260116045007",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e8/Minerva_Above_the_Stars_BtlFace_D.webp/revision/latest?cb=20260116045002",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2d/Minerva_Above_the_Stars_BtlFace_C.webp/revision/latest?cb=20260116044957",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/d/d2/Minerva_Above_the_Stars_BtlFace.webp/revision/latest?cb=20260116044942"
-    },
-    "resplendent_images": false,
-    "ALT_NAME": [
-      "Above the Stars",
-      "Minerva: Above the Stars",
-      "Cosplay Minerva",
-      "Pegknight Minerva",
-      "minerva4"
-    ],
-    "HARD_ALT_NAME": [
-      "Above the Stars",
-      "Minerva: Above the Stars",
-      "Cosplay Minerva",
-      "Pegknight Minerva",
-      "minerva4"
-    ],
-    "gender": "F",
-    "rarity": 4,
-    "pool": "seasonal",
-    "internal_id": "PID_\u30a4\u30ea\u30a2\u30df\u30cd\u30eb\u30d0",
-    "voice": "Cindy Robinson",
-    "resplendent": false,
-    "resplendent_voice": false,
-    "RANDOM_POOL": [
-      "archanea"
-    ],
-    "chibi": "archanea",
-    "quotes": {
-      "Castle Hall": [
-        "There is no holding back on the battlefield, even if fighting against your own kin...\nIt is as though I can feel the harsh life of a mercenary.",
-        "The land of Macedon is mostly dense forest; it is not fertile. This indeed marks a commonality with Ilia.",
-        "If not for being born royalty, I could have potentially lived the life of a mercenary.",
-        "I am sure Macedon's Whitewings would be interested to know that Ilia is a natural habitat for pegasi.",
-        "This outfit is that of a pegasus knight of Ilia. I am fond of its practicality and lack of constraining adornments."
-      ],
-      "Visit": [
-        "I am Minerva, princess of Macedon. You have been invited to an Ilian festival by [F]."
-      ],
-      "Level": [
-        "That was a fine battle. I am happy I was able to improve alongside others at this festival.",
-        "I shall demonstrate Macedonian pride through might and technique!",
-        "It seems I may have gotten ahead of myself when I mounted a pegasus for the first time in quite a while."
-      ],
-      "Summon": [
-        "I, Minerva, first princess of Macedon, shall face this Ilian festival of mercenaries alongside this pegasus."
-      ],
-      "Learn Skill": [
-        "I graciously accept your gift from a land of mercenaries. I shall make good use of it."
-      ],
-      "Confession": [
-        "The first time I took to battle, I was riding a pegasus, not a wyvern.\nI switched to a wyvern to show those around me the strength of Macedonian royalty.\nThe fate of Macedon is characterized by this strength. It is the reason we have overcome countless struggles.\nMuch like Ilia, Macedon is not a wealthy land\u2014that is for certain. We have needed our strength to survive.\nHowever, we do not wish for endless war. What we truly seek are days of peace.\nMy wish is for conflict in all worlds to end. Then I will lay down my weapon and soar across Ilia's skies."
-      ],
-      "Special": [
-        "Too slow!",
-        "You're wide open.",
-        "Found your weak spot.",
-        "You will not escape!"
-      ],
-      "Status": [
-        "-",
-        "I shall observe the full might of the Pegasus Knights of Ilia.",
-        "*startle* Do not sneak up on me. Where are your manners?",
-        "I was once a pegasus rider myself.",
-        "The Whitewings of Macedon shall not be bested. I request a sparring match.",
-        "It's been a while since I wore an outfit as light as this.",
-        "I wonder if my pegasus is still in the forest...",
-        "My wish for you is to experience the gentle breeze from the back of a pegasus."
+        "Hm.",
+        "I can eat again now that I'm in Askr? I think I'm ready for a feast, then.",
+        "Huh?! Oh, for a moment I thought you were coming to polish my ring. I invite you to stay.",
+        "My ring fell into enemy hands once, but I was returned to the Divine Dragon's army with Hortensia.",
+        "My students would take my glowing and floating as an Emblem in stride... At least, I think they would.",
+        "\"Teach us, Emblem of the Academy...\" That is the invocation used to summon me.",
+        "Edelgard, Dimitri, and Claude... What a trio. I can't help smiling when I encounter them in any world.",
+        "In Elyos and the world I'm from, I had to turn my sword against those close to me. I hope to remain allies with you, and everyone here, until the end."
       ],
       "Map Select": [
         "Yes.",
-        "What shall I do?",
-        "I will finish it."
+        "It'll be all right.",
+        "Together!"
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Cosplay Minerva",
-    "SEARCH_NAME": "Cosplay Minerva",
-    "DISPLAY_NAME": "<:Green_Axe:1124845885277343754>Cosplay Minerva",
+    "short_name": "Emblem Byleth",
+    "SEARCH_NAME": "Emblem Byleth",
+    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Emblem Byleth",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "minerva",
-      "minerva2",
-      "minerva3"
+      "byleth",
+      "byleth2",
+      "byleth3",
+      "byleth4",
+      "byleth5",
+      "byleth6",
+      "byleth7",
+      "byleth8",
+      "byleth9",
+      "byleth10"
     ],
     "prf": {
-      "": "ilianbattleaxe",
-      "eff": "ilianbattleaxe",
-      "atk": "ilianbattleaxe",
-      "spd": "ilianbattleaxe",
-      "def": "ilianbattleaxe",
-      "res": "ilianbattleaxe"
+      "": "instructorsopus",
+      "eff": "instructorsopus",
+      "atk": "instructorsopus",
+      "spd": "instructorsopus",
+      "def": "instructorsopus",
+      "res": "instructorsopus"
     }
   }
 }
