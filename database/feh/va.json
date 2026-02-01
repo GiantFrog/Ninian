@@ -18139,7 +18139,10 @@
       "Gladiator Fir",
       "Harmonic Fir",
       "Ferox Fir",
-      "fir4"
+      "fir4",
+      "Sincere Sister",
+      "Elise: Sincere Sister",
+      "elise6"
     ],
     "HARD_ALT_NAME": [
       "fir",
@@ -18343,7 +18346,10 @@
       "Gladiator Fir",
       "Harmonic Fir",
       "Ferox Fir",
-      "fir4"
+      "fir4",
+      "Sincere Sister",
+      "Elise: Sincere Sister",
+      "elise6"
     ],
     "heroes": {
       "amelia": "<:Green_Axe:1124845885277343754>Amelia",
@@ -18355,6 +18361,7 @@
       "elise3": "<:Red_Dagger:1124846223518605324>Bath Elise",
       "elise4": "<:Colorless_Staff:1124845704444137592>Duo Elise",
       "elise5": "<:Colorless_Staff:1124845704444137592>Young Elise",
+      "elise6": "<:Colorless_Staff:1124845704444137592>Elise",
       "eliseR": "<:Colorless_Staff:1124845704444137592>Elise (Resplendent)",
       "fir": "<:Red_Sword:1124846201070698536>Fir",
       "fir2": "<:Green_Axe:1124845885277343754>Spring Fir",
@@ -29910,7 +29917,13 @@
       "CYL Male Byleth",
       "Brave M Byleth",
       "CYL M Byleth",
-      "byleth10"
+      "byleth10",
+      "Of the Academy",
+      "Byleth: Of the Academy",
+      "Emblem Byleth",
+      "Engage Byleth",
+      "E Byleth",
+      "byleth11"
     ],
     "HARD_ALT_NAME": [
       "Legend Male Byleth",
@@ -30055,10 +30068,17 @@
       "CYL Male Byleth",
       "Brave M Byleth",
       "CYL M Byleth",
-      "byleth10"
+      "byleth10",
+      "Of the Academy",
+      "Byleth: Of the Academy",
+      "Emblem Byleth",
+      "Engage Byleth",
+      "E Byleth",
+      "byleth11"
     ],
     "heroes": {
       "byleth10": "<:Red_Sword:1124846201070698536>Brave Byleth",
+      "byleth11": "<:Blue_Tome:1124845593211191297>Emblem Byleth",
       "byleth2": "<:Red_Sword:1124846201070698536>Male Byleth",
       "byleth4": "<:Green_Tome:1124845959873036289>Legendary Male Byleth",
       "byleth7": "<:Blue_Tome:1124845593211191297>Khadein Byleth",

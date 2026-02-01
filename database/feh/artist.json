@@ -5811,7 +5811,13 @@
       "Rearmed Chrom",
       "Rearm Chrom",
       "Arm Chrom",
-      "Fallen Chrom"
+      "Fallen Chrom",
+      "Of the Academy",
+      "Byleth: Of the Academy",
+      "Emblem Byleth",
+      "Engage Byleth",
+      "E Byleth",
+      "byleth11"
     ],
     "HARD_ALT_NAME": [
       "jakob",
@@ -5889,9 +5895,16 @@
       "Fhrom",
       "Rearm Chrom",
       "Arm Chrom",
-      "Fallen Chrom"
+      "Fallen Chrom",
+      "Of the Academy",
+      "Byleth: Of the Academy",
+      "Emblem Byleth",
+      "Engage Byleth",
+      "E Byleth",
+      "byleth11"
     ],
     "heroes": {
+      "byleth11": "<:Blue_Tome:1124845593211191297>Emblem Byleth",
       "byleth6": "<:Colorless_Tome:1124845725960904734>Brave Byleth",
       "chrom8": "<:Red_Sword:1124846201070698536>Rearmed Chrom",
       "dimitri": "<:Blue_Lance:1124845569496584302>Dimitri",
@@ -29783,6 +29796,7 @@
   },
   "maxianmichi": {
     "heroes": {
+      "elise6": "<:Colorless_Staff:1124845704444137592>Elise",
       "rafal": "<:Red_Breath:1124846247673610240>Rafal",
       "soren6": "<:Blue_Tome:1124845593211191297>Rearmed Soren"
     },
@@ -29805,7 +29819,10 @@
       "Rearmed Soren",
       "Rearm Soren",
       "Arm Soren",
-      "soren6"
+      "soren6",
+      "Sincere Sister",
+      "Elise: Sincere Sister",
+      "elise6"
     ],
     "HARD_ALT_NAME": [
       "Atoning Dragon",
@@ -29825,7 +29842,10 @@
       "Rearmed Soren",
       "Rearm Soren",
       "Arm Soren",
-      "soren6"
+      "soren6",
+      "Sincere Sister",
+      "Elise: Sincere Sister",
+      "elise6"
     ]
   },
   "heijingsusumu": {
