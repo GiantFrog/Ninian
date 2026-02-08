@@ -81,5 +81,5 @@ def main(mainkey):
 
 
 
-main('medeus')
-main('shez3')
+main('yuri2')
+main('nerthuz')
