@@ -10,8 +10,8 @@ file =  './sk.json'
 
 
 #skill_scrape.upgrade_sp('')
-#skill_scrape.upgrade_passive('Swift Slice')
-#skill_scrape.upgrade_passive('Assured Rebirth')
+skill_scrape.upgrade_passive('Fetters of Dromi')
+skill_scrape.upgrade_passive('Fruit of Life')
 
 with open(file, 'w') as fp:
     json.dump(obj, fp)
