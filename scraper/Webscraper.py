@@ -85,7 +85,6 @@ def scrape_page(page_name, provided_alts=None, version=None):
     blank['images']['special'] = atags[2]['href']
     blank['images']['damage'] = atags[3]['href']
 
-    blank['artist'] = art[5]
     blank['description'] = list(wiki_info[2].stripped_strings)[1]
 
     # This doesn't appear in wiki_info, so we have to grab it from the whole mess of soup. It's a page category.
@@ -159,6 +158,9 @@ def scrape_page(page_name, provided_alts=None, version=None):
 
     # Next up, find the weapon type. Start by finding the release date
     for i in wiki_info:
+        if "Artist" in i.text:
+            strings = list(i.stripped_strings)
+            blank['artist'] = strings[1]
         if "Weapon Type" in i.text:
             strings = list(i.stripped_strings)
             blank['weapon'] = strings[1]
