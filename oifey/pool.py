@@ -235,56 +235,53 @@ class Pool:
     def search(self, og_text, ctx = None) -> SearchResult:
         # if context exists to get aliases from
         if ctx:
-            text = util.text.search_text(og_text, ignore_space = True)
-            
+            text = util.text.search_text(og_text)
+
             # organize aliases
-            aliases = sql.user.get(ctx.author.id).get("alias") or []
-            
+            aliases = sql.User(ctx.author.id).custom_aliases
+
+            """
             if ctx.guild:
                 guild = sql.server.get(ctx.guild.id).get("alias") or []
-                
+
                 aliases = aliases + guild
-            
-            for value in aliases: # loop in order
-                original = value["og"]["clean"] #original
-                alias = value["alias"]["clean"] #alias 
-                
+            """
+
+            for k, v in aliases:
+                alias = util.text.search_text(k)
+                original = util.text.search_text(v)
+
                 # find alias that is between whitespace or/and
                 # has 0-2 numbers in the end
                 regex = r"\b" + alias + r"\d{0,2}\b"
-                
                 regex = re.search(regex, text)
-                
+
                 # ^ regex jank to find if the name is in the text
-                
                 # if it finds it, replace it with the alias
                 if regex:
                     new = regex.group(0).replace(alias, original)
-                    
                     text = text[:regex.start()] + new + text[regex.end():]
-            
-            text = util.text.search_text(text)
-            
+
         else:
             text = util.text.search_text(og_text)
-        
+
         finds = []
-        
+
         # Pick a random entry
-        if text.startswith("random") and (not(ctx) or ctx.allow_random):
+        if text.startswith("random") and (not ctx or ctx.allow_random):
             finds.append(self.random_pick())
-            
+
         #  try searching if it's a hard alt name
         elif text in self.hard:
             finds.append(self.hard[text])
-            
+
         elif text:
             for key, value in self.alt.items():
                 for name in value:
                     if text in name:
                         finds.append(self.items[key])
                         break
-            
+
         return SearchResult(finds, self, og_text)
     
     def random_pick(self):
