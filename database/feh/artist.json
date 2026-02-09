@@ -8909,7 +8909,11 @@
       "Spring Veyle",
       "Easter Veyle",
       "S Veyle",
-      "veyle3"
+      "veyle3",
+      "Sister Dragons",
+      "Veyle: Sister Dragons",
+      "Valentines Veyle",
+      "veyle4"
     ],
     "HARD_ALT_NAME": [
       "shiida5",
@@ -9031,7 +9035,11 @@
       "Spring Veyle",
       "Easter Veyle",
       "S Veyle",
-      "veyle3"
+      "veyle3",
+      "Sister Dragons",
+      "Veyle: Sister Dragons",
+      "Valentines Veyle",
+      "veyle4"
     ],
     "heroes": {
       "alear5": "<:Colorless_Breath:1124845679076978798>Summer Alear",
@@ -9045,6 +9053,7 @@
       "tatiana": "<:Blue_Tome:1124845593211191297>Tatiana",
       "triandra3": "<:Red_Sword:1124846201070698536>Attuned Triandra",
       "veyle3": "<:Red_Tome:1124846175577710642>Spring Veyle",
+      "veyle4": "<:Green_Tome:1124845959873036289>Valentines Veyle",
       "ymir2": "<:Colorless_Tome:1124845725960904734>Duo Ymir"
     },
     "name": "ichikawa Halu (\u3044\u3061\u304b\u308f\u306f\u308b)"
@@ -16773,7 +16782,11 @@
       "Benevolent Bride",
       "Lana: Benevolent Bride",
       "Bridal Lana",
-      "lana"
+      "lana",
+      "Love's Aroma",
+      "C\u00e9line: Love's Aroma",
+      "Valentines C\u00e9line",
+      "celine4"
     ],
     "HARD_ALT_NAME": [
       "est",
@@ -17016,10 +17029,15 @@
       "Lana: Benevolent Bride",
       "Bridal Lana",
       "lana",
-      "B Lana"
+      "B Lana",
+      "Love's Aroma",
+      "C\u00e9line: Love's Aroma",
+      "Valentines C\u00e9line",
+      "celine4"
     ],
     "heroes": {
       "anna5": "<:feh_harmonized:1124846369136459878><:Green_Axe:1124845885277343754>Halloween Anna",
+      "celine4": "<:Blue_Tome:1124845593211191297>Valentines C\u00e9line",
       "delthea": "<:Blue_Tome:1124845593211191297>Delthea",
       "delthea3": "<:Blue_Tome:1124845593211191297>Spring Delthea",
       "est": "<:Blue_Lance:1124845569496584302>Est",
@@ -30492,6 +30510,42 @@
       "Warrior Reborn",
       "Garcia: Warrior Reborn",
       "garcia"
+    ]
+  },
+  "tshan": {
+    "heroes": {
+      "hortensia3": "<:Colorless_Staff:1124845704444137592>Valentines Hortensia"
+    },
+    "name": "T\u5c71",
+    "ALT_NAME": [
+      "Cutesplosion",
+      "Hortensia: Cutesplosion",
+      "Valentines Hortensia",
+      "hortensia3"
+    ],
+    "HARD_ALT_NAME": [
+      "Cutesplosion",
+      "Hortensia: Cutesplosion",
+      "Valentines Hortensia",
+      "hortensia3"
+    ]
+  },
+  "isamu": {
+    "heroes": {
+      "louis": "<:Red_Bow:1124846280951218289>Valentines Louis"
+    },
+    "name": "\u30a4\u30b5\u30e0",
+    "ALT_NAME": [
+      "Petal Knight",
+      "Louis: Petal Knight",
+      "Valentines Louis",
+      "louis"
+    ],
+    "HARD_ALT_NAME": [
+      "Petal Knight",
+      "Louis: Petal Knight",
+      "Valentines Louis",
+      "louis"
     ]
   }
 }

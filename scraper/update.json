@@ -1,58 +1,54 @@
 {
-  "elise6": {
-    "name": "Elise",
-    "title": "Sincere Sister",
-    "description": "Princess of Nohr who adores her siblings to a charming extent. Her pure and sincere kindness moves people's hearts. Appears in Fire Emblem Fates.",
-    "origin": "Fates",
-    "artist": "\u9ebb\u5148\u307f\u3061",
+  "celine4": {
+    "name": "C\u00e9line",
+    "title": "Love's Aroma",
+    "description": "Princess of Firene. Expresses friendliness through flowers and presents given with deep affection. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "Miwabe Sakura (\u307f\u308f\u3079\u3055\u304f\u3089)",
     "move": "Cavalry",
-    "weapon": "Staff",
-    "color": "Colorless",
+    "weapon": "Tome",
+    "color": "Blue",
     "duel": false,
-    "id": "1343",
-    "type": "legendary",
-    "version": "10.1",
+    "id": "1345",
+    "type": false,
+    "version": "10.2",
     "duo": false,
     "harmonized": false,
     "emblem": false,
     "base": {
-      "hp": 16,
+      "hp": 15,
       "atk": 9,
       "spd": 9,
-      "def": 4,
-      "res": 12
+      "def": 3,
+      "res": 14
     },
     "growth": {
-      "hp": 50,
-      "atk": 90,
+      "hp": 45,
+      "atk": 75,
       "spd": 90,
-      "def": 30,
-      "res": 50
+      "def": 25,
+      "res": 75
     },
     "superboon": [
-      "atk",
-      "spd"
+      "hp",
+      "spd",
+      "def"
     ],
     "superbane": [
-      "hp",
-      "def",
+      "atk",
       "res"
     ],
     "weapons": {
-      "Assault": "1",
-      "Budding Staff": "5"
+      "Light": "1",
+      "Ellight": "2",
+      "Shine": "3",
+      "Gift of Love": "5"
     },
-    "assist": {
-      "Heal": "1",
-      "Mend": "2",
-      "Ice Lock": "3",
-      "Ice Lock+": "5"
-    },
+    "assist": {},
     "special": {
-      "Imbue": "2",
-      "Swift-Winds Balm": "3",
-      "Windfire Balm": "4",
-      "Windfire Charm": "5"
+      "New Moon": "3",
+      "Luna": "4",
+      "Magic Light": "5"
     },
     "passive": {
       "A": {
@@ -62,304 +58,630 @@
         "Atk/Spd Aria": "5"
       },
       "B": {
-        "Chill Spd 1": "2",
-        "Chill Spd/Res 1": "3",
-        "Chill Spd/Res 2": "4",
-        "Spd/Res Shackle": "5"
+        "Spd/Res Snag 1": "2",
+        "Spd/Res Snag 2": "3",
+        "Spd/Res Snag 3": "4",
+        "S/R Detect Aerial": "5"
       },
       "C": {
-        "Budding Flower": "5"
+        "Rouse Atk/Res 1": "2",
+        "Rouse Atk/Res 2": "3",
+        "Rouse Atk/Res 3": "4",
+        "Truly Inspired": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6b/Elise_Sincere_Sister_Face.webp/revision/latest?cb=20260129042930",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/0/09/Elise_Sincere_Sister_BtlFace_D.webp/revision/latest?cb=20260129042925",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/29/Elise_Sincere_Sister_BtlFace_C.webp/revision/latest?cb=20260129042920",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ab/Elise_Sincere_Sister_BtlFace.webp/revision/latest?cb=20260129042905"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/2/2b/Celine_Loves_Aroma_Face.webp/revision/latest?cb=20260204051406",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/c/c0/Celine_Loves_Aroma_BtlFace_D.webp/revision/latest?cb=20260204051402",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6e/Celine_Loves_Aroma_BtlFace_C.webp/revision/latest?cb=20260204051357",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/5b/Celine_Loves_Aroma_BtlFace.webp/revision/latest?cb=20260204051341"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Sincere Sister",
-      "Elise: Sincere Sister",
-      "elise6"
+      "Love's Aroma",
+      "C\u00e9line: Love's Aroma",
+      "Valentines C\u00e9line",
+      "celine4"
     ],
     "HARD_ALT_NAME": [
-      "Sincere Sister",
-      "Elise: Sincere Sister",
-      "elise6"
+      "Love's Aroma",
+      "C\u00e9line: Love's Aroma",
+      "Valentines C\u00e9line",
+      "celine4"
     ],
     "gender": "F",
     "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u4f1d\u627f\u30a8\u30ea\u30fc\u30bc",
-    "voice": "Liv Strander",
+    "pool": "seasonal",
+    "internal_id": "PID_\u611b\u306e\u796d\u30bb\u30ea\u30fc\u30cc",
+    "voice": "Rachelle Heger",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fates"
+      "elyos"
     ],
-    "chibi": "fe13",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "I thought all Heroes were strong like my big brother Xander, but there are all kinds of people here!",
-        "People are no different no matter where they live, whether in Hoshido or in Nohr.",
-        "If there's a wish you want to come true, then you can't give up, no matter what!",
-        "Did you see me? I took out all the little bones in that fish before I ate it!",
-        "If it's possible for the royal families of enemy countries to be friends, well then...the whole world can be friends!"
+        "I chose these sweets while thinking of whom I would give them to. One day, I'd like to make them by hand...",
+        "In my homeland, we also give flowers to others to express our gratitude. I'd like the people to see Askr's flowers.",
+        "I mixed a single four-leaf clover into a bouquet for my brother. I'm sure he'll appreciate this gift of good fortune.",
+        "A tea that tastes like love... Don't they all, as long as they're brewed with passion?",
+        "Diplomacy means acting friendly. But still, I will draw my sword on anyone who scatters my country's flowers."
       ],
       "Visit": [
-        "I found this on the ground when I went for a walk. It belongs in this castle, right? I did good, didn't I?!"
+        "These Day of Devotion flowers were chosen especially for you by [F]."
       ],
       "Level": [
-        "Justice, huh? I believe you don't need a sword to protect those you love...",
-        "Stop fighting! Rrr... If you don't quit it, I'll have to punish you!",
-        "If I want to become a great, noble lady, I can't let this place get me down!"
+        "The flowers of love bloom within my heart! Let's be sure to make it home alive.",
+        "This power is meant for happiness. I will show no mercy to those who disrupt this festival.",
+        "I thought I learned all I needed to enjoy the festival... But there is more."
       ],
       "Summon": [
-        "I'm Elise! I'm feeling great today, so you'll get to see just what I can do!"
+        "I am C\u00e9line, princess of Firene. I'm happy to take part in the Day of Devotion. I thank you profusely."
       ],
       "Learn Skill": [
-        "So...do you think I've grown into a mature adult?"
+        "Thank you for your love. You will have mine with victory!"
       ],
       "Confession": [
-        "Um...no... That's not quite right... Oh! There you go. Nice and gentle, [S].\nThen just tie the end... Voil\u00e0! You did it! You made a crown of flowers!\nIt's true, Nohr and Hoshido always fought, but...something's wrong if people hate each other forever...\nI say, if you want to play together, just play! I know more than people think I do!\nYou know how I feel, right? Hehe... I thought so!"
+        "Come this way, [S].\nI've prepared flowers and tea to show my appreciation for you.\nIt sure is peaceful... I'd like to have this kind of peace with my enemies and actually be able to talk to them.\nWars only happen because people are unsatisfied. We look down on others because we're unhappy.\nIt is sad, but I believe it's the truth...\nEh...you're right. I do get irritable when I'm hungry. Perhaps it's as simple as that.\nIf that's the case, don't you think we could prevent a few wars by satisfying our enemy's hunger?\nI know... It's childish idealism. Still, if you just smile and nod along, it doesn't seem so bad, does it?"
       ],
       "Special": [
-        "I'll show 'em who's boss!",
-        "My killer left hook!",
-        "Kapow! Kaboom!",
-        "And a little of this!"
+        "Teatime for love!",
+        "Flowers of gratitude!",
+        "What a happy festival!",
+        "Love engage!"
       ],
       "Status": [
         "-",
-        "I'll help you de-stress!",
-        "We'll be OK!",
-        "A Legendary Hero? Me? Oh, yay! That's amazing! ...Right?",
-        "That's your way of saying I've been doing a good job? Aww, thank you!",
-        "After the fighting was over, we all became really good friends!",
-        "OK, Elise, you're going to grow into a beautiful lady like your sister! You can do it! Let's go!",
-        "I love being here with you, so I promise I'll never let us get separated. No matter what!"
+        "This is the traditional attire of the kingdom of Firene.",
+        "Oh, I was thinking I could hide a sword there, but it looks like you spotted it easily.",
+        "All the flowers and gifts brimming with thanks... The mere sight is enough to make me giddy with delight!",
+        "Do you suppose serving tea is an acceptable way to show appreciation at this festival?",
+        "I am unsure about the bouquet for my brother. Do you think I should put some training weights inside?",
+        "I would like to let Chlo\u00e9 and Louis know how grateful I am to them. Though it is a bit awkward to simply say it.",
+        "I don't yet know the best way to express my fondness, but someday I'd like to give you a bouquet of flowers from my home."
       ],
       "Map Select": [
-        "Sure thing!",
-        "Hey!",
-        "Show me how?"
+        "But of course.",
+        "The truth is...",
+        "Love is happiness."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Elise",
-    "SEARCH_NAME": "Elise",
-    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Elise",
+    "short_name": "Valentines C\u00e9line",
+    "SEARCH_NAME": "Valentines C\u00e9line",
+    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Valentines C\u00e9line",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "elise",
-      "elise2",
-      "elise3",
-      "elise4",
-      "elise5"
+      "celine"
     ],
     "prf": {
-      "": "buddingstaff",
-      "eff": "buddingstaff",
-      "atk": "buddingstaff",
-      "spd": "buddingstaff",
-      "def": "buddingstaff",
-      "res": "buddingstaff"
-    },
-    "blessing": "Fire",
-    "boost": {
-      "hp": 3,
-      "res": 4
+      "": "giftoflove",
+      "eff": "giftoflove",
+      "atk": "giftoflove",
+      "spd": "giftoflove",
+      "def": "giftoflove",
+      "res": "giftoflove"
     }
   },
-  "byleth11": {
-    "name": "Byleth",
-    "title": "Of the Academy",
-    "description": "One of the Emblems who were summoned to Elyos. Resides in the Ring of the Instructor. Appears in Fire Emblem: Three Houses / Engage.",
-    "origin": "Three Houses + Engage",
-    "artist": "Fujisaka Kimihiko (\u85e4\u5742\u516c\u5f66)",
-    "move": "Infantry",
-    "weapon": "Tome",
-    "color": "Blue",
+  "hortensia3": {
+    "name": "Hortensia",
+    "title": "Cutesplosion",
+    "description": "Second princess of Elusia. Dons modest, ladylike garb and imparts her gratitude to those she loves. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "T\u5c71",
+    "move": "Armored",
+    "weapon": "Staff",
+    "color": "Colorless",
     "duel": false,
-    "id": "1342",
-    "type": "emblem",
-    "version": "10.1",
+    "id": "1346",
+    "type": false,
+    "version": "10.2",
     "duo": false,
     "harmonized": false,
-    "emblem": "Enhanced Engaged Special\nWhen Special triggers, boosts damage by unit's max Special cooldown count value \u00d7 4 (excluding area-of-effect Specials).\nWhen unit is not equipped with a character- specific Assist skill, if a Rally or movement Assist skill is used by unit and if target ally has already acted, grants another action to target ally, and if Canto has already been triggered, re-enables Canto (once per turn; this effect does not trigger if target ally has Sing or Dance).\nEquipping this skill counts as equipping a Sing or Dance skill.",
+    "emblem": false,
     "base": {
       "hp": 18,
-      "atk": 11,
-      "spd": 10,
-      "def": 11,
-      "res": 4
+      "atk": 12,
+      "spd": 9,
+      "def": 6,
+      "res": 13
     },
     "growth": {
       "hp": 50,
-      "atk": 80,
+      "atk": 75,
       "spd": 90,
-      "def": 70,
-      "res": 30
+      "def": 35,
+      "res": 80
     },
     "superboon": [
-      "spd",
-      "def"
+      "spd"
     ],
     "superbane": [
       "hp",
-      "res"
+      "atk"
     ],
     "weapons": {
-      "Light": "1",
-      "Ellight": "2",
-      "Shine": "3",
-      "Instructor's Opus": "5"
+      "Assault": "1",
+      "Sweet Staff": "5"
     },
     "assist": {
-      "Reposition": "3",
-      "Reposition Gait": "5"
+      "Heal": "1",
+      "Mend": "2",
+      "Guardian": "3",
+      "Guardian+": "5"
     },
     "special": {
-      "Night Sky": "3",
-      "Astra": "4",
-      "Goddess Dance": "5"
+      "Imbue": "2",
+      "Still-Water Balm": "3",
+      "Deluge Balm": "4",
+      "Deluge Charm": "5"
     },
     "passive": {
       "A": {
-        "Atk/Spd Ideal 1": "2",
-        "Atk/Spd Ideal 2": "3",
-        "Atk/Spd Ideal 3": "4",
-        "Perfect Atk/Spd": "5"
+        "Wind Boost 1": "2",
+        "Wind Boost 2": "3",
+        "Wind Boost 3": "4",
+        "Torrential Boost": "5"
       },
       "B": {
-        "Atk/Spd Link 1": "2",
-        "Atk/Spd Link 2": "3",
-        "Atk/Spd Link 3": "4",
-        "Atk/Spd Favor": "5"
+        "Pair Up 1": "2",
+        "Pair Up 2": "3",
+        "Pair Up 3": "4",
+        "Pair Up 4": "5"
       },
       "C": {
-        "Instruct 1": "2",
-        "Instruct 2": "3",
-        "Instruct 3": "4",
-        "Instruct 4": "5"
+        "Huge Personality": "5"
       },
       "X": {}
     },
     "images": {
-      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e7/Byleth_Of_the_Academy_Face.webp/revision/latest?cb=20260129043005",
-      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/69/Byleth_Of_the_Academy_BtlFace_D.webp/revision/latest?cb=20260129043000",
-      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/a1/Byleth_Of_the_Academy_BtlFace_C.webp/revision/latest?cb=20260129042955",
-      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/5/51/Byleth_Of_the_Academy_BtlFace.webp/revision/latest?cb=20260129042940"
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/8/85/Hortensia_Cutesplosion_Face.webp/revision/latest?cb=20260204051516",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ec/Hortensia_Cutesplosion_BtlFace_D.webp/revision/latest?cb=20260204051511",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/43/Hortensia_Cutesplosion_BtlFace_C.webp/revision/latest?cb=20260204051507",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e1/Hortensia_Cutesplosion_BtlFace.webp/revision/latest?cb=20260204051451"
     },
     "resplendent_images": false,
     "ALT_NAME": [
-      "Of the Academy",
-      "Byleth: Of the Academy",
-      "Emblem Byleth",
-      "Engage Byleth",
-      "E Byleth",
-      "byleth11"
+      "Cutesplosion",
+      "Hortensia: Cutesplosion",
+      "Valentines Hortensia",
+      "hortensia3"
     ],
     "HARD_ALT_NAME": [
-      "Of the Academy",
-      "Byleth: Of the Academy",
-      "Emblem Byleth",
-      "Engage Byleth",
-      "E Byleth",
-      "byleth11"
+      "Cutesplosion",
+      "Hortensia: Cutesplosion",
+      "Valentines Hortensia",
+      "hortensia3"
     ],
-    "gender": "M",
+    "gender": "F",
     "rarity": 5,
-    "pool": "legend",
-    "internal_id": "PID_\u7d0b\u7ae0\u30d9\u30ec\u30c8",
-    "voice": "Zach Aguilar",
+    "pool": "seasonal",
+    "internal_id": "PID_\u611b\u306e\u796d\u30aa\u30eb\u30c6\u30f3\u30b7\u30a2",
+    "voice": "Amber Connor",
     "resplendent": false,
     "resplendent_voice": false,
     "RANDOM_POOL": [
-      "fodlan"
+      "elyos"
     ],
-    "chibi": "fodlan",
+    "chibi": "fe17",
     "quotes": {
       "Castle Hall": [
-        "With so many students here and there, I find myself wanting to care for them...\nHowever, that is the role of the original me, not the me as I am now.",
-        "I was in Lythos Castle in Elyos, but...I fell into enemy hands and turned my blade on my friends.\nI wish to never again be at war with those familiar to me.",
-        "People have questioned my age as a professor. But I have lived now for several thousand years...\nPerhaps I have developed a more dignified presence by now.",
-        "I can actually taste the foods I once could only smell at the Somniel.\nDo you think the food I once ate at the Officers Academy is here as well?",
-        "You wish to engage with me? I do not mind. I can use Goddess Dance.\nDo you happen to have any companions you wish to move more than others?"
+        "I prefer my dresses short and cute! Although as I get older, I might learn to appreciate the longer ones more.",
+        "In Elusia, I saw more snowflakes than flowers. You can't make a bouquet of them, but they really are pretty!",
+        "I think I've chosen a wonderful gift full of love for my sister. But...now I'm anxious about giving it to her!",
+        "You can't spread too much love and cuteness! I'm usually on the receiving end, so it's my turn to give back.",
+        "When I think of giving a gift, my late father still comes to mind. I think it's all right to prepare something for him."
       ],
       "Visit": [
-        "Whether academy friends or allies in battle... I hope you will stay on good terms with [F]."
+        "You are quite fortunate to be the recipient of these heartfelt greetings from [F]!"
       ],
       "Level": [
-        "I wish to continue to guide everyone as a professor and as an Emblem.",
-        "That was fruitful. I shall take what I have learned and use it in my next encounter.",
-        "Do not be discouraged. There are still plenty more opportunities."
+        "Earning someone's love is important. But loving yourself is important too! That's the truth!",
+        "This is the perfect amount of love for me! I'll return it a hundredfold!",
+        "I'm looking for more love. Let's get going, right after I polish up on my strength and cuteness!"
       ],
       "Summon": [
-        "I am Emblem Byleth. If you have a need, then I wish to fill it. I shall be a guide using the power at my disposal."
+        "Hortensia reporting for the Day of Devotion! I give my sincere love to you and everyone here!"
       ],
       "Learn Skill": [
-        "I shall be your trustworthy partner. I will not disappoint."
+        "Is this a token of your affection? How wonderful! Thank you! I will keep getting better!"
       ],
       "Confession": [
-        "What seems to be the matter, [S]?\nI shall lend my ear if there is something you wish to tell me... Oh? You want to know about me?\nI did not expect this... Listening to others is my strong suit. It is not often I have spoken of myself.\nHowever, if that is your wish, then I will oblige.\nI have seen more in F\u00f3dlan and Elyos than any other version of me. And it is not so easy to converse on a whim.\nAs a professor and an Emblem, I understand how frustrating it can be to speak and have no one hear...\nSo I know how precious this is. Now then, if you wish to hear tales of the distant past, it will take some time."
+        "Oh, Summoner! I just witnessed the sweetest scene between two Hero lovebirds sharing their feelings.\nI guess I thought the Day of Devotion was kind of philanthropic...all about spreading love to a lot of people.\nBut maybe expressing deep love to one person in your heart is actually closer to the true essence of this day.\nWho would I share my feelings with? Maybe the Divine Dragon? Hmm... And Ivy, and my retainers...\nOh! The Emblems too, and all my friends... Ugh, I love them all! Huh? That's why people like me?\nThank you! Wait right here! I'm going to get you a bouquet to express my love for you too!"
       ],
       "Special": [
-        "Goddess Dance.",
-        "I offer my guidance.",
-        "I'll teach you.",
-        "Emblem engage!"
+        "Highlight of the festival!",
+        "Have some love!",
+        "Thanks a lot!",
+        "Love engage!"
       ],
       "Status": [
-        "Hm.",
-        "I can eat again now that I'm in Askr? I think I'm ready for a feast, then.",
-        "Huh?! Oh, for a moment I thought you were coming to polish my ring. I invite you to stay.",
-        "My ring fell into enemy hands once, but I was returned to the Divine Dragon's army with Hortensia.",
-        "My students would take my glowing and floating as an Emblem in stride... At least, I think they would.",
-        "\"Teach us, Emblem of the Academy...\" That is the invocation used to summon me.",
-        "Edelgard, Dimitri, and Claude... What a trio. I can't help smiling when I encounter them in any world.",
-        "In Elyos and the world I'm from, I had to turn my sword against those close to me. I hope to remain allies with you, and everyone here, until the end."
+        "-",
+        "Have some love!",
+        "Thanks a lot!",
+        "I'm not used to long dresses like this, but it really makes me look grown up. Isn't it great?",
+        "I picked this bouquet for maximum cuteness. I wonder if my sister will like it?",
+        "I always thank people when I get the chance. It's too late when they're gone.",
+        "Rosado, Goldmary...thank you for...umm... Wow. Even just practicing this is embarrassing.",
+        "The academy I went to had an event like this too. I never took part there, but I'm really liking it."
       ],
       "Map Select": [
-        "Yes.",
-        "It'll be all right.",
-        "Together!"
+        "All right.",
+        "So romantic!",
+        "Love is in the air."
       ],
       "Conversation": false,
       "Duo Skill": false,
       "Back Unit Supporting": false,
       "resplendent": {}
     },
-    "short_name": "Emblem Byleth",
-    "SEARCH_NAME": "Emblem Byleth",
-    "DISPLAY_NAME": "<:Blue_Tome:1124845593211191297>Emblem Byleth",
+    "short_name": "Valentines Hortensia",
+    "SEARCH_NAME": "Valentines Hortensia",
+    "DISPLAY_NAME": "<:Colorless_Staff:1124845704444137592>Valentines Hortensia",
     "RANDOM_IGNORE": true,
     "alt": false,
     "reference": [
-      "byleth",
-      "byleth2",
-      "byleth3",
-      "byleth4",
-      "byleth5",
-      "byleth6",
-      "byleth7",
-      "byleth8",
-      "byleth9",
-      "byleth10"
+      "hortensia",
+      "hortensia2"
     ],
     "prf": {
-      "": "instructorsopus",
-      "eff": "instructorsopus",
-      "atk": "instructorsopus",
-      "spd": "instructorsopus",
-      "def": "instructorsopus",
-      "res": "instructorsopus"
+      "": "sweetstaff",
+      "eff": "sweetstaff",
+      "atk": "sweetstaff",
+      "spd": "sweetstaff",
+      "def": "sweetstaff",
+      "res": "sweetstaff"
+    }
+  },
+  "louis": {
+    "name": "Louis",
+    "title": "Petal Knight",
+    "description": "Royal knight of Firene and retainer to Princess C\u00e9line. Finds utmost joy in seeing his friends happy. Appears in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "\u30a4\u30b5\u30e0",
+    "move": "Armored",
+    "weapon": "Bow",
+    "color": "Red",
+    "duel": false,
+    "id": "1347",
+    "type": false,
+    "version": "10.2",
+    "duo": false,
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 22,
+      "atk": 12,
+      "spd": 3,
+      "def": 10,
+      "res": 12
+    },
+    "growth": {
+      "hp": 65,
+      "atk": 80,
+      "spd": 30,
+      "def": 90,
+      "res": 75
+    },
+    "superboon": [
+      "def"
+    ],
+    "superbane": [
+      "spd",
+      "res"
+    ],
+    "weapons": {
+      "Iron Bow": "1",
+      "Steel Bow": "2",
+      "Bow of Love": "3",
+      "Bow of Love+": "5"
+    },
+    "assist": {},
+    "special": {
+      "Glowing Ember": "3",
+      "Ignis": "4"
+    },
+    "passive": {
+      "A": {},
+      "B": {
+        "Slick Fighter 1": "2",
+        "Slick Fighter 2": "3",
+        "Slick Fighter 3": "4",
+        "Slick Fighter 4": "5"
+      },
+      "C": {
+        "D/R Far Save 1": "1",
+        "D/R Far Save 2": "2",
+        "D/R Far Save 3": "4"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/a/ae/Louis_Petal_Knight_Face.webp/revision/latest?cb=20260204051441",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/1/19/Louis_Petal_Knight_BtlFace_D.webp/revision/latest?cb=20260204051437",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/e9/Louis_Petal_Knight_BtlFace_C.webp/revision/latest?cb=20260204051432",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/9/95/Louis_Petal_Knight_BtlFace.webp/revision/latest?cb=20260204051416"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Petal Knight",
+      "Louis: Petal Knight",
+      "Valentines Louis",
+      "louis"
+    ],
+    "HARD_ALT_NAME": [
+      "Petal Knight",
+      "Louis: Petal Knight",
+      "Valentines Louis",
+      "louis"
+    ],
+    "gender": "M",
+    "rarity": 4,
+    "pool": "seasonal",
+    "internal_id": "PID_\u611b\u306e\u796d\u30eb\u30a4",
+    "voice": "J. Michael Tatum",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "What a beautiful sight... Friends sharing feelings with one another... And even you mingling amidst them.",
+        "My three younger brothers would surely be delighted if I sent them flowers or sweets from Askr.",
+        "Enjoy this tea with the aroma of a red fruit. It, like this festival, offers a feeling of love. Do drink while it's hot.",
+        "I heard that a pair of Heroes in this world cannot be separated. I would love to see this. Will you show me?",
+        "All flowers suit Princess C\u00e9line, so making her bouquet was a true joy. Shall I make one for you next?"
+      ],
+      "Visit": [
+        "I have come to convey my love and to say that I will watch over you and [F]forever."
+      ],
+      "Level": [
+        "The combination of me and the Day of Devotion is a truly magnificent sight!",
+        "It is such an uplifting feeling to see a scene brimming with love. It gives me strength.",
+        "I became so absorbed in the festivities that it seems I have neglected my duties."
+      ],
+      "Summon": [
+        "I am Louis, a royal knight of Firene. The Day of Devotion is a splendid affair. I feel a new opportunity ahead."
+      ],
+      "Learn Skill": [
+        "Thank you for extending your love to me. But please, you must give your love to the other Heroes as well..."
+      ],
+      "Confession": [
+        "Ahh... People giving thanks to their retainers with candy... And neighbors giving bouquets to those they love...\nAh, I am glad to see you made it here, [S]!\nI have been waiting just for you. It is not as though my sole purpose here is watching other Heroes.\nPlease, accept this Day of Devotion gift from me. I have made some traditional baked goods from Firene.\nWhy not stay awhile? I will make tea. I am sure there are others who would like to express their feelings to you.\nThis, I would love to see... Numerous Heroes in Askr giving gifts of love to the summoner..."
+      ],
+      "Special": [
+        "Teatime of love!",
+        "Respect and gratitude.",
+        "I shall be a wall!",
+        "Love engage!"
+      ],
+      "Status": [
+        "-",
+        "This is a wonderful festival. I am grateful you summoned me.",
+        "What?! A princess of another world is shyly presenting a gift to a friend of hers? It is wonderful to be surrounded by so much love.",
+        "When selecting a Day of Devotion gift, one considers the recipient wholeheartedly, is that right? I like how thoughtful that is.",
+        "While I am fond of grapes, I have no love for the seaweed known as sea grapes.",
+        "This bouquet is for Princess C\u00e9line, though it would set a far more picturesque scene if Chlo\u00e9 were to give it to her.",
+        "*contented sigh* The sight of everyone giving a gift to their beloved... I find it quite uplifting.",
+        "I shall brew some tea to express my gratitude. I hope you enjoy the infused aroma of flowers from Firene in this blend."
+      ],
+      "Map Select": [
+        "Indeed.",
+        "Off to the gardens.",
+        "To protect love."
+      ],
+      "Conversation": false,
+      "Duo Skill": false,
+      "Back Unit Supporting": false,
+      "resplendent": {}
+    },
+    "short_name": "Valentines Louis",
+    "SEARCH_NAME": "Valentines Louis",
+    "DISPLAY_NAME": "<:Red_Bow:1124846280951218289>Valentines Louis",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [],
+    "prf": {
+      "": "bowoflove",
+      "eff": "bowoflove",
+      "atk": "bowoflove",
+      "spd": "bowoflove",
+      "def": "bowoflove",
+      "res": "bowoflove"
+    }
+  },
+  "veyle4": {
+    "name": "Veyle",
+    "title": "Sister Dragons",
+    "description": "Dragon siblings, once torn apart, who now reunite at Askr's Day of Devotion. They appear in Fire Emblem Engage.",
+    "origin": "Engage",
+    "artist": "ichikawa Halu (\u3044\u3061\u304b\u308f\u306f\u308b)",
+    "move": "Cavalry",
+    "weapon": "Tome",
+    "color": "Green",
+    "duel": false,
+    "id": "1344",
+    "type": false,
+    "version": "10.2",
+    "duo": "Grants\u3010Divinely Inspiring\u3011,\u3010Reflex\u3011, and \"unit makes a guaranteed follow-up attack during combat\" to unit and allies within 3 spaces of unit for 1 turn.\n(Duo Skills can be used\u00a0once per map by tapping the Duo button. Duo Skills cannot be used by units deployed using\nPair Up\n.)\n(When unit has a status or a skill that enables use of a\nStyle\n, Duo Skills and Harmonized Skills cannot be used while unit can take an action (those skills can be used after unit has acted).)\n\u3010Divinely Inspiring\u3011\nGrants bonus to unit's Atk/Spd/Def/Res = X \u00d7 3 (X = number of allies with the Divinely Inspiring effect within 3 spaces of unit, excluding unit; max 2), grants Special cooldown count-X to unit before foe's first attack, and when unit deals damage to foe during combat, restores X \u00d7 4 HP to unit during combat.\n\u3010Reflex\u3011\nReduces damage from foe's first attack by 7 during combat (\"first attack\" normally means only the first strike; for effects that grant \"unit attacks twice,\" it means the first and second strikes) and unit's next attack deals damage = total damage reduced from foe's first attack (by any source, including other skills; resets at end of combat). (For 1 turn.)",
+    "harmonized": false,
+    "emblem": false,
+    "base": {
+      "hp": 18,
+      "atk": 10,
+      "spd": 8,
+      "def": 4,
+      "res": 10
+    },
+    "growth": {
+      "hp": 50,
+      "atk": 90,
+      "spd": 50,
+      "def": 30,
+      "res": 90
+    },
+    "superboon": [
+      "atk",
+      "res"
+    ],
+    "superbane": [
+      "hp",
+      "spd"
+    ],
+    "weapons": {
+      "Wind": "1",
+      "Elwind": "2",
+      "Rexcalibur": "3",
+      "Draconic Bond": "5"
+    },
+    "assist": {},
+    "special": {
+      "Chilling Wind": "3",
+      "Glacies": "4",
+      "Ice Wall": "5"
+    },
+    "passive": {
+      "A": {
+        "Atk/Res Bond 1": "2",
+        "Atk/Res Bond 2": "3",
+        "Atk/Res Bond 3": "4",
+        "Atk/Res Aria": "5"
+      },
+      "B": {
+        "Atk/Res Snag 1": "2",
+        "Atk/Res Snag 2": "3",
+        "Atk/Res Snag 3": "4",
+        "A/R Detect Aerial": "5"
+      },
+      "C": {
+        "Fell Refuge": "5"
+      },
+      "X": {}
+    },
+    "images": {
+      "portrait": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/4/4c/Veyle_Sister_Dragons_Face.webp/revision/latest?cb=20260204051551",
+      "damage": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/7/71/Veyle_Sister_Dragons_BtlFace_D.webp/revision/latest?cb=20260204051547",
+      "special": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/3/3f/Veyle_Sister_Dragons_BtlFace_C.webp/revision/latest?cb=20260204051541",
+      "attack": "https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/6/6b/Veyle_Sister_Dragons_BtlFace.webp/revision/latest?cb=20260204051527"
+    },
+    "resplendent_images": false,
+    "ALT_NAME": [
+      "Sister Dragons",
+      "Veyle: Sister Dragons",
+      "Valentines Veyle",
+      "veyle4"
+    ],
+    "HARD_ALT_NAME": [
+      "Sister Dragons",
+      "Veyle: Sister Dragons",
+      "Valentines Veyle",
+      "veyle4"
+    ],
+    "gender": "F",
+    "rarity": 5,
+    "pool": "seasonal",
+    "internal_id": "PID_\u6bd4\u7ffc\u30f4\u30a7\u30a4\u30eb",
+    "voice": "Megan Taylor Harvey + Laura Stahl",
+    "resplendent": false,
+    "resplendent_voice": false,
+    "RANDOM_POOL": [
+      "elyos"
+    ],
+    "chibi": "fe17",
+    "quotes": {
+      "Castle Hall": [
+        "**Veyle:** It's nice to attend a festival as a family... I wonder if Mama and Papa ever expressed their love like this...",
+        "**Alear:** Veyle is always so reserved... But it's nice to see her having fun. I'm going to spoil her silly today!",
+        "**Veyle:** Being here, I feel warm inside. Seeing humans and dragons together like this...makes me believe in love.",
+        "**Alear:** I would like to find flowers befitting Emblems to express my gratitude to them. For Marth, maybe...bright blue?",
+        "**Veyle:** Although we are Fell and Divine Dragons, we have an unbreakable bond. I wish to stay together forever."
+      ],
+      "Visit": [
+        "**Veyle:** So sorry to intrude, but we come to you with greetings from [F]."
+      ],
+      "Level": [
+        "**Veyle:** Because everyone has accepted me, I can live as a righteous dragon.",
+        "**Alear:** Your love gives us strength, [S].",
+        "**Veyle:** Is great power not suitable for the Day of Devotion?"
+      ],
+      "Summon": [
+        "I am Veyle. I am here at the Day of Devotion festival with my sister, Alear. Please, accept our gratitude."
+      ],
+      "Learn Skill": [
+        "**Veyle:** With your devotion, I won't be outdone! Just watch!"
+      ],
+      "Confession": [
+        "**Veyle:** I've never seen flowers like this in Elyos, but this world is full of them. Being in a garden is like a dream.\n**Alear:** It was in a field of flowers that we first met, Veyle. You helped me after the battle in Florra Mill Town.\n**Veyle:** Yes. It seems so long ago, back when I was all alone. But now I'm so happy we can be together.\n**Alear:** So am I. Thank you so much for fighting with me in Elyos and searching for me.\n**Veyle:** It is I who should thank you. Hehe... It is a little embarrassing to express so much, but maybe today it's OK...\n**Alear:** Yes. And every day from now on, I'll express my gratitude and love to you. For thousands of years to come.\n**Veyle:** And I will do the same. I will show all the feelings I couldn't for the thousands of years we were apart..."
+      ],
+      "Special": [
+        "**Duo:** Love engage!",
+        "**Duo:** Thinking...of you!",
+        "**Veyle:** My gift to you!",
+        "**Alear:** Bound by love!"
+      ],
+      "Status": [
+        "-",
+        "\"Sister, will you engage with me at the festival today?\" \"*giggle* Of course I will, Veyle.\""
+      ],
+      "Map Select": [
+        "It's time!",
+        "My heart is racing.",
+        "Our love burns bright."
+      ],
+      "Conversation": [
+        "**Veyle:** Festivals are so fun, aren't they? Seeing all the smiles makes me happy.",
+        "**Alear:** Being able to convey our love to one another is truly a blessing. Thank you for everything, Little Sister.",
+        "**Veyle:** It's you who deserves the thanks. When I think back, I'm always receiving valuable things from you...",
+        "Like the dragonstone you gave me when I was little... It helped me endure many hardships.",
+        "**Alear:** I'm proud to know that the Alear of the past gave you such a good gift.",
+        "**Veyle:** I wonder if I could ever give someone such a fulfilling gift...",
+        "**Alear:** Of course you can. Besides, any gift from you will bring happiness.",
+        "**Veyle:** I hope you're right. But when it comes to picking one out, I have no idea...",
+        "**Alear:** Flowers are the popular choice at these festivals. But I've heard of people giving sweets too.",
+        "**Veyle:** You mean like...chocolate? Or cake? I do recall people eating those kinds of things in the Somniel...",
+        "But I don't like sweets at all... How will I know what's tasty or not?",
+        "**Alear:** You could always give something that's not sweet. It's best to go with what you consider good.",
+        "**Veyle:** Oh... Well then I should offer my favorite. It's extra spicy and delicious!",
+        "It's caked in bright-red seasoning, and when you bite into it, an exciting sauce gushes out.",
+        "**Alear:** Oh, that sounds...interesting. It would be good for someone with a stomach for spicy food.",
+        "**Veyle:** But I really want it to please you! I'll think more about it. I'm going to go check out that shop over there...",
+        "**Alear:** Please me with a gift? Heh. Oh, Veyle, just hearing you say that fills my heart..."
+      ],
+      "Duo Skill": [
+        "\"Sister?\" \"I'm here!\"",
+        "\"Emblem\" \"engage!\""
+      ],
+      "Back Unit Supporting": [
+        "You can do it, Veyle!",
+        "I love you!"
+      ],
+      "resplendent": {}
+    },
+    "short_name": "Valentines Veyle",
+    "SEARCH_NAME": "Valentines Veyle",
+    "DISPLAY_NAME": "<:Green_Tome:1124845959873036289>Valentines Veyle",
+    "RANDOM_IGNORE": true,
+    "alt": false,
+    "reference": [
+      "veyle",
+      "veyle2",
+      "veyle3"
+    ],
+    "prf": {
+      "": "draconicbond",
+      "eff": "draconicbond",
+      "atk": "draconicbond",
+      "spd": "draconicbond",
+      "def": "draconicbond",
+      "res": "draconicbond"
     }
   }
 }

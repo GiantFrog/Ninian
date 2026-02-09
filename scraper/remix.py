@@ -47,10 +47,9 @@ def main(mainkey):
 			unlock = list(cols[5].stripped_strings)[0]
 			unit[key][skill] = unlock
 
-	passive_table = document.find_all(class_="wikitable default skills-table")
+	passive_table = document.find_all(class_="wikitable default")[-1]
 
-	ptable = passive_table[0].find_all('tr')
-	headers = list(ptable[0].stripped_strings)
+	ptable = passive_table.find_all('tr')
 	slot = 'A'
 	from collections import defaultdict
 	skills = defaultdict(dict)
@@ -82,5 +81,5 @@ def main(mainkey):
 
 
 
-main('medeus')
-main('shez3')
+main('yuri2')
+main('nerthuz')
