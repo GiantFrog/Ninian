@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 from special_heroes import get_harmonized, get_emblem, get_legendary, get_duo
 from utils import is_superboon_or_superbane, convert_game_title
-from queries import get_unit_skills
+from queries import get_unit_skills, get_unit_release_update
 # prevent "runtime error" errors
 if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
@@ -17,7 +17,7 @@ load_dotenv()
 async def main():
     client = Bot(sitename="https://feheroes.fandom.com", api="https://feheroes.fandom.com/api.php", index="https://feheroes.fandom.com/wiki/Main_Page", username=os.environ["FEH_BOT_USERNAME"], password=os.environ["FEH_BOT_PASSWORD"])
     await client.login()
-    jsonDict = {}
+    scraping_output = {}
 
     today = datetime.today().strftime('%Y-%m-%d')
 
@@ -87,12 +87,14 @@ async def main():
             specialUnitProperties["type"] = "aided"
         elif "chosen" in dbProperties:
             specialUnitProperties["type"] = "chosen"
+        elif "entwined" in dbProperties
+            specialUnitProperties["type"] = "entwined"
 
         unitProperties = {**unitProperties, **specialUnitProperties }
 
     for element in unitIdentityQuery["cargoquery"]:
         heroFullName = element['title']['Page']
-        jsonDict[heroFullName] = {}
+        scraping_output[heroFullName] = {}
         newUnitsForQueries.append("\"" + heroFullName + "\"")
 
     unitStatsPayload = {
@@ -104,22 +106,14 @@ async def main():
     unitStatsQuery = await client.call_get_api("cargoquery", **unitStatsPayload)
 
     for newUnit in newUnitsForQueries:
-        versionPayload = {
-            "tables": "VersionUpdates",
-            "fields": "CONCAT(Major, '&period;', Minor) = Version",
-            "where": "Date(ReleaseTime) >= '" + json[newUnit]["release"] + "'",
-            "limit": "1",
-            "order_by": "ReleaseTime DESC",
-        }
-        versionQuery = await client.call_get_api("cargoquery", **versionPayload)
-        version = versionQuery["cargoquery"][0]["title"]["Version"]
+        version = await get_unit_release_update(client, newUnit)
         del json[newUnit]["release"]
         json[newUnit]["version"] = version
 
     for element in unitStatsQuery["cargoquery"]:
         innerData = element["title"]
         page = innerData["Page"]
-        jsonDict[page] = {
+        scraping_output[page] = {
             "base": {
                 "hp": int(innerData["Lv1HP5"]),
                 "atk": int(innerData["Lv1Atk5"]),
@@ -144,15 +138,14 @@ async def main():
         "res": int(innerData["ResGR3"])
     }
     supertraits = is_superboon_or_superbane(growthRates)
-    jsonDict[dataInside["Page"]] = {**jsonDict[dataInside["Page"]], **supertraits}        
+    scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **supertraits}        
     
     skills = await get_unit_skills(client, newUnitsForQueries)
 
-    jsonDict[dataInside["Page"]] = {**jsonDict[dataInside["Page"]], **skills, **unitProperties}        
-
-    with open("test.json", "w") as f:
-        json.dump(jsonDict, f)
+    scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **skills, **unitProperties}        
     with open("marker.json", "w") as markerFile:
         json.dump({ "lastSuccessfulRun": today }, markerFile)
+
+    return scraping_output
 if __name__ == "__main__":
     asyncio.run(main())

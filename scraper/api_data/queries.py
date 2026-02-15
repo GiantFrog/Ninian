@@ -48,3 +48,18 @@ async def get_unit_skills(client, units):
     
     return output
   
+async def get_unit_release_update(client, unit):
+    versionPayload = {
+        "tables": "VersionUpdates",
+        "fields": "CONCAT(Major, '&period;', Minor) = Version",
+        "where": "Date(ReleaseTime) >= '" + json[newUnit]["release"] + "'",
+        "limit": "1",
+        "order_by": "ReleaseTime DESC",
+    }
+    versionQuery = await client.call_get_api("cargoquery", **versionPayload)
+    version = versionQuery["cargoquery"][0]["title"]["Version"]
+    return version
+
+async def get_unit_stats(client, units) {
+    
+}
