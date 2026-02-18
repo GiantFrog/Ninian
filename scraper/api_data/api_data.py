@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 from special_heroes import get_harmonized, get_emblem, get_legendary, get_duo
 from utils import is_superboon_or_superbane, convert_game_title
-from queries import get_unit_skills, get_unit_release_update
+from queries import get_unit_skills, get_unit_release_update, get_new_units
 # prevent "runtime error" errors
 if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
@@ -19,18 +19,17 @@ async def main():
     await client.login()
     scraping_output = {}
 
-    today = datetime.today().strftime('%Y-%m-%d')
+    last_successful_run = 0
 
-    unitIdentityPayload = {
-        "tables": "Units",
-        "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, TagID, Properties, _ID=ID",
-        "where": "ReleaseDate > " + today + " and WikiName not like \"%ENEMY\"",
-        "order_by": "ReleaseDate DESC",
-    }
+    with open("marker.json", "r") as markerFile:
+        marker_data = json.load(markerFile)
+        last_successful_run = marker_data.get("lastSuccessfulRun", 0)
 
-    unitIdentityQuery = await client.call_get_api("cargoquery", **unitIdentityPayload)
-    newUnitsForQueries = []
-    for entry in unitIdentityQuery["cargoquery"]:
+    unit_data = await get_new_units(client, last_successful_run)
+
+    new_units_for_queries = []
+
+    for entry in unit_data:
         unitProperties = {}
         dataInside = entry["title"]
         formattedWikipage = dataInside["WikiName"].replace(" ", "_")
@@ -95,17 +94,17 @@ async def main():
     for element in unitIdentityQuery["cargoquery"]:
         heroFullName = element['title']['Page']
         scraping_output[heroFullName] = {}
-        newUnitsForQueries.append("\"" + heroFullName + "\"")
+        new_units_for_queries.append("\"" + heroFullName + "\"")
 
     unitStatsPayload = {
         "tables": "UnitStats",
         "fields": "_pageName=Page, Lv1HP5, HPGR3, Lv1Atk5, AtkGR3, Lv1Spd5, SpdGR3, Lv1Def5, DefGR3, Lv1Res5, ResGR3",
-        "where": f"_pageName in ({', '.join(newUnitsForQueries)})"
+        "where": f"_pageName in ({', '.join(new_units_for_queries)})"
     }
     
     unitStatsQuery = await client.call_get_api("cargoquery", **unitStatsPayload)
 
-    for newUnit in newUnitsForQueries:
+    for newUnit in new_units_for_queries:
         version = await get_unit_release_update(client, newUnit)
         del json[newUnit]["release"]
         json[newUnit]["version"] = version
@@ -140,12 +139,15 @@ async def main():
     supertraits = is_superboon_or_superbane(growthRates)
     scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **supertraits}        
     
-    skills = await get_unit_skills(client, newUnitsForQueries)
+    skills = await get_unit_skills(client, new_units_for_queries)
 
-    scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **skills, **unitProperties}        
+    scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **skills, **unitProperties}
+
     with open("marker.json", "w") as markerFile:
+        today = datetime.now().timestamp()
         json.dump({ "lastSuccessfulRun": today }, markerFile)
 
     return scraping_output
+
 if __name__ == "__main__":
     asyncio.run(main())

@@ -63,3 +63,15 @@ async def get_unit_release_update(client, unit):
 async def get_unit_stats(client, units) {
     
 }
+
+async def get_new_units(client, date) {
+    unitIdentityPayload = {
+        "tables": "Units",
+        "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, TagID, Properties, _ID=ID",
+        "where": "ReleaseDate > " + date + " and WikiName not like \"%ENEMY\"",
+        "order_by": "ReleaseDate DESC",
+    }
+
+    unitIdentityQuery = await client.call_get_api("cargoquery", **unitIdentityPayload)
+    return unitIdentityQuery["cargoquery"]
+}
