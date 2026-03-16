@@ -92,10 +92,12 @@ async def main():
 
         unitProperties = {**unitProperties, **specialUnitProperties }
 
-    for element in unitIdentityQuery["cargoquery"]:
-        heroFullName = element['title']['Page']
+        heroFullName = entry['title']['Page']
         scraping_output[heroFullName] = {}
         new_units_for_queries.append("\"" + heroFullName + "\"")
+
+        skills = await get_unit_skills(client, heroFullName)
+        scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **skills, **unitProperties}
 
     unitStatsPayload = {
         "tables": "UnitStats",
@@ -130,19 +132,15 @@ async def main():
             }
         }
 
-    growthRates = {
-        "hp": int(innerData["HPGR3"]),
-        "atk": int(innerData["AtkGR3"]),
-        "spd": int(innerData["SpdGR3"]),
-        "def": int(innerData["DefGR3"]),
-        "res": int(innerData["ResGR3"])
-    }
-    supertraits = is_superboon_or_superbane(growthRates)
-    scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **supertraits}        
-    
-    skills = await get_unit_skills(client, new_units_for_queries)
-
-    scraping_output[dataInside["Page"]] = {**scraping_output[dataInside["Page"]], **skills, **unitProperties}
+        growthRates = {
+            "hp": int(innerData["HPGR3"]),
+            "atk": int(innerData["AtkGR3"]),
+            "spd": int(innerData["SpdGR3"]),
+            "def": int(innerData["DefGR3"]),
+            "res": int(innerData["ResGR3"])
+        }
+        supertraits = is_superboon_or_superbane(growthRates)
+        scraping_output[innerData["Page"]] = {**scraping_output[innerData["Page"]], **supertraits}
 
     with open("marker.json", "w") as markerFile:
         today = datetime.now().timestamp()
