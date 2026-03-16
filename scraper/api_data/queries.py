@@ -60,11 +60,11 @@ async def get_unit_release_update(client, unit):
     version = versionQuery["cargoquery"][0]["title"]["Version"]
     return version
 
-async def get_unit_stats(client, units) {
-    
-}
+async def get_unit_stats(client, units):
+    pass
 
-async def get_new_units(client, date) {
+
+async def get_new_units(client, date):
     unitIdentityPayload = {
         "tables": "Units",
         "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, TagID, Properties, _ID=ID",
@@ -74,4 +74,3 @@ async def get_new_units(client, date) {
 
     unitIdentityQuery = await client.call_get_api("cargoquery", **unitIdentityPayload)
     return unitIdentityQuery["cargoquery"]
-}

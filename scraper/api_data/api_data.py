@@ -69,6 +69,7 @@ async def main():
             "duo": False,
             "duel": False,
             "aided": False,
+            "type": ""
         }
 
         page = dataInside["Page"]
@@ -86,7 +87,7 @@ async def main():
             specialUnitProperties["type"] = "aided"
         elif "chosen" in dbProperties:
             specialUnitProperties["type"] = "chosen"
-        elif "entwined" in dbProperties
+        elif "entwined" in dbProperties:
             specialUnitProperties["type"] = "entwined"
 
         unitProperties = {**unitProperties, **specialUnitProperties }
