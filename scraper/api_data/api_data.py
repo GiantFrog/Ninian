@@ -19,11 +19,12 @@ async def main():
     await client.login()
     scraping_output = {}
 
-    last_successful_run = 0
-
-    with open("marker.json", "r") as markerFile:
-        marker_data = json.load(markerFile)
-        last_successful_run = marker_data.get("lastSuccessfulRun", 0)
+    try:
+        with open("marker.json", "r") as markerFile:
+            marker_data = json.load(markerFile)
+            last_successful_run = marker_data.get("lastSuccessfulRun", 0)
+    except:
+        last_successful_run = 0
 
     unit_data = await get_new_units(client, last_successful_run)
 
@@ -39,10 +40,8 @@ async def main():
         unitProperties["description"] = dataInside["Description"]
         unitProperties["move"] = dataInside["MoveType"]
         unitProperties["artist"] = dataInside["Artist"]
-        color, weapon = dataInside["WeaponType"].split(" ")
-        unitProperties["color"] = color
+        unitProperties["color"], unitProperties["weapon"] = dataInside["WeaponType"].split(" ")
         unitProperties["id"] = dataInside["ID"]
-        unitProperties["weapon"] = weapon
         unitProperties["voice"] = dataInside["ActorEN"]
         unitProperties["internal_id"] = dataInside["TagID"]
         unitProperties["resplendent"] = False
@@ -57,8 +56,8 @@ async def main():
         unitProperties["release"] = dataInside["ReleaseDate"]
         unitProperties["origin"] = " + ".join(convert_game_title(title) for title in dataInside["Origin"].split(","))
         if len(dataInside["Gender"]) != 1:
+            # database data is either Female, Male or N, but we only store the first letter
             unitProperties["gender"] = dataInside["Gender"][0]
-            # database data is either Female, Male or N
         else:
             unitProperties["gender"] = ""
 

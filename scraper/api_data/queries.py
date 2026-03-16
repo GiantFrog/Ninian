@@ -1,8 +1,8 @@
-async def get_unit_skills(client, units):
+async def get_unit_skills(client, unit):
     unitSkillsPayload = {
         "tables": "UnitSkills, Skills",
         "fields": "UnitSkills._pageName=UnitPage, Skills.Name=SkillName, skillPos, unlockRarity, Scategory, Description",
-        "where": f"UnitSkills._pageName in ({', '.join(units)})",
+        "where": f"UnitSkills._pageName = '{unit}'",
         "join_on": "Skills.WikiName = UnitSkills.skill",
         "order_by": "Scategory DESC, defaultRarity ASC",
     }
@@ -28,21 +28,16 @@ async def get_unit_skills(client, units):
         match content["Scategory"]:
             case "passivea":
                 output[unit]["passive"]["A"][content["SkillName"]] = content["unlockRarity"]
-                break
             case "passiveb":
                 output[unit]["passive"]["B"][content["SkillName"]] = content["unlockRarity"]
-                break
             case "passivec":
                 output[unit]["passive"]["C"][content["SkillName"]] = content["unlockRarity"]
-                break
             case "passivex":
                 output[unit]["passive"]["X"][content["SkillName"]] = content["unlockRarity"]
             case "weapon":
                 output[unit]["weapons"][content["SkillName"]] = content["unlockRarity"]
-                break
             case "assist":
                 output[unit]["assist"][content["SkillName"]] = content["unlockRarity"]
-                break
             case "special":
                 output[unit]["special"][content["SkillName"]] = content["unlockRarity"]
     
@@ -68,7 +63,7 @@ async def get_new_units(client, date):
     unitIdentityPayload = {
         "tables": "Units",
         "fields": "_pageName=Page, Name, WikiName, Title, WeaponType, Description, Gender, MoveType, Origin, Gender, Artist, ActorEN, ActorJP, ReleaseDate, TagID, Properties, _ID=ID",
-        "where": "ReleaseDate > " + date + " and WikiName not like \"%ENEMY\"",
+        "where": f"ReleaseDate > {date} and WikiName not like \"%ENEMY\"",
         "order_by": "ReleaseDate DESC",
     }
 
