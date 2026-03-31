@@ -6,7 +6,7 @@ import json
 import sys
 from datetime import datetime
 from special_heroes import get_harmonized, get_emblem, get_legendary, get_duo
-from utils import is_superboon_or_superbane, convert_game_title
+from utils import is_superboon_or_superbane, convert_game_title, image_asset_url
 from queries import get_unit_skills, get_unit_release_update, get_new_units
 # prevent "runtime error" errors
 if sys.platform.startswith("win"):
@@ -48,10 +48,10 @@ async def main():
         unitProperties["resplendent"] = False
         unitProperties["resplendent_voice"] = False
         unitProperties["images"] = {
-            "portrait": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_Face.webp",
-            "attack": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_BtlFace.webp",
-            "special": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_BtlFace_C.webp",
-            "damage": "https://feheroes.fandom.com/Special:Filepath/" + formattedWikipage + "_BtlFace_D.webp",
+            "portrait": image_asset_url(f"{formattedWikipage}_Face.webp"),
+            "attack": image_asset_url(f"{formattedWikipage}_BtlFace.webp"),
+            "special": image_asset_url(f"{formattedWikipage}_BtlFace_C.webp"),
+            "damage": image_asset_url(f"{formattedWikipage}_BtlFace_D.webp"),
         }
         unitProperties["resplendent_images"] = False
         unitProperties["release"] = dataInside["ReleaseDate"]

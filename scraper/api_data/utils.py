@@ -1,3 +1,5 @@
+import hashlib
+
 def is_superboon_or_superbane(growthRates):
     superboons = []
     superbanes = []
@@ -24,3 +26,12 @@ def convert_game_title(title):
             return "Three Houses"
         case _:
             return title.replace("Fire Emblem", "").replace(":", "").strip()
+
+
+def image_asset_url(image_name):
+    hash = hashlib.md5(image_name.encode())
+    image_hash = hash.hexdigest()
+    first_folder = image_hash[0]
+    second_folder = image_hash[0:2]
+
+    return f"https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/{first_folder}/{second_folder}/{image_name}"
