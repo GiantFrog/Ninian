@@ -2,7 +2,7 @@ replace_blank = ['(', ' ', ')', "'", '"', '-', '~', '_', '.', '&', '?', '!', '%'
 replace_char = {'%27': '', '%C3%A1': 'a', '%C3%AD': 'i', '%C3%BA': 'u', '%C3%A7': 'c', '%22': '', '%C3%A9': 'e', 'é': 'e', 'ð': 'd', 'á': 'a', 'ö': 'o',
 'ý': 'y', 'þ': 'p', 'ú': 'u', 'ó': 'o', 'í': 'i', 'ø': 'o', 'æ': 'ae', 'Þ': 'p', 'ò': 'o', 'ù': 'u', 'ñ': 'n', 'ä': 'a'}
 
-def search_text(text, ignore_plus = False, ignore_space = False, blank = '') -> str:
+def standardize_text(text, ignore_plus = False, ignore_space = False, blank ='') -> str:
     text = text.lower()
     
     plus = ""

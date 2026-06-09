@@ -1,4 +1,5 @@
 import hashlib
+import re
 
 def is_superboon_or_superbane(growthRates):
     superboons = []
@@ -7,7 +8,7 @@ def is_superboon_or_superbane(growthRates):
         growthRate = growthRates[stat]
         match growthRate:
             case 30 | 50 | 75 | 95:
-                return superbanes.append(stat)
+                superbanes.append(stat)
             case 25 | 45 | 70 | 90:
                 superboons.append(stat)
     result = {
@@ -35,3 +36,7 @@ def image_asset_url(image_name):
     second_folder = image_hash[0:2]
 
     return f"https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/{first_folder}/{second_folder}/{image_name}"
+
+def is_japanese(text):
+    japanese_pattern = re.compile(r'[\u3040-\u30FF\u4E00-\u9FFF]')
+    return bool(japanese_pattern.search(text))
