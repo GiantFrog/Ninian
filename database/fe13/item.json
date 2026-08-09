@@ -4263,8 +4263,9 @@
         "equip": {
             "stats": {
                 "str": 8,
-                "skl": 5,
-                "spd": 3,
+                "mag": 5,
+                "skl": 3,
+                "spd": 2,
                 "def": 10,
                 "res": 7
             }
