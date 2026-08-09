@@ -5,7 +5,7 @@ import oifey.util as util
 
 embed_color = 0xe364d0
 
-search_text = util.text.search_text
+search_text = util.text.standardize_text
 
 character_min = 3
 character_max = 30
