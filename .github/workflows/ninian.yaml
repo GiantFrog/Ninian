@@ -50,7 +50,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: .
-          push: true
+          push: false
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
   deploy:
@@ -58,6 +58,13 @@ jobs:
     runs-on: self-hosted
     needs: [stop, build]
     steps:
+      - name: Load environmental variables.
+        run: |
+          direnv allow .
+          direnv export gha > "$GITHUB_ENV"
+        working-directory: ${{ needs.stop.outputs.compose_dir }}
       - name: Send it!!
         run: docker compose up -d
         working-directory: ${{ needs.stop.outputs.compose_dir }}
+      - name: Push the image to the registry for safekeeping.
+        run: docker push registry.froginata.com/ninian:${IMAGE_TAG}
