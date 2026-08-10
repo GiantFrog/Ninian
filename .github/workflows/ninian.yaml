@@ -25,14 +25,14 @@ jobs:
           labels: |
             org.opencontainers.image.created={{commit_date 'YYYY-MM-DDTHH:mm:ss.SSS[Z]'}}
       - name: Let Ninian rest.
-        if: ${{ is_default_branch }}
+        if: github.ref == github.event.repository.default_branch
         run: |
           docker compose down
           docker rmi registry.froginata.com/ninian:latest
           echo "compose_dir=/opt/veyle/ninian" >> "$GITHUB_ENV"
         working-directory: /opt/veyle/ninian
       - name: Untag the old dev image.
-        if: ${{ !is_default_branch }}
+        if: github.ref != github.event.repository.default_branch
         run: |
           docker compose down
           docker rmi registry.froginata.com/ninian:dev
