@@ -99,4 +99,5 @@ jobs:
           color: 0x008000
           url: "https://github.com/sarisia/actions-status-discord"
       - name: Push the image to the registry for safekeeping.
+        if: github.ref_name == github.event.repository.default_branch
         run: docker push registry.froginata.com/ninian:${IMAGE_TAG}
