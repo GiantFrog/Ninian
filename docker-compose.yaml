@@ -5,5 +5,3 @@ services:
     environment:
       OWNER_ID: ${OWNER_ID}
       TOKEN: ${TOKEN}
-    labels:
-      - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
