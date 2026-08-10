@@ -7,15 +7,3 @@ services:
       TOKEN: ${TOKEN}
     labels:
       - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
-  watchtower:
-    image: containrrr/watchtower
-    restart: unless-stopped
-    command: --interval 30 --scope ninian-${IMAGE_TAG}
-    environment:
-      WATCHTOWER_NOTIFICATION_REPORT: ${NOTIFICATION_URL:+true}
-      WATCHTOWER_NOTIFICATION_URL: ${NOTIFICATION_URL}
-    labels:
-      - "com.centurylinklabs.watchtower.scope=ninian-${IMAGE_TAG}"
-      - "com.centurylinklabs.watchtower.enable=false"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock

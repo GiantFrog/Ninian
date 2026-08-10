@@ -14,20 +14,37 @@ jobs:
       - name: Check out the new code.
         uses: actions/checkout@v4
       - name: Gather metadata.
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         id: meta
         with:
           images: registry.froginata.com/ninian
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=raw,value={{date 'YYYY-MM-DD_HHmm'}},enable={{is_default_branch}}
-            type=raw,value=dev
+            type=raw,value=dev,disable={{is_default_branch}}
           labels: |
             org.opencontainers.image.created={{commit_date 'YYYY-MM-DDTHH:mm:ss.SSS[Z]'}}
+      - name: Let Ninian rest.
+        if: ${{ is_default_branch }}
+        run: |
+          docker compose down
+          docker rmi registry.froginata.com/ninian:latest
+          echo "compose_dir=/opt/veyle/ninian" >> "$GITHUB_ENV"
+        working-directory: /opt/veyle/ninian
+      - name: Untag the old dev image.
+        if: ${{ !is_default_branch }}
+        run: |
+          docker compose down
+          docker rmi registry.froginata.com/ninian:dev
+          echo "compose_dir=/opt/veyle/nils" >> "$GITHUB_ENV"
+        working-directory: /opt/veyle/nils
       - name: Build & push the image!
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+      - name: Start it back up!
+        run: docker compose up -d
+        working-directory: ${{ compose_dir }}
