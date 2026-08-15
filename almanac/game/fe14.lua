@@ -362,7 +362,7 @@ function Character:setup()
         self.id == 'princemarthdlc' or
     (self:has_parents() and
     (self.mother.id == self.aptitude_id or self.father.id == self.aptitude_id)) then
-        self.aptitude = not(self.aptitude)
+        self.aptitude == (self.aptitude)
     end
     
     -- Gender
@@ -1097,7 +1097,7 @@ function Character:get_variable_parent()
 
     if self.id == self.avatar_child then 
      
-        if self.mother.id == 'corrin' then
+        if self.mother.id == 'corrin' or == 'azura' then
            
             return self.father
         elseif self.father.id == 'corrin' then
