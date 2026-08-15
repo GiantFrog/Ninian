@@ -362,7 +362,7 @@ function Character:setup()
         self.id == 'princemarthdlc' or
     (self:has_parents() and
     (self.mother.id == self.aptitude_id or self.father.id == self.aptitude_id)) then
-        self.aptitude == (self.aptitude)
+        self.aptitude == self.aptitude
     end
     
     -- Gender
