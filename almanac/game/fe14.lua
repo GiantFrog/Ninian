@@ -1112,6 +1112,11 @@ function Character:get_variable_parent()
     else    
         return self.father
     end
+
+    if self.mother.id =='azura' then
+        
+        return self.father
+    end
 end
 
 function Character:get_fixed_parent()
