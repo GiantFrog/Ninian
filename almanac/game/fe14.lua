@@ -1097,7 +1097,7 @@ function Character:get_variable_parent()
 
     if self.id == self.avatar_child then 
      
-        if self.mother.id == 'corrin' or == 'azura' then
+        if self.mother.id == 'corrin' then
            
             return self.father
         elseif self.father.id == 'corrin' then
@@ -1110,6 +1110,11 @@ function Character:get_variable_parent()
     if self.data.father then      
         return self.mother
     else    
+        return self.father
+    end
+
+    if self.mother.id =='azura' then
+        
         return self.father
     end
 end
