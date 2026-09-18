@@ -1,0 +1,126 @@
+{
+    "fe18": {
+        "name": "Fortune's Weave",
+        "default": "unit",
+        "alias": [
+            "FW",
+            "weave",
+            "fortune",
+            "fe18"
+        ],
+        "random": {
+            "pool": "database/fe18/char.json",
+            "add": [
+                "fodlan"
+            ]
+        },
+        "color": "0x893cb5",
+        "data": {
+            "unit": {
+                "main": "database/fe18/char.json",
+                "exclamation": "class",
+                "add": [
+                    "class",
+                    "weapon"
+                ],
+                "level": {
+                    "lvl": 99,
+                    "size": 20
+                },
+                "multiple": {
+                    "class": 20
+                },
+                "entry": {
+                    "class": "database/fe18/job.json",
+                    "weapon": "database/fe18/item.json"
+                },
+                "bool": {
+                    "personal": []
+                },
+                "int": {
+                    "chapter": [
+                        1,
+                        22
+                    ]
+                },
+                "choice": {
+                    "difficulty": {
+                        "Hard": "hard",
+                        "Normal": "normal"
+                    }
+                },
+                "custom_help": {
+                    "Averages": "text/game/averages/fe18.txt"
+                },
+                "classic_hidden": [
+                    "level"
+                ],
+                "lua": [
+                    "fe18",
+                    "Character"
+                ],
+                "comma": {
+                    "name": "compare",
+                    "size": 4
+                },
+                "stats": {
+                    "modifiers": [
+                        "hp",
+                        "str",
+                        "mag",
+                        "dex",
+                        "spd",
+                        "lck",
+                        "def",
+                        "res",
+                        "atk",
+                        "as",
+                        "hit",
+                        "crit"
+                    ]
+                },
+                "prefix": {
+                    "modifiers": "$"
+                }
+            },
+            "class": {
+                "main": "database/fe18/job.json",
+                "lua": [
+                    "fe18",
+                    "Job"
+                ]
+            },
+            "item": {
+                "main": "database/fe18/item.json",
+                "lua": [
+                    "fe18",
+                    "Item"
+                ]
+            },
+            "skill": {
+                "main": "database/fe18/skill.json",
+                "alias": [
+                    "ability"
+                ],
+                "lua": [
+                    "fe18",
+                    "Skill"
+                ]
+            },
+            "bat": {
+                "main": "database/fe18/bat.json",
+                "lua": [
+                    "fe18",
+                    "Bat"
+                ]
+            },
+            "rank": {
+                "main": "database/fe18/rank.json",
+                "lua": [
+                    "fe18",
+                    "Rank"
+                ]
+            }
+        }
+    }
+}
