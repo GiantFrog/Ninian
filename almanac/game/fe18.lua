@@ -21,7 +21,7 @@ local rank_exp = {
     ["S+"] = 3600
 }
 
-local pack = util.emoji.get("database/fe16/emoji.json")
+local pack = util.emoji.get("database/fe18/emoji.json")
 
 local Character = {}
 local Job = {}
@@ -71,11 +71,11 @@ inventory:item_calc("crit", inventory_crit)
 Character.__index = Character
 setmetatable(Character, workspaces.Character)
 
-Character.section = almanac.get("database/fe16/char.json")
+Character.section = almanac.get("database/fe18/char.json")
 
 Character.helper_job_growth = true
 
-Character.helper_portrait = "database/fe16/images"
+Character.helper_portrait = "database/fe18/images"
 Character.helper_job_reset = false
 
 Character.average_rise_stat = true
@@ -90,7 +90,7 @@ Character.item_warning = true
 function Character:default_options()
     return {
         chapter = self.data.chapter,
-        difficulty = "maddening",
+        difficulty = "hard",
         class = false
     }
 end
@@ -173,7 +173,7 @@ function Character:show_learn()
     local function dothing(rank, rank_value, skill)
         local skill = Skill:new(skill)
         
-        local rank_emoji = pack:get("fe16_" .. rank)
+        local rank_emoji = pack:get("fe18_" .. rank)
         rank = util.title(rank)
         rank_value = util.text.rank_letter(rank_exp, rank_value, false)
         
@@ -200,7 +200,7 @@ function Character:show_learn()
     if self.data.buddy_rank then
         local rank = self.data.buddy_rank
         
-        local rank_emoji = pack:get("fe16_" .. rank)
+        local rank_emoji = pack:get("fe18_" .. rank)
         
         local skill = Skill:new(self.data.buddy_skill)
         
@@ -216,7 +216,7 @@ function Character:show_spell()
     local function dothing(rank, rank_value, item)
         local item = Item:new(item)
         
-        local rank_emoji = pack:get("fe16_" .. rank)
+        local rank_emoji = pack:get("fe18_" .. rank)
         rank = util.title(rank)
         rank_value = util.text.rank_letter(rank_exp, rank_value, false)
         
@@ -490,7 +490,7 @@ function Character:show_rank()
             return r
             
         else
-            return ({fe16_strong="🟦", fe16_weak="🟥"})[s]
+            return ({fe18_strong="🟦", fe18_weak="🟥"})[s]
             
         end
     end
@@ -498,14 +498,14 @@ function Character:show_rank()
     local text = ""
     
     for key, value in pairs(rank) do
-        local add = pack:get("fe16_" .. key, string.format("**%s**: ", util.title(key)))
+        local add = pack:get("fe18_" .. key, string.format("**%s**: ", util.title(key)))
         .. util.text.rank_letter(rank_exp, value)
         
         if growth[key] == "strong" then
-            add = growth_emoji("fe16_strong") .. add
+            add = growth_emoji("fe18_strong") .. add
             
         elseif growth[key] == "weak" then
-            add = growth_emoji("fe16_weak") .. add
+            add = growth_emoji("fe18_weak") .. add
         end
         
         text = text .. add .. "\n"
@@ -514,10 +514,10 @@ function Character:show_rank()
     -- add growths later if they don't have any rank
     for key, value in pairs(growth) do
         if rank[key] == nil then
-            local add = pack:get("fe16_" .. key, string.format("**%s**: ", util.title(key)))
+            local add = pack:get("fe18_" .. key, string.format("**%s**: ", util.title(key)))
             .. util.text.rank_letter(rank_exp, 0)
             
-            add = growth_emoji("fe16_" .. value) .. add
+            add = growth_emoji("fe18_" .. value) .. add
             
             text = text .. add .. "\n"
         end
@@ -599,7 +599,7 @@ end
 Job.__index = Job
 setmetatable(Job, workspaces.Job)
 
-Job.section = almanac.get("database/fe16/job.json")
+Job.section = almanac.get("database/fe18/job.json")
 
 function Job:show()
     local infobox = almanac.Infobox:new({title = self.data.name})
@@ -640,7 +640,7 @@ function Job:show()
     
     for key, value in pairs(self.data.rank) do
         rank = rank .. string.format("%s%s +%s\n",
-        pack:get("fe16_" .. key), util.title(key), value)
+        pack:get("fe18_" .. key), util.title(key), value)
     end
     
     infobox:insert("Rank Bonus", rank, true)
@@ -651,7 +651,7 @@ function Job:show()
         
         for key, value in pairs(self.data.exam) do
             exam = exam .. string.format("%s%s %s\n",
-            pack:get("fe16_" .. key), util.title(key), util.text.rank_letter(rank_exp, value, false))
+            pack:get("fe18_" .. key), util.title(key), util.text.rank_letter(rank_exp, value, false))
         end
         
         infobox:insert("Exam Requirements", exam, true)
@@ -702,7 +702,7 @@ end
 Item.__index = Item
 setmetatable(Item, workspaces.Item)
 
-Item.section = almanac.get("database/fe16/item.json")
+Item.section = almanac.get("database/fe18/item.json")
 
 function Item:get_emoji()
     return pack:get("rank_" .. self.data.type, "")
@@ -714,7 +714,7 @@ end
 Skill.__index = Skill
 setmetatable(Skill, workspaces.Skill)
 
-Skill.section = almanac.get("database/fe16/skill.json")
+Skill.section = almanac.get("database/fe18/skill.json")
 
 function Skill:get_name()
     local name = self.data.name
@@ -730,7 +730,7 @@ function Skill:get_name()
 end
 
 function Skill:get_icon()
-    return string.format("database/fe16/images/skill/fe16_%s.png", self.data.icon)
+    return string.format("database/fe18/images/skill/fe18_%s.png", self.data.icon)
 end
 
 function Skill:get_emoji()
@@ -739,7 +739,7 @@ function Skill:get_emoji()
         return pack:get("art_" .. self.data.rank)
         
     else
-        return pack:get("fe16_" .. tostring(self.data.icon))
+        return pack:get("fe18_" .. tostring(self.data.icon))
     end
 end
 
@@ -749,7 +749,7 @@ end
 Rank.__index = Rank
 setmetatable(Rank, almanac.Workspace)
 
-Rank.section = almanac.get("database/fe16/rank.json")
+Rank.section = almanac.get("database/fe18/rank.json")
 
 function Rank:show()
     local infobox = Infobox:new({title = self.data.name})
@@ -816,7 +816,7 @@ end
 Bat.__index = Bat
 setmetatable(Bat, almanac.Workspace)
 
-Bat.section = almanac.get("database/fe16/bat.json")
+Bat.section = almanac.get("database/fe18/bat.json")
 
 local bat_order = {"phys", "mag", "hit", "crit", "avo", "prot", "res", "cha"}
 
@@ -824,7 +824,7 @@ function Bat:show()
     local infobox = Infobox:new({title = self.data.name})
     
     local desc = string.format("%sAuthority %s\nGambit: %s\nEndurance: %s",
-    pack:get("fe16_authority"), self.data.authority,
+    pack:get("fe18_authority"), self.data.authority,
     self.data.gambit,
     self.data.endurance)
     
