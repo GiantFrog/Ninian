@@ -1,49 +1,49 @@
 lords = [
-'Alfonse',
-'Veronica',
-'Marth',
-'Caeda',
-'Kris',
-'Alm',
-'Celica',
-'Sigurd',
-'Deirdre',
-'Seliph',
-'Julia',
-'Leif',
-'Nanna',
-'Roy',
-'Lilina',
-'Eliwood',
-'Lyn',
-'Hector',
-'Ninian',
-'Eirika',
-'Ephraim',
-'Ike',
-'Elincia',
-'Micaiah',
-'Sothe',
-'Chrom',
-'Lucina',
-'Robin',
-'Corrin',
-'Azura',
-'Ryoma',
-'Xander',
-'Byleth',
-'Edelgard',
-'Dimitri',
-'Claude',
-'Yuri',
-'Shez',
-'Alear',
-'Alfred',
-'Ivy',
-'Diamant',
-'Timerra',
-'Itsuki',
-'Tsubasa'
+    'Alfonse',
+    'Veronica',
+    'Marth',
+    'Caeda',
+    'Kris',
+    'Alm',
+    'Celica',
+    'Sigurd',
+    'Deirdre',
+    'Seliph',
+    'Julia',
+    'Leif',
+    'Nanna',
+    'Roy',
+    'Lilina',
+    'Eliwood',
+    'Lyn',
+    'Hector',
+    'Ninian',
+    'Eirika',
+    'Ephraim',
+    'Ike',
+    'Elincia',
+    'Micaiah',
+    'Sothe',
+    'Chrom',
+    'Lucina',
+    'Robin',
+    'Corrin',
+    'Azura',
+    'Ryoma',
+    'Xander',
+    'Byleth',
+    'Edelgard',
+    'Dimitri',
+    'Claude',
+    'Yuri',
+    'Shez',
+    'Alear',
+    'Alfred',
+    'Ivy',
+    'Diamant',
+    'Timerra',
+    'Itsuki',
+    'Tsubasa'
 ]
 
 entrymap = {
@@ -59,17 +59,10 @@ entrymap = {
         "pool": "archanea",
         "chibi": "archanea"
     },
-
     "Shadow Dragon / (New) Mystery": {
         "pool": "archanea",
         "chibi": "archanea"
     },
-
-    "Shadow Dragon": {
-        "pool": "archanea",
-        "chibi": "archanea"
-    },
-
     "Shadows of Valentia": {
         "pool": "valentia",
         "chibi": "fe15"
@@ -102,7 +95,6 @@ entrymap = {
         "pool": "tellius",
         "chibi": "fe9"
     },
-
     "Radiant Dawn": {
         "pool": "tellius",
         "chibi": "fe10"
@@ -119,22 +111,18 @@ entrymap = {
         "pool": "fodlan",
         "chibi": "fodlan"
     },
-
     "Three Hopes": {
         "pool": "fodlan",
         "chibi": "fodlan"
     },
-
     "Engage": {
         "pool": "elyos",
         "chibi": "fe17"
     },
-
     "Tokyo Mirage Sessions": {
         "pool": "tokyo",
         "chibi": "tms"
     },
-
     '': {
         "pool": "",
         "chibi": ""
@@ -171,28 +159,27 @@ wepmap = {
 restrictions = {
     "Red Sword": "Red_Sword",
     "Red Dagger": "Red_Dagger",
-    "Red bow": "Red_Bow",
+    "Red Bow": "Red_Bow",
     "Red Tome": "Red_Tome",
     "Red Breath": "Red_Breath",
     "Red Beast": "Red_Beast",
     "Blue Lance": "Blue_Lance",
     "Blue Dagger": "Blue_Dagger",
-    "Blue bow": "Blue_Bow",
+    "Blue Bow": "Blue_Bow",
     "Blue Tome": "Blue_Tome",
     "Blue Breath": "Blue_Breath",
     "Blue Beast": "Blue_Beast",
     "Green Axe": "Green_Axe",
     "Green Dagger": "Green_Dagger",
-    "Green bow": "Green_Bow",
+    "Green Bow": "Green_Bow",
     "Green Tome": "Green_Tome",
     "Green Breath": "Green_Breath",
     "Green Beast": "Green_Beast",
     "Colorless Staff": "Colorless_Staff",
     "Staff": "Colorless_Staff",
     "Colorless Dagger": "Colorless_Dagger",
-    "Colorless bow": "Colorless_Bow",
+    "Colorless Bow": "Colorless_Bow",
     "Colorless Tome": "Colorless_Tome",
     "Colorless Breath": "Colorless_Breath",
     "Colorless Beast": "Colorless_Beast",
-    
 }

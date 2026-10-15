@@ -17,7 +17,7 @@ if os.path.exists("oifey/lexicon"):
             file = util.file.json_read(f"{root}/{file_path}")
             
             for key, value in file.items():
-                key = util.text.search_text(key)
+                key = util.text.standardize_text(key)
                 
                 if not key in lexicon:
                     lexicon[key] = []
@@ -41,7 +41,7 @@ class Item:
             
             if value[k]:
                 for i, p in value[k].items():
-                    p = util.text.search_text(p)
+                    p = util.text.standardize_text(p)
                     
                     if not p in result:
                         result.append(p)
@@ -52,7 +52,7 @@ class Item:
         self.hard = table_array("HARD_ALT_NAME")
             
         if use_lexicon:
-            lexicon_key = util.text.search_text(self.name)
+            lexicon_key = util.text.standardize_text(self.name)
             
             if lexicon_key in lexicon:
                 for x in lexicon[lexicon_key]:
@@ -188,7 +188,7 @@ class Pool:
         
         # common function to add hard alt names
         def append_hard(k, v):
-            k = util.text.search_text(k)
+            k = util.text.standardize_text(k)
             
             if k not in self.hard:
                 self.hard[k] = v
@@ -198,7 +198,7 @@ class Pool:
                 return False
         
         def append_alt(k, v):
-            k = util.text.search_text(k)
+            k = util.text.standardize_text(k)
             
             if not value.id in self.alt:
                 self.alt[value.id] = []
@@ -235,7 +235,7 @@ class Pool:
     def search(self, og_text, ctx = None) -> SearchResult:
         # if context exists to get aliases from
         if ctx:
-            text = util.text.search_text(og_text, ignore_space = True)
+            text = util.text.standardize_text(og_text, ignore_space = True)
             
             # organize aliases
             aliases = sql.user.get(ctx.author.id).get("alias") or []
@@ -263,10 +263,10 @@ class Pool:
                     
                     text = text[:regex.start()] + new + text[regex.end():]
             
-            text = util.text.search_text(text)
+            text = util.text.standardize_text(text)
             
         else:
-            text = util.text.search_text(og_text)
+            text = util.text.standardize_text(og_text)
         
         finds = []
         

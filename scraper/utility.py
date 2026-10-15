@@ -26,6 +26,12 @@ def compress(string):
     new_string = new_string.lower()
     return(new_string)
 
+def skill_family_id(skill):
+    return compress(skill).rstrip(string.digits)
+
+def skill_family_name(skill):
+    return skill.replace('+', '').replace('/', ' ').rstrip(string.digits)
+
 def is_brave(unit):
     res = [i for i in unit['ALT_NAME'] if 'Brave' in i]
     if (len(res) > 0):
@@ -37,4 +43,4 @@ def remove_num(arg):
     return arg.rstrip(string.digits)
     
 
-sortById()
+#sortById()
