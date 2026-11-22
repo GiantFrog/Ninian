@@ -42,7 +42,7 @@ oifey.module.get_module_file("oifey/modules/fates.json")
 oifey.module.get_module_file("oifey/modules/holy.json")
 oifey.module.get_module_file("oifey/modules/tellius.json")
 oifey.module.get_module_file("oifey/modules/thracia.json")
-
+oifey.module.get_module_file("oifey/modules/weave.json")
 
 # Shortcuts
 class Shortcut:
@@ -66,7 +66,7 @@ for x in ["art", "quotes", "skill", "artist", "va"]:
 # Random Command
 games = []
 
-for i in range(17):
+for i in range(18):
     number = i + 1
     
     if i == 3: continue
