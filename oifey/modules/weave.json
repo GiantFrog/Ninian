@@ -5,13 +5,12 @@
         "alias": [
             "FW",
             "weave",
-            "fortune",
-            "fe18"
+            "fortune"
         ],
         "random": {
             "pool": "database/fe18/char.json",
             "add": [
-                "fodlan"
+                "dagda"
             ]
         },
         "color": "0x893cb5",
